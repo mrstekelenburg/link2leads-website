@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Link2Leads — B2B Leadgeneratie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+
+:root {
+  --black:   #0A0A0A;
+  --black2:  #111111;
+  --black3:  #181818;
+  --accent:  #2F6FED;
+  --accent2: #5B8FF5;
+  --white:   #FFFFFF;
+  --muted:   #888888;
+  --muted2:  #444444;
+  --border:  rgba(255,255,255,0.08);
+  --card-bg: #161616;
+  --f: 'Inter', sans-serif;
+  --mono: 'DM Mono', monospace;
+}
+
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--f);
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 1.5;
+}
+a { color:inherit; text-decoration:none; }
+
+/* ═══════════ NAV ═══════════ */
+nav {
+  position:fixed; top:0; left:0; right:0; z-index:200;
+  padding: 0 48px;
+  background: rgba(10,10,10,0.93);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+}
+.nav-inner {
+  max-width:1200px; margin:0 auto;
+  display:flex; align-items:center; justify-content:space-between;
+  height:68px;
+}
+.nav-logo { font-size:19px; font-weight:800; letter-spacing:-.5px; }
+.nav-logo .dot { color:var(--accent); }
+.nav-links { display:flex; align-items:center; gap:36px; list-style:none; }
+.nav-links a { font-size:14px; font-weight:500; color:rgba(255,255,255,0.58); transition:color .2s; }
+.nav-links a:hover { color:var(--white); }
+.nav-cta {
+  background:var(--accent); color:#fff;
+  font-size:14px; font-weight:700;
+  padding:10px 22px; border-radius:100px;
+  transition:opacity .2s, transform .15s;
+}
+.nav-cta:hover { opacity:.9; transform:translateY(-1px); }
+
+/* ═══════════ HERO ═══════════ */
+.hero-wrap { max-width:1200px; margin:0 auto; padding:0 48px; }
+.hero {
+  min-height:100vh;
+  padding-top:156px;
+  display:grid;
+  grid-template-columns:1.1fr 0.9fr;
+  gap:80px;
+  align-items:center;
+}
+
+.hero-badge {
+  display:inline-flex; align-items:center; gap:8px;
+  background:var(--black3);
+  border:1px solid rgba(255,255,255,0.11);
+  padding:8px 16px; border-radius:100px;
+  font-size:12px; font-weight:600;
+  color:rgba(255,255,255,0.65); letter-spacing:.5px;
+  margin-bottom:28px;
+}
+.hero-badge-dot {
+  width:7px; height:7px; border-radius:50%;
+  background:var(--accent);
+  box-shadow:0 0 8px var(--accent);
+  animation:pulse-dot 2s ease infinite;
+}
+@keyframes pulse-dot {
+  0%,100% { box-shadow:0 0 6px var(--accent); }
+  50%      { box-shadow:0 0 16px var(--accent2); }
+}
+
+.hero-h {
+  font-size:clamp(42px,5vw,74px);
+  font-weight:900;
+  line-height:1.0;
+  letter-spacing:-2.5px;
+  margin-bottom:12px;
+}
+.hero-h .blue { color:var(--accent); }
+
+.hero-guaranteed {
+  display:inline-flex; align-items:center; gap:8px;
+  background:rgba(47,111,237,0.09);
+  border:1px solid rgba(47,111,237,0.26);
+  padding:10px 18px; border-radius:8px;
+  font-size:13px; font-weight:600; color:var(--accent2);
+  margin:20px 0 32px; font-family:var(--mono);
+}
+
+.hero-sub {
+  font-size:17px; color:rgba(255,255,255,0.53);
+  line-height:1.7; max-width:480px; margin-bottom:36px;
+}
+
+.hero-btns { display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin-bottom:44px; }
+
+.btn-solid {
+  display:inline-flex; align-items:center; gap:8px;
+  background:var(--accent); color:#fff;
+  font-size:15px; font-weight:700;
+  padding:15px 28px; border-radius:100px;
+  transition:opacity .2s, transform .2s;
+  box-shadow:0 8px 28px rgba(47,111,237,0.32);
+}
+.btn-solid:hover { opacity:.9; transform:translateY(-2px); }
+
+.btn-outline {
+  display:inline-flex; align-items:center; gap:8px;
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.11);
+  color:rgba(255,255,255,0.72);
+  font-size:15px; font-weight:600;
+  padding:15px 28px; border-radius:100px;
+  transition:all .2s;
+}
+.btn-outline:hover { border-color:rgba(255,255,255,0.28); color:#fff; }
+
+/* hero checkmarks list */
+.hero-checks {
+  list-style:none;
+  display:flex; flex-direction:column; gap:12px;
+}
+.hero-checks li {
+  display:flex; align-items:center; gap:10px;
+  font-size:15px; color:rgba(255,255,255,0.7);
+}
+.hero-checks li::before {
+  content:'✓';
+  display:flex; align-items:center; justify-content:center;
+  width:22px; height:22px; border-radius:50%;
+  background:rgba(47,111,237,0.15);
+  border:1px solid rgba(47,111,237,0.3);
+  color:var(--accent2);
+  font-size:12px; font-weight:700; flex-shrink:0;
+}
+
+/* hero right — visual block */
+.hero-right {
+  display:flex; flex-direction:column; gap:14px;
+  padding-bottom:40px;
+}
+.hero-visual-card {
+  background:var(--card-bg);
+  border:1px solid rgba(255,255,255,0.07);
+  border-radius:16px; padding:24px 28px;
+  position:relative; overflow:hidden;
+}
+.hero-visual-card::before {
+  content:'';
+  position:absolute; top:0; left:0; right:0; height:1px;
+  background:linear-gradient(90deg,transparent,var(--accent),transparent);
+  opacity:.45;
+}
+.hvc-label {
+  font-family:var(--mono); font-size:10px;
+  letter-spacing:2px; text-transform:uppercase;
+  color:var(--muted); margin-bottom:14px;
+  padding-bottom:10px; border-bottom:1px solid var(--border);
+}
+.hvc-row {
+  display:flex; justify-content:space-between; align-items:center;
+  padding:10px 0; border-bottom:1px solid var(--border);
+  font-size:13px;
+}
+.hvc-row:last-child { border-bottom:none; }
+.hvc-row-label { color:var(--muted); }
+.hvc-row-val { font-weight:700; color:var(--white); font-family:var(--mono); }
+.hvc-row-val.blue { color:var(--accent); }
+.hvc-row-val.green { color:#4ade80; }
+
+.hero-guarantee-mini {
+  background:rgba(47,111,237,0.07);
+  border:1px solid rgba(47,111,237,0.2);
+  border-radius:12px; padding:16px 20px;
+  font-size:13px; color:var(--accent2);
+  font-family:var(--mono); line-height:1.5;
+}
+
+/* horizon glow */
+.horizon-glow {
+  width:100%; height:220px;
+  background:radial-gradient(ellipse 70% 100% at 50% 100%,
+    rgba(47,111,237,0.28) 0%, rgba(47,111,237,0.06) 50%, transparent 100%);
+  pointer-events:none; margin-top:-40px;
+}
+
+/* ═══════════ MARQUEE ═══════════ */
+.marquee-section {
+  padding:44px 0 18px;
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  overflow:hidden; background:var(--black2);
+  position:relative;
+}
+.marquee-section::before,
+.marquee-section::after {
+  content:'';
+  position:absolute; top:0; bottom:0; width:120px; z-index:2; pointer-events:none;
+}
+.marquee-section::before { left:0; background:linear-gradient(to right, var(--black2), transparent); }
+.marquee-section::after  { right:0; background:linear-gradient(to left,  var(--black2), transparent); }
+.marquee-label {
+  text-align:center; font-size:13px; font-weight:500;
+  color:rgba(255,255,255,0.45); letter-spacing:1px; margin-bottom:26px;
+}
+.marquee-track {
+  display:flex; animation:marquee 40s linear infinite; white-space:nowrap;
+}
+@keyframes marquee { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+.marquee-item {
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:0 52px; height:40px;
+  border-right:1px solid rgba(255,255,255,0.1);
+  font-size:12px; font-weight:700;
+  color:rgba(255,255,255,0.45); letter-spacing:2px;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+.marquee-item:first-child { border-left:1px solid rgba(255,255,255,0.1); }
+
+/* ═══════════ SHARED ═══════════ */
+.section-pill {
+  display:inline-flex;
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.1);
+  padding:8px 20px; border-radius:100px;
+  font-size:11px; font-weight:600; letter-spacing:2px;
+  text-transform:uppercase; color:rgba(255,255,255,0.52);
+  margin-bottom:28px;
+}
+.big-h {
+  font-size:clamp(32px,4.8vw,62px);
+  font-weight:900; letter-spacing:-2px; line-height:1.05;
+  max-width:820px; margin:0 auto 16px;
+}
+.big-h .blue { color:var(--accent); }
+.big-sub {
+  font-size:17px; color:var(--muted);
+  max-width:540px; margin:0 auto 64px; line-height:1.65;
+}
+
+/* ═══════════ PROBLEM ═══════════ */
+.problem-section {
+  padding:120px 48px;
+  text-align:center; position:relative; overflow:hidden;
+}
+.problem-section::before {
+  content:'';
+  position:absolute; bottom:0; left:50%; transform:translateX(-50%);
+  width:900px; height:240px;
+  background:radial-gradient(ellipse at bottom, rgba(47,111,237,0.14) 0%, transparent 70%);
+  pointer-events:none;
+}
+.problem-cards {
+  display:grid; grid-template-columns:1fr 1fr;
+  gap:16px; max-width:960px; margin:0 auto;
+}
+.prob-card {
+  background:var(--card-bg);
+  border:1px solid rgba(255,255,255,0.07);
+  border-radius:20px; overflow:hidden; text-align:left;
+  transition:border-color .25s;
+}
+.prob-card:hover { border-color:rgba(47,111,237,0.26); }
+.prob-card-visual {
+  height:152px;
+  display:flex; align-items:center; justify-content:center;
+  background:linear-gradient(145deg,#161616,#1c1c1c);
+  position:relative; overflow:hidden;
+}
+.glow-blob {
+  position:absolute; border-radius:50%;
+  background:radial-gradient(circle,rgba(47,111,237,0.32) 0%,transparent 65%);
+}
+.prob-icon-svg {
+  position:relative; z-index:1; width:50px; height:50px;
+  filter:drop-shadow(0 0 10px rgba(47,111,237,0.48));
+}
+.prob-card-body { padding:26px 28px 30px; }
+.prob-title { font-size:17px; font-weight:800; letter-spacing:-.3px; margin-bottom:10px; }
+.prob-desc { font-size:14px; color:var(--muted); line-height:1.65; }
+
+.statement {
+  text-align:center; padding:72px 48px 0;
+  max-width:800px; margin:0 auto;
+}
+.statement p {
+  font-size:clamp(19px,2.4vw,27px); font-weight:700;
+  line-height:1.5; color:rgba(255,255,255,0.8);
+}
+.statement p strong { color:var(--white); }
+
+/* ═══════════ WHAT WE DO ═══════════ */
+.whatwedo-section { padding:120px 48px; background:var(--black2); }
+.whatwedo-inner { max-width:1200px; margin:0 auto; }
+.whatwedo-header { margin-bottom:64px; }
+.whatwedo-header-inner {
+  display:grid; grid-template-columns:1fr 1fr;
+  gap:80px; align-items:end;
+}
+.whatwedo-steps {
+  display:grid; grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+.wds-item {
+  display:flex; align-items:flex-start; gap:18px;
+  padding:28px 24px; background:var(--card-bg);
+  border:1px solid var(--border); border-radius:14px;
+  transition:border-color .2s;
+}
+.wds-item:hover { border-color:rgba(47,111,237,0.2); }
+.wds-num {
+  width:36px; height:36px; border-radius:50%;
+  background:var(--accent);
+  display:flex; align-items:center; justify-content:center;
+  font-size:14px; font-weight:800; color:#fff; flex-shrink:0;
+  box-shadow:0 4px 14px rgba(47,111,237,0.35);
+}
+.wds-title { font-size:16px; font-weight:700; margin-bottom:6px; }
+.wds-desc { font-size:14px; color:var(--muted); line-height:1.6; }
+
+/* ═══════════ CASE STUDY ═══════════ */
+.case-section { padding:120px 48px; }
+.case-inner { max-width:1200px; margin:0 auto; }
+.case-header { text-align:center; margin-bottom:64px; }
+.case-card {
+  background:var(--card-bg);
+  border:1px solid rgba(255,255,255,0.07);
+  border-radius:24px; overflow:hidden;
+  display:grid; grid-template-columns:1fr 1fr;
+  position:relative;
+}
+.case-card::before {
+  content:'';
+  position:absolute; top:0; left:0; right:0; height:1px;
+  background:linear-gradient(90deg,transparent,var(--accent),transparent);
+  opacity:.5;
+}
+.case-left { padding:52px 48px; border-right:1px solid var(--border); }
+.case-label {
+  font-family:var(--mono); font-size:10px; letter-spacing:2.5px;
+  text-transform:uppercase; color:var(--accent); margin-bottom:8px;
+}
+.case-company { font-size:22px; font-weight:800; letter-spacing:-.4px; margin-bottom:28px; }
+.case-rows { display:flex; flex-direction:column; gap:0; }
+.case-row {
+  display:grid; grid-template-columns:100px 1fr;
+  gap:16px; padding:16px 0;
+  border-top:1px solid var(--border);
+  font-size:14px;
+}
+.case-row:last-child { border-bottom:1px solid var(--border); }
+.case-row-label { color:var(--muted); font-weight:500; }
+.case-row-val { color:rgba(255,255,255,0.82); line-height:1.5; }
+.case-right {
+  padding:52px 48px;
+  display:flex; flex-direction:column; justify-content:center;
+  background:linear-gradient(135deg, rgba(47,111,237,0.06), transparent);
+}
+.case-results { display:flex; flex-direction:column; gap:28px; }
+.case-result-num {
+  font-size:52px; font-weight:900; letter-spacing:-3px;
+  color:var(--accent); line-height:1;
+}
+.case-result-label { font-size:14px; color:var(--muted); margin-top:4px; }
+.case-divider { height:1px; background:var(--border); }
+
+/* ═══════════ PROCESS ═══════════ */
+.process-section { padding:120px 48px; background:var(--black2); }
+.process-inner { max-width:1200px; margin:0 auto; }
+.process-header { margin-bottom:72px; }
+.timeline {
+  display:grid; grid-template-columns:1fr 1fr;
+  gap:0;
+}
+.tl-item {
+  padding:48px 56px 48px 0;
+  border-bottom:1px solid var(--border);
+  position:relative;
+}
+.tl-item:nth-child(even) {
+  padding:48px 0 48px 56px;
+  border-left:1px solid var(--border);
+}
+.tl-item:nth-last-child(-n+2) { border-bottom:none; }
+.tl-dot {
+  width:68px; height:68px; border-radius:50%;
+  background:var(--card-bg);
+  border:1px solid rgba(47,111,237,0.25);
+  display:flex; align-items:center; justify-content:center;
+  font-size:22px; font-weight:900; color:var(--accent);
+  margin-bottom:28px;
+}
+.tl-week {
+  font-family:var(--mono); font-size:11px;
+  letter-spacing:2px; text-transform:uppercase;
+  color:var(--accent); margin-bottom:12px;
+}
+.tl-title { font-size:22px; font-weight:800; letter-spacing:-.4px; margin-bottom:12px; }
+.tl-desc { font-size:15px; color:var(--muted); line-height:1.65; }
+.tl-chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:20px; }
+.tl-chip {
+  font-size:11px; font-family:var(--mono); letter-spacing:1px;
+  text-transform:uppercase; color:rgba(47,111,237,0.8);
+  background:rgba(47,111,237,0.07);
+  border:1px solid rgba(47,111,237,0.18);
+  padding:5px 12px; border-radius:6px;
+}
+
+/* ═══════════ FOR WHO ═══════════ */
+.who-section { padding:120px 48px; position:relative; overflow:hidden; }
+.who-section::before {
+  content:'';
+  position:absolute; bottom:0; left:50%; transform:translateX(-50%);
+  width:800px; height:240px;
+  background:radial-gradient(ellipse at bottom, rgba(47,111,237,0.12) 0%,transparent 70%);
+  pointer-events:none;
+}
+.who-inner { max-width:1200px; margin:0 auto; }
+.who-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:64px; position:relative; z-index:1; }
+.who-card { border-radius:20px; padding:44px; border:1px solid transparent; }
+.who-card.yes { background:rgba(34,197,94,0.05); border-color:rgba(34,197,94,0.13); }
+.who-card.no  { background:rgba(239,68,68,0.05);  border-color:rgba(239,68,68,0.13); }
+.who-head { display:flex; align-items:center; gap:10px; font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; margin-bottom:28px; }
+.who-card.yes .who-head { color:#4ade80; }
+.who-card.no  .who-head { color:#f87171; }
+.who-list { list-style:none; display:flex; flex-direction:column; gap:14px; }
+.who-list li { font-size:15px; color:rgba(255,255,255,0.65); display:flex; align-items:flex-start; gap:12px; line-height:1.55; }
+.who-list li span { flex-shrink:0; margin-top:1px; }
+
+/* ═══════════ GUARANTEE ═══════════ */
+.guarantee-section { padding:120px 48px; background:var(--black2); }
+.guarantee-inner {
+  max-width:800px; margin:0 auto;
+}
+.g-title { font-size:clamp(28px,3.4vw,48px); font-weight:900; letter-spacing:-2px; line-height:1.05; margin-bottom:24px; }
+.g-title .blue { color:var(--accent); }
+.g-text { font-size:17px; color:rgba(255,255,255,0.6); line-height:1.7; margin-bottom:16px; }
+.g-text strong { color:var(--white); font-weight:700; }
+.g-callout {
+  background:rgba(47,111,237,0.08);
+  border:1px solid rgba(47,111,237,0.22);
+  border-radius:12px; padding:20px 24px;
+  font-size:15px; font-weight:600;
+  color:var(--accent2); line-height:1.55;
+  margin-top:8px;
+}
+
+/* ═══════════ PRICING ═══════════ */
+.pricing-section { padding:120px 48px; }
+.pricing-inner { max-width:1200px; margin:0 auto; }
+.pricing-header { text-align:center; margin-bottom:64px; }
+.pricing-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+.p-card {
+  background:var(--card-bg);
+  border:1px solid var(--border); border-radius:20px;
+  padding:32px 26px; display:flex; flex-direction:column;
+  position:relative; transition:transform .2s, border-color .2s;
+}
+.p-card:hover { transform:translateY(-4px); }
+.p-card.featured {
+  border-color:var(--accent);
+  background:linear-gradient(160deg,rgba(47,111,237,0.09),var(--card-bg) 60%);
+}
+.p-card.featured::before {
+  content:'MEEST GEKOZEN';
+  position:absolute; top:-12px; left:50%; transform:translateX(-50%);
+  background:var(--accent); color:#fff;
+  font-size:10px; font-weight:800; letter-spacing:2px;
+  padding:4px 16px; border-radius:100px; white-space:nowrap;
+  font-family:var(--mono);
+}
+.p-name { font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+.p-tagline { font-size:12px; color:rgba(255,255,255,0.35); margin-bottom:22px; min-height:32px; line-height:1.5; }
+.p-price { font-size:44px; font-weight:900; letter-spacing:-2.5px; line-height:1; margin-bottom:4px; }
+.p-period { font-size:12px; color:var(--muted); margin-bottom:22px; }
+.p-volume {
+  font-family:var(--mono); font-size:11px; letter-spacing:1px;
+  text-transform:uppercase; color:var(--accent2);
+  background:rgba(47,111,237,0.08); border:1px solid rgba(47,111,237,0.18);
+  padding:6px 12px; border-radius:6px; margin-bottom:22px;
+  display:inline-block;
+}
+.p-line { height:1px; background:var(--border); margin-bottom:20px; }
+.p-features { list-style:none; flex:1; display:flex; flex-direction:column; gap:11px; }
+.p-features li { font-size:13px; color:rgba(255,255,255,0.65); display:flex; align-items:flex-start; gap:9px; line-height:1.5; }
+.p-features li::before { content:'→'; color:var(--accent2); flex-shrink:0; }
+.p-btn { display:block; text-align:center; padding:13px; border-radius:100px; font-size:14px; font-weight:700; margin-top:24px; transition:all .2s; }
+.p-btn.solid { background:var(--accent); color:#fff; box-shadow:0 8px 24px rgba(47,111,237,0.3); }
+.p-btn.solid:hover { opacity:.9; }
+.p-btn.ghost { border:1px solid rgba(255,255,255,0.13); color:var(--white); }
+.p-btn.ghost:hover { border-color:var(--accent); color:var(--accent2); }
+.volume-note {
+  margin-top:14px; padding:18px 28px;
+  background:var(--card-bg); border:1px solid var(--border);
+  border-radius:14px; font-size:14px; color:var(--muted); line-height:1.6;
+  text-align:center;
+}
+.volume-note strong { color:rgba(255,255,255,0.68); }
+
+/* ═══════════ REVIEWS ═══════════ */
+.reviews-section { padding:120px 0; position:relative; overflow:hidden; }
+.reviews-section::before {
+  content:'';
+  position:absolute; bottom:0; left:50%; transform:translateX(-50%);
+  width:1000px; height:240px;
+  background:radial-gradient(ellipse at bottom, rgba(47,111,237,0.15) 0%,transparent 70%);
+  pointer-events:none;
+}
+.reviews-header { padding:0 48px; text-align:center; margin-bottom:64px; }
+.reviews-track {
+  display:flex; gap:16px; padding:0 48px;
+  overflow-x:auto; scrollbar-width:none; -ms-overflow-style:none;
+}
+.reviews-track::-webkit-scrollbar { display:none; }
+.review-card {
+  background:var(--card-bg);
+  border:1px solid rgba(255,255,255,0.07);
+  border-radius:20px; padding:28px;
+  min-width:340px; max-width:340px;
+  display:flex; flex-direction:column; gap:14px; flex-shrink:0;
+  transition:border-color .2s;
+}
+.review-card:hover { border-color:rgba(47,111,237,0.2); }
+.review-top { display:flex; align-items:center; justify-content:space-between; }
+.review-name { font-size:15px; font-weight:700; }
+.review-score {
+  background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.09);
+  padding:3px 10px; border-radius:100px;
+  font-size:12px; font-weight:700; font-family:var(--mono);
+}
+.review-stars { color:#FBBF24; font-size:13px; letter-spacing:2px; }
+.review-text { font-size:14px; color:rgba(255,255,255,0.6); line-height:1.65; flex:1; }
+.review-logo { height:30px; display:flex; align-items:center; border-top:1px solid var(--border); padding-top:14px; font-size:12px; font-weight:700; color:var(--muted); letter-spacing:.5px; }
+
+/* ═══════════ TEAM ═══════════ */
+.team-section { padding:120px 48px; background:var(--black2); }
+.team-inner { max-width:1200px; margin:0 auto; }
+.team-header { text-align:center; margin-bottom:64px; }
+.team-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+.team-card {
+  background:var(--card-bg);
+  border:1px solid rgba(255,255,255,0.07);
+  border-radius:20px; padding:36px 32px;
+  position:relative; overflow:hidden;
+  transition:border-color .2s, transform .2s;
+}
+.team-card:hover { border-color:rgba(47,111,237,0.22); transform:translateY(-3px); }
+.team-card::before {
+  content:'';
+  position:absolute; top:0; left:0; right:0; height:1px;
+  background:linear-gradient(90deg,transparent,var(--accent),transparent);
+  opacity:0; transition:opacity .3s;
+}
+.team-card:hover::before { opacity:.5; }
+.team-avatar {
+  width:72px; height:72px; border-radius:50%;
+  background:linear-gradient(135deg, rgba(47,111,237,0.28), rgba(47,111,237,0.07));
+  border:1px solid rgba(47,111,237,0.18);
+  display:flex; align-items:center; justify-content:center;
+  font-size:26px; font-weight:900; color:var(--accent2);
+  margin-bottom:20px;
+}
+.team-name { font-size:20px; font-weight:800; letter-spacing:-.4px; margin-bottom:4px; }
+.team-role { font-size:13px; color:var(--accent2); font-family:var(--mono); letter-spacing:.5px; margin-bottom:16px; }
+.team-bio { font-size:14px; color:var(--muted); line-height:1.65; margin-bottom:20px; }
+.team-values { list-style:none; display:flex; flex-direction:column; gap:8px; }
+.team-values li { font-size:13px; color:rgba(255,255,255,0.6); display:flex; align-items:flex-start; gap:8px; line-height:1.5; }
+.team-values li::before { content:'→'; color:var(--accent2); flex-shrink:0; }
+
+/* ═══════════ URGENCY ═══════════ */
+.urgency-section { padding:100px 48px; text-align:center; }
+.urgency-inner { max-width:640px; margin:0 auto; }
+.urgency-h { font-size:clamp(36px,5vw,66px); font-weight:900; letter-spacing:-2.5px; line-height:1; margin-bottom:20px; }
+.urgency-sub { font-size:17px; color:var(--muted); line-height:1.65; margin-bottom:52px; }
+.spots { display:flex; justify-content:center; gap:56px; margin-bottom:40px; }
+.spot { text-align:center; }
+.spot-n { font-size:64px; font-weight:900; letter-spacing:-3px; line-height:1; }
+.spot-n.tot   { color:rgba(255,255,255,0.2); }
+.spot-n.bezet { color:var(--white); }
+.spot-n.vrij  { color:var(--accent); text-shadow:0 0 30px rgba(47,111,237,0.42); }
+.spot-l { font-size:11px; color:var(--muted); font-family:var(--mono); letter-spacing:2px; text-transform:uppercase; margin-top:6px; }
+.prog-bar { height:3px; background:rgba(255,255,255,0.06); border-radius:2px; overflow:hidden; margin-bottom:52px; }
+.prog-fill { height:100%; background:linear-gradient(90deg,var(--accent),var(--accent2)); border-radius:2px; animation:prog 1.5s ease both; }
+@keyframes prog { from{width:0} }
+
+/* ═══════════ FINAL CTA ═══════════ */
+.cta-section { padding:60px 48px 120px; background:var(--black2); }
+.cta-inner { max-width:1200px; margin:0 auto; }
+.cta-card {
+  background:var(--card-bg);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:28px; padding:80px 64px;
+  text-align:center; position:relative; overflow:hidden;
+}
+.cta-stars { position:absolute; inset:0; pointer-events:none; }
+.cta-star {
+  position:absolute; width:2px; height:2px; border-radius:50%;
+  background:rgba(255,255,255,0.38);
+  animation:twinkle var(--d,3s) ease-in-out infinite var(--dl,0s);
+}
+@keyframes twinkle { 0%,100%{opacity:.12} 50%{opacity:.65} }
+.cta-h { font-size:clamp(32px,4.5vw,62px); font-weight:900; letter-spacing:-2.5px; line-height:1.0; margin-bottom:20px; position:relative; z-index:1; }
+.cta-sub { font-size:17px; color:rgba(255,255,255,0.5); line-height:1.65; max-width:460px; margin:0 auto 44px; position:relative; z-index:1; }
+.cta-note { font-size:13px; color:var(--muted); margin-top:16px; position:relative; z-index:1; }
+
+/* ═══════════ FOOTER ═══════════ */
+footer { background:var(--black); border-top:1px solid var(--border); padding:64px 48px 40px; }
+.foot-top { max-width:1200px; margin:0 auto; display:grid; grid-template-columns:2fr 1fr 1fr; gap:60px; padding-bottom:48px; border-bottom:1px solid var(--border); }
+.foot-logo { font-size:20px; font-weight:800; letter-spacing:-.3px; margin-bottom:12px; }
+.foot-logo .dot { color:var(--accent); }
+.foot-tagline { font-size:14px; color:var(--muted); line-height:1.65; max-width:260px; margin-bottom:24px; }
+.foot-socials { display:flex; gap:12px; }
+.foot-social { width:36px; height:36px; border-radius:50%; border:1px solid var(--border); display:flex; align-items:center; justify-content:center; font-size:13px; color:var(--muted); transition:border-color .2s, color .2s; }
+.foot-social:hover { border-color:var(--accent); color:var(--accent2); }
+.foot-col-title { font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--muted2); margin-bottom:20px; }
+.foot-col-links { list-style:none; display:flex; flex-direction:column; gap:12px; }
+.foot-col-links a { font-size:14px; color:rgba(255,255,255,0.48); transition:color .2s; }
+.foot-col-links a:hover { color:var(--white); }
+.foot-bottom { max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding-top:32px; flex-wrap:wrap; gap:12px; }
+.foot-copy { font-size:12px; color:var(--muted); }
+.foot-geo { font-size:11px; font-family:var(--mono); letter-spacing:2px; text-transform:uppercase; color:rgba(47,111,237,0.52); }
+
+/* ═══════════ REVEAL ═══════════ */
+.reveal { opacity:0; transform:translateY(22px); transition:opacity .65s ease, transform .65s ease; }
+.reveal.in { opacity:1; transform:none; }
+
+.nav-hamburger {
+  display:none;
+  flex-direction:column; gap:5px;
+  cursor:pointer; padding:8px; border-radius:6px;
+  background:transparent; border:none;
+  transition:background .2s;
+}
+.nav-hamburger:hover { background:rgba(255,255,255,0.06); }
+.nav-hamburger span {
+  display:block; width:22px; height:2px;
+  background:var(--white); border-radius:2px;
+  transition:transform .3s, opacity .3s;
+}
+.nav-hamburger.open span:nth-child(1) { transform:translateY(7px) rotate(45deg); }
+.nav-hamburger.open span:nth-child(2) { opacity:0; }
+.nav-hamburger.open span:nth-child(3) { transform:translateY(-7px) rotate(-45deg); }
+
+.nav-mobile-menu {
+  display:none;
+  position:fixed; top:68px; left:0; right:0; z-index:199;
+  background:rgba(10,10,10,0.98);
+  backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+  padding:24px;
+  flex-direction:column; gap:0;
+}
+.nav-mobile-menu.open { display:flex; }
+.nav-mobile-menu a {
+  display:block; padding:16px 0;
+  font-size:18px; font-weight:600; color:rgba(255,255,255,0.75);
+  border-bottom:1px solid var(--border);
+  transition:color .2s;
+}
+.nav-mobile-menu a:last-child { border-bottom:none; }
+.nav-mobile-menu a:hover { color:var(--white); }
+.nav-mobile-cta {
+  display:block; margin-top:20px;
+  background:var(--accent); color:#fff !important;
+  text-align:center; padding:16px !important;
+  border-radius:100px; font-weight:700 !important;
+  border-bottom:none !important;
+}
+
+/* ═══════════ RESPONSIVE TABLET (max 1024px) ═══════════ */
+@media (max-width:1024px) {
+  .nav-links { display:none; }
+  .nav-cta { display:none; }
+  .nav-hamburger { display:flex; }
+
+  .hero-wrap { padding:0 24px; }
+  .hero { grid-template-columns:1fr; padding-top:110px; gap:0; min-height:auto; padding-bottom:60px; }
+  .hero-right { display:none; }
+
+  .problem-section,
+  .whatwedo-section,
+  .case-section,
+  .process-section,
+  .who-section,
+  .guarantee-section,
+  .pricing-section,
+  .urgency-section,
+  .cta-section,
+  .team-section { padding-left:24px; padding-right:24px; padding-top:80px; padding-bottom:80px; }
+  .reviews-section { padding-top:80px; padding-bottom:80px; }
+  .reviews-header { padding-left:24px; padding-right:24px; }
+  .reviews-track { padding-left:24px; padding-right:24px; }
+  .marquee-section { padding:32px 0 14px; }
+
+  .whatwedo-header-inner { grid-template-columns:1fr; gap:24px; }
+  .whatwedo-steps { grid-template-columns:1fr 1fr; }
+
+  .case-card { grid-template-columns:1fr; }
+  .case-left { border-right:none; border-bottom:1px solid var(--border); padding:32px 28px; }
+  .case-right { padding:32px 28px; }
+
+  .timeline { grid-template-columns:1fr 1fr; }
+  .tl-item { padding:40px 40px 40px 0; }
+  .tl-item:nth-child(even) { padding:40px 0 40px 40px; }
+  .tl-item:nth-last-child(-n+2) { border-bottom:none; }
+
+  .who-grid { grid-template-columns:1fr; }
+  .pricing-grid { grid-template-columns:1fr 1fr; }
+  .team-grid { grid-template-columns:1fr 1fr; }
+  .foot-top { grid-template-columns:1fr 1fr; gap:40px; }
+  .spots { gap:32px; }
+  .cta-card { padding:56px 40px; }
+}
+
+/* ═══════════ RESPONSIVE MOBILE (max 640px) ═══════════ */
+@media (max-width:640px) {
+  nav { padding:0 20px; }
+
+  .hero-wrap { padding:0 20px; }
+  .hero { padding-top:100px; padding-bottom:48px; }
+  .hero-h { font-size:clamp(36px,9vw,52px); letter-spacing:-2px; }
+  .hero-guaranteed { font-size:12px; padding:9px 14px; }
+  .hero-sub { font-size:15px; }
+  .hero-btns { flex-direction:column; align-items:stretch; }
+  .btn-solid, .btn-outline { justify-content:center; text-align:center; padding:16px 20px; }
+  .hero-checks li { font-size:14px; }
+
+  .problem-section,
+  .whatwedo-section,
+  .case-section,
+  .process-section,
+  .who-section,
+  .guarantee-section,
+  .pricing-section,
+  .urgency-section,
+  .cta-section,
+  .team-section { padding-left:20px; padding-right:20px; padding-top:64px; padding-bottom:64px; }
+  .reviews-section { padding-top:64px; padding-bottom:64px; }
+  .reviews-header { padding-left:20px; padding-right:20px; }
+  .reviews-track { padding-left:20px; padding-right:20px; }
+
+  .big-h { font-size:clamp(28px,8vw,42px); letter-spacing:-1.5px; }
+  .big-sub { font-size:15px; margin-bottom:40px; }
+  .section-pill { font-size:10px; padding:7px 16px; }
+
+  .problem-cards { grid-template-columns:1fr; gap:12px; }
+  .prob-card-visual { height:120px; }
+  .prob-title { font-size:16px; }
+
+  .whatwedo-steps { grid-template-columns:1fr; gap:12px; }
+  .wds-item { padding:20px 18px; }
+
+  .case-left { padding:28px 20px; }
+  .case-right { padding:28px 20px; }
+  .case-row { grid-template-columns:80px 1fr; gap:12px; font-size:13px; }
+  .case-company { font-size:18px; }
+  .case-result-num { font-size:40px; }
+
+  .timeline { grid-template-columns:1fr; }
+  .tl-item { padding:32px 0; border-bottom:1px solid var(--border); }
+  .tl-item:nth-child(even) { padding:32px 0; border-left:none; border-bottom:1px solid var(--border); }
+  .tl-item:last-child { border-bottom:none; }
+  .tl-item:nth-last-child(-n+2) { border-bottom:1px solid var(--border); }
+  .tl-item:last-child { border-bottom:none !important; }
+  .tl-dot { width:56px; height:56px; font-size:18px; }
+  .tl-title { font-size:18px; }
+
+  .who-card { padding:28px 24px; }
+
+  .g-title { font-size:clamp(26px,7vw,40px); }
+  .g-text { font-size:15px; }
+  .g-callout { font-size:14px; padding:16px 18px; }
+
+  .pricing-grid { grid-template-columns:1fr; gap:12px; }
+  .p-card { padding:28px 22px; }
+  .p-price { font-size:38px; }
+  .addon-box { flex-direction:column; align-items:flex-start; gap:16px; padding:24px; }
+
+  .review-card { min-width:280px; max-width:280px; }
+
+  .team-grid { grid-template-columns:1fr; gap:12px; }
+  .team-card { padding:28px 24px; }
+
+  .urgency-h { font-size:clamp(32px,8vw,52px); }
+  .urgency-sub { font-size:15px; margin-bottom:40px; }
+  .spots { gap:20px; }
+  .spot-n { font-size:52px; }
+
+  .cta-card { padding:40px 24px; border-radius:20px; }
+  .cta-h { font-size:clamp(28px,7vw,44px); letter-spacing:-1.5px; }
+  .cta-sub { font-size:15px; margin-bottom:32px; }
+
+  footer { padding:48px 20px 32px; }
+  .foot-top { grid-template-columns:1fr; gap:32px; }
+  .foot-bottom { flex-direction:column; align-items:flex-start; gap:8px; }
+  .foot-geo { display:none; }
+
+  .volume-note { font-size:13px; padding:16px 18px; }
+  .horizon-glow { height:140px; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">Link<span class="dot">2</span>Leads</div>
+    <ul class="nav-links">
+      <li><a href="#aanpak">Aanpak</a></li>
+      <li><a href="#resultaten">Resultaten</a></li>
+      <li><a href="#pakketten">Pakketten</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#team">Het Team</a></li>
+    </ul>
+    <a href="https://calendly.com/link2leads/30min" class="nav-cta" target="_blank">Bekijk of dit voor jou werkt</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu openen">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="#aanpak" onclick="closeMenu()">Aanpak</a>
+  <a href="#resultaten" onclick="closeMenu()">Resultaten</a>
+  <a href="#pakketten" onclick="closeMenu()">Pakketten</a>
+  <a href="#reviews" onclick="closeMenu()">Reviews</a>
+  <a href="#team" onclick="closeMenu()">Het Team</a>
+  <a href="https://calendly.com/link2leads/30min" class="nav-mobile-cta" target="_blank">Bekijk of dit voor jou werkt</a>
+</div>
+
+<!-- HERO -->
+<div class="hero-wrap">
+  <div class="hero">
+    <div>
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        B2B LEADGENERATIE
+      </div>
+      <h1 class="hero-h">
+        Stop met afhankelijk zijn<br>
+        van referrals en bouw een<br>
+        <span class="blue">voorspelbare B2B pipeline</span>
+      </h1>
+      <div class="hero-guaranteed">
+        Geen 5 afspraken in maand 2? Dan betaal je niets totdat we dat wel leveren.
+      </div>
+      <p class="hero-sub">
+        Wij draaien e-mailcampagnes voor B2B bedrijven die structureel afspraken willen zonder afhankelijk te zijn van advertenties, events of via-via.
+      </p>
+      <div class="hero-btns">
+        <a href="https://calendly.com/link2leads/30min" class="btn-solid" target="_blank">Boek een strategiecall</a>
+        <a href="#resultaten" class="btn-outline">Ontdek onze resultaten</a>
+      </div>
+      <ul class="hero-checks">
+        <li>Gemiddeld 10+ gekwalificeerde afspraken per maand</li>
+        <li>Na 2 weken volledig live</li>
+        <li>Vanaf 995 euro per maand</li>
+        <li>Geen ads of extra tooling nodig</li>
+      </ul>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-visual-card">
+        <div class="hvc-label">Campagne overzicht</div>
+        <div class="hvc-row">
+          <span class="hvc-row-label">Status</span>
+          <span class="hvc-row-val green">Live</span>
+        </div>
+        <div class="hvc-row">
+          <span class="hvc-row-label">Afspraken</span>
+          <span class="hvc-row-val blue">11 deze maand</span>
+        </div>
+        <div class="hvc-row">
+          <span class="hvc-row-label">Reacties</span>
+          <span class="hvc-row-val">34 replies</span>
+        </div>
+        <div class="hvc-row">
+          <span class="hvc-row-label">Pipeline</span>
+          <span class="hvc-row-val blue">84K euro</span>
+        </div>
+        <div class="hvc-row">
+          <span class="hvc-row-label">Live sinds</span>
+          <span class="hvc-row-val">Dag 15</span>
+        </div>
+      </div>
+      <div class="hero-guarantee-mini">
+        Geen 5 afspraken in maand 2?<br>
+        Dan ga je niet betalen totdat je ze wel hebt.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="horizon-glow"></div>
+
+<!-- MARQUEE -->
+<div class="marquee-section">
+  <p class="marquee-label">Bewezen voor groeiende B2B bedrijven</p>
+  <div style="overflow:hidden">
+    <div class="marquee-track">
+      <span class="marquee-item">B2B SaaS</span>
+      <span class="marquee-item">Consultancy</span>
+      <span class="marquee-item">IT Dienstverlening</span>
+      <span class="marquee-item">Recruitment</span>
+      <span class="marquee-item">Financiele diensten</span>
+      <span class="marquee-item">Marketing Agencies</span>
+      <span class="marquee-item">Scale-ups</span>
+      <span class="marquee-item">MKB Dienstverlening</span>
+      <span class="marquee-item">B2B SaaS</span>
+      <span class="marquee-item">Consultancy</span>
+      <span class="marquee-item">IT Dienstverlening</span>
+      <span class="marquee-item">Recruitment</span>
+      <span class="marquee-item">Financiele diensten</span>
+      <span class="marquee-item">Marketing Agencies</span>
+      <span class="marquee-item">Scale-ups</span>
+      <span class="marquee-item">MKB Dienstverlening</span>
+    </div>
+  </div>
+</div>
+
+<!-- PROBLEM -->
+<section class="problem-section">
+  <div class="section-pill">HET PROBLEEM</div>
+  <h2 class="big-h">E-mail is het meest <span class="blue">onderbenutte saleskanaal</span> binnen B2B</h2>
+  <p class="big-sub">Terwijl het juist structureel de hoogste marges en het meest voorspelbare rendement oplevert.</p>
+  <div class="problem-cards">
+    <div class="prob-card reveal">
+      <div class="prob-card-visual">
+        <div class="glow-blob" style="width:140px;height:140px;top:-30px;left:-20px;"></div>
+        <svg class="prob-icon-svg" viewBox="0 0 50 50" fill="none">
+          <path d="M7 38L19 24l8 8 8-12 8 10" stroke="#2F6FED" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="19" cy="24" r="3" fill="#2F6FED" opacity=".35"/>
+          <circle cx="27" cy="32" r="3" fill="#2F6FED" opacity=".35"/>
+        </svg>
+      </div>
+      <div class="prob-card-body">
+        <div class="prob-title">Je pipeline is onvoorspelbaar</div>
+        <p class="prob-desc">De meeste B2B bedrijven zijn afhankelijk van via-via en toeval. Topbedrijven hebben een systeem dat structureel afspraken genereert.</p>
+      </div>
+    </div>
+    <div class="prob-card reveal">
+      <div class="prob-card-visual">
+        <div class="glow-blob" style="width:120px;height:120px;bottom:-10px;right:10px;"></div>
+        <svg class="prob-icon-svg" viewBox="0 0 50 50" fill="none">
+          <path d="M25 8v17l9 6" stroke="#2F6FED" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="25" cy="25" r="16" stroke="#2F6FED" stroke-width="2" opacity=".5"/>
+          <path d="M9 25H5M45 25h-4M25 9V5M25 45v-4" stroke="#2F6FED" stroke-width="2" stroke-linecap="round" opacity=".3"/>
+        </svg>
+      </div>
+      <div class="prob-card-body">
+        <div class="prob-title">70 tot 90% van groei komt uit netwerk</div>
+        <p class="prob-desc">Daardoor betaal je steeds opnieuw voor acquisitie via events en advertenties, in plaats van een kanaal te bouwen dat schaalt.</p>
+      </div>
+    </div>
+    <div class="prob-card reveal">
+      <div class="prob-card-visual">
+        <div class="glow-blob" style="width:130px;height:130px;top:10px;right:20px;"></div>
+        <svg class="prob-icon-svg" viewBox="0 0 50 50" fill="none">
+          <path d="M16 34c0-5 4-9 9-9s9 4 9 9" stroke="#2F6FED" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="25" cy="19" r="6" stroke="#2F6FED" stroke-width="2.5"/>
+          <path d="M8 40c0-8 8-14 17-14s17 6 17 14" stroke="#2F6FED" stroke-width="2" stroke-linecap="round" opacity=".3"/>
+        </svg>
+      </div>
+      <div class="prob-card-body">
+        <div class="prob-title">Je betaalt steeds voor dezelfde klanten</div>
+        <p class="prob-desc">Zonder sterk e-mailsysteem hangt bijna elke nieuwe deal af van paid ads of koude acquisitie in plaats van een systeem dat voor je werkt.</p>
+      </div>
+    </div>
+    <div class="prob-card reveal">
+      <div class="prob-card-visual">
+        <div class="glow-blob" style="width:110px;height:110px;bottom:0;left:20px;"></div>
+        <svg class="prob-icon-svg" viewBox="0 0 50 50" fill="none">
+          <rect x="7" y="28" width="8" height="15" rx="2" fill="#2F6FED" opacity=".22"/>
+          <rect x="21" y="20" width="8" height="23" rx="2" fill="#2F6FED" opacity=".5"/>
+          <rect x="35" y="10" width="8" height="33" rx="2" fill="#2F6FED"/>
+          <path d="M11 24l14-8 14-6" stroke="#2F6FED" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+        </svg>
+      </div>
+      <div class="prob-card-body">
+        <div class="prob-title">Je laat elke dag omzet liggen</div>
+        <p class="prob-desc">E-mail is het goedkoopste kanaal met de hoogste ROI, maar wordt door de meeste B2B bedrijven nooit goed opgezet.</p>
+      </div>
+    </div>
+  </div>
+  <div class="statement reveal">
+    <p>Je hebt geen groter netwerk nodig.<br><strong>Je hebt een systeem nodig dat structureel werkt.</strong></p>
+  </div>
+</section>
+
+<!-- WHAT WE DO -->
+<section class="whatwedo-section" id="aanpak">
+  <div class="whatwedo-inner">
+    <div class="whatwedo-header">
+      <div class="whatwedo-header-inner">
+        <div class="reveal">
+          <div class="section-pill">WAT WE DOEN</div>
+          <h2 class="big-h" style="max-width:100%;margin:0;font-size:clamp(28px,3.6vw,50px);">
+            Wij vullen jouw agenda<br>met <span class="blue">gekwalificeerde afspraken</span>
+          </h2>
+        </div>
+        <p class="big-sub reveal" style="margin:0;">
+          Wij benaderen jouw ideale klanten via e-mail. Jij voert de gesprekken met beslissers die al interesse hebben getoond.
+        </p>
+      </div>
+    </div>
+    <div class="whatwedo-steps">
+      <div class="wds-item reveal">
+        <div class="wds-num">1</div>
+        <div><div class="wds-title">Doelgroep in kaart</div><p class="wds-desc">We bepalen samen wie jouw ideale klant is en bouwen een lijst van beslissers die passen bij jouw aanbod.</p></div>
+      </div>
+      <div class="wds-item reveal">
+        <div class="wds-num">2</div>
+        <div><div class="wds-title">Campagne schrijven</div><p class="wds-desc">Wij schrijven de e-mails die jouw doelgroep aanzetten tot actie. Helder, persoonlijk en resultaatgericht.</p></div>
+      </div>
+      <div class="wds-item reveal">
+        <div class="wds-num">3</div>
+        <div><div class="wds-title">E-mails versturen</div><p class="wds-desc">We sturen dagelijks e-mails naar jouw ideale klanten via onze eigen infrastructuur met hoge deliverability.</p></div>
+      </div>
+      <div class="wds-item reveal">
+        <div class="wds-num">4</div>
+        <div><div class="wds-title">Reacties filteren</div><p class="wds-desc">Niet elke reactie is een lead. Wij filteren op interesse en kwalificatie zodat jij alleen met serieuze prospects praat.</p></div>
+      </div>
+      <div class="wds-item reveal">
+        <div class="wds-num">5</div>
+        <div><div class="wds-title">Afspraken inplannen</div><p class="wds-desc">Gekwalificeerde reacties worden direct omgezet in afspraken in jouw agenda. Jij hoeft alleen te bellen.</p></div>
+      </div>
+      <div class="wds-item reveal">
+        <div class="wds-num">6</div>
+        <div><div class="wds-title">Optimaliseren en schalen</div><p class="wds-desc">We analyseren wekelijks wat werkt en sturen bij. Volume omhoog waar mogelijk, altijd gericht op resultaat.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CASE STUDY -->
+<section class="case-section" id="resultaten">
+  <div class="case-inner">
+    <div class="case-header reveal">
+      <div class="section-pill">RESULTATEN</div>
+      <h2 class="big-h">Praatjes vullen <span class="blue">geen gaatjes</span></h2>
+      <p class="big-sub">Een voorbeeld van wat we voor een klant realiseerden.</p>
+    </div>
+    <div class="case-card reveal">
+      <div class="case-left">
+        <div class="case-label">CASE STUDY</div>
+        <div class="case-company">B2B IT Dienstverlener</div>
+        <div class="case-rows">
+          <div class="case-row">
+            <span class="case-row-label">Probleem</span>
+            <span class="case-row-val">Volledig afhankelijk van via-via leads. Geen voorspelbare pipeline, geen structureel acquisitieprogramma.</span>
+          </div>
+          <div class="case-row">
+            <span class="case-row-label">Aanpak</span>
+            <span class="case-row-val">Doelgroep bepaald, e-mailinfrastructuur opgezet, campagne geschreven en gefaseerd uitgerold naar beslissers bij relevante bedrijven.</span>
+          </div>
+          <div class="case-row">
+            <span class="case-row-label">Looptijd</span>
+            <span class="case-row-val">90 dagen</span>
+          </div>
+          <div class="case-row">
+            <span class="case-row-label">Investering</span>
+            <span class="case-row-val">1.495 euro per maand</span>
+          </div>
+        </div>
+      </div>
+      <div class="case-right">
+        <div class="case-results">
+          <div>
+            <div class="case-result-num">47</div>
+            <div class="case-result-label">Gekwalificeerde afspraken in 90 dagen</div>
+          </div>
+          <div class="case-divider"></div>
+          <div>
+            <div class="case-result-num">&#8364;84K</div>
+            <div class="case-result-label">Aan pipeline gegenereerd</div>
+          </div>
+          <div class="case-divider"></div>
+          <div>
+            <div class="case-result-num">Dag 15</div>
+            <div class="case-result-label">Eerste afspraak geboekt</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process-section">
+  <div class="process-inner">
+    <div class="process-header reveal">
+      <div class="section-pill">ONZE AANPAK</div>
+      <h2 class="big-h" style="max-width:640px;font-size:clamp(28px,3.6vw,50px);">
+        Van koude markt naar <span class="blue">volle agenda</span>
+      </h2>
+      <p class="big-sub" style="margin:16px 0 0;max-width:460px;">Geen magie. Een bewezen systeem dat week voor week wordt ingericht en bijgestuurd op data.</p>
+    </div>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-dot">01</div>
+        <div class="tl-week">WEEK 1</div>
+        <div class="tl-title">Strategie en Setup</div>
+        <p class="tl-desc">We bepalen scherp wie jouw ideale klant is, welke pijn ze hebben en hoe jij die oplost. Gerichte lijsten van beslissers die passen bij jouw aanbod.</p>
+        <div class="tl-chips"><span class="tl-chip">ICP</span><span class="tl-chip">MESSAGING</span></div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot">02</div>
+        <div class="tl-week">WEEK 2</div>
+        <div class="tl-title">Campagne Opbouw</div>
+        <p class="tl-desc">We schrijven e-mailcampagnes die direct duidelijk maken waarom het interessant is te reageren. Heldere copy, A/B-getest op resultaat.</p>
+        <div class="tl-chips"><span class="tl-chip">COPY</span><span class="tl-chip">A/B TESTING</span></div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot">03</div>
+        <div class="tl-week">WEEK 3 (DAG 15)</div>
+        <div class="tl-title">Live!</div>
+        <p class="tl-desc">Campagnes gaan live. We filteren reacties op intentie en geschiktheid. Alleen serieuze leads gaan door naar jouw agenda.</p>
+        <div class="tl-chips"><span class="tl-chip">LIVE</span><span class="tl-chip">FILTERING</span></div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot">04</div>
+        <div class="tl-week">DOORLOPEND</div>
+        <div class="tl-title">Optimalisatie en Schaal</div>
+        <p class="tl-desc">Wekelijkse rapportage, bijsturing op data. Volume verhogen waar mogelijk. Jouw pipeline groeit elke maand.</p>
+        <div class="tl-chips"><span class="tl-chip">DATA</span><span class="tl-chip">SCHALEN</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOR WHO -->
+<section class="who-section">
+  <div class="who-inner">
+    <div style="text-align:center;" class="reveal">
+      <div class="section-pill">GESCHIKT VOOR</div>
+      <h2 class="big-h">Dit werkt, maar niet <span class="blue">voor iedereen.</span></h2>
+    </div>
+    <div class="who-grid">
+      <div class="who-card yes reveal">
+        <div class="who-head">Dit is voor jou als...</div>
+        <ul class="who-list">
+          <li><span>&#10003;</span>Je een bewezen aanbod hebt waar klanten voor betalen</li>
+          <li><span>&#10003;</span>Je weet wie je ideale klant is</li>
+          <li><span>&#10003;</span>Je wilt stoppen met afhankelijk zijn van toeval en via-via</li>
+          <li><span>&#10003;</span>Je bereid bent reacties snel op te volgen</li>
+          <li><span>&#10003;</span>Je een voorspelbare pipeline wilt voor de lange termijn</li>
+        </ul>
+      </div>
+      <div class="who-card no reveal">
+        <div class="who-head">Dit is te vroeg als...</div>
+        <ul class="who-list">
+          <li><span>&#10007;</span>Je aanbod nog niet bewezen is bij betalende klanten</li>
+          <li><span>&#10007;</span>Je geen tijd hebt om leads op te volgen</li>
+          <li><span>&#10007;</span>Je een snelle hack zoekt in plaats van een structureel kanaal</li>
+          <li><span>&#10007;</span>Je verwacht dat alles voor je gebeurt zonder betrokkenheid</li>
+          <li><span>&#10007;</span>Je niet weet wie je ideale klant is</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GUARANTEE -->
+<section class="guarantee-section">
+  <div class="guarantee-inner">
+    <div class="reveal">
+      <div class="section-pill">ONZE GARANTIE</div>
+      <h2 class="g-title">Wij dragen het risico.<br><span class="blue">Jij niet.</span></h2>
+      <p class="g-text">Door deliverability-limieten onboarden we maximaal 2 nieuwe klanten per maand. Dat betekent ook dat we alles geven voor elk traject dat we starten.</p>
+      <div class="g-callout">
+        Geen 5 gekwalificeerde afspraken in maand 2?<br>
+        Dan gaan we kosteloos door totdat je het wel hebt.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing-section" id="pakketten">
+  <div class="pricing-inner">
+    <div class="pricing-header reveal">
+      <div class="section-pill">PAKKETTEN</div>
+      <h2 class="big-h">Transparante prijzen.<br><span class="blue">Geen verborgen kosten.</span></h2>
+      <p class="big-sub">Kies het volume dat past bij jouw doelstelling. Alle pakketten includeren de volledige setup, campagne en filtering.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="p-card reveal">
+        <div class="p-name">Starter</div>
+        <div class="p-tagline">Eerste stap naar een voorspelbare pipeline</div>
+        <div class="p-price">&#8364;995</div>
+        <div class="p-period">per maand, incl. garantie</div>
+        <div class="p-volume">100 e-mails/dag · 7 dagen per week</div>
+        <div class="p-line"></div>
+        <ul class="p-features">
+          <li>Campagne volledig ingericht en gestuurd</li>
+          <li>Targeting op jouw ideale klantprofiel</li>
+          <li>Rapportage van opens en responses</li>
+          <li>Alleen warme, gekwalificeerde reacties</li>
+          <li>100 euro korting per succesvolle referral</li>
+        </ul>
+        <a href="https://calendly.com/link2leads/30min" class="p-btn ghost" target="_blank">Bekijk of dit past</a>
+      </div>
+      <div class="p-card reveal">
+        <div class="p-name">Groei</div>
+        <div class="p-tagline">Voor consistente instroom van afspraken</div>
+        <div class="p-price">&#8364;1.295</div>
+        <div class="p-period">per maand, incl. garantie</div>
+        <div class="p-volume">250 e-mails/dag · 7 dagen per week</div>
+        <div class="p-line"></div>
+        <ul class="p-features">
+          <li>Alles uit Starter</li>
+          <li>Uitgebreidere targeting en segmentatie</li>
+          <li>Snellere opbouw van pipeline</li>
+          <li>Wekelijkse optimalisatieslag</li>
+          <li>125 euro korting per succesvolle referral</li>
+        </ul>
+        <a href="https://calendly.com/link2leads/30min" class="p-btn ghost" target="_blank">Bekijk of dit past</a>
+      </div>
+      <div class="p-card featured reveal">
+        <div class="p-name">Scale</div>
+        <div class="p-tagline">Voor bedrijven die snel willen opschalen</div>
+        <div class="p-price">&#8364;1.695</div>
+        <div class="p-period">per maand, incl. garantie</div>
+        <div class="p-volume">500 e-mails/dag · 7 dagen per week</div>
+        <div class="p-line"></div>
+        <ul class="p-features">
+          <li>Alles uit Groei</li>
+          <li>Meerdere doelgroepsegmenten tegelijk</li>
+          <li>Prioriteit bij optimalisatie en support</li>
+          <li>5 tot 12 gekwalificeerde afspraken per maand</li>
+          <li>150 euro korting per succesvolle referral</li>
+        </ul>
+        <a href="https://calendly.com/link2leads/30min" class="p-btn solid" target="_blank">Boek een strategiecall</a>
+      </div>
+      <div class="p-card reveal">
+        <div class="p-name">Dominance</div>
+        <div class="p-tagline">Maximaal volume, maximaal resultaat</div>
+        <div class="p-price">&#8364;1.995</div>
+        <div class="p-period">per maand, incl. garantie</div>
+        <div class="p-volume">1.000 e-mails/dag · 7 dagen per week</div>
+        <div class="p-line"></div>
+        <ul class="p-features">
+          <li>Alles uit Scale</li>
+          <li>Volledige marktdekking in jouw segment</li>
+          <li>Dedicated campagnemanager</li>
+          <li>Maandelijkse strategiesessie</li>
+          <li>175 euro korting per succesvolle referral</li>
+        </ul>
+        <a href="https://calendly.com/link2leads/30min" class="p-btn ghost" target="_blank">Bekijk of dit past</a>
+      </div>
+    </div>
+    <div class="volume-note reveal">
+      <strong>Nog meer volume nodig?</strong> Grotere volumes zijn mogelijk. Neem contact op voor een voorstel op maat via <a href="mailto:info@link2leads.nl" style="color:var(--accent2);">info@link2leads.nl</a>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews-section" id="reviews">
+  <div class="reviews-header reveal">
+    <div class="section-pill">KLANTREVIEWS</div>
+    <h2 class="big-h">Echte feedback van <span class="blue">echte groeipartners</span></h2>
+    <p class="big-sub">Een snelle indruk van wat klanten zeggen.</p>
+  </div>
+  <div class="reviews-track">
+    <div class="review-card">
+      <div class="review-top"><span class="review-name">Arnold</span><span class="review-score">5.0</span></div>
+      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-text">Binnen 5 weken stonden de eerste 9 afspraken in onze agenda. Vooral sterk in targeting en follow-up. We draaien nu structureel 8 gesprekken per maand.</p>
+      <div class="review-logo">CEO, B2B Dienstverlening</div>
+    </div>
+    <div class="review-card">
+      <div class="review-top"><span class="review-name">Wouter</span><span class="review-score">5.0</span></div>
+      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-text">In de eerste maand al 6 gekwalificeerde afspraken. Ze begrijpen onze markt en sturen wekelijks bij op basis van data. Geen geouwehoer, gewoon resultaat.</p>
+      <div class="review-logo">Founder, SaaS</div>
+    </div>
+    <div class="review-card">
+      <div class="review-top"><span class="review-name">Jamie</span><span class="review-score">5.0</span></div>
+      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-text">De kwaliteit van de leads verraste me. Beslissers die al begrepen wat we doen voordat we belden. Dat scheelt enorm in onze salesgesprekken.</p>
+      <div class="review-logo">Sales Director, IT</div>
+    </div>
+    <div class="review-card">
+      <div class="review-top"><span class="review-name">Rafael</span><span class="review-score">5.0</span></div>
+      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-text">Van nul naar 11 afspraken in 6 weken. Systeem staat, pipeline groeit. Precies wat ik zocht na jaren van via-via en hopen dat het goed komt.</p>
+      <div class="review-logo">Co-founder, Consultancy</div>
+    </div>
+    <div class="review-card">
+      <div class="review-top"><span class="review-name">Dick</span><span class="review-score">5.0</span></div>
+      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-text">Afspraken sluiten goed aan bij wat we zoeken. Ze denken mee over de positionering en passen de campagne aan als iets niet werkt. Dat waarderen we enorm.</p>
+      <div class="review-logo">Managing Partner</div>
+    </div>
+    <div class="review-card">
+      <div class="review-top"><span class="review-name">Micah</span><span class="review-score">5.0</span></div>
+      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-text">We gingen van 2 naar 10 salescalls per maand in 8 weken. Het systeem draait nu autonoom en levert iedere week nieuwe gesprekken op.</p>
+      <div class="review-logo">Growth Lead, Scale-up</div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="team-section" id="team">
+  <div class="team-inner">
+    <div class="team-header reveal">
+      <div class="section-pill">ONS TEAM</div>
+      <h2 class="big-h">Maak kennis met <span class="blue">het team</span> achter jouw groei</h2>
+      <p class="big-sub">Wij bouwen systemen. Geen gedoe. Direct resultaat.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card reveal">
+        <div class="team-avatar">D</div>
+        <div class="team-name">Demi</div>
+        <div class="team-role">Co-founder</div>
+        <p class="team-bio">Ik zorg dat klanten precies krijgen wat ze nodig hebben. Geen eindeloos zoeken, geen losse gesprekken. Je ziet direct resultaat en we schalen wat werkt.</p>
+        <ul class="team-values">
+          <li>Direct resultaat voor jouw team</li>
+          <li>Snel de juiste beslissers bereiken</li>
+          <li>Vertrouwd contactpunt gedurende het hele traject</li>
+        </ul>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-avatar">A</div>
+        <div class="team-name">Anne-Roos</div>
+        <div class="team-role">Co-founder</div>
+        <p class="team-bio">Ik help bedrijven en prospects elkaar makkelijk te vinden. Ik denk mee en zorg dat het echt goed werkt, met de persoonlijke aandacht die daarvoor nodig is.</p>
+        <ul class="team-values">
+          <li>Duidelijke en eerlijke samenwerking</li>
+          <li>Persoonlijke aandacht, ook in een schaalbaar systeem</li>
+          <li>Altijd gericht op jouw resultaat</li>
+        </ul>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-avatar">L</div>
+        <div class="team-name">Lodewijk</div>
+        <div class="team-role">Partner, Technologie</div>
+        <p class="team-bio">Ik zorg dat onze technologie soepel, veilig en betrouwbaar werkt. Alles wat op de achtergrond draait is ontworpen voor hoge deliverability en efficiënte resultaten.</p>
+        <ul class="team-values">
+          <li>Slimme automatisering die tijd bespaart</li>
+          <li>Stabiele infrastructuur met hoge deliverability</li>
+          <li>Continue optimalisatie voor betere resultaten</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- URGENCY -->
+<section class="urgency-section">
+  <div class="urgency-inner">
+    <div class="section-pill reveal" style="margin:0 auto 24px;">BESCHIKBAARHEID</div>
+    <h2 class="urgency-h reveal">Max. 2 nieuwe klanten per maand.</h2>
+    <p class="urgency-sub reveal">Door deliverability-limieten onboarden we maximaal 2 nieuwe klanten per maand. Zo garanderen we kwaliteit voor iedereen die we begeleiden. Op dit moment is er nog <strong style="color:var(--white);">1 plek vrij</strong> deze maand.</p>
+    <div class="spots reveal">
+      <div class="spot"><div class="spot-n tot">2</div><div class="spot-l">Max. per maand</div></div>
+      <div class="spot"><div class="spot-n bezet">1</div><div class="spot-l">Bezet</div></div>
+      <div class="spot"><div class="spot-n vrij">1</div><div class="spot-l">Vrij</div></div>
+    </div>
+    <div class="prog-bar reveal"><div class="prog-fill" style="width:50%"></div></div>
+    <a href="https://calendly.com/link2leads/30min" class="btn-solid reveal" style="display:inline-flex;" target="_blank">Boek een strategiecall</a>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <div class="cta-card">
+      <div class="cta-stars" id="stars"></div>
+      <div class="section-pill reveal" style="margin:0 auto 28px;">KLAAR OM TE STARTEN?</div>
+      <h2 class="cta-h reveal">Klaar om jouw<br>pipeline te transformeren?</h2>
+      <p class="cta-sub reveal">Vertel ons wat jouw doelen zijn en wij laten precies zien hoe we kunnen helpen. Je ontvangt gerichte inzichten en een voorstel dat past bij jouw situatie.</p>
+      <a href="https://calendly.com/link2leads/30min" class="btn-solid reveal" style="display:inline-flex;position:relative;z-index:1;" target="_blank">Neem contact met ons op</a>
+      <p class="cta-note reveal">Geen verplichtingen, antwoord binnen 24 uur, nog 1 plek vrij deze maand</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-top">
+    <div>
+      <div class="foot-logo">Link<span class="dot">2</span>Leads</div>
+      <p class="foot-tagline">Resultaatgerichte e-mailcampagnes voor ambitieuze B2B bedrijven.</p>
+      <div class="foot-socials">
+        <a href="https://linkedin.com" class="foot-social" target="_blank">in</a>
+        <a href="mailto:info@link2leads.nl" class="foot-social">@</a>
+        <a href="tel:+31850805381" class="foot-social">&#9990;</a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-col-title">Diensten</div>
+      <ul class="foot-col-links">
+        <li><a href="#pakketten">Starter</a></li>
+        <li><a href="#pakketten">Groei</a></li>
+        <li><a href="#pakketten">Scale</a></li>
+        <li><a href="#pakketten">Dominance</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-col-title">Bedrijf</div>
+      <ul class="foot-col-links">
+        <li><a href="#team">Over ons</a></li>
+        <li><a href="mailto:info@link2leads.nl">info@link2leads.nl</a></li>
+        <li><a href="tel:+31850805381">085 080 5381</a></li>
+        <li><a href="privacy.html">Privacybeleid</a></li>
+        <li><a href="algemene-voorwaarden.html">Algemene Voorwaarden</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span class="foot-copy">2026 Link2Leads, onderdeel van Link2Talent</span>
+    <span class="foot-geo">GEOPTIMALISEERD VOOR GROEI</span>
+  </div>
+</footer>
+
+<script>
+// Hamburger menu
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('open');
+  mobileMenu.classList.toggle('open');
+  document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
+});
+function closeMenu() {
+  hamburger.classList.remove('open');
+  mobileMenu.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Scroll reveal
+const io = new IntersectionObserver(entries => {
+  entries.forEach((e,i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('in'), i * 55);
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+// CTA stars
+const starsEl = document.getElementById('stars');
+for (let i = 0; i < 60; i++) {
+  const s = document.createElement('div');
+  s.className = 'cta-star';
+  s.style.cssText = `left:${Math.random()*100}%;top:${Math.random()*100}%;--d:${2+Math.random()*4}s;--dl:${Math.random()*3}s`;
+  starsEl.appendChild(s);
+}
+</script>
+</body>
+</html>
