@@ -66,10 +66,10 @@ nav {
 .hero {
   min-height:100vh;
   padding-top:156px;
-  display:grid;
-  grid-template-columns:1.1fr 0.9fr;
-  gap:80px;
-  align-items:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  max-width:780px;
 }
 
 .hero-badge {
@@ -883,35 +883,6 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
       </ul>
     </div>
 
-    <div class="hero-right">
-      <div class="hero-visual-card">
-        <div class="hvc-label">Campagne overzicht</div>
-        <div class="hvc-row">
-          <span class="hvc-row-label">Status</span>
-          <span class="hvc-row-val green">Live</span>
-        </div>
-        <div class="hvc-row">
-          <span class="hvc-row-label">Afspraken</span>
-          <span class="hvc-row-val blue">11 deze maand</span>
-        </div>
-        <div class="hvc-row">
-          <span class="hvc-row-label">Reacties</span>
-          <span class="hvc-row-val">34 replies</span>
-        </div>
-        <div class="hvc-row">
-          <span class="hvc-row-label">Pipeline</span>
-          <span class="hvc-row-val blue">84K euro</span>
-        </div>
-        <div class="hvc-row">
-          <span class="hvc-row-label">Live sinds</span>
-          <span class="hvc-row-val">Dag 15</span>
-        </div>
-      </div>
-      <div class="hero-guarantee-mini">
-        Geen 5 afspraken in maand 2?<br>
-        Dan ga je niet betalen totdat je ze wel hebt.
-      </div>
-    </div>
   </div>
 </div>
 
