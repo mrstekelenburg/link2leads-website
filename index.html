@@ -35,24 +35,28 @@
 <style>
 
 :root {
-  --black:   #0A0A0A;
-  --black2:  #111111;
-  --black3:  #181818;
+  --bg:      #08090C;
+  --bg2:     #0E1018;
   --accent:  #2F6FED;
   --accent2: #5B8FF5;
-  --white:   #FFFFFF;
-  --muted:   #888888;
+  --white:   #F0EFED;
+  --muted:   #6B7280;
   --muted2:  #444444;
-  --border:  rgba(255,255,255,0.08);
-  --card-bg: #161616;
+  --border:  rgba(255,255,255,0.07);
+  --card:    #12141C;
   --f: 'Inter', sans-serif;
   --mono: 'DM Mono', monospace;
+  /* L2T compatibility aliases */
+  --black:   #08090C;
+  --black2:  #0E1018;
+  --black3:  #181818;
+  --card-bg: #12141C;
 }
 
 *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
 html { scroll-behavior:smooth; }
 body {
-  background: var(--black);
+  background: var(--bg);
   color: var(--white);
   font-family: var(--f);
   overflow-x: hidden;
@@ -118,7 +122,7 @@ nav {
 
 .hero-badge {
   display:inline-flex; align-items:center; gap:8px;
-  background:var(--black3);
+  background:#181820;
   border:1px solid rgba(255,255,255,0.11);
   padding:8px 16px; border-radius:100px;
   font-size:12px; font-weight:600;
@@ -377,7 +381,7 @@ nav {
 .prob-card-visual {
   height:152px;
   display:flex; align-items:center; justify-content:center;
-  background:linear-gradient(145deg,#161616,#1c1c1c);
+  background:linear-gradient(145deg,#12141C,#181820);
   position:relative; overflow:hidden;
 }
 .glow-blob {
@@ -403,7 +407,7 @@ nav {
 .statement p strong { color:var(--white); }
 
 /* ═══════════ WHAT WE DO ═══════════ */
-.whatwedo-section { padding:120px 48px; background:var(--black2); }
+.whatwedo-section { padding:120px 48px; background:var(--bg2); }
 .whatwedo-inner { max-width:1200px; margin:0 auto; }
 .whatwedo-header { margin-bottom:64px; text-align:center; }
 .whatwedo-header-inner {
@@ -435,20 +439,41 @@ nav {
 .case-section { padding:120px 48px; }
 .case-inner { max-width:1200px; margin:0 auto; }
 .case-header { text-align:center; margin-bottom:64px; }
+
+/* browser mockup wrapper */
 .case-card {
-  background:var(--card-bg);
+  border-radius:16px; overflow:hidden;
   border:1px solid rgba(255,255,255,0.07);
-  border-radius:24px; overflow:hidden;
-  display:grid; grid-template-columns:1fr 1fr;
   position:relative;
+  background:var(--card-bg);
 }
 .case-card::before {
   content:'';
   position:absolute; top:0; left:0; right:0; height:1px;
   background:linear-gradient(90deg,transparent,var(--accent),transparent);
-  opacity:.5;
+  opacity:.4;
 }
-.case-left { padding:52px 48px; border-right:1px solid var(--border); }
+/* browser bar */
+.case-bar {
+  display:flex; align-items:center; gap:12px;
+  padding:14px 20px;
+  background:rgba(255,255,255,0.025);
+  border-bottom:1px solid var(--border);
+}
+.case-dots { display:flex; gap:6px; }
+.case-dot { width:12px; height:12px; border-radius:50%; }
+.case-dot.r { background:#FF5F57; }
+.case-dot.y { background:#FEBC2E; }
+.case-dot.g { background:#28C840; }
+.case-url {
+  font-family:var(--mono); font-size:12px; letter-spacing:.5px;
+  color:rgba(240,239,237,0.35);
+}
+/* content inside browser */
+.case-body {
+  display:grid; grid-template-columns:1fr 1fr;
+}
+.case-left { padding:44px 48px; border-right:1px solid var(--border); }
 .case-label {
   font-family:var(--mono); font-size:10px; letter-spacing:2.5px;
   text-transform:uppercase; color:var(--accent); margin-bottom:8px;
@@ -463,55 +488,65 @@ nav {
 }
 .case-row:last-child { border-bottom:1px solid var(--border); }
 .case-row-label { color:var(--muted); font-weight:500; }
-.case-row-val { color:rgba(255,255,255,0.82); line-height:1.5; }
+.case-row-val { color:rgba(240,239,237,0.82); line-height:1.5; }
+
+/* right: stat blocks */
 .case-right {
-  padding:52px 48px;
-  display:flex; flex-direction:column; justify-content:center; align-items:flex-start;
-  background:linear-gradient(135deg, rgba(47,111,237,0.06), transparent);
+  display:flex; flex-direction:column;
+  background:linear-gradient(135deg, rgba(47,111,237,0.05), transparent);
 }
-.case-results { display:flex; flex-direction:column; gap:28px; }
-.case-result-num {
-  font-size:36px; font-weight:900; letter-spacing:-1px;
-  color:var(--accent); line-height:1; text-align:left;
+.case-stat {
+  padding:32px 48px;
+  border-bottom:1px solid var(--border);
+  display:flex; flex-direction:column; gap:6px;
 }
-.case-result-label { font-size:15px; color:var(--muted); margin-top:6px; text-align:left; }
-.case-divider { height:1px; background:var(--border); }
+.case-stat:last-child { border-bottom:none; }
+.case-stat-num {
+  font-size:40px; font-weight:900; letter-spacing:-2px;
+  color:var(--white); line-height:1;
+}
+.case-stat-num span { color:var(--accent); }
+.case-stat-label {
+  font-size:13px; color:var(--muted);
+  font-family:var(--mono); letter-spacing:.5px;
+}
+.case-divider { display:none; }
+.case-result-num { display:none; }
+.case-result-label { display:none; }
 
 /* ═══════════ PROCESS ═══════════ */
-.process-section { padding:120px 48px; background:var(--black2); }
+.process-section { padding:120px 48px; background:var(--bg2); }
+.process-header .big-h { text-align:center; }
+.process-header .big-sub { text-align:center; }
+.process-header .section-pill { margin:0 auto 28px; }
 .process-inner { max-width:1200px; margin:0 auto; }
-.process-header { margin-bottom:72px; text-align:center; max-width:1200px; margin-left:auto; margin-right:auto; }
-.timeline {
-  display:flex; flex-direction:column;
-  gap:0; position:relative;
-}
+.process-header { margin-bottom:72px; text-align:center; }
+
+.timeline { display:flex; flex-direction:column; gap:0; }
 .tl-item {
-  padding:48px 56px 48px 0;
+  display:grid; grid-template-columns:96px 1fr;
+  gap:32px; padding:44px 0;
   border-bottom:1px solid var(--border);
-  position:relative;
-}
-.tl-item:nth-child(even) {
-  padding:48px 0 48px 56px;
-  border-left:1px solid var(--border);
+  align-items:flex-start;
 }
 .tl-item:last-child { border-bottom:none; }
-
 .tl-dot {
-  width:68px; height:68px; border-radius:50%;
-  background:var(--card-bg);
+  width:68px; height:68px; border-radius:14px;
+  background:rgba(47,111,237,0.10);
   border:1px solid rgba(47,111,237,0.25);
   display:flex; align-items:center; justify-content:center;
   font-size:22px; font-weight:900; color:var(--accent);
-  margin-bottom:28px;
+  flex-shrink:0;
 }
+.tl-content { display:flex; flex-direction:column; gap:10px; padding-top:4px; text-align:left; }
 .tl-week {
-  font-family:var(--mono); font-size:14px;
+  font-family:var(--mono); font-size:11px;
   letter-spacing:2px; text-transform:uppercase; font-weight:700;
-  color:var(--accent); margin-bottom:12px;
+  color:var(--accent);
 }
-.tl-title { font-size:22px; font-weight:800; letter-spacing:-.4px; margin-bottom:12px; }
-.tl-desc { font-size:15px; color:var(--muted); line-height:1.65; }
-.tl-chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:20px; }
+.tl-title { font-size:20px; font-weight:800; letter-spacing:-.3px; color:var(--white); text-align:left; }
+.tl-desc { font-size:15px; color:rgba(240,239,237,0.6); line-height:1.7; max-width:680px; text-align:left; }
+.tl-chips { display:flex; flex-wrap:wrap; gap:8px; }
 .tl-chip {
   font-size:11px; font-family:var(--mono); letter-spacing:1px;
   text-transform:uppercase; color:rgba(47,111,237,0.8);
@@ -542,7 +577,7 @@ nav {
 .who-list li span { flex-shrink:0; margin-top:1px; }
 
 /* ═══════════ GUARANTEE ═══════════ */
-.guarantee-section { padding:120px 48px; background:var(--black2); text-align:center; }
+.guarantee-section { padding:120px 48px; background:var(--bg2); text-align:center; }
 .guarantee-inner {
   max-width:800px; margin:0 auto;
 }
@@ -648,7 +683,7 @@ nav {
 .review-logo { height:30px; display:flex; align-items:center; border-top:1px solid var(--border); padding-top:14px; font-size:12px; font-weight:700; color:var(--muted); letter-spacing:.5px; }
 
 /* ═══════════ TEAM ═══════════ */
-.team-section { padding:120px 48px; background:var(--black2); }
+.team-section { padding:120px 48px; background:var(--bg2); }
 .team-inner { max-width:1200px; margin:0 auto; }
 .team-header { text-align:center; margin-bottom:64px; }
 .team-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
@@ -672,7 +707,7 @@ nav {
   border-radius:16px;
   overflow:hidden;
   margin-bottom:20px;
-  background:var(--black3);
+  background:#181820;
 }
 .team-avatar img {
   width:100%; height:100%;
@@ -706,7 +741,7 @@ nav {
 @keyframes prog { from{width:0} }
 
 /* ═══════════ FINAL CTA ═══════════ */
-.cta-section { padding:60px 48px 120px; background:var(--black2); }
+.cta-section { padding:60px 48px 120px; background:var(--bg2); }
 .cta-inner { max-width:1200px; margin:0 auto; }
 .cta-card {
   background:var(--card-bg);
@@ -766,7 +801,7 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
 .nav-mobile-menu {
   display:none;
   position:fixed; top:68px; left:0; right:0; z-index:199;
-  background:rgba(10,10,10,0.98);
+  background:rgba(8,9,12,0.98);
   backdrop-filter:blur(20px);
   border-bottom:1px solid var(--border);
   padding:24px;
@@ -818,10 +853,7 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
   .case-left { border-right:none; border-bottom:1px solid var(--border); padding:32px 28px; }
   .case-right { padding:32px 28px; }
 
-  .timeline { grid-template-columns:1fr 1fr; }
-  .tl-item { padding:40px 40px 40px 0; }
-  .tl-item:nth-child(even) { padding:40px 0 40px 40px; }
-  .tl-item:last-child { border-bottom:none; }
+  .tl-item { grid-template-columns:80px 1fr; gap:28px; }
 
   .who-grid { grid-template-columns:1fr; }
   .pricing-grid { grid-template-columns:1fr 1fr; }
@@ -900,13 +932,8 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
   .case-company { font-size:18px; }
   .case-result-num { font-size:40px; }
 
-  .timeline { grid-template-columns:1fr; }
-  .tl-item { padding:32px 0; border-bottom:1px solid var(--border); }
-  .tl-item:nth-child(even) { padding:32px 0; border-left:none; border-bottom:1px solid var(--border); }
-  .tl-item:last-child { border-bottom:none; }
-  .tl-item:nth-last-child(-n+2) { border-bottom:1px solid var(--border); }
-  .tl-item:last-child { border-bottom:none !important; }
-  .tl-dot { width:56px; height:56px; font-size:18px; }
+  .tl-item { grid-template-columns:60px 1fr; gap:20px; padding:28px 0; }
+  .tl-dot { width:52px; height:52px; border-radius:10px; font-size:17px; }
   .tl-title { font-size:18px; }
 
   .who-card { padding:28px 24px; }
@@ -988,7 +1015,6 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
       <li><a href="#team">Team</a></li>
     </ul>
     <a href="calculator-l2l.html" class="nav-calc" target="_blank">Bereken jouw omzet</a>
-    <a href="https://calendly.com/link2leads/30min" class="nav-cta" target="_blank">Bekijk of dit voor jou werkt</a>
     <button class="nav-hamburger" id="hamburger" aria-label="Menu openen">
       <span></span><span></span><span></span>
     </button>
@@ -1001,7 +1027,6 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
   <a href="#reviews" onclick="closeMenu()">Reviews</a>
   <a href="#team" onclick="closeMenu()">Team</a>
   <a href="calculator-l2l.html" class="nav-mobile-calc" target="_blank">Bereken jouw omzet</a>
-  <a href="https://calendly.com/link2leads/30min" class="nav-mobile-cta" target="_blank">Bekijk of dit voor jou werkt</a>
 </div>
 
 <!-- HERO -->
@@ -1168,43 +1193,49 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
       <p class="big-sub">Een voorbeeld van wat we voor een klant realiseerden.</p>
     </div>
     <div class="case-card reveal">
-      <div class="case-left">
-        <div class="case-label">CASE STUDY</div>
-        <div class="case-company">B2B IT Dienstverlener</div>
-        <div class="case-rows">
-          <div class="case-row">
-            <span class="case-row-label">Probleem</span>
-            <span class="case-row-val">Volledig afhankelijk van via-via leads. Geen voorspelbare pipeline, geen structureel acquisitieprogramma.</span>
-          </div>
-          <div class="case-row">
-            <span class="case-row-label">Aanpak</span>
-            <span class="case-row-val">Doelgroep bepaald, e-mailinfrastructuur opgezet, campagne geschreven en gefaseerd uitgerold naar beslissers bij relevante bedrijven.</span>
-          </div>
-          <div class="case-row">
-            <span class="case-row-label">Looptijd</span>
-            <span class="case-row-val">90 dagen</span>
-          </div>
-          <div class="case-row">
-            <span class="case-row-label">Investering</span>
-            <span class="case-row-val">1.495 euro per maand</span>
+      <div class="case-bar">
+        <div class="case-dots">
+          <div class="case-dot r"></div>
+          <div class="case-dot y"></div>
+          <div class="case-dot g"></div>
+        </div>
+        <span class="case-url">link2leads.nl/casestudy</span>
+      </div>
+      <div class="case-body">
+        <div class="case-left">
+          <div class="case-label">CASE STUDY</div>
+          <div class="case-company">B2B IT Dienstverlener</div>
+          <div class="case-rows">
+            <div class="case-row">
+              <span class="case-row-label">Probleem</span>
+              <span class="case-row-val">Volledig afhankelijk van via-via leads. Geen voorspelbare pipeline, geen structureel acquisitieprogramma.</span>
+            </div>
+            <div class="case-row">
+              <span class="case-row-label">Aanpak</span>
+              <span class="case-row-val">Doelgroep bepaald, e-mailinfrastructuur opgezet, campagne geschreven en gefaseerd uitgerold naar beslissers bij relevante bedrijven.</span>
+            </div>
+            <div class="case-row">
+              <span class="case-row-label">Looptijd</span>
+              <span class="case-row-val">90 dagen</span>
+            </div>
+            <div class="case-row">
+              <span class="case-row-label">Investering</span>
+              <span class="case-row-val">1.495 euro per maand</span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="case-right">
-        <div class="case-results">
-          <div>
-            <div class="case-result-num">47</div>
-            <div class="case-result-label">Gekwalificeerde afspraken in 90 dagen</div>
+        <div class="case-right">
+          <div class="case-stat">
+            <div class="case-stat-num"><span>47</span></div>
+            <div class="case-stat-label">GEKWALIFICEERDE AFSPRAKEN IN 90 DAGEN</div>
           </div>
-          <div class="case-divider"></div>
-          <div>
-            <div class="case-result-num">€84.000</div>
-            <div class="case-result-label">Aan pipeline gegenereerd</div>
+          <div class="case-stat">
+            <div class="case-stat-num"><span>&euro;84.000</span></div>
+            <div class="case-stat-label">AAN PIPELINE GEGENEREERD</div>
           </div>
-          <div class="case-divider"></div>
-          <div>
-            <div class="case-result-num">Dag 1 na livegang</div>
-            <div class="case-result-label">Eerste afspraak in de agenda</div>
+          <div class="case-stat">
+            <div class="case-stat-num">Dag <span>1</span></div>
+            <div class="case-stat-label">EERSTE AFSPRAAK NA LIVEGANG</div>
           </div>
         </div>
       </div>
@@ -1215,7 +1246,7 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
 <!-- PROCESS -->
 <section class="process-section">
   <div class="process-inner">
-    <div class="process-header reveal" style="text-align:center;">
+    <div class="process-header reveal">
       <div class="section-pill">ONZE AANPAK</div>
       <h2 class="big-h">
         Van koude markt naar <span class="blue">volle agenda</span>
@@ -1225,31 +1256,39 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
     <div class="timeline">
       <div class="tl-item reveal">
         <div class="tl-dot">01</div>
-        <div class="tl-week">WEEK 1</div>
-        <div class="tl-title">Strategie en Setup</div>
-        <p class="tl-desc">We bepalen wie jouw ideale klant is, welke pijn ze hebben en hoe jij die oplost. Gerichte lijsten van beslissers die passen bij jouw aanbod.</p>
-        <div class="tl-chips"><span class="tl-chip">ICP</span><span class="tl-chip">MESSAGING</span></div>
+        <div class="tl-content">
+          <div class="tl-week">WEEK 1</div>
+          <div class="tl-title">Strategie en Setup</div>
+          <p class="tl-desc">We bepalen wie jouw ideale klant is, welke pijn ze hebben en hoe jij die oplost. Gerichte lijsten van beslissers die passen bij jouw aanbod.</p>
+          <div class="tl-chips"><span class="tl-chip">ICP</span><span class="tl-chip">MESSAGING</span></div>
+        </div>
       </div>
       <div class="tl-item reveal">
         <div class="tl-dot">02</div>
-        <div class="tl-week">WEEK 2</div>
-        <div class="tl-title">Campagne Opbouw</div>
-        <p class="tl-desc">We schrijven e-mailcampagnes die direct duidelijk maken waarom het interessant is te reageren. Heldere copy, A/B-getest op resultaat.</p>
-        <div class="tl-chips"><span class="tl-chip">COPY</span><span class="tl-chip">A/B TESTING</span></div>
+        <div class="tl-content">
+          <div class="tl-week">WEEK 2</div>
+          <div class="tl-title">Campagne Opbouw</div>
+          <p class="tl-desc">We schrijven e-mailcampagnes die direct duidelijk maken waarom het interessant is te reageren. Heldere copy, A/B-getest op resultaat.</p>
+          <div class="tl-chips"><span class="tl-chip">COPY</span><span class="tl-chip">A/B TESTING</span></div>
+        </div>
       </div>
       <div class="tl-item reveal">
         <div class="tl-dot">03</div>
-        <div class="tl-week">WEEK 3</div>
-        <div class="tl-title">Live!</div>
-        <p class="tl-desc">Na 2 weken opwarming van de infrastructuur gaan campagnes live. De eerste reacties komen binnen. Alleen serieuze leads gaan door naar jouw inbox en agenda.</p>
-        <div class="tl-chips"><span class="tl-chip">LIVE</span><span class="tl-chip">FILTERING</span></div>
+        <div class="tl-content">
+          <div class="tl-week">WEEK 3</div>
+          <div class="tl-title">Live!</div>
+          <p class="tl-desc">Na 2 weken opwarming van de infrastructuur gaan campagnes live. De eerste reacties komen binnen. Alleen serieuze leads gaan door naar jouw inbox en agenda.</p>
+          <div class="tl-chips"><span class="tl-chip">LIVE</span><span class="tl-chip">FILTERING</span></div>
+        </div>
       </div>
       <div class="tl-item reveal">
         <div class="tl-dot">04</div>
-        <div class="tl-week">DOORLOPEND</div>
-        <div class="tl-title">Optimalisatie en Schaal</div>
-        <p class="tl-desc">Wekelijkse rapportage, bijsturing op data. Volume verhogen waar mogelijk. Jouw pipeline groeit elke maand.</p>
-        <div class="tl-chips"><span class="tl-chip">DATA</span><span class="tl-chip">SCHALEN</span></div>
+        <div class="tl-content">
+          <div class="tl-week">DOORLOPEND</div>
+          <div class="tl-title">Optimalisatie en Schaal</div>
+          <p class="tl-desc">Wekelijkse rapportage, bijsturing op data. Volume verhogen waar mogelijk. Jouw pipeline groeit elke maand.</p>
+          <div class="tl-chips"><span class="tl-chip">DATA</span><span class="tl-chip">SCHALEN</span></div>
+        </div>
       </div>
     </div>
   </div>
