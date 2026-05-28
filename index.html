@@ -54,9 +54,9 @@
 }
 
 *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
-html { scroll-behavior:smooth; }
+html { background: #08090C; scroll-behavior:smooth; }
 body {
-  background: var(--bg);
+  background: transparent;
   color: var(--white);
   font-family: var(--f);
   overflow-x: hidden;
@@ -262,7 +262,7 @@ nav {
   border-top:1px solid rgba(255,255,255,0.06);
   border-bottom:1px solid rgba(255,255,255,0.06);
   overflow:hidden;
-  background: linear-gradient(180deg, #0d1117 0%, #111827 50%, #0d1117 100%);
+  background: transparent;
   position:relative;
 }
 /* animated blue shimmer line on top */
@@ -407,7 +407,7 @@ nav {
 .statement p strong { color:var(--white); }
 
 /* ═══════════ WHAT WE DO ═══════════ */
-.whatwedo-section { padding:120px 48px; background:var(--bg2); }
+.whatwedo-section { padding:120px 48px; background: transparent; }
 .whatwedo-inner { max-width:1200px; margin:0 auto; }
 .whatwedo-header { margin-bottom:64px; text-align:center; }
 .whatwedo-header-inner {
@@ -515,7 +515,7 @@ nav {
 .case-result-label { display:none; }
 
 /* ═══════════ PROCESS ═══════════ */
-.process-section { padding:120px 48px; background:var(--bg2); }
+.process-section { padding:120px 48px; background: transparent; }
 .process-header .big-h { text-align:center; }
 .process-header .big-sub { text-align:center; }
 .process-header .section-pill { margin:0 auto 28px; }
@@ -577,7 +577,7 @@ nav {
 .who-list li span { flex-shrink:0; margin-top:1px; }
 
 /* ═══════════ GUARANTEE ═══════════ */
-.guarantee-section { padding:120px 48px; background:var(--bg2); text-align:center; }
+.guarantee-section { padding:120px 48px; background: transparent; text-align:center; }
 .guarantee-inner {
   max-width:800px; margin:0 auto;
 }
@@ -683,7 +683,7 @@ nav {
 .review-logo { height:30px; display:flex; align-items:center; border-top:1px solid var(--border); padding-top:14px; font-size:12px; font-weight:700; color:var(--muted); letter-spacing:.5px; }
 
 /* ═══════════ TEAM ═══════════ */
-.team-section { padding:120px 48px; background:var(--bg2); }
+.team-section { padding:120px 48px; background: transparent; }
 .team-inner { max-width:1200px; margin:0 auto; }
 .team-header { text-align:center; margin-bottom:64px; }
 .team-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
@@ -741,7 +741,7 @@ nav {
 @keyframes prog { from{width:0} }
 
 /* ═══════════ FINAL CTA ═══════════ */
-.cta-section { padding:60px 48px 120px; background:var(--bg2); }
+.cta-section { padding:60px 48px 120px; background: transparent; }
 .cta-inner { max-width:1200px; margin:0 auto; }
 .cta-card {
   background:var(--card-bg);
@@ -999,9 +999,89 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
   transition:all .2s;
 }
 .btn-calc:hover { background: linear-gradient(135deg, rgba(34,197,94,0.2), rgba(47,111,237,0.15)); transform: translateY(-1px); color: #4ade80; }
+
+
+/* ── ORBS BACKGROUND ── */
+#orb-canvas {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+body > *:not(#orb-canvas) {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── FORCE CANVAS VISIBLE ── */
+html { background: #08090C; }
+body { background: transparent !important; }
+section, main, .section-wrap, .hero-wrap { background: transparent !important; }
+
+/* ── GLOBAL TRANSPARENCY FOR CANVAS ── */
+html { background: #08090C !important; }
+body { background: transparent !important; }
+section { background: transparent !important; }
+.marquee-section { background: transparent !important; }
+.hero-section { background: transparent !important; }
 </style>
 </head>
 <body>
+<canvas id="orb-canvas"></canvas>
+<script>
+(function(){
+  const canvas = document.getElementById('orb-canvas');
+  const ctx = canvas.getContext('2d');
+  let W, H;
+
+  function resize(){
+    W = canvas.width = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  const orbs = [
+    { x: 0.15, y: 0.2,  r: 380, color: [47,111,237],  speed: 0.00018, ox: 0, oy: 0, rx: 120, ry: 100, phase: 0    },
+    { x: 0.80, y: 0.45, r: 300, color: [91,143,245],  speed: 0.00013, ox: 0, oy: 0, rx: 100, ry: 130, phase: 2.1  },
+    { x: 0.35, y: 0.75, r: 260, color: [80,50,220],   speed: 0.00016, ox: 0, oy: 0, rx: 90,  ry: 80,  phase: 4.3  },
+    { x: 0.75, y: 0.80, r: 220, color: [47,111,237],  speed: 0.00021, ox: 0, oy: 0, rx: 70,  ry: 110, phase: 1.5  },
+  ];
+
+  let t = 0;
+
+  function draw(){
+    ctx.clearRect(0, 0, W, H);
+    const now = performance.now();
+
+    orbs.forEach(o => {
+      const cx = o.x * W + Math.sin(now * o.speed + o.phase) * o.rx;
+      const cy = o.y * H + Math.cos(now * o.speed * 0.7 + o.phase) * o.ry;
+
+      const grad = ctx.createRadialGradient(cx, cy, 0, cx, cy, o.r);
+      grad.addColorStop(0,   `rgba(${o.color},0.28)`);
+      grad.addColorStop(0.4, `rgba(${o.color},0.08)`);
+      grad.addColorStop(1,   `rgba(${o.color},0)`);
+
+      ctx.filter = 'blur(40px)';
+      ctx.beginPath();
+      ctx.arc(cx, cy, o.r, 0, Math.PI * 2);
+      ctx.fillStyle = grad;
+      ctx.fill();
+    });
+
+    ctx.filter = 'none';
+    requestAnimationFrame(draw);
+  }
+
+  draw();
+})();
+</script>  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="orb orb-4"></div>
+</div>
+
 
 <!-- NAV -->
 <nav>
