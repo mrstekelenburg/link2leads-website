@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boek een strategiecall | Link2Leads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0d0d0d;
+  --bg2: #111;
+  --card: #161616;
+  --card2: #1a1a1a;
+  --border: rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --text: #f0f0f0;
+  --muted: #555;
+  --muted2: #888;
+  --accent: #2563eb;
+  --accent2: #1d4ed8;
+  --accent-glow: rgba(37,99,235,0.2);
+  --green: #22c55e;
+  --green-bg: rgba(34,197,94,0.08);
+  --green-border: rgba(34,197,94,0.25);
+  --font: 'Inter', sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--font);background:var(--bg);color:var(--text);min-height:100vh;-webkit-font-smoothing:antialiased;}
+
+nav{
+  height:58px;padding:0 32px;
+  display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid var(--border);
+  background:rgba(13,13,13,0.95);backdrop-filter:blur(12px);
+  position:sticky;top:0;z-index:100;
+}
+.logo{font-size:17px;font-weight:800;color:var(--text);text-decoration:none;letter-spacing:-0.3px;}
+.logo span{color:var(--accent);}
+.nav-back{font-size:13px;color:var(--muted2);text-decoration:none;transition:color .15s;}
+.nav-back:hover{color:var(--text);}
+
+.page{max-width:980px;margin:0 auto;padding:56px 24px 80px;display:grid;grid-template-columns:320px 1fr;gap:56px;align-items:start;}
+
+/* LEFT */
+.left{position:sticky;top:74px;}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--accent);margin-bottom:18px;display:flex;align-items:center;gap:8px;}
+.eyebrow::before{content:'';display:block;width:20px;height:2px;background:var(--accent);}
+.left h1{font-size:30px;font-weight:800;line-height:1.15;letter-spacing:-0.8px;margin-bottom:14px;}
+.left .sub{font-size:14px;color:var(--muted2);line-height:1.75;margin-bottom:32px;}
+.meta{display:flex;flex-direction:column;gap:10px;}
+.meta-row{display:flex;align-items:flex-start;gap:12px;font-size:13px;color:var(--muted2);padding:10px 14px;background:var(--card);border:1px solid var(--border);border-radius:10px;}
+.meta-icon{font-size:16px;margin-top:1px;flex-shrink:0;}
+.meta-text .lbl{font-size:11px;color:var(--muted);font-weight:600;letter-spacing:0.3px;margin-bottom:2px;}
+.meta-text .val{font-size:13px;color:var(--text);font-weight:500;}
+
+/* WIDGET */
+.widget{background:var(--card);border:1px solid var(--border2);border-radius:16px;overflow:hidden;}
+.widget-top{padding:18px 22px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;}
+.widget-top-title{font-size:14px;font-weight:600;}
+.widget-top-step{font-size:12px;color:var(--muted2);}
+.widget-body{padding:22px;}
+
+.step-panel{display:none;}
+.step-panel.active{display:block;}
+
+/* Calendar */
+.cal-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
+.cal-month{font-size:14px;font-weight:700;letter-spacing:-0.2px;}
+.cal-btns{display:flex;gap:5px;}
+.cal-btn{width:26px;height:26px;border-radius:5px;border:1px solid var(--border2);background:var(--card2);color:var(--muted2);font-size:13px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s;}
+.cal-btn:hover{background:var(--accent);border-color:var(--accent);color:#fff;}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;margin-bottom:18px;}
+.cal-dh{text-align:center;font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;padding:3px 0 7px;}
+.cal-d{aspect-ratio:1;border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500;cursor:default;transition:all .12s;position:relative;}
+.cal-d.avail{cursor:pointer;color:var(--text);}
+.cal-d.avail:hover{background:var(--card2);}
+.cal-d.sel{background:var(--accent)!important;color:#fff!important;font-weight:700;}
+.cal-d.past,.cal-d.wknd{color:var(--muted);}
+.cal-d.today::after{content:'';position:absolute;bottom:2px;left:50%;transform:translateX(-50%);width:3px;height:3px;border-radius:50%;background:var(--accent);}
+.cal-d.sel.today::after{background:rgba(255,255,255,.5);}
+
+.slots-lbl{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;}
+.slots-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;max-height:172px;overflow-y:auto;}
+.slots-grid::-webkit-scrollbar{width:2px;}
+.slots-grid::-webkit-scrollbar-thumb{background:var(--border2);}
+.slot{padding:7px 4px;border-radius:5px;border:1px solid var(--border2);text-align:center;font-size:12px;font-weight:500;color:var(--muted2);cursor:pointer;background:var(--card2);transition:all .12s;}
+.slot:hover{border-color:var(--accent);color:var(--accent);}
+.slot.sel{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:700;}
+.no-date{font-size:13px;color:var(--muted);text-align:center;padding:18px 0;}
+
+.btn{width:100%;padding:12px;border-radius:8px;border:none;font-family:var(--font);font-size:14px;font-weight:600;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:center;gap:6px;margin-top:14px;}
+.btn-primary{background:var(--accent);color:#fff;}
+.btn-primary:hover{background:var(--accent2);}
+.btn-primary:disabled{opacity:.35;cursor:not-allowed;}
+.btn-ghost{background:var(--card2);color:var(--muted2);border:1px solid var(--border2);margin-top:8px;}
+.btn-ghost:hover{color:var(--text);}
+
+/* FORM */
+.slot-preview{display:flex;align-items:center;gap:10px;background:rgba(37,99,235,0.08);border:1px solid rgba(37,99,235,0.2);border-radius:8px;padding:11px 14px;margin-bottom:18px;}
+.sp-icon{font-size:16px;}
+.sp-info{flex:1;}
+.sp-date{font-size:13px;font-weight:600;color:var(--accent);}
+.sp-time{font-size:12px;color:var(--muted2);margin-top:1px;}
+.sp-change{font-size:11px;color:var(--muted);cursor:pointer;background:none;border:none;font-family:var(--font);text-decoration:underline;}
+.sp-change:hover{color:var(--accent);}
+
+.fg{margin-bottom:12px;}
+.fg label{display:block;font-size:11px;font-weight:700;color:var(--muted2);letter-spacing:.4px;text-transform:uppercase;margin-bottom:5px;}
+.fg input,.fg textarea,.fg select{
+  width:100%;padding:10px 12px;
+  background:var(--card2);border:1px solid var(--border2);border-radius:7px;
+  color:var(--text);font-size:13px;font-family:var(--font);outline:none;
+  transition:border-color .15s;
+}
+.fg input:focus,.fg textarea:focus{border-color:var(--accent);}
+.fg input::placeholder,.fg textarea::placeholder{color:var(--muted);}
+.fg textarea{resize:vertical;min-height:64px;}
+.required{color:var(--accent);margin-left:2px;}
+
+.err{background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:6px;padding:9px 12px;font-size:12px;color:#f87171;margin-bottom:12px;display:none;}
+.err.show{display:block;}
+
+/* SUCCESS */
+.succ{text-align:center;padding:8px 0;}
+.succ-ring{width:60px;height:60px;border-radius:50%;background:var(--green-bg);border:1.5px solid var(--green);display:flex;align-items:center;justify-content:center;font-size:24px;margin:0 auto 16px;animation:pop .4s cubic-bezier(.34,1.56,.64,1);}
+@keyframes pop{from{transform:scale(.4);opacity:0}to{transform:scale(1);opacity:1}}
+.succ-title{font-size:20px;font-weight:800;letter-spacing:-.3px;margin-bottom:8px;}
+.succ-sub{font-size:13px;color:var(--muted2);line-height:1.7;margin-bottom:20px;}
+.ref-box{background:var(--card2);border:1px solid var(--border2);border-radius:8px;padding:14px;font-size:11px;color:var(--muted);margin-bottom:16px;}
+.ref-box span{display:block;font-size:16px;font-weight:800;color:var(--text);letter-spacing:3px;margin-top:4px;}
+
+@media(max-width:768px){.page{grid-template-columns:1fr;gap:28px;}.left{position:static;}}
+</style>
+</head>
+<body>
+<nav>
+  <a href="https://www.link2leads.nl" class="logo">Link2<span>Leads</span></a>
+  <a href="https://www.link2leads.nl" class="nav-back">← Terug</a>
+</nav>
+
+<div class="page">
+  <div class="left">
+    <div class="eyebrow">Strategiecall</div>
+    <h1>Boek een strategiecall</h1>
+    <p class="sub">In 15-30 minuten bespreken we hoe we voor jouw bedrijf via e-mailcampagnes direct gesprekken kunnen opleveren met jouw ideale klanten, zonder advertenties of extra tools.</p>
+    <div class="meta">
+      <div class="meta-row">
+        <div class="meta-icon">⏱</div>
+        <div class="meta-text"><div class="lbl">Duur</div><div class="val">30 minuten</div></div>
+      </div>
+      <div class="meta-row">
+        <div class="meta-icon">📹</div>
+        <div class="meta-text"><div class="lbl">Format</div><div class="val">Web conferencing (details na bevestiging)</div></div>
+      </div>
+      <div class="meta-row">
+        <div class="meta-icon">📅</div>
+        <div class="meta-text"><div class="lbl">Beschikbaar</div><div class="val">Ma t/m do 9:00–17:00, vr 9:00–13:00</div></div>
+      </div>
+      <div class="meta-row">
+        <div class="meta-icon">🌍</div>
+        <div class="meta-text"><div class="lbl">Tijdzone</div><div class="val">Midden-Europese tijd (CET)</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="widget">
+    <div class="widget-top">
+      <div class="widget-top-title" id="wTitle">Selecteer een datum</div>
+      <div class="widget-top-step" id="wStep">Stap 1 van 2</div>
+    </div>
+    <div class="widget-body">
+
+      <!-- Step 1: Calendar -->
+      <div class="step-panel active" id="s1">
+        <div class="cal-top">
+          <div class="cal-month" id="calLbl">-</div>
+          <div class="cal-btns">
+            <button class="cal-btn" onclick="prevM()">‹</button>
+            <button class="cal-btn" onclick="nextM()">›</button>
+          </div>
+        </div>
+        <div class="cal-grid" id="calGrid"></div>
+        <div id="slotsWrap" style="display:none">
+          <div class="slots-lbl" id="slotsLbl">Beschikbare tijden</div>
+          <div class="slots-grid" id="slotsGrid"></div>
+        </div>
+        <div class="no-date" id="noDate">Kies een datum om beschikbare tijden te zien</div>
+        <button class="btn btn-primary" id="btnNext" onclick="goS2()" disabled>Doorgaan →</button>
+      </div>
+
+      <!-- Step 2: Form -->
+      <div class="step-panel" id="s2">
+        <div class="slot-preview">
+          <div class="sp-icon">📅</div>
+          <div class="sp-info">
+            <div class="sp-date" id="pvDate">-</div>
+            <div class="sp-time" id="pvTime">-</div>
+          </div>
+          <button class="sp-change" onclick="goS1()">Wijzigen</button>
+        </div>
+        <div class="err" id="fErr">Vul alle verplichte velden in.</div>
+
+        <div class="fg"><label>Naam <span class="required">*</span></label><input type="text" id="fName" placeholder="Voor- en achternaam"></div>
+        <div class="fg"><label>E-mailadres <span class="required">*</span></label><input type="email" id="fEmail" placeholder="naam@bedrijf.nl"></div>
+        <div class="fg"><label>Bedrijfsnaam</label><input type="text" id="fCompany" placeholder="Optioneel"></div>
+        <div class="fg"><label>Telefoonnummer</label><input type="tel" id="fPhone" placeholder="Optioneel"></div>
+        <div class="fg"><label>Wie is jullie ideale klant? <span class="required">*</span></label><textarea id="q1" placeholder="Kort beschrijven..."></textarea></div>
+        <div class="fg"><label>Welke regio's of markten zijn belangrijk? <span class="required">*</span></label><textarea id="q2" placeholder="Bijv. Nederland, DACH, Benelux..."></textarea></div>
+        <div class="fg"><label>Hebben jullie al e-mailcampagnes of andere sales outreach lopen? <span class="required">*</span></label><textarea id="q3" placeholder="Ja/Nee + korte toelichting..."></textarea></div>
+        <div class="fg"><label>Wat is je belangrijkste doel de komende 30-60 dagen? <span class="required">*</span></label><textarea id="q4" placeholder="Bijv. meer afspraken, pipeline opbouwen..."></textarea></div>
+        <div class="fg"><label>Wanneer wil je starten met nieuwe gesprekken / leads? <span class="required">*</span></label><textarea id="q5" placeholder="Bijv. zo snel mogelijk, Q3 2026..."></textarea></div>
+
+        <button class="btn btn-primary" id="btnBook" onclick="book()">Afspraak bevestigen ✓</button>
+        <button class="btn btn-ghost" onclick="goS1()">← Terug</button>
+      </div>
+
+      <!-- Step 3: Success -->
+      <div class="step-panel" id="s3">
+        <div class="succ">
+          <div class="succ-ring">✓</div>
+          <div class="succ-title">Afspraak bevestigd!</div>
+          <div class="succ-sub">Je ontvangt direct een bevestiging op <strong id="confMail">je e-mail</strong>.<br>Een dag van tevoren sturen we een herinnering.</div>
+          <div class="ref-box">Boekingsnummer<span id="bookRef">L2L-000000</span></div>
+          <button class="btn btn-ghost" onclick="reset()" style="margin-top:0">Nieuwe afspraak plannen</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+const COMPANY='link2leads', NOTIFY='demi@link2leads.nl';
+const MONTHS=['Januari','Februari','Maart','April','Mei','Juni','Juli','Augustus','September','Oktober','November','December'];
+const now=new Date();
+let vY=now.getFullYear(),vM=now.getMonth(),selD=null,selSlot=null;
+
+function getSlots(d){
+  const day=d.getDay();
+  if(!day||day===6)return[];
+  const endH=day===5?12.5:16.5;
+  const out=[];
+  for(let h=9;h<=endH;h+=.5){
+    const hh=Math.floor(h),mm=h%1?'30':'00';
+    out.push(`${String(hh).padStart(2,'0')}:${mm}`);
+  }
+  return out;
+}
+
+function renderCal(){
+  document.getElementById('calLbl').textContent=MONTHS[vM]+' '+vY;
+  const g=document.getElementById('calGrid');
+  g.innerHTML='';
+  ['ma','di','wo','do','vr','za','zo'].forEach(d=>{const e=document.createElement('div');e.className='cal-dh';e.textContent=d;g.appendChild(e);});
+  const first=new Date(vY,vM,1),last=new Date(vY,vM+1,0);
+  const today=new Date();today.setHours(0,0,0,0);
+  let off=first.getDay()-1;if(off<0)off=6;
+  for(let i=0;i<off;i++){const e=document.createElement('div');e.className='cal-d';g.appendChild(e);}
+  for(let d=1;d<=last.getDate();d++){
+    const date=new Date(vY,vM,d);
+    const e=document.createElement('div');
+    e.textContent=d;
+    const past=date<today,we=!date.getDay()||date.getDay()===6;
+    const isSel=selD&&date.toDateString()===selD.toDateString();
+    const isToday=date.toDateString()===today.toDateString();
+    e.className='cal-d'+(isToday?' today':'')+(isSel?' sel':'')+(past||we?' past':' avail')+(we?' wknd':'');
+    if(!past&&!we)e.onclick=()=>pickD(new Date(vY,vM,d));
+    g.appendChild(e);
+  }
+}
+
+function pickD(d){selD=d;selSlot=null;document.getElementById('btnNext').disabled=true;renderCal();renderSlots();}
+
+function renderSlots(){
+  const wrap=document.getElementById('slotsWrap'),nd=document.getElementById('noDate'),g=document.getElementById('slotsGrid');
+  if(!selD){wrap.style.display='none';nd.style.display='block';return;}
+  wrap.style.display='block';nd.style.display='none';
+  const lbl=selD.toLocaleDateString('nl-NL',{weekday:'long',day:'numeric',month:'long'});
+  document.getElementById('slotsLbl').textContent=lbl.charAt(0).toUpperCase()+lbl.slice(1);
+  const sl=getSlots(selD);
+  g.innerHTML=sl.map(t=>`<div class="slot${selSlot===t?' sel':''}" onclick="pickSlot('${t}')">${t}</div>`).join('');
+}
+
+function pickSlot(t){selSlot=t;renderSlots();document.getElementById('btnNext').disabled=false;}
+function prevM(){vM--;if(vM<0){vM=11;vY--;}renderCal();}
+function nextM(){vM++;if(vM>11){vM=0;vY++;}renderCal();}
+
+function setStep(n){
+  document.querySelectorAll('.step-panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('s'+n).classList.add('active');
+}
+
+function goS1(){setStep(1);document.getElementById('wTitle').textContent='Selecteer een datum';document.getElementById('wStep').textContent='Stap 1 van 2';}
+
+function goS2(){
+  if(!selD||!selSlot)return;
+  const ds=selD.toLocaleDateString('nl-NL',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+  document.getElementById('pvDate').textContent=ds.charAt(0).toUpperCase()+ds.slice(1);
+  document.getElementById('pvTime').textContent=selSlot+' · 30 minuten · Midden-Europese tijd';
+  setStep(2);
+  document.getElementById('wTitle').textContent='Jouw gegevens';
+  document.getElementById('wStep').textContent='Stap 2 van 2';
+}
+
+async function book(){
+  const name=document.getElementById('fName').value.trim();
+  const email=document.getElementById('fEmail').value.trim();
+  const q1=document.getElementById('q1').value.trim();
+  const q2=document.getElementById('q2').value.trim();
+  const q3=document.getElementById('q3').value.trim();
+  const q4=document.getElementById('q4').value.trim();
+  const q5=document.getElementById('q5').value.trim();
+  const err=document.getElementById('fErr');
+  if(!name||!email||!q1||!q2||!q3||!q4||!q5){err.classList.add('show');return;}
+  err.classList.remove('show');
+  const btn=document.getElementById('btnBook');
+  btn.disabled=true;btn.textContent='Bevestigen...';
+  const ds=selD.toLocaleDateString('nl-NL',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+  try{
+    const res=await fetch('/api/book',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        company:COMPANY,notifyEmail:NOTIFY,
+        name,email,
+        companyName:document.getElementById('fCompany').value.trim(),
+        phone:document.getElementById('fPhone').value.trim(),
+        date:ds.charAt(0).toUpperCase()+ds.slice(1),
+        time:selSlot,
+        answers:{
+          'Ideale klant':q1,
+          "Regio's / markten":q2,
+          'Huidige outreach':q3,
+          'Doel 30-60 dagen':q4,
+          'Gewenste startdatum':q5
+        }
+      })
+    });
+    const data=await res.json();
+    if(data.success){
+      document.getElementById('confMail').textContent=email;
+      document.getElementById('bookRef').textContent=data.ref;
+      setStep(3);
+      document.getElementById('wTitle').textContent='Bevestigd!';
+      document.getElementById('wStep').textContent='';
+    }else{alert('Er ging iets mis. Probeer opnieuw.');btn.disabled=false;btn.textContent='Afspraak bevestigen ✓';}
+  }catch(e){alert('Verbindingsfout. Probeer opnieuw.');btn.disabled=false;btn.textContent='Afspraak bevestigen ✓';}
+}
+
+function reset(){
+  selD=null;selSlot=null;
+  ['fName','fEmail','fCompany','fPhone','q1','q2','q3','q4','q5'].forEach(id=>document.getElementById(id).value='');
+  document.getElementById('btnNext').disabled=true;
+  goS1();renderCal();renderSlots();
+}
+
+renderCal();renderSlots();
+</script>
+</body>
+</html>
