@@ -652,6 +652,26 @@ nav.scrolled .nav-inner {
   text-align:center;
 }
 .volume-note strong { color:rgba(255,255,255,0.68); }
+.p-addon {
+  display:flex; align-items:center; justify-content:space-between;
+  margin-top:16px; padding:11px 16px;
+  background:rgba(47,111,237,0.07);
+  border:1px solid rgba(47,111,237,0.2);
+  border-radius:10px;
+}
+.p-addon-label {
+  font-size:10px; font-weight:800; letter-spacing:1.5px;
+  font-family:var(--mono); color:var(--accent2); text-transform:uppercase;
+}
+.p-addon-price {
+  font-size:13px; font-weight:800; color:#22C55E;
+}
+.fullservice-note {
+  margin-top:12px; padding:18px 28px;
+  background:var(--card-bg); border:1px solid var(--border);
+  border-radius:14px; font-size:14px; color:var(--muted); line-height:1.6;
+}
+.fullservice-note strong { color:rgba(255,255,255,0.75); }
 
 /* ═══════════ REVIEWS ═══════════ */
 .reviews-section { padding:120px 0; position:relative; }
@@ -1552,7 +1572,7 @@ section,
         <a href="book.html" class="p-btn ghost" target="_blank">Bekijk of dit past</a>
       </div>
       <div class="p-card reveal">
-        <div class="p-name">Groei</div>
+        <div class="p-name">Growth</div>
         <div class="p-tagline">Voor consistente instroom van afspraken</div>
         <div class="p-price">&#8364;1.295</div>
         <div class="p-period">per maand, incl. garantie</div>
@@ -1575,16 +1595,20 @@ section,
         <div class="p-volume">500 e-mails/dag · 7 dagen per week</div>
         <div class="p-line"></div>
         <ul class="p-features">
-          <li>Alles uit Groei</li>
+          <li>Alles uit Growth</li>
           <li>Meerdere doelgroepsegmenten tegelijk</li>
           <li>Prioriteit bij optimalisatie en support</li>
           <li>5 tot 12 gekwalificeerde afspraken per maand</li>
           <li>150 euro korting per succesvolle referral</li>
         </ul>
+        <div class="p-addon">
+          <span class="p-addon-label">+ FULL SERVICE OPTIE</span>
+          <span class="p-addon-price">+€600/mnd</span>
+        </div>
         <a href="book.html" class="p-btn solid" target="_blank">Boek een strategiecall</a>
       </div>
       <div class="p-card reveal">
-        <div class="p-name">Dominance</div>
+        <div class="p-name">Pro</div>
         <div class="p-tagline">Maximaal volume, maximaal resultaat</div>
         <div class="p-price">&#8364;1.995</div>
         <div class="p-period">per maand, incl. garantie</div>
@@ -1597,11 +1621,18 @@ section,
           <li>Maandelijkse strategiesessie</li>
           <li>175 euro korting per succesvolle referral</li>
         </ul>
+        <div class="p-addon">
+          <span class="p-addon-label">+ FULL SERVICE OPTIE</span>
+          <span class="p-addon-price">+€800/mnd</span>
+        </div>
         <a href="book.html" class="p-btn ghost" target="_blank">Bekijk of dit past</a>
       </div>
     </div>
     <div class="volume-note reveal">
       <strong>Nog meer volume nodig?</strong> Grotere volumes zijn mogelijk. Neem contact op voor een voorstel op maat via <a href="mailto:info@link2leads.nl" style="color:var(--accent2);">info@link2leads.nl</a>
+    </div>
+    <div class="fullservice-note reveal">
+      <strong>Full service</strong> houdt in: wij handelen alle inkomende replies af, voeren de follow-up uit en plannen gekwalificeerde afspraken in jouw agenda. Inclusief afspraakgarantie, vastgesteld op basis van niche en ICP tijdens de onboarding. Minimale contractduur 3 maanden.
     </div>
   </div>
 </section>
@@ -1745,9 +1776,9 @@ section,
       <div class="foot-col-title">Diensten</div>
       <ul class="foot-col-links">
         <li><a href="#pakketten">Starter</a></li>
-        <li><a href="#pakketten">Groei</a></li>
+        <li><a href="#pakketten">Growth</a></li>
         <li><a href="#pakketten">Scale</a></li>
-        <li><a href="#pakketten">Dominance</a></li>
+        <li><a href="#pakketten">Pro</a></li>
       </ul>
     </div>
     <div>
