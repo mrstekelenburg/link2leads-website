@@ -397,9 +397,9 @@ body { background: transparent !important; color: #F0EFED; }
   requestAnimationFrame(draw);
 
   // Nav scroll style
-  const nav = document.querySelector('nav');
   window.addEventListener('scroll', () => {
-    nav.classList.toggle('scrolled', window.scrollY > 60);
+    const nav = document.querySelector('nav');
+    if (nav) nav.classList.toggle('scrolled', window.scrollY > 60);
   }, { passive: true });
 })();
 </script>
