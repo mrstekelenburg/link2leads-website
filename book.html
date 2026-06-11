@@ -143,20 +143,6 @@ nav{
 
 .err{background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:6px;padding:9px 12px;font-size:12px;color:#f87171;margin-bottom:12px;display:none;}
 .err.show{display:block;}
-.fg input.invalid,.fg textarea.invalid{border-color:#ef4444;}
-
-/* QUESTIONNAIRE */
-.qbar{height:4px;background:var(--card2);border-radius:100px;overflow:hidden;margin-bottom:18px;}
-.qbar-fill{height:100%;background:var(--accent);border-radius:100px;transition:width .25s ease;}
-.q-label{font-size:11px;font-weight:700;color:var(--accent);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;}
-.q-title{font-size:18px;font-weight:700;letter-spacing:-.3px;line-height:1.35;margin-bottom:14px;}
-.q-area{width:100%;padding:12px 14px;background:var(--card2);border:1px solid var(--border2);border-radius:8px;color:var(--text);font-size:14px;font-family:var(--font);outline:none;resize:vertical;min-height:110px;transition:border-color .15s;}
-.q-area:focus{border-color:var(--accent);}
-.q-area::placeholder{color:var(--muted);}
-.q-area.invalid{border-color:#ef4444;}
-.q-nav{display:flex;gap:8px;}
-.q-nav .btn{margin-top:14px;}
-.q-nav .btn-ghost{width:auto;padding:12px 18px;flex-shrink:0;}
 
 /* SUCCESS */
 .succ{text-align:center;padding:8px 0;}
@@ -278,9 +264,9 @@ body { background: transparent !important; color: #F0EFED; }
   requestAnimationFrame(draw);
 
   // Nav scroll style
-  const nav = document.querySelector('nav');
   window.addEventListener('scroll', () => {
-    nav.classList.toggle('scrolled', window.scrollY > 60);
+    const nav = document.querySelector('nav');
+    if (nav) nav.classList.toggle('scrolled', window.scrollY > 60);
   }, { passive: true });
 })();
 </script>
@@ -318,7 +304,7 @@ body { background: transparent !important; color: #F0EFED; }
   <div class="widget">
     <div class="widget-top">
       <div class="widget-top-title" id="wTitle">Selecteer een datum</div>
-      <div class="widget-top-step" id="wStep">Stap 1 van 2</div>
+      <div class="widget-top-step" id="wStep">Stap 1 van 3</div>
     </div>
     <div class="widget-body">
 
@@ -350,48 +336,46 @@ body { background: transparent !important; color: #F0EFED; }
           </div>
           <button class="sp-change" onclick="goS1()">Wijzigen</button>
         </div>
-        <div class="err" id="fErr">Vul alle verplichte velden in.</div>
+        <div class="err" id="fErr">Vul je naam en e-mailadres in.</div>
 
         <div class="fg"><label>Naam <span class="required">*</span></label><input type="text" id="fName" placeholder="Voor- en achternaam"></div>
-        <div class="fg"><label>Bedrijfsnaam <span class="required">*</span></label><input type="text" id="fCompany" placeholder="Naam van je bedrijf"></div>
         <div class="fg"><label>E-mailadres <span class="required">*</span></label><input type="email" id="fEmail" placeholder="naam@bedrijf.nl"></div>
+        <div class="fg"><label>Bedrijfsnaam</label><input type="text" id="fCompany" placeholder="Optioneel"></div>
         <div class="fg"><label>Telefoonnummer</label><input type="tel" id="fPhone" placeholder="Optioneel"></div>
 
-        <button class="btn btn-primary" id="btnBook" onclick="book()">Verstuur </button>
+        <button class="btn btn-primary" id="btnBook" onclick="book()">Afspraak bevestigen </button>
         <button class="btn btn-ghost" onclick="goS1()">← Terug</button>
       </div>
 
-      <!-- Step 3: Booking confirmed -->
+      <!-- Step 3: Vragen (afspraak staat al vast) -->
+      <div class="step-panel" id="sq">
+        <div class="slot-preview" style="border-color:rgba(47,111,237,0.35);">
+          <div class="sp-icon"></div>
+          <div class="sp-info">
+            <div class="sp-date" style="color:var(--accent2,#5B8DEF);">Afspraak bevestigd ✓</div>
+            <div class="sp-time">De bevestiging staat in je mail. Boekingsnr. <strong id="qRef">-</strong></div>
+          </div>
+        </div>
+        <p style="font-size:14px;color:var(--muted,#9aa3b2);line-height:1.6;margin:0 0 18px;">Help ons de call voor te bereiden. Hoe meer we vooraf weten, hoe concreter het plan dat je krijgt.</p>
+
+        <div class="fg"><label>Wie is jullie ideale klant?</label><textarea id="q1" placeholder="Kort beschrijven..."></textarea></div>
+        <div class="fg"><label>Welke regio's of markten zijn belangrijk?</label><textarea id="q2" placeholder="Bijv. Nederland, DACH, Benelux..."></textarea></div>
+        <div class="fg"><label>Hebben jullie al e-mailcampagnes of andere sales outreach lopen?</label><textarea id="q3" placeholder="Ja/Nee + korte toelichting..."></textarea></div>
+        <div class="fg"><label>Wat is je belangrijkste doel de komende 30-60 dagen?</label><textarea id="q4" placeholder="Bijv. meer afspraken, pipeline opbouwen..."></textarea></div>
+        <div class="fg"><label>Wanneer wil je starten met nieuwe gesprekken / leads?</label><textarea id="q5" placeholder="Bijv. zo snel mogelijk, Q3 2026..."></textarea></div>
+
+        <button class="btn btn-primary" id="btnAnswers" onclick="sendAnswers()">Antwoorden versturen </button>
+        <button class="btn btn-ghost" onclick="skipAnswers()">Overslaan, ik vertel het in de call</button>
+      </div>
+
+      <!-- Step 3: Success -->
       <div class="step-panel" id="s3">
         <div class="succ">
           <div class="succ-ring"></div>
           <div class="succ-title">Afspraak bevestigd!</div>
-          <div class="succ-sub">Je ontvangt direct een bevestiging op <strong id="confMail">je e-mail</strong>.<br>Vul nu nog de korte vragenlijst in (15 vragen), zodat we het gesprek goed kunnen voorbereiden.</div>
+          <div class="succ-sub">Je ontvangt direct een bevestiging op <strong id="confMail">je e-mail</strong>.<br>Een dag van tevoren sturen we een herinnering.</div>
           <div class="ref-box">Boekingsnummer<span id="bookRef">L2L-000000</span></div>
-          <button class="btn btn-primary" onclick="startQ()" style="margin-top:0">Vragenlijst starten →</button>
-        </div>
-      </div>
-
-      <!-- Step 4: Questionnaire (1 vraag per pagina) -->
-      <div class="step-panel" id="s4">
-        <div class="qbar"><div class="qbar-fill" id="qBar" style="width:0%"></div></div>
-        <div class="q-label" id="qNum">Vraag 1 van 15</div>
-        <div class="q-title" id="qTitle">-</div>
-        <div class="err" id="qErr">Vul eerst een antwoord in.</div>
-        <textarea class="q-area" id="qInput" placeholder=""></textarea>
-        <div class="q-nav">
-          <button class="btn btn-ghost" id="qBack" onclick="prevQ()">← Terug</button>
-          <button class="btn btn-primary" id="qNext" onclick="nextQ()">Volgende →</button>
-        </div>
-      </div>
-
-      <!-- Step 5: All done -->
-      <div class="step-panel" id="s5">
-        <div class="succ">
-          <div class="succ-ring"></div>
-          <div class="succ-title">Helemaal klaar!</div>
-          <div class="succ-sub">Je antwoorden zijn verstuurd. Je ontvangt een kopie op <strong id="confMail2">je e-mail</strong>.<br>Tot bij de strategiecall!</div>
-          <div class="ref-box">Boekingsnummer<span id="bookRef2">L2L-000000</span></div>
+          <button class="btn btn-ghost" onclick="reset()" style="margin-top:0">Nieuwe afspraak plannen</button>
         </div>
       </div>
 
@@ -460,7 +444,7 @@ function setStep(n){
   document.getElementById('s'+n).classList.add('active');
 }
 
-function goS1(){setStep(1);document.getElementById('wTitle').textContent='Selecteer een datum';document.getElementById('wStep').textContent='Stap 1 van 2';}
+function goS1(){setStep(1);document.getElementById('wTitle').textContent='Selecteer een datum';document.getElementById('wStep').textContent='Stap 1 van 3';}
 
 function goS2(){
   if(!selD||!selSlot)return;
@@ -469,137 +453,92 @@ function goS2(){
   document.getElementById('pvTime').textContent=selSlot+' · 30 minuten · Midden-Europese tijd';
   setStep(2);
   document.getElementById('wTitle').textContent='Jouw gegevens';
-  document.getElementById('wStep').textContent='Stap 2 van 2';
+  document.getElementById('wStep').textContent='Stap 2 van 3';
 }
+
+let bookingRef=null, bookingName='', bookingEmail='', bookingDateStr='';
 
 async function book(){
   const name=document.getElementById('fName').value.trim();
   const email=document.getElementById('fEmail').value.trim();
-  const companyName=document.getElementById('fCompany').value.trim();
   const err=document.getElementById('fErr');
-  let ok=true;
-  [['fName',name],['fCompany',companyName],['fEmail',email]].forEach(([id,v])=>{
-    const el=document.getElementById(id);
-    if(!v){el.classList.add('invalid');ok=false;}else{el.classList.remove('invalid');}
-  });
-  if(!ok||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){
-    if(email&&!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email))document.getElementById('fEmail').classList.add('invalid');
-    err.classList.add('show');return;
-  }
+  if(!name||!email){err.classList.add('show');return;}
   err.classList.remove('show');
   const btn=document.getElementById('btnBook');
-  btn.disabled=true;btn.textContent='Versturen...';
+  btn.disabled=true;btn.textContent='Bevestigen...';
   const ds=selD.toLocaleDateString('nl-NL',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
-  booking={
-    name,email,companyName,
-    phone:document.getElementById('fPhone').value.trim(),
-    date:ds.charAt(0).toUpperCase()+ds.slice(1),
-    time:selSlot
-  };
+  bookingDateStr=ds.charAt(0).toUpperCase()+ds.slice(1);
   try{
     const res=await fetch('/api/book',{
       method:'POST',
       headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({type:'booking',company:COMPANY,notifyEmail:NOTIFY,...booking})
+      body:JSON.stringify({
+        stage:'booking',
+        company:COMPANY,notifyEmail:NOTIFY,
+        name,email,
+        companyName:document.getElementById('fCompany').value.trim(),
+        phone:document.getElementById('fPhone').value.trim(),
+        date:bookingDateStr,
+        time:selSlot,
+        dateObj:selD.toISOString()
+      })
     });
     const data=await res.json();
     if(data.success){
-      booking.ref=data.ref;
-      document.getElementById('confMail').textContent=booking.email;
+      bookingRef=data.ref;bookingName=name;bookingEmail=email;
+      document.getElementById('confMail').textContent=email;
       document.getElementById('bookRef').textContent=data.ref;
-      setStep(3);
-      document.getElementById('wTitle').textContent='Bevestigd!';
-      document.getElementById('wStep').textContent='';
-    }else{alert('Er ging iets mis. Probeer opnieuw.');btn.disabled=false;btn.textContent='Verstuur ';}
-  }catch(e){alert('Verbindingsfout. Probeer opnieuw.');btn.disabled=false;btn.textContent='Verstuur ';}
+      document.getElementById('qRef').textContent=data.ref;
+      document.querySelectorAll('.step-panel').forEach(p=>p.classList.remove('active'));
+      document.getElementById('sq').classList.add('active');
+      document.getElementById('wTitle').textContent='Nog een paar vragen';
+      document.getElementById('wStep').textContent='Stap 3 van 3 · optioneel';
+    }else{alert('Er ging iets mis. Probeer opnieuw.');btn.disabled=false;btn.textContent='Afspraak bevestigen ';}
+  }catch(e){alert('Verbindingsfout. Probeer opnieuw.');btn.disabled=false;btn.textContent='Afspraak bevestigen ';}
 }
 
-/* ===== Vragenlijst: 15 vragen, 1 per pagina ===== */
-const QUESTIONS=[
-  {label:'Ideale klant',q:'Wie is jullie ideale klant?',ph:'Beschrijf het type bedrijf dat je wil bereiken...'},
-  {label:'Bedrijfsgrootte',q:'Wat is de typische bedrijfsgrootte van jullie ideale klant?',ph:'Bijv. 20-100 medewerkers'},
-  {label:'Functietitels beslissers',q:'Welke functietitels hebben de beslissers die jullie willen bereiken?',ph:'Bijv. directie, inkopers, HR...'},
-  {label:"Regio's",q:"Op welke regio's of markten richten jullie je?",ph:'Bijv. heel Nederland, Benelux, DACH...'},
-  {label:'Aanbod',q:'Wat bieden jullie precies aan?',ph:'Beschrijf je product of dienst...'},
-  {label:'Resultaat voor klant',q:'Welk concreet resultaat levert dat jullie klant op?',ph:'Wat verandert er voor de klant?'},
-  {label:'Onderscheidend vermogen',q:'Wat maakt jullie anders dan concurrenten?',ph:'Waarom kiezen klanten voor jullie?'},
-  {label:'Concrete case met cijfers',q:'Heb je een concrete klantcase met cijfers?',ph:'Bijv. resultaat, besparing, groei...'},
-  {label:'Grootste pijnpunt klant',q:'Wat is het grootste pijnpunt van jullie klant?',ph:'Waar ligt jullie klant wakker van?'},
-  {label:'Gevolg van niets doen',q:'Wat gebeurt er als jullie klant niets doet?',ph:'Risico of gemiste kans...'},
-  {label:'Wie voert gesprekken',q:'Wie voert straks de gesprekken met geboekte leads?',ph:'Naam + functie'},
-  {label:'Welke klanten niet',q:'Welke klanten willen jullie juist níet?',ph:'Bijv. te klein, verkeerde sector...'},
-  {label:'Schrijfstijl / toon',q:'Welke schrijfstijl of toon past bij jullie?',ph:'Bijv. informeel, zakelijk, direct...'},
-  {label:'E-mailhandtekening',q:'Heb je een e-mailhandtekening die we kunnen gebruiken?',ph:'Plak hem hier, of geef aan dat je hem later deelt'},
-  {label:'Mailen vanuit persoon of bedrijf',q:'Mailen we vanuit een persoon of vanuit het bedrijf?',ph:'Persoon of bedrijf + eventuele toelichting'}
-];
-let booking=null,qIdx=0;
-const qAnswers=new Array(QUESTIONS.length).fill('');
-
-function startQ(){
-  qIdx=0;
-  setStep(4);
-  document.getElementById('wTitle').textContent='Vragenlijst';
-  renderQ();
-}
-
-function renderQ(){
-  const Q=QUESTIONS[qIdx];
-  document.getElementById('qNum').textContent='Vraag '+(qIdx+1)+' van '+QUESTIONS.length;
-  document.getElementById('wStep').textContent='Vraag '+(qIdx+1)+' van '+QUESTIONS.length;
-  document.getElementById('qTitle').textContent=Q.q;
-  const inp=document.getElementById('qInput');
-  inp.placeholder=Q.ph;
-  inp.value=qAnswers[qIdx];
-  inp.classList.remove('invalid');
-  document.getElementById('qErr').classList.remove('show');
-  document.getElementById('qBar').style.width=Math.round(qIdx/QUESTIONS.length*100)+'%';
-  document.getElementById('qBack').style.visibility=qIdx===0?'hidden':'visible';
-  document.getElementById('qNext').textContent=qIdx===QUESTIONS.length-1?'Versturen ':'Volgende →';
-  document.getElementById('qNext').disabled=false;
-  inp.focus();
-}
-
-function prevQ(){
-  qAnswers[qIdx]=document.getElementById('qInput').value.trim();
-  if(qIdx>0){qIdx--;renderQ();}
-}
-
-async function nextQ(){
-  const inp=document.getElementById('qInput');
-  const val=inp.value.trim();
-  if(!val){inp.classList.add('invalid');document.getElementById('qErr').classList.add('show');inp.focus();return;}
-  inp.classList.remove('invalid');
-  document.getElementById('qErr').classList.remove('show');
-  qAnswers[qIdx]=val;
-  if(qIdx<QUESTIONS.length-1){qIdx++;renderQ();return;}
-  // Laatste vraag: antwoorden versturen
-  const btn=document.getElementById('qNext');
+async function sendAnswers(){
+  const answers={
+    'Ideale klant':document.getElementById('q1').value.trim(),
+    "Regio's / markten":document.getElementById('q2').value.trim(),
+    'Huidige outreach':document.getElementById('q3').value.trim(),
+    'Doel 30-60 dagen':document.getElementById('q4').value.trim(),
+    'Gewenste startdatum':document.getElementById('q5').value.trim()
+  };
+  if(!Object.values(answers).some(v=>v)){skipAnswers();return;}
+  const btn=document.getElementById('btnAnswers');
   btn.disabled=true;btn.textContent='Versturen...';
-  const answers={};
-  QUESTIONS.forEach((Q,i)=>{answers[Q.label]=qAnswers[i];});
   try{
     const res=await fetch('/api/book',{
       method:'POST',
       headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({type:'answers',company:COMPANY,notifyEmail:NOTIFY,ref:booking.ref,
-        name:booking.name,email:booking.email,companyName:booking.companyName,phone:booking.phone,
-        date:booking.date,time:booking.time,answers})
+      body:JSON.stringify({
+        stage:'answers',
+        company:COMPANY,notifyEmail:NOTIFY,
+        name:bookingName,email:bookingEmail,
+        ref:bookingRef,date:bookingDateStr,time:selSlot,
+        answers
+      })
     });
     const data=await res.json();
-    if(data.success){
-      document.getElementById('qBar').style.width='100%';
-      document.getElementById('confMail2').textContent=booking.email;
-      document.getElementById('bookRef2').textContent=booking.ref;
-      setStep(5);
-      document.getElementById('wTitle').textContent='Klaar!';
-      document.getElementById('wStep').textContent='';
-    }else{alert('Er ging iets mis. Probeer opnieuw.');btn.disabled=false;btn.textContent='Versturen ';}
-  }catch(e){alert('Verbindingsfout. Probeer opnieuw.');btn.disabled=false;btn.textContent='Versturen ';}
+    if(data.success){finishFlow();}
+    else{alert('Er ging iets mis. Probeer opnieuw.');btn.disabled=false;btn.textContent='Antwoorden versturen ';}
+  }catch(e){alert('Verbindingsfout. Probeer opnieuw.');btn.disabled=false;btn.textContent='Antwoorden versturen ';}
+}
+
+function skipAnswers(){finishFlow();}
+
+function finishFlow(){
+  setStep(3);
+  document.getElementById('wTitle').textContent='Bevestigd!';
+  document.getElementById('wStep').textContent='';
 }
 
 function reset(){
-  selD=null;selSlot=null;booking=null;qIdx=0;qAnswers.fill('');
-  ['fName','fEmail','fCompany','fPhone'].forEach(id=>document.getElementById(id).value='');
+  selD=null;selSlot=null;bookingRef=null;
+  ['fName','fEmail','fCompany','fPhone','q1','q2','q3','q4','q5'].forEach(id=>document.getElementById(id).value='');
+  const bb=document.getElementById('btnBook');bb.disabled=false;bb.textContent='Afspraak bevestigen ';
+  const ba=document.getElementById('btnAnswers');ba.disabled=false;ba.textContent='Antwoorden versturen ';
   document.getElementById('btnNext').disabled=true;
   goS1();renderCal();renderSlots();
 }
