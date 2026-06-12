@@ -236,24 +236,77 @@ input[type="range"]::-webkit-slider-thumb:hover { box-shadow:0 0 0 6px rgba(47,1
 .bnum.white { color:var(--white); }
 .blabel { font-size:11px; color:var(--muted); line-height:1.4; }
 
-/* CAMPAIGN FLOW */
+/* CAMPAIGN FLOW — rebuilt for impact */
 .funnel {
-  background:rgba(255,255,255,0.02); border:1px solid var(--border);
-  border-radius:12px; padding:20px; margin-bottom:32px;
+  background:transparent;
+  margin-bottom:32px;
 }
-.funnel-title { font-size:12px; color:var(--muted); letter-spacing:1px; text-transform:uppercase; margin-bottom:16px; }
-.funnel-steps { display:flex; flex-direction:column; gap:0; }
-.funnel-step {
-  display:flex; align-items:center; gap:12px; padding:10px 0;
+.funnel-title {
+  font-size:11px; font-weight:700; color:var(--muted);
+  letter-spacing:2px; text-transform:uppercase;
+  margin-bottom:20px; padding-bottom:10px;
   border-bottom:1px solid var(--border);
 }
-.funnel-step:last-child { border-bottom:none; }
-.funnel-num {
-  font-family:var(--mono); font-size:16px; font-weight:500;
-  min-width:80px; color:var(--white);
+.funnel-steps { display:flex; flex-direction:column; gap:6px; }
+
+.funnel-step {
+  display:grid;
+  grid-template-columns:28px 1fr auto;
+  align-items:center; gap:14px;
+  padding:14px 18px;
+  border-radius:12px;
+  border:1px solid transparent;
+  background:rgba(255,255,255,0.03);
+  position:relative; overflow:hidden;
+  transition:border-color .2s;
 }
-.funnel-desc { font-size:13px; color:var(--muted); }
-.funnel-arrow { color:var(--accent); margin:0 4px; }
+.funnel-step::before {
+  content:''; position:absolute; left:0; top:0; bottom:0; width:3px;
+  background:var(--step-color, var(--border));
+  border-radius:3px 0 0 3px;
+}
+.funnel-step:nth-child(1) { --step-color: rgba(47,111,237,0.4); }
+.funnel-step:nth-child(2) { --step-color: rgba(47,111,237,0.6); }
+.funnel-step:nth-child(3) { --step-color: rgba(91,143,245,0.8); }
+.funnel-step:nth-child(4) { --step-color: rgba(100,200,100,0.7); }
+.funnel-step:nth-child(5) {
+  --step-color: #22C55E;
+  background:rgba(34,197,94,0.07);
+  border-color:rgba(34,197,94,0.25);
+  padding:18px 18px;
+}
+
+.funnel-icon {
+  font-size:16px; display:flex; align-items:center; justify-content:center;
+  flex-shrink:0;
+}
+.funnel-body { display:flex; flex-direction:column; gap:2px; min-width:0; }
+.funnel-label {
+  font-size:13px; font-weight:600; color:rgba(255,255,255,0.85);
+}
+.funnel-meta {
+  font-size:11px; color:var(--muted); line-height:1.3;
+}
+.funnel-step:nth-child(5) .funnel-label {
+  font-size:14px; font-weight:700; color:#22C55E;
+}
+.funnel-step:nth-child(5) .funnel-meta { color:rgba(34,197,94,0.65); }
+
+.funnel-num {
+  font-size:22px; font-weight:900;
+  letter-spacing:-0.5px;
+  color:var(--white);
+  text-align:right; white-space:nowrap; flex-shrink:0;
+}
+.funnel-step:nth-child(5) .funnel-num {
+  font-size:26px; color:#22C55E;
+}
+
+.funnel-connector {
+  display:flex; justify-content:center; align-items:center;
+  height:12px; color:rgba(47,111,237,0.35);
+  font-size:10px;
+}
 
 /* CTA */
 .cta-block { text-align:center; padding-top:8px; }
@@ -294,7 +347,8 @@ footer {
   .result-card { padding:24px; }
   .breakdown { grid-template-columns:1fr; }
   .stats-bar { grid-template-columns:1fr; }
-  .funnel-num { min-width:60px; font-size:14px; }
+  .funnel-num { font-size:18px; }
+  .funnel-step:nth-child(5) .funnel-num { font-size:22px; }
   footer { padding:28px 20px; }
   .foot-inner { flex-direction:column; gap:12px; }
 }
@@ -499,24 +553,48 @@ body { background: transparent !important; color: #F0EFED; }
       <div class="funnel-title">Zo werkt een Link2Leads campagne voor jou</div>
       <div class="funnel-steps">
         <div class="funnel-step">
+          <span class="funnel-icon">📤</span>
+          <span class="funnel-body">
+            <span class="funnel-label">E-mails verstuurd</span>
+            <span class="funnel-meta">per maand, volledig beheerd</span>
+          </span>
           <span class="funnel-num" id="fEmails">—</span>
-          <span class="funnel-desc">e-mails verstuurd per maand</span>
         </div>
+        <div class="funnel-connector">↓</div>
         <div class="funnel-step">
+          <span class="funnel-icon">👁️</span>
+          <span class="funnel-body">
+            <span class="funnel-label">Opent de mail</span>
+            <span class="funnel-meta">gemiddeld 70% openrate</span>
+          </span>
           <span class="funnel-num" id="fOpens">—</span>
-          <span class="funnel-desc">opent de mail (gemiddeld 70% openrate)</span>
         </div>
+        <div class="funnel-connector">↓</div>
         <div class="funnel-step">
+          <span class="funnel-icon">💬</span>
+          <span class="funnel-body">
+            <span class="funnel-label">Reageert op jouw mail</span>
+            <span class="funnel-meta">5–20% reply rate</span>
+          </span>
           <span class="funnel-num" id="fReplies">—</span>
-          <span class="funnel-desc">reageert (5–20% reply rate, afhankelijk van je markt)</span>
         </div>
+        <div class="funnel-connector">↓</div>
         <div class="funnel-step">
+          <span class="funnel-icon">🎯</span>
+          <span class="funnel-body">
+            <span class="funnel-label">Positief geïnteresseerd</span>
+            <span class="funnel-meta">6–12%, product/markt fit</span>
+          </span>
           <span class="funnel-num" id="fPositive">—</span>
-          <span class="funnel-desc">positieve reacties (6–12%, afhankelijk van product/markt fit)</span>
         </div>
+        <div class="funnel-connector">↓</div>
         <div class="funnel-step">
+          <span class="funnel-icon">💰</span>
+          <span class="funnel-body">
+            <span class="funnel-label">Nieuwe klanten per maand</span>
+            <span class="funnel-meta" id="fDealsDesc">bij 25% close rate</span>
+          </span>
           <span class="funnel-num" id="fDeals">—</span>
-          <span class="funnel-desc" id="fDealsDesc">nieuwe klanten per maand</span>
         </div>
       </div>
     </div>
