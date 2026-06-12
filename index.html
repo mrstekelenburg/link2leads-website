@@ -663,15 +663,15 @@ nav.scrolled .nav-inner {
   padding:4px 16px; border-radius:100px; white-space:nowrap;
   font-family:var(--mono);
 }
-.p-name { font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
-.p-tagline { font-size:12px; color:rgba(255,255,255,0.35); margin-bottom:22px; min-height:32px; line-height:1.5; }
+.p-name { font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--accent); margin-bottom:6px; }
+.p-tagline { font-size:13px; color:rgba(255,255,255,0.75); margin-bottom:22px; min-height:32px; line-height:1.5; }
 .p-price { font-size:44px; font-weight:900; letter-spacing:-2.5px; line-height:1; margin-bottom:4px; }
 .p-period { font-size:12px; color:var(--muted); margin-bottom:22px; }
 .p-volume {
-  font-family:var(--mono); font-size:11px; letter-spacing:1px;
-  text-transform:uppercase; color:var(--accent2);
+  font-family:var(--font); font-size:12px; font-weight:600; letter-spacing:0;
+  text-transform:none; color:var(--accent2);
   background:rgba(47,111,237,0.08); border:1px solid rgba(47,111,237,0.18);
-  padding:6px 12px; border-radius:6px; margin-bottom:22px;
+  padding:7px 14px; border-radius:6px; margin-bottom:22px;
   display:inline-block;
 }
 .p-line { height:1px; background:var(--border); margin-bottom:20px; }
@@ -691,18 +691,19 @@ nav.scrolled .nav-inner {
 }
 .volume-note strong { color:rgba(255,255,255,0.68); }
 .p-addon {
-  display:flex; align-items:center; justify-content:space-between;
-  margin-top:16px; padding:11px 16px;
-  background:rgba(47,111,237,0.07);
-  border:1px solid rgba(47,111,237,0.2);
-  border-radius:10px;
+  display:flex; align-items:center; justify-content:space-between; gap:10px;
+  margin-top:20px; padding:14px 16px;
+  background:rgba(47,111,237,0.10);
+  border:1.5px solid rgba(47,111,237,0.35);
+  border-radius:12px;
 }
 .p-addon-label {
-  font-size:10px; font-weight:800; letter-spacing:1.5px;
-  font-family:var(--mono); color:var(--accent2); text-transform:uppercase;
+  font-size:12px; font-weight:700; letter-spacing:0;
+  font-family:var(--font); color:#fff; text-transform:none;
+  line-height:1.4;
 }
 .p-addon-price {
-  font-size:13px; font-weight:800; color:#22C55E;
+  font-size:15px; font-weight:800; color:#22C55E; white-space:nowrap;
 }
 .fullservice-note {
   margin-top:12px; padding:18px 28px;
@@ -1717,7 +1718,7 @@ section,
           <li>Wekelijkse rapportage per segment</li>
         </ul>
         <div class="p-addon">
-          <span class="p-addon-label">+ FULL SERVICE · INCL. AFSPRAAKGARANTIE</span>
+          <span class="p-addon-label">+ Full Service · incl. afspraakgarantie</span>
           <span class="p-addon-price">+€600/mnd</span>
         </div>
         <a href="book.html" class="p-btn solid" target="_blank">Plan je strategiecall →</a>
@@ -1736,7 +1737,7 @@ section,
           <li>Maandelijkse strategiesessie</li>
         </ul>
         <div class="p-addon">
-          <span class="p-addon-label">+ FULL SERVICE · INCL. AFSPRAAKGARANTIE</span>
+          <span class="p-addon-label">+ Full Service · incl. afspraakgarantie</span>
           <span class="p-addon-price">+€800/mnd</span>
         </div>
         <a href="book.html" class="p-btn solid" target="_blank">Plan je strategiecall →</a>
