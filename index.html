@@ -1186,47 +1186,156 @@ section,
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Link2Leads",
-  "url": "https://www.link2leads.nl",
-  "logo": "https://www.link2leads.nl/og-image.png",
-  "description": "Link2Leads draait e-mailcampagnes voor B2B bedrijven die structureel afspraken willen genereren.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressCountry": "NL"
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "sales",
-    "url": "https://www.link2leads.nl/book.html"
-  },
-  "sameAs": [
-    "https://www.linkedin.com/company/link2leads"
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "B2B E-mail Leadgeneratie",
-  "provider": {
-    "@type": "Organization",
-    "name": "Link2Leads"
-  },
-  "description": "Wij draaien e-mailcampagnes voor B2B bedrijven die structureel afspraken willen zonder afhankelijk te zijn van advertenties of via-via's.",
-  "areaServed": "NL",
-  "offers": {
-    "@type": "Offer",
-    "price": "995",
-    "priceCurrency": "EUR",
-    "priceSpecification": {
-      "@type": "UnitPriceSpecification",
-      "price": "995",
-      "priceCurrency": "EUR",
-      "unitText": "per maand"
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.link2leads.nl/#organization",
+      "name": "Link2Leads",
+      "alternateName": "Link2Leads | B2B Leadgeneratie via E-mail",
+      "url": "https://www.link2leads.nl",
+      "logo": "https://www.link2leads.nl/og-image.png",
+      "description": "Link2Leads is een Nederlands B2B leadgeneratie-bureau gespecialiseerd in cold email outreach. Done-for-you campagnes die gekwalificeerde salesafspraken leveren, live binnen 14 dagen.",
+      "slogan": "Voorspelbare B2B-pipeline via e-mail",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Link2Group"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Amsterdam",
+        "addressCountry": "NL"
+      },
+      "areaServed": ["NL", "BE"],
+      "knowsAbout": [
+        "cold email outreach",
+        "B2B leadgeneratie",
+        "outbound sales",
+        "email deliverability",
+        "salesafspraken",
+        "appointment setting",
+        "koude acquisitie",
+        "B2B pipeline"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "url": "https://www.link2leads.nl/book.html",
+        "availableLanguage": ["nl", "en"]
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/link2leads"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.link2leads.nl/#service",
+      "name": "Done-for-you B2B Cold Email Leadgeneratie",
+      "serviceType": "B2B Cold Email Outreach",
+      "provider": { "@id": "https://www.link2leads.nl/#organization" },
+      "areaServed": ["NL", "BE"],
+      "audience": {
+        "@type": "BusinessAudience",
+        "name": "B2B-dienstverleners die structureel meer gekwalificeerde salesafspraken willen"
+      },
+      "description": "Complete outbound cold email systemen voor B2B-bedrijven: leadlijsten, copywriting, dedicated verzendinfrastructuur, deliverability-management en gekwalificeerde afspraken in de agenda. Live binnen 14 dagen. Resultaatgarantie zwart op wit.",
+      "knowsAbout": [
+        "cold email",
+        "deliverability",
+        "lead lists",
+        "copywriting",
+        "appointment setting"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "995",
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "995",
+          "priceCurrency": "EUR",
+          "unitText": "per maand"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.link2leads.nl/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe snel zie ik resultaat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Binnen 14 dagen ben je live, inclusief volledige setup en warmup van de domeinen. De eerste positieve reacties van beslissers komen meestal dezelfde dag al binnen. De garantie leggen we vooraf zwart op wit vast, op basis van branche, doelgroep en aanbod. Niet gehaald na 3 maanden? Dan gaan we gratis door. Kies je Full Service, dan doen wij ook de opvolging en geldt een afspraakgarantie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Loopt mijn eigen domein of merk risico?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nee. We versturen nooit vanaf je hoofddomein. We zetten aparte verzenddomeinen op die we volledig opwarmen en monitoren. Je website, e-mail en merkreputatie blijven 100% buiten schot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is cold e-mail toegestaan onder de AVG?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, B2B cold e-mail is in Nederland toegestaan op basis van gerechtvaardigd belang, mits relevant en met een duidelijke opt-out. Wij targeten uitsluitend zakelijke beslissers binnen jouw doelgroep en verwerken afmeldingen direct."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe weet ik dat de afspraken kwalitatief zijn?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tijdens de onboarding leggen we samen vast wat een gekwalificeerde afspraak is: functie, bedrijfsgrootte, branche en intentie. Alleen reacties die aan die criteria voldoen, tellen mee. Geen ruis in je agenda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Werkt dit ook in een kleine of specifieke niche?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vaak juist beter: hoe scherper de doelgroep, hoe relevanter de boodschap. We werken dan met lager volume en diepere segmentatie. Past jouw markt echt niet bij cold e-mail, dan zeggen we dat eerlijk in de strategiecall."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat moet ik er zelf voor doen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eén onboardingsessie waarin we jouw ideale klant en propositie scherpstellen. Daarna draait alles via ons: lijsten, copy, verzending en optimalisatie. Jij voert alleen de gesprekken. Met de full-service optie handelen wij zelfs de replies af en plannen we de afspraken direct in jouw agenda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat is de minimale looptijd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Drie maanden, voor elk pakket. Cold e-mail wordt elke week beter doordat we bijsturen op data: open rates, reply rates en afspraakkwaliteit. Wie na maand één stopt, stopt precies op het moment dat de campagne op stoom komt. En de garantie staat zwart op wit: niet gehaald na 3 maanden, dan gaan we gratis door."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Geldt de garantie voor iedereen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nee. In de strategiecall toetsen we of jouw aanbod en doelgroep geschikt zijn voor cold e-mail. Alleen dan stellen we een garantie vast, op basis van branche, doelgroep en aanbod. Past het niet, dan hoor je dat direct."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat bespreken we in de strategiecall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In 30 minuten kijken we naar jouw doelgroep, propositie en omzetdoel. Je krijgt een concreet plan voor jouw situatie, ook als we niet samenwerken. Gratis en zonder verplichtingen."
+          }
+        }
+      ]
     }
-  }
+  ]
 }
 </script>
 <!-- Vercel Web Analytics -->
