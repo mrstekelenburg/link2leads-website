@@ -45,6 +45,13 @@ async function token() {
 
 function pad(n) { return String(n).padStart(2, '0'); }
 
+/* Schuift 'JJJJ-MM-DD' een aantal dagen op. */
+function shiftDate(dateKey, days) {
+  const d = new Date(Date.UTC(+dateKey.slice(0, 4), +dateKey.slice(5, 7) - 1, +dateKey.slice(8, 10)));
+  d.setUTCDate(d.getUTCDate() + days);
+  return d.getUTCFullYear() + '-' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate());
+}
+
 /* Zet 'JJJJ-MM-DD' + 'UU:MM' + duur om naar het formaat dat Graph verwacht. */
 function window_(dateKey, time, minutes) {
   const h = +time.slice(0, 2), mi = +time.slice(3, 5);
@@ -131,20 +138,26 @@ async function createEvent(opts) {
    Geeft een lijst terug van { start, end } in minuten sinds middernacht.
    Een afspraak van een hele dag geeft { start: 0, end: 1440 }. */
 async function getBusy(dateKey) {
+  module.exports.lastRaw = [];
   if (!configured()) return null;
 
   const cals = (process.env.MS_CHECK_CALENDARS || process.env.MS_CALENDAR_USER)
     .split(',').map(x => x.trim()).filter(Boolean);
 
-  const from = `${dateKey}T00:00:00`;
-  const to = `${dateKey}T23:59:59`;
+  // Microsoft leest de datums in de vraag als wereldtijd, niet als lokale tijd.
+  // Daarom vragen we een ruimere periode op en knippen we hieronder zelf
+  // precies de gevraagde dag eruit, op basis van de lokale tijden in het antwoord.
+  const dayBefore = shiftDate(dateKey, -1);
+  const dayAfter = shiftDate(dateKey, 1);
+  const from = `${dayBefore}T00:00:00`;
+  const to = `${dayAfter}T23:59:59`;
   const tok = await token();
   const busy = [];
 
   for (const cal of cals) {
     const url = `${GRAPH}/users/${encodeURIComponent(cal)}/calendarView` +
       `?startDateTime=${from}&endDateTime=${to}` +
-      `&$select=subject,start,end,isAllDay,isCancelled&$top=150&$orderby=start/dateTime`;
+      `&$select=subject,start,end,isAllDay,isCancelled&$top=250&$orderby=start/dateTime`;
 
     const res = await fetch(url, {
       headers: {
@@ -159,17 +172,33 @@ async function getBusy(dateKey) {
     }
 
     const data = await res.json();
+    module.exports.lastRaw = (module.exports.lastRaw || []).concat(
+      (data.value || []).map(e => ({
+        onderwerp: e.subject || '(geen onderwerp)',
+        heleDag: !!e.isAllDay,
+        geannuleerd: !!e.isCancelled,
+        van: e.start && e.start.dateTime,
+        tot: e.end && e.end.dateTime
+      }))
+    );
     for (const ev of (data.value || [])) {
       if (ev.isCancelled) continue;
-      if (ev.isAllDay) { busy.push({ start: 0, end: 1440 }); continue; }
 
       const s = String((ev.start && ev.start.dateTime) || '');
       const e = String((ev.end && ev.end.dateTime) || '');
-      if (!s || !e) continue;
+      if (s.length < 16 || e.length < 16) continue;
 
-      // Loopt het item door vanaf de vorige dag of door naar de volgende?
-      const startMin = s.slice(0, 10) < dateKey ? 0 : (+s.slice(11, 13) * 60 + +s.slice(14, 16));
-      const endMin = e.slice(0, 10) > dateKey ? 1440 : (+e.slice(11, 13) * 60 + +e.slice(14, 16));
+      const sDate = s.slice(0, 10), eDate = e.slice(0, 10);
+      const sTime = s.slice(11, 16), eTime = e.slice(11, 16);
+
+      // Valt dit item helemaal buiten de gevraagde dag?
+      if (sDate > dateKey || eDate < dateKey) continue;
+      // Een item dat om precies 00:00 van deze dag eindigt, raakt deze dag niet.
+      if (eDate === dateKey && eTime === '00:00' && sDate < dateKey) continue;
+
+      const startMin = sDate < dateKey ? 0 : (+sTime.slice(0, 2) * 60 + +sTime.slice(3, 5));
+      const endMin = eDate > dateKey ? 1440 : (+eTime.slice(0, 2) * 60 + +eTime.slice(3, 5));
+
       if (endMin > startMin) busy.push({ start: startMin, end: endMin });
     }
   }
