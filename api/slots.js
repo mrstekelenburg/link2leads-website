@@ -38,25 +38,14 @@ function nowInTz() {
 
 function toMin(hhmm) { return +hhmm.slice(0, 2) * 60 + (+hhmm.slice(3, 5)); }
 
-/* Haalt de bezette blokken op via Graph en filtert die uit de lijst. */
+/* Haalt alles op wat er in de agenda staat en filtert die tijden eruit. */
 async function filterByCalendar(dateKey, slots) {
   if (!slots.length) return slots;
-
-  const first = toMin(slots[0]);
-  const last = toMin(slots[slots.length - 1]) + 30;
-  const start = `${dateKey}T${pad(Math.floor(first / 60))}:${pad(first % 60)}:00`;
-  const end = `${dateKey}T${pad(Math.floor(last / 60))}:${pad(last % 60)}:00`;
-
-  const view = await graph.getAvailability(start, end, 30);
-  if (!view) return slots;
-
-  return slots.filter(function (t) {
-    const idx = (toMin(t) - first) / 30;
-    // 0 = vrij, 4 = elders aan het werk. Al het andere telt als bezet.
-    return view.every(function (row) {
-      const c = row.charAt(idx);
-      return c === '' || c === '0' || c === '4';
-    });
+  const busy = await graph.getBusy(dateKey);
+  if (busy === null) return slots;
+  return slots.filter(t => {
+    const start = toMin(t);
+    return !graph.overlaps(busy, start, start + 30);
   });
 }
 
