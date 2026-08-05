@@ -38,17 +38,6 @@ function nowInTz() {
 
 function toMin(hhmm) { return +hhmm.slice(0, 2) * 60 + (+hhmm.slice(3, 5)); }
 
-/* Haalt alles op wat er in de agenda staat en filtert die tijden eruit. */
-async function filterByCalendar(dateKey, slots) {
-  if (!slots.length) return slots;
-  const busy = await graph.getBusy(dateKey);
-  if (busy === null) return slots;
-  return slots.filter(t => {
-    const start = toMin(t);
-    return !graph.overlaps(busy, start, start + 30);
-  });
-}
-
 module.exports = async (req, res) => {
   res.setHeader('Cache-Control', 'no-store');
 
@@ -67,14 +56,34 @@ module.exports = async (req, res) => {
     slots = slots.filter(t => toMin(t) >= now.minutes + notice);
   }
 
-  let live = false;
+  const debug = String((req.query && req.query.debug) || '') === '1';
+  let live = false, busy = null, error = null;
+
   try {
     if (graph.configured() && slots.length) {
-      slots = await filterByCalendar(dateKey, slots);
+      busy = await graph.getBusy(dateKey);
+      if (busy !== null) {
+        slots = slots.filter(t => {
+          const start = toMin(t);
+          return !graph.overlaps(busy, start, start + 30);
+        });
+      }
       live = true;
     }
   } catch (err) {
+    error = err.message;
     console.error('Slots:', err.message);
+  }
+
+  if (debug) {
+    return res.status(200).json({
+      slots, live, error,
+      dateKey,
+      configured: graph.configured(),
+      agendas: (process.env.MS_CHECK_CALENDARS || process.env.MS_CALENDAR_USER || '').split(',').map(x => x.trim()),
+      bezet: busy,
+      ruwe_items: graph.lastRaw || null
+    });
   }
 
   return res.status(200).json({ slots, live });
