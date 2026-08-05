@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<script>/*l2l-i18n-boot*/(function(){try{var L=['nl','en','es'];var p=new URLSearchParams(location.search).get('lang');var s=p&&L.indexOf(p)>-1?p:(localStorage.getItem('l2l_lang')||'nl');if(L.indexOf(s)===-1)s='nl';document.documentElement.setAttribute('lang',s);if(s!=='nl'){document.documentElement.className+=' i18n-pending';var st=document.createElement('style');st.textContent='html.i18n-pending body{visibility:hidden}';document.head.appendChild(st);}}catch(e){}})();</script>
+<meta charset="UTF-8">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Bereken hoeveel omzet je kunt genereren via B2B e-mailcampagnes. Voer jouw deal-grootte en sluitingsratio in en zie jouw potentiële pipeline.">
+<meta name="keywords" content="b2b omzetcalculator, leadgeneratie roi, e-mail campagne opbrengst calculator">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Link2Leads">
+<meta name="geo.region" content="NL">
+<meta name="geo.country" content="Netherlands">
+<meta name="language" content="nl">
+<link rel="canonical" href="https://www.link2leads.nl/calculator-l2l">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.link2leads.nl/calculator-l2l">
+<meta property="og:title" content="B2B Omzetcalculator | Link2Leads">
+<meta property="og:description" content="Bereken in 60 seconden hoeveel omzet jouw bedrijf kan genereren via B2B e-mailcampagnes.">
+<meta property="og:image" content="https://www.link2leads.nl/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:site_name" content="Link2Leads">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="B2B Omzetcalculator | Link2Leads">
+<meta name="twitter:description" content="Bereken in 60 seconden hoeveel omzet jouw bedrijf kan genereren via B2B e-mailcampagnes.">
+<meta name="twitter:image" content="https://www.link2leads.nl/og-image.png">
+<title>Bereken Jouw B2B Omzetpotentieel | Link2Leads Calculator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:      #0A0A0A;
+  --bg2:     #111111;
+  --bg3:     #181818;
+  --accent:  #2F6FED;
+  --accent2: #5B8FF5;
+  --green:   #22C55E;
+  --red:     #EF4444;
+  --white:   #F0EFED;
+  --muted:   #8A919E;
+  --border:  rgba(255,255,255,0.08);
+  --f: 'DM Sans', sans-serif;
+  --font: 'DM Sans', sans-serif;
+  --mono: 'DM Mono', monospace;
+}
+
+input,textarea,select,button,optgroup{font-family:inherit;}
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+body {
+  background: transparent; color:var(--white);
+  font-family:var(--f); min-height:100vh;
+  overflow-x:hidden;
+}
+
+/* NAV */
+nav {
+  position:fixed; top:0; left:0; right:0; z-index:200;
+  padding:0 48px;
+  background:rgba(10,10,10,0.95);
+  backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+}
+.nav-inner {
+  max-width:1200px; margin:0 auto;
+  display:flex; align-items:center; justify-content:space-between;
+  height:64px;
+}
+.nav-logo { font-size:18px; font-weight:800; letter-spacing:-.4px; color:var(--white); text-decoration:none; }
+.nav-logo .dot { color:var(--accent); }
+.nav-cta {
+  background:var(--accent); color:#fff;
+  font-size:13px; font-weight:700;
+  padding:9px 20px; border-radius:100px;
+  text-decoration:none; transition:opacity .2s;
+}
+.nav-cta:hover { opacity:.88; }
+.nav-back {
+  font-size:13px; color:var(--muted); text-decoration:none;
+  display:flex; align-items:center; gap:6px; transition:color .2s;
+}
+.nav-back:hover { color:var(--white); }
+
+/* HERO */
+.hero {
+  padding:120px 24px 64px;
+  text-align:center;
+  background: radial-gradient(ellipse 800px 400px at 50% 0%, rgba(47,111,237,0.1) 0%, transparent 70%);
+}
+.eyebrow {
+  display:inline-flex; align-items:center; gap:8px;
+  background:rgba(47,111,237,0.08); border:1px solid rgba(47,111,237,0.2);
+  padding:6px 14px; border-radius:100px;
+  font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase;
+  color:var(--accent2); margin-bottom:24px;
+}
+.pulse { width:6px; height:6px; background:var(--accent); border-radius:50%; animation:blink 1.4s infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.2} }
+.hero h1 {
+  font-size:clamp(36px,6vw,68px); font-weight:900;
+  letter-spacing:-2px; line-height:1.02; margin-bottom:16px;
+}
+.hero h1 .red { color:var(--red); }
+.hero-sub {
+  font-size:17px; color:rgba(240,239,237,0.6);
+  line-height:1.65; max-width:520px; margin:0 auto;
+}
+
+/* MAIN LAYOUT */
+.main {
+  max-width:760px; margin:0 auto;
+  padding:0 24px 80px;
+}
+
+/* CARDS */
+.card {
+  background:var(--bg2);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:40px;
+  margin-bottom:20px;
+}
+.card-title {
+  font-size:11px; font-weight:700; letter-spacing:0.5px;
+  text-transform:uppercase; color:rgba(255,255,255,0.55);
+  margin-bottom:28px;
+  display:flex; align-items:center; gap:10px;
+}
+.card-title::after { content:''; flex:1; height:1px; background:var(--border); }
+
+/* FIELDS */
+.fields { display:flex; flex-direction:column; gap:28px; }
+.field-group {}
+.field-label {
+  font-size:12px; font-weight:600; letter-spacing:0.3px; text-transform:none;
+  color:rgba(255,255,255,0.65); margin-bottom:10px;
+  display:flex; justify-content:space-between; align-items:center;
+}
+.field-hint { font-size:11px; color:rgba(255,255,255,0.38); font-weight:400; letter-spacing:0; text-transform:none; }
+
+.input-row {
+  display:flex; align-items:center;
+  background:var(--bg3); border:1px solid var(--border);
+  border-radius:10px; overflow:hidden; transition:border-color .2s;
+}
+.input-row:focus-within { border-color:var(--accent); }
+.input-prefix, .input-suffix {
+  padding:14px 16px;
+  font-family:var(--f); font-size:14px; font-weight:600; color:rgba(255,255,255,0.5);
+  background:rgba(255,255,255,0.03);
+  border-right:1px solid var(--border);
+  white-space:nowrap;
+}
+.input-suffix { border-right:none; border-left:1px solid var(--border); }
+input[type="number"] {
+  flex:1; background:transparent; border:none; outline:none;
+  color:var(--white); font-family:var(--mono);
+  font-size:18px; font-weight:500; padding:14px 16px;
+}
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance:none; }
+
+/* SLIDER */
+.slider-val {
+  font-family:var(--f); font-size:28px; font-weight:800;
+  color:var(--accent); margin-bottom:12px; display:block;
+}
+input[type="range"] {
+  width:100%; -webkit-appearance:none; appearance:none;
+  height:4px; border-radius:2px; outline:none; cursor:pointer;
+  background:linear-gradient(to right, var(--accent) 0%, var(--accent) var(--pct,25%), rgba(255,255,255,0.1) var(--pct,25%), rgba(255,255,255,0.1) 100%);
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance:none; width:20px; height:20px;
+  border-radius:50%; background:var(--white);
+  box-shadow:0 0 0 4px rgba(47,111,237,0.35);
+  cursor:pointer; transition:box-shadow .15s;
+}
+input[type="range"]::-webkit-slider-thumb:hover { box-shadow:0 0 0 6px rgba(47,111,237,0.45); }
+.slider-labels {
+  display:flex; justify-content:space-between;
+  margin-top:8px; font-family:var(--f); font-size:11px; color:rgba(255,255,255,0.4);
+}
+
+/* STATS BAR */
+.stats-bar {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:1px; background:var(--border);
+  border:1px solid var(--border); border-radius:12px;
+  overflow:hidden; margin-top:24px;
+}
+.stat-item {
+  background:var(--bg3); padding:16px;
+  text-align:center;
+}
+.stat-num {
+  font-family:var(--f); font-size:20px; font-weight:800;
+  color:var(--accent2); display:block; margin-bottom:4px;
+}
+.stat-label { font-size:11px; color:var(--muted); line-height:1.4; }
+
+/* RESULT */
+.result-card {
+  background:linear-gradient(135deg, rgba(34,197,94,0.06) 0%, rgba(47,111,237,0.06) 100%);
+  border:1px solid rgba(34,197,94,0.2);
+  border-radius:16px; padding:40px; margin-bottom:20px;
+  opacity:0; transform:translateY(12px);
+  transition:opacity .5s, transform .5s;
+}
+.result-card.visible { opacity:1; transform:translateY(0); }
+
+.result-main { text-align:center; margin-bottom:32px; }
+.result-label {
+  font-size:11px; letter-spacing:0.5px; text-transform:uppercase;
+  color:var(--green); margin-bottom:12px;
+}
+.result-big {
+  font-size:clamp(52px,10vw,88px); font-weight:900;
+  letter-spacing:-3px; line-height:1; color:var(--green);
+  margin-bottom:8px;
+}
+.result-sub { font-size:15px; color:rgba(240,239,237,0.65); line-height:1.6; max-width:420px; margin:0 auto; }
+
+/* BREAKDOWN */
+.breakdown {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:12px; margin-bottom:32px;
+}
+.bitem {
+  background:rgba(255,255,255,0.03); border:1px solid var(--border);
+  border-radius:10px; padding:16px; text-align:center;
+}
+.bnum {
+  font-family:var(--f); font-size:24px; font-weight:800;
+  margin-bottom:4px; display:block;
+}
+.bnum.green { color:var(--green); }
+.bnum.blue  { color:var(--accent); }
+.bnum.white { color:var(--white); }
+.blabel { font-size:11px; color:var(--muted); line-height:1.4; }
+
+/* CAMPAIGN FLOW — rebuilt for impact */
+.funnel {
+  background:transparent;
+  margin-bottom:32px;
+}
+.funnel-title {
+  font-size:11px; font-weight:700; color:rgba(255,255,255,0.45);
+  letter-spacing:0.5px; text-transform:uppercase;
+  margin-bottom:20px; padding-bottom:10px;
+  border-bottom:1px solid var(--border);
+}
+.funnel-steps { display:flex; flex-direction:column; gap:6px; }
+
+.funnel-step {
+  display:grid;
+  grid-template-columns:28px 1fr auto;
+  align-items:center; gap:14px;
+  padding:14px 18px;
+  border-radius:12px;
+  border:1px solid transparent;
+  background:rgba(255,255,255,0.03);
+  position:relative; overflow:hidden;
+  transition:border-color .2s;
+}
+.funnel-step::before {
+  content:''; position:absolute; left:0; top:0; bottom:0; width:3px;
+  background:var(--step-color, var(--border));
+  border-radius:3px 0 0 3px;
+}
+.funnel-step:nth-child(1) { --step-color: rgba(47,111,237,0.4); }
+.funnel-step:nth-child(2) { --step-color: rgba(47,111,237,0.6); }
+.funnel-step:nth-child(3) { --step-color: rgba(91,143,245,0.8); }
+.funnel-step:nth-child(4) { --step-color: rgba(100,200,100,0.7); }
+.funnel-step:nth-child(5) {
+  --step-color: #22C55E;
+  background:rgba(34,197,94,0.07);
+  border-color:rgba(34,197,94,0.25);
+  padding:18px 18px;
+}
+
+.funnel-icon {
+  font-size:16px; display:flex; align-items:center; justify-content:center;
+  flex-shrink:0;
+}
+.funnel-body { display:flex; flex-direction:column; gap:2px; min-width:0; }
+.funnel-label {
+  font-size:13px; font-weight:600; color:rgba(255,255,255,0.85);
+}
+.funnel-meta {
+  font-size:11px; color:var(--muted); line-height:1.3;
+}
+.funnel-step:nth-child(5) .funnel-label {
+  font-size:14px; font-weight:700; color:#22C55E;
+}
+.funnel-step:nth-child(5) .funnel-meta { color:rgba(34,197,94,0.65); }
+
+.funnel-num {
+  font-size:22px; font-weight:900;
+  letter-spacing:-0.5px;
+  color:var(--white);
+  text-align:right; white-space:nowrap; flex-shrink:0;
+}
+.funnel-step:nth-child(5) .funnel-num {
+  font-size:26px; color:#22C55E;
+}
+
+.funnel-connector {
+  display:flex; justify-content:center; align-items:center;
+  height:12px; color:rgba(47,111,237,0.35);
+  font-size:10px;
+}
+
+/* CTA */
+.cta-block { text-align:center; padding-top:8px; }
+.cta-title { font-size:18px; font-weight:800; margin-bottom:8px; }
+.cta-sub { font-size:14px; color:var(--muted); margin-bottom:20px; }
+.btn-cta {
+  display:inline-flex; align-items:center; gap:8px;
+  background:var(--accent); color:#fff;
+  font-size:15px; font-weight:700;
+  padding:15px 30px; border-radius:10px;
+  text-decoration:none;
+  box-shadow:0 6px 24px rgba(47,111,237,0.3);
+  transition:opacity .2s, transform .15s;
+}
+.btn-cta:hover { opacity:.9; transform:translateY(-1px); }
+.cta-note { font-size:12px; color:var(--muted); margin-top:12px; }
+
+/* FOOTER */
+footer {
+  background:var(--bg2); border-top:1px solid var(--border);
+  padding:32px 48px;
+}
+.foot-inner {
+  max-width:1200px; margin:0 auto;
+  display:flex; align-items:center; justify-content:space-between;
+  gap:16px; flex-wrap:wrap;
+}
+.foot-logo { font-size:16px; font-weight:800; text-decoration:none; color:var(--white); }
+.foot-logo .dot { color:var(--accent); }
+.foot-copy { font-size:12px; color:var(--muted); }
+.foot-links { display:flex; gap:20px; list-style:none; }
+.foot-links a { font-size:12px; color:var(--muted); text-decoration:none; transition:color .2s; }
+.foot-links a:hover { color:var(--white); }
+
+@media (max-width:600px) {
+  nav { padding:0 20px; }
+  .card { padding:24px; }
+  .result-card { padding:24px; }
+  .breakdown { grid-template-columns:1fr; }
+  .stats-bar { grid-template-columns:1fr; }
+  .funnel-num { font-size:18px; }
+  .funnel-step:nth-child(5) .funnel-num { font-size:22px; }
+  footer { padding:28px 20px; }
+  .foot-inner { flex-direction:column; gap:12px; }
+}
+/* ── PAGE BACKGROUND ── */
+html { background: #08090C; }
+body { background: transparent; }
+#bg-canvas {
+  position: fixed; top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none; z-index: 0; display: block;
+}
+body > *:not(#bg-canvas):not(nav) { position: relative; z-index: 1; }
+section, main, .page-wrap, .content-wrap, .calc-wrap, .book-wrap {
+  background: transparent !important;
+}
+
+/* ── CANVAS BG OVERRIDE ── */
+html { background: #08090C !important; }
+body { background: transparent !important; color: #F0EFED; }
+</style>
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+<script>
+(function(){
+  const canvas = document.getElementById('bg-canvas');
+  const ctx    = canvas.getContext('2d');
+  let W, H;
+
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize, { passive: true });
+
+  // Orbs travel through the page as you scroll.
+  // cycleLength = how many px of scroll = one full loop of the orb's journey
+  // Each orb has a unique offset so they're never all in the same place
+  const orbs = [
+    { baseX:0.15, color:[47,111,237],  r:520, floatSpeed:0.00014, rx:80,  ry:60,  phase:0.0, cycleLength:2200, offset:0    },
+    { baseX:0.80, color:[91,143,245],  r:460, floatSpeed:0.00011, rx:100, ry:80,  phase:2.1, cycleLength:1800, offset:600  },
+    { baseX:0.45, color:[60,40,220],   r:500, floatSpeed:0.00013, rx:70,  ry:100, phase:4.3, cycleLength:2600, offset:300  },
+    { baseX:0.20, color:[47,111,237],  r:440, floatSpeed:0.00017, rx:90,  ry:70,  phase:1.5, cycleLength:2000, offset:900  },
+    { baseX:0.75, color:[91,143,245],  r:480, floatSpeed:0.00015, rx:110, ry:90,  phase:3.2, cycleLength:2400, offset:1200 },
+    { baseX:0.55, color:[47,111,237],  r:420, floatSpeed:0.00012, rx:60,  ry:80,  phase:5.1, cycleLength:1900, offset:450  },
+    { baseX:0.30, color:[80,50,220],   r:500, floatSpeed:0.00016, rx:95,  ry:65,  phase:2.7, cycleLength:2300, offset:750  },
+  ];
+
+  let scrollY       = 0;
+  let smoothScrollY = 0;
+
+  window.addEventListener('scroll', () => {
+    scrollY = window.scrollY;
+  }, { passive: true });
+
+  function draw(now) {
+    smoothScrollY += (scrollY - smoothScrollY) * 0.05;
+
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = '#08090C';
+    ctx.fillRect(0, 0, W, H);
+
+    const isMobile = W < 768;
+
+    orbs.forEach(o => {
+      // Each orb cycles vertically through the viewport as you scroll
+      // Using modulo so the orb wraps and is always somewhere on screen
+      const scrollPhase = ((smoothScrollY + o.offset) % o.cycleLength) / o.cycleLength;
+      
+      // Map 0..1 to a sine wave so orb moves up and down smoothly
+      // sin goes -1..1, we map to 0.05..0.95 of viewport height
+      const sineY = Math.sin(scrollPhase * Math.PI * 2);
+      const baseY = 0.5 + sineY * 0.45; // stays within viewport
+
+      const floatX = Math.sin(now * o.floatSpeed + o.phase) * o.rx;
+      const floatY = Math.cos(now * o.floatSpeed * 0.7 + o.phase) * o.ry;
+
+      const cx = o.baseX * W + floatX;
+      const cy = baseY * H + floatY;
+      const r  = o.r * (isMobile ? 0.6 : 1);
+
+      const grad = ctx.createRadialGradient(cx, cy, 0, cx, cy, r);
+      grad.addColorStop(0,    `rgba(${o.color},0.063)`);
+      grad.addColorStop(0.4,  `rgba(${o.color},0.021)`);
+      grad.addColorStop(0.75, `rgba(${o.color},0.005)`);
+      grad.addColorStop(1,    `rgba(${o.color},0)`);
+
+      ctx.filter = 'blur(80px)';
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, 0, Math.PI * 2);
+      ctx.fillStyle = grad;
+      ctx.fill();
+    });
+
+    ctx.filter = 'none';
+    requestAnimationFrame(draw);
+  }
+
+  requestAnimationFrame(draw);
+
+  // Nav scroll style
+  window.addEventListener('scroll', () => {
+    const nav = document.querySelector('nav');
+    if (nav) nav.classList.toggle('scrolled', window.scrollY > 60);
+  }, { passive: true });
+})();
+</script>
+
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Link<span class="dot">2</span>Leads</a>
+    <a href="/book" class="nav-cta" target="_blank">Boek een strategiecall</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="eyebrow"><span class="pulse"></span> Gratis calculator</div>
+  <h1>Hoeveel omzet<br>laat je <span class="red">liggen?</span></h1>
+  <p class="hero-sub">Vul je dealwaarde en closing rate in. Zie direct wat 3.000 e-mails per maand voor jou oplevert.</p>
+</div>
+
+<div class="main">
+
+  <!-- INPUT CARD -->
+  <div class="card">
+    <div class="card-title">Jouw salesproces</div>
+    <div class="fields">
+
+      <div class="field-group">
+        <div class="field-label">
+          Gemiddelde dealwaarde
+          <span class="field-hint">Wat levert één nieuwe klant op?</span>
+        </div>
+        <div class="input-row">
+          <span class="input-prefix">€</span>
+          <input type="number" id="dealValue" value="5000" min="500" max="500000" oninput="calc()">
+        </div>
+      </div>
+
+      <div class="field-group">
+        <div class="field-label">
+          Closing rate
+          <span class="field-hint">Hoeveel % van gesprekken wordt klant?</span>
+        </div>
+        <span class="slider-val" id="closeDisplay">25%</span>
+        <input type="range" id="closeRate" min="5" max="80" value="25"
+          oninput="updateSlider(this,'closeDisplay',v=>v+'%')">
+        <div class="slider-labels"><span>5%</span><span>40%</span><span>80%</span></div>
+      </div>
+
+    </div>
+
+    <!-- L2L STATS -->
+    <div class="stats-bar">
+      <div class="stat-item">
+        <span class="stat-num">70%</span>
+        <span class="stat-label">gemiddelde openrate</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">5–20%</span>
+        <span class="stat-label">gemiddelde reply rate</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">6–12%</span>
+        <span class="stat-label">positieve reacties</span>
+      </div>
+    </div>
+    <p style="font-size:12px; color:var(--muted); margin-top:14px; line-height:1.6; text-align:center;">
+      ⚠️ De exacte cijfers hangen af van je product, dienst en de fit met jouw markt. Bovenstaande ranges zijn gemiddelden over onze campagnes.
+    </p>
+  </div>
+
+  <!-- RESULT CARD -->
+  <div class="result-card" id="resultCard">
+
+    <div class="result-main">
+      <div class="result-label">Extra omzet binnen bereik</div>
+      <div class="result-big" id="resultBig">€0</div>
+      <p class="result-sub" id="resultDesc" data-i18n-skip>—</p>
+    </div>
+
+    <div class="breakdown">
+      <div class="bitem">
+        <span class="bnum green" id="bCurrentRevenue">€0</span>
+        <span class="blabel">Potentiële extra omzet per maand</span>
+      </div>
+      <div class="bitem">
+        <span class="bnum blue" id="bExtraConvs">0</span>
+        <span class="blabel">Positieve reacties per maand (6–12%)</span>
+      </div>
+      <div class="bitem">
+        <span class="bnum white" id="bROI">0×</span>
+        <span class="blabel">ROI op Link2Leads (€1.695/mnd)</span>
+      </div>
+    </div>
+
+    <!-- CAMPAGNE FUNNEL -->
+    <div class="funnel" id="funnelBlock">
+      <div class="funnel-title">Zo werkt een Link2Leads campagne voor jou</div>
+      <div class="funnel-steps">
+        <div class="funnel-step">
+          <span class="funnel-icon">📤</span>
+          <span class="funnel-body">
+            <span class="funnel-label">E-mails verstuurd</span>
+            <span class="funnel-meta">per maand, volledig beheerd</span>
+          </span>
+          <span class="funnel-num" id="fEmails">—</span>
+        </div>
+        <div class="funnel-connector">↓</div>
+        <div class="funnel-step">
+          <span class="funnel-icon">👁️</span>
+          <span class="funnel-body">
+            <span class="funnel-label">Opent de mail</span>
+            <span class="funnel-meta">gemiddeld 70% openrate</span>
+          </span>
+          <span class="funnel-num" id="fOpens">—</span>
+        </div>
+        <div class="funnel-connector">↓</div>
+        <div class="funnel-step">
+          <span class="funnel-icon">💬</span>
+          <span class="funnel-body">
+            <span class="funnel-label">Reageert op jouw mail</span>
+            <span class="funnel-meta">5–20% reply rate</span>
+          </span>
+          <span class="funnel-num" id="fReplies">—</span>
+        </div>
+        <div class="funnel-connector">↓</div>
+        <div class="funnel-step">
+          <span class="funnel-icon">🎯</span>
+          <span class="funnel-body">
+            <span class="funnel-label">Positief geïnteresseerd</span>
+            <span class="funnel-meta">6–12%, product/markt fit</span>
+          </span>
+          <span class="funnel-num" id="fPositive">—</span>
+        </div>
+        <div class="funnel-connector">↓</div>
+        <div class="funnel-step">
+          <span class="funnel-icon">💰</span>
+          <span class="funnel-body">
+            <span class="funnel-label">Nieuwe klanten per maand</span>
+            <span class="funnel-meta" id="fDealsDesc" data-i18n-skip>bij 25% close rate</span>
+          </span>
+          <span class="funnel-num" id="fDeals">—</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-block">
+      <div class="cta-title">Ziet dit er goed uit?</div>
+      <div class="cta-sub">Plan een gratis gesprek en we laten zien hoe we dit voor jou opzetten. Live binnen 14 dagen, eerste reacties gegarandeerd binnen 20 dagen. Anders betaal je niets.</div>
+      <a href="/book" class="btn-cta" target="_blank">
+        Boek een strategiecall →
+      </a>
+      <p class="cta-note">Gratis · geen verplichtingen · antwoord binnen 24 uur</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <a href="/" class="foot-logo">Link<span class="dot">2</span>Leads</a>
+    <ul class="foot-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/privacy">Privacybeleid</a></li>
+      <li><a href="/algemene-voorwaarden">Voorwaarden</a></li>
+    </ul>
+    <span class="foot-copy">© 2026 Link2Leads, onderdeel van <a href="https://link2group.nl" style="color:inherit;">Link2Group</a></span>
+  </div>
+</footer>
+
+<script>
+function fmt(n) {
+  if (n >= 1000000) return '€' + (n/1000000).toFixed(1) + 'M';
+  if (n >= 1000)    return '€' + Math.round(n/1000) + 'K';
+  return '€' + Math.round(n);
+}
+function fmtNum(n) {
+  if (n >= 1000) return Math.round(n/1000) + 'K';
+  return Math.round(n);
+}
+
+function updateSlider(el, displayId, formatter) {
+  const v = parseInt(el.value);
+  document.getElementById(displayId).textContent = formatter(v);
+  const pct = ((v - el.min) / (el.max - el.min)) * 100;
+  el.style.setProperty('--pct', pct + '%');
+  calc();
+}
+
+function calc() {
+  const deal   = parseFloat(document.getElementById('dealValue').value) || 0;
+  const close  = parseInt(document.getElementById('closeRate').value) / 100;
+
+  // Vaste campagnecijfers L2L
+  const emailsPerMonth = 3000; // minimaal 100/dag
+  const openRate       = 0.70;
+  const replyLow       = 0.05;
+  const replyHigh      = 0.20;
+  const posLow         = 0.06;
+  const posHigh        = 0.12;
+
+  const opens        = Math.round(emailsPerMonth * openRate);
+  const repliesLow   = Math.round(opens * replyLow);
+  const repliesHigh  = Math.round(opens * replyHigh);
+  const positiveLow  = Math.round(repliesLow * posLow);
+  const positiveHigh = Math.round(repliesHigh * posHigh);
+
+  // Deals (positieve gesprekken × closing rate)
+  const dealsLow  = (positiveLow  * close);
+  const dealsHigh = (positiveHigh * close);
+  const dealsMid  = (dealsLow + dealsHigh) / 2;
+
+  // Revenue
+  const revLow  = dealsLow  * deal;
+  const revHigh = dealsHigh * deal;
+  const revMid  = dealsMid  * deal;
+
+  // ROI
+  const l2lPrice = 1695;
+  const roiLow  = l2lPrice > 0 ? (revLow  / l2lPrice).toFixed(1) : '∞';
+  const roiHigh = l2lPrice > 0 ? (revHigh / l2lPrice).toFixed(1) : '∞';
+
+  // Deals display (round sensibly)
+  const dealsLowStr  = dealsLow  < 1 ? dealsLow.toFixed(1)  : Math.round(dealsLow).toString();
+  const dealsHighStr = dealsHigh < 1 ? dealsHigh.toFixed(1) : Math.round(dealsHigh).toString();
+
+  // Update UI
+  document.getElementById('resultBig').textContent        = fmt(revLow) + ' – ' + fmt(revHigh);
+  document.getElementById('bCurrentRevenue').textContent  = fmt(revLow) + ' – ' + fmt(revHigh);
+  document.getElementById('bExtraConvs').textContent      = positiveLow + ' – ' + positiveHigh;
+  document.getElementById('bROI').textContent             = roiLow + '× – ' + roiHigh + '×';
+
+  document.getElementById('fEmails').textContent   = fmtNum(emailsPerMonth);
+  document.getElementById('fOpens').textContent    = fmtNum(opens);
+  document.getElementById('fReplies').textContent  = fmtNum(repliesLow) + ' – ' + fmtNum(repliesHigh);
+  document.getElementById('fPositive').textContent = positiveLow + ' – ' + positiveHigh;
+  document.getElementById('fDeals').textContent    = dealsLowStr + ' – ' + dealsHighStr;
+  var _lang = (window.L2L_lang ? window.L2L_lang() : (document.documentElement.getAttribute('lang') || 'nl'));
+  if (['nl','en','es'].indexOf(_lang) === -1) _lang = 'nl';
+  const pct = Math.round(close*100);
+
+  document.getElementById('fDealsDesc').textContent = {
+    nl: `nieuwe klanten/maand bij ${pct}% closing → ${fmt(revLow)} – ${fmt(revHigh)}`,
+    en: `new clients/month at ${pct}% close rate → ${fmt(revLow)} – ${fmt(revHigh)}`,
+    es: `nuevos clientes/mes con un ${pct}% de cierre → ${fmt(revLow)} – ${fmt(revHigh)}`
+  }[_lang];
+
+  let desc = '';
+  if (revMid <= 0) {
+    desc = {
+      nl: 'Vul een dealwaarde in om je potentieel te berekenen.',
+      en: 'Enter a deal value to calculate your potential.',
+      es: 'Introduce un valor de operación para calcular tu potencial.'
+    }[_lang];
+  } else if (revMid < 10000) {
+    desc = {
+      nl: `Op basis van 3.000 e-mails per maand levert een campagne je ${positiveLow}–${positiveHigh} gekwalificeerde gesprekken op. Met jouw closing rate zijn dat ${dealsLowStr}–${dealsHighStr} nieuwe klanten.`,
+      en: `Based on 3,000 emails per month, a campaign delivers ${positiveLow}–${positiveHigh} qualified conversations. With your close rate that's ${dealsLowStr}–${dealsHighStr} new clients.`,
+      es: `Con 3.000 emails al mes, una campaña genera ${positiveLow}–${positiveHigh} conversaciones cualificadas. Con tu tasa de cierre son ${dealsLowStr}–${dealsHighStr} nuevos clientes.`
+    }[_lang];
+  } else {
+    desc = {
+      nl: `3.000 e-mails per maand, ${positiveLow}–${positiveHigh} positieve reacties, ${dealsLowStr}–${dealsHighStr} nieuwe klanten. Dat is ${fmt(revLow)}–${fmt(revHigh)} extra omzet, bij een investering van €1.695.`,
+      en: `3,000 emails per month, ${positiveLow}–${positiveHigh} positive replies, ${dealsLowStr}–${dealsHighStr} new clients. That's ${fmt(revLow)}–${fmt(revHigh)} in extra revenue, on an investment of €1,695.`,
+      es: `3.000 emails al mes, ${positiveLow}–${positiveHigh} respuestas positivas, ${dealsLowStr}–${dealsHighStr} nuevos clientes. Eso son ${fmt(revLow)}–${fmt(revHigh)} de ingresos extra, con una inversión de €1.695.`
+    }[_lang];
+  }
+  document.getElementById('resultDesc').textContent = desc;
+
+  document.getElementById('resultCard').classList.add('visible');
+}
+
+// Init sliders
+document.querySelectorAll('input[type="range"]').forEach(el => {
+  const pct = ((el.value - el.min) / (el.max - el.min)) * 100;
+  el.style.setProperty('--pct', pct + '%');
+});
+
+calc();
+
+// Re-render the result in the active language whenever the visitor switches language.
+document.addEventListener('l2l:langchange', function(){ try { calc(); } catch(e){} });
+</script>
+<script src="/assets/i18n/l2l-i18n-data.js"></script><script src="/assets/i18n/l2l-i18n.js"></script>
+<script src="/assets/tracking.js"></script>
+</body>
+</html>
