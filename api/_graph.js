@@ -7,6 +7,8 @@
      MS_CLIENT_SECRET    - het geheim van die app-registratie
      MS_CALENDAR_USER    - het postvak waarin de afspraak komt (bijv. demi@link2leads.nl)
      MS_EXTRA_ATTENDEES  - optioneel, komma-gescheiden extra deelnemers (bijv. anneroos@link2leads.nl)
+     MS_CHECK_CALENDARS  - optioneel, komma-gescheiden agenda's die meetellen voor de
+                           beschikbaarheid. Standaard alleen MS_CALENDAR_USER.
 
    Ontbreekt een van de eerste vier, dan doet deze module niets en valt
    api/book.js automatisch terug op het meesturen van een .ics-bestand. */
@@ -121,52 +123,71 @@ async function createEvent(opts) {
   };
 }
 
-/* Haalt de bezetting op van de agenda('s) tussen twee tijdstippen.
-   Geeft een lijst met beschikbaarheidsreeksen terug, één per agenda,
-   waarbij elk teken een blok van `interval` minuten voorstelt.
-   0 = vrij, 1 = voorlopig, 2 = bezet, 3 = afwezig, 4 = elders aan het werk. */
-async function getAvailability(start, end, interval) {
+/* Leest de daadwerkelijke agenda-items tussen twee tijdstippen.
+   Anders dan de vrij/bezet-weergave telt hier ALLES mee wat in de agenda
+   staat, ook items die als "Vrij" gemarkeerd zijn. Geannuleerde items
+   worden overgeslagen.
+
+   Geeft een lijst terug van { start, end } in minuten sinds middernacht.
+   Een afspraak van een hele dag geeft { start: 0, end: 1440 }. */
+async function getBusy(dateKey) {
   if (!configured()) return null;
 
-  const user = encodeURIComponent(process.env.MS_CALENDAR_USER);
-  const schedules = [process.env.MS_CALENDAR_USER];
+  const cals = (process.env.MS_CHECK_CALENDARS || process.env.MS_CALENDAR_USER)
+    .split(',').map(x => x.trim()).filter(Boolean);
 
-  const res = await fetch(`${GRAPH}/users/${user}/calendar/getSchedule`, {
-    method: 'POST',
-    headers: {
-      Authorization: 'Bearer ' + (await token()),
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      schedules,
-      startTime: { dateTime: start, timeZone: 'W. Europe Standard Time' },
-      endTime: { dateTime: end, timeZone: 'W. Europe Standard Time' },
-      availabilityViewInterval: interval || 30
-    })
-  });
+  const from = `${dateKey}T00:00:00`;
+  const to = `${dateKey}T23:59:59`;
+  const tok = await token();
+  const busy = [];
 
-  if (!res.ok) {
-    const txt = await res.text();
-    throw new Error('Beschikbaarheid opvragen mislukt (' + res.status + '): ' + txt.slice(0, 300));
+  for (const cal of cals) {
+    const url = `${GRAPH}/users/${encodeURIComponent(cal)}/calendarView` +
+      `?startDateTime=${from}&endDateTime=${to}` +
+      `&$select=subject,start,end,isAllDay,isCancelled&$top=150&$orderby=start/dateTime`;
+
+    const res = await fetch(url, {
+      headers: {
+        Authorization: 'Bearer ' + tok,
+        Prefer: 'outlook.timezone="W. Europe Standard Time"'
+      }
+    });
+
+    if (!res.ok) {
+      const txt = await res.text();
+      throw new Error('Agenda uitlezen mislukt voor ' + cal + ' (' + res.status + '): ' + txt.slice(0, 250));
+    }
+
+    const data = await res.json();
+    for (const ev of (data.value || [])) {
+      if (ev.isCancelled) continue;
+      if (ev.isAllDay) { busy.push({ start: 0, end: 1440 }); continue; }
+
+      const s = String((ev.start && ev.start.dateTime) || '');
+      const e = String((ev.end && ev.end.dateTime) || '');
+      if (!s || !e) continue;
+
+      // Loopt het item door vanaf de vorige dag of door naar de volgende?
+      const startMin = s.slice(0, 10) < dateKey ? 0 : (+s.slice(11, 13) * 60 + +s.slice(14, 16));
+      const endMin = e.slice(0, 10) > dateKey ? 1440 : (+e.slice(11, 13) * 60 + +e.slice(14, 16));
+      if (endMin > startMin) busy.push({ start: startMin, end: endMin });
+    }
   }
 
-  const data = await res.json();
-  return (data.value || []).map(v => v.availabilityView || '');
+  return busy;
 }
 
-/* Controleert of één specifiek tijdslot nog vrij is. */
+/* Overlapt [start, end) met een van de bezette blokken? */
+function overlaps(busy, start, end) {
+  return busy.some(b => start < b.end && b.start < end);
+}
+
+/* Is één specifiek tijdslot nog helemaal vrij? */
 async function isFree(dateKey, time, minutes) {
-  const h = +time.slice(0, 2), mi = +time.slice(3, 5);
-  const endTotal = h * 60 + mi + (minutes || 30);
-  const start = `${dateKey}T${pad(h)}:${pad(mi)}:00`;
-  const end = `${dateKey}T${pad(Math.floor(endTotal / 60))}:${pad(endTotal % 60)}:00`;
-
-  const view = await getAvailability(start, end, minutes || 30);
-  if (!view) return true;
-  return view.every(row => {
-    const c = row.charAt(0);
-    return c === '' || c === '0' || c === '4';
-  });
+  const busy = await getBusy(dateKey);
+  if (busy === null) return true;
+  const start = +time.slice(0, 2) * 60 + +time.slice(3, 5);
+  return !overlaps(busy, start, start + (minutes || 30));
 }
 
-module.exports = { configured, createEvent, getAvailability, isFree };
+module.exports = { configured, createEvent, getBusy, overlaps, isFree };
