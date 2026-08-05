@@ -130,6 +130,23 @@ async function createEvent(opts) {
   };
 }
 
+/* Zet een tijdstip in wereldtijd om naar Amsterdamse datum en minuten.
+   Werkt ongeacht de tijdzone van de server of van het Outlook-account. */
+function utcToAmsterdam(isoZonderZone) {
+  const d = new Date(isoZonderZone.slice(0, 19) + 'Z');
+  const p = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Amsterdam',
+    year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hour12: false
+  }).formatToParts(d).reduce((a, x) => (a[x.type] = x.value, a), {});
+  const uur = +p.hour === 24 ? 0 : +p.hour;
+  return {
+    dateKey: `${p.year}-${p.month}-${p.day}`,
+    minutes: uur * 60 + (+p.minute),
+    label: `${p.year}-${p.month}-${p.day} ${pad(uur)}:${p.minute}`
+  };
+}
+
 /* Leest de daadwerkelijke agenda-items tussen twee tijdstippen.
    Anders dan de vrij/bezet-weergave telt hier ALLES mee wat in de agenda
    staat, ook items die als "Vrij" gemarkeerd zijn. Geannuleerde items
@@ -159,12 +176,9 @@ async function getBusy(dateKey) {
       `?startDateTime=${from}&endDateTime=${to}` +
       `&$select=subject,start,end,isAllDay,isCancelled&$top=250&$orderby=start/dateTime`;
 
-    const res = await fetch(url, {
-      headers: {
-        Authorization: 'Bearer ' + tok,
-        Prefer: 'outlook.timezone="W. Europe Standard Time"'
-      }
-    });
+    // Bewust geen Prefer-header: Microsoft levert dan wereldtijd,
+    // en die rekenen we hieronder zelf om naar Amsterdamse tijd.
+    const res = await fetch(url, { headers: { Authorization: 'Bearer ' + tok } });
 
     if (!res.ok) {
       const txt = await res.text();
@@ -172,33 +186,39 @@ async function getBusy(dateKey) {
     }
 
     const data = await res.json();
-    module.exports.lastRaw = (module.exports.lastRaw || []).concat(
-      (data.value || []).map(e => ({
-        onderwerp: e.subject || '(geen onderwerp)',
-        heleDag: !!e.isAllDay,
-        geannuleerd: !!e.isCancelled,
-        van: e.start && e.start.dateTime,
-        tot: e.end && e.end.dateTime
-      }))
-    );
+
     for (const ev of (data.value || [])) {
       if (ev.isCancelled) continue;
 
-      const s = String((ev.start && ev.start.dateTime) || '');
-      const e = String((ev.end && ev.end.dateTime) || '');
-      if (s.length < 16 || e.length < 16) continue;
+      const rs = String((ev.start && ev.start.dateTime) || '');
+      const re = String((ev.end && ev.end.dateTime) || '');
+      if (rs.length < 16 || re.length < 16) continue;
 
-      const sDate = s.slice(0, 10), eDate = e.slice(0, 10);
-      const sTime = s.slice(11, 16), eTime = e.slice(11, 16);
+      let sDate, sMin, eDate, eMin, sLabel, eLabel;
 
-      // Valt dit item helemaal buiten de gevraagde dag?
+      if (ev.isAllDay) {
+        // Bij afspraken van een hele dag staat er geen echt tijdstip in;
+        // de datum zelf is leidend en er wordt niet omgerekend.
+        sDate = rs.slice(0, 10); sMin = 0; sLabel = sDate + ' (hele dag)';
+        eDate = re.slice(0, 10); eMin = 0; eLabel = eDate + ' (hele dag)';
+      } else {
+        const a = utcToAmsterdam(rs), b = utcToAmsterdam(re);
+        sDate = a.dateKey; sMin = a.minutes; sLabel = a.label;
+        eDate = b.dateKey; eMin = b.minutes; eLabel = b.label;
+      }
+
+      module.exports.lastRaw.push({
+        onderwerp: ev.subject || '(geen onderwerp)',
+        heleDag: !!ev.isAllDay,
+        wereldtijd: rs.slice(0, 16) + ' tot ' + re.slice(0, 16),
+        amsterdam: sLabel + ' tot ' + eLabel
+      });
+
       if (sDate > dateKey || eDate < dateKey) continue;
-      // Een item dat om precies 00:00 van deze dag eindigt, raakt deze dag niet.
-      if (eDate === dateKey && eTime === '00:00' && sDate < dateKey) continue;
+      if (eDate === dateKey && eMin === 0 && sDate < dateKey) continue;
 
-      const startMin = sDate < dateKey ? 0 : (+sTime.slice(0, 2) * 60 + +sTime.slice(3, 5));
-      const endMin = eDate > dateKey ? 1440 : (+eTime.slice(0, 2) * 60 + +eTime.slice(3, 5));
-
+      const startMin = sDate < dateKey ? 0 : sMin;
+      const endMin = eDate > dateKey ? 1440 : eMin;
       if (endMin > startMin) busy.push({ start: startMin, end: endMin });
     }
   }
