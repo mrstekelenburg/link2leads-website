@@ -1,4 +1,5 @@
 const nodemailer = require('nodemailer');
+const graph = require('./_graph');
 
 const ACCENT = '#2F6FED';
 
@@ -159,7 +160,21 @@ module.exports = async (req, res) => {
     const details = { Naam: b.name, 'E-mail': b.email, Bedrijf: b.companyName, Telefoon: b.phone, Datum: b.date, Tijd: `${b.time} (CET) · 30 minuten` };
 
     // Naar Demi
-    const ics = buildIcs({
+    // Eerst proberen we de afspraak echt in de Outlook-agenda te zetten.
+    // Lukt dat, dan verstuurt Outlook zelf de uitnodiging met Teams-link en
+    // hoeft er geen .ics mee. Lukt het niet, dan valt hij terug op de .ics.
+    let calendar = null, calendarError = null;
+    try {
+      calendar = await graph.createEvent({
+        dateKey: b.dateKey, time: b.time, minutes: 30, ref,
+        name: b.name, email: b.email, companyName: b.companyName, phone: b.phone
+      });
+    } catch (err) {
+      calendarError = err.message;
+      console.error('Graph:', err.message);
+    }
+
+    const ics = calendar ? null : buildIcs({
       dateKey: b.dateKey, time: b.time, minutes: 30, ref,
       name: b.name, email: b.email, companyName: b.companyName, organizer: notify
     });
@@ -172,7 +187,10 @@ module.exports = async (req, res) => {
       subject: `Nieuwe boeking — ${b.name}${b.companyName ? ' (' + b.companyName + ')' : ''} · ${b.date} ${b.time}`,
       html: wrap('Nieuwe strategiecall geboekt',
         `<p style="font-size:14px;color:#374151;margin:0 0 18px;">${esc(b.name)} heeft een strategiecall geboekt. De vragenlijst volgt in een aparte mail zodra die is ingevuld.</p>
-         ${table(details)}`, ref)
+         ${table(details)}
+         ${calendar
+            ? `<p style="margin:18px 0 0;font-size:13px;color:#166534;">De afspraak staat in de agenda en de uitnodiging is vanuit Outlook verstuurd.${calendar.joinUrl ? ` <a href="${calendar.joinUrl}">Teams-link</a>` : ''}</p>`
+            : `<p style="margin:18px 0 0;font-size:13px;color:#b45309;">Let op: de afspraak kon niet in de agenda gezet worden${calendarError ? ' (' + esc(calendarError) + ')' : ''}. Zet hem handmatig in je agenda.</p>`}`, ref)
     });
 
     // Naar de klant
@@ -182,8 +200,11 @@ module.exports = async (req, res) => {
       alternatives: icsAlt,
       subject: `Je strategiecall is bevestigd — ${b.date} om ${b.time}`,
       html: wrap('Je afspraak is bevestigd!',
-        `<p style="font-size:14px;color:#374151;margin:0 0 18px;">Hoi ${esc(b.name)}, je strategiecall met Link2Leads staat ingepland. Je ontvangt de meeting-link uiterlijk een dag van tevoren.</p>
-         ${table({ Datum: b.date, Tijd: `${b.time} (CET) · 30 minuten`, Format: 'Web conferencing' })}`, ref)
+        `<p style="font-size:14px;color:#374151;margin:0 0 18px;">Hoi ${esc(b.name)}, je strategiecall met Link2Leads staat ingepland.${calendar ? ' Je krijgt zo een agenda-uitnodiging met de deelnamelink.' : ' Je ontvangt de meeting-link uiterlijk een dag van tevoren.'}</p>
+         ${table(Object.assign(
+            { Datum: b.date, Tijd: `${b.time} (CET) · 30 minuten` },
+            calendar && calendar.joinUrl ? { Deelnemen: calendar.joinUrl } : { Format: 'Web conferencing' }
+         ))}`, ref)
     });
 
     return res.status(200).json({ success: true, ref });
