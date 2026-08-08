@@ -1,0 +1,6 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/diensten", "destination": "/#pakketten", "permanent": true }
+  ]
+}
