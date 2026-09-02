@@ -260,6 +260,22 @@ nav.scrolled .nav-inner {
 @media(max-width:620px){.inbox-row{grid-template-columns:1fr;gap:10px;}.inbox-tag{justify-self:start;}}
 
 /* Waarom-blok */
+/* ---- linkse sectiekop ---- */
+.sec-head{text-align:left;margin-bottom:34px;}
+.sec-head .big-h,.sec-head h2{text-align:left;margin:14px 0 0;max-width:760px;}
+.sec-head .big-sub,.sec-head p{text-align:left;margin:14px 0 0;max-width:640px;}
+
+/* ---- blokken met vinkjes ---- */
+.blk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;text-align:left;}
+.blk-card{background:var(--card-bg);border:1px solid var(--border);border-radius:18px;padding:28px 26px;display:flex;flex-direction:column;}
+.blk-num{width:34px;height:34px;border-radius:50%;background:rgba(47,111,237,.14);border:1px solid rgba(47,111,237,.28);
+  display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:var(--accent2);margin-bottom:18px;}
+.blk-card h3{font-size:17px;font-weight:700;color:var(--white);margin:0 0 16px;letter-spacing:-.2px;}
+.blk-list{list-style:none;padding:0;margin:0;display:grid;gap:11px;}
+.blk-list li{position:relative;padding-left:26px;font-size:15px;line-height:1.55;color:rgba(255,255,255,.72);}
+.blk-list li::before{content:'\2713';position:absolute;left:0;top:0;color:#4ADE80;font-weight:700;font-size:14px;}
+@media(max-width:900px){.blk-grid{grid-template-columns:1fr;}.blk-card{padding:24px 22px;}}
+
 .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
 .why-item{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:24px 26px;text-align:left;}
 .why-num{font-family:var(--f);font-size:13px;font-weight:800;color:var(--accent2);letter-spacing:1.5px;margin-bottom:12px;}
@@ -2190,71 +2206,45 @@ section,
 <!-- WHAT WE DO -->
 <section class="whatwedo-section" id="aanpak">
   <div class="whatwedo-inner">
-    <div class="reveal" style="text-align:center;margin-bottom:48px;">
-      <div class="section-pill">ZO WERKT HET</div>
-      <h3 class="big-h" style="margin-top:18px;">Van koude markt naar <span class="blue">volle agenda</span></h3>
-      <p class="big-sub" style="margin-top:14px;">De eerste twee weken zijn geen wachttijd. Terwijl de infrastructuur opwarmt, bouwen wij je campagne.</p>
+    <div class="reveal sec-head">
+      <div class="section-pill">IN DRIE WEKEN LIVE</div>
+      <h3 class="big-h">Dit gebeurt er tijdens de opstart</h3>
+      <p class="big-sub">Wij bouwen de verzendomgeving op en bereiden ondertussen je doelgroep en campagne voor, zodat er in week 3 gemaild wordt. De opstartperiode is dus geen wachttijd.</p>
     </div>
-    <div class="timeline">
-      <div class="tl-item reveal">
-        <div class="tl-dot">01</div>
-        <div class="tl-content">
-          <div class="tl-week">WEEK 1</div>
-          <div class="tl-title">We bepalen je ideale klant</div>
-          <p class="tl-desc">Aanbod, doelgroep, regio en beslissers. Jij levert de kennis, wij vertalen die naar een profiel waar we op kunnen zoeken.</p>
-          <div class="tl-chips"><span class="tl-chip">ONBOARDING</span><span class="tl-chip">ICP</span></div>
-        </div>
+    <div class="blk-grid reveal">
+      <div class="blk-card">
+        <div class="blk-num">1</div>
+        <h3>Week 1: inrichten</h3>
+        <ul class="blk-list">
+          <li>Intake: aanbod, doelgroep en beslissers bespreken</li>
+          <li>Verzendomgeving opzetten: aparte domeinen en mailboxen</li>
+          <li>Doelgroep samenstellen op basis van je beste klanten, jij keurt goed</li>
+          <li>Eerste mail en opvolgmails samen opstellen</li>
+        </ul>
       </div>
-      <div class="tl-item reveal">
-        <div class="tl-dot">02</div>
-        <div class="tl-content">
-          <div class="tl-week">WEEK 1</div>
-          <div class="tl-title">We bouwen je markt</div>
-          <p class="tl-desc">We zoeken de bedrijven en contactpersonen die binnen dat profiel vallen en controleren elk adres voordat er iets uitgaat.</p>
-          <div class="tl-chips"><span class="tl-chip">DATA</span><span class="tl-chip">VERIFICATIE</span></div>
-        </div>
+      <div class="blk-card">
+        <div class="blk-num">2</div>
+        <h3>Week 2: reputatie opbouwen</h3>
+        <ul class="blk-list">
+          <li>Warmdraaien loopt door, wij bewaken de mailboxen</li>
+          <li>Contactgegevens controleren en uitsluitingen vastleggen</li>
+          <li>Campagne per segment afmaken en nalopen</li>
+          <li>Aan het eind controleren we of de mails aankomen</li>
+        </ul>
       </div>
-      <div class="tl-item reveal">
-        <div class="tl-dot">03</div>
-        <div class="tl-content">
-          <div class="tl-week">WEEK 1 EN 2</div>
-          <div class="tl-title">We bouwen de verzendomgeving</div>
-          <p class="tl-desc">Aparte domeinen, mailboxen en warmup. Jouw eigen domein wordt nergens voor gebruikt.</p>
-          <div class="tl-chips"><span class="tl-chip">INFRA</span><span class="tl-chip">WARMUP</span></div>
-        </div>
-      </div>
-      <div class="tl-item reveal">
-        <div class="tl-dot">04</div>
-        <div class="tl-content">
-          <div class="tl-week">WEEK 2</div>
-          <div class="tl-title">We schrijven je campagnes</div>
-          <p class="tl-desc">Per segment een eigen boodschap, inclusief de opvolgmails. Alles wordt nagelopen voordat het live gaat.</p>
-          <div class="tl-chips"><span class="tl-chip">COPY</span><span class="tl-chip">SEGMENTATIE</span></div>
-        </div>
-      </div>
-      <div class="tl-item reveal">
-        <div class="tl-dot">05</div>
-        <div class="tl-content">
-          <div class="tl-week">WEEK 3</div>
-          <div class="tl-title">We gaan live</div>
-          <p class="tl-desc">De eerste verzending start op een derde van het volume en groeit in twee weken naar het volledige pakket.</p>
-          <div class="tl-chips"><span class="tl-chip">LIVE</span></div>
-        </div>
-      </div>
-      <div class="tl-item reveal">
-        <div class="tl-dot">06</div>
-        <div class="tl-content">
-          <div class="tl-week">WEEK 3 TOT 5</div>
-          <div class="tl-title">Jij ontvangt de reacties</div>
-          <p class="tl-desc">Geinteresseerde bedrijven komen direct in je eigen mailbox, met naam, functie en contactgegevens. Vanaf maand 2 verschuiven wij volume naar de segmenten die reageren.</p>
-          <div class="tl-chips"><span class="tl-chip">REACTIES</span><span class="tl-chip">BIJSTUREN</span></div>
-        </div>
+      <div class="blk-card">
+        <div class="blk-num">3</div>
+        <h3>Week 3: campagne start</h3>
+        <ul class="blk-list">
+          <li>Campagne start op een derde van het volume</li>
+          <li>Eerste reacties komen doorgaans binnen drie tot tien dagen</li>
+          <li>Volume groeit gecontroleerd naar je pakket, rond week 5</li>
+          <li>Vanaf maand 2 verschuift volume naar de segmenten die reageren</li>
+        </ul>
       </div>
     </div>
   </div>
 </section>
-
-
 
 <!-- CASE STUDY -->
 <section class="case-section" id="resultaten">
@@ -2335,62 +2325,39 @@ section,
 
 <!-- WAAROM -->
 <section class="l4-sec" id="waarom">
-  <div class="l4-head reveal">
+  <div class="reveal sec-head">
     <div class="section-pill">WAAROM LINK2LEADS</div>
-    <h2>Wij doen de <span class="blue">hele acquisitie</span> voor je</h2>
-    <p>Geen leadlijst met een gebruiksaanwijzing. Zes onderdelen die wij uitvoeren, niet jij.</p>
+    <h2 style="font-size:clamp(26px,4vw,38px);line-height:1.15;letter-spacing:-1.2px;font-weight:800;">Wij doen de hele acquisitie voor je</h2>
+    <p style="font-size:16.5px;line-height:1.65;color:rgba(255,255,255,.62);">Geen leadlijst met een gebruiksaanwijzing. Dit voeren wij uit, en dit houd jij over.</p>
   </div>
-  <div class="why-grid reveal">
-    <div class="why-item">
-      <div class="why-num">01</div>
-      <h3>Wij vinden je doelgroep</h3>
-      <p>We beginnen bij je beste klanten en bouwen daar het profiel omheen. Elk adres wordt gecontroleerd voordat er iets uitgaat.</p>
+  <div class="blk-grid reveal">
+    <div class="blk-card">
+      <div class="blk-num">1</div>
+      <h3>Wij bouwen je markt</h3>
+      <ul class="blk-list">
+        <li>Doelgroepprofiel op basis van je beste klanten</li>
+        <li>Bedrijven en beslissers zoeken en controleren</li>
+        <li>Elk adres geverifieerd voordat er iets uitgaat</li>
+      </ul>
     </div>
-    <div class="why-item">
-      <div class="why-num">02</div>
-      <h3>Wij schrijven de campagnes</h3>
-      <p>Per segment een eigen boodschap, inclusief de opvolgmails.</p>
+    <div class="blk-card">
+      <div class="blk-num">2</div>
+      <h3>Wij draaien de campagne</h3>
+      <ul class="blk-list">
+        <li>Per segment een eigen boodschap en opvolging</li>
+        <li>Aparte verzenddomeinen, jouw domein blijft buiten schot</li>
+        <li>Warmup, monitoring en vervanging zitten in de prijs</li>
+      </ul>
     </div>
-    <div class="why-item">
-      <div class="why-num">03</div>
-      <h3>Wij regelen de verzending</h3>
-      <p>Aparte verzenddomeinen en mailboxen. Jouw eigen domein blijft buiten schot.</p>
+    <div class="blk-card">
+      <div class="blk-num">3</div>
+      <h3>Jij houdt alleen de gesprekken over</h3>
+      <ul class="blk-list">
+        <li>Elke reactie met de hand gelezen, niet door een model</li>
+        <li>Naam, functie, organisatie en contactgegevens erbij</li>
+        <li>Volume verschuift naar wat daadwerkelijk reageert</li>
+      </ul>
     </div>
-    <div class="why-item">
-      <div class="why-num">04</div>
-      <h3>Wij bewaken de aankomst</h3>
-      <p>Warmup, monitoring en het vervangen van domeinen zitten in het maandbedrag.</p>
-    </div>
-    <div class="why-item">
-      <div class="why-num">05</div>
-      <h3>Wij lezen iedere reactie</h3>
-      <p>Met de hand, niet met een scoringsmodel. Je krijgt naam, functie, organisatie en contactgegevens.</p>
-    </div>
-    <div class="why-item">
-      <div class="why-num">06</div>
-      <h3>Wij sturen bij op resultaat</h3>
-      <p>Volume verschuift naar de segmenten en boodschappen die daadwerkelijk reageren.</p>
-    </div>
-  </div>
-  <div class="jij-block reveal">
-    <style>
-      .jij-block{margin-top:20px;background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:26px 28px;text-align:left;}
-      .jij-block h3{font-size:16.5px;font-weight:700;color:var(--white);margin:0 0 16px;letter-spacing:-.2px;}
-      .jij-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px;}
-      .jij-list li{position:relative;padding-left:24px;font-size:15px;line-height:1.5;color:rgba(255,255,255,.78);}
-      .jij-list li::before{content:'\2713';position:absolute;left:0;color:#4ADE80;font-weight:700;}
-      .jij-foot{margin-top:18px;padding-top:14px;border-top:1px solid var(--border);font-size:13.5px;line-height:1.65;color:var(--muted);}
-      .jij-foot a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
-      @media(max-width:760px){.jij-list{grid-template-columns:1fr;}.jij-block{padding:22px 20px;}}
-    </style>
-    <h3>Wat jij overhoudt</h3>
-    <ul class="jij-list">
-      <li>Jij hoeft geen lijsten te bouwen</li>
-      <li>Jij hoeft geen mailboxen warm te draaien</li>
-      <li>Jij hoeft geen campagnes te schrijven</li>
-      <li>Jij volgt alleen de bedrijven op die interesse tonen</li>
-    </ul>
-    <p class="jij-foot">Wil je weten hoe het onder de motorkap werkt? Aparte domeinen, deliverability, wetgeving en onze eigen campagnecijfers staan in de <a href="/kennis">kennisbank</a> en de <a href="#faq">veelgestelde vragen</a>. Hoe de rest van de markt scoort, zetten we uiteen in <a href="/cold-email-bureaus-nederland">de vergelijking van elf Nederlandse bureaus</a>.</p>
   </div>
 </section>
 
@@ -2660,64 +2627,72 @@ section,
   </div>
 </section>
 
-<!-- ZELF DOEN -->
-<section class="l4-sec" id="zelfdoen">
-  <style>
-    .zd-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
-    .zd-card{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:26px 24px;text-align:left;}
-    .zd-card.us{border-color:rgba(47,111,237,.35);background:linear-gradient(160deg,rgba(47,111,237,.11),rgba(14,16,26,.5));}
-    .zd-lab{display:block;font-size:11px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:var(--muted);margin-bottom:12px;}
-    .zd-card.us .zd-lab{color:var(--accent2);}
-    .zd-price{font-size:clamp(22px,3vw,28px);font-weight:800;letter-spacing:-1px;line-height:1.1;color:var(--white);}
-    .zd-per{margin-top:6px;font-size:13px;color:var(--muted);}
-    .zd-list{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:9px;}
-    .zd-list li{position:relative;padding-left:22px;font-size:14.5px;line-height:1.5;color:rgba(255,255,255,.72);}
-    .zd-list li::before{content:'\2022';position:absolute;left:4px;color:var(--accent2);}
-    .zd-foot{margin-top:18px;font-size:13.5px;line-height:1.65;color:var(--muted);text-align:center;}
-    .zd-foot a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
-    @media(max-width:900px){.zd-grid{grid-template-columns:1fr;}}
-  </style>
-  <div class="l4-head reveal">
-    <div class="section-pill">ZELF DOEN OF UITBESTEDEN</div>
-    <h2>Wat kost een <span class="blue">eigen acquisitiekanaal</span>?</h2>
-    <p>Dezelfde uitkomst, drie manieren om er te komen. Onderstaande bedragen zijn marktprijzen, geen schatting achteraf.</p>
-  </div>
-  <div class="zd-grid reveal">
-    <div class="zd-card">
-      <span class="zd-lab">Zelf een SDR aannemen</span>
-      <div class="zd-price">&euro;69.000 tot &euro;83.000</div>
-      <div class="zd-per">eerste jaar</div>
-      <ul class="zd-list">
-        <li>Salaris inclusief werkgeverslasten</li>
-        <li>Leaddata, verzendsoftware en mailboxen apart</li>
-        <li>Zes tot twaalf weken inwerktijd</li>
-        <li>Vertrekt de SDR, dan begin je opnieuw</li>
+<!-- MARKTSCAN -->
+<section class="l4-sec" id="marktscan">
+  <div class="l4-card reveal scan-card">
+    <div>
+      <div class="section-pill">GRATIS MARKTSCAN</div>
+      <h2 style="font-size:clamp(24px,3.4vw,32px);line-height:1.18;letter-spacing:-1px;font-weight:800;margin:14px 0 12px;">Hoeveel bedrijven zitten er <span class="blue">in jouw markt</span>?</h2>
+      <p style="font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.66);margin:0;">De eerste vraag bij koude e-mail is of je markt groot genoeg is. Wij rekenen het voor je uit en zeggen het eerlijk als het antwoord nee is. Je krijgt er een gratis deliverability-check bij, ook als je nu bij een andere partij zit.</p>
+      <ul class="scan-list">
+        <li>Hoeveel bedrijven er in jouw doelgroep passen, verdeeld over regio en bedrijfsgrootte</li>
+        <li>Hoeveel beslissers daarvan daadwerkelijk bereikbaar zijn</li>
+        <li>Welk maandvolume realistisch is en hoe lang je erop kunt draaien</li>
+        <li>Welk pakket daarbij hoort</li>
+        <li><strong style="color:var(--white);font-weight:700;">Plus: een deliverability-check op je huidige setup</strong></li>
       </ul>
     </div>
-    <div class="zd-card">
-      <span class="zd-lab">Zelf de tooling kopen</span>
-      <div class="zd-price">&euro;280 tot &euro;1.315</div>
-      <div class="zd-per">per maand, plus je eigen uren</div>
-      <ul class="zd-list">
-        <li>Domeinen, mailboxen, warmup en verzendsoftware</li>
-        <li>Leaddata en verificatie per maand</li>
-        <li>Iemand moet de machine dagelijks bedienen</li>
-        <li>Deliverability is jouw probleem</li>
-      </ul>
-    </div>
-    <div class="zd-card us">
-      <span class="zd-lab">Link2Leads</span>
-      <div class="zd-price">&euro;995 tot &euro;1.995</div>
-      <div class="zd-per">per maand, all-in</div>
-      <ul class="zd-list">
-        <li>Alles hierboven inbegrepen, geen setupfee</li>
-        <li>Binnen twee weken live</li>
-        <li>Volume vastgelegd in het contract</li>
-        <li>Opzegbaar per maand na de eerste drie maanden</li>
-      </ul>
+    <div class="scan-form">
+      <form id="scanForm" novalidate>
+        <div class="cf-field">
+          <label for="sc-email">Zakelijk e-mailadres *</label>
+          <input type="email" id="sc-email" name="email" required autocomplete="email" placeholder="naam@bedrijf.nl">
+        </div>
+        <div class="cf-field">
+          <label for="sc-doel">Wie is je ideale klant? *</label>
+          <textarea id="sc-doel" name="doelgroep" required placeholder="Bijvoorbeeld: installatiebedrijven in Nederland met 10 tot 50 medewerkers" style="min-height:92px;"></textarea>
+        </div>
+        <div class="cf-hp"><label for="sc-website">Website</label><input type="text" id="sc-website" name="website" tabindex="-1" autocomplete="off"></div>
+        <button type="submit" class="btn-solid cf-submit" id="scSubmit">Stuur mij de marktscan →</button>
+        <div class="cf-msg" id="scMsg" role="status" aria-live="polite"></div>
+        <p class="scan-sub">Binnen een werkdag in je mailbox. Geen verplichtingen en geen verkoopgesprek vooraf.</p>
+      </form>
     </div>
   </div>
-  <p class="zd-foot reveal">Op jaarbasis kom je bij ons uit op &euro;12.000 tot &euro;26.000. <a href="/kennis/wat-kost-cold-email-uitbesteden">De volledige rekensom</a> of <a href="/calculator-l2l" target="_blank">bereken je eigen terugverdientijd</a>.</p>
+  <script>
+  (function(){
+    var f=document.getElementById('scanForm');
+    if(!f) return;
+    var btn=document.getElementById('scSubmit'), msg=document.getElementById('scMsg');
+    function show(k,t){ msg.className='cf-msg '+k; msg.textContent=t; }
+    f.addEventListener('submit',function(e){
+      e.preventDefault();
+      var email=f.email.value.trim(), doel=f.doelgroep.value.trim();
+      if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ show('err','Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.'); f.email.focus(); return; }
+      if(!doel){ show('err','Beschrijf kort wie je ideale klant is.'); f.doelgroep.focus(); return; }
+      if(window.l2lTrack) l2lTrack('marktscan_started');
+      btn.disabled=true; var lab=btn.textContent; btn.textContent='Versturen...'; msg.className='cf-msg';
+      fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({type:'marktscan',name:email.split('@')[0],email:email,question:doel,website:f.website.value})})
+        .then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
+        .then(function(r){
+          if(r.ok&&r.d.ok){
+            f.reset();
+            show('ok','Dank je. Je marktscan is aangevraagd en je krijgt hem binnen een werkdag in je mailbox.');
+            btn.textContent='Aangevraagd';
+            if(window.l2lTrack) l2lTrack('marktscan_submitted', {ref: r.d.ref || ''});
+          } else {
+            show('err',(r.d&&r.d.error)||'Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.');
+            btn.disabled=false; btn.textContent=lab;
+          }
+        })
+        .catch(function(){
+          show('err','Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.');
+          btn.disabled=false; btn.textContent=lab;
+        });
+    });
+  })();
+  </script>
 </section>
 
 <!-- REVIEWS -->
@@ -2791,74 +2766,6 @@ section,
     <p style="margin:0;font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.72);">Je ziet welke segmenten het best reageren en wat we de komende maand aanpassen. De reacties zelf komen direct in je mailbox, dus je hoeft nergens voor in te loggen.</p>
     <p class="l4-note" style="margin-top:16px;">Voorbeeldopbouw van een maandrapport op het Scale-pakket. De werkelijke aantallen verschillen per campagne en per doelgroep.</p>
   </div>
-</section>
-
-<!-- MARKTSCAN -->
-<section class="l4-sec" id="marktscan">
-  <div class="l4-card reveal scan-card">
-    <div>
-      <div class="section-pill">GRATIS MARKTSCAN</div>
-      <h2 style="font-size:clamp(24px,3.4vw,32px);line-height:1.18;letter-spacing:-1px;font-weight:800;margin:14px 0 12px;">Hoeveel bedrijven zitten er <span class="blue">in jouw markt</span>?</h2>
-      <p style="font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.66);margin:0;">De eerste vraag bij koude e-mail is of je markt groot genoeg is. Wij rekenen het voor je uit en zeggen het eerlijk als het antwoord nee is. Je krijgt er een gratis deliverability-check bij, ook als je nu bij een andere partij zit.</p>
-      <ul class="scan-list">
-        <li>Hoeveel bedrijven er in jouw doelgroep passen, verdeeld over regio en bedrijfsgrootte</li>
-        <li>Hoeveel beslissers daarvan daadwerkelijk bereikbaar zijn</li>
-        <li>Welk maandvolume realistisch is en hoe lang je erop kunt draaien</li>
-        <li>Welk pakket daarbij hoort</li>
-        <li><strong style="color:var(--white);font-weight:700;">Plus: een deliverability-check op je huidige setup</strong></li>
-      </ul>
-    </div>
-    <div class="scan-form">
-      <form id="scanForm" novalidate>
-        <div class="cf-field">
-          <label for="sc-email">Zakelijk e-mailadres *</label>
-          <input type="email" id="sc-email" name="email" required autocomplete="email" placeholder="naam@bedrijf.nl">
-        </div>
-        <div class="cf-field">
-          <label for="sc-doel">Wie is je ideale klant? *</label>
-          <textarea id="sc-doel" name="doelgroep" required placeholder="Bijvoorbeeld: installatiebedrijven in Nederland met 10 tot 50 medewerkers" style="min-height:92px;"></textarea>
-        </div>
-        <div class="cf-hp"><label for="sc-website">Website</label><input type="text" id="sc-website" name="website" tabindex="-1" autocomplete="off"></div>
-        <button type="submit" class="btn-solid cf-submit" id="scSubmit">Stuur mij de marktscan →</button>
-        <div class="cf-msg" id="scMsg" role="status" aria-live="polite"></div>
-        <p class="scan-sub">Binnen een werkdag in je mailbox. Geen verplichtingen en geen verkoopgesprek vooraf.</p>
-      </form>
-    </div>
-  </div>
-  <script>
-  (function(){
-    var f=document.getElementById('scanForm');
-    if(!f) return;
-    var btn=document.getElementById('scSubmit'), msg=document.getElementById('scMsg');
-    function show(k,t){ msg.className='cf-msg '+k; msg.textContent=t; }
-    f.addEventListener('submit',function(e){
-      e.preventDefault();
-      var email=f.email.value.trim(), doel=f.doelgroep.value.trim();
-      if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ show('err','Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.'); f.email.focus(); return; }
-      if(!doel){ show('err','Beschrijf kort wie je ideale klant is.'); f.doelgroep.focus(); return; }
-      if(window.l2lTrack) l2lTrack('marktscan_started');
-      btn.disabled=true; var lab=btn.textContent; btn.textContent='Versturen...'; msg.className='cf-msg';
-      fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({type:'marktscan',name:email.split('@')[0],email:email,question:doel,website:f.website.value})})
-        .then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
-        .then(function(r){
-          if(r.ok&&r.d.ok){
-            f.reset();
-            show('ok','Dank je. Je marktscan is aangevraagd en je krijgt hem binnen een werkdag in je mailbox.');
-            btn.textContent='Aangevraagd';
-            if(window.l2lTrack) l2lTrack('marktscan_submitted', {ref: r.d.ref || ''});
-          } else {
-            show('err',(r.d&&r.d.error)||'Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.');
-            btn.disabled=false; btn.textContent=lab;
-          }
-        })
-        .catch(function(){
-          show('err','Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.');
-          btn.disabled=false; btn.textContent=lab;
-        });
-    });
-  })();
-  </script>
 </section>
 
 <!-- CONTACT -->
