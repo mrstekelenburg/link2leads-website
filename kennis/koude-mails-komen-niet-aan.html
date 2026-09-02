@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Waarom komen je koude mails niet aan? Deliverability uitgelegd | Link2Leads</title>
+<meta name="description" content="De echte oorzaken van slechte inbox placement bij cold email: lijstkwaliteit, volume per mailbox, domeinen en tracking. Met de instellingen die wij over 170 mailboxen gebruiken.">
+<meta name="keywords" content="cold email spam, deliverability verbeteren, e-mails komen niet aan, spf dkim dmarc cold email, inbox placement">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="author" content="Demi Stekelenburg">
+<link rel="canonical" href="https://www.link2leads.nl/kennis/koude-mails-komen-niet-aan">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.link2leads.nl/kennis/koude-mails-komen-niet-aan">
+<meta property="og:title" content="Waarom komen je koude mails niet aan? Deliverability uitgelegd | Link2Leads">
+<meta property="og:description" content="De echte oorzaken van slechte inbox placement bij cold email: lijstkwaliteit, volume per mailbox, domeinen en tracking. Met de instellingen die wij over 170 mailboxen gebruiken.">
+<meta property="og:image" content="https://www.link2leads.nl/og-image.png">
+<meta property="og:site_name" content="Link2Leads">
+<meta property="og:locale" content="nl_NL">
+<meta property="article:published_time" content="2026-09-02">
+<meta property="article:modified_time" content="2026-09-02">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Waarom komen je koude mails niet aan? Deliverability uitgelegd | Link2Leads">
+<meta name="twitter:description" content="De echte oorzaken van slechte inbox placement bij cold email: lijstkwaliteit, volume per mailbox, domeinen en tracking. Met de instellingen die wij over 170 mailboxen gebruiken.">
+<meta name="twitter:image" content="https://www.link2leads.nl/og-image.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/l2l-page.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.link2leads.nl/kennis/koude-mails-komen-niet-aan#article",
+      "headline": "Waarom komen je koude mails <span class=\"blue\">niet aan</span>?",
+      "description": "De echte oorzaken van slechte inbox placement bij cold email: lijstkwaliteit, volume per mailbox, domeinen en tracking. Met de instellingen die wij over 170 mailboxen gebruiken.",
+      "inLanguage": "nl-NL",
+      "datePublished": "2026-09-02",
+      "dateModified": "2026-09-02",
+      "articleSection": "Kennis",
+      "isAccessibleForFree": true,
+      "author": {
+        "@type": "Person",
+        "name": "Demi Stekelenburg",
+        "jobTitle": "Mede-oprichter",
+        "worksFor": {
+          "@id": "https://www.link2leads.nl/#organization"
+        }
+      },
+      "publisher": {
+        "@id": "https://www.link2leads.nl/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.link2leads.nl/kennis/koude-mails-komen-niet-aan"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.link2leads.nl/#organization",
+      "name": "Link2Leads",
+      "url": "https://www.link2leads.nl",
+      "logo": "https://www.link2leads.nl/og-image.png",
+      "email": "info@link2leads.nl",
+      "telephone": "+31850805381",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Frederik Hendrikstraat 59H",
+        "postalCode": "1052HL",
+        "addressLocality": "Amsterdam",
+        "addressCountry": "NL"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "info@link2leads.nl",
+          "telephone": "+31850805381",
+          "availableLanguage": [
+            "nl",
+            "en"
+          ],
+          "areaServed": "NL"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.link2leads.nl/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Kennis",
+          "item": "https://www.link2leads.nl/kennis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Waarom komen je koude mails <span class=\"blue\">niet aan</span>?",
+          "item": "https://www.link2leads.nl/kennis/koude-mails-komen-niet-aan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.link2leads.nl/kennis/koude-mails-komen-niet-aan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wat is een goede bounce rate bij cold email?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Onder de 2&nbsp;procent is gezond. Boven de 3&nbsp;procent moet je stoppen met verzenden en de lijst opschonen. Boven de 5&nbsp;procent ben je je verzenddomeinen aan het beschadigen en is het goedkoper om opnieuw te beginnen dan door te duwen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoeveel mails per mailbox per dag kan ik veilig versturen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maximaal 25. Dat is de standaard die wij over ongeveer 170 mailboxen aanhouden. Wil je 1.000 mails per dag versturen, dan heb je dus 40 tot 80 mailboxen nodig. Volume komt uit het aantal mailboxen, niet uit hardere instellingen op een enkele box."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Moet ik open tracking aanzetten bij cold email?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Liever niet. Open tracking voegt een extern geladen afbeelding aan je mail toe, en dat is precies het patroon dat spamfilters herkennen. De cijfers die je ermee wint zijn bovendien onbetrouwbaar doordat mailproviders afbeeldingen vooraf laden. Beslis het voor livegang: bij sommige verzendsoftware kun je het achteraf niet meer uitzetten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ik cold email vanaf mijn eigen bedrijfsdomein versturen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Technisch wel, verstandig niet. Gaat de reputatie onderuit, dan verlies je de bezorging van je facturen, offertes en klantmail tegelijk met je campagne. Gebruik aparte verzenddomeinen met eigen SPF-, DKIM- en DMARC-records, elk met een handvol mailboxen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Waarom daalt mijn open rate na drie of vier weken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vrijwel altijd omdat je op een brede, ongesegmenteerde lijst draait. Zo'n lijst bevat veel ontvangers voor wie het aanbod niet relevant is; die negeren of verwijderen de mail, en dat telt mee in je reputatie. De oplossing is segmenteren en per segment een andere insteek mailen, niet nieuwe copy op dezelfde lijst."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Link<span class="dot">2</span>Leads</a>
+    <ul class="nav-links"><li><a href="/#aanpak">Aanpak</a></li><li><a href="/#resultaten">Resultaten</a></li><li><a href="/#pakketten">Pakketten</a></li><li><a href="/kennis">Kennis</a></li><li><a href="/#faq">FAQ</a></li><li><a href="/calculator-l2l">Calculator</a></li></ul>
+    <a href="/#contact" class="nav-cta">Stel je vraag</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu openen"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="/#aanpak" onclick="closeMenu()">Aanpak</a><a href="/#resultaten" onclick="closeMenu()">Resultaten</a><a href="/#pakketten" onclick="closeMenu()">Pakketten</a><a href="/kennis" onclick="closeMenu()">Kennis</a><a href="/#faq" onclick="closeMenu()">FAQ</a><a href="/calculator-l2l" onclick="closeMenu()">Calculator</a>
+  <a href="/#contact" class="nav-mobile-cta" onclick="closeMenu()">Stel je vraag</a>
+</div>
+<main class="page-wrap">
+  <div class="crumb"><a href="/">Link2Leads</a> / <a href="/kennis">Kennis</a></div>
+  <h1 class="page-h">Waarom komen je koude mails <span class="blue">niet aan</span>?</h1>
+  <p class="page-lede">Het ligt zelden aan de tekst. Zes oorzaken op volgorde van hoe vaak ze het werkelijk zijn, met de getallen waarop je moet sturen.</p>
+  <div class="page-meta"> Bijgewerkt <strong>2 september 2026</strong> <span class="dotsep">&middot;</span> <strong>Demi Stekelenburg</strong> <span class="dotsep">&middot;</span> Leestijd 9 minuten </div>
+  <div class="toc"><div class="toc-label">In dit artikel</div><ol><li><a href="#lijst">1. Vervuilde lijst</a></li><li><a href="#volume">2. Te veel per mailbox</a></li><li><a href="#domein">3. Verkeerd domein</a></li><li><a href="#tracking">4. Tracking</a></li><li><a href="#opschalen">5. Te snel opgeschaald</a></li><li><a href="#segmentatie">6. Te brede lijst</a></li><li><a href="#checklist">Maandelijkse controle</a></li><li><a href="#faq">Veelgestelde vragen</a></li></ol></div>
+  <article class="prose">
+
+<p>Bijna iedereen die met cold email begint, denkt dat het probleem in de tekst zit. Dat is het zelden. Als je open rate onder de 20&nbsp;procent zakt of je bounce rate boven de 3&nbsp;procent komt, is er iets stuk in de infrastructuur, en geen enkele herschreven onderwerpregel repareert dat.</p>
+<p>Wij draaien ongeveer 170 mailboxen voor lopende klantcampagnes. Hieronder wat we in de praktijk tegenkomen, in volgorde van hoe vaak het de oorzaak is.</p>
+
+<h2 id="lijst">1. Je lijst is vervuild</h2>
+<p>Elk adres dat niet bestaat, is een stem tegen je verzendreputatie. Mailproviders meten hoe vaak jouw domein probeert te bezorgen op adressen die er niet zijn, en dat weegt zwaar.</p>
+<p>Wat we in de praktijk zien: lijsten die uit een export komen en niet zijn opgeschoond, bevatten standaard 5 tot 15&nbsp;procent dode adressen. Opgeheven bedrijven, mensen die twee jaar geleden zijn vertrokken, adressen die zijn afgeleid uit een patroon dat bij dat bedrijf niet klopt.</p>
+<p>Wat je moet doen, in deze volgorde:</p>
+<ol>
+<li>Valideer elk adres voor verzending. Niet steekproefsgewijs, allemaal.</li>
+<li>Zet catch-all domeinen in een apart segment en meet hun bounce apart. Meteen weggooien is zonde.</li>
+<li>Bouw een suppressielijst met opgeheven bedrijven en harde bounces, en laat die over al je campagnes heen werken. Anders koop je dezelfde dode adressen over een half jaar opnieuw in.</li>
+</ol>
+<p>Praktisch getal om op te sturen: <strong>onder de 2&nbsp;procent bounce is gezond, boven de 3&nbsp;procent moet je stoppen en de lijst opschonen</strong>, en boven de 5&nbsp;procent ben je je domeinen aan het verbranden.</p>
+
+<h2 id="volume">2. Je verstuurt te veel per mailbox</h2>
+<p>Dit is de fout die het snelst onherstelbaar is. Een mailbox die 200 mails per dag verstuurt, is een spamsignaal. Twintig mailboxen die er elk tien versturen, zijn dat niet, ook al gaat er evenveel uit.</p>
+<p>Onze standaard: <strong>maximaal 25 mails per mailbox per dag.</strong> 500 mails per dag betekent dus 20 mailboxen, 1.000 per dag betekent er 40 tot 80. Dat is de reden dat serieuze cold email duurder is dan mensen verwachten, je koopt geen software, je koopt verzendcapaciteit.</p>
+<p>Daar hoort permanente warmup bij: mailboxen die onderling en met een netwerk blijven mailen, ook als de campagne al draait. Wij zetten dat op ongeveer 25 warmup-mails per dag per box met een responspercentage rond de 30&nbsp;procent, en zetten het nooit uit.</p>
+
+<h2 id="domein">3. Je mailt vanaf je hoofddomein</h2>
+<p>Doe dit niet. Als er iets misgaat, en er gaat een keer iets mis, verlies je de bezorging van je facturen, je offertes en je klantcorrespondentie tegelijk met je campagne.</p>
+<p>De juiste opzet is een reeks aparte verzenddomeinen die op je hoofddomein lijken maar het niet zijn, elk met een handvol mailboxen, elk met correcte SPF-, DKIM- en DMARC-records. Gaat er een domein onderuit, dan vervang je dat domein en draait de rest door.</p>
+<p>Twee praktijkpunten die zelden ergens staan:</p>
+<ul>
+<li><strong>Gebruik persoonlijke adressen, geen rolaccounts.</strong> Campagnes die verzenden vanaf een persoonsnaam presteren in onze eigen cijfers structureel beter dan campagnes vanaf <em>info@</em> of <em>contact@</em>. Een mail van een persoon leest als een mens, een mail van <em>info@</em> als een systeem, en filters denken er hetzelfde over.</li>
+<li><strong>Denk aan de ontvangende kant.</strong> Verzenden naar overwegend Gmail-ontvangers levert een ander bouncepatroon op dan naar Microsoft-ontvangers. Loop je daar tegenaan, splits de campagne dan op ontvangende provider in plaats van harder te duwen.</li>
+</ul>
+
+<h2 id="tracking">4. Je tracking is je grootste zwakte</h2>
+<p>Dit is de meest onderschatte oorzaak.</p>
+<p><strong>Open tracking.</strong> Om een open te meten, plaatst je software een onzichtbare afbeelding in de mail die van een externe server wordt geladen. Dat maakt van een korte tekstmail een mail met externe content, precies het patroon dat filters herkennen. De open rate die je ermee wint, is bovendien al jaren onbetrouwbaar doordat mailproviders afbeeldingen preloaden.</p>
+<p>Ons advies: <strong>zet open tracking uit bij de bouw van een campagne.</strong> Let op: bij sommige verzendsoftware kun je dit niet meer wijzigen nadat een campagne live is geweest, dus het is een beslissing die je vooraf neemt of niet meer neemt.</p>
+<p><strong>Custom tracking-domein.</strong> Gebruik je wel tracking, dan moet het via een eigen subdomein lopen met een correct CNAME-record. Twee dingen gaan daar mis. Ten eerste: het record ontbreekt helemaal, en dan lopen je links via een gedeeld domein waarvan de reputatie niet van jou is. Ten tweede, subtieler: het record staat er wel maar is in de software nooit opnieuw geverifieerd nadat er domeinen zijn bijgekomen. Zet het maandelijks op je checklist. Wij vinden dit bij vrijwel elke campagne die we van een andere partij overnemen.</p>
+<p><strong>Links in het algemeen.</strong> Elke link is een risico. Een link naar een pagina op een domein met een goede reputatie is prima. Drie links, een tracking pixel en een uitschrijflink in een mail van 40 woorden is een spamscore.</p>
+
+<h2 id="opschalen">5. Je bent te snel opgeschaald</h2>
+<p>Een nieuw domein met nieuwe mailboxen kan niet meteen productie draaien. Twee weken warmup voor de eerste campagnemail is het minimum; drie is beter. Wij zetten de warmup standaard twee weken voor de afgesproken livedatum aan, ook als de klant later start. En na livegang begin je op een derde van het volume en bouw je dat over twee weken op.</p>
+
+<h2 id="segmentatie">6. Je draait te lang op dezelfde brede lijst</h2>
+<p>Dit is een patroon dat we pas zagen toen we lang genoeg draaiden om het te kunnen zien: <strong>een brede, ongesegmenteerde lijst laat je domeinreputatie na drie tot vier weken zakken.</strong> De mails worden niet slechter. Een brede lijst bevat per definitie veel ontvangers voor wie het aanbod niet relevant is. Die negeren, verwijderen of markeren, en dat telt allemaal mee.</p>
+<p>De remedie is niet meer volume of nieuwere copy. Het is segmenteren. In een campagne van ruim 18.000 leads verschilde de reply rate tussen segmenten met een factor drie bij identieke copy, in dezelfde week, vanaf dezelfde infrastructuur. De volledige cijfers staan in <a href="/kennis/hoeveel-reacties-op-30000-mails">hoeveel reacties krijg je op 30.000 mails</a>.</p>
+<div class="callout accent">
+  Als je een ding uit dit artikel meeneemt: <strong>segmentatie is een deliverability-maatregel, geen marketingluxe.</strong>
+</div>
+
+<h2 id="checklist">Wat je maandelijks moet controleren</h2>
+<div class="table-scroll"><table><thead><tr><th>Signaal</th><th>Gezond</th><th>Actie nodig</th></tr></thead><tbody><tr><td>Bounce rate</td><td>&lt; 2&nbsp;%</td><td>&gt; 3&nbsp;%: stoppen en lijst opschonen</td></tr><tr><td>Open rate (indien gemeten)</td><td>&gt; 35&nbsp;%</td><td>&lt; 20&nbsp;%: infrastructuur nakijken</td></tr><tr><td>Spamklachten</td><td>&plusmn; 0</td><td>&gt; 0,1&nbsp;%: direct terugschalen</td></tr><tr><td>Mailbox health score</td><td>90 &ndash; 100</td><td>&lt; 90: box uit rotatie</td></tr><tr><td>Volume per mailbox</td><td>&le; 25 per dag</td><td>Hoger: verlagen</td></tr><tr><td>SPF / DKIM / DMARC</td><td>Alle drie geldig</td><td>Ontbrekend: direct fixen</td></tr><tr><td>Tracking-CNAME</td><td>Geverifieerd</td><td>Onverifieerd: opnieuw verifi&euml;ren</td></tr><tr><td>Leads op &lsquo;niet gestart&rsquo;</td><td>Dalend</td><td>Stijgend: lijst of capaciteit klopt niet</td></tr></tbody></table></div>
+<p>Die laatste regel is er een die bijna niemand meet en die veel geld kost. Als er duizenden leads in je campagne staan die nooit zijn aangeschreven, betaal je voor volume dat niet uitgaat. Vraag je leverancier maandelijks om het werkelijke aantal verzonden mails, niet alleen om het aantal reacties.</p>
+
+<h2 id="helpt-niet">Wat er niet helpt</h2>
+<ul>
+<li><strong>De onderwerpregel herschrijven</strong> als je bounce rate 6&nbsp;procent is.</li>
+<li><strong>Meer volume</strong> om een tegenvallende campagne te compenseren. Je versnelt dan alleen de schade.</li>
+<li><strong>Een spamchecker-score.</strong> Die zegt iets over je tekst, niets over je reputatie, en reputatie is het grootste deel van het probleem.</li>
+<li><strong>Wachten.</strong> Een dalende reputatie herstelt niet vanzelf terwijl je blijft verzenden.</li>
+</ul>
+<h2 id="faq">Veelgestelde vragen</h2><div class="faq-list"><details class="faq-item"><summary>Wat is een goede bounce rate bij cold email?</summary><div class="faq-body"><p>Onder de 2&nbsp;procent is gezond. Boven de 3&nbsp;procent moet je stoppen met verzenden en de lijst opschonen. Boven de 5&nbsp;procent ben je je verzenddomeinen aan het beschadigen en is het goedkoper om opnieuw te beginnen dan door te duwen.</p></div></details><details class="faq-item"><summary>Hoeveel mails per mailbox per dag kan ik veilig versturen?</summary><div class="faq-body"><p>Maximaal 25. Dat is de standaard die wij over ongeveer 170 mailboxen aanhouden. Wil je 1.000 mails per dag versturen, dan heb je dus 40 tot 80 mailboxen nodig. Volume komt uit het aantal mailboxen, niet uit hardere instellingen op een enkele box.</p></div></details><details class="faq-item"><summary>Moet ik open tracking aanzetten bij cold email?</summary><div class="faq-body"><p>Liever niet. Open tracking voegt een extern geladen afbeelding aan je mail toe, en dat is precies het patroon dat spamfilters herkennen. De cijfers die je ermee wint zijn bovendien onbetrouwbaar doordat mailproviders afbeeldingen vooraf laden. Beslis het voor livegang: bij sommige verzendsoftware kun je het achteraf niet meer uitzetten.</p></div></details><details class="faq-item"><summary>Kan ik cold email vanaf mijn eigen bedrijfsdomein versturen?</summary><div class="faq-body"><p>Technisch wel, verstandig niet. Gaat de reputatie onderuit, dan verlies je de bezorging van je facturen, offertes en klantmail tegelijk met je campagne. Gebruik aparte verzenddomeinen met eigen SPF-, DKIM- en DMARC-records, elk met een handvol mailboxen.</p></div></details><details class="faq-item"><summary>Waarom daalt mijn open rate na drie of vier weken?</summary><div class="faq-body"><p>Vrijwel altijd omdat je op een brede, ongesegmenteerde lijst draait. Zo'n lijst bevat veel ontvangers voor wie het aanbod niet relevant is; die negeren of verwijderen de mail, en dat telt mee in je reputatie. De oplossing is segmenteren en per segment een andere insteek mailen, niet nieuwe copy op dezelfde lijst.</p></div></details></div><div class="page-cta">
+  <h2>Draait er een campagne die niet aankomt?</h2>
+  <p>We kijken er kosteloos naar: infrastructuur, records, volume per mailbox en lijstkwaliteit. Ook als je bij een andere partij zit, dan weet je in elk geval wat er stuk is.</p>
+  <div class="page-cta-btns">
+    <a href="/#contact" class="btn-solid">Stel je vraag</a>
+    <a href="/book" class="btn-ghost">Of plan de gratis fitcheck</a>
+  </div>
+  <p class="page-cta-note">Liever eerst even mailen? Dat kan ook: <a href="mailto:info@link2leads.nl">info@link2leads.nl</a></p>
+</div><div class="related"><h2>Verder lezen</h2><ul><li><a href="/kennis/hoeveel-reacties-op-30000-mails">Hoeveel reacties krijg je op 30.000 mails?<span>Benchmarks uit onze eigen campagnes</span></a></li><li><a href="/kennis/mag-koude-email-nederland">Mag koude e-mail in Nederland?<span>De regels met de wetsartikelen erbij</span></a></li><li><a href="/cold-email-bureaus-nederland">Elf Nederlandse bureaus vergeleken<span>Prijs, kanaal en contractvolume naast elkaar</span></a></li></ul></div><div class="author-box">
+  <div class="author-avatar">DS</div>
+  <div>
+    <div class="an">Demi Stekelenburg</div>
+    <div class="ab">Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.</div>
+  </div>
+</div>
+  </article>
+</main>
+<footer>
+  <div class="foot-top">
+    <div>
+      <a href="/" class="foot-logo">Link<span class="dot">2</span>Leads</a>
+      <p class="foot-tagline">Resultaatgerichte e-mailcampagnes voor ambitieuze B2B-bedrijven. Onderdeel van Link2Group, Amsterdam.</p>
+      <a href="mailto:info@link2leads.nl" class="foot-mail">&#9993;&nbsp; info@link2leads.nl</a>
+    </div>
+    <div>
+      <div class="foot-col-title">Kennis</div>
+      <ul class="foot-col-links">
+        <li><a href="/cold-email-bureaus-nederland">Bureaus vergeleken</a></li>
+        <li><a href="/kennis/wat-kost-cold-email-uitbesteden">Wat kost het?</a></li>
+        <li><a href="/kennis/mag-koude-email-nederland">Mag koude e-mail?</a></li>
+        <li><a href="/kennis/koude-mails-komen-niet-aan">Deliverability</a></li>
+        <li><a href="/kennis/hoeveel-reacties-op-30000-mails">Reactie-benchmarks</a></li>
+        <li><a href="/kennis/cold-email-of-sdr">Cold email of een SDR?</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-col-title">Bedrijf</div>
+      <ul class="foot-col-links">
+        <li><a href="/#pakketten">Pakketten en prijzen</a></li>
+        <li><a href="/#team">Over ons</a></li>
+        <li><a href="/#contact">Contact</a></li>
+        <li><a href="mailto:info@link2leads.nl">info@link2leads.nl</a></li>
+        <li><a href="tel:+31850805381">085 080 5381</a></li>
+        <li><a href="/privacy">Privacybeleid</a></li>
+        <li><a href="/algemene-voorwaarden">Algemene voorwaarden</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-legal-row">
+    Link2Leads (onderdeel van Link2Group) &middot; Frederik Hendrikstraat 59H, 1052HL Amsterdam &middot; KvK 42025671 &middot; BTW NL003697236B23
+  </div>
+  <div class="foot-bottom">2026 Link2Leads, onderdeel van <a href="https://link2group.nl" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">Link2Group</a></div>
+</footer>
+<script>
+(function(){
+  var nav=document.querySelector('nav');
+  window.addEventListener('scroll',function(){ if(nav) nav.classList.toggle('scrolled',window.scrollY>60); },{passive:true});
+  var h=document.getElementById('hamburger'), m=document.getElementById('mobileMenu');
+  if(h&&m){ h.addEventListener('click',function(){ m.classList.toggle('open'); }); }
+  window.closeMenu=function(){ if(m) m.classList.remove('open'); };
+})();
+</script>
+</body>
+</html>

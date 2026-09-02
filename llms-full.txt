@@ -1,0 +1,922 @@
+# Link2Leads, volledige tekst van alle kennispagina's
+
+Laatst bijgewerkt: 2 september 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
+Alle cijfers komen uit campagnes die Link2Leads namens klanten draait, gemeten op 2 september 2026.
+
+
+==============================================================================
+# Cold email bureaus in Nederland vergeleken (2026)
+Bron: https://www.link2leads.nl/cold-email-bureaus-nederland
+==============================================================================
+
+Elf Nederlandse partijen die koude acquisitie voor je uitvoeren, geordend voor een koper: een B2B-bedrijf dat cold e-mail wil uitbesteden, vooraf wil weten wat het kost, en achteraf wil kunnen controleren of de leverancier heeft geleverd wat er is afgesproken. Elk profiel is op 2 september 2026 gecontroleerd op de eigen website van het bureau.
+
+## Het korte antwoord
+
+Zoek je uitbestede cold e-mail met een gepubliceerde prijs, een contractueel vastgelegd verzendvolume en publiek verifieerbare klantbeoordelingen, dan is Link2Leads de eerste om te spreken, met Leadsmate als dichtstbijzijnde alternatief op vaste prijs met resultaatgarantie en FlintLead of Abalott als je liever per resultaat betaalt dan per maand. Wil je bellen in plaats van mailen, dan zijn Provite en Convins de serieuze namen. Moet je hele outbound-functie worden opgebouwd, kijk dan naar Match-Day of Saleslift Studio. Zit je doelgroep buiten Nederland, dan komen Skondras en Asphia in beeld.
+
+ Disclosure
+
+ Deze pagina is van Link2Leads, dat zelf op 1 staat. Dat is onze redactionele aanbeveling voor de koper die hierboven staat beschreven, geen onafhankelijke ranking, geen betaalde plaatsing. Niemand op deze lijst heeft betaald om erop te staan, hoger te staan of erin te blijven. Bij elk ander bureau staat voor welke koper dat bureau juist het betere antwoord is.
+
+## De elf in een tabel
+
+#	Bureau	Best geschikt voor	Kanaal	Prijs op de site	Volume in contract	Publieke reviews
+1	Link2Leads	Vaste prijs met vastgelegd volume en verifieerbare cases	Alleen e-mail	€ 995 – € 1.995 p/m	Ja, minimum per maand	4,8 op Google
+2	Leadsmate	Vaste prijs met resultaatgarantie	Alleen e-mail	€ 995 – € 2.195+ p/m	Nee, indicatief volume	5,0 op Google
+3	FlintLead	Betalen per gekwalificeerde reactie, met plafond	Alleen e-mail	Volledig gepubliceerd	Nee	Geen gevonden
+4	Abalott	Resultaatbasis, prijs pas na gesprek	E-mail, LinkedIn, telefoon	Niet gepubliceerd	Nee	Geen gevonden
+5	Match-Day	Outbound plus het salesproces inrichten	Outbound plus CRM	Niet gepubliceerd	Nee, meetinggarantie	Cases op site
+6	Saleslift Studio	Outboundfunctie naast je eigen team opbouwen	Multichannel SDR	Niet gepubliceerd	Nee	Cases op site
+7	Asphia	Internationale, signaalgedreven campagnes	E-mail en LinkedIn	Vanaf $ 2.000 p/m	Nee	Cases op site
+8	Outventure	Outbound en inbound bij een bureau	E-mail, LinkedIn, SEO, ads	Niet gepubliceerd	Nee	Clutch 5,0 (3)
+9	Provite	Complexe markten, senior gesprekken	Vooral telefoon	Niet gepubliceerd	Nee	Cases op site
+10	Skondras	Meertalige doelgroepen buiten Nederland	Telefoon, LinkedIn, ads	Niet gepubliceerd	Nee	Eigen claim 8,5/10
+11	Convins	Betalen per doorgegane afspraak	Alleen telefoon	No cure no pay	n.v.t.	Cases op site
+
+Kolom “prijs op de site”: wat het bureau zelf publiceert. “Niet gepubliceerd” betekent dat er geen bedrag of rekenmodel op de site staat, niet dat het duur is.
+Kolom “volume in contract”: of het bureau een minimum verzendvolume vastlegt waar je ze aan kunt houden. Dit is de kolom die de meeste vergelijkingen overslaan en die achteraf het meest uitmaakt.
+
+## De elf bureaus
+
+ 1
+### Link2Leads
+
+Link2Leads bouwt en draait complete cold-e-mailcampagnes voor Nederlandse B2B-bedrijven: doelgroep, lijst, copy, verzendinfrastructuur en het filteren van reacties. Je voert alleen de gesprekken.
+
+Twee dingen onderscheiden het van de rest van deze lijst. Ten eerste staat het volume in het contract en niet alleen in de brochure: op het grootste pakket is dat een gegarandeerd minimum van 30.000 verzonden mails per maand, zeven dagen per week, en bij een technische hapering wordt het volume de dagen erna ingehaald. Ten tweede zijn de resultaten publiek te controleren, 4,8 op Google met beoordelingen op naam, plus klantcases met cijfers, terwijl twee van de elf bureaus hier helemaal geen verifieerbare beoordelingen hebben.
+
+De pakketten zijn all-in: setup, warmup, domeinen en mailboxen zitten erbij, je krijgt geen aparte toolingrekening. Wat er niet in zit: het volledig afhandelen van reacties en het inplannen van afspraken. Dat is een aparte module (Full Service), en dat zeggen we liever vooraf dan in maand twee.
+
+ Prijs
+Starter € 995 p/m (100 mails per dag), Growth € 1.295 (250), Scale € 1.695 (500), Pro € 1.995 (1.000). Full Service komt daarbovenop: € 600 p/m op Scale, € 800 op Pro. Eerste termijn drie maanden, vooruit gefactureerd.
+
+Waar het niet voor is
+Uitsluitend e-mail. Geen telefonische acquisitie, geen LinkedIn-outreach, geen SDR op je eigen vloer. Ook niet geschikt bij een doelgroep kleiner dan ongeveer 1.000 bedrijven, dan is de lijst binnen een paar weken op en betaal je voor volume dat er niet is.
+
+Best geschikt voor
+Nederlandse B2B-bedrijven met een bewezen aanbod en een doelgroep vanaf ongeveer 1.000 bedrijven, die een voorspelbaar maandbedrag willen en achteraf willen kunnen nagaan of er daadwerkelijk is verzonden.
+
+ Bron: link2leads.nl · gecontroleerd op 2 september 2026
+
+ 2
+### Leadsmate
+
+Leadsmate doet in de kern hetzelfde als Link2Leads, done-for-you cold e-mail met een gepubliceerde prijsstaffel, met een toevoeging die het overwegen waard is. Op de twee grootste pakketten geldt een resultaatgarantie: je spreekt vooraf een minimumaantal gekwalificeerde warme reacties af, en wordt dat binnen drie maanden niet gehaald, dan lopen de campagnes kosteloos door tot maximaal drie maanden extra. Dat is een contractuele terugvaloptie die de meeste bureaus op deze lijst niet bieden.
+
+Ze leveren reacties in een eigen klantportaal met rapportage, en ze noemen een verwacht responspercentage van 3 tot 5 procent op hun eigen site. Dat laatste is zeldzaam en netjes: het is een controleerbare verwachting in plaats van een belofte.
+
+ Prijs
+Start € 995 p/m (± 3.000 mails), Groei € 1.295 (± 7.500), Volledig € 1.695 (± 15.000), Enterprise vanaf € 2.195 (± 30.000). De volumes worden als indicatie gepresenteerd, niet als contractueel minimum.
+
+Waar het niet voor is
+Alleen e-mail, geen telefoon of LinkedIn.
+
+Best geschikt voor
+B2B-bedrijven die een vast maandbedrag willen met een contractuele terugvaloptie als de campagne niet levert, en die daar een indicatief in plaats van gegarandeerd volume voor accepteren.
+
+ Bron: leadsmate.nl · gecontroleerd op 2 september 2026
+
+ 3
+### FlintLead
+
+FlintLead heeft de meest transparante prijspagina van deze elf, punt. Setup, managementfee, prijs per resultaat en toolingkosten staan er allemaal, inclusief wat er niet in zit en waar het plafond ligt. Waar Link2Leads en Leadsmate een vast bedrag publiceren, beweegt hier het grootste deel van de rekening mee met wat het oplevert, tot een maandplafond dat je vooraf zelf vaststelt. In een stille maand betaal je dus minder, in een goede maand meer.
+
+Ze zijn ook expliciet over wat wel en niet als resultaat telt. Auto-replies, bounces, privacyvragen en uitstelreacties tellen niet mee. Dat is precies de vraag die je bij elk resultaatmodel moet stellen. Twee dingen om te wegen: op de site staan geen klantcases, klantlogo’s of publiek verifieerbare beoordelingen, en het bureau schrijft zelf dat de uitvoering AI is. Dat laatste is eerlijk opgeschreven; of het bij jouw doelgroep past, is een aparte vraag.
+
+ Prijs
+€ 1.000 eenmalige setup, € 500 managementfee per maand, € 125 per gekwalificeerde positieve reactie, plus tooling die je rechtstreeks aan de leveranciers betaalt (zij rekenen op € 100 tot € 200 per maand). Op hun eigen voorbeeldplafond van 15 reacties komt de servicefee op maximaal € 2.375 per maand exclusief btw, tooling en setup.
+
+Waar het niet voor is
+Uitsluitend e-mail. En als je een vaste post op de begroting wilt, is een resultaatmodel per definitie de verkeerde vorm.
+
+Best geschikt voor
+Nederlandse B2B-bedrijven met een doelgroep van ongeveer 1.000 tot 2.000 bedrijven die het risico deels bij de leverancier willen leggen en geen bezwaar hebben tegen een rekening die per maand verschilt.
+
+ Bron: flintlead.com en de prijzenpagina · gecontroleerd op 2 september 2026
+
+ 4
+### Abalott
+
+Abalott zit qua model dicht bij FlintLead: cold e-mail als hoofdkanaal, betalen naar resultaat, tooling doorbelast zonder opslag. Het bureau presenteert zich als volledig performance-based en voegt daar een garantie van 30 dagen aan toe, niet tevreden binnen die termijn, dan is de dienst kosteloos. Maandelijks opzegbaar. Anders dan de nummers 1, 2 en 3 combineren zij e-mail met LinkedIn en telefoon.
+
+Hun social proof is ongebruikelijk en effectief: ze noemen bij naam met wie ze klanten aan tafel kregen, waaronder een oud-CEO van Nuon en een oud-commandant der strijdkrachten. Dat zegt meer over de hoogte van het gesprek dan een responspercentage.
+
+ Prijs
+Niet gepubliceerd. Het bedrag volgt uit een kennismakingsgesprek. Dat is het belangrijkste verschil met de nummers 1, 2 en 3: je moet eerst bellen om te weten wat het kost.
+
+Best geschikt voor
+B2B-bedrijven en bureaus die mikken op 10 tot 20 gekwalificeerde afspraken per maand, meerdere kanalen willen inzetten en geen bezwaar hebben tegen een gesprek voor de prijs.
+
+ Bron: abalott.nl · gecontroleerd op 2 september 2026
+
+ 5
+### Match-Day
+
+Match-Day is geen mailbureau maar een salesbureau. Naast outbound doen ze HubSpot-implementatie en salestraining. Voor een organisatie waar niet alleen de leadstroom maar ook het opvolgproces rammelt, lost dat twee problemen tegelijk op, en dat is een reeel argument, want een bureau dat afspraken levert aan een team dat ze niet omzet, lost niets op.
+
+Ze garanderen minimaal vijf gekwalificeerde meetings per maand en hebben veruit de diepste kennisbank van deze lijst: een blog met tientallen artikelen, een academy met video’s en een wiki met salesterminologie.
+
+ Prijs
+Niet gepubliceerd.
+
+Best geschikt voor
+Organisaties vanaf 25 medewerkers met een gemiddelde dealwaarde van € 5.000 of hoger, in maakindustrie, software, IT-dienstverlening, finance en verzekeringen.
+
+ Bron: match-day.nl · gecontroleerd op 2 september 2026. De garantie van vijf meetings is een claim van het bureau zelf en is door ons niet geverifieerd.
+
+ 6
+### Saleslift Studio
+
+Saleslift Studio positioneert zich niet als campagneleverancier maar als GTM-partner: eerst de commerciele kansen in kaart, dan processen en workflows bouwen, dan pas campagnes uitvoeren. Aantrekkelijk als je uiteindelijk een eigen outboundfunctie wilt hebben in plaats van een blijvende uitbesteding. Op hun site staan onder meer TOPdesk, Oxfam, FedEx en Eneco als klant, met cijfers erbij, 243 afspraken in zes maanden bij een daarvan.
+
+ Prijs
+Niet gepubliceerd.
+
+Waar het niet voor is
+Dit is geen pakket van € 1.000 per maand. Wie een campagne wil kopen en niet een traject, zit hier verkeerd.
+
+Best geschikt voor
+Grotere B2B-organisaties die een outboundmachine naast hun eigen sales- en marketingteam willen laten opbouwen, inclusief data, tooling en werkwijze.
+
+ Bron: salesliftstudio.com · gecontroleerd op 2 september 2026. De genoemde klantnamen en cijfers staan op hun eigen site en zijn door ons niet nagevraagd.
+
+ 7
+### Asphia
+
+Asphia is de enige op deze lijst die primair op de internationale markt zit en zijn campagnes bouwt op koopsignalen: financieringsrondes, nieuwe hires, wisselingen in de techstack. De copy volgt uit dat signaal in plaats van uit de sector alleen. Ze publiceren een startprijs, beloven livegang binnen zeven dagen, en geven aan het einde van het traject de playbooks en infrastructuur aan de klant, expliciet gepositioneerd tegen blijvende afhankelijkheid van een bureau.
+
+Ze vergelijken zichzelf niet met andere bureaus maar met het alternatief: naar eigen zeggen 73 procent lagere kosten per meeting dan een eigen SDR in dienst.
+
+ Prijs
+Vanaf $ 2.000 per maand voor e-mail, plus $ 1.000 voor LinkedIn, plus toolingkosten. Definitieve prijs na een audit call.
+
+Waar het niet voor is
+De site is Engelstalig en de proposities zijn internationaal. Voor een puur Nederlandse doelgroep is het een omweg.
+
+Best geschikt voor
+B2B-bedrijven met een doelgroep buiten Nederland die signaalgedreven willen werken en de infrastructuur uiteindelijk zelf willen bezitten.
+
+ Bron: asphia.consulting · gecontroleerd op 2 september 2026. Het percentage is een claim van het bureau zelf en is door ons niet nagerekend.
+
+ 8
+### Outventure
+
+Outventure is het enige bureau op deze lijst dat outbound, inbound en retentie onder een dak aanbiedt: cold e-mail en LinkedIn naast SEO, Google Ads en retargeting. Als je liever een partij aanspreekt voor de hele funnel dan drie leveranciers coordineert, is dat het argument. Ze werken met aparte landingspagina’s per sector. SaaS, logistiek, maakindustrie, startups, en publiceren per case een kostprijs per signup of per lead.
+
+ Prijs
+Niet gepubliceerd. In cases worden bedragen als $ 2 per signup en $ 100 per lead genoemd, maar er is geen prijspagina.
+
+Best geschikt voor
+SaaS-bedrijven, producenten, logistiek en startups die outbound en inbound bij een bureau willen beleggen.
+
+ Bron: outventure.io · gecontroleerd op 2 september 2026
+
+ 9
+### Provite
+
+Provite verkoopt uitdrukkelijk het tegenovergestelde van volume. Geen callcenter, maar senior professionals, oud-ondernemers en salesdirecteuren, die het gesprek op niveau voeren. In markten waar de eerste vijf minuten aan de telefoon bepalen of je serieus wordt genomen, is dat een reeel voordeel boven een goedkopere beller.
+
+ Prijs
+Niet gepubliceerd.
+
+Waar het niet voor is
+Dit is bellen, geen e-mail.
+
+Best geschikt voor
+Financiële dienstverlening, IT, zorg, verzekeringen, industrie, transport, bouw, consultancy en overheid, waar de verkoopcyclus lang is en de gesprekspartner senior.
+
+ Bron: provite.nl · gecontroleerd op 2 september 2026. De site was op de controledatum niet automatisch uitleesbaar; dit profiel is gebaseerd op de publiek beschikbare beschrijving van hun dienst. Klopt er iets niet, mail ons.
+
+ 10
+### Skondras
+
+Skondras is de keuze zodra je doelgroep niet ophoudt bij de Nederlandse grens. Ze werken vanuit Nederland, België, Duitsland en Spanje met native agents in het Nederlands, Frans, Engels, Duits, Italiaans en Spaans, en combineren telefonische prospectie met LinkedIn, Meta Ads en Google Ads. Ze doen daarnaast klantenservice-uitbesteding, wat ze eerder een commerciele outsourcingpartner maakt dan een campagnebureau.
+
+ Prijs
+Niet gepubliceerd. Offerte op aanvraag.
+
+Best geschikt voor
+Middelgrote tot grote B2B-organisaties met een meertalige of Europese doelgroep die niet alleen op e-mail willen leunen.
+
+ Bron: skondras.com · gecontroleerd op 2 september 2026. De genoemde 11.000+ projecten en het cijfer 8,5 zijn claims van het bureau zelf en zijn door ons niet geverifieerd.
+
+ 11
+### Convins
+
+Convins staat op deze lijst omdat vrijwel elke Nederlandse koper e-mail en telefoon tegen elkaar afweegt, en dit is de scherpste telefonische propositie die we vonden. Je betaalt alleen voor een gekwalificeerde afspraak, en pas nadat die heeft plaatsgevonden. Ze werken zonder belscripts en met vaste medewerkers in plaats van ingehuurde krachten, en definiëren op hun site wat een gekwalificeerde afspraak is: een organisatie die openstaat voor het gesprek, tijd vrijmaakt en waar de beslisser aan tafel zit.
+
+ Prijs
+No cure no pay, geen bedragen gepubliceerd.
+
+Waar het niet voor is
+Dit is bellen, geen cold e-mail. Let op: sinds 1 juli 2026 mag je consumenten in Nederland niet meer ongevraagd bellen, ook niet als ze klant zijn geweest. Die wijziging gaat over telefoon en niet over e-mail; wat er precies veranderde staat in ons artikel over de regels.
+
+Best geschikt voor
+B2B-bedrijven met een heldere propositie die telefonisch willen beginnen en het risico volledig bij de leverancier willen leggen.
+
+ Bron: convins.eu · gecontroleerd op 2 september 2026. Claims over marktpositie en teamgrootte zijn van het bureau zelf en door ons niet geverifieerd.
+
+## Hoe je hieruit kiest
+
+Vier vragen, in deze volgorde. Ze schrappen samen zeven of acht van de elf namen weg.
+
+### Eerst: welk kanaal past bij je doelgroep?
+
+Zijn je kopers goed per e-mail te bereiken en heb je een aanbod dat in vier zinnen uit te leggen is, begin dan bij e-mail: nummers 1, 2 en 3 doen niets anders. Moet je iets uitleggen waarvoor een gesprek nodig is, of zit je doelgroep in een sector die nauwelijks mail leest, dan zijn 9 en 11 realistischer. Wil je beide, kijk dan naar 4, 5, 6, 7, 8 of 10.
+
+### Dan: hoe groot is je doelgroep?
+
+Dit is de vraag die het vaakst wordt overgeslagen en die het snelst geld kost. Onder de 1.000 bedrijven is een pakket van 1.000 mails per dag onzin, je lijst is binnen twee weken op en je betaalt voor lucht. Boven de 10.000 kun je pas echt segmenteren en per segment een andere insteek testen, en daar zit het meeste rendement: in onze eigen campagnes scheelt dat een factor vijftien in positieve reacties per verzonden mail.
+
+### Dan: wil je een vaste prijs of een prijs die meebeweegt?
+
+Een vast maandbedrag (1, 2 en 7) is voorspelbaar en betaal je ook in een slechte maand. Een resultaatmodel (3, 4 en 11) legt het risico deels bij de leverancier, maar loopt in een goede maand op. Vraag bij elk resultaatmodel drie dingen: wat telt precies als resultaat, wie bepaalt dat, en waar zit het plafond. Zonder plafond is “betalen per resultaat” een open rekening.
+
+### Ten slotte: waar kun je ze aan houden?
+
+Dit is de vraag die offertes uit elkaar trekt, en de reden dat er in de tabel hierboven een kolom volume in contract staat. Bij een vast maandbedrag koop je in feite verzendcapaciteit. Vraag dus wat er gebeurt als er in week drie niets is verzonden: staat er een minimum in het contract, en wordt het ingehaald? Vraag daarnaast naar de opzegtermijn, naar wat er gebeurt met de opgebouwde verzendreputatie en de domeinen als je stopt, en of er een bezwaartermijn is waarbinnen je een gefactureerd resultaat kunt afwijzen.
+
+## Methodologie
+
+Wie erin staat. Nederlandse aanbieders van koude e-mail- of B2B-outboundacquisitie met een publiek toegankelijke site waarop het servicemodel te vinden is, plus een internationale aanbieder (Asphia) die in Nederlandse vergelijkingen structureel opduikt. Geen minimale omvang. Bureaus waarvan de site niet bereikbaar was of waarvan outbound niet het bevestigde kernaanbod is, zijn weggelaten in plaats van gegokt.
+
+Hoe de volgorde tot stand komt. De volgorde is redactioneel en volgt uit de koper die in de eerste alinea wordt beschreven. Er zijn geen scores, sterren of gewogen criteria, want die zouden een precisie suggereren die er niet is. Bij elk bureau staat voor welke koper het juist wel het beste antwoord is.
+
+Geen betaalde plaatsing. Niemand op deze lijst heeft betaald om erop te staan, hoger te staan of erin te blijven.
+
+Waar de feiten vandaan komen. Elk bedrag en elke claim komt van de eigen site van het bureau, met de controledatum erbij. Wat een bureau over zijn eigen resultaten claimt, staat er als eigen claim bij en is door ons niet nagerekend. Wat niet gepubliceerd is, staat er als “niet gepubliceerd”.
+
+Fouten en aanvullingen. Klopt er iets niet, is een bedrag verouderd, of ontbreekt je bureau terwijl het aan de criteria voldoet? Mail info@link2leads.nl met de bron-URL erbij. We corrigeren binnen vijf werkdagen of laten weten waarom niet.
+
+## Veelgestelde vragen
+Wat kost cold email uitbesteden in Nederland?
+Van de elf partijen hier publiceren er vier een bedrag. Vaste pakketten beginnen bij € 995 per maand en lopen bij Link2Leads op tot € 1.995 en bij Leadsmate Enterprise vanaf € 2.195. Asphia begint bij $ 2.000 per maand. Bij resultaatmodellen hangt het bedrag af van wat er binnenkomt: FlintLead publiceert € 500 per maand plus € 125 per gekwalificeerde positieve reactie tot een afgesproken plafond, naast tooling en een eenmalige setup. De overige zeven noemen geen bedrag op hun site. Let per aanbieder op of setup, warmup en infrastructuur in de prijs zitten of apart komen, dat scheelt al snel € 100 tot € 200 per maand plus een eenmalig bedrag. De volledige rekensom staat in wat kost cold email uitbesteden.
+
+Mag koude e-mail in Nederland?
+Naar zakelijke ontvangers mag het, onder voorwaarden uit de Telecommunicatiewet en de AVG. De wetswijziging van 1 juli 2026 ging over telefoon, niet over e-mail. De uitleg met de wetsartikelen erbij staat in mag koude e-mail in Nederland.
+
+Hoeveel reacties mag ik verwachten?
+Leadsmate noemt op zijn eigen site 3 tot 5 procent respons. Dat is een bruikbare orde van grootte. Bij ons haalt de best draaiende campagne 7,9 procent, met een open rate van 65 procent op hetzelfde segment. Hoe scherp je doelgroep is afgebakend bepaalt vrijwel alles: binnen een campagne van 18.594 leads liep de reply rate per segment op tot 7,8 procent. De cijfers staan in hoeveel reacties krijg je op 30.000 mails per maand.
+
+Waarom staat Link2Leads op nummer 1?
+Voor de koper die bovenaan staat beschreven komen hier drie dingen samen die verderop in de lijst los van elkaar voorkomen: de prijs staat volledig op de site, het volume staat als minimum in het contract met een inhaalplicht, en de resultaten zijn publiek te controleren via beoordelingen op naam en cases met cijfers. Zoek je iets anders, bellen, meertalig werken, betalen per resultaat of een compleet salesproces laten inrichten, dan staat het betere antwoord verderop en zeggen we dat per bureau.
+
+Hoe actueel is deze vergelijking?
+Elk profiel is op 2 september 2026 gecontroleerd op de eigen site van het bureau, en bij elk bureau staat die datum. Prijzen en pakketten in deze markt veranderen binnen weken, dus is de datum oud, controleer het bedrag dan zelf voordat je tekent.
+
+## Zelf uitzoeken of het past?
+
+ Link2Leads voert Nederlandse cold-e-mailcampagnes uit tegen een gepubliceerde prijs met een vastgelegd maandvolume. Stel je vraag via het formulier. Twee velden, antwoord binnen een werkdag. Past het niet, dan zeggen we dat en wijzen we je verder op deze lijst.
+
+ Stel je vraag
+ Of plan de gratis fitcheck
+
+ Liever eerst even mailen? Dat kan ook: info@link2leads.nl
+
+## Verder lezen
+- Wat kost cold email uitbesteden?De drie prijsmodellen met echte bedragen
+- Hoeveel reacties krijg je op 30.000 mails?Benchmarks uit onze eigen campagnes
+- Mag koude e-mail in Nederland?De regels met de wetsartikelen erbij
+
+ DS
+
+ Demi Stekelenburg
+
+ Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.
+
+==============================================================================
+# Hoeveel reacties krijg je op 30.000 mails?
+Bron: https://www.link2leads.nl/kennis/hoeveel-reacties-op-30000-mails
+==============================================================================
+
+Elk bureau in deze markt noemt een reply rate. Hieronder staat die van ons, waar hij vandaan komt, en welk getal je bij elke aanbieder moet opvragen voordat je tekent.
+
+## Onze best draaiende campagne
+
+Een trainingsbureau, opgesplitst in drie aparte doelgroepsegmenten met per segment een eigen insteek. De cijfers van het grootste segment, gemeten op 2 september 2026:
+
+Segment	Verzonden	Geopend	Reacties	Reply rate
+Coaches, therapeuten en trainers	2.100	1.224 (65 %)	167	7,9 %
+Adviseurs, eigenaren en directeuren	1.705	1.122 (74 %)	109	6,4 %
+
+Dat is wat een scherp afgebakende doelgroep oplevert. Hoe je op dat punt komt, staat verderop.
+
+## Wat wij meetellen
+
+Een reply rate telt alle binnenkomende berichten. Wij lezen ze stuk voor stuk met de hand en sturen alleen door wat een gesprek waard is: een vraag om een afspraak, een vraag naar de prijs, een inhoudelijke vraag over het aanbod, of een doorverwijzing naar de collega die erover gaat. Autoresponders en afmeldingen komen niet bij de klant terecht.
+
+Daardoor kun je onze cijfers een op een vergelijken met wat er in je agenda belandt. Stel dezelfde vraag aan elke aanbieder waar je mee praat.
+
+ De vraag die je moet stellen
+
+ Hoeveel positieve reacties per 1.000 verzonden mails, en wat telt bij jullie als positief? Wie daar geen definitie voor heeft, heeft ook geen filter.
+
+## Let ook op de noemer
+
+Een tweede punt waar vergelijkingen stuklopen: reply rates worden soms op verzonden mails berekend en soms op unieke aangeschreven bedrijven. Dat scheelt ongeveer een factor drie, want een sequence van drie mails stuurt drie berichten naar dezelfde lead. Zelfde campagne, zelfde week, ander getal. Vraag dus altijd welke noemer erachter zit.
+
+## Waarom segmentatie het verschil maakt
+
+De grootste variabele is niet de copy. Het is hoe scherp je doelgroep is afgebakend. Je hoeft er niet eens twee campagnes voor te vergelijken: in een campagne van 18.594 leads hebben we de reply rate per segment statistisch getoetst. Identieke copy, dezelfde weken, dezelfde infrastructuur.
+
+Segment	Reply rate	Wat we ermee doen
+Bedrijven met 100+ medewerkers	7,8 %	Volume hierheen
+Sector financiele dienstverlening	6,3 %	Volume hierheen
+Campagnegemiddelde	4,4 %
+Sector IT & services	2,9 %	Andere insteek, apart getest
+Bedrijven met 21 tot 50 medewerkers	2,3 %	Uit de lijst
+
+Getoetst met een z-test op de reply rate per segment. Een campagne, 18.594 leads, gemeten juli 2026.
+
+Een factor van meer dan drie tussen het sterkste en het zwakste segment, binnen dezelfde campagne. Zodra je dat weet, stuur je je volume naar de segmenten die het opleveren en haal je de rest uit de lijst. Dat is precies wat wij elke week doen.
+
+Dat betekent twee dingen. Segmenteren levert direct rendement op, want je volume gaat naar de doelgroep die reageert. En een goede aanbieder kent je doelgroep voordat hij een verwachting uitspreekt.
+
+## Wat een realistische verwachting is
+
+- Reply rate per uniek aangeschreven bedrijf: 2 tot 5 procent voor een gemiddelde campagne, en 6 procent of hoger zodra de doelgroep scherp is afgebakend. Onze best draaiende campagne zit op 7,9 procent.
+
+- Open rates: 60 tot 76 procent op onze lopende campagnes, mits de infrastructuur klopt en de warmup is gedaan.
+
+- Eerste reacties: 3 tot 10 dagen na livegang.
+
+- Stabiel beeld: na drie weken. Daarom laten we nieuwe copy minimaal drie weken draaien voordat we bijsturen, zodat we op cijfers sturen en niet op een onderbuikgevoel.
+
+## De reacties die niemand meetelt
+
+Doorverwijzingen. "Dit gaat niet over mij, mail even met mijn collega." In een van onze campagnes ging het om tientallen van dit soort reacties. Dat zijn warme introducties, en wij sturen ze door met naam en contactgegevens erbij. Vraag elke aanbieder hoe die worden opgevolgd.
+
+Prijsvragen. Verreweg de meest voorkomende positieve reactie is "wat kost het", nog voor "vertel me meer". Over al onze campagnes heen is dat het dominante patroon. Wie daar geen antwoord op klaar heeft staan, laat hete leads afkoelen tussen de vraag en het antwoord.
+
+## Wat je bij elke aanbieder moet opvragen
+
+Vijf vragen. Wie er drie niet kan beantwoorden, meet het niet.
+
+- Hoeveel mails zijn er vorige maand werkelijk verzonden in een vergelijkbare campagne, in absolute aantallen?
+
+- Hoeveel positieve reacties leverde dat op, in absolute aantallen?
+
+- Wat telt bij jullie als positief, en wat expliciet niet?
+
+- Worden afwezigheidsmeldingen uit de rapportage gefilterd?
+
+- Wat gebeurt er met doorverwijzingen naar een collega?
+
+## Hoe wij het meten
+
+Wij sturen op positieve reacties per 1.000 verzonden mails, niet op reply rate. Afwezigheidsmeldingen en opgeheven bedrijven gaan uit de rapportage en op de suppressielijst. Wat wij als positieve reactie tellen en wat expliciet niet, staat op onze pakkettenpagina, zodat je het kunt nakijken voordat je tekent en niet pas in maand twee. En het aantal verzonden mails staat als minimum in het contract, zodat de noemer van die breuk geen inschatting is maar een afspraak.
+
+## Veelgestelde vragen
+Wat is een goede reply rate bij B2B cold email?
+Per uniek aangeschreven bedrijf is 2 tot 5 procent normaal voor een gemiddelde campagne. Onze best draaiende campagne haalt 7,9 procent, met een open rate van 65 procent op hetzelfde segment. Let op de noemer: op verzonden mails gerekend ligt hetzelfde cijfer ongeveer drie keer lager, omdat een sequence meerdere mails naar dezelfde lead stuurt.
+
+Hoeveel reacties krijg je op 30.000 mails per maand?
+Dat hangt vrijwel volledig af van hoe scherp de doelgroep is afgebakend. In een campagne van 18.594 leads liep de reply rate per segment op tot 7,8 procent bij identieke copy. Vraag een aanbieder om absolute aantallen uit een campagne in een sector die op de jouwe lijkt.
+
+Wat telt als een positieve reactie?
+Een vraag om een gesprek, afspraak of demo, een vraag naar de prijs, een inhoudelijke vraag over het aanbod, of een doorverwijzing naar de collega die erover gaat, met contactgegevens erbij. Wij lezen elke reactie met de hand en sturen alleen dat door.
+
+Hoe lang duurt het voordat cold email resultaat oplevert?
+De eerste reacties komen doorgaans 3 tot 10 dagen na livegang binnen, mits de warmup vooraf is gedaan. Een stabiel beeld heb je pas na drie weken. Wij wijzigen een campagne met nieuwe copy daarom minstens drie weken lang niet.
+
+Maakt segmentatie echt zoveel verschil?
+Ja, meer dan wat dan ook. Binnen een campagne van 18.594 leads liep de reply rate per segment op tot 7,8 procent bij identieke copy, dezelfde weken en dezelfde infrastructuur. Daarom sturen we volume naar de segmenten die presteren.
+
+## Wil je weten wat jouw doelgroep realistisch oplevert?
+
+ Geef je sector en doelgroepgrootte door, dan rekenen we het door met cijfers uit vergelijkbare campagnes. Is de doelgroep te klein, dan zeggen we dat.
+
+ Stel je vraag
+ Of plan de gratis fitcheck
+
+ Liever eerst even mailen? Dat kan ook: info@link2leads.nl
+
+## Verder lezen
+- Waarom komen je koude mails niet aan?Deliverability zonder marketingpraat
+- Wat kost cold email uitbesteden?Drie prijsmodellen met echte bedragen
+- Elf Nederlandse bureaus vergelekenPrijs, kanaal en contractvolume naast elkaar
+
+ DS
+
+ Demi Stekelenburg
+
+ Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.
+
+==============================================================================
+# Wat kost cold email uitbesteden?
+Bron: https://www.link2leads.nl/kennis/wat-kost-cold-email-uitbesteden
+==============================================================================
+
+Er zijn drie manieren om aan koude e-mail te komen: zelf doen, een bureau op een vast maandbedrag, of betalen per resultaat. Ze kosten alle drie ongeveer hetzelfde als het goed gaat. Ze verschillen enorm als het tegenzit. Hieronder de bedragen, waar ze vandaan komen, en de post die in vrijwel elke offerte ontbreekt.
+
+## Het korte antwoord
+
+Een Nederlands bureau dat je cold-e-mailcampagne volledig uitvoert, kost tussen de € 995 en € 2.200 per maand. Zelf doen kost aan tooling € 140 tot € 545 per maand, plus de uren van iemand die het draait. Resultaatmodellen beginnen rond € 500 per maand en lopen op met wat er binnenkomt, tot een plafond dat je vooraf vaststelt.
+
+Dat zijn de bedragen. De vraag die je eigenlijk stelt is: wat kost mij een gesprek met een potentiële klant? Daar komen we onderaan op terug.
+
+## Model 1: zelf doen
+
+Wat je minimaal nodig hebt om fatsoenlijk te kunnen mailen zonder je hoofddomein op te blazen:
+
+Post	Kosten per maand
+Extra verzenddomeinen (5 à 10)	€ 5 – € 15
+Mailboxen (20 – 80 stuks)	€ 40 – € 250
+Verzendsoftware	€ 35 – € 90
+Leaddata en verrijking	€ 50 – € 150
+E-mailvalidatie	€ 10 – € 40
+Toolingtotaal	€ 140 – € 545
+
+Daar komt de belangrijkste post bij, en die staat nooit in een blog: iemand moet het draaien. Reken op een tot twee uur per werkdag voor lijstwerk, copy, deliverability-monitoring en het uitzoeken van binnenkomende reacties. Zet daar een intern uurtarief tegenover en je zit al snel op € 1.500 tot € 3.000 per maand aan tijd. Bij een marketeer die dit erbij doet, is de reele kostenpost niet het salaris maar het werk dat blijft liggen.
+
+En dan de leercurve. Een verzendinfrastructuur die je zelf opzet, is de eerste twee tot drie maanden bezig met warmup en het opbouwen van reputatie. Fouten in die fase, te snel opschalen, een vervuilde lijst, een verkeerd DNS-record, kosten je domeinen die je daarna kunt weggooien.
+
+Zelf doen is de goedkoopste optie als je het tweede jaar ook nog doet. Voor drie maanden uitproberen is het de duurste.
+
+## Model 2: vast maandbedrag
+
+Je koopt een pakket, je weet hoeveel er per dag uitgaat, en de factuur is elke maand hetzelfde. In Nederland ligt de staffel er in september 2026 zo bij, gebaseerd op wat aanbieders zelf publiceren:
+
+Volume	Marktprijs per maand
+± 3.000 mails per maand (100 per dag)	€ 995
+± 7.500 mails per maand (250 per dag)	€ 1.295
+± 15.000 mails per maand (500 per dag)	€ 1.695
+± 30.000 mails per maand (1.000 per dag)	€ 1.995 – € 2.195
+
+Bron: gepubliceerde prijzen van link2leads.nl en leadsmate.nl, gecontroleerd op 2 september 2026. Zie ook de volledige vergelijking van elf aanbieders.
+
+Wat er wel of niet in zit, verschilt per aanbieder en is waar het verschil zit. Vraag expliciet naar deze vijf:
+
+- Zit de setup erbij of komt die apart? Eenmalige setupfees in deze markt liggen tussen € 500 en € 2.500.
+
+- Zit de infrastructuur erbij? Domeinen, mailboxen en verzendsoftware kosten € 100 tot € 250 per maand. Sommige bureaus belasten die door zonder opslag, wat netjes is maar wel bovenop de prijs komt.
+
+- Wie handelt de reacties af? Filteren en doorsturen is iets anders dan beantwoorden en inplannen. Dat tweede is bij de meeste aanbieders een aparte module van € 500 tot € 800 per maand.
+
+- Wie is eigenaar van de domeinen en de opgebouwde reputatie als je stopt?
+
+- Wat is de minimale looptijd en wordt er vooruit gefactureerd? Drie maanden is de norm. Vooruitbetaling is gebruikelijk omdat de leverancier direct kosten maakt voor domeinen en mailboxen.
+
+## Model 3: betalen per resultaat
+
+Een lagere vaste fee plus een bedrag per gekwalificeerde reactie of afspraak. In Nederland zie je bijvoorbeeld € 500 per maand plus € 125 per gekwalificeerde positieve reactie, met een eenmalige setup van € 1.000 en tooling apart. Bij telefonische bureaus bestaat ook zuiver no cure no pay: je betaalt pas als de afspraak heeft plaatsgevonden.
+
+Dit klinkt als het veiligste model en dat is het soms ook. Er zijn drie dingen waar het misgaat.
+
+Wat telt als resultaat? Als “positieve reactie” niet is gedefinieerd, ga je betalen voor “stuur maar wat info” en voor mensen die alleen de prijs willen weten om vervolgens niets te doen. Een goede definitie zegt ook wat niet meetelt: afwezigheidsmeldingen, bounces, uitschrijvingen, privacyvragen, bestaande klanten die per ongeluk zijn aangeschreven, en vage uitstelreacties.
+
+Wie bepaalt het? Als de leverancier zelf classificeert en factureert op basis van die classificatie, zit er een prikkel in het model. Vraag om een bezwaartermijn waarin je een gefactureerd resultaat kunt afwijzen.
+
+Waar zit het plafond? Zonder plafond is betalen per resultaat een open rekening. Een goede maand kan dan duurder uitpakken dan het duurste vaste pakket. Spreek vooraf een maximum af.
+
+## De vergelijking die er echt toe doet
+
+De vraag is niet wat het per maand kost. De vraag is: wat kost mij een gesprek met een potentiële klant.
+
+Neem een bureau op € 1.695 per maand voor 15.000 mails. Komen daar 45 positieve reacties uit, dan is dat € 38 per positieve reactie. Komen er 15 uit, dan is het € 113. Zet daar een resultaatmodel naast van € 500 vast plus € 125 per reactie: bij 15 reacties kost dat € 2.375, oftewel € 158 per reactie. Bij 45 reacties zou het € 6.125 kosten, en daarom zit er een plafond op.
+
+Het patroon: een vast maandbedrag wordt goedkoper per gesprek naarmate de campagne beter loopt. Een resultaatmodel blijft ongeveer even duur per gesprek, maar je verliest niets als het niet loopt.
+
+Welk model beter is, hangt dus volledig af van hoe groot en hoe goed bereikbaar je doelgroep is. Bij een doelgroep van 1.500 bedrijven zit je snel aan een plafond en is een resultaatmodel logisch. Bij een doelgroep van 20.000 bedrijven waar je maanden op kunt draaien, wint het vaste bedrag met afstand.
+
+ Let op
+
+ De bedragen hierboven zijn rekenvoorbeelden om het model uit te leggen, geen belofte. Hoeveel positieve reacties een campagne oplevert, hangt af van je aanbod, je doelgroep en het seizoen. Wat het bij ons werkelijk is, staat in hoeveel reacties krijg je op 30.000 mails per maand.
+
+## De post die in vrijwel elke offerte ontbreekt
+
+Verzendvolume dat niet gehaald wordt.
+
+Bij een vast maandbedrag koop je in feite verzendcapaciteit. Maar in bijna geen enkel contract in deze markt staat een minimum. Draait er in week drie niets omdat een domein geblokkeerd raakt, een lijst op is of de infrastructuur hapert, dan betaal je hetzelfde bedrag voor de helft van het volume, en je merkt het pas als de reacties uitblijven.
+
+Drie vragen die dit dichtzetten:
+
+- Staat er een minimum aantal verzonden mails per maand in het contract?
+
+- Wordt niet-verzonden volume ingehaald of ben je het kwijt?
+
+- Krijg ik maandelijks het werkelijke aantal verzonden mails te zien, niet alleen het aantal reacties?
+
+Wij leggen dat minimum vast, 30.000 verzonden mails per maand op het grootste pakket, zeven dagen per week, en bij een technische hapering wordt het volume de dagen erna ingehaald. Niet omdat het bijzonder is dat je levert wat je verkoopt. Wel omdat je er anders niets over kunt afspreken.
+
+## Samengevat
+
+	Zelf doen	Vast maandbedrag	Per resultaat
+Kosten per maand	€ 140 – € 545 tooling + uren	€ 995 – € 2.195	€ 500 + prijs per reactie
+Eenmalig	Leercurve, 2–3 mnd opstart	€ 0 – € 2.500 setup	€ 1.000 setup gebruikelijk
+Risico bij tegenvallen	Volledig bij jou	Volledig bij jou	Deels bij leverancier
+Kosten bij succes	Laag	Laag per gesprek	Loopt op tot plafond
+Beste bij	Doelgroep > 20.000, lange adem	Doelgroep > 1.000, vast budget	Kleine doelgroep, risico spreiden
+
+## Veelgestelde vragen
+Wat is de goedkoopste manier om aan cold email te doen?
+Over twee jaar gerekend is het zelf doen het goedkoopst, mits je iemand hebt die het structureel draait en je de opstartfase van twee tot drie maanden kunt overbruggen. Voor een periode van drie tot zes maanden is uitbesteden vrijwel altijd goedkoper, omdat je de leercurve, de infrastructuurkosten en het risico op verbrande domeinen niet zelf draagt.
+
+Zit setup en infrastructuur meestal bij de prijs in?
+Dat verschilt per aanbieder en het is de belangrijkste vraag bij het vergelijken van offertes. Link2Leads rekent all-in: setup, warmup, domeinen, mailboxen en software zitten in het maandbedrag. Aanbieders die per resultaat werken belasten de tooling doorgaans apart door, reken op € 100 tot € 200 per maand, plus een eenmalige setupfee van € 500 tot € 2.500.
+
+Wat is een normale minimale looptijd?
+Drie maanden is de norm in deze markt, en dat is inhoudelijk te verdedigen: de eerste twee weken zijn warmup en een campagne met nieuwe copy moet minstens drie weken draaien voordat de cijfers iets betekenen. Wie na maand een stopt, stopt precies wanneer de campagne op stoom komt.
+
+Moet ik vooruit betalen?
+Meestal wel, en dat is logisch: de leverancier koopt op dag een domeinen, mailboxen en software voor jouw campagne. Bij Link2Leads volgt de eerste factuur bij akkoord, de tweede twee weken na livegang en daarna maandelijks.
+
+## Wat zou het voor jouw doelgroep kosten?
+
+ Laat je doelgroep en sector achter, dan rekenen we het door op je werkelijke doelgroepgrootte. Twee velden, antwoord binnen een werkdag.
+
+ Stel je vraag
+ Of plan de gratis fitcheck
+
+ Liever eerst even mailen? Dat kan ook: info@link2leads.nl
+
+## Verder lezen
+- Cold email of een SDR aannemen?De rekensom over twaalf maanden
+- Hoeveel reacties krijg je op 30.000 mails?Echte cijfers uit onze campagnes
+- Elf Nederlandse bureaus vergelekenPrijs, kanaal en contractvolume naast elkaar
+
+ DS
+
+ Demi Stekelenburg
+
+ Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.
+
+==============================================================================
+# Mag koude e-mail in Nederland?
+Bron: https://www.link2leads.nl/kennis/mag-koude-email-nederland
+==============================================================================
+
+Kort antwoord: naar zakelijke ontvangers mag het, onder voorwaarden. Hieronder staat wat die voorwaarden zijn, waar ze vandaan komen, en wat er per 1 juli 2026 wel en niet is veranderd.
+
+## Twee wetten, twee vragen
+
+Cold email in Nederland raakt aan twee regimes die los van elkaar gelden. Je moet aan allebei voldoen.
+
+De Telecommunicatiewet gaat over de vraag: mag ik dit bericht versturen?
+De AVG gaat over de vraag: mag ik de gegevens hebben waarmee ik het verstuur?
+
+Aanbieders die alleen over de AVG praten, of alleen zeggen dat B2B gewoon mag, vertellen je de helft.
+
+## Wat de Telecommunicatiewet zegt
+
+De relevante bepaling is artikel 11.7 van de Telecommunicatiewet. De hoofdregel is streng: ongevraagde elektronische berichten voor commerciele doeleinden zijn verboden, tenzij de ontvanger daar vooraf toestemming voor heeft gegeven.
+
+Er staan twee uitzonderingen in het artikel die koude e-mail alsnog mogelijk maken:
+
+- De zakelijke uitzondering. Die voorafgaande toestemming is niet vereist wanneer je gebruikmaakt van elektronische contactgegevens die de gebruiker daarvoor heeft bestemd. Dit is de grondslag waarop vrijwel alle Nederlandse B2B cold email draait.
+
+- De bestaande klantrelatie. Heb je iemand iets verkocht, dan mag je de contactgegevens die je daarbij hebt gekregen gebruiken voor je eigen, gelijksoortige producten of diensten, mits je bij elke boodschap een duidelijke mogelijkheid biedt om bezwaar te maken. Dat is de grondslag voor mailings aan je eigen klantenbestand, niet voor koude acquisitie.
+
+Daarnaast eist het artikel dat je in elk bericht de identiteit van de afzender vermeldt en een geldig adres biedt waar de ontvanger een verzoek tot beeindiging kan indienen.
+
+Wat precies onder "daarvoor bestemd" valt, staat niet in de wet uitgewerkt. Waar iedereen het over eens is: een zakelijk adres dat een bedrijf zelf publiceert om zakelijk benaderd te worden, valt eronder, en een adres van een persoon thuis niet. Daartussen zit ruimte, en daarover bestaat geen definitief antwoord. Wij houden daarom een simpele werkregel aan: alleen adressen waarvan we kunnen aantonen waar ze vandaan komen.
+
+## Wat dit betekent voor je mail
+
+- Afzender herkenbaar. Een persoonsnaam met een bedrijfsnaam die klopt, op een domein dat naar een echte site leidt met een echt KvK-nummer.
+
+- Een werkend afmeldkanaal. Er moet een geldig adres zijn waar de ontvanger bezwaar kan maken, en je moet er ook echt naar handelen. Bij ons is dat een reply-adres dat we dagelijks verwerken, met een suppressielijst waar het adres daadwerkelijk in belandt.
+
+- Relevantie. Een aanbod dat past bij de functie van de ontvanger, en een beperkt aantal berichten.
+
+## Wat de AVG erbovenop eist
+
+Een zakelijk e-mailadres met een naam erin is een persoonsgegeven. De AVG geldt dus, ook al is de context volledig zakelijk.
+
+Grondslag. De gebruikelijke grondslag voor B2B cold email is het gerechtvaardigd belang, artikel 6 lid 1 sub f AVG. Overweging 47 bij de AVG noemt direct marketing expliciet als een belang dat gerechtvaardigd kan zijn. Kan, niet is: je moet de afweging maken en kunnen laten zien.
+
+Informatieplicht. Dit is de eis die het vaakst wordt overgeslagen. Omdat je de gegevens niet bij de betrokkene zelf hebt verzameld, geldt artikel 14 AVG: je moet de ontvanger kunnen informeren over wie je bent, waarom je zijn gegevens verwerkt, waar je ze vandaan hebt en welke rechten hij heeft. In de praktijk: een privacyverklaring die koude benadering expliciet behandelt, inclusief de bron van de gegevens.
+
+Recht van bezwaar. Bij direct marketing is het bezwaarrecht absoluut, artikel 21 lid 2 en 3 AVG. Maakt iemand bezwaar, dan stopt de verwerking voor dat doel. Direct, zonder afweging. Dat vraagt om een suppressielijst die over al je campagnes en al je klanten heen werkt, niet per campagne.
+
+## Wat er per 1 juli 2026 veranderde
+
+Sinds 1 juli 2026 gelden er strengere regels voor telefonische benadering: bedrijven mogen consumenten niet meer ongevraagd bellen, ook niet als die klant zijn of zijn geweest. Er gelden uitzonderingen voor goede doelen, loterijen die aan goede doelen afdragen, en uitgevers van dag-, week- en maandbladen.
+
+ Het misverstand van dit jaar
+
+ Die wijziging gaat over telefonie, niet over e-mail. Voor koude e-mail is er per 1 juli 2026 niets veranderd. In de markt wordt dat regelmatig door elkaar gehaald.
+
+Bronnen: Rijksoverheid over de beperking van ongevraagd bellen per juli 2026 en Ondernemersplein over de nieuwe telemarketingregels, geraadpleegd 2 september 2026.
+
+## Wat je moet kunnen als iemand een verzoek stuurt
+
+Vroeg of laat komt er op een lopende campagne een bericht binnen van iemand die niet om informatie vraagt maar om verantwoording: waar heb je mijn gegevens vandaan, en ik wil dat je ze verwijdert.
+
+Wat je dan binnen een dag moet kunnen:
+
+- Aantonen waar het adres vandaan komt. Bron en datum. Dat betekent dat je de herkomst per record vastlegt bij het opbouwen van je lijst, niet achteraf reconstrueert. Dit is de reden dat een bestand kopen een groter risico is dan het lijkt: daarbij kun je die vraag vaak niet beantwoorden.
+
+- De grondslag benoemen. Gerechtvaardigd belang, met de afweging erbij.
+
+- Het adres verwijderen en onderdrukken. Verwijderen uit de campagne is niet genoeg. Zonder suppressielijst die over alles heen werkt, komt hetzelfde adres bij de volgende lijst gewoon terug. Dat is wat een verzoek laat escaleren.
+
+- Bevestigen dat het is gebeurd, in gewone taal, zonder juridische discussie.
+
+## Checklist voor je eigen campagne
+
+- Alleen zakelijke adressen
+
+- Herkomst per lead vastgelegd, bron en datum
+
+- Aanbod relevant voor de functie van de ontvanger
+
+- Afzendernaam en bedrijfsnaam kloppen en zijn te herleiden
+
+- Werkend en daadwerkelijk verwerkt afmeldkanaal in elke mail
+
+- Privacyverklaring die koude benadering expliciet behandelt, inclusief de bron van de gegevens
+
+- Suppressielijst die over alle campagnes en klanten heen werkt
+
+- Beperkt aantal berichten per ontvanger
+
+- Bewaartermijn voor leaddata vastgelegd
+
+- Een vaste werkwijze voor als er een verzoek binnenkomt
+
+## Hoe wij dit doen
+
+Wij versturen namens klanten dagelijks duizenden mails en hebben een formeel privacyverzoek in een lopende campagne van begin tot eind afgehandeld. Wat daaruit als vaste werkwijze is overgebleven: herkomst per lead vastleggen, een suppressielijst over alle campagnes heen, elk verzoek binnen een werkdag afhandelen met verwijdering en onderdrukking, en de klant meteen informeren in plaats van het stil oplossen.
+
+ Disclaimer
+
+ Dit artikel is geen juridisch advies. Het geeft de hoofdlijn van artikel 11.7 Telecommunicatiewet en de genoemde AVG-bepalingen weer zoals die op 2 september 2026 gelden, met verwijzing naar de bronnen. Waar de wet ruimte laat, staat dat er als zodanig bij. Voor een oordeel over jouw specifieke campagne: raadpleeg een jurist.
+
+## Veelgestelde vragen
+Mag je in Nederland een koude e-mail sturen naar een bedrijf?
+Ja, naar zakelijke ontvangers mag dat zonder voorafgaande toestemming, mits je gebruikmaakt van contactgegevens die de ontvanger daar zelf voor heeft bestemd, bijvoorbeeld een adres dat het bedrijf publiceert om zakelijk benaderd te worden. Daarnaast moet je in elk bericht duidelijk maken wie je bent en een geldig adres bieden waar de ontvanger bezwaar kan maken. De AVG geldt daarnaast apart voor de gegevens zelf.
+
+Veranderde de wet van 1 juli 2026 iets voor cold email?
+Nee. De wijziging per 1 juli 2026 gaat over telemarketing: bedrijven mogen consumenten niet meer ongevraagd bellen, ook niet als ze klant zijn geweest. Voor koude e-mail is er niets veranderd. In de markt worden die twee regelmatig door elkaar gehaald.
+
+Op welke AVG-grondslag mag ik cold email versturen?
+Gerechtvaardigd belang, artikel 6 lid 1 sub f AVG. Overweging 47 noemt direct marketing expliciet als een belang dat gerechtvaardigd kan zijn. Je moet de afweging wel kunnen laten zien, de ontvanger informeren over de herkomst van zijn gegevens (artikel 14 AVG) en elk bezwaar direct honoreren (artikel 21).
+
+Moet er een uitschrijflink onderaan mijn cold email staan?
+De wet eist een geldig adres waar de ontvanger een verzoek tot beëindiging kan indienen, niet per se een klassieke uitschrijflink. Een reply-adres dat je aantoonbaar verwerkt volstaat, mits je het in de mail benoemt en het verzoek ook echt op een suppressielijst belandt die over al je campagnes heen werkt.
+
+Mag ik een gekocht bedrijvenbestand gebruiken voor cold email?
+Het is niet verboden. Het is wel het grootste praktische risico. Bij een klacht moet je binnen een dag kunnen aantonen waar een adres vandaan komt en wanneer het is verzameld. Bij een gekocht bestand kun je die vraag vaak niet beantwoorden, en dan valt je grondslag om.
+
+## Twijfel je of jouw campagne dit goed heeft staan?
+
+ Stel je vraag, we kijken kosteloos mee naar de grondslag, de afmeldroute en de herkomst van je lijst. Ook als je bij een andere partij zit.
+
+ Stel je vraag
+ Of plan de gratis fitcheck
+
+ Liever eerst even mailen? Dat kan ook: info@link2leads.nl
+
+## Verder lezen
+- Waarom komen je koude mails niet aan?Deliverability zonder marketingpraat
+- Wat kost cold email uitbesteden?Drie prijsmodellen met echte bedragen
+- Elf Nederlandse bureaus vergelekenPrijs, kanaal en contractvolume naast elkaar
+
+ DS
+
+ Demi Stekelenburg
+
+ Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.
+
+==============================================================================
+# Waarom komen je koude mails niet aan?
+Bron: https://www.link2leads.nl/kennis/koude-mails-komen-niet-aan
+==============================================================================
+
+Bijna iedereen die met cold email begint, denkt dat het probleem in de tekst zit. Dat is het zelden. Als je open rate onder de 20 procent zakt of je bounce rate boven de 3 procent komt, is er iets stuk in de infrastructuur, en geen enkele herschreven onderwerpregel repareert dat.
+
+Wij draaien ongeveer 170 mailboxen voor lopende klantcampagnes. Hieronder wat we in de praktijk tegenkomen, in volgorde van hoe vaak het de oorzaak is.
+
+## 1. Je lijst is vervuild
+
+Elk adres dat niet bestaat, is een stem tegen je verzendreputatie. Mailproviders meten hoe vaak jouw domein probeert te bezorgen op adressen die er niet zijn, en dat weegt zwaar.
+
+Wat we in de praktijk zien: lijsten die uit een export komen en niet zijn opgeschoond, bevatten standaard 5 tot 15 procent dode adressen. Opgeheven bedrijven, mensen die twee jaar geleden zijn vertrokken, adressen die zijn afgeleid uit een patroon dat bij dat bedrijf niet klopt.
+
+Wat je moet doen, in deze volgorde:
+
+- Valideer elk adres voor verzending. Niet steekproefsgewijs, allemaal.
+
+- Zet catch-all domeinen in een apart segment en meet hun bounce apart. Meteen weggooien is zonde.
+
+- Bouw een suppressielijst met opgeheven bedrijven en harde bounces, en laat die over al je campagnes heen werken. Anders koop je dezelfde dode adressen over een half jaar opnieuw in.
+
+Praktisch getal om op te sturen: onder de 2 procent bounce is gezond, boven de 3 procent moet je stoppen en de lijst opschonen, en boven de 5 procent ben je je domeinen aan het verbranden.
+
+## 2. Je verstuurt te veel per mailbox
+
+Dit is de fout die het snelst onherstelbaar is. Een mailbox die 200 mails per dag verstuurt, is een spamsignaal. Twintig mailboxen die er elk tien versturen, zijn dat niet, ook al gaat er evenveel uit.
+
+Onze standaard: maximaal 25 mails per mailbox per dag. 500 mails per dag betekent dus 20 mailboxen, 1.000 per dag betekent er 40 tot 80. Dat is de reden dat serieuze cold email duurder is dan mensen verwachten, je koopt geen software, je koopt verzendcapaciteit.
+
+Daar hoort permanente warmup bij: mailboxen die onderling en met een netwerk blijven mailen, ook als de campagne al draait. Wij zetten dat op ongeveer 25 warmup-mails per dag per box met een responspercentage rond de 30 procent, en zetten het nooit uit.
+
+## 3. Je mailt vanaf je hoofddomein
+
+Doe dit niet. Als er iets misgaat, en er gaat een keer iets mis, verlies je de bezorging van je facturen, je offertes en je klantcorrespondentie tegelijk met je campagne.
+
+De juiste opzet is een reeks aparte verzenddomeinen die op je hoofddomein lijken maar het niet zijn, elk met een handvol mailboxen, elk met correcte SPF-, DKIM- en DMARC-records. Gaat er een domein onderuit, dan vervang je dat domein en draait de rest door.
+
+Twee praktijkpunten die zelden ergens staan:
+
+- Gebruik persoonlijke adressen, geen rolaccounts. Campagnes die verzenden vanaf een persoonsnaam presteren in onze eigen cijfers structureel beter dan campagnes vanaf info@ of contact@. Een mail van een persoon leest als een mens, een mail van info@ als een systeem, en filters denken er hetzelfde over.
+
+- Denk aan de ontvangende kant. Verzenden naar overwegend Gmail-ontvangers levert een ander bouncepatroon op dan naar Microsoft-ontvangers. Loop je daar tegenaan, splits de campagne dan op ontvangende provider in plaats van harder te duwen.
+
+## 4. Je tracking is je grootste zwakte
+
+Dit is de meest onderschatte oorzaak.
+
+Open tracking. Om een open te meten, plaatst je software een onzichtbare afbeelding in de mail die van een externe server wordt geladen. Dat maakt van een korte tekstmail een mail met externe content, precies het patroon dat filters herkennen. De open rate die je ermee wint, is bovendien al jaren onbetrouwbaar doordat mailproviders afbeeldingen preloaden.
+
+Ons advies: zet open tracking uit bij de bouw van een campagne. Let op: bij sommige verzendsoftware kun je dit niet meer wijzigen nadat een campagne live is geweest, dus het is een beslissing die je vooraf neemt of niet meer neemt.
+
+Custom tracking-domein. Gebruik je wel tracking, dan moet het via een eigen subdomein lopen met een correct CNAME-record. Twee dingen gaan daar mis. Ten eerste: het record ontbreekt helemaal, en dan lopen je links via een gedeeld domein waarvan de reputatie niet van jou is. Ten tweede, subtieler: het record staat er wel maar is in de software nooit opnieuw geverifieerd nadat er domeinen zijn bijgekomen. Zet het maandelijks op je checklist. Wij vinden dit bij vrijwel elke campagne die we van een andere partij overnemen.
+
+Links in het algemeen. Elke link is een risico. Een link naar een pagina op een domein met een goede reputatie is prima. Drie links, een tracking pixel en een uitschrijflink in een mail van 40 woorden is een spamscore.
+
+## 5. Je bent te snel opgeschaald
+
+Een nieuw domein met nieuwe mailboxen kan niet meteen productie draaien. Twee weken warmup voor de eerste campagnemail is het minimum; drie is beter. Wij zetten de warmup standaard twee weken voor de afgesproken livedatum aan, ook als de klant later start. En na livegang begin je op een derde van het volume en bouw je dat over twee weken op.
+
+## 6. Je draait te lang op dezelfde brede lijst
+
+Dit is een patroon dat we pas zagen toen we lang genoeg draaiden om het te kunnen zien: een brede, ongesegmenteerde lijst laat je domeinreputatie na drie tot vier weken zakken. De mails worden niet slechter. Een brede lijst bevat per definitie veel ontvangers voor wie het aanbod niet relevant is. Die negeren, verwijderen of markeren, en dat telt allemaal mee.
+
+De remedie is niet meer volume of nieuwere copy. Het is segmenteren. In een campagne van ruim 18.000 leads verschilde de reply rate tussen segmenten met een factor drie bij identieke copy, in dezelfde week, vanaf dezelfde infrastructuur. De volledige cijfers staan in hoeveel reacties krijg je op 30.000 mails.
+
+ Als je een ding uit dit artikel meeneemt: segmentatie is een deliverability-maatregel, geen marketingluxe.
+
+## Wat je maandelijks moet controleren
+
+Signaal	Gezond	Actie nodig
+Bounce rate	< 2 %	> 3 %: stoppen en lijst opschonen
+Open rate (indien gemeten)	> 35 %	< 20 %: infrastructuur nakijken
+Spamklachten	± 0	> 0,1 %: direct terugschalen
+Mailbox health score	90 – 100	< 90: box uit rotatie
+Volume per mailbox	≤ 25 per dag	Hoger: verlagen
+SPF / DKIM / DMARC	Alle drie geldig	Ontbrekend: direct fixen
+Tracking-CNAME	Geverifieerd	Onverifieerd: opnieuw verifiëren
+Leads op ‘niet gestart’	Dalend	Stijgend: lijst of capaciteit klopt niet
+
+Die laatste regel is er een die bijna niemand meet en die veel geld kost. Als er duizenden leads in je campagne staan die nooit zijn aangeschreven, betaal je voor volume dat niet uitgaat. Vraag je leverancier maandelijks om het werkelijke aantal verzonden mails, niet alleen om het aantal reacties.
+
+## Wat er niet helpt
+
+- De onderwerpregel herschrijven als je bounce rate 6 procent is.
+
+- Meer volume om een tegenvallende campagne te compenseren. Je versnelt dan alleen de schade.
+
+- Een spamchecker-score. Die zegt iets over je tekst, niets over je reputatie, en reputatie is het grootste deel van het probleem.
+
+- Wachten. Een dalende reputatie herstelt niet vanzelf terwijl je blijft verzenden.
+
+## Veelgestelde vragen
+Wat is een goede bounce rate bij cold email?
+Onder de 2 procent is gezond. Boven de 3 procent moet je stoppen met verzenden en de lijst opschonen. Boven de 5 procent ben je je verzenddomeinen aan het beschadigen en is het goedkoper om opnieuw te beginnen dan door te duwen.
+
+Hoeveel mails per mailbox per dag kan ik veilig versturen?
+Maximaal 25. Dat is de standaard die wij over ongeveer 170 mailboxen aanhouden. Wil je 1.000 mails per dag versturen, dan heb je dus 40 tot 80 mailboxen nodig. Volume komt uit het aantal mailboxen, niet uit hardere instellingen op een enkele box.
+
+Moet ik open tracking aanzetten bij cold email?
+Liever niet. Open tracking voegt een extern geladen afbeelding aan je mail toe, en dat is precies het patroon dat spamfilters herkennen. De cijfers die je ermee wint zijn bovendien onbetrouwbaar doordat mailproviders afbeeldingen vooraf laden. Beslis het voor livegang: bij sommige verzendsoftware kun je het achteraf niet meer uitzetten.
+
+Kan ik cold email vanaf mijn eigen bedrijfsdomein versturen?
+Technisch wel, verstandig niet. Gaat de reputatie onderuit, dan verlies je de bezorging van je facturen, offertes en klantmail tegelijk met je campagne. Gebruik aparte verzenddomeinen met eigen SPF-, DKIM- en DMARC-records, elk met een handvol mailboxen.
+
+Waarom daalt mijn open rate na drie of vier weken?
+Vrijwel altijd omdat je op een brede, ongesegmenteerde lijst draait. Zo'n lijst bevat veel ontvangers voor wie het aanbod niet relevant is; die negeren of verwijderen de mail, en dat telt mee in je reputatie. De oplossing is segmenteren en per segment een andere insteek mailen, niet nieuwe copy op dezelfde lijst.
+
+## Draait er een campagne die niet aankomt?
+
+ We kijken er kosteloos naar: infrastructuur, records, volume per mailbox en lijstkwaliteit. Ook als je bij een andere partij zit, dan weet je in elk geval wat er stuk is.
+
+ Stel je vraag
+ Of plan de gratis fitcheck
+
+ Liever eerst even mailen? Dat kan ook: info@link2leads.nl
+
+## Verder lezen
+- Hoeveel reacties krijg je op 30.000 mails?Benchmarks uit onze eigen campagnes
+- Mag koude e-mail in Nederland?De regels met de wetsartikelen erbij
+- Elf Nederlandse bureaus vergelekenPrijs, kanaal en contractvolume naast elkaar
+
+ DS
+
+ Demi Stekelenburg
+
+ Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.
+
+==============================================================================
+# Cold email uitbesteden of een SDR aannemen?
+Bron: https://www.link2leads.nl/kennis/cold-email-of-sdr
+==============================================================================
+
+Dit is de vergelijking die er werkelijk toe doet, en bijna niemand maakt hem. Bureaus vergelijken zichzelf met andere bureaus. Maar de keuze op tafel bij de meeste directeuren is niet “welk bureau”, het is: nemen we iemand aan, of besteden we het uit?
+
+## Wat een SDR werkelijk kost
+
+Een sales development representative in Nederland zit in 2026 op een bruto jaarsalaris tussen ongeveer € 36.000 en € 48.000, afhankelijk van ervaring en regio. Dat is niet wat hij kost.
+
+Post	Per jaar
+Brutosalaris (middenklasse)	€ 42.000
+Werkgeverslasten (circa 25 – 30 %)	€ 11.500
+Vakantiegeld (8 %)	€ 3.360
+Pensioenbijdrage werkgever	€ 2.500 – € 4.000
+Laptop, telefoon, werkplek	€ 2.000
+Tooling (software, data, validatie, mailboxen)	€ 2.500 – € 5.000
+Bonus of commissie bij doelbereik	€ 4.000 – € 8.000
+Totaal jaar 1	± € 68.000 – € 78.000
+
+Dat is € 5.700 tot € 6.500 per maand, en dan heb je nog niets over de twee posten die niet op de loonstrook staan.
+
+Inwerktijd. Een SDR die op maandag begint, levert niet op dinsdag. Reken op zes tot twaalf weken voordat er structureel afspraken uit komen: het aanbod leren, de doelgroep leren, de infrastructuur opzetten, de eerste copy testen. In die periode betaal je volledig en ontvang je niets. Dat is € 11.000 tot € 20.000 aan aanloopkosten die zelden in een businesscase staan.
+
+Verloop. SDR is een functie met een hoog verloop; anderhalf tot twee jaar is in deze markt gebruikelijk. Vertrekt iemand, dan betaal je de inwerktijd opnieuw, plus werving. En je bent de kennis van je doelgroep kwijt, tenzij die ergens is vastgelegd, wat meestal niet zo is.
+
+Wie stuurt hem aan? Een SDR zonder salesleiding presteert onder. Reken op een paar uur per week van iemand die duurder is dan hij.
+
+## Wat uitbesteden kost
+
+Een volledig uitgevoerde cold-e-mailcampagne in Nederland kost tussen € 995 en € 2.195 per maand, afhankelijk van volume. Dat is € 12.000 tot € 26.000 per jaar, inclusief tooling, infrastructuur en uitvoering.
+
+Daar staan nadelen tegenover, en die noem ik liever zelf dan dat je ze in maand drie ontdekt:
+
+- Je bouwt geen eigen capaciteit op. Stop je, dan stopt de leadstroom. Bij een eigen SDR houd je de kennis in huis, tot hij vertrekt.
+
+- Je hebt minder directe controle. Je stuurt op resultaat, niet op de dag.
+
+- Alleen e-mail is alleen e-mail. Een SDR kan bellen, opvolgen op LinkedIn en een lauwe reactie warm praten. Een e-mailcampagne kan dat niet.
+
+- Opvolging blijft jouw werk, tenzij je daar apart voor betaalt.
+
+## De vergelijking naast elkaar
+
+	Eigen SDR	Uitbesteed
+Kosten jaar 1	€ 68.000 – € 78.000	€ 12.000 – € 26.000
+Kosten voordat er iets uitkomt	€ 11.000 – € 20.000	2 – 3 weken opstart
+Tijd tot eerste resultaat	6 – 12 weken	2 – 4 weken
+Opzegbaar	Ontslagrecht, opzegtermijn	3 maanden, daarna maandelijks
+Kanalen	E-mail, telefoon, LinkedIn, opvolging	E-mail
+Kennis blijft in huis	Ja, tot hij vertrekt	Nee
+Schaalbaar	Nieuwe hire nodig	Pakket omhoog
+Risico bij tegenvallen	Volledig bij jou, vast	Beperkt tot looptijd
+
+## Waar het omslaat
+
+Er is een reeel punt waarop een eigen SDR de betere keuze is. Vier signalen dat je daar bent:
+
+- Je verkoopcyclus vraagt om gesprekken, niet om afspraken. Als het tussen eerste contact en handtekening zes gesprekken duurt, is de e-mail het minst waardevolle deel van het traject.
+
+- Je hebt genoeg volume voor een fulltime rol. Onder de vijftien afspraken per maand heeft een SDR te weinig te doen en ga je hem taken geven die niets met acquisitie te maken hebben, het klassieke begin van het einde.
+
+- Je hebt iemand die hem kan aansturen. Zonder salesleiding is een SDR een dure gok.
+
+- Je wilt de capaciteit permanent in huis. Als outbound structureel je belangrijkste kanaal is, wil je er uiteindelijk zelf goed in zijn.
+
+En de combinatie die in de praktijk het beste werkt: besteed de e-mail uit en zet je eigen mensen op de opvolging. De duurste uren van je team gaan dan naar gesprekken met mensen die al hebben gereageerd, in plaats van naar lijstwerk en deliverability-onderhoud. Uitbesteden is dan geen vervanging van je salesteam, maar een manier om er meer uit te halen.
+
+## De vraag om vooraf te beantwoorden
+
+De vraag is niet wat goedkoper is. De vraag is: wat is een nieuwe klant mij waard, en hoeveel gesprekken heb ik nodig voor een klant?
+
+Zit je gemiddelde klantwaarde op € 3.000 en sluit je een op de vijf gesprekken, dan is elk gesprek € 600 waard. Bij een uitbesteed traject van € 1.695 per maand heb je dan drie gesprekken per maand nodig om quitte te draaien. Bij een SDR van € 6.000 per maand heb je er tien nodig.
+
+Vul dat in met je eigen cijfers voordat je met wie dan ook gaat praten. Het is de enige berekening die je bij elke aanbieder op deze markt kunt gebruiken.
+
+De salarissen en lasten hierboven zijn marktindicaties voor Nederland in 2026, bedoeld om de verhouding te laten zien en niet om jouw situatie te berekenen. Werkgeverslasten verschillen per cao en sector.
+
+## Veelgestelde vragen
+Wat kost een SDR in Nederland per jaar?
+Bruto salaris ligt tussen ongeveer € 36.000 en € 48.000, maar de werkelijke kosten inclusief werkgeverslasten, vakantiegeld, pensioen, werkplek, tooling en bonus komen op € 68.000 tot € 78.000 in het eerste jaar. Daar komt zes tot twaalf weken inwerktijd bij waarin je volledig betaalt en niets ontvangt.
+
+Is cold email uitbesteden goedkoper dan een SDR aannemen?
+In absolute kosten wel: € 12.000 tot € 26.000 per jaar tegenover € 68.000 tot € 78.000. Maar het is geen gelijke vergelijking: een SDR kan ook bellen, opvolgen en lauwe reacties warm praten, en die capaciteit blijft in huis. Uitbesteden koopt je snelheid en beperkt risico, niet dezelfde functie.
+
+Wanneer is een eigen SDR de betere keuze?
+Als je verkoopcyclus om gesprekken vraagt in plaats van om afspraken, als er genoeg volume is voor een fulltime rol (grofweg vanaf vijftien afspraken per maand), als je iemand hebt die de rol kan aansturen, en als je outbound permanent in huis wilt hebben.
+
+Kan ik uitbesteden en zelf opvolgen combineren?
+Dat is in de praktijk de sterkste combinatie. Je besteedt het lijstwerk, de infrastructuur en het verzenden uit, en je eigen mensen voeren de gesprekken met mensen die al hebben gereageerd. De duurste uren van je team gaan dan naar verkopen in plaats van naar voorbereiding.
+
+## Twijfel je tussen aannemen en uitbesteden?
+
+ Laat je dealwaarde en conversie achter, dan rekenen we het door. Komt eruit dat je beter iemand kunt aannemen, dan zeggen we dat, dat is een kort antwoord, maar wel een eerlijke.
+
+ Stel je vraag
+ Of plan de gratis fitcheck
+
+ Liever eerst even mailen? Dat kan ook: info@link2leads.nl
+
+## Verder lezen
+- Wat kost cold email uitbesteden?Drie prijsmodellen met echte bedragen
+- Hoeveel reacties krijg je op 30.000 mails?Benchmarks uit onze eigen campagnes
+- Elf Nederlandse bureaus vergelekenPrijs, kanaal en contractvolume naast elkaar
+
+ DS
+
+ Demi Stekelenburg
+
+ Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.

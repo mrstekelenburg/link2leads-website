@@ -1,6 +1,68 @@
 {
   "cleanUrls": true,
+  "trailingSlash": false,
   "redirects": [
-    { "source": "/diensten", "destination": "/#pakketten", "permanent": true }
+    {
+      "source": "/diensten",
+      "destination": "/#pakketten",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/vergelijking",
+      "destination": "/cold-email-bureaus-nederland",
+      "permanent": true
+    },
+    {
+      "source": "/blog",
+      "destination": "/kennis",
+      "permanent": true
+    },
+    {
+      "source": "/kennis/index",
+      "destination": "/kennis",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/llms.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/llms-full.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    }
   ]
 }

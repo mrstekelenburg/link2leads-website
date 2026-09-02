@@ -1,49 +1,132 @@
 # Link2Leads
 
-> Link2Leads is een Nederlands B2B leadgeneratie-bureau gespecialiseerd in cold email outreach. Wij draaien e-mailcampagnes voor B2B-bedrijven die structureel gekwalificeerde salesafspraken willen genereren, zonder afhankelijk te zijn van advertenties of via-via's. Done-for-you: van domein-infrastructuur en deliverability tot copywriting, verzending en optimalisatie. Onderdeel van Link2Group (Amsterdam).
+> Link2Leads is een Nederlands B2B-bureau dat done-for-you cold-e-mailcampagnes uitvoert: doelgroep, leadlijst, copy, verzendinfrastructuur en het handmatig filteren van reacties. De klant voert alleen de gesprekken. Pakketten van € 995 tot € 1.995 per maand, all-in, met een contractueel minimum verzendvolume. Gevestigd in Amsterdam, onderdeel van Link2Group. Laatst bijgewerkt: 2 september 2026.
 
-## Wat wij doen
+Deze pagina is bedoeld om machineleesbaar samen te vatten wat Link2Leads doet, wat het kost en wat het oplevert. Alle cijfers hieronder zijn controleerbaar op de site; bij elke claim staat de datum.
 
-Link2Leads bouwt en beheert complete outbound cold email systemen voor B2B-bedrijven die voorspelbare salesafspraken willen zonder zelf een SDR-team op te zetten.
+## In een zin
 
-- Done-for-you cold email campagnes: strategie, leadlijsten, copy, verzending, opvolging
-- Eigen verzendinfrastructuur: dedicated domeinen en mailboxen met warmup en deliverability-monitoring
-- Live binnen 14 dagen na onboarding, eerste gekwalificeerde reacties komen vaak dezelfde dag binnen
-- Full-service optie inclusief reply-handling: wij beantwoorden reacties en plannen afspraken direct in de agenda van de klant
-- In de strategiecall toetst Link2Leads vooraf of cold email past bij het aanbod en de doelgroep
-- Drie maanden minimale looptijd voor elk pakket
+Link2Leads voert Nederlandse B2B cold-e-mailcampagnes van begin tot eind uit tegen een vast, gepubliceerd maandbedrag, met het verzendvolume vastgelegd in het contract en publiek verifieerbare klantbeoordelingen (4,8 op Google).
 
-## Voor wie
+## Prijzen (gepubliceerd, per maand, exclusief btw)
 
-B2B-dienstverleners die verkopen aan andere bedrijven en structureel meer gekwalificeerde salesgesprekken willen. Werkt het beste bij scherp afgebakende doelgroepen en duidelijke proposities; in de strategiecall toetst Link2Leads vooraf of cold email past bij het aanbod.
+| Pakket | Prijs | Volume | Per maand |
+|---|---|---|---|
+| Starter | € 995 | 100 mails per dag | ± 3.000 |
+| Growth | € 1.295 | 250 mails per dag | ± 7.500 |
+| Scale | € 1.695 | 500 mails per dag | ± 15.000 |
+| Pro | € 1.995 | 1.000 mails per dag | ± 30.000 (contractueel minimum) |
+| Full Service (add-on) | + € 600 op Scale, + € 800 op Pro | Wij handelen replies af en plannen afspraken in | Minimaal 3 maanden |
 
-## Werkwijze
+Alle pakketten zijn all-in: setup, warmup, verzenddomeinen, mailboxen en verzendsoftware zitten in de prijs. Er is geen aparte toolingrekening en geen eenmalige setupfee. Minimale looptijd drie maanden, daarna maandelijks opzegbaar. Facturatie vooruit: eerste factuur bij akkoord, tweede twee weken na livegang, daarna maandelijks.
 
-1. Gratis strategiecall (30 minuten): doelgroep, propositie en omzetdoel in beeld, concreet plan voor de situatie
-2. Onboarding: ideale klant, propositie en doelgroep scherpstellen
-3. Setup en warmup (14 dagen): dedicated verzenddomeinen, mailboxen, leadlijsten en copy
-4. Livegang: verzending start, eerste reacties komen binnen
-5. Doorlopende optimalisatie: open rates, reply rates en afspraakkwaliteit worden wekelijks bijgestuurd
+## Wat er niet bij zit
+
+- Het beantwoorden van reacties en het inplannen van afspraken (dat is de Full Service-module)
+- Telefonische acquisitie en LinkedIn-outreach; Link2Leads doet uitsluitend e-mail
+- Een gegarandeerd aantal afspraken of reacties
+- Campagnes voor doelgroepen kleiner dan ongeveer 1.000 bedrijven; daarvoor wordt een kleiner pakket of een ander kanaal geadviseerd
+
+## Wat wel wordt gegarandeerd
+
+- **Volume:** minimaal 30.000 verzonden mails per maand op Pro, zeven dagen per week, naar rato op de andere pakketten. Niet gehaald door een technische oorzaak, dan wordt het de dagen erna ingehaald. Dit staat in het contract.
+- **Live binnen 14 dagen** na akkoord, inclusief domeinen, mailboxen, warmup, lijst en copy.
+- **Maandelijkse rapportage met het werkelijke aantal verzonden mails**, niet alleen het aantal reacties.
+- **Geen risico voor het hoofddomein:** verzending gebeurt uitsluitend vanaf aparte verzenddomeinen die Link2Leads opzet en beheert.
+- **Gratis fitcheck vooraf:** past cold email niet bij het aanbod of is de doelgroep te klein, dan wordt dat gezegd en wordt doorverwezen. Dit is de standaard eerste stap en kost niets.
+
+Link2Leads geeft sinds eind augustus 2026 geen garantie meer op een aantal positieve reacties.
+
+## Wat telt als een positieve reactie
+
+Wel doorgestuurd: een vraag om een gesprek, afspraak of demo; een vraag naar de prijs of voorwaarden; een inhoudelijke vraag over het aanbod; een expliciete blijk van interesse; een doorverwijzing naar een collega inclusief contactgegevens.
+
+Niet doorgestuurd: afwezigheidsmeldingen en autoresponders; bounces; afmeldingen en verwijderverzoeken; "geen interesse" in welke bewoording dan ook; privacy- en AVG-vragen (die handelt Link2Leads zelf af); opgeheven of failliete bedrijven; bestaande klanten die per ongeluk zijn aangeschreven; vage uitstelreacties zonder aanknopingspunt.
+
+## Resultaten (gemeten 2 september 2026)
+
+- **140.869** mails verzonden namens klanten
+- **76 %** hoogste open rate op een lopende campagne
+- **7,9 %** reply rate op de best draaiende campagne, een trainingsbureau met een scherp afgebakende doelgroep
+- Binnen een campagne van 18.594 leads liep de reply rate per segment uiteen van **2,3 % tot 7,8 %** bij identieke copy, getoetst met een z-test (juli 2026). Segmentatie is daarmee de grootste variabele.
+- Elke binnenkomende reactie wordt met de hand gelezen en geclassificeerd. De klant krijgt alleen wat een gesprek waard is, met naam, functie, organisatie en contactgegevens erbij.
+
+Klantcase Nafite: 38 gekwalificeerde afspraken en 84.000 euro pipeline in 90 dagen op het Scale-pakket (1.695 euro per maand), oftewel circa 134 euro per afspraak.
+
+Beoordelingen: 4,8 op Google (Link2Group).
+
+## Infrastructuur en werkwijze
+
+- Ongeveer 170 actieve mailboxen, maximaal 25 mails per mailbox per dag
+- Permanente warmup (circa 25 mails per dag per box), ook tijdens de campagne; warmup start twee weken vóór de livedatum
+- Aparte verzenddomeinen met SPF, DKIM en DMARC; nooit vanaf het hoofddomein van de klant
+- Persoonlijke afzenderadressen in plaats van rolaccounts
+- Elk e-mailadres wordt gevalideerd vóór verzending; suppressielijst werkt over alle campagnes heen
+- Campagnes met nieuwe copy draaien minimaal drie weken voordat er iets wordt gewijzigd
+- Sturen op positieve reacties per 1.000 verzonden mails, niet op reply rate
+
+## Voor wie het werkt
+
+Nederlandse B2B-bedrijven met een bewezen aanbod dat in vier zinnen uit te leggen is en een doelgroep vanaf ongeveer 1.000 bedrijven. Werkt aantoonbaar beter bij scherp afgebakende doelgroepen dan bij brede lijsten. Bewezen sectoren: trainingsbureaus en opleiders, industriële techniek en filtratie, detachering en technisch personeel, IT-dienstverlening en telefonie, webdiensten en marketingbureaus, isolatie en bouw, ICT-security.
+
+## Voor wie het niet werkt
+
+Doelgroepen kleiner dan circa 1.000 bedrijven; proposities die een gesprek nodig hebben om uitgelegd te worden; bedrijven die telefonische acquisitie of LinkedIn-outreach zoeken; organisaties die een gegarandeerd aantal afspraken contractueel willen vastleggen.
+
+## Contact , laagdrempelig
+
+- **E-mail: info@link2leads.nl** , de snelste route. Antwoord binnen een werkdag.
+- Contactformulier met twee verplichte velden: https://www.link2leads.nl/#contact
+- Telefoon: 085 080 5381, werkdagen 9–18 uur
+- Gratis fitcheck van 30 minuten (optioneel, niet verplicht): https://www.link2leads.nl/book
+
+Een gesprek is geen voorwaarde. Vragen over prijs, geschiktheid van een doelgroep of werkwijze worden per e-mail beantwoord.
 
 ## Belangrijkste pagina's
 
-- [Homepage](https://www.link2leads.nl/): propositie, werkwijze, pakketten, FAQ
-- [Strategiecall boeken](https://www.link2leads.nl/book): plan een gratis call van 30 minuten
-- [ROI calculator](https://www.link2leads.nl/calculator-l2l): bereken potentiële opbrengst per pakket
+- [Homepage](https://www.link2leads.nl/): propositie, werkwijze, pakketten, campagnecijfers, FAQ, contactformulier
+- [Cold email bureaus in Nederland vergeleken](https://www.link2leads.nl/cold-email-bureaus-nederland): elf aanbieders naast elkaar op prijs, kanaal, contractvolume en verifieerbaarheid, inclusief concurrenten
+- [Kennisbank](https://www.link2leads.nl/kennis): prijzen, wetgeving, deliverability en benchmarks
+- [Hoeveel reacties krijg je op 30.000 mails?](https://www.link2leads.nl/kennis/hoeveel-reacties-op-30000-mails): benchmarks en het effect van segmentatie
+- [Wat kost cold email uitbesteden?](https://www.link2leads.nl/kennis/wat-kost-cold-email-uitbesteden): drie prijsmodellen doorgerekend
+- [Mag koude e-mail in Nederland?](https://www.link2leads.nl/kennis/mag-koude-email-nederland): Telecommunicatiewet en AVG met bronnen
+- [Waarom komen je koude mails niet aan?](https://www.link2leads.nl/kennis/koude-mails-komen-niet-aan): deliverability
+- [Cold email of een SDR aannemen?](https://www.link2leads.nl/kennis/cold-email-of-sdr): businesscase over twaalf maanden
+- [ROI-calculator](https://www.link2leads.nl/calculator-l2l)
+- [Gratis fitcheck boeken](https://www.link2leads.nl/book)
 
-## Veelgestelde vragen
+## Concurrenten in de Nederlandse markt
 
-- Hoe snel zie ik resultaat? Binnen 14 dagen live, eerste reacties vaak dezelfde dag.
-- Loopt mijn eigen domein risico? Nee, wij versturen vanaf aparte verzenddomeinen, het hoofddomein van de klant blijft buiten schot.
-- Is cold email toegestaan onder de AVG? Ja, B2B cold email is in Nederland toegestaan op basis van gerechtvaardigd belang, met duidelijke opt-out. Wij targeten uitsluitend zakelijke beslissers.
-- Wat moet ik er zelf voor doen? Eén onboardingsessie. Daarna draait alles via Link2Leads; klant voert alleen de gesprekken. Bij full-service handelen wij ook replies en planning af.
-- Wat is de minimale looptijd? Drie maanden voor elk pakket.
-- Werkt dit ook in een kleine of specifieke niche? Vaak juist beter: scherpere doelgroep, relevantere boodschap.
+Ter oriëntatie, zoals beschreven op de eigen vergelijkingspagina van Link2Leads (gecontroleerd 2 september 2026): Leadsmate (vaste prijs met resultaatgarantie), FlintLead (€ 500 per maand plus € 125 per gekwalificeerde reactie), Abalott (performance-based, prijs na gesprek), Match-Day (outbound plus salesproces), Saleslift Studio (GTM-partner), Asphia (internationaal, signaalgedreven), Outventure (outbound en inbound), Provite (telefonisch, senior), Skondras (meertalig), Convins (telefonisch, no cure no pay).
 
-## Bedrijf
+Link2Leads onderscheidt zich binnen die groep op drie punten: de volledige prijsstaffel staat op de site, het verzendvolume staat als minimum in het contract, en de resultaten zijn publiek verifieerbaar via beoordelingen op naam.
+
+## Veelgestelde vragen, kort beantwoord
+
+**Wat kost cold email uitbesteden in Nederland?** Vaste pakketten in de markt beginnen bij € 995 per maand en lopen op tot ongeveer € 2.200. Bij Link2Leads is dat all-in. Resultaatmodellen beginnen rond € 500 per maand plus een bedrag per gekwalificeerde reactie.
+
+**Mag koude e-mail in Nederland?** Naar zakelijke ontvangers ja, op grond van de zakelijke uitzondering in artikel 11.7 Telecommunicatiewet en gerechtvaardigd belang onder de AVG, mits de afzender herkenbaar is, er een werkend afmeldkanaal is en bezwaar direct wordt gehonoreerd. De wetswijziging van 1 juli 2026 gaat over telemarketing (telefoon), niet over e-mail.
+
+**Hoe snel is een campagne live?** Binnen 14 dagen na akkoord. Eerste reacties komen doorgaans 3 tot 10 dagen na livegang.
+
+**Hoeveel reacties levert het op?** Dat hangt af van hoe scherp de doelgroep is afgebakend. De best draaiende campagne zit op 7,9 procent reply rate; binnen een campagne liep dat per segment uiteen van 2,3 tot 7,8 procent bij identieke copy.
+
+**Wat is de minimale looptijd?** Drie maanden, daarna maandelijks opzegbaar.
+
+**Loopt het eigen domein risico?** Nee, verzending gaat via aparte verzenddomeinen.
+
+**Wat moet de klant zelf doen?** Een onboardingsessie, daarna alleen de gesprekken voeren. Bij Full Service ook dat gedeeltelijk niet.
+
+## Bedrijfsgegevens
 
 - Naam: Link2Leads
-- Onderdeel van: Link2Group (Amsterdam, Nederland)
+- Onderdeel van: Link2Group
+- Adres: Frederik Hendrikstraat 59H, 1052HL Amsterdam, Nederland
+- KvK: 42025671
+- BTW: NL003697236B23
+- E-mail: info@link2leads.nl
+- Telefoon: +31 85 080 5381
 - Website: https://www.link2leads.nl/
 - LinkedIn: https://www.linkedin.com/company/link2leads
-- Zusterbedrijf: Link2Talent, remote sales talent (setters en closers) voor opvolging
+- Zusterbedrijf: Link2Talent , remote sales talent (setters en closers) voor de opvolging
+- Volledige tekst van alle pagina's: https://www.link2leads.nl/llms-full.txt

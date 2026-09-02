@@ -56,3 +56,7 @@ Allow: /
 Disallow: /api/
 
 Sitemap: https://www.link2leads.nl/sitemap.xml
+
+# Machineleesbare samenvatting voor taalmodellen
+# https://www.link2leads.nl/llms.txt
+# https://www.link2leads.nl/llms-full.txt
