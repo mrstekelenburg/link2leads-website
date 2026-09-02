@@ -370,13 +370,12 @@ body { background: transparent !important; color: #F0EFED; }
             <div class="sp-time">De bevestiging staat in je mail. Boekingsnr. <strong id="qRef">-</strong></div>
           </div>
         </div>
-        <p style="font-size:14px;color:var(--muted,#9aa3b2);line-height:1.6;margin:0 0 18px;">Help ons de call voor te bereiden. Hoe meer we vooraf weten, hoe concreter het plan dat je terugkrijgt.</p>
+        <p style="font-size:14px;color:var(--muted,#9aa3b2);line-height:1.6;margin:0 0 8px;">Je afspraak staat vast. Drie korte vragen helpen ons om met een concreet plan te komen in plaats van eerst alles uit te vragen. Een minuut werk.</p>
+        <p style="font-size:13.5px;line-height:1.6;margin:0 0 18px;"><a href="#" onclick="skipAnswers();return false;" style="color:var(--accent2,#5B8DEF);text-decoration:underline;text-underline-offset:3px;">Liever niet nu, ik vertel het in de call</a></p>
 
         <div class="fg"><label>Wie is jullie ideale klant?</label><textarea id="q1" placeholder="Kort beschrijven..."></textarea></div>
         <div class="fg"><label>Welke regio's of markten zijn belangrijk?</label><textarea id="q2" placeholder="Bijv. Nederland, DACH, Benelux..."></textarea></div>
-        <div class="fg"><label>Hebben jullie al e-mailcampagnes of andere sales outreach lopen?</label><textarea id="q3" placeholder="Ja/Nee + korte toelichting..."></textarea></div>
         <div class="fg"><label>Wat is je belangrijkste doel de komende 30-60 dagen?</label><textarea id="q4" placeholder="Bijv. meer afspraken, pipeline opbouwen..."></textarea></div>
-        <div class="fg"><label>Wanneer wil je starten met nieuwe gesprekken / leads?</label><textarea id="q5" placeholder="Bijv. zo snel mogelijk, Q3 2026..."></textarea></div>
 
         <button class="btn btn-primary" id="btnAnswers" onclick="sendAnswers()">Antwoorden versturen </button>
         <button class="btn btn-ghost" onclick="skipAnswers()">Overslaan, ik vertel het in de call</button>
@@ -389,7 +388,8 @@ body { background: transparent !important; color: #F0EFED; }
           <div class="succ-title">Afspraak bevestigd!</div>
           <div class="succ-sub">Je ontvangt direct een bevestiging op <strong id="confMail">je e-mail</strong>.<br>De agenda-uitnodiging met de deelnamelink zit erbij.</div>
           <div class="ref-box">Boekingsnummer<span id="bookRef">L2L-000000</span></div>
-          <button class="btn btn-ghost" onclick="reset()" style="margin-top:0">Nieuwe afspraak plannen</button>
+          <p style="font-size:14px;line-height:1.6;color:rgba(240,239,237,0.7);margin:16px 0 0;">Alvast inlezen? In de <a href="/kennis" style="color:var(--accent2,#5B8DEF);text-decoration:underline;text-underline-offset:3px;">kennisbank</a> staan de prijzen, de regels rond koude e-mail en onze eigen campagnecijfers.</p>
+          <button class="btn btn-ghost" onclick="reset()" style="margin-top:14px">Nieuwe afspraak plannen</button>
         </div>
       </div>
 
@@ -575,7 +575,7 @@ async function book(){
       document.getElementById('qRef').textContent=data.ref;
       document.querySelectorAll('.step-panel').forEach(p=>p.classList.remove('active'));
       document.getElementById('sq').classList.add('active');
-      document.getElementById('wTitle').textContent='Nog een paar vragen';
+      document.getElementById('wTitle').textContent='Drie korte vragen';
       document.getElementById('wStep').textContent='Stap 3 van 3 · optioneel';
     }else if(res.status===409||data.reason==='slot_taken'){
       if(window.l2lTrack)l2lTrack('booking_slot_taken');
@@ -592,9 +592,7 @@ async function sendAnswers(){
   const answers={
     'Ideale klant':document.getElementById('q1').value.trim(),
     "Regio's / markten":document.getElementById('q2').value.trim(),
-    'Huidige outreach':document.getElementById('q3').value.trim(),
-    'Doel 30-60 dagen':document.getElementById('q4').value.trim(),
-    'Gewenste startdatum':document.getElementById('q5').value.trim()
+    'Doel 30-60 dagen':document.getElementById('q4').value.trim()
   };
   if(!Object.values(answers).some(v=>v)){skipAnswers();return;}
   const btn=document.getElementById('btnAnswers');
@@ -628,7 +626,7 @@ function finishFlow(){
 
 function reset(){
   selD=null;selSlot=null;bookingRef=null;
-  ['fName','fEmail','fCompany','fPhone','q1','q2','q3','q4','q5'].forEach(id=>document.getElementById(id).value='');
+  ['fName','fEmail','fCompany','fPhone','q1','q2','q4'].forEach(id=>document.getElementById(id).value='');
   const bb=document.getElementById('btnBook');bb.disabled=false;bb.textContent='Afspraak bevestigen ';
   const ba=document.getElementById('btnAnswers');ba.disabled=false;ba.textContent='Antwoorden versturen ';
   document.getElementById('btnNext').disabled=true;

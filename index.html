@@ -170,6 +170,11 @@ nav.scrolled .nav-inner {
 }
 
 .hero-btns { display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin-bottom:44px; }
+.hero-price { display:inline-flex; align-items:baseline; gap:10px; flex-wrap:wrap;
+  margin:0 0 26px; padding:10px 18px; border-radius:100px;
+  background:rgba(47,111,237,0.09); border:1px solid rgba(47,111,237,0.26); }
+.hero-price .hp-amount { font-size:15px; font-weight:700; color:var(--white); letter-spacing:-.2px; }
+.hero-price .hp-note { font-size:13.5px; color:var(--muted); }
 
 .btn-solid {
   display:inline-flex; align-items:center; justify-content:center; gap:8px;
@@ -1675,6 +1680,10 @@ section,
       <p class="hero-sub">
         Wij bouwen en draaien jouw complete cold e-mailmachine: lijsten, copy, verzending en filtering. Jij voert alleen de gesprekken. Geen ads, geen extra software, geen via-via's.
       </p>
+      <div class="hero-price">
+        <span class="hp-amount">Vanaf &euro;995 per maand</span>
+        <span class="hp-note">all-in, geen setupfee</span>
+      </div>
       <div class="hero-btns">
         <a href="/book" class="btn-solid" target="_blank">Doe de gratis fitcheck →</a>
         <a href="#contact" class="btn-ghost-l2l">Stel eerst je vraag</a>
@@ -1882,22 +1891,6 @@ section,
     </div>
     <div class="prob-card reveal">
       <div class="prob-card-visual">
-        <div class="glow-blob" style="width:120px;height:120px;bottom:-10px;right:10px;"></div>
-        <svg class="prob-icon-svg" viewBox="0 0 50 50" fill="none">
-          <circle cx="25" cy="12" r="5" stroke="#2F6FED" stroke-width="2.5"/>
-          <circle cx="10" cy="36" r="5" stroke="#2F6FED" stroke-width="2.5"/>
-          <circle cx="40" cy="36" r="5" stroke="#2F6FED" stroke-width="2.5"/>
-          <path d="M25 17v6M20 32l-6-6M30 32l6-6" stroke="#2F6FED" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M15 36h10M25 36h10" stroke="#2F6FED" stroke-width="2" stroke-linecap="round" opacity=".35"/>
-        </svg>
-      </div>
-      <div class="prob-card-body">
-        <div class="prob-title">Tot 90% van je groei komt nu uit je eigen netwerk</div>
-        <p class="prob-desc">Daardoor betaal je steeds opnieuw voor acquisitie via events en advertenties, in plaats van een kanaal te bouwen dat schaalt.</p>
-      </div>
-    </div>
-    <div class="prob-card reveal">
-      <div class="prob-card-visual">
         <div class="glow-blob" style="width:130px;height:130px;top:10px;right:20px;"></div>
         <svg class="prob-icon-svg" viewBox="0 0 50 50" fill="none">
           <path d="M34 16c-2.4-3.5-6.3-5.5-10.5-5A13 13 0 0 0 13 25" stroke="#2F6FED" stroke-width="2.5" stroke-linecap="round"/>
@@ -1910,21 +1903,6 @@ section,
       <div class="prob-card-body">
         <div class="prob-title">Acquisitie vreet tijd die je niet hebt</div>
         <p class="prob-desc">Zelf prospects zoeken, mailen en opvolgen kost je team uren per week. Tijd die naar het sluiten van deals zou moeten gaan, niet naar het zoeken ervan.</p>
-      </div>
-    </div>
-    <div class="prob-card reveal">
-      <div class="prob-card-visual">
-        <div class="glow-blob" style="width:110px;height:110px;bottom:0;left:20px;"></div>
-        <svg class="prob-icon-svg" viewBox="0 0 50 50" fill="none">
-          <rect x="7" y="28" width="8" height="15" rx="2" fill="#2F6FED" opacity=".22"/>
-          <rect x="21" y="20" width="8" height="23" rx="2" fill="#2F6FED" opacity=".5"/>
-          <rect x="35" y="10" width="8" height="33" rx="2" fill="#2F6FED"/>
-          <path d="M11 24l14-8 14-6" stroke="#2F6FED" stroke-width="2" stroke-linecap="round" opacity=".5"/>
-        </svg>
-      </div>
-      <div class="prob-card-body">
-        <div class="prob-title">Je laat elke dag omzet liggen</div>
-        <p class="prob-desc">E-mail is het goedkoopste kanaal met de hoogste ROI, maar wordt door de meeste B2B bedrijven nooit goed opgezet.</p>
       </div>
     </div>
   </div>
@@ -2026,7 +2004,7 @@ section,
     <div class="case-header reveal">
       <div class="section-pill">RESULTATEN</div>
       <h2 class="big-h">Praatjes vullen <span class="blue">geen gaatjes</span></h2>
-      <p class="big-sub">Wat we voor Nafite realiseerden, in cijfers.</p>
+      <p class="big-sub">Twee campagnes, met de cijfers erbij.</p>
     </div>
     <div class="case-card reveal">
       <div class="case-bar">
@@ -2076,6 +2054,58 @@ section,
           <div class="case-stat">
             <div class="case-stat-num"><span>Dag 1</span></div>
             <div class="case-stat-label">Eerste afspraak na livegang</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-card reveal" style="margin-top:22px;">
+      <div class="case-bar">
+        <div class="case-dots">
+          <div class="case-dot r"></div>
+          <div class="case-dot y"></div>
+          <div class="case-dot g"></div>
+        </div>
+        <span class="case-url">link2leads.nl/casestudy</span>
+      </div>
+      <div class="case-body">
+        <div class="case-left">
+          <div class="case-label">CASE STUDY</div>
+          <div class="case-company">Connessence</div>
+          <div class="case-rows">
+            <div class="case-row">
+              <span class="case-row-label">Probleem</span>
+              <span class="case-row-val">Trainingsbureau met drie heel verschillende koperstypes. Een campagne die alle drie tegelijk aansprak, sprak niemand echt aan.</span>
+            </div>
+            <div class="case-row">
+              <span class="case-row-label">Aanpak</span>
+              <span class="case-row-val">Doelgroep opgesplitst in drie aparte campagnes, elk met een eigen lijst en een eigen insteek, verstuurd vanaf persoonlijke afzenderadressen.</span>
+            </div>
+            <div class="case-row">
+              <span class="case-row-label">Looptijd</span>
+              <span class="case-row-val">Eerste twee weken na livegang</span>
+            </div>
+            <div class="case-row">
+              <span class="case-row-label">Investering</span>
+              <span class="case-row-val">1.295 euro per maand</span>
+            </div>
+          </div>
+          <div style="margin-top:22px;padding:16px 18px;background:rgba(47,111,237,0.07);border-left:3px solid var(--accent);border-radius:0 10px 10px 0;">
+            <p style="margin:0;font-size:14px;line-height:1.65;color:rgba(255,255,255,0.85);">Dit is de campagne waar onze hoogste reply rate vandaan komt. Hoe scherper het segment, hoe beter de cijfers. <a href="/kennis/hoeveel-reacties-op-30000-mails" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">De uitsplitsing per segment &rarr;</a></p>
+          </div>
+        </div>
+        <div class="case-right">
+          <div class="case-stat">
+            <div class="case-stat-num"><span>7,9%</span></div>
+            <div class="case-stat-label">Reply rate op het grootste segment</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-num"><span>65-74%</span></div>
+            <div class="case-stat-label">Open rate over de drie segmenten</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-num"><span>15</span></div>
+            <div class="case-stat-label">Positieve reacties in de eerste twee weken</div>
           </div>
         </div>
       </div>
@@ -2365,6 +2395,115 @@ section,
   </div>
 </section>
 
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <style>
+    .contact-section{padding:0 24px 90px;max-width:1000px;margin:0 auto;}
+    .contact-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;padding:40px 36px;text-align:left;display:grid;grid-template-columns:1fr 1.05fr;gap:44px;align-items:start;}
+    .contact-left h2{font-size:clamp(24px,3.4vw,31px);line-height:1.18;letter-spacing:-1px;font-weight:800;margin:14px 0 14px;}
+    .contact-left h2 .blue{color:var(--accent2);}
+    .contact-left p{font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.66);margin:0;}
+    .contact-direct{margin-top:24px;display:grid;gap:10px;}
+    .contact-direct a{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:12px;padding:14px 16px;font-size:15px;font-weight:600;color:var(--white);transition:border-color .2s,background .2s;}
+    .contact-direct a:hover{border-color:rgba(47,111,237,.4);background:rgba(47,111,237,.07);}
+    .contact-direct .ci{width:30px;height:30px;border-radius:9px;background:rgba(47,111,237,.14);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--accent2);font-size:14px;}
+    .contact-direct small{display:block;font-weight:400;font-size:12.5px;color:var(--muted);margin-top:2px;}
+    .cf-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    .cf-field{display:flex;flex-direction:column;gap:7px;margin-bottom:14px;}
+    .cf-field label{font-family:var(--mono);font-size:10px;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);}
+    .cf-field input,.cf-field textarea{width:100%;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.10);border-radius:11px;padding:13px 15px;color:var(--white);font-size:15px;font-family:var(--f);transition:border-color .2s,background .2s;}
+    .cf-field textarea{resize:vertical;min-height:100px;line-height:1.6;}
+    .cf-field input:focus,.cf-field textarea:focus{outline:none;border-color:var(--accent);background:rgba(47,111,237,.06);}
+    .cf-field input::placeholder,.cf-field textarea::placeholder{color:rgba(255,255,255,.30);}
+    .cf-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
+    .cf-submit{width:100%;justify-content:center;margin-top:4px;}
+    .cf-note{margin-top:14px;font-size:12.5px;line-height:1.6;color:var(--muted);text-align:center;}
+    .cf-note a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
+    .cf-msg{margin-top:14px;border-radius:12px;padding:14px 16px;font-size:14.5px;line-height:1.6;display:none;}
+    .cf-msg.ok{display:block;background:rgba(74,222,128,.09);border:1px solid rgba(74,222,128,.3);color:#BBF7D0;}
+    .cf-msg.err{display:block;background:rgba(248,113,113,.09);border:1px solid rgba(248,113,113,.3);color:#FECACA;}
+    @media(max-width:860px){.contact-card{grid-template-columns:1fr;gap:30px;padding:30px 22px;}}
+    @media(max-width:520px){.cf-row{grid-template-columns:1fr;}}
+  </style>
+  <div class="contact-card reveal">
+    <div class="contact-left">
+      <div class="section-pill">CONTACT</div>
+      <h2>Geen zin in een call? <span class="blue">Stel gewoon je vraag.</span></h2>
+      <p>Wil je alleen weten of dit voor jouw doelgroep werkt of wat het ongeveer kost, dan hoef je daar geen half uur voor vrij te maken. Twee velden, en je krijgt binnen een werkdag antwoord van Demi of Anne-Roos.</p>
+      <div class="contact-direct">
+        <a href="mailto:info@link2leads.nl">
+          <span class="ci">&#9993;</span>
+          <span>info@link2leads.nl<small>Direct mailen kan ook, zelfde antwoordtijd</small></span>
+        </a>
+        <a href="tel:+31850805381">
+          <span class="ci">&#9742;</span>
+          <span>085 080 5381<small>Op werkdagen tussen 9 en 18 uur</small></span>
+        </a>
+        <a href="/book" target="_blank">
+          <span class="ci">&#128197;</span>
+          <span>Gratis fitcheck van 30 minuten<small>Als je liever meteen doorpraat</small></span>
+        </a>
+      </div>
+    </div>
+    <div class="contact-right">
+      <form id="contactForm" novalidate>
+        <div class="cf-row">
+          <div class="cf-field">
+            <label for="cf-name">Naam *</label>
+            <input type="text" id="cf-name" name="name" required autocomplete="name" placeholder="Voor- en achternaam">
+          </div>
+          <div class="cf-field">
+            <label for="cf-email">Zakelijk e-mailadres *</label>
+            <input type="email" id="cf-email" name="email" required autocomplete="email" placeholder="naam@bedrijf.nl">
+          </div>
+        </div>
+        <div class="cf-field">
+          <label for="cf-question">Je vraag <span style="text-transform:none;letter-spacing:0;">(optioneel)</span></label>
+          <textarea id="cf-question" name="question" placeholder="Bijvoorbeeld: wij verkopen aan installatiebedrijven in Nederland, ongeveer 2.000 stuks. Is dat groot genoeg?"></textarea>
+        </div>
+        <div class="cf-hp"><label for="cf-website">Website</label><input type="text" id="cf-website" name="website" tabindex="-1" autocomplete="off"></div>
+        <button type="submit" class="btn-solid cf-submit" id="cfSubmit">Verstuur je vraag →</button>
+        <div class="cf-msg" id="cfMsg" role="status" aria-live="polite"></div>
+        <p class="cf-note">Antwoord binnen een werkdag. Geen nieuwsbrief. Zie ons <a href="/privacy">privacybeleid</a>.</p>
+      </form>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var f=document.getElementById('contactForm');
+    if(!f) return;
+    var btn=document.getElementById('cfSubmit'), msg=document.getElementById('cfMsg');
+    function show(kind,text){ msg.className='cf-msg '+kind; msg.textContent=text; }
+    f.addEventListener('submit',function(e){
+      e.preventDefault();
+      var name=f.name.value.trim(), email=f.email.value.trim();
+      if(!name){ show('err','Vul je naam in.'); f.name.focus(); return; }
+      if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ show('err','Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.'); f.email.focus(); return; }
+      if(window.l2lTrack) l2lTrack('contact_started');
+      btn.disabled=true; var label=btn.textContent; btn.textContent='Versturen...'; msg.className='cf-msg';
+      fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({name:name,email:email,question:f.question.value.trim(),website:f.website.value})})
+        .then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
+        .then(function(r){
+          if(r.ok&&r.d.ok){
+            f.reset();
+            show('ok','Dank je. Je vraag is binnen en je hebt een bevestiging in je mailbox. Je krijgt binnen een werkdag antwoord.');
+            btn.textContent='Verstuurd';
+            if(window.l2lTrack) l2lTrack('contact_submitted', {ref: r.d.ref || ''});
+          } else {
+            show('err',(r.d&&r.d.error)||'Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.');
+            btn.disabled=false; btn.textContent=label;
+          }
+        })
+        .catch(function(){
+          show('err','Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.');
+          btn.disabled=false; btn.textContent=label;
+        });
+    });
+  })();
+  </script>
+</section>
+
 <!-- FAQ -->
 <section class="faq-section" id="faq">
   <style>
@@ -2501,112 +2640,6 @@ section,
 </section>
 
 
-<!-- CONTACT -->
-<section class="contact-section" id="contact">
-  <style>
-    .contact-section{padding:0 24px 90px;max-width:1000px;margin:0 auto;}
-    .contact-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;padding:40px 36px;text-align:left;display:grid;grid-template-columns:1fr 1.05fr;gap:44px;align-items:start;}
-    .contact-left h2{font-size:clamp(24px,3.4vw,31px);line-height:1.18;letter-spacing:-1px;font-weight:800;margin:14px 0 14px;}
-    .contact-left h2 .blue{color:var(--accent2);}
-    .contact-left p{font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.66);margin:0;}
-    .contact-direct{margin-top:24px;display:grid;gap:10px;}
-    .contact-direct a{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:12px;padding:14px 16px;font-size:15px;font-weight:600;color:var(--white);transition:border-color .2s,background .2s;}
-    .contact-direct a:hover{border-color:rgba(47,111,237,.4);background:rgba(47,111,237,.07);}
-    .contact-direct .ci{width:30px;height:30px;border-radius:9px;background:rgba(47,111,237,.14);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--accent2);font-size:14px;}
-    .contact-direct small{display:block;font-weight:400;font-size:12.5px;color:var(--muted);margin-top:2px;}
-    .cf-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
-    .cf-field{display:flex;flex-direction:column;gap:7px;margin-bottom:14px;}
-    .cf-field label{font-family:var(--mono);font-size:10px;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);}
-    .cf-field input,.cf-field textarea{width:100%;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.10);border-radius:11px;padding:13px 15px;color:var(--white);font-size:15px;font-family:var(--f);transition:border-color .2s,background .2s;}
-    .cf-field textarea{resize:vertical;min-height:100px;line-height:1.6;}
-    .cf-field input:focus,.cf-field textarea:focus{outline:none;border-color:var(--accent);background:rgba(47,111,237,.06);}
-    .cf-field input::placeholder,.cf-field textarea::placeholder{color:rgba(255,255,255,.30);}
-    .cf-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
-    .cf-submit{width:100%;justify-content:center;margin-top:4px;}
-    .cf-note{margin-top:14px;font-size:12.5px;line-height:1.6;color:var(--muted);text-align:center;}
-    .cf-note a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
-    .cf-msg{margin-top:14px;border-radius:12px;padding:14px 16px;font-size:14.5px;line-height:1.6;display:none;}
-    .cf-msg.ok{display:block;background:rgba(74,222,128,.09);border:1px solid rgba(74,222,128,.3);color:#BBF7D0;}
-    .cf-msg.err{display:block;background:rgba(248,113,113,.09);border:1px solid rgba(248,113,113,.3);color:#FECACA;}
-    @media(max-width:860px){.contact-card{grid-template-columns:1fr;gap:30px;padding:30px 22px;}}
-    @media(max-width:520px){.cf-row{grid-template-columns:1fr;}}
-  </style>
-  <div class="contact-card reveal">
-    <div class="contact-left">
-      <div class="section-pill">CONTACT</div>
-      <h2>Geen zin in een call? <span class="blue">Stel gewoon je vraag.</span></h2>
-      <p>Wil je alleen weten of dit voor jouw doelgroep werkt of wat het ongeveer kost, dan hoef je daar geen half uur voor vrij te maken. Twee velden, en je krijgt binnen een werkdag antwoord van Demi of Anne-Roos.</p>
-      <div class="contact-direct">
-        <a href="mailto:info@link2leads.nl">
-          <span class="ci">&#9993;</span>
-          <span>info@link2leads.nl<small>Direct mailen kan ook, zelfde antwoordtijd</small></span>
-        </a>
-        <a href="tel:+31850805381">
-          <span class="ci">&#9742;</span>
-          <span>085 080 5381<small>Op werkdagen tussen 9 en 18 uur</small></span>
-        </a>
-        <a href="/book" target="_blank">
-          <span class="ci">&#128197;</span>
-          <span>Gratis fitcheck van 30 minuten<small>Als je liever meteen doorpraat</small></span>
-        </a>
-      </div>
-    </div>
-    <div class="contact-right">
-      <form id="contactForm" novalidate>
-        <div class="cf-row">
-          <div class="cf-field">
-            <label for="cf-name">Naam *</label>
-            <input type="text" id="cf-name" name="name" required autocomplete="name" placeholder="Voor- en achternaam">
-          </div>
-          <div class="cf-field">
-            <label for="cf-email">Zakelijk e-mailadres *</label>
-            <input type="email" id="cf-email" name="email" required autocomplete="email" placeholder="naam@bedrijf.nl">
-          </div>
-        </div>
-        <div class="cf-field">
-          <label for="cf-question">Je vraag <span style="text-transform:none;letter-spacing:0;">(optioneel)</span></label>
-          <textarea id="cf-question" name="question" placeholder="Bijvoorbeeld: wij verkopen aan installatiebedrijven in Nederland, ongeveer 2.000 stuks. Is dat groot genoeg?"></textarea>
-        </div>
-        <div class="cf-hp"><label for="cf-website">Website</label><input type="text" id="cf-website" name="website" tabindex="-1" autocomplete="off"></div>
-        <button type="submit" class="btn-solid cf-submit" id="cfSubmit">Verstuur je vraag →</button>
-        <div class="cf-msg" id="cfMsg" role="status" aria-live="polite"></div>
-        <p class="cf-note">Antwoord binnen een werkdag. Geen nieuwsbrief. Zie ons <a href="/privacy">privacybeleid</a>.</p>
-      </form>
-    </div>
-  </div>
-  <script>
-  (function(){
-    var f=document.getElementById('contactForm');
-    if(!f) return;
-    var btn=document.getElementById('cfSubmit'), msg=document.getElementById('cfMsg');
-    function show(kind,text){ msg.className='cf-msg '+kind; msg.textContent=text; }
-    f.addEventListener('submit',function(e){
-      e.preventDefault();
-      var name=f.name.value.trim(), email=f.email.value.trim();
-      if(!name){ show('err','Vul je naam in.'); f.name.focus(); return; }
-      if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ show('err','Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.'); f.email.focus(); return; }
-      btn.disabled=true; var label=btn.textContent; btn.textContent='Versturen...'; msg.className='cf-msg';
-      fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({name:name,email:email,question:f.question.value.trim(),website:f.website.value})})
-        .then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
-        .then(function(r){
-          if(r.ok&&r.d.ok){
-            f.reset();
-            show('ok','Dank je. Je vraag is binnen en je hebt een bevestiging in je mailbox. Je krijgt binnen een werkdag antwoord.');
-            btn.textContent='Verstuurd';
-          } else {
-            show('err',(r.d&&r.d.error)||'Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.');
-            btn.disabled=false; btn.textContent=label;
-          }
-        })
-        .catch(function(){
-          show('err','Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.');
-          btn.disabled=false; btn.textContent=label;
-        });
-    });
-  })();
-  </script>
-</section>
 
 <!-- FINAL CTA -->
 <section class="cta-section">

@@ -27,7 +27,7 @@
   fbq('init', PIXEL);
   fbq('track', 'PageView');
 
-  var META = { booking_confirmed: 'Schedule', questionnaire_completed: 'Lead' };
+  var META = { booking_confirmed: 'Schedule', questionnaire_completed: 'Lead', contact_submitted: 'Lead' };
 
   window.l2lTrack = function (name, params) {
     if (window.gtag) window.gtag('event', name, params || {});
