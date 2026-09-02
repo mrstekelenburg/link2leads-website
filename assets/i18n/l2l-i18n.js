@@ -302,7 +302,7 @@
       "flex-direction:column;gap:3px;z-index:9998 !important;box-shadow:0 8px 24px rgba(0,0,0,.35);}" +
       ".l2l-lang-floating .l2l-lang-btn{width:100%;justify-content:flex-start;padding:7px 9px;}" +
       ".l2l-lang-btn{display:inline-flex;align-items:center;gap:5px;cursor:pointer;border:none;" +
-      "background:transparent;color:rgba(255,255,255,0.7);font:600 12px/1 Inter,system-ui,sans-serif;" +
+      "background:transparent;color:rgba(255,255,255,0.7);font:600 12px/1 'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;" +
       "padding:5px 9px;border-radius:100px;transition:background .15s,color .15s;}" +
       ".l2l-lang-btn:hover{color:#fff;background:rgba(255,255,255,0.08);}" +
       ".l2l-lang-btn.is-active{color:#fff;background:var(--accent,#2F6FED);}" +
