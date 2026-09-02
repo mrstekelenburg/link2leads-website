@@ -66,8 +66,10 @@ input,textarea,select,button,optgroup{font-family:inherit;}
 
 *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
 html { background: #08090C; scroll-behavior:smooth; }
+html { overscroll-behavior-y: none; }
 body {
   background: #08090C;
+  overscroll-behavior-y: none;
   color: var(--white);
   font-family: var(--f);
   overflow-x: hidden;
@@ -138,10 +140,18 @@ nav.scrolled .nav-inner {
   min-height:auto;
   padding-top:120px;
   padding-bottom:80px;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  max-width:780px;
+  display:grid;
+  grid-template-columns:1.02fr 0.98fr;
+  gap:56px;
+  align-items:center;
+}
+@media(min-width:1011px){
+  .hero { grid-template-columns:1.14fr 0.86fr; gap:48px; }
+  .hero-h { font-size:clamp(34px,3.15vw,47px); }
+  .hero-sub { font-size:16.5px; }
+}
+@media(max-width:1010px){
+  .hero { grid-template-columns:1fr; gap:36px; max-width:780px; padding-top:104px; padding-bottom:56px; }
 }
 
 .hero-h {
@@ -170,6 +180,127 @@ nav.scrolled .nav-inner {
 }
 
 .hero-btns { display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin-bottom:44px; }
+
+/* ── Cases, opnieuw opgebouwd ── */
+.cs-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;overflow:hidden;text-align:left;}
+.cs-card + .cs-card{margin-top:18px;}
+.cs-top{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;padding:26px 30px 22px;border-bottom:1px solid var(--border);}
+.cs-lab{display:block;font-family:var(--mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--accent2);margin-bottom:8px;}
+.cs-top h3{font-size:clamp(21px,2.8vw,26px);font-weight:800;letter-spacing:-.6px;color:var(--white);margin:0;}
+.cs-meta{display:flex;gap:8px;flex-wrap:wrap;}
+.cs-meta span{font-size:12.5px;font-weight:600;color:rgba(255,255,255,.7);background:rgba(255,255,255,.05);
+  border:1px solid var(--border);border-radius:100px;padding:6px 13px;white-space:nowrap;}
+.cs-stats{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--border);}
+.cs-stats > div{padding:24px 26px;border-right:1px solid var(--border);}
+.cs-stats > div:last-child{border-right:0;}
+.cs-stats b{display:block;font-size:clamp(24px,3.4vw,34px);font-weight:900;letter-spacing:-1.4px;line-height:1;color:var(--accent2);}
+.cs-stats span{display:block;margin-top:9px;font-size:12.5px;line-height:1.45;color:var(--muted);}
+.cs-body{padding:26px 30px;}
+.cs-vn{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:stretch;}
+.cs-vn-col{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:14px;padding:18px 20px;}
+.cs-vn-col.na{background:rgba(47,111,237,.08);border-color:rgba(47,111,237,.3);}
+.cs-vn-lab{display:block;font-family:var(--mono);font-size:10px;letter-spacing:1.8px;text-transform:uppercase;color:var(--muted);margin-bottom:10px;}
+.cs-vn-col.na .cs-vn-lab{color:var(--accent2);}
+.cs-vn-col p{margin:0;font-size:15px;line-height:1.55;color:rgba(255,255,255,.75);}
+.cs-vn-col.na p{color:rgba(255,255,255,.95);font-weight:600;}
+.cs-vn-arrow{align-self:center;font-size:20px;color:var(--accent2);}
+.cs-aanpak{margin:20px 0 0;font-size:15px;line-height:1.7;color:rgba(255,255,255,.7);}
+.cs-aanpak strong{color:var(--white);}
+.cs-quote{padding:22px 30px;border-top:1px solid var(--border);background:rgba(47,111,237,.05);
+  font-size:15.5px;line-height:1.65;color:rgba(255,255,255,.85);font-style:italic;}
+.cs-quote span{display:block;margin-top:9px;font-size:13px;font-weight:700;font-style:normal;color:var(--muted);}
+@media(max-width:900px){
+  .cs-stats{grid-template-columns:repeat(2,1fr);}
+  .cs-stats > div:nth-child(2){border-right:0;}
+  .cs-stats > div:nth-child(1),.cs-stats > div:nth-child(2){border-bottom:1px solid var(--border);}
+}
+@media(max-width:700px){
+  .cs-vn{grid-template-columns:1fr;gap:10px;}
+  .cs-vn-arrow{justify-self:center;transform:rotate(90deg);}
+  .cs-top,.cs-body,.cs-quote{padding-left:20px;padding-right:20px;}
+  .cs-stats > div{padding:20px;}
+}
+
+/* ── Ronde 4: inbox, waarom, marktscan, maandrapport, garanties ── */
+.l4-sec{padding:0 24px 90px;max-width:1100px;margin:0 auto;}
+.l4-head{text-align:center;margin-bottom:38px;}
+.l4-head h2{font-size:clamp(26px,4vw,38px);line-height:1.15;letter-spacing:-1.2px;font-weight:800;margin:16px 0 12px;}
+.l4-head p{font-size:16.5px;line-height:1.65;color:rgba(255,255,255,.62);max-width:640px;margin:0 auto;}
+.l4-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;padding:32px 30px;text-align:left;}
+.l4-note{margin-top:18px;font-size:13px;line-height:1.6;color:var(--muted);}
+.l4-note a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
+
+/* Inbox */
+.inbox-bar{display:flex;align-items:center;gap:10px;padding:14px 20px;border-bottom:1px solid var(--border);
+  font-family:var(--mono,monospace);font-size:11.5px;letter-spacing:1px;color:var(--muted);text-transform:uppercase;}
+.inbox-live{width:8px;height:8px;border-radius:100px;background:#4ADE80;box-shadow:0 0 0 4px rgba(74,222,128,.15);}
+.inbox-list{display:grid;overflow:hidden;}
+.inbox-row{opacity:0;transform:translateY(-10px);}
+.inbox-row.in{opacity:1;transform:none;transition:opacity .5s ease, transform .5s cubic-bezier(.22,.8,.3,1);}
+.inbox-row.drop{animation:inbox-drop .55s cubic-bezier(.22,.8,.3,1) both;}
+@keyframes inbox-drop{
+  0%{opacity:0;transform:translateY(-16px) scale(.985);max-height:0;padding-top:0;padding-bottom:0;}
+  40%{opacity:.5;}
+  100%{opacity:1;transform:none;max-height:140px;padding-top:14px;padding-bottom:14px;}
+}
+.inbox-row.leave{animation:inbox-leave .45s ease both;}
+@keyframes inbox-leave{ to{opacity:0;transform:translateY(10px);max-height:0;padding-top:0;padding-bottom:0;border-bottom-width:0;} }
+@media (prefers-reduced-motion: reduce){
+  .inbox-row{opacity:1;transform:none;}
+  .inbox-row.drop,.inbox-row.leave{animation:none;}
+}
+.inbox-row{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;padding:14px 18px;border-bottom:1px solid var(--border);}
+.inbox-row:last-child{border-bottom:0;}
+.inbox-who{font-size:13.5px;font-weight:700;color:rgba(255,255,255,.95);margin-bottom:5px;}
+.inbox-msg{font-size:14px;line-height:1.45;color:rgba(255,255,255,.72);}
+.inbox-tag{font-size:10.5px;font-weight:700;letter-spacing:.3px;padding:5px 10px;border-radius:100px;white-space:nowrap;}
+.tag-warm{background:rgba(74,222,128,.12);color:#7EE2A8;border:1px solid rgba(74,222,128,.28);}
+.tag-int{background:rgba(47,111,237,.12);color:var(--accent2);border:1px solid rgba(47,111,237,.3);}
+@media(max-width:620px){.inbox-row{grid-template-columns:1fr;gap:10px;}.inbox-tag{justify-self:start;}}
+
+/* Waarom-blok */
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.why-item{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:24px 26px;text-align:left;}
+.why-num{font-family:var(--mono,monospace);font-size:12px;font-weight:500;color:var(--accent2);letter-spacing:1.5px;margin-bottom:12px;}
+.why-item h3{font-size:17.5px;font-weight:700;letter-spacing:-.3px;color:var(--white);margin:0 0 8px;}
+.why-item p{font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.65);margin:0;}
+@media(max-width:820px){.why-grid{grid-template-columns:1fr;}}
+
+/* Maandrapport */
+.rep-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px;}
+.rep-tile{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:14px;padding:20px 18px;}
+.rep-tile .n{font-size:clamp(22px,3vw,28px);font-weight:800;letter-spacing:-1px;color:var(--white);line-height:1.05;}
+.rep-tile .l{margin-top:8px;font-size:12.5px;line-height:1.45;color:var(--muted);}
+@media(max-width:760px){.rep-grid{grid-template-columns:repeat(2,1fr);}}
+
+/* Garantiebadges */
+.gar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px;}
+.gar-item{background:rgba(47,111,237,.06);border:1px solid rgba(47,111,237,.24);border-radius:16px;padding:22px 22px;text-align:left;}
+.gar-item .gt{font-size:16px;font-weight:800;color:var(--white);letter-spacing:-.2px;margin-bottom:8px;}
+.gar-item p{font-size:14px;line-height:1.6;color:rgba(255,255,255,.68);margin:0;}
+@media(max-width:820px){.gar-grid{grid-template-columns:1fr;}}
+
+/* Marktscan */
+.scan-card{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;}
+.scan-list{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:9px;}
+.scan-list li{position:relative;padding-left:24px;font-size:15px;line-height:1.55;color:rgba(255,255,255,.75);}
+.scan-list li::before{content:'✓';position:absolute;left:0;color:#4ADE80;font-weight:700;}
+.scan-form .cf-field{margin-bottom:12px;}
+.scan-sub{margin-top:12px;font-size:12.5px;line-height:1.6;color:var(--muted);text-align:center;}
+@media(max-width:860px){.scan-card{grid-template-columns:1fr;gap:28px;}}
+
+/* Voor/na */
+.vn-wrap{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:stretch;margin:0 0 24px;text-align:left;}
+.vn-col{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:16px;padding:20px 20px;text-align:left;}
+.vn-col.na{background:rgba(47,111,237,.07);border-color:rgba(47,111,237,.28);}
+.vn-lab{font-family:var(--mono,monospace);font-size:10.5px;letter-spacing:1.8px;text-transform:uppercase;color:var(--muted);margin-bottom:14px;}
+.vn-col.na .vn-lab{color:var(--accent2);}
+.vn-col ul{list-style:none;padding:0;margin:0;display:grid;gap:10px;}
+.vn-col li{font-size:14.5px;line-height:1.45;color:rgba(255,255,255,.72);}
+.vn-col.na li{color:rgba(255,255,255,.92);font-weight:600;}
+.vn-arrow{font-size:24px;color:var(--accent2);align-self:center;}
+@media(max-width:760px){.vn-wrap{grid-template-columns:1fr;gap:12px;}.vn-arrow{justify-self:center;transform:rotate(90deg);}}
+
 .hero-price { display:inline-flex; align-items:baseline; gap:10px; flex-wrap:wrap;
   margin:0 0 26px; padding:10px 18px; border-radius:100px;
   background:rgba(47,111,237,0.09); border:1px solid rgba(47,111,237,0.26); }
@@ -940,7 +1071,7 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
 
   .hero-wrap { padding:0 24px; }
   .hero { grid-template-columns:1fr; padding-top:110px; gap:0; min-height:auto; padding-bottom:60px; }
-  .hero-right { display:none; }
+  .hero-right { display:flex; padding-bottom:0; }
 
   .problem-section,
   .whatwedo-section,
@@ -1139,6 +1270,13 @@ html, body {
 }
 
 /* Everything sits on top of the background canvas */
+/* Externe chatwidget mag de paginahoogte niet oprekken */
+chat-widget, #chat-widget-container, body > div[id*="chat-widget"], body > div[class*="chat-widget"] {
+  position: fixed !important;
+  bottom: 0; right: 0;
+  z-index: 300;
+}
+
 body > *:not(#bg-canvas):not(nav) {
   position: relative;
   z-index: 1;
@@ -1514,6 +1652,14 @@ section,
           },
           {
             "@type": "Question",
+            "name": "Geeft Link2Leads een resultaatgarantie?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, op de pakketten Scale en Pro. Tijdens de onboarding wordt vastgelegd hoeveel gekwalificeerde positieve reacties de klant binnen drie volledige campagnemaanden minimaal ontvangt, gebaseerd op marktonderzoek van de doelgroep. Wordt dat aantal niet gehaald, dan loopt de campagne kosteloos door tot het bereikt is, met een maximale verlenging van drie maanden en zonder abonnements-, mailbox-, domein- of datakosten. De garantie geldt voor positieve reacties, niet voor afspraken, omzet of betalende klanten."
+            }
+          },
+          {
+            "@type": "Question",
             "name": "Wat telt bij Link2Leads als een positieve reactie?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -1629,6 +1775,7 @@ section,
       <li><a href="#resultaten">Resultaten</a></li>
       <li><a href="#pakketten">Pakketten</a></li>
       <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#marktscan">Marktscan</a></li>
       <li><a href="/kennis">Kennis</a></li>
       <li><a href="#faq">FAQ</a></li>
       <li><a href="#team">Team</a></li>
@@ -1645,6 +1792,7 @@ section,
   <a href="#resultaten" onclick="closeMenu()">Resultaten</a>
   <a href="#pakketten" onclick="closeMenu()">Pakketten</a>
   <a href="#reviews" onclick="closeMenu()">Reviews</a>
+  <a href="#marktscan" onclick="closeMenu()">Marktscan</a>
   <a href="/kennis" onclick="closeMenu()">Kennis</a>
   <a href="#faq" onclick="closeMenu()">FAQ</a>
   <a href="#team" onclick="closeMenu()">Team</a>
@@ -1678,8 +1826,8 @@ section,
         <span class="blue">Gekwalificeerde salesafspraken</span> in je agenda, zonder zelf koude acquisitie te doen
       </h1>
       <p class="hero-sub">
-Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze persoonlijk per e-mail namens jou. Geïnteresseerde reacties komen direct binnen in je eigen mailbox. Jij voert alleen nog het commerciële gesprek.
-
+        Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze persoonlijk per e-mail namens jou. Ge&iuml;nteresseerde reacties komen direct binnen in je eigen mailbox. Jij voert alleen nog het commerci&euml;le gesprek.
+      </p>
       <div class="hero-price">
         <span class="hp-amount">Vanaf &euro;995 per maand</span>
         <span class="hp-note">all-in, geen setupfee</span>
@@ -1700,6 +1848,42 @@ Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze pers
       </ul>
     </div>
 
+    <div class="hero-right reveal">
+      <div class="hero-visual-card" style="padding:0;">
+        <div class="inbox-bar"><span class="inbox-live"></span> Reacties van vandaag</div>
+        <div class="inbox-list">
+          <div class="inbox-row">
+            <div>
+              <div class="inbox-who">Directeur, installatiebedrijf</div>
+              <div class="inbox-msg">&ldquo;Interessant. Kun je hier volgende week even over bellen?&rdquo;</div>
+            </div>
+            <span class="inbox-tag tag-warm">Warme lead</span>
+          </div>
+          <div class="inbox-row">
+            <div>
+              <div class="inbox-who">Eigenaar, IT-bedrijf</div>
+              <div class="inbox-msg">&ldquo;Wat kost dit ongeveer per maand?&rdquo;</div>
+            </div>
+            <span class="inbox-tag tag-warm">Warme lead</span>
+          </div>
+          <div class="inbox-row">
+            <div>
+              <div class="inbox-who">Commercieel directeur</div>
+              <div class="inbox-msg">&ldquo;Dit is inderdaad iets waar we momenteel naar kijken.&rdquo;</div>
+            </div>
+            <span class="inbox-tag tag-warm">Warme lead</span>
+          </div>
+          <div class="inbox-row">
+            <div>
+              <div class="inbox-who">Manager, detachering</div>
+              <div class="inbox-msg">&ldquo;Stuur maar wat meer informatie.&rdquo;</div>
+            </div>
+            <span class="inbox-tag tag-int">Interesse</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -1707,6 +1891,62 @@ Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze pers
 
 </div>
 
+
+
+<script>
+(function(){
+  var list = document.querySelector('.hero-right .inbox-list');
+  if(!list) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var rows = Array.prototype.slice.call(list.children);
+
+  function reveal(){
+    rows.forEach(function(r,i){ setTimeout(function(){ r.classList.add('in'); }, reduce ? 0 : 140*i); });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if(e.isIntersecting){ reveal(); io.disconnect(); start(); } });
+    }, {threshold:.25});
+    io.observe(list);
+  } else { reveal(); }
+
+  var POOL = [
+    ['Directeur, installatiebedrijf','Interessant. Kun je hier volgende week even over bellen?','warm','Warme lead'],
+    ['Eigenaar, IT-bedrijf','Wat kost dit ongeveer per maand?','warm','Warme lead'],
+    ['Commercieel directeur','Dit is inderdaad iets waar we momenteel naar kijken.','warm','Warme lead'],
+    ['Manager, detachering','Stuur maar wat meer informatie.','int','Interesse'],
+    ['Operationeel manager, logistiek','Mail even met mijn collega, ik zet hem in de cc.','int','Doorverwijzing'],
+    ['Eigenaar, technische groothandel','Klinkt goed. Heb je volgende week donderdag tijd?','warm','Warme lead'],
+    ['Directeur, opleidingsbureau','Stuur maar een voorstel, dan leg ik het intern voor.','int','Interesse'],
+    ['Manager bedrijfsbureau','Wij kijken hier volgend kwartaal naar. Bel me in november.','int','Interesse']
+  ];
+  var k = 0;
+
+  function build(d){
+    var row = document.createElement('div');
+    row.className = 'inbox-row in drop';
+    row.innerHTML = '<div><div class="inbox-who">' + d[0] + '</div>' +
+      '<div class="inbox-msg">&ldquo;' + d[1] + '&rdquo;</div></div>' +
+      '<span class="inbox-tag tag-' + d[2] + '">' + d[3] + '</span>';
+    return row;
+  }
+
+  function start(){
+    if(reduce) return;
+    setInterval(function(){
+      if(document.hidden) return;
+      var d = POOL[k % POOL.length]; k++;
+      var row = build(d);
+      list.insertBefore(row, list.firstChild);
+      var last = list.lastElementChild;
+      if(list.children.length > 4 && last){
+        last.classList.add('leave');
+        setTimeout(function(){ if(last.parentNode) last.parentNode.removeChild(last); }, 450);
+      }
+    }, 4200);
+  }
+})();
+</script>
 
 <!-- CLIENT LOGO MARQUEE -->
 <section class="logo-marquee-section">
@@ -1914,89 +2154,53 @@ Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze pers
 <!-- WHAT WE DO -->
 <section class="whatwedo-section" id="aanpak">
   <div class="whatwedo-inner">
-    <div class="whatwedo-header">
-      <div class="whatwedo-header-inner">
-        <div class="reveal">
-          <div class="section-pill">WAT WE DOEN</div>
-          <h2 class="big-h" >
-            Wij vullen jouw agenda<br>met <span class="blue">gekwalificeerde afspraken</span>
-          </h2>
-        </div>
-        <p class="big-sub reveal" style="margin:0;">
-          Wij benaderen jouw ideale klanten via e-mail. Jij voert de gesprekken met beslissers die al interesse hebben getoond.
-        </p>
-      </div>
-    </div>
-    <div class="whatwedo-steps">
-      <div class="wds-item reveal">
-        <div class="wds-num">1</div>
-        <div><div class="wds-title">Doelgroep in kaart</div><p class="wds-desc">We bepalen samen wie jouw ideale klant is en bouwen een lijst van beslissers die passen bij jouw aanbod.</p></div>
-      </div>
-      <div class="wds-item reveal">
-        <div class="wds-num">2</div>
-        <div><div class="wds-title">Campagne schrijven</div><p class="wds-desc">Wij schrijven de e-mails die jouw doelgroep aanzetten tot actie. Helder, persoonlijk en resultaatgericht.</p></div>
-      </div>
-      <div class="wds-item reveal">
-        <div class="wds-num">3</div>
-        <div><div class="wds-title">E-mails versturen</div><p class="wds-desc">We sturen dagelijks e-mails naar jouw ideale klanten via onze eigen infrastructuur met hoge deliverability.</p></div>
-      </div>
-      <div class="wds-item reveal">
-        <div class="wds-num">4</div>
-        <div><div class="wds-title">Reacties filteren</div><p class="wds-desc">Niet elke reactie is een lead. Wij filteren op interesse en kwalificatie zodat jij alleen met serieuze prospects praat.</p></div>
-      </div>
-      <div class="wds-item reveal">
-        <div class="wds-num">5</div>
-        <div><div class="wds-title">Afspraken inplannen</div><p class="wds-desc">Gekwalificeerde reacties worden direct doorgezet naar jouw persoonlijke inbox. Jij hoeft ze alleen nog op te volgen.</p></div>
-      </div>
-      <div class="wds-item reveal">
-        <div class="wds-num">6</div>
-        <div><div class="wds-title">Optimaliseren en schalen</div><p class="wds-desc">We analyseren wekelijks wat werkt en sturen bij. Volume omhoog waar mogelijk, altijd gericht op resultaat.</p></div>
-      </div>
-    </div>
-    <div class="reveal" style="text-align:center;margin-top:88px;margin-bottom:48px;">
-      <div class="section-pill">DE EERSTE WEKEN</div>
+    <div class="reveal" style="text-align:center;margin-bottom:48px;">
+      <div class="section-pill">JE EERSTE 30 DAGEN</div>
       <h3 class="big-h" style="margin-top:18px;">Van koude markt naar <span class="blue">volle agenda</span></h3>
+      <p class="big-sub" style="margin-top:14px;">De eerste twee weken zijn geen wachttijd. Terwijl de infrastructuur opwarmt, bouwen wij je campagne.</p>
     </div>
     <div class="timeline">
       <div class="tl-item reveal">
         <div class="tl-dot">01</div>
         <div class="tl-content">
           <div class="tl-week">WEEK 1</div>
-          <div class="tl-title">Strategie en Setup</div>
-          <p class="tl-desc">We bepalen wie jouw ideale klant is, welke pijn ze hebben en hoe jij die oplost. Gerichte lijsten van beslissers die passen bij jouw aanbod.</p>
-          <div class="tl-chips"><span class="tl-chip">ICP</span><span class="tl-chip">MESSAGING</span></div>
+          <div class="tl-title">Fundament</div>
+          <p class="tl-desc">Ideale klant, aanbod en targeting scherp. Domeinen en mailboxen worden opgezet en gaan direct opwarmen.</p>
+          <div class="tl-chips"><span class="tl-chip">ICP</span><span class="tl-chip">TARGETING</span><span class="tl-chip">INFRA</span></div>
         </div>
       </div>
       <div class="tl-item reveal">
         <div class="tl-dot">02</div>
         <div class="tl-content">
           <div class="tl-week">WEEK 2</div>
-          <div class="tl-title">Campagne Opbouw</div>
-          <p class="tl-desc">We schrijven e-mailcampagnes die direct duidelijk maken waarom het interessant is te reageren. Heldere copy, A/B-getest op resultaat.</p>
-          <div class="tl-chips"><span class="tl-chip">COPY</span><span class="tl-chip">A/B TESTING</span></div>
+          <div class="tl-title">Campagne</div>
+          <p class="tl-desc">Copy schrijven, doelgroep opsplitsen in segmenten met een eigen insteek, en alles nalopen voordat er iets uitgaat.</p>
+          <div class="tl-chips"><span class="tl-chip">COPY</span><span class="tl-chip">SEGMENTATIE</span><span class="tl-chip">QA</span></div>
         </div>
       </div>
       <div class="tl-item reveal">
         <div class="tl-dot">03</div>
         <div class="tl-content">
           <div class="tl-week">WEEK 3</div>
-          <div class="tl-title">Live!</div>
-          <p class="tl-desc">Na 2 weken opwarming van de infrastructuur gaan campagnes live. De eerste reacties komen binnen. Alleen serieuze leads gaan door naar jouw inbox en agenda.</p>
+          <div class="tl-title">Live</div>
+          <p class="tl-desc">De eerste verzending gaat eruit op een derde van het volume en groeit in twee weken naar het volledige pakket. De eerste reacties komen doorgaans binnen drie tot tien dagen.</p>
           <div class="tl-chips"><span class="tl-chip">LIVE</span><span class="tl-chip">FILTERING</span></div>
         </div>
       </div>
       <div class="tl-item reveal">
         <div class="tl-dot">04</div>
         <div class="tl-content">
-          <div class="tl-week">DOORLOPEND</div>
-          <div class="tl-title">Optimalisatie en Schaal</div>
-          <p class="tl-desc">Wekelijkse rapportage, bijsturing op data. Volume verhogen waar mogelijk. Jouw pipeline groeit elke maand.</p>
+          <div class="tl-week">WEEK 4 EN VERDER</div>
+          <div class="tl-title">Optimaliseren</div>
+          <p class="tl-desc">Volume naar de segmenten die reageren, copy bijsturen op data, en opschalen waar het kan. Elke maand een rapport met de werkelijke aantallen.</p>
           <div class="tl-chips"><span class="tl-chip">DATA</span><span class="tl-chip">SCHALEN</span></div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
 
 <!-- CASE STUDY -->
 <section class="case-section" id="resultaten">
@@ -2006,108 +2210,67 @@ Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze pers
       <h2 class="big-h">Praatjes vullen <span class="blue">geen gaatjes</span></h2>
       <p class="big-sub">Twee campagnes, met de cijfers erbij.</p>
     </div>
-    <div class="case-card reveal">
-      <div class="case-bar">
-        <div class="case-dots">
-          <div class="case-dot r"></div>
-          <div class="case-dot y"></div>
-          <div class="case-dot g"></div>
+    <div class="cs-card reveal">
+      <div class="cs-top">
+        <div>
+          <span class="cs-lab">Case study</span>
+          <h3>Softwarebedrijf</h3>
         </div>
-        <span class="case-url">link2leads.nl/casestudy</span>
+        <div class="cs-meta"><span>Scale</span><span>90 dagen</span><span>&euro;1.695 per maand</span></div>
       </div>
-      <div class="case-body">
-        <div class="case-left">
-          <div class="case-label">CASE STUDY</div>
-          <div class="case-company">Softwarebedrijf</div>
-          <div class="case-rows">
-            <div class="case-row">
-              <span class="case-row-label">Probleem</span>
-              <span class="case-row-val">Volledig afhankelijk van via-via leads. Geen voorspelbare pipeline, geen structureel acquisitieprogramma.</span>
-            </div>
-            <div class="case-row">
-              <span class="case-row-label">Aanpak</span>
-              <span class="case-row-val">Doelgroep bepaald, e-mailinfrastructuur opgezet, campagne geschreven en gefaseerd uitgerold naar beslissers bij relevante bedrijven.</span>
-            </div>
-            <div class="case-row">
-              <span class="case-row-label">Looptijd</span>
-              <span class="case-row-val">90 dagen</span>
-            </div>
-            <div class="case-row">
-              <span class="case-row-label">Investering</span>
-              <span class="case-row-val">1.695 euro per maand</span>
-            </div>
+      <div class="cs-stats">
+        <div><b>38</b><span>Gekwalificeerde afspraken</span></div>
+        <div><b>&euro;84.000</b><span>Aan pipeline</span></div>
+        <div><b>Dag 1</b><span>Eerste afspraak na livegang</span></div>
+        <div><b>16x</b><span>De investering terug in pipeline</span></div>
+      </div>
+      <div class="cs-body">
+        <div class="cs-vn">
+          <div class="cs-vn-col">
+            <span class="cs-vn-lab">Voor</span>
+            <p>Nieuwe klanten kwamen via-via. Geen structurele acquisitie en geen idee wat de volgende maand zou brengen.</p>
           </div>
-          <div style="margin-top:22px;padding:16px 18px;background:rgba(47,111,237,0.07);border-left:3px solid var(--accent);border-radius:0 10px 10px 0;">
-            <p style="margin:0 0 8px;font-size:14px;line-height:1.65;color:rgba(255,255,255,0.85);font-style:italic;">"Ik had nooit verwacht dat e-mail tegenwoordig nog zoveel impact kon hebben. Demi en Anne-Roos weten waar ze het over hebben en zorgen voor een sterk resultaat."</p>
-            <p style="margin:0;font-size:12px;font-weight:700;color:var(--muted);">Lodewijk · Nafite</p>
+          <div class="cs-vn-arrow">&rarr;</div>
+          <div class="cs-vn-col na">
+            <span class="cs-vn-lab">Na 90 dagen</span>
+            <p>38 afspraken en &euro;84.000 pipeline, voor 5.085 euro. Dat is 134 euro per gekwalificeerde afspraak.</p>
           </div>
         </div>
-        <div class="case-right">
-          <div class="case-stat">
-            <div class="case-stat-num"><span>38</span></div>
-            <div class="case-stat-label">Gekwalificeerde afspraken in 90 dagen</div>
-          </div>
-          <div class="case-stat">
-            <div class="case-stat-num"><span>&euro;84.000</span></div>
-            <div class="case-stat-label">Aan pipeline gegenereerd</div>
-          </div>
-          <div class="case-stat">
-            <div class="case-stat-num"><span>Dag 1</span></div>
-            <div class="case-stat-label">Eerste afspraak na livegang</div>
-          </div>
-        </div>
+        <p class="cs-aanpak"><strong>Aanpak.</strong> Doelgroep bepaald, e-mailinfrastructuur opgezet, campagne geschreven en gefaseerd uitgerold naar beslissers bij relevante bedrijven.</p>
+      </div>
+      <div class="cs-quote">
+        &ldquo;Ik had nooit verwacht dat e-mail tegenwoordig nog zoveel impact kon hebben. Demi en Anne-Roos weten waar ze het over hebben en zorgen voor een sterk resultaat.&rdquo;
+        <span>Lodewijk, oprichter</span>
       </div>
     </div>
 
-    <div class="case-card reveal" style="margin-top:22px;">
-      <div class="case-bar">
-        <div class="case-dots">
-          <div class="case-dot r"></div>
-          <div class="case-dot y"></div>
-          <div class="case-dot g"></div>
+    <div class="cs-card reveal">
+      <div class="cs-top">
+        <div>
+          <span class="cs-lab">Case study</span>
+          <h3>Trainingsbedrijf</h3>
         </div>
-        <span class="case-url">link2leads.nl/casestudy</span>
+        <div class="cs-meta"><span>Growth</span><span>Eerste twee weken</span><span>&euro;1.295 per maand</span></div>
       </div>
-      <div class="case-body">
-        <div class="case-left">
-          <div class="case-label">CASE STUDY</div>
-          <div class="case-company">Trainingsbedrijf</div>
-          <div class="case-rows">
-            <div class="case-row">
-              <span class="case-row-label">Probleem</span>
-              <span class="case-row-val">Trainingsbureau met drie heel verschillende koperstypes. Een campagne die alle drie tegelijk aansprak, sprak niemand echt aan.</span>
-            </div>
-            <div class="case-row">
-              <span class="case-row-label">Aanpak</span>
-              <span class="case-row-val">Doelgroep opgesplitst in drie aparte campagnes, elk met een eigen lijst en een eigen insteek, verstuurd vanaf persoonlijke afzenderadressen.</span>
-            </div>
-            <div class="case-row">
-              <span class="case-row-label">Looptijd</span>
-              <span class="case-row-val">Eerste twee weken na livegang</span>
-            </div>
-            <div class="case-row">
-              <span class="case-row-label">Investering</span>
-              <span class="case-row-val">1.295 euro per maand</span>
-            </div>
+      <div class="cs-stats">
+        <div><b>7,9%</b><span>Reply rate op het grootste segment</span></div>
+        <div><b>65-74%</b><span>Open rate over de drie segmenten</span></div>
+        <div><b>15</b><span>Positieve reacties in twee weken</span></div>
+        <div><b>3</b><span>Aparte campagnes, elk met eigen insteek</span></div>
+      </div>
+      <div class="cs-body">
+        <div class="cs-vn">
+          <div class="cs-vn-col">
+            <span class="cs-vn-lab">Voor</span>
+            <p>Drie heel verschillende koperstypes in een doelgroep. Een campagne die alle drie tegelijk aansprak, sprak niemand echt aan.</p>
           </div>
-          <div style="margin-top:22px;padding:16px 18px;background:rgba(47,111,237,0.07);border-left:3px solid var(--accent);border-radius:0 10px 10px 0;">
-            <p style="margin:0;font-size:14px;line-height:1.65;color:rgba(255,255,255,0.85);">Dit is de campagne waar onze hoogste reply rate vandaan komt. Hoe scherper het segment, hoe beter de cijfers. <a href="/kennis/hoeveel-reacties-op-30000-mails" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">De uitsplitsing per segment &rarr;</a></p>
+          <div class="cs-vn-arrow">&rarr;</div>
+          <div class="cs-vn-col na">
+            <span class="cs-vn-lab">Na twee weken</span>
+            <p>Onze hoogste reply rate tot nu toe, en 15 gesprekken op tafel binnen veertien dagen.</p>
           </div>
         </div>
-        <div class="case-right">
-          <div class="case-stat">
-            <div class="case-stat-num"><span>7,9%</span></div>
-            <div class="case-stat-label">Reply rate op het grootste segment</div>
-          </div>
-          <div class="case-stat">
-            <div class="case-stat-num"><span>65-74%</span></div>
-            <div class="case-stat-label">Open rate over de drie segmenten</div>
-          </div>
-          <div class="case-stat">
-            <div class="case-stat-num"><span>15</span></div>
-            <div class="case-stat-label">Positieve reacties in de eerste twee weken</div>
-          </div>
-        </div>
+        <p class="cs-aanpak"><strong>Aanpak.</strong> Doelgroep opgesplitst in drie aparte campagnes, elk met een eigen lijst en een eigen insteek, verstuurd vanaf persoonlijke afzenderadressen. <a href="/kennis/hoeveel-reacties-op-30000-mails" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">De uitsplitsing per segment &rarr;</a></p>
       </div>
     </div>
   </div>
@@ -2135,6 +2298,49 @@ Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze pers
   <p class="proof-note reveal">Gemeten op 2 september 2026 in lopende campagnes. Hoe we tellen en waarom segmentatie zoveel verschil maakt, staat in <a href="/kennis/hoeveel-reacties-op-30000-mails">de kennisbank</a>.</p>
 </section>
 
+
+<!-- WAAROM -->
+<section class="l4-sec" id="waarom">
+  <div class="l4-head reveal">
+    <div class="section-pill">WAAROM LINK2LEADS</div>
+    <h2>Geen leadlijst. Een <span class="blue">complete machine</span></h2>
+    <p>Zes dingen waarin wij verschillen van een bureau dat je een bestand levert en verder succes wenst.</p>
+  </div>
+  <div class="why-grid reveal">
+    <div class="why-item">
+      <div class="why-num">01</div>
+      <h3>Wij bouwen je doelgroep</h3>
+      <p>Geen gekochte Excel met 10.000 willekeurige bedrijven. We beginnen bij je beste klanten, bouwen daar het profiel omheen en verifieren elk adres voordat er iets uitgaat.</p>
+    </div>
+    <div class="why-item">
+      <div class="why-num">02</div>
+      <h3>Je eigen domein blijft buiten schot</h3>
+      <p>Campagnes draaien op aparte verzenddomeinen met eigen SPF, DKIM en DMARC. Gaat er een domein onderuit, dan vervangen wij dat en draait de rest gewoon door.</p>
+    </div>
+    <div class="why-item">
+      <div class="why-num">03</div>
+      <h3>Elke reactie wordt gelezen</h3>
+      <p>Door een mens, niet door een scoringsmodel dat alles als lead aanmerkt. Wat je krijgt is een naam, een functie, een organisatie en contactgegevens, klaar om te bellen.</p>
+    </div>
+    <div class="why-item">
+      <div class="why-num">04</div>
+      <h3>We sturen bij op echte data</h3>
+      <p>Segment, functie, boodschap en volume worden doorlopend getest. In een campagne van 18.594 leads liep de reply rate per segment op tot 7,8 procent bij dezelfde copy. Daar sturen we het volume heen.</p>
+    </div>
+    <div class="why-item">
+      <div class="why-num">05</div>
+      <h3>Je betaalt geen toolingstack</h3>
+      <p>Leadlijst, domeinen, mailboxen, verzendsoftware, warmup en beheer zitten in het maandbedrag. Geen setupfee en geen aparte rekening van vier leveranciers.</p>
+    </div>
+    <div class="why-item">
+      <div class="why-num">06</div>
+      <h3>Het volume staat in het contract</h3>
+      <p>Minimaal 30.000 verzonden mails per maand op Pro, naar rato op de andere pakketten. Valt er een dag uit, dan halen we dat in. Van de elf Nederlandse bureaus die we vergeleken legt niemand anders dat vast.</p>
+    </div>
+  </div>
+  <p class="l4-note reveal" style="text-align:center;">Benieuwd hoe de rest van de markt hierop scoort? We zetten <a href="/cold-email-bureaus-nederland">elf Nederlandse bureaus naast elkaar</a>, inclusief onze eigen concurrenten.</p>
+</section>
+
 <!-- FOR WHO -->
 <section class="who-section">
   <div class="who-inner">
@@ -2146,21 +2352,19 @@ Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze pers
       <div class="who-card yes reveal">
         <div class="who-head">Dit is voor jou als...</div>
         <ul class="who-list">
-          <li><span>&#10003;</span>Je een bewezen aanbod hebt waar klanten voor betalen</li>
+          <li><span>&#10003;</span>Je aanbod is bewezen bij betalende klanten</li>
           <li><span>&#10003;</span>Je weet wie je ideale klant is</li>
-          <li><span>&#10003;</span>Je wilt stoppen met afhankelijk zijn van toeval en via-via's</li>
-          <li><span>&#10003;</span>Je bereid bent reacties snel op te volgen</li>
-          <li><span>&#10003;</span>Je een voorspelbare pipeline wilt voor de lange termijn</li>
+          <li><span>&#10003;</span>Je doelgroep telt minstens 1.000 bedrijven</li>
+          <li><span>&#10003;</span>Je volgt reacties binnen een dag op</li>
         </ul>
       </div>
       <div class="who-card no reveal">
         <div class="who-head">Dit is te vroeg als...</div>
         <ul class="who-list">
-          <li><span>&#10007;</span>Je aanbod nog niet bewezen is bij betalende klanten</li>
-          <li><span>&#10007;</span>Je geen tijd hebt om leads op te volgen</li>
-          <li><span>&#10007;</span>Je een snelle hack zoekt in plaats van een structureel kanaal</li>
-          <li><span>&#10007;</span>Je verwacht dat alles voor je gebeurt zonder betrokkenheid</li>
-          <li><span>&#10007;</span>Je niet weet wie je ideale klant is</li>
+          <li><span>&#10007;</span>Je aanbod is nog niet verkocht aan een betalende klant</li>
+          <li><span>&#10007;</span>Je doelgroep is kleiner dan 1.000 bedrijven</li>
+          <li><span>&#10007;</span>Je hebt geen tijd om leads op te volgen</li>
+          <li><span>&#10007;</span>Je zoekt een snelle hack</li>
         </ul>
       </div>
     </div>
@@ -2220,13 +2424,33 @@ Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze pers
   </div>
 </section>
 
+
+<!-- MAANDRAPPORT -->
+<section class="l4-sec" id="rapport">
+  <div class="l4-head reveal">
+    <div class="section-pill">WAT JE ELKE MAAND KRIJGT</div>
+    <h2>Geen dashboard vol <span class="blue">mooie percentages</span></h2>
+    <p>Elke maand een rapport met de werkelijke aantallen, zodat je kunt narekenen of de capaciteit die je hebt gekocht ook is ingezet.</p>
+  </div>
+  <div class="l4-card reveal">
+    <div class="rep-grid">
+      <div class="rep-tile"><div class="n">15.000</div><div class="l">Mails verzonden</div></div>
+      <div class="rep-tile"><div class="n">412</div><div class="l">Reacties binnengekomen</div></div>
+      <div class="rep-tile"><div class="n">87</div><div class="l">Positieve reacties na handmatige classificatie</div></div>
+      <div class="rep-tile"><div class="n">31</div><div class="l">Doorgestuurd met contactgegevens</div></div>
+    </div>
+    <p style="margin:0;font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.72);">Daarnaast zie je welke segmenten het best reageren, wat we de komende maand aanpassen, en welke bedrijven interesse toonden. Je krijgt de reacties zelf direct in je mailbox, dus je hoeft nergens voor in te loggen.</p>
+    <p class="l4-note" style="margin-top:16px;">Voorbeeldopbouw van een maandrapport op het Scale-pakket. De werkelijke aantallen verschillen per campagne en per doelgroep.</p>
+  </div>
+</section>
+
 <!-- PRICING -->
 <section class="pricing-section" id="pakketten">
   <div class="pricing-inner">
     <div class="pricing-header reveal">
       <div class="section-pill">PAKKETTEN</div>
       <h2 class="big-h">Transparante prijzen.<br><span class="blue">Zonder verborgen kosten.</span></h2>
-      <p class="big-sub">Elk pakket is all-in: setup, leadlijsten, copy, verzending en wekelijkse bijsturing. Geen verborgen kosten. Ter vergelijking: 1 SDR kost €3.500 tot €4.500 per maand. Maximaal 3 nieuwe klanten per maand. <a href="/calculator-l2l" target="_blank" style="color:var(--accent);font-weight:600;">Bereken jouw omzet →</a></p>
+      <p class="big-sub">Elk pakket is all-in: setup, leadlijsten, copy, verzending en wekelijkse bijsturing. Geen verborgen kosten en geen setupfee. Ter vergelijking: een eigen SDR kost in het eerste jaar €69.000 tot €83.000 inclusief werkgeverslasten, leaddata, tooling en zes tot twaalf weken inwerktijd. Uitbesteden kost €12.000 tot €26.000 per jaar. Maximaal 3 nieuwe klanten per maand. <a href="/calculator-l2l" target="_blank" style="color:var(--accent);font-weight:600;">Bereken jouw omzet →</a></p>
     </div>
     <div class="pricing-grid">
       <div class="p-card reveal">
@@ -2304,86 +2528,141 @@ Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze pers
     <div class="fullservice-note reveal">
       <strong>Full Service</strong> (Scale en Pro): wij handelen elke reply af, voeren de volledige follow-up uit en plannen gekwalificeerde afspraken direct in jouw agenda. Jij hoeft alleen je agenda te openen. Minimale contractduur 3 maanden.
     </div>
+    <div class="res-gar reveal">
+      <style>
+        .res-gar{margin-top:16px;background:linear-gradient(160deg,rgba(47,111,237,.13),rgba(14,16,26,.5));
+          border:1px solid rgba(47,111,237,.3);border-radius:18px;padding:32px 32px;text-align:left;}
+        .res-gar .rg-pill{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:2px;
+          text-transform:uppercase;color:var(--accent2);background:rgba(47,111,237,.14);border:1px solid rgba(47,111,237,.3);
+          border-radius:100px;padding:6px 14px;margin-bottom:16px;}
+        .res-gar h3{font-size:clamp(21px,3vw,27px);line-height:1.2;letter-spacing:-.7px;font-weight:800;color:var(--white);margin:0 0 14px;}
+        .res-gar p{font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.75);margin:0 0 14px;}
+        .rg-split{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:22px;padding-top:22px;border-top:1px solid rgba(255,255,255,.09);}
+        .rg-split h4{font-family:var(--mono);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);font-weight:500;margin:0 0 12px;}
+        .rg-split ul{list-style:none;padding:0;margin:0;display:grid;gap:9px;}
+        .rg-split li{position:relative;padding-left:24px;font-size:15px;line-height:1.5;color:rgba(255,255,255,.8);}
+        .rg-split li::before{content:'✓';position:absolute;left:0;color:#4ADE80;font-weight:700;}
+        .rg-fine{margin-top:20px;padding-top:16px;border-top:1px solid rgba(255,255,255,.09);font-size:13px;line-height:1.65;color:var(--muted);}
+        .rg-fine a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
+        @media(max-width:760px){.rg-split{grid-template-columns:1fr;gap:20px;}.res-gar{padding:26px 22px;}}
+      </style>
+      <div class="rg-pill">Onze resultaatgarantie</div>
+      <h3>Vooraf afgesproken. Zwart op wit.</h3>
+      <p>Tijdens de onboarding stellen we samen met jou vast hoeveel positieve reacties je binnen drie volledige campagnemaanden minimaal ontvangt. Dat aantal komt uit het marktonderzoek van jouw doelgroep, hetzelfde onderzoek dat je in de gratis marktscan terugziet. Het gaat zwart op wit het contract in voordat de campagne start.</p>
+      <div class="rg-split">
+        <div>
+          <h4>Doel niet gehaald?</h4>
+          <ul>
+            <li>De campagne loopt kosteloos door tot het afgesproken aantal is bereikt</li>
+            <li>Maximale verlenging van drie maanden</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Tijdens die verlenging betaal je</h4>
+          <ul>
+            <li>Geen abonnementskosten</li>
+            <li>Geen mailbox-, domein- of datakosten</li>
+          </ul>
+        </div>
+      </div>
+      <p class="rg-fine">De resultaatgarantie geldt bij de pakketten Scale en Pro en wordt tijdens de onboarding vastgesteld op basis van doelgroep, aanbod en marktgrootte. De garantie geldt voor gekwalificeerde positieve reacties, niet voor afspraken, omzet of betalende klanten. De volledige voorwaarden staan in onze <a href="/algemene-voorwaarden">algemene voorwaarden</a>.</p>
+    </div>
+
+    <div class="gar-grid reveal">
+      <div class="gar-item">
+        <div class="gt">Volumegarantie</div>
+        <p>Minimaal 30.000 verzonden mails per maand op Pro, naar rato op de andere pakketten, zeven dagen per week. Valt er een dag uit door een technische oorzaak, dan halen we dat de dagen erna in. Staat in het contract.</p>
+      </div>
+      <div class="gar-item">
+        <div class="gt">Livegarantie van 14 dagen</div>
+        <p>Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken na akkoord klaar. Loopt het uit door iets aan onze kant, dan schuift je facturatie mee.</p>
+      </div>
+      <div class="gar-item">
+        <div class="gt">Fitgarantie</div>
+        <p>Is je doelgroep te klein of past je aanbod niet bij koude e-mail, dan zeggen we dat voordat je tekent en verwijzen we je door naar een partij die wel past.</p>
+      </div>
+    </div>
+    <p class="l4-note reveal" style="text-align:center;margin-top:18px;">Waarom drie maanden minimaal? De eerste twee weken zijn warmup, en nieuwe copy laten we drie weken draaien voordat we bijsturen. Onder de drie maanden beoordeel je iets dat nog niet af is.</p>
+
     <div class="deal-wrap reveal">
       <style>
-        .deal-wrap{margin-top:34px;display:grid;gap:16px;text-align:left;}
+        .deal-wrap{margin-top:30px;display:grid;gap:14px;text-align:left;}
         .deal-box{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:26px 28px;}
-        .deal-box h3{font-size:17px;font-weight:700;color:var(--white);margin:0 0 18px;letter-spacing:-.3px;}
-        .deal-cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:26px;}
-        .deal-cols.two{grid-template-columns:1fr 1fr;}
-        .deal-cols h4{font-family:var(--mono);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);font-weight:500;margin:0 0 11px;}
-        .deal-cols ul{list-style:none;padding:0;margin:0;display:grid;gap:8px;}
-        .deal-cols li{position:relative;padding-left:22px;font-size:14.5px;line-height:1.5;color:rgba(255,255,255,.75);}
+        .deal-box h3{font-size:16.5px;font-weight:700;color:var(--white);margin:0 0 20px;letter-spacing:-.2px;}
+        .deal-cols{display:grid;grid-template-columns:1fr 1fr;gap:30px;}
+        .deal-cols h4{font-family:var(--mono);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);font-weight:500;margin:0 0 12px;}
+        .deal-cols ul{list-style:none;padding:0;margin:0;display:grid;gap:9px;}
+        .deal-cols li{position:relative;padding-left:24px;font-size:15px;line-height:1.45;color:rgba(255,255,255,.78);}
         .deal-cols li::before{position:absolute;left:0;top:0;font-weight:700;}
         .d-yes li::before{content:'✓';color:#4ADE80;}
-        .d-no li::before{content:'×';color:#F87171;font-size:16px;line-height:1.3;}
-        .d-lock li::before{content:'•';color:var(--accent2);font-size:17px;line-height:1.15;}
-        .deal-foot{margin-top:18px;padding-top:16px;border-top:1px solid var(--border);font-size:13.5px;line-height:1.6;color:var(--muted);}
+        .d-no li::before{content:'×';color:#F87171;font-size:16px;line-height:1.25;}
+        .deal-foot{margin-top:20px;padding-top:16px;border-top:1px solid var(--border);font-size:13.5px;line-height:1.6;color:var(--muted);}
         .deal-foot a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
-        @media(max-width:820px){.deal-cols,.deal-cols.two{grid-template-columns:1fr;gap:22px;}.deal-box{padding:22px 20px;}}
+        .chip-grid{display:flex;flex-wrap:wrap;gap:8px;}
+        .chip{display:inline-flex;align-items:center;gap:7px;font-size:14px;line-height:1;padding:10px 14px;border-radius:100px;white-space:nowrap;}
+        .chip::before{font-weight:700;font-size:12px;}
+        .chip.yes{background:rgba(74,222,128,.08);border:1px solid rgba(74,222,128,.24);color:rgba(255,255,255,.88);}
+        .chip.yes::before{content:'✓';color:#4ADE80;}
+        .chip.no{background:rgba(248,113,113,.07);border:1px solid rgba(248,113,113,.22);color:rgba(255,255,255,.8);}
+        .chip.no::before{content:'×';color:#F87171;font-size:14px;}
+        .deal-cols .d-yes.big li,.deal-cols .d-no.big li{font-size:15.5px;padding:11px 0 11px 26px;border-bottom:1px solid rgba(255,255,255,.05);}
+        .deal-cols .d-yes.big li:last-child,.deal-cols .d-no.big li:last-child{border-bottom:0;}
+        .deal-cols .d-yes.big li::before,.deal-cols .d-no.big li::before{top:11px;}
+        .deal-cols ul.big{gap:0;}
+        @media(max-width:760px){.deal-cols{grid-template-columns:1fr;gap:24px;}.deal-box{padding:22px 20px;}.chip{font-size:13px;padding:9px 12px;white-space:normal;}}
       </style>
 
       <div class="deal-box">
-        <h3>Wat je krijgt, wat er niet bij zit, en wat we vastleggen</h3>
+        <h3>Wat zit er in de prijs</h3>
         <div class="deal-cols">
           <div>
             <h4>Inbegrepen</h4>
-            <ul class="d-yes">
-              <li>Doelgroep en leadlijst</li>
-              <li>Copy schrijven en bijsturen</li>
-              <li>Domeinen en mailboxen</li>
-              <li>Warmup en deliverability</li>
-              <li>Verzendsoftware</li>
-              <li>Elke reactie handmatig gefilterd</li>
-              <li>Maandrapportage</li>
-            </ul>
+            <div class="chip-grid">
+              <span class="chip yes">Doelgroep en leadlijst</span>
+              <span class="chip yes">Copy schrijven en bijsturen</span>
+              <span class="chip yes">Domeinen en mailboxen</span>
+              <span class="chip yes">Warmup en deliverability</span>
+              <span class="chip yes">Verzendsoftware</span>
+              <span class="chip yes">Elke reactie handmatig gefilterd</span>
+              <span class="chip yes">Maandrapportage</span>
+            </div>
           </div>
           <div>
-            <h4>Zit er niet bij</h4>
-            <ul class="d-no">
-              <li>Replies beantwoorden en afspraken plannen. Dat is Full Service, +€600 op Scale en +€800 op Pro</li>
-              <li>Telefonische acquisitie en LinkedIn</li>
-              <li>Een gegarandeerd aantal afspraken</li>
-            </ul>
-          </div>
-          <div>
-            <h4>Vastgelegd in het contract</h4>
-            <ul class="d-lock">
-              <li>Minimaal 30.000 verzonden mails per maand op Pro, naar rato op de andere pakketten</li>
-              <li>Volume dat uitvalt wordt de dagen erna ingehaald</li>
-              <li>Live binnen 14 dagen</li>
-              <li>Maandrapport met het werkelijke aantal verzonden mails</li>
-              <li>Drie maanden, daarna maandelijks opzegbaar</li>
-            </ul>
+            <h4>Niet inbegrepen</h4>
+            <div class="chip-grid">
+              <span class="chip no">Replies afhandelen en afspraken plannen</span>
+              <span class="chip no">Telefonische acquisitie en LinkedIn</span>
+              <span class="chip no">Afspraken, omzet of betalende klanten</span>
+            </div>
           </div>
         </div>
-        <p class="deal-foot">Geen aparte toolingrekening en geen setupfee. <a href="/kennis/wat-kost-cold-email-uitbesteden">Zo verhoudt dat zich tot zelf doen of betalen per reactie →</a></p>
+        <p class="deal-foot">Geen setupfee en geen aparte toolingrekening. Replies afhandelen is de Full Service-module: +&euro;600 op Scale, +&euro;800 op Pro. <a href="/kennis/wat-kost-cold-email-uitbesteden">Vergelijk met zelf doen &rarr;</a></p>
       </div>
 
       <div class="deal-box">
-        <h3>Wat telt als een positieve reactie</h3>
-        <div class="deal-cols two">
+        <h3>Wat noemen wij een positieve reactie</h3>
+        <div class="deal-cols">
           <div>
-            <h4>Sturen we door</h4>
-            <ul class="d-yes">
-              <li>Vraag om een gesprek, afspraak of demo</li>
-              <li>Vraag naar de prijs of voorwaarden</li>
+            <h4>Telt mee</h4>
+            <ul class="d-yes big">
+              <li>Vraag om een gesprek of demo</li>
+              <li>Vraag naar de prijs</li>
               <li>Inhoudelijke vraag over je aanbod</li>
-              <li>Doorverwijzing naar een collega, met contactgegevens</li>
+              <li>Doorverwijzing naar de juiste collega</li>
             </ul>
           </div>
           <div>
-            <h4>Sturen we niet door</h4>
-            <ul class="d-no">
-              <li>Afwezigheidsmeldingen en autoresponders</li>
+            <h4>Telt niet mee</h4>
+            <ul class="d-no big">
+              <li>Afwezigheidsmeldingen</li>
               <li>Bounces en afmeldingen</li>
-              <li>Geen interesse, in welke bewoording dan ook</li>
-              <li>Privacyvragen, die handelen wij zelf af</li>
+              <li>Geen interesse</li>
+              <li>Privacyvragen</li>
               <li>Opgeheven bedrijven</li>
             </ul>
           </div>
         </div>
-        <p class="deal-foot">Wij lezen elke reactie met de hand. Wat je krijgt is een naam, een functie, een organisatie en contactgegevens, klaar om te bellen.</p>
+        <p class="deal-foot">Wij lezen elke reactie met de hand. Je krijgt een naam, een functie, een organisatie en contactgegevens, klaar om te bellen.</p>
       </div>
     </div>
 
@@ -2393,6 +2672,74 @@ Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze pers
       <span class="hero-mini-author-wrap"><span class="hero-mini-author">Rafael<svg width="13" height="13" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></span></span>
     </div>
   </div>
+</section>
+
+<!-- MARKTSCAN -->
+<section class="l4-sec" id="marktscan">
+  <div class="l4-card reveal scan-card">
+    <div>
+      <div class="section-pill">GRATIS MARKTSCAN</div>
+      <h2 style="font-size:clamp(24px,3.4vw,32px);line-height:1.18;letter-spacing:-1px;font-weight:800;margin:14px 0 12px;">Hoeveel bedrijven zitten er <span class="blue">in jouw markt</span>?</h2>
+      <p style="font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.66);margin:0;">De eerste vraag bij koude e-mail is of je markt groot genoeg is. Wij rekenen het voor je uit op basis van branche, regio en bedrijfsgrootte, en zeggen het eerlijk als het antwoord nee is.</p>
+      <ul class="scan-list">
+        <li>Hoeveel bedrijven er in je doelgroep passen</li>
+        <li>Hoeveel relevante beslissers daarvan bereikbaar zijn</li>
+        <li>Welk maandvolume daarbij realistisch is</li>
+        <li>Welk pakket daarbij hoort, en hoe lang je erop kunt draaien</li>
+        <li>Een deliverability-check op je huidige setup, ook als je bij een andere partij zit</li>
+      </ul>
+    </div>
+    <div class="scan-form">
+      <form id="scanForm" novalidate>
+        <div class="cf-field">
+          <label for="sc-email">Zakelijk e-mailadres *</label>
+          <input type="email" id="sc-email" name="email" required autocomplete="email" placeholder="naam@bedrijf.nl">
+        </div>
+        <div class="cf-field">
+          <label for="sc-doel">Wie is je ideale klant? *</label>
+          <textarea id="sc-doel" name="doelgroep" required placeholder="Bijvoorbeeld: installatiebedrijven in Nederland met 10 tot 50 medewerkers" style="min-height:92px;"></textarea>
+        </div>
+        <div class="cf-hp"><label for="sc-website">Website</label><input type="text" id="sc-website" name="website" tabindex="-1" autocomplete="off"></div>
+        <button type="submit" class="btn-solid cf-submit" id="scSubmit">Stuur mij de marktscan →</button>
+        <div class="cf-msg" id="scMsg" role="status" aria-live="polite"></div>
+        <p class="scan-sub">Binnen een werkdag in je mailbox. Geen verplichtingen en geen verkoopgesprek vooraf.</p>
+      </form>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var f=document.getElementById('scanForm');
+    if(!f) return;
+    var btn=document.getElementById('scSubmit'), msg=document.getElementById('scMsg');
+    function show(k,t){ msg.className='cf-msg '+k; msg.textContent=t; }
+    f.addEventListener('submit',function(e){
+      e.preventDefault();
+      var email=f.email.value.trim(), doel=f.doelgroep.value.trim();
+      if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ show('err','Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.'); f.email.focus(); return; }
+      if(!doel){ show('err','Beschrijf kort wie je ideale klant is.'); f.doelgroep.focus(); return; }
+      if(window.l2lTrack) l2lTrack('marktscan_started');
+      btn.disabled=true; var lab=btn.textContent; btn.textContent='Versturen...'; msg.className='cf-msg';
+      fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({type:'marktscan',name:email.split('@')[0],email:email,question:doel,website:f.website.value})})
+        .then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
+        .then(function(r){
+          if(r.ok&&r.d.ok){
+            f.reset();
+            show('ok','Dank je. Je marktscan is aangevraagd en je krijgt hem binnen een werkdag in je mailbox.');
+            btn.textContent='Aangevraagd';
+            if(window.l2lTrack) l2lTrack('marktscan_submitted', {ref: r.d.ref || ''});
+          } else {
+            show('err',(r.d&&r.d.error)||'Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.');
+            btn.disabled=false; btn.textContent=lab;
+          }
+        })
+        .catch(function(){
+          show('err','Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.');
+          btn.disabled=false; btn.textContent=lab;
+        });
+    });
+  })();
+  </script>
 </section>
 
 <!-- CONTACT -->
@@ -2552,6 +2899,10 @@ Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze pers
     <details class="faq-item">
       <summary>Werkt dit voor elk bedrijf?</summary>
       <p>Nee. In de fitcheck toetsen we of jouw aanbod en doelgroep geschikt zijn voor cold e-mail. Past het niet, dan hoor je dat direct.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Krijg ik een garantie op het aantal reacties?</summary>
+      <p>Op Scale en Pro wel. In de onboarding leggen we vast hoeveel positieve reacties je in drie campagnemaanden minimaal krijgt, gebaseerd op het marktonderzoek van jouw doelgroep. Halen we dat niet, dan loopt de campagne kosteloos door tot maximaal drie maanden extra, zonder abonnements-, mailbox- of datakosten. De garantie geldt voor positieve reacties, niet voor afspraken of omzet.</p>
     </details>
     <details class="faq-item">
       <summary>Wat kost het precies?</summary>

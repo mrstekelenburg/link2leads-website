@@ -53,7 +53,8 @@ module.exports = async (req, res) => {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
   const body = req.body || {};
-  const { name, email, company, question, website } = body;
+  const { name, email, company, question, website, type } = body;
+  const isScan = type === 'marktscan';
 
   // Honeypot: echte bezoekers laten dit veld leeg.
   if (website) return res.status(200).json({ ok: true, ref: 'L2L-000000' });
@@ -83,7 +84,7 @@ module.exports = async (req, res) => {
       from,
       to: email,
       replyTo: 'info@link2leads.nl',
-      subject: `Je vraag is binnen — Link2Leads ${ref}`,
+      subject: isScan ? `Je marktscan is aangevraagd - Link2Leads ${ref}` : `Je vraag is binnen - Link2Leads ${ref}`,
       text: [
         `Hoi ${name},`,
         ``,
@@ -107,9 +108,11 @@ module.exports = async (req, res) => {
         preheader: 'Je bericht is binnen. Antwoord volgt binnen een werkdag.',
         ref,
         body: [
-          M.h1(`Hoi ${esc(name)}, je vraag is binnen`),
-          M.p('Ik lees hem zelf en je hoort binnen een werkdag van me. Geen automatische reeks en geen verkoopmail, gewoon antwoord op wat je vraagt.'),
-          question ? M.answerTable({ 'Je vraag': question }) : '',
+          M.h1(isScan ? 'Je marktscan is aangevraagd' : `Hoi ${esc(name)}, je vraag is binnen`),
+          M.p(isScan
+            ? 'We rekenen uit hoeveel bedrijven er in je doelgroep passen, hoeveel beslissers daarvan bereikbaar zijn en welk volume daarbij realistisch is. Je krijgt het binnen een werkdag, met een eerlijk oordeel of koude e-mail bij je markt past.'
+            : 'Ik lees hem zelf en je hoort binnen een werkdag van me. Geen automatische reeks en geen verkoopmail, gewoon antwoord op wat je vraagt.'),
+          question ? M.answerTable({ [isScan ? 'Je doelgroep' : 'Je vraag']: question }) : '',
           '<div style="height:22px"></div>',
           nextBlock(),
           '<div style="height:22px"></div>',
@@ -123,7 +126,7 @@ module.exports = async (req, res) => {
       from,
       to: notify,
       replyTo: email,
-      subject: `Nieuw contactformulier — ${name}${company ? ' (' + company + ')' : ''} — ${ref}`,
+      subject: `${isScan ? 'MARKTSCAN' : 'Contactformulier'} - ${name}${company ? ' (' + company + ')' : ''} - ${ref}`,
       text: [
         `Naam: ${name}`,
         `E-mail: ${email}`,

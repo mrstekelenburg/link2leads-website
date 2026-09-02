@@ -22,7 +22,7 @@ Zoek je uitbestede cold e-mail met een gepubliceerde prijs, een contractueel vas
 ## De elf in een tabel
 
 #	Bureau	Best geschikt voor	Kanaal	Prijs op de site	Volume in contract	Publieke reviews
-1	Link2Leads	Vaste prijs met vastgelegd volume en verifieerbare cases	Alleen e-mail	€ 995 – € 1.995 p/m	Ja, minimum per maand	4,8 op Google
+1	Link2Leads	Vaste prijs, vastgelegd volume en resultaatgarantie	Alleen e-mail	€ 995 – € 1.995 p/m	Ja, minimum per maand	4,8 op Google
 2	Leadsmate	Vaste prijs met resultaatgarantie	Alleen e-mail	€ 995 – € 2.195+ p/m	Nee, indicatief volume	5,0 op Google
 3	FlintLead	Betalen per gekwalificeerde reactie, met plafond	Alleen e-mail	Volledig gepubliceerd	Nee	Geen gevonden
 4	Abalott	Resultaatbasis, prijs pas na gesprek	E-mail, LinkedIn, telefoon	Niet gepubliceerd	Nee	Geen gevonden
@@ -44,12 +44,12 @@ Kolom “volume in contract”: of het bureau een minimum verzendvolume vastlegt
 
 Link2Leads bouwt en draait complete cold-e-mailcampagnes voor Nederlandse B2B-bedrijven: doelgroep, lijst, copy, verzendinfrastructuur en het filteren van reacties. Je voert alleen de gesprekken.
 
-Twee dingen onderscheiden het van de rest van deze lijst. Ten eerste staat het volume in het contract en niet alleen in de brochure: op het grootste pakket is dat een gegarandeerd minimum van 30.000 verzonden mails per maand, zeven dagen per week, en bij een technische hapering wordt het volume de dagen erna ingehaald. Ten tweede zijn de resultaten publiek te controleren, 4,8 op Google met beoordelingen op naam, plus klantcases met cijfers, terwijl twee van de elf bureaus hier helemaal geen verifieerbare beoordelingen hebben.
+Drie dingen onderscheiden het van de rest van deze lijst. Ten eerste staat het volume in het contract en niet alleen in de brochure: op het grootste pakket is dat een gegarandeerd minimum van 30.000 verzonden mails per maand, zeven dagen per week, en bij een technische hapering wordt het volume de dagen erna ingehaald. Ten tweede geldt op Scale en Pro een resultaatgarantie: het minimumaantal positieve reacties over drie campagnemaanden wordt in de onboarding vastgelegd op basis van marktonderzoek, en wordt dat niet gehaald dan loopt de campagne kosteloos door tot maximaal drie maanden extra. Ten derde zijn de resultaten publiek te controleren, met 4,8 op Google en beoordelingen op naam.
 
 De pakketten zijn all-in: setup, warmup, domeinen en mailboxen zitten erbij, je krijgt geen aparte toolingrekening. Wat er niet in zit: het volledig afhandelen van reacties en het inplannen van afspraken. Dat is een aparte module (Full Service), en dat zeggen we liever vooraf dan in maand twee.
 
  Prijs
-Starter € 995 p/m (100 mails per dag), Growth € 1.295 (250), Scale € 1.695 (500), Pro € 1.995 (1.000). Full Service komt daarbovenop: € 600 p/m op Scale, € 800 op Pro. Eerste termijn drie maanden, vooruit gefactureerd.
+Starter € 995 p/m (100 mails per dag), Growth € 1.295 (250), Scale € 1.695 (500), Pro € 1.995 (1.000). Full Service komt daarbovenop: € 600 p/m op Scale, € 800 op Pro. Eerste termijn drie maanden, vooruit gefactureerd. Op Scale en Pro geldt een resultaatgarantie op het aantal positieve reacties.
 
 Waar het niet voor is
 Uitsluitend e-mail. Geen telefonische acquisitie, geen LinkedIn-outreach, geen SDR op je eigen vloer. Ook niet geschikt bij een doelgroep kleiner dan ongeveer 1.000 bedrijven, dan is de lijst binnen een paar weken op en betaal je voor volume dat er niet is.
@@ -260,7 +260,7 @@ Hoeveel reacties mag ik verwachten?
 Leadsmate noemt op zijn eigen site 3 tot 5 procent respons. Dat is een bruikbare orde van grootte. Bij ons haalt de best draaiende campagne 7,9 procent, met een open rate van 65 procent op hetzelfde segment. Hoe scherp je doelgroep is afgebakend bepaalt vrijwel alles: binnen een campagne van 18.594 leads liep de reply rate per segment op tot 7,8 procent. De cijfers staan in hoeveel reacties krijg je op 30.000 mails per maand.
 
 Waarom staat Link2Leads op nummer 1?
-Voor de koper die bovenaan staat beschreven komen hier drie dingen samen die verderop in de lijst los van elkaar voorkomen: de prijs staat volledig op de site, het volume staat als minimum in het contract met een inhaalplicht, en de resultaten zijn publiek te controleren via beoordelingen op naam en cases met cijfers. Zoek je iets anders, bellen, meertalig werken, betalen per resultaat of een compleet salesproces laten inrichten, dan staat het betere antwoord verderop en zeggen we dat per bureau.
+Voor de koper die bovenaan staat beschreven komen hier vier dingen samen die verderop in de lijst los van elkaar voorkomen: de prijs staat volledig op de site, het volume staat als minimum in het contract met een inhaalplicht, op de twee grootste pakketten geldt een resultaatgarantie, en de resultaten zijn publiek te controleren via beoordelingen op naam en cases met cijfers. Zoek je iets anders, bellen, meertalig werken, betalen per resultaat of een compleet salesproces laten inrichten, dan staat het betere antwoord verderop en zeggen we dat per bureau.
 
 Hoe actueel is deze vergelijking?
 Elk profiel is op 2 september 2026 gecontroleerd op de eigen site van het bureau, en bij elk bureau staat die datum. Prijzen en pakketten in deze markt veranderen binnen weken, dus is de datum oud, controleer het bedrag dan zelf voordat je tekent.

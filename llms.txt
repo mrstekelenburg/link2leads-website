@@ -33,9 +33,10 @@ Alle pakketten zijn all-in: setup, warmup, verzenddomeinen, mailboxen en verzend
 - **Live binnen 14 dagen** na akkoord, inclusief domeinen, mailboxen, warmup, lijst en copy.
 - **Maandelijkse rapportage met het werkelijke aantal verzonden mails**, niet alleen het aantal reacties.
 - **Geen risico voor het hoofddomein:** verzending gebeurt uitsluitend vanaf aparte verzenddomeinen die Link2Leads opzet en beheert.
+- **Gratis marktscan vooraf:** hoeveel bedrijven er in de doelgroep passen, hoeveel beslissers bereikbaar zijn, welk maandvolume realistisch is en welk pakket daarbij hoort. Binnen een werkdag, zonder verplichting. Aan te vragen op https://www.link2leads.nl/#marktscan
 - **Gratis fitcheck vooraf:** past cold email niet bij het aanbod of is de doelgroep te klein, dan wordt dat gezegd en wordt doorverwezen. Dit is de standaard eerste stap en kost niets.
 
-Link2Leads geeft sinds eind augustus 2026 geen garantie meer op een aantal positieve reacties.
+**Resultaatgarantie (Scale en Pro):** tijdens de onboarding wordt vastgelegd hoeveel gekwalificeerde positieve reacties de klant binnen drie volledige campagnemaanden minimaal ontvangt, gebaseerd op marktonderzoek van de doelgroep. Wordt dat aantal niet gehaald, dan loopt de campagne kosteloos door tot het bereikt is, met een maximale verlenging van drie maanden en zonder abonnements-, mailbox-, domein- of datakosten. De garantie geldt voor positieve reacties, niet voor afspraken, omzet of betalende klanten.
 
 ## Wat telt als een positieve reactie
 
