@@ -412,7 +412,7 @@ Er zijn drie manieren om aan koude e-mail te komen: zelf doen, een bureau op een
 
 ## Het korte antwoord
 
-Een Nederlands bureau dat je cold-e-mailcampagne volledig uitvoert, kost tussen de € 995 en € 2.200 per maand. Zelf doen kost aan tooling € 140 tot € 545 per maand, plus de uren van iemand die het draait. Resultaatmodellen beginnen rond € 500 per maand en lopen op met wat er binnenkomt, tot een plafond dat je vooraf vaststelt.
+Een Nederlands bureau dat je cold-e-mailcampagne volledig uitvoert, kost tussen de € 995 en € 2.200 per maand. Zelf doen kost aan tooling € 280 tot € 1.315 per maand, plus de uren van iemand die het draait. Leaddata is daarin verreweg de grootste post. Resultaatmodellen beginnen rond € 500 per maand en lopen op met wat er binnenkomt, tot een plafond dat je vooraf vaststelt.
 
 Dat zijn de bedragen. De vraag die je eigenlijk stelt is: wat kost mij een gesprek met een potentiële klant? Daar komen we onderaan op terug.
 
@@ -422,11 +422,11 @@ Wat je minimaal nodig hebt om fatsoenlijk te kunnen mailen zonder je hoofddomein
 
 Post	Kosten per maand
 Extra verzenddomeinen (5 à 10)	€ 5 – € 15
-Mailboxen (20 – 80 stuks)	€ 40 – € 250
-Verzendsoftware	€ 35 – € 90
-Leaddata en verrijking	€ 50 – € 150
-E-mailvalidatie	€ 10 – € 40
-Toolingtotaal	€ 140 – € 545
+Mailboxen (20 – 80 stuks)	€ 60 – € 500
+Verzendsoftware	€ 40 – € 100
+Leaddata en verrijking	€ 150 – € 600
+E-mailvalidatie	€ 25 – € 100
+Toolingtotaal	€ 280 – € 1.315
 
 Daar komt de belangrijkste post bij, en die staat nooit in een blog: iemand moet het draaien. Reken op een tot twee uur per werkdag voor lijstwerk, copy, deliverability-monitoring en het uitzoeken van binnenkomende reacties. Zet daar een intern uurtarief tegenover en je zit al snel op € 1.500 tot € 3.000 per maand aan tijd. Bij een marketeer die dit erbij doet, is de reele kostenpost niet het salaris maar het werk dat blijft liggen.
 
@@ -503,7 +503,7 @@ Wij leggen dat minimum vast, 30.000 verzonden mails per maand op het grootste pa
 ## Samengevat
 
 	Zelf doen	Vast maandbedrag	Per resultaat
-Kosten per maand	€ 140 – € 545 tooling + uren	€ 995 – € 2.195	€ 500 + prijs per reactie
+Kosten per maand	€ 280 – € 1.315 tooling + uren	€ 995 – € 2.195	€ 500 + prijs per reactie
 Eenmalig	Leercurve, 2–3 mnd opstart	€ 0 – € 2.500 setup	€ 1.000 setup gebruikelijk
 Risico bij tegenvallen	Volledig bij jou	Volledig bij jou	Deels bij leverancier
 Kosten bij succes	Laag	Laag per gesprek	Loopt op tot plafond
@@ -828,9 +828,9 @@ Pensioenbijdrage werkgever	€ 2.500 – € 4.000
 Laptop, telefoon, werkplek	€ 2.000
 Tooling (software, data, validatie, mailboxen)	€ 2.500 – € 5.000
 Bonus of commissie bij doelbereik	€ 4.000 – € 8.000
-Totaal jaar 1	± € 68.000 – € 78.000
+Totaal jaar 1	± € 69.000 – € 83.000
 
-Dat is € 5.700 tot € 6.500 per maand, en dan heb je nog niets over de twee posten die niet op de loonstrook staan.
+Dat is € 5.750 tot € 6.900 per maand, en dan heb je nog niets over de twee posten die niet op de loonstrook staan.
 
 Inwerktijd. Een SDR die op maandag begint, levert niet op dinsdag. Reken op zes tot twaalf weken voordat er structureel afspraken uit komen: het aanbod leren, de doelgroep leren, de infrastructuur opzetten, de eerste copy testen. In die periode betaal je volledig en ontvang je niets. Dat is € 11.000 tot € 20.000 aan aanloopkosten die zelden in een businesscase staan.
 
@@ -840,7 +840,7 @@ Wie stuurt hem aan? Een SDR zonder salesleiding presteert onder. Reken op een pa
 
 ## Wat uitbesteden kost
 
-Een volledig uitgevoerde cold-e-mailcampagne in Nederland kost tussen € 995 en € 2.195 per maand, afhankelijk van volume. Dat is € 12.000 tot € 26.000 per jaar, inclusief tooling, infrastructuur en uitvoering.
+Een volledig uitgevoerde cold-e-mailcampagne in Nederland kost tussen € 995 en € 1.995 per maand, afhankelijk van volume. Dat is € 12.000 tot € 26.000 per jaar, inclusief tooling, infrastructuur en uitvoering.
 
 Daar staan nadelen tegenover, en die noem ik liever zelf dan dat je ze in maand drie ontdekt:
 
@@ -855,7 +855,7 @@ Daar staan nadelen tegenover, en die noem ik liever zelf dan dat je ze in maand 
 ## De vergelijking naast elkaar
 
 	Eigen SDR	Uitbesteed
-Kosten jaar 1	€ 68.000 – € 78.000	€ 12.000 – € 26.000
+Kosten jaar 1	€ 69.000 – € 83.000	€ 12.000 – € 26.000
 Kosten voordat er iets uitkomt	€ 11.000 – € 20.000	2 – 3 weken opstart
 Tijd tot eerste resultaat	6 – 12 weken	2 – 4 weken
 Opzegbaar	Ontslagrecht, opzegtermijn	3 maanden, daarna maandelijks
@@ -882,7 +882,7 @@ En de combinatie die in de praktijk het beste werkt: besteed de e-mail uit en ze
 
 De vraag is niet wat goedkoper is. De vraag is: wat is een nieuwe klant mij waard, en hoeveel gesprekken heb ik nodig voor een klant?
 
-Zit je gemiddelde klantwaarde op € 3.000 en sluit je een op de vijf gesprekken, dan is elk gesprek € 600 waard. Bij een uitbesteed traject van € 1.695 per maand heb je dan drie gesprekken per maand nodig om quitte te draaien. Bij een SDR van € 6.000 per maand heb je er tien nodig.
+Zit je gemiddelde klantwaarde op € 3.000 en sluit je een op de vijf gesprekken, dan is elk gesprek € 600 waard. Bij een uitbesteed traject van € 1.695 per maand heb je dan drie gesprekken per maand nodig om quitte te draaien. Bij een SDR van € 6.300 per maand heb je er elf nodig.
 
 Vul dat in met je eigen cijfers voordat je met wie dan ook gaat praten. Het is de enige berekening die je bij elke aanbieder op deze markt kunt gebruiken.
 
@@ -890,10 +890,10 @@ De salarissen en lasten hierboven zijn marktindicaties voor Nederland in 2026, b
 
 ## Veelgestelde vragen
 Wat kost een SDR in Nederland per jaar?
-Bruto salaris ligt tussen ongeveer € 36.000 en € 48.000, maar de werkelijke kosten inclusief werkgeverslasten, vakantiegeld, pensioen, werkplek, tooling en bonus komen op € 68.000 tot € 78.000 in het eerste jaar. Daar komt zes tot twaalf weken inwerktijd bij waarin je volledig betaalt en niets ontvangt.
+Bruto salaris ligt tussen ongeveer € 36.000 en € 48.000, maar de werkelijke kosten inclusief werkgeverslasten, vakantiegeld, pensioen, werkplek, tooling en bonus komen op € 69.000 tot € 83.000 in het eerste jaar. Daar komt zes tot twaalf weken inwerktijd bij waarin je volledig betaalt en niets ontvangt.
 
 Is cold email uitbesteden goedkoper dan een SDR aannemen?
-In absolute kosten wel: € 12.000 tot € 26.000 per jaar tegenover € 68.000 tot € 78.000. Maar het is geen gelijke vergelijking: een SDR kan ook bellen, opvolgen en lauwe reacties warm praten, en die capaciteit blijft in huis. Uitbesteden koopt je snelheid en beperkt risico, niet dezelfde functie.
+In absolute kosten wel: € 12.000 tot € 26.000 per jaar tegenover € 69.000 tot € 83.000. Maar het is geen gelijke vergelijking: een SDR kan ook bellen, opvolgen en lauwe reacties warm praten, en die capaciteit blijft in huis. Uitbesteden koopt je snelheid en beperkt risico, niet dezelfde functie.
 
 Wanneer is een eigen SDR de betere keuze?
 Als je verkoopcyclus om gesprekken vraagt in plaats van om afspraken, als er genoeg volume is voor een fulltime rol (grofweg vanaf vijftien afspraken per maand), als je iemand hebt die de rol kan aansturen, en als je outbound permanent in huis wilt hebben.
