@@ -593,6 +593,12 @@ nav.scrolled .nav-inner {
   font-weight:900; letter-spacing:-1.5px; line-height:1.08;
   max-width:680px; margin:0 auto 16px; text-align:center;
 }
+
+/* ---- blauw accent in elke kop, overal hetzelfde ---- */
+h1 .blue, h2 .blue, h3 .blue {
+  background:linear-gradient(135deg, #2F6FED 0%, #7EB3FF 100%);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+}
 .big-h .blue { background:linear-gradient(135deg, #2F6FED 0%, #7EB3FF 100%);
   -webkit-background-clip:text; -webkit-text-fill-color:transparent;
   background-clip:text; }
@@ -2170,7 +2176,7 @@ section,
           <div class="cs-top">
             <div>
               <span class="cs-lab">Case study</span>
-              <h3>&euro;84.000 pipeline uit &euro;5.085 campagne-investering</h3>
+              <h3><span class="blue">&euro;84.000 pipeline</span> uit &euro;5.085 campagne-investering</h3>
               <p class="cs-kicker">38 gekwalificeerde afspraken &middot; 90 dagen &middot; softwarebedrijf</p>
             </div>
             <div class="cs-meta"><span>Scale</span><span>&euro;1.695 per maand</span></div>
@@ -2205,7 +2211,7 @@ section,
           <div class="cs-top">
             <div>
               <span class="cs-lab">Case study</span>
-              <h3>15 positieve reacties in de eerste twee weken</h3>
+              <h3><span class="blue">15 positieve reacties</span> in de eerste twee weken</h3>
               <p class="cs-kicker">7,9% reply rate &middot; drie segmenten &middot; trainingsbedrijf</p>
             </div>
             <div class="cs-meta"><span>Growth</span><span>&euro;1.295 per maand</span></div>
@@ -2282,7 +2288,7 @@ section,
 <!-- CASE NAAR MARKTSCAN -->
 <section class="l4-sec" id="cta-marktscan" style="padding-top:0;padding-bottom:34px;">
   <div class="reveal" style="text-align:center;max-width:640px;margin:0 auto;">
-    <h3 style="font-size:clamp(20px,2.6vw,26px);line-height:1.25;letter-spacing:-.8px;font-weight:800;color:var(--white);margin:0 0 10px;">Benieuwd wat dit voor jouw markt betekent?</h3>
+    <h3 style="font-size:clamp(20px,2.6vw,26px);line-height:1.25;letter-spacing:-.8px;font-weight:800;color:var(--white);margin:0 0 10px;">Benieuwd wat dit <span class="blue">voor jouw markt</span> betekent?</h3>
     <p style="font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.66);margin:0 0 18px;">Laat ons gratis berekenen hoeveel relevante bedrijven er in jouw doelgroep zitten.</p>
   </div>
 </section>
@@ -2402,7 +2408,7 @@ section,
   <div class="whatwedo-inner">
     <div class="reveal sec-head">
       <div class="section-pill">IN DRIE WEKEN LIVE</div>
-      <h3 class="big-h">Dit gebeurt er tijdens de opstart</h3>
+      <h3 class="big-h">Dit gebeurt er <span class="blue">tijdens de opstart</span></h3>
       <p class="big-sub">Wij bouwen de verzendomgeving op en bereiden ondertussen je doelgroep en campagne voor, zodat er in week 3 gemaild wordt. De opstartperiode is dus geen wachttijd.</p>
     </div>
     <div class="blk-grid reveal">
@@ -2444,7 +2450,7 @@ section,
 <section class="l4-sec" id="waarom">
   <div class="reveal sec-head">
     <div class="section-pill">WAAROM LINK2LEADS</div>
-    <h2 style="font-size:clamp(26px,4vw,38px);line-height:1.15;letter-spacing:-1.2px;font-weight:800;">We starten niet met een leadlijst. We starten met je beste klanten.</h2>
+    <h2 style="font-size:clamp(26px,4vw,38px);line-height:1.15;letter-spacing:-1.2px;font-weight:800;">We starten niet met een leadlijst. We starten met <span class="blue">je beste klanten.</span></h2>
     <p style="font-size:16.5px;line-height:1.65;color:rgba(255,255,255,.62);">Vanuit die klanten bepalen we welke bedrijven vergelijkbaar zijn, wie daar beslist en welke boodschap relevant is. Geen software die je zelf moet bedienen, geen leadlijst die je zelf moet mailen.</p>
   </div>
   <div class="blk-grid reveal">
@@ -2691,7 +2697,7 @@ section,
         @media(max-width:760px){.res-gar{padding:26px 22px;}.rg-costs{grid-template-columns:1fr;}.rg-hero{padding:18px;}}
       </style>
       <div class="rg-pill">Onze campagnegarantie</div>
-      <h3>Vooraf afgesproken. Niet gehaald? Wij draaien door.</h3>
+      <h3>Vooraf afgesproken. <span class="blue">Niet gehaald? Wij draaien door.</span></h3>
       <p>Voor Scale en Pro spreken we vooraf af hoeveel gekwalificeerde positieve reacties je minimaal ontvangt in drie campagnemaanden. Dat aantal staat in je contract.</p>
       <div class="rg-hero">
         <span class="rg-check">&#10003;</span>
@@ -2890,7 +2896,7 @@ section,
     .contact-section{padding:0 24px 90px;max-width:1000px;margin:0 auto;}
     .contact-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;padding:40px 36px;text-align:left;display:grid;grid-template-columns:1fr 1.05fr;gap:44px;align-items:start;}
     .contact-left h2{font-size:clamp(24px,3.4vw,31px);line-height:1.18;letter-spacing:-1px;font-weight:800;margin:14px 0 14px;}
-    .contact-left h2 .blue{color:var(--accent2);}
+    .contact-left h2 .blue{color:inherit;}
     .contact-left p{font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.66);margin:0;}
     .contact-direct{margin-top:24px;display:grid;gap:10px;}
     .contact-direct a{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:12px;padding:14px 16px;font-size:15px;font-weight:600;color:var(--white);transition:border-color .2s,background .2s;}
@@ -3159,7 +3165,7 @@ section,
     <div class="cta-card">
       <div class="cta-stars" id="stars"></div>
       <div class="section-pill reveal" style="margin:0 auto 28px;">KLAAR OM TE STARTEN?</div>
-      <h2 class="cta-h reveal">Klaar om je acquisitie<br><span style="color:var(--accent);">uit te besteden?</span></h2>
+      <h2 class="cta-h reveal">Klaar om je acquisitie<br><span class="blue">uit te besteden?</span></h2>
       <p class="cta-sub reveal">Doe de gratis fitcheck. In 30 minuten toetsen we of jouw doelgroep groot genoeg is en wat er realistisch uit te halen valt. Je krijgt een concreet plan, ook als we niet samenwerken.</p>
       <div class="reveal" style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;position:relative;z-index:1;">
         <a href="/book" class="btn-solid" style="display:inline-flex;" target="_blank">Doe de gratis fitcheck →</a>
@@ -3185,7 +3191,7 @@ section,
   </style>
   <div class="reveal sec-head">
     <div class="section-pill">KENNISBANK</div>
-    <h2 style="font-size:clamp(26px,4vw,36px);line-height:1.15;letter-spacing:-1.2px;font-weight:800;">Eerst zelf uitzoeken?</h2>
+    <h2 style="font-size:clamp(26px,4vw,36px);line-height:1.15;letter-spacing:-1.2px;font-weight:800;">Eerst <span class="blue">zelf uitzoeken?</span></h2>
     <p style="font-size:16.5px;line-height:1.65;color:rgba(255,255,255,.62);">De vragen die we het vaakst krijgen, uitgeschreven met bronnen en bedragen erbij.</p>
   </div>
   <div class="art-grid reveal">
