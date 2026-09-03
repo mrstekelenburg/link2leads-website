@@ -44,7 +44,7 @@
   --white:   #F0EFED;
   --muted:   #8A919E;
   --muted2:  #8A919E;
-  --border:  rgba(255,255,255,0.07);
+  --border:  rgba(255,255,255,0.11);
   --card:    rgba(14,16,26,0.75);
   --f: 'DM Sans', sans-serif;
   --font: 'DM Sans', sans-serif;
@@ -53,7 +53,7 @@
   --black:   #08090C;
   --black2:  #0E1018;
   --black3:  #181818;
-  --card-bg: rgba(14,16,26,0.72);
+  --card-bg: rgba(21,27,46,0.88);
 }
 
 input,textarea,select,button,optgroup{font-family:inherit;}
@@ -188,7 +188,7 @@ nav.scrolled .nav-inner {
 .cs-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;overflow:hidden;text-align:left;}
 .cs-card + .cs-card{margin-top:18px;}
 .cs-top{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;padding:26px 30px 22px;border-bottom:1px solid var(--border);}
-.cs-lab{display:block;font-family:var(--f);font-weight:800;font-size:11px;letter-spacing:1.7px;text-transform:uppercase;color:var(--accent2);margin-bottom:8px;}
+.cs-lab{display:block;font-family:var(--f);font-weight:800;font-size:13px;letter-spacing:1.9px;text-transform:uppercase;color:var(--accent2);margin-bottom:9px;}
 .cs-top h3{font-size:clamp(21px,2.8vw,26px);font-weight:800;letter-spacing:-.6px;color:var(--white);margin:0;}
 .cs-meta{display:flex;gap:8px;flex-wrap:wrap;}
 .cs-meta span{font-size:12.5px;font-weight:600;color:rgba(255,255,255,.7);background:rgba(255,255,255,.05);
@@ -295,6 +295,36 @@ nav.scrolled .nav-inner {
   .inbox-pill{font-size:12.5px;padding:9px 14px;}
   .inbox-pill.top{margin-left:0;}
   .inbox-pill-row{padding-right:0;}
+}
+
+
+/* ---- opstart als tijdlijn, bewust anders dan de blokken hieronder ---- */
+.tl-rail{display:grid;grid-template-columns:repeat(3,1fr);gap:38px;text-align:left;
+  position:relative;padding-top:38px;}
+.tl-rail::before{content:'';position:absolute;top:7px;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,rgba(47,111,237,.75) 0%,rgba(47,111,237,.4) 62%,rgba(255,255,255,.07) 100%);}
+.tl-step{position:relative;display:flex;flex-direction:column;}
+.tl-node{position:absolute;top:-38px;left:0;width:15px;height:15px;border-radius:50%;
+  background:#0B0D14;border:2px solid var(--accent);box-shadow:0 0 0 5px rgba(47,111,237,.12);}
+.tl-step:nth-child(3) .tl-node{background:var(--accent);box-shadow:0 0 0 5px rgba(47,111,237,.22);}
+.tl-week{display:block;font-family:var(--f);font-size:12.5px;font-weight:800;letter-spacing:1.9px;
+  text-transform:uppercase;color:var(--accent2);}
+.tl-step h3{font-size:20px;font-weight:800;letter-spacing:-.5px;color:var(--white);margin:9px 0 16px;}
+.tl-list{list-style:none;padding:0;margin:0;display:grid;gap:10px;align-content:start;flex:1;}
+.tl-list li{position:relative;padding-left:18px;font-size:15px;line-height:1.55;color:rgba(255,255,255,.7);}
+.tl-list li::before{content:'';position:absolute;left:0;top:10px;width:8px;height:1px;background:rgba(255,255,255,.32);}
+.tl-out{margin:18px 0 0;padding-top:15px;border-top:1px solid var(--border);
+  font-size:14px;line-height:1.55;color:rgba(255,255,255,.52);}
+.tl-out b{color:rgba(255,255,255,.86);font-weight:700;}
+@media(max-width:900px){
+  .tl-rail{grid-template-columns:1fr;gap:0;padding-top:0;padding-left:30px;}
+  .tl-rail::before{top:8px;bottom:10px;left:4px;right:auto;width:1px;height:auto;
+    background:linear-gradient(180deg,rgba(47,111,237,.75),rgba(47,111,237,.25));}
+  .tl-step{padding-bottom:30px;}
+  .tl-list{flex:0 0 auto;}
+  .tl-step:last-child{padding-bottom:0;}
+  .tl-node{top:1px;left:-29px;}
+  .tl-step h3{font-size:18.5px;margin:8px 0 13px;}
 }
 
 /* Waarom-blok */
@@ -617,9 +647,9 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
   display:inline-block;
   background:none; border:0; padding:0; border-radius:0;
   font-family:var(--f);
-  font-size:12px; font-weight:800; letter-spacing:1.7px;
+  font-size:14px; font-weight:800; letter-spacing:2px;
   text-transform:uppercase; color:var(--accent2);
-  margin-bottom:18px;
+  margin-bottom:20px;
 }
 /* wrapper trick: wrap pill in a div with text-align:center per section */
 .problem-section, .case-section, .process-section,
@@ -956,12 +986,6 @@ h1 .blue, h2 .blue, h3 .blue {
 .p-addon-note {
   margin:8px 0 0; font-size:12.5px; line-height:1.5; color:var(--muted); text-align:left;
 }
-.fullservice-note {
-  margin-top:12px; padding:18px 28px;
-  background:var(--card-bg); border:1px solid var(--border);
-  border-radius:14px; font-size:14px; color:var(--muted); line-height:1.6;
-}
-.fullservice-note strong { color:rgba(255,255,255,0.75); }
 
 /* ═══════════ REVIEWS ═══════════ */
 .reviews-section { padding:120px 0; position:relative; }
@@ -1085,7 +1109,7 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
 .foot-socials { display:flex; gap:12px; }
 .foot-social { width:36px; height:36px; border-radius:50%; border:1px solid var(--border); display:flex; align-items:center; justify-content:center; font-size:13px; color:var(--muted); transition:border-color .2s, color .2s; }
 .foot-social:hover { border-color:var(--accent); color:var(--accent2); }
-.foot-col-title { font-size:11px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-bottom:20px; }
+.foot-col-title { font-size:12px; font-weight:800; letter-spacing:1.4px; text-transform:uppercase; color:var(--accent2); margin-bottom:20px; }
 .foot-col-links { list-style:none; display:flex; flex-direction:column; gap:12px; }
 .foot-col-links a { font-size:14px; color:rgba(255,255,255,0.62); transition:color .2s; }
 .foot-col-links a:hover { color:var(--white); }
@@ -1246,7 +1270,7 @@ nav.nav-collapsed .nav-inner { padding:8px 8px 8px 18px; }
 
   .big-h { font-size:clamp(28px,8vw,42px); letter-spacing:-1.5px; }
   .big-sub { font-size:15px; margin-bottom:40px; }
-  .section-pill { font-size:10px; padding:7px 16px; }
+  .section-pill { font-size:12.5px; letter-spacing:1.8px; margin-bottom:16px; }
 
   .problem-cards { grid-template-columns:1fr; gap:12px; }
   .prob-card-visual { height:120px; }
@@ -2265,8 +2289,8 @@ footer { border-top: none !important; }
 <section class="steps4-section" id="zowerkthet">
   <style>
     .steps4-inner{max-width:1200px;margin:0 auto;padding:0 48px;}
-    .steps4-lead{text-align:center;font-size:15px;font-weight:700;letter-spacing:1.7px;
-      text-transform:uppercase;color:var(--accent2);margin:0 0 30px;font-size:12px;}
+    .steps4-lead{text-align:center;font-weight:800;letter-spacing:2px;
+      text-transform:uppercase;color:var(--accent2);margin:0 0 30px;font-size:14px;}
     .steps4{display:grid;grid-template-columns:repeat(4,1fr);gap:0;text-align:left;
       background:var(--card-bg);border:1px solid var(--border);border-radius:18px;overflow:hidden;}
     .steps4 > div{padding:26px 26px;border-right:1px solid var(--border);}
@@ -2557,38 +2581,44 @@ footer { border-top: none !important; }
     <div class="reveal sec-head">
       <div class="section-pill">IN DRIE WEKEN LIVE</div>
       <h3 class="big-h">Dit gebeurt er <span class="blue">tijdens de opstart</span></h3>
-      <p class="big-sub">Wij bouwen de verzendomgeving op en bereiden ondertussen je doelgroep en campagne voor, zodat er in week 3 gemaild wordt. De opstartperiode is dus geen wachttijd.</p>
+      <p class="big-sub">Twee weken bouwen, in week 3 gaat de eerste mail eruit. Je ziet per week wat er af is en wat jij op dat moment van ons krijgt.</p>
     </div>
-    <div class="blk-grid reveal">
-      <div class="blk-card">
-        <div class="blk-num">1</div>
-        <h3>Week 1: inrichten</h3>
-        <ul class="blk-list">
-          <li>Intake: aanbod, doelgroep en beslissers bespreken</li>
-          <li>Verzendomgeving opzetten: aparte domeinen en mailboxen</li>
-          <li>Doelgroep samenstellen en aan jou voorleggen ter goedkeuring</li>
-          <li>Eerste mail en opvolgmails samen opstellen</li>
+    <div class="tl-rail reveal">
+      <div class="tl-step">
+        <span class="tl-node"></span>
+        <span class="tl-week">Week 1</span>
+        <h3>Inrichten</h3>
+        <ul class="tl-list">
+          <li>Intake van een uur: aanbod, doelgroep en wie er beslist</li>
+          <li>Aparte verzenddomeinen en mailboxen gekocht en ingesteld</li>
+          <li>Doelgroeplijst opgebouwd vanuit je eigen beste klanten</li>
+          <li>Eerste mail en twee opvolgmails geschreven</li>
         </ul>
+        <p class="tl-out"><b>Aan het eind:</b> jij keurt de lijst en de mails goed. Zonder dat akkoord gaat er niets de deur uit.</p>
       </div>
-      <div class="blk-card">
-        <div class="blk-num">2</div>
-        <h3>Week 2: reputatie opbouwen</h3>
-        <ul class="blk-list">
-          <li>Warmdraaien loopt door, wij bewaken de mailboxen</li>
-          <li>Contactgegevens controleren en uitsluitingen vastleggen</li>
-          <li>Campagne per segment afmaken en nalopen</li>
-          <li>Aan het eind controleren we of de mails aankomen</li>
+      <div class="tl-step">
+        <span class="tl-node"></span>
+        <span class="tl-week">Week 2</span>
+        <h3>Warmdraaien</h3>
+        <ul class="tl-list">
+          <li>Mailboxen bouwen dagelijks verzendreputatie op</li>
+          <li>Elk e-mailadres gecontroleerd, bestaande klanten uitgesloten</li>
+          <li>Doelgroep opgesplitst in segmenten met een eigen boodschap</li>
+          <li>Testmails naar Gmail, Outlook en zakelijke servers</li>
         </ul>
+        <p class="tl-out"><b>Aan het eind:</b> we weten dat de mails in de inbox aankomen en niet in spam.</p>
       </div>
-      <div class="blk-card">
-        <div class="blk-num">3</div>
-        <h3>Week 3: campagne start</h3>
-        <ul class="blk-list">
-          <li>Campagne start op een derde van het volume</li>
-          <li>Eerste reacties komen doorgaans binnen drie tot tien dagen</li>
+      <div class="tl-step">
+        <span class="tl-node"></span>
+        <span class="tl-week">Week 3</span>
+        <h3>Live</h3>
+        <ul class="tl-list">
+          <li>Campagne start op een derde van je maandvolume</li>
+          <li>Eerste reacties doorgaans binnen drie tot tien dagen</li>
           <li>Volume groeit gecontroleerd naar je pakket, rond week 5</li>
-          <li>Vanaf maand 2 verschuift volume naar de segmenten die reageren</li>
+          <li>Vanaf maand 2 gaat volume naar de segmenten die reageren</li>
         </ul>
+        <p class="tl-out"><b>Aan het eind:</b> de eerste gekwalificeerde reacties staan in jouw mailbox.</p>
       </div>
     </div>
   </div>
@@ -2769,13 +2799,13 @@ footer { border-top: none !important; }
     <div class="pricing-header reveal">
       <div class="section-pill">PAKKETTEN</div>
       <h2 class="big-h">Transparante prijzen.<br><span class="blue">Zonder verborgen kosten.</span></h2>
-      <p class="big-sub">Elk pakket is all-in: setup, leadlijsten, copy, verzending en wekelijkse bijsturing. Geen setupfee en geen aparte toolingrekening.</p>
+      <p class="big-sub">Elk pakket is all-in: setup, leadlijsten, copy, verzending en wekelijkse bijsturing. Geen setupfee en geen aparte toolingrekening. Alle pakketten hebben een minimale looptijd van drie maanden, daarna maandelijks opzegbaar.</p>
       <div class="two-modes">
         <style>
           .two-modes{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:820px;margin:26px auto 0;text-align:left;}
           .tm-card{background:var(--card-bg);border:1px solid var(--border);border-radius:14px;padding:20px 22px;}
           .tm-card.fs{border-color:rgba(47,111,237,.35);background:linear-gradient(160deg,rgba(47,111,237,.1),rgba(14,16,26,.5));}
-          .tm-lab{display:block;font-size:11px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent2);margin-bottom:9px;}
+          .tm-lab{display:block;font-size:12.5px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase;color:var(--accent2);margin-bottom:10px;}
           .tm-card p{margin:0;font-size:15px;line-height:1.6;color:rgba(255,255,255,.78);}
           @media(max-width:760px){.two-modes{grid-template-columns:1fr;}}
         </style>
@@ -2876,14 +2906,11 @@ footer { border-top: none !important; }
     <div class="volume-note reveal">
       <strong>Nog meer volume nodig?</strong> Grotere volumes zijn mogelijk. Neem contact op voor een voorstel op maat via <a href="mailto:info@link2leads.nl" style="color:var(--accent2);">info@link2leads.nl</a>
     </div>
-    <div class="fullservice-note reveal">
-      <strong>Full Service</strong> is een module bovenop Scale (+&euro;600) of Pro (+&euro;800): wij handelen elke reactie af en plannen de afspraak direct in jouw agenda. Minimale contractduur 3 maanden.
-    </div>
     <div class="res-gar reveal">
       <style>
         .res-gar{margin-top:22px;background:linear-gradient(160deg,rgba(47,111,237,.16),rgba(14,16,26,.55));
           border:1px solid rgba(47,111,237,.38);border-radius:20px;padding:36px 36px;text-align:left;}
-        .res-gar .rg-pill{display:block;font-family:var(--f);font-size:12px;font-weight:800;letter-spacing:1.7px;
+        .res-gar .rg-pill{display:block;font-family:var(--f);font-size:14px;font-weight:800;letter-spacing:2px;
           text-transform:uppercase;color:var(--accent2);margin-bottom:12px;}
         .res-gar h3{font-size:clamp(22px,3.2vw,30px);line-height:1.18;letter-spacing:-.9px;font-weight:800;color:var(--white);margin:0 0 16px;}
         .res-gar > p{font-size:16px;line-height:1.7;color:rgba(255,255,255,.78);margin:0 0 20px;max-width:720px;}
@@ -3076,7 +3103,10 @@ footer { border-top: none !important; }
 <section class="contact-section" id="contact">
   <style>
     .contact-section{padding:0 24px 90px;max-width:1000px;margin:0 auto;}
-    .contact-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;padding:40px 36px;text-align:left;display:grid;grid-template-columns:1fr 1.05fr;gap:44px;align-items:start;}
+    .contact-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;padding:40px 36px;text-align:left;display:grid;grid-template-columns:1fr 1.02fr;gap:36px;align-items:stretch;}
+    .contact-right{align-self:stretch;display:flex;flex-direction:column;justify-content:center;
+      background:rgba(255,255,255,.028);border:1px solid var(--border);border-radius:16px;padding:26px 24px;}
+    .contact-right form{width:100%;}
     .contact-left h2{font-size:clamp(24px,3.4vw,31px);line-height:1.18;letter-spacing:-1px;font-weight:800;margin:14px 0 14px;}
     .contact-left h2 .blue{color:inherit;}
     .contact-left p{font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.66);margin:0;}
@@ -3099,7 +3129,8 @@ footer { border-top: none !important; }
     .cf-msg{margin-top:14px;border-radius:12px;padding:14px 16px;font-size:14.5px;line-height:1.6;display:none;}
     .cf-msg.ok{display:block;background:rgba(74,222,128,.09);border:1px solid rgba(74,222,128,.3);color:#BBF7D0;}
     .cf-msg.err{display:block;background:rgba(248,113,113,.09);border:1px solid rgba(248,113,113,.3);color:#FECACA;}
-    @media(max-width:860px){.contact-card{grid-template-columns:1fr;gap:30px;padding:30px 22px;}}
+    @media(max-width:860px){.contact-card{grid-template-columns:1fr;gap:24px;padding:26px 18px;align-items:start;}
+      .contact-right{padding:22px 18px;}}
     @media(max-width:520px){.cf-row{grid-template-columns:1fr;}}
   </style>
   <div class="contact-card reveal">
