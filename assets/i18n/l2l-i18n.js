@@ -273,6 +273,22 @@
     wrap.className = "l2l-lang";
     wrap.setAttribute("role", "group");
     wrap.setAttribute("aria-label", "Language / Taal / Idioma");
+
+    var toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "l2l-lang-toggle";
+    toggle.setAttribute("aria-haspopup", "true");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var open = wrap.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    wrap.appendChild(toggle);
+
+    var menu = document.createElement("div");
+    menu.className = "l2l-lang-menu";
     for (var i = 0; i < LANGS.length; i++) {
       var lang = LANGS[i];
       var btn = document.createElement("button");
@@ -281,12 +297,33 @@
       btn.setAttribute("data-lang", lang);
       btn.setAttribute("title", TITLES[lang]);
       btn.setAttribute("aria-label", TITLES[lang]);
-      btn.innerHTML = FLAGS[lang] + '<span class="l2l-lang-lbl">' + LABELS[lang] + "</span>";
+      btn.innerHTML = FLAGS[lang] + '<span class="l2l-lang-lbl">' + TITLES[lang] + "</span>";
       btn.addEventListener("click", (function (l) {
-        return function (e) { e.preventDefault(); setLang(l); };
+        return function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          setLang(l);
+          wrap.classList.remove("open");
+          toggle.setAttribute("aria-expanded", "false");
+        };
       })(lang));
-      wrap.appendChild(btn);
+      menu.appendChild(btn);
     }
+    wrap.appendChild(menu);
+
+    document.addEventListener("click", function (e) {
+      if (!wrap.contains(e.target)) {
+        wrap.classList.remove("open");
+        toggle.setAttribute("aria-expanded", "false");
+      }
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        wrap.classList.remove("open");
+        toggle.setAttribute("aria-expanded", "false");
+      }
+    });
+
     switcherEl = wrap;
     return wrap;
   }
@@ -298,6 +335,14 @@
       var on = btns[i].getAttribute("data-lang") === current;
       btns[i].classList.toggle("is-active", on);
       btns[i].setAttribute("aria-pressed", on ? "true" : "false");
+    }
+    var toggle = switcherEl.querySelector(".l2l-lang-toggle");
+    if (toggle) {
+      toggle.innerHTML = FLAGS[current] +
+        '<span class="l2l-lang-lbl">' + LABELS[current] + '</span>' +
+        '<svg class="l2l-lang-chev" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>';
+      toggle.setAttribute("title", TITLES[current]);
+      toggle.setAttribute("aria-label", TITLES[current]);
     }
   }
 
@@ -319,22 +364,37 @@
   function injectStyles() {
     if (document.getElementById("l2l-i18n-styles")) return;
     var css =
-      ".l2l-lang{display:inline-flex;align-items:center;gap:2px;padding:3px;border-radius:100px;" +
-      "background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);backdrop-filter:blur(8px);}" +
-      ".l2l-lang.in-nav{margin-left:10px;flex-shrink:0;}" +
-      ".l2l-lang-floating{position:fixed !important;right:10px !important;left:auto !important;" +
-      "top:50% !important;bottom:auto !important;transform:translateY(-50%) !important;" +
-      "flex-direction:column;gap:3px;z-index:9998 !important;box-shadow:0 8px 24px rgba(0,0,0,.35);}" +
-      ".l2l-lang-floating .l2l-lang-btn{width:100%;justify-content:flex-start;padding:7px 9px;}" +
-      ".l2l-lang-btn{display:inline-flex;align-items:center;gap:5px;cursor:pointer;border:none;" +
-      "background:transparent;color:rgba(255,255,255,0.7);font:600 12px/1 'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;" +
-      "padding:5px 9px;border-radius:100px;transition:background .15s,color .15s;}" +
-      ".l2l-lang-btn:hover{color:#fff;background:rgba(255,255,255,0.08);}" +
-      ".l2l-lang-btn.is-active{color:#fff;background:var(--accent,#2F6FED);}" +
-      ".l2l-flag{width:18px;height:12px;border-radius:2px;display:block;box-shadow:0 0 0 1px rgba(0,0,0,.15);flex-shrink:0;}" +
-      ".l2l-lang-lbl{letter-spacing:.3px;}" +
-      "@media(max-width:640px){.l2l-lang.in-nav .l2l-lang-lbl{display:none;}" +
-      ".l2l-lang.in-nav .l2l-lang-btn{padding:6px;}.l2l-lang.in-nav{margin-left:6px;}}";
+      ".l2l-lang{position:fixed !important;left:16px !important;right:auto !important;bottom:16px !important;top:auto !important;z-index:9998 !important;width:auto !important;" +
+      "font:600 13px/1 'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;}" +
+      ".l2l-lang-toggle{display:inline-flex;align-items:center;gap:8px;cursor:pointer;" +
+      "border:1px solid rgba(255,255,255,0.14);background:rgba(20,22,32,0.82);backdrop-filter:blur(10px);" +
+      "-webkit-backdrop-filter:blur(10px);color:rgba(255,255,255,0.9);font:inherit;" +
+      "padding:9px 13px;border-radius:100px;box-shadow:0 6px 20px rgba(0,0,0,.32);" +
+      "transition:border-color .15s,background .15s;}" +
+      ".l2l-lang-toggle:hover{border-color:rgba(255,255,255,0.28);background:rgba(28,31,44,0.9);}" +
+      ".l2l-lang-chev{opacity:.55;transition:transform .2s;}" +
+      ".l2l-lang.open .l2l-lang-chev{transform:rotate(180deg);}" +
+      ".l2l-lang-menu{position:absolute;left:0;bottom:calc(100% + 8px);min-width:158px;" +
+      "display:flex;flex-direction:column;gap:2px;padding:6px;border-radius:14px;" +
+      "background:rgba(20,22,32,0.95);border:1px solid rgba(255,255,255,0.12);" +
+      "backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);" +
+      "box-shadow:0 12px 34px rgba(0,0,0,.45);" +
+      "opacity:0;visibility:hidden;transform:translateY(6px);" +
+      "transition:opacity .16s ease,transform .16s ease,visibility .16s;}" +
+      ".l2l-lang.open .l2l-lang-menu{opacity:1;visibility:visible;transform:none;}" +
+      ".l2l-lang-btn{display:flex;align-items:center;gap:9px;width:100%;cursor:pointer;border:none;" +
+      "background:transparent;color:rgba(255,255,255,0.72);font:inherit;text-align:left;" +
+      "padding:9px 11px;border-radius:9px;transition:background .15s,color .15s;}" +
+      ".l2l-lang-btn:hover{color:#fff;background:rgba(255,255,255,0.07);}" +
+      ".l2l-lang-btn.is-active{color:#fff;background:rgba(47,111,237,.16);}" +
+      ".l2l-flag{width:20px;height:14px;border-radius:3px;display:block;" +
+      "box-shadow:0 0 0 1px rgba(0,0,0,.2);flex-shrink:0;}" +
+      ".l2l-lang-toggle .l2l-flag{width:18px;height:13px;}" +
+      ".l2l-lang-lbl{letter-spacing:.2px;}" +
+      "@media(max-width:640px){.l2l-lang{left:12px;bottom:12px;}" +
+      ".l2l-lang-toggle{padding:8px 11px;font-size:12.5px;gap:7px;}" +
+      ".l2l-lang-menu{min-width:150px;}}" +
+      "@media print{.l2l-lang{display:none;}}";
     var st = document.createElement("style");
     st.id = "l2l-i18n-styles";
     st.textContent = css;
