@@ -2261,6 +2261,43 @@ footer { border-top: none !important; }
   </div>
 </section>
 
+<!-- IN VIER STAPPEN -->
+<section class="steps4-section">
+  <style>
+    .steps4-inner{max-width:1200px;margin:0 auto;padding:0 48px;}
+    .steps4-lead{text-align:center;font-size:15px;font-weight:700;letter-spacing:1.7px;
+      text-transform:uppercase;color:var(--accent2);margin:0 0 30px;font-size:12px;}
+    .steps4{display:grid;grid-template-columns:repeat(4,1fr);gap:0;text-align:left;
+      background:var(--card-bg);border:1px solid var(--border);border-radius:18px;overflow:hidden;}
+    .steps4 > div{padding:26px 26px;border-right:1px solid var(--border);}
+    .steps4 > div:last-child{border-right:0;}
+    .steps4 > div.you{background:rgba(47,111,237,.07);}
+    .s4-n{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+      border-radius:50%;background:rgba(255,255,255,.06);border:1px solid var(--border);
+      font-size:12px;font-weight:800;color:var(--muted);margin-bottom:14px;}
+    .steps4 > div.you .s4-n{background:rgba(47,111,237,.16);border-color:rgba(47,111,237,.3);color:var(--accent2);}
+    .s4-t{font-size:16.5px;font-weight:700;line-height:1.35;color:var(--white);letter-spacing:-.2px;}
+    .steps4 > div.you .s4-t{color:var(--white);}
+    @media(max-width:900px){
+      .steps4-inner{padding:0 24px;}
+      .steps4{grid-template-columns:1fr;}
+      .steps4 > div{border-right:0;border-bottom:1px solid var(--border);padding:20px 22px;}
+      .steps4 > div:last-child{border-bottom:0;}
+      .s4-n{margin-bottom:10px;}
+      .s4-t{font-size:16px;}
+    }
+  </style>
+  <div class="steps4-inner">
+    <p class="steps4-lead">In het kort</p>
+    <div class="steps4 reveal">
+      <div><span class="s4-n">1</span><div class="s4-t">Wij vinden je beste prospects</div></div>
+      <div><span class="s4-n">2</span><div class="s4-t">Wij benaderen ze namens jou</div></div>
+      <div><span class="s4-n">3</span><div class="s4-t">Wij filteren de reacties</div></div>
+      <div class="you"><span class="s4-n">4</span><div class="s4-t">Jij voert alleen de gesprekken</div></div>
+    </div>
+  </div>
+</section>
+
 <!-- CASE STUDY -->
 <section class="case-section" id="resultaten">
   <style>
@@ -2605,28 +2642,90 @@ footer { border-top: none !important; }
     </div>
   </div>
 
-  <div class="class-block reveal">
+  <div class="camp-panel reveal">
     <style>
-      .class-block{margin-top:14px;background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:26px 28px;text-align:left;}
-      .class-block h3{font-size:17px;font-weight:700;color:var(--white);margin:0 0 9px;letter-spacing:-.2px;}
-      .class-block p{margin:0 0 18px;font-size:15px;line-height:1.6;color:rgba(255,255,255,.7);max-width:720px;}
-      .class-chips{display:flex;flex-wrap:wrap;gap:9px;}
-      .class-chip{font-size:13.5px;font-weight:700;padding:9px 15px;border-radius:100px;white-space:nowrap;}
+      .camp-panel{margin-top:14px;background:var(--card-bg);border:1px solid var(--border);
+        border-radius:18px;overflow:hidden;text-align:left;}
+      .camp-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;
+        padding:16px 22px;border-bottom:1px solid var(--border);}
+      .camp-bar-l{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:700;color:var(--white);}
+      .camp-dot{width:8px;height:8px;border-radius:100px;background:#4ADE80;box-shadow:0 0 0 4px rgba(74,222,128,.15);}
+      .camp-bar-r{font-size:11.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
+        color:var(--accent2);background:rgba(47,111,237,.13);border:1px solid rgba(47,111,237,.28);
+        border-radius:100px;padding:5px 11px;}
+      .camp-stats{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--border);}
+      .camp-stats > div{padding:20px 22px;border-right:1px solid var(--border);}
+      .camp-stats > div:last-child{border-right:0;}
+      .camp-stats b{display:block;font-size:clamp(20px,2.4vw,26px);font-weight:800;letter-spacing:-1px;
+        line-height:1.05;color:var(--white);}
+      .camp-stats span{display:block;margin-top:6px;font-size:13px;line-height:1.4;color:var(--muted);}
+      .camp-stats > div.hl b{color:var(--accent2);}
+      .camp-rows{display:grid;}
+      .camp-row{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;
+        padding:15px 22px;border-bottom:1px solid var(--border);}
+      .camp-av{width:36px;height:36px;border-radius:10px;background:rgba(47,111,237,.13);
+        display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;
+        color:var(--accent2);flex-shrink:0;}
+      .camp-who{font-size:14.5px;font-weight:700;color:rgba(255,255,255,.94);}
+      .camp-sub{margin-top:3px;font-size:13px;color:var(--muted);}
+      .camp-tag{font-size:11px;font-weight:700;padding:6px 12px;border-radius:100px;white-space:nowrap;}
+      .camp-foot{padding:18px 22px 20px;}
+      .class-chips{display:flex;flex-wrap:wrap;gap:8px;}
+      .class-chip{font-size:13px;font-weight:700;padding:8px 14px;border-radius:100px;white-space:nowrap;}
       .cc-warm{background:rgba(74,222,128,.12);color:#7EE2A8;border:1px solid rgba(74,222,128,.26);}
       .cc-int{background:rgba(245,158,11,.12);color:#F5B44B;border:1px solid rgba(245,158,11,.26);}
       .cc-no{background:rgba(255,255,255,.05);color:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.12);}
       .cc-auto{background:rgba(255,255,255,.05);color:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.12);}
       .cc-off{background:rgba(248,113,113,.1);color:#F79A9A;border:1px solid rgba(248,113,113,.24);}
-      @media(max-width:760px){.class-block{padding:22px 20px;}.class-chip{font-size:12.5px;padding:8px 13px;}}
+      .camp-foot h4{font-size:14px;font-weight:700;color:var(--white);margin:0 0 6px;}
+      .camp-foot p{margin:0 0 14px;font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.68);}
+      .camp-note{margin:14px 0 0;font-size:12.5px;line-height:1.6;color:rgba(255,255,255,.4);}
+      @media(max-width:900px){.camp-stats{grid-template-columns:1fr 1fr;}
+        .camp-stats > div:nth-child(2){border-right:0;}
+        .camp-stats > div:nth-child(1),.camp-stats > div:nth-child(2){border-bottom:1px solid var(--border);}}
+      @media(max-width:620px){.camp-row{grid-template-columns:auto 1fr;}
+        .camp-tag{grid-column:2;justify-self:start;margin-top:2px;}
+        .camp-bar,.camp-stats > div,.camp-row,.camp-foot{padding-left:18px;padding-right:18px;}}
     </style>
-    <h3>Direct zien welke reacties aandacht nodig hebben</h3>
-    <p>Elke binnenkomende reactie wordt met de hand ingedeeld. Zo zie je direct welke bedrijven interesse tonen, welke informatie vragen en welke je kunt laten liggen.</p>
-    <div class="class-chips">
-      <span class="class-chip cc-warm">Warme lead</span>
-      <span class="class-chip cc-int">Vraagt informatie</span>
-      <span class="class-chip cc-no">Geen interesse</span>
-      <span class="class-chip cc-auto">Automatisch antwoord</span>
-      <span class="class-chip cc-off">Afmelding</span>
+    <div class="camp-bar">
+      <span class="camp-bar-l"><span class="camp-dot"></span> Campagneoverzicht</span>
+      <span class="camp-bar-r">Deze maand</span>
+    </div>
+    <div class="camp-stats">
+      <div><b>15.000</b><span>Mails verstuurd</span></div>
+      <div><b>412</b><span>Reacties binnengekomen</span></div>
+      <div class="hl"><b>87</b><span>Positieve reacties</span></div>
+      <div class="hl"><b>31</b><span>Doorgestuurd met contactgegevens</span></div>
+    </div>
+    <div class="camp-rows">
+      <div class="camp-row">
+        <div class="camp-av">MF</div>
+        <div>
+          <div class="camp-who">Machinefabriek</div>
+          <div class="camp-sub">Twente &middot; 45 medewerkers</div>
+        </div>
+        <span class="camp-tag cc-warm">Warme lead</span>
+      </div>
+      <div class="camp-row">
+        <div class="camp-av">VG</div>
+        <div>
+          <div class="camp-who">Verpakkingsgroothandel</div>
+          <div class="camp-sub">Noord-Brabant &middot; 120 medewerkers</div>
+        </div>
+        <span class="camp-tag cc-int">Vraagt informatie</span>
+      </div>
+    </div>
+    <div class="camp-foot">
+      <h4>Direct zien welke reacties aandacht nodig hebben</h4>
+      <p>Elke binnenkomende reactie wordt met de hand ingedeeld. Zo zie je welke bedrijven interesse tonen, welke informatie vragen en welke je kunt laten liggen.</p>
+      <div class="class-chips">
+        <span class="class-chip cc-warm">Warme lead</span>
+        <span class="class-chip cc-int">Vraagt informatie</span>
+        <span class="class-chip cc-no">Geen interesse</span>
+        <span class="class-chip cc-auto">Automatisch antwoord</span>
+        <span class="class-chip cc-off">Afmelding</span>
+      </div>
+      <p class="camp-note">Voorbeeld van een maandoverzicht op het Scale-pakket. Je krijgt dit maandelijks als rapport, de reacties zelf komen direct in je eigen mailbox.</p>
     </div>
   </div>
 
