@@ -96,3 +96,37 @@ Ook weg: alles wat de eigen cijfers ondermijnde. De percentages afwezigheidsmeld
 6. **Contacticonen professioneel en duidelijk klikbaar.** Emoji vervangen door strakke SVG-iconen in een grotere tegel, met een pijltje rechts. Bij hover kleurt de tegel blauw, schuift de rij een paar pixels op en beweegt het pijltje mee.
 
 9 nieuwe Engelse sleutels, dictionary staat op 1928. Gecontroleerd: geen dode ankers, geen kapotte links, geen JS-fouten, geen horizontale overflow op mobiel, tags in balans en geen Nederlandse tekst over in de Engelse versie.
+
+---
+
+# Ronde 27, 3 september 2026
+
+## Hero
+1. **Kicker boven de kop:** "DONE-FOR-YOU E-MAIL OUTREACH VOOR B2B" in blauwe kapitalen boven de H1.
+2. **Prijspil weg.** De prijs staat nu als kleine grijze regel onder de knoppen: "Vanaf €995 per maand, all-in en zonder setupfee. Gratis en vrijblijvend, je zit nergens aan vast."
+3. **Twee kolommen op half scherm.** De hero klapte onder 1024px terug naar één kolom, precies de breedte van een half scherm op een groot beeldscherm. Nieuwe tussenlaag tussen 861 en 1010px houdt tekst en widget naast elkaar met kleinere typografie. Onder 861px stapelt hij pas.
+4. **Nav.** Onder 1060px verdwijnen de links en de CTA nu ook via CSS, niet alleen via het script. Daarmee valt de knop niet meer een paar pixels buiten beeld als het script nog niet heeft gemeten.
+
+## Boekingspagina
+5. Twee gelijke kolommen (was 320px naast een brede widget), max 1120px breed.
+6. De review is naar links verhuisd, onder de blokken, met het MIJU-logo erbij. Daaronder drie chips: geen verplichtingen, geen verkoopgesprek, concreet plan.
+7. Emoji vervangen door SVG-iconen in blauwe tegels, gelijk aan de contactsectie op de homepage. De metablokken staan nu in twee kolommen naast elkaar.
+8. Kaartkleuren, randen en schaduw gelijkgetrokken met de homepage. Kicker "GRATIS FITCHECK" boven de titel.
+9. De kalender toont maand- en dagnamen nu in het Engels als de pagina op Engels staat.
+
+## Logocarousel
+10. Van 163 naar 85 seconden per ronde.
+
+## SEO
+11. **Titel homepage** begint met het zoekwoord in plaats van de merknaam: "Cold email bureau Nederland, done-for-you B2B afspraken | Link2Leads".
+12. **Metadescription** claimde "gemiddeld 10+ gekwalificeerde afspraken per maand". Dat staat nergens anders op de site en is niet hard te maken, dus eruit. Vervangen door wat je wel levert en de prijs.
+13. **"Live binnen 14 dagen"** botste met de tijdlijn (week 3 gaat de eerste mail eruit). Overal aangepast naar "setup klaar binnen twee weken, campagne live in week 3": metadescription, og- en twitterbeschrijving, Organization- en Service-schema, het garantieblok en llms.txt.
+14. **/klant stond in de sitemap** terwijl de pagina op noindex staat. Uit de sitemap gehaald.
+15. **lastmod** in de sitemap stond nog op 2 september, nu overal 3 september. Hetzelfde voor dateModified op de vergelijkingspagina.
+16. **Titel van het nieuwe kennisartikel** miste "| Link2Leads". Toegevoegd.
+17. **Algemene voorwaarden** noemde in de metadescription "Link2Leads B.V." Dat bestaat niet, de entiteit is Link2Group. Rechtgezet.
+18. **Spaanse rest in de i18n-boot.** Alle 14 pagina's hadden nog `['nl','en','es']` in het script in de head. Wie ooit op Spaans had gestaan, kreeg een taal die de engine niet meer kent. Teruggebracht naar nl en en, ook in de generator.
+
+Verder gecontroleerd en in orde: één H1 per pagina, geen sprongen in de koppenstructuur, canonical en og:url gelijk op elke pagina, alt op elke afbeelding, geldige JSON-LD (Organization, WebSite, Service, FAQPage, Article, BreadcrumbList, ItemList, CollectionPage), prijzen in het schema gelijk aan de pakketkaarten, robots.txt met de AI-crawlers, geen kapotte interne links en geen dode ankers.
+
+7 nieuwe Engelse sleutels, dictionary staat op 1935.

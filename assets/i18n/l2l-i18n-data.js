@@ -5783,5 +5783,26 @@ window.L2L_I18N_DATA = {
 },
 "link2leads.nl/resultaten/trainingsbedrijf": {
 "en": "link2leads.nl/results/training-company"
+},
+"Done-for-you e-mail outreach voor B2B": {
+"en": "Done-for-you email outreach for B2B"
+},
+"Vanaf €995 per maand, all-in en zonder setupfee. Gratis en vrijblijvend, je zit nergens aan vast.": {
+"en": "From EUR 995 per month, all-in and no setup fee. Free and without obligation, you are not tied to anything."
+},
+"Setupgarantie van 14 dagen": {
+"en": "14-day setup guarantee"
+},
+"Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken na akkoord klaar, zodat de campagne in week 3 start. Loopt het uit door iets aan onze kant, dan schuift je facturatie mee.": {
+"en": "Domains, mailboxes, warmup, list and copy are ready within two weeks of signing, so the campaign starts in week 3. If it runs late on our side, your billing shifts with it."
+},
+"Geen verplichtingen": {
+"en": "No obligations"
+},
+"Geen verkoopgesprek": {
+"en": "No sales pitch"
+},
+"Concreet plan, ook als we niet samenwerken": {
+"en": "A concrete plan, even if we do not work together"
 }
 };

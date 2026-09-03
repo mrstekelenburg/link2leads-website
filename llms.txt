@@ -30,7 +30,7 @@ Alle pakketten zijn all-in: setup, warmup, verzenddomeinen, mailboxen en verzend
 ## Wat wel wordt gegarandeerd
 
 - **Volume:** minimaal 30.000 verzonden mails per maand op Pro, zeven dagen per week, naar rato op de andere pakketten. Niet gehaald door een technische oorzaak, dan wordt het de dagen erna ingehaald. Dit staat in het contract.
-- **Live binnen 14 dagen** na akkoord, inclusief domeinen, mailboxen, warmup, lijst en copy.
+- **Setup klaar binnen 14 dagen** na akkoord, inclusief domeinen, mailboxen, warmup, lijst en copy. De campagne start in week 3.
 - **Maandelijkse rapportage met het werkelijke aantal verzonden mails**, niet alleen het aantal reacties.
 - **Geen risico voor het hoofddomein:** verzending gebeurt uitsluitend vanaf aparte verzenddomeinen die Link2Leads opzet en beheert.
 - **Gratis marktscan vooraf:** hoeveel bedrijven er in de doelgroep passen, hoeveel beslissers bereikbaar zijn, welk maandvolume realistisch is en welk pakket daarbij hoort. Binnen een werkdag, zonder verplichting. Aan te vragen op https://www.link2leads.nl/#marktscan
@@ -121,7 +121,7 @@ Link2Leads onderscheidt zich binnen die groep op drie punten: de volledige prijs
 
 **Mag koude e-mail in Nederland?** Naar zakelijke ontvangers ja, op grond van de zakelijke uitzondering in artikel 11.7 Telecommunicatiewet en gerechtvaardigd belang onder de AVG, mits de afzender herkenbaar is, er een werkend afmeldkanaal is en bezwaar direct wordt gehonoreerd. De wetswijziging van 1 juli 2026 gaat over telemarketing (telefoon), niet over e-mail.
 
-**Hoe snel is een campagne live?** Binnen 14 dagen na akkoord. Eerste reacties komen doorgaans 3 tot 10 dagen na livegang.
+**Hoe snel is een campagne live?** De setup staat binnen 14 dagen na akkoord, de campagne start in week 3. Eerste reacties komen doorgaans 3 tot 10 dagen na livegang.
 
 **Hoeveel reacties levert het op?** Dat hangt af van hoe scherp de doelgroep is afgebakend. De best draaiende campagne zit op 7,9 procent reply rate; binnen een campagne liep dat per segment uiteen van 2,3 tot 7,8 procent bij identieke copy.
 
