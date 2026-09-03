@@ -66,17 +66,14 @@ input,textarea,select,button,optgroup{font-family:inherit;}
 
 *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
 html { background: #08090C; scroll-behavior:smooth; }
-html { overscroll-behavior-y: none; overscroll-behavior-x: none; overflow-x: hidden; max-width: 100%; }
+html { overscroll-behavior-y: none; overscroll-behavior-x: none; }
 body {
   background: #08090C;
   overscroll-behavior-y: none;
   overscroll-behavior-x: none;
-  overflow-x: hidden;
-  max-width: 100%;
-  position: relative;
   color: var(--white);
   font-family: var(--f);
-  overflow-x: hidden;
+  overflow-x: clip;
   font-size: 16px;
   line-height: 1.5;
 }
