@@ -7,9 +7,28 @@
 (function () {
   "use strict";
 
-  var LANGS = ["nl", "en", "es"];
+  var LANGS = ["nl", "en"];
   var STORAGE_KEY = "l2l_lang";
   var DATA = window.L2L_I18N_DATA || {};
+
+  // De vertaaldata is een groot bestand. Nederlandse bezoekers hebben het
+  // niet nodig, dus we laden het pas zodra er daadwerkelijk naar Engels of
+  // Spaans wordt geschakeld. Dat scheelt elke NL-bezoeker een halve MB.
+  var DATA_URL = "/assets/i18n/l2l-i18n-data.js?v=4";
+  var dataPromise = null;
+  function loadData() {
+    if (window.L2L_I18N_DATA) { DATA = window.L2L_I18N_DATA; NORM = null; return Promise.resolve(); }
+    if (dataPromise) return dataPromise;
+    dataPromise = new Promise(function (resolve) {
+      var sc = document.createElement("script");
+      sc.src = DATA_URL;
+      sc.async = true;
+      sc.onload = function () { DATA = window.L2L_I18N_DATA || {}; NORM = null; resolve(); };
+      sc.onerror = function () { resolve(); };
+      (document.head || document.documentElement).appendChild(sc);
+    });
+    return dataPromise;
+  }
 
   // ---- current language (URL param wins, then storage, then nl) ----
   function readLang() {
@@ -247,8 +266,7 @@
     } catch (e) {}
   }
 
-  function setLang(lang) {
-    if (LANGS.indexOf(lang) === -1) return;
+  function applyLang(lang) {
     current = lang;
     if (!built) collect();
     apply(lang);
@@ -257,14 +275,19 @@
     emitLangChange(lang);
   }
 
+  function setLang(lang) {
+    if (LANGS.indexOf(lang) === -1) return;
+    if (lang === "nl") { applyLang(lang); return; }
+    loadData().then(function () { applyLang(lang); });
+  }
+
   // ---------------- switcher UI ----------------
   var FLAGS = {
     nl: '<svg viewBox="0 0 9 6" class="l2l-flag" aria-hidden="true"><rect width="9" height="6" fill="#21468B"/><rect width="9" height="4" fill="#fff"/><rect width="9" height="2" fill="#AE1C28"/></svg>',
-    en: '<svg viewBox="0 0 60 30" class="l2l-flag" aria-hidden="true"><clipPath id="l2lgb"><rect width="60" height="30"/></clipPath><g clip-path="url(#l2lgb)"><rect width="60" height="30" fill="#012169"/><path d="M0,0 60,30 M60,0 0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 60,30 M60,0 0,30" clip-path="url(#l2lgb)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 V30 M0,15 H60" stroke="#fff" stroke-width="10"/><path d="M30,0 V30 M0,15 H60" stroke="#C8102E" stroke-width="6"/></g></svg>',
-    es: '<svg viewBox="0 0 9 6" class="l2l-flag" aria-hidden="true"><rect width="9" height="6" fill="#AA151B"/><rect width="9" height="3" y="1.5" fill="#F1BF00"/></svg>'
+    en: '<svg viewBox="0 0 60 30" class="l2l-flag" aria-hidden="true"><clipPath id="l2lgb"><rect width="60" height="30"/></clipPath><g clip-path="url(#l2lgb)"><rect width="60" height="30" fill="#012169"/><path d="M0,0 60,30 M60,0 0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 60,30 M60,0 0,30" clip-path="url(#l2lgb)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 V30 M0,15 H60" stroke="#fff" stroke-width="10"/><path d="M30,0 V30 M0,15 H60" stroke="#C8102E" stroke-width="6"/></g></svg>'
   };
-  var LABELS = { nl: "NL", en: "EN", es: "ES" };
-  var TITLES = { nl: "Nederlands", en: "English", es: "Español" };
+  var LABELS = { nl: "NL", en: "EN" };
+  var TITLES = { nl: "Nederlands", en: "English" };
 
   var switcherEl = null;
 
@@ -356,43 +379,62 @@
   // it never competes with the real navigation or the hamburger.
   function placeSwitcher() {
     if (!switcherEl) return;
-    switcherEl.className = "l2l-lang l2l-lang-floating";
-    if (switcherEl.parentNode !== document.body) document.body.appendChild(switcherEl);
+    // Bij voorkeur in de navigatiebalk, links van de call to action. Zo staat
+    // hij bovenaan vast, schuift hij mee met de nav en dekt hij niets af.
+    var nav = document.querySelector(".nav-inner") || document.querySelector("nav");
+    var cta = nav && (nav.querySelector(".nav-cta") || nav.querySelector(".nav-hamburger") || nav.querySelector(".nav-back"));
+    if (nav && cta) {
+      switcherEl.className = "l2l-lang l2l-lang-in-nav";
+      if (switcherEl.parentNode !== nav) nav.insertBefore(switcherEl, cta);
+    } else {
+      switcherEl.className = "l2l-lang l2l-lang-floating";
+      if (switcherEl.parentNode !== document.body) document.body.appendChild(switcherEl);
+    }
     updateSwitcherState();
   }
 
   function injectStyles() {
     if (document.getElementById("l2l-i18n-styles")) return;
     var css =
-      ".l2l-lang{position:fixed !important;left:16px !important;right:auto !important;bottom:16px !important;top:auto !important;z-index:9998 !important;width:auto !important;" +
+      ".l2l-lang{position:relative;z-index:60;flex-shrink:0;" +
       "font:600 13px/1 'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;}" +
-      ".l2l-lang-toggle{display:inline-flex;align-items:center;gap:8px;cursor:pointer;" +
-      "border:1px solid rgba(255,255,255,0.14);background:rgba(20,22,32,0.82);backdrop-filter:blur(10px);" +
-      "-webkit-backdrop-filter:blur(10px);color:rgba(255,255,255,0.9);font:inherit;" +
-      "padding:9px 13px;border-radius:100px;box-shadow:0 6px 20px rgba(0,0,0,.32);" +
+      ".l2l-lang-in-nav{margin-left:auto;margin-right:10px;}" +
+      "nav > .l2l-lang-in-nav{margin-right:14px;}" +
+      ".l2l-lang-floating{position:fixed !important;left:16px !important;right:auto !important;" +
+      "bottom:16px !important;top:auto !important;z-index:9998 !important;}" +
+
+      ".l2l-lang-toggle{display:inline-flex;align-items:center;gap:7px;cursor:pointer;" +
+      "border:1px solid rgba(255,255,255,0.14);background:rgba(255,255,255,0.05);" +
+      "color:rgba(255,255,255,0.88);font:inherit;padding:8px 12px;border-radius:100px;" +
       "transition:border-color .15s,background .15s;}" +
-      ".l2l-lang-toggle:hover{border-color:rgba(255,255,255,0.28);background:rgba(28,31,44,0.9);}" +
+      ".l2l-lang-toggle:hover{border-color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.09);}" +
       ".l2l-lang-chev{opacity:.55;transition:transform .2s;}" +
       ".l2l-lang.open .l2l-lang-chev{transform:rotate(180deg);}" +
-      ".l2l-lang-menu{position:absolute;left:0;bottom:calc(100% + 8px);min-width:158px;" +
+
+      ".l2l-lang-menu{position:absolute;right:0;top:calc(100% + 10px);min-width:162px;" +
       "display:flex;flex-direction:column;gap:2px;padding:6px;border-radius:14px;" +
-      "background:rgba(20,22,32,0.95);border:1px solid rgba(255,255,255,0.12);" +
-      "backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);" +
-      "box-shadow:0 12px 34px rgba(0,0,0,.45);" +
-      "opacity:0;visibility:hidden;transform:translateY(6px);" +
+      "background:rgba(18,20,29,0.97);border:1px solid rgba(255,255,255,0.12);" +
+      "backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);" +
+      "box-shadow:0 16px 40px rgba(0,0,0,.5);" +
+      "opacity:0;visibility:hidden;transform:translateY(-6px);" +
       "transition:opacity .16s ease,transform .16s ease,visibility .16s;}" +
       ".l2l-lang.open .l2l-lang-menu{opacity:1;visibility:visible;transform:none;}" +
+      ".l2l-lang-floating .l2l-lang-menu{top:auto;bottom:calc(100% + 10px);left:0;right:auto;transform:translateY(6px);}" +
+      ".l2l-lang-floating.open .l2l-lang-menu{transform:none;}" +
+
       ".l2l-lang-btn{display:flex;align-items:center;gap:9px;width:100%;cursor:pointer;border:none;" +
       "background:transparent;color:rgba(255,255,255,0.72);font:inherit;text-align:left;" +
       "padding:9px 11px;border-radius:9px;transition:background .15s,color .15s;}" +
       ".l2l-lang-btn:hover{color:#fff;background:rgba(255,255,255,0.07);}" +
-      ".l2l-lang-btn.is-active{color:#fff;background:rgba(47,111,237,.16);}" +
+      ".l2l-lang-btn.is-active{color:#fff;background:rgba(47,111,237,.18);}" +
       ".l2l-flag{width:20px;height:14px;border-radius:3px;display:block;" +
       "box-shadow:0 0 0 1px rgba(0,0,0,.2);flex-shrink:0;}" +
       ".l2l-lang-toggle .l2l-flag{width:18px;height:13px;}" +
       ".l2l-lang-lbl{letter-spacing:.2px;}" +
-      "@media(max-width:640px){.l2l-lang{left:12px;bottom:12px;}" +
-      ".l2l-lang-toggle{padding:8px 11px;font-size:12.5px;gap:7px;}" +
+
+      "@media(max-width:900px){.l2l-lang-in-nav{margin-right:8px;}" +
+      ".l2l-lang-toggle{padding:7px 10px;gap:6px;font-size:12.5px;}" +
+      ".l2l-lang-toggle .l2l-lang-lbl{display:none;}" +
       ".l2l-lang-menu{min-width:150px;}}" +
       "@media print{.l2l-lang{display:none;}}";
     var st = document.createElement("style");
@@ -405,7 +447,7 @@
     document.documentElement.classList.remove("i18n-pending");
   }
 
-  function init() {
+  function boot() {
     injectStyles();
     cacheHead();
     collect();
@@ -416,6 +458,11 @@
     startObserver();
     reveal();
     emitLangChange(current);
+  }
+
+  function init() {
+    if (current === "nl") { boot(); return; }
+    loadData().then(boot);
   }
 
   if (document.readyState === "loading") {
