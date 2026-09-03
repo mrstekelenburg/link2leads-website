@@ -130,3 +130,15 @@ Ook weg: alles wat de eigen cijfers ondermijnde. De percentages afwezigheidsmeld
 Verder gecontroleerd en in orde: één H1 per pagina, geen sprongen in de koppenstructuur, canonical en og:url gelijk op elke pagina, alt op elke afbeelding, geldige JSON-LD (Organization, WebSite, Service, FAQPage, Article, BreadcrumbList, ItemList, CollectionPage), prijzen in het schema gelijk aan de pakketkaarten, robots.txt met de AI-crawlers, geen kapotte interne links en geen dode ankers.
 
 7 nieuwe Engelse sleutels, dictionary staat op 1935.
+
+
+---
+
+# Ronde 28, 3 september 2026
+
+De hero stapelde nog steeds op een half scherm. Reden: mijn grens lag op 861px en jouw venster is ongeveer 830px breed.
+
+1. **Twee kolommen tot 700px.** De band 701 tot 1010px houdt tekst en widget naast elkaar. Pas onder 700px stapelt de hero, en dat is smaller dan een half scherm op vrijwel elke laptop.
+2. **Compacte widget in die band.** Kleinere balk, kleinere avatars, kleinere labels, en de rijhoogte gaat van 88 naar 75px met de lijst van 264 naar 225px, zodat er precies drie reacties passen en de pagina niet gaat springen bij het rouleren. Gemeten over 60 samples: één hoogte, geen verschuiving.
+3. **Regels blijven binnen hun rij.** Onder 1010px wordt de bedrijfsnaam op één regel afgekapt, onder 880px ook de reactietekst, zodat een lange naam niet meer over de volgende rij heen valt.
+4. **Kicker** krimpt mee in letterafstand, zodat hij op de meeste breedtes op één regel past.

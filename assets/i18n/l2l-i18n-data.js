@@ -5804,5 +5804,8 @@ window.L2L_I18N_DATA = {
 },
 "Concreet plan, ook als we niet samenwerken": {
 "en": "A concrete plan, even if we do not work together"
+},
+"Vanaf €995 per maand, all-in en zonder setupfee.": {
+"en": "From EUR 995 per month, all-in and no setup fee."
 }
 };
