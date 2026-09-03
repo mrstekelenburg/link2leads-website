@@ -5756,5 +5756,32 @@ window.L2L_I18N_DATA = {
 },
 "Elk pakket is all-in: setup, leadlijsten, copy, verzending en wekelijkse bijsturing. Geen setupfee en geen aparte toolingrekening. Alle pakketten hebben een minimale looptijd van drie maanden, daarna maandelijks opzegbaar.": {
 "en": "Every package is all-in: setup, lead lists, copy, sending and weekly adjustment. No setup fee and no separate tooling bill. All packages have a minimum term of three months, cancellable monthly after that."
+},
+"800.000+ mails": {
+"en": "800,000+ emails"
+},
+"verstuurd namens onze klanten": {
+"en": "sent on behalf of our clients"
+},
+"app.link2leads.nl/campagne · voorbeeld": {
+"en": "app.link2leads.nl/campaign · example"
+},
+"Elke reactie met de hand ingedeeld": {
+"en": "Every reply categorised by hand"
+},
+"Garantie": {
+"en": "Guarantee"
+},
+"In je contract": {
+"en": "In your contract"
+},
+"Case": {
+"en": "Case"
+},
+"link2leads.nl/resultaten/softwarebedrijf": {
+"en": "link2leads.nl/results/software-company"
+},
+"link2leads.nl/resultaten/trainingsbedrijf": {
+"en": "link2leads.nl/results/training-company"
 }
 };

@@ -83,3 +83,16 @@ Ook weg: alles wat de eigen cijfers ondermijnde. De percentages afwezigheidsmeld
 6. **Footertitels blauw.** `.foot-col-title` van grijs naar `var(--accent2)`, op de homepage en op alle subpagina's.
 
 22 nieuwe Engelse sleutels toegevoegd, dictionary staat op 1919. Gecontroleerd: geen dode ankers, geen kapotte links, geen JS-fouten, geen horizontale overflow op mobiel, en geen Nederlandse tekst meer over in de Engelse versie.
+
+---
+
+# Ronde 26, 3 september 2026
+
+1. **Macvenster om het dashboard en de cases.** Nieuwe component `.brw-bar`: drie stoplichtknopjes, een adresbalk met slotje en een label rechts. Zit nu boven het campagneoverzicht (`app.link2leads.nl/campagne · voorbeeld`) en boven allebei de case studies. Panelen kregen een diepere schaduw, zodat ze als venster voor de pagina zweven.
+2. **Onderkant van het dashboard opgeruimd.** De kop, de lange alinea en de disclaimer eronder zijn eruit. Wat overblijft is een legenda op één regel: "Elke reactie met de hand ingedeeld" plus de vijf labels, kleiner gezet. Dat het om een voorbeeld gaat staat nu in de adresbalk in plaats van in een tekstblok.
+3. **800.000+ mails is een sticker.** Zweeft schuin over de rechterbovenhoek van het dashboard in plaats van als tekstblok eronder te staan. Op mobiel schuift hij naar rechtsboven het paneel.
+4. **Logo bij elke losse review.** De citaten in beide cases (Nafite en MIJU-marketing), de review boven de prijzen (CrudenVision) en de review bij de beschikbaarheid (Remorec) hebben nu het bedrijfslogo naast de naam, net als de reviewkaarten.
+5. **Garantiezegel.** Rond zegel met drie sterren, rechtsboven over de hoek van het garantieblok, met "Garantie / In je contract". De tekst in het blok krijgt automatisch minder breedte zodat er niets onder het zegel verdwijnt.
+6. **Contacticonen professioneel en duidelijk klikbaar.** Emoji vervangen door strakke SVG-iconen in een grotere tegel, met een pijltje rechts. Bij hover kleurt de tegel blauw, schuift de rij een paar pixels op en beweegt het pijltje mee.
+
+9 nieuwe Engelse sleutels, dictionary staat op 1928. Gecontroleerd: geen dode ankers, geen kapotte links, geen JS-fouten, geen horizontale overflow op mobiel, tags in balans en geen Nederlandse tekst over in de Engelse versie.
