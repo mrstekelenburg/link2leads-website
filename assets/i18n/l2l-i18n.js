@@ -87,19 +87,44 @@
   }
 
   // translate one raw string, preserving surrounding whitespace
+  // Genormaliseerde index: witruimte, harde spaties en typografische tekens
+  // verschillen per pagina, dus zoeken we ook op een genormaliseerde sleutel.
+  var NORM = null;
+  function normalize(t) {
+    return t.replace(/\u00a0/g, " ")
+            .replace(/[\u2018\u2019\u02bc]/g, "'")
+            .replace(/[\u201c\u201d]/g, '"')
+            .replace(/\s+/g, " ")
+            .trim();
+  }
+  function buildNorm() {
+    NORM = {};
+    for (var k in DATA) {
+      if (!Object.prototype.hasOwnProperty.call(DATA, k)) continue;
+      var n = normalize(k);
+      if (!(n in NORM)) NORM[n] = DATA[k];
+    }
+  }
+
+  function lookup(key) {
+    var entry = DATA[key];
+    if (entry) return entry;
+    if (!NORM) buildNorm();
+    return NORM[normalize(key)];
+  }
+
   function tr(raw, lang) {
     if (lang === "nl") return raw;
     var lead = (raw.match(/^\s*/) || [""])[0];
     var trail = (raw.match(/\s*$/) || [""])[0];
-    var key = raw.trim();
-    var entry = DATA[key];
+    var entry = lookup(raw.trim());
     if (entry && entry[lang]) return lead + entry[lang] + trail;
     return raw; // no translation -> keep NL (source of truth)
   }
 
   function trAttr(raw, lang) {
     if (lang === "nl") return raw;
-    var entry = DATA[raw.trim()];
+    var entry = lookup(raw.trim());
     if (entry && entry[lang]) return entry[lang];
     return raw;
   }
