@@ -2278,6 +2278,8 @@ footer { border-top: none !important; }
     .steps4 > div.you .s4-n{background:rgba(47,111,237,.16);border-color:rgba(47,111,237,.3);color:var(--accent2);}
     .s4-t{font-size:16.5px;font-weight:700;line-height:1.35;color:var(--white);letter-spacing:-.2px;}
     .s4-d{margin:9px 0 0;font-size:14px;line-height:1.55;color:rgba(255,255,255,.62);}
+    .steps4-note{margin:18px auto 0;max-width:760px;text-align:center;font-size:14.5px;line-height:1.65;color:var(--muted);}
+    .steps4-note strong{color:rgba(255,255,255,.86);font-weight:700;}
     .steps4 > div.you .s4-t{color:var(--white);}
     @media(max-width:900px){
       .steps4-inner{padding:0 24px;}
@@ -2313,6 +2315,10 @@ footer { border-top: none !important; }
         <p class="s4-d">Geen lijsten bouwen, geen mails sturen, geen campagnes beheren.</p>
       </div>
     </div>
+    <p class="steps4-note reveal">
+      <strong>Standaard</strong> leveren we gekwalificeerde positieve reacties in jouw mailbox.
+      <strong>Met Full Service</strong> handelen wij die reacties af en zetten we de afspraak in jouw agenda.
+    </p>
   </div>
 </section>
 
@@ -2341,7 +2347,7 @@ footer { border-top: none !important; }
     <div class="case-header reveal">
       <div class="section-pill">RESULTATEN</div>
       <h2 class="big-h">Praatjes vullen <span class="blue">geen gaatjes</span></h2>
-      <p class="big-sub">Twee campagnes, met de cijfers erbij.</p>
+      <p class="big-sub">Geen gemiddelden of benchmarks. Dit zijn onze eigen campagnes, met de cijfers erbij.</p>
     </div>
 
     <div class="cs-carousel reveal">
@@ -2625,41 +2631,6 @@ footer { border-top: none !important; }
     </div>
   </div>
 
-  <div class="flow-wrap reveal">
-    <style>
-      .flow-wrap{margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:14px;text-align:left;}
-      .flow-box{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:24px 26px;}
-      .flow-box.fs{border-color:rgba(47,111,237,.32);background:linear-gradient(160deg,rgba(47,111,237,.1),rgba(14,16,26,.5));}
-      .flow-lab{display:block;font-size:11px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:var(--muted);margin-bottom:14px;}
-      .flow-box.fs .flow-lab{color:var(--accent2);}
-      .flow-steps{list-style:none;padding:0;margin:0;display:grid;gap:8px;}
-      .flow-steps li{position:relative;padding-left:22px;font-size:14.5px;line-height:1.5;color:rgba(255,255,255,.78);}
-      .flow-steps li::before{content:'\2192';position:absolute;left:0;color:var(--accent2);}
-      .flow-steps li:first-child::before{content:'\25CF';font-size:9px;top:4px;}
-      .trust-line{margin-top:14px;background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:22px 26px;text-align:left;}
-      .trust-line b{display:block;font-size:17px;font-weight:800;color:var(--white);letter-spacing:-.3px;margin-bottom:7px;}
-      .trust-line p{margin:0;font-size:15px;line-height:1.6;color:rgba(255,255,255,.7);}
-      @media(max-width:760px){.flow-wrap{grid-template-columns:1fr;}.flow-box{padding:22px;}}
-    </style>
-    <div class="flow-box">
-      <span class="flow-lab">Standaard: wat er na een reactie gebeurt</span>
-      <ul class="flow-steps">
-        <li>Prospect reageert</li>
-        <li>Wij lezen en classificeren de reactie</li>
-        <li>Context en contactgegevens naar jou</li>
-        <li>Jij volgt op en voert het gesprek</li>
-      </ul>
-    </div>
-    <div class="flow-box fs">
-      <span class="flow-lab">Full Service: wat er na een reactie gebeurt</span>
-      <ul class="flow-steps">
-        <li>Prospect reageert</li>
-        <li>Wij handelen de reactie af</li>
-        <li>Afspraak staat in jouw agenda</li>
-      </ul>
-    </div>
-  </div>
-
   <div class="camp-panel reveal">
     <style>
       .camp-panel{margin-top:14px;background:var(--card-bg);border:1px solid var(--border);
@@ -2734,8 +2705,8 @@ footer { border-top: none !important; }
       </div>
     </div>
     <div class="camp-foot">
-      <h4>Direct zien welke reacties aandacht nodig hebben</h4>
-      <p>Elke binnenkomende reactie wordt met de hand ingedeeld. Zo zie je welke bedrijven interesse tonen, welke informatie vragen en welke je kunt laten liggen.</p>
+      <h4>Je weet precies wat er gebeurt</h4>
+      <p>Elke binnenkomende reactie wordt met de hand ingedeeld, zodat je ziet welke bedrijven interesse tonen, welke informatie vragen en welke je kunt laten liggen. Maandelijks krijg je inzicht in verzonden volume, reacties, positieve reacties en welke segmenten het best presteren.</p>
       <div class="class-chips">
         <span class="class-chip cc-warm">Warme lead</span>
         <span class="class-chip cc-int">Vraagt informatie</span>
@@ -2743,11 +2714,17 @@ footer { border-top: none !important; }
         <span class="class-chip cc-auto">Automatisch antwoord</span>
         <span class="class-chip cc-off">Afmelding</span>
       </div>
-      <p class="camp-note">Voorbeeldweergave op het Scale-pakket. De aantallen komen uit echte campagnes, de bedrijfsnamen zijn fictief. Je krijgt dit maandelijks als rapport, de reacties zelf komen direct in je eigen mailbox.</p>
+      <p class="camp-note">Voorbeeldweergave op het Scale-pakket. De aantallen komen uit echte campagnes, de bedrijfsnamen zijn fictief. De reacties zelf komen direct in je eigen mailbox, je hoeft nergens voor in te loggen.</p>
     </div>
   </div>
 
   <div class="trust-line reveal">
+    <style>
+      .trust-line{margin-top:14px;background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:24px 28px;text-align:left;}
+      .trust-line b{display:block;font-size:17px;font-weight:800;color:var(--white);letter-spacing:-.3px;margin-bottom:7px;}
+      .trust-line p{margin:0;font-size:15px;line-height:1.6;color:rgba(255,255,255,.7);}
+      @media(max-width:760px){.trust-line{padding:22px 20px;}}
+    </style>
     <b>Ruim 800.000 mails namens klanten verstuurd.</b>
     <p>Onze werkwijze is gebouwd op wat we in echte campagnes zien werken.</p>
   </div>
