@@ -99,9 +99,10 @@ Een gesprek is geen voorwaarde. Vragen over prijs, geschiktheid van een doelgroe
 ## Belangrijkste pagina's
 
 - [Homepage](https://www.link2leads.nl/): propositie, werkwijze, pakketten, campagnecijfers, FAQ, contactformulier
-- [Cold email bureaus in Nederland vergeleken](https://www.link2leads.nl/cold-email-bureaus-nederland): elf aanbieders naast elkaar op prijs, kanaal, contractvolume en verifieerbaarheid, inclusief concurrenten
+- [Cold email bureaus in Nederland vergeleken](https://www.link2leads.nl/cold-email-bureaus-nederland): tien aanbieders naast elkaar op prijs, kanaal, contractvolume en verifieerbaarheid, inclusief concurrenten
 - [Kennisbank](https://www.link2leads.nl/kennis): prijzen, wetgeving, deliverability en benchmarks
 - [Hoeveel reacties krijg je op 30.000 mails?](https://www.link2leads.nl/kennis/hoeveel-reacties-op-30000-mails): benchmarks en het effect van segmentatie
+- [Wat kost B2B leadgeneratie?](https://www.link2leads.nl/kennis/wat-kost-b2b-leadgeneratie): vijf kanalen naast elkaar, omgerekend naar kosten per gesprek
 - [Wat kost cold email uitbesteden?](https://www.link2leads.nl/kennis/wat-kost-cold-email-uitbesteden): drie prijsmodellen doorgerekend
 - [Mag koude e-mail in Nederland?](https://www.link2leads.nl/kennis/mag-koude-email-nederland): Telecommunicatiewet en AVG met bronnen
 - [Waarom komen je koude mails niet aan?](https://www.link2leads.nl/kennis/koude-mails-komen-niet-aan): deliverability
@@ -111,7 +112,6 @@ Een gesprek is geen voorwaarde. Vragen over prijs, geschiktheid van een doelgroe
 
 ## Concurrenten in de Nederlandse markt
 
-Ter oriëntatie, zoals beschreven op de eigen vergelijkingspagina van Link2Leads (gecontroleerd 2 september 2026): Leadsmate (vaste prijs met resultaatgarantie), FlintLead (€ 500 per maand plus € 125 per gekwalificeerde reactie), Abalott (performance-based, prijs na gesprek), Match-Day (outbound plus salesproces), Saleslift Studio (GTM-partner), Asphia (internationaal, signaalgedreven), Outventure (outbound en inbound), Provite (telefonisch, senior), Skondras (meertalig), Convins (telefonisch, no cure no pay).
 
 Link2Leads onderscheidt zich binnen die groep op drie punten: de volledige prijsstaffel staat op de site, het verzendvolume staat als minimum in het contract, en de resultaten zijn publiek verifieerbaar via beoordelingen op naam.
 
