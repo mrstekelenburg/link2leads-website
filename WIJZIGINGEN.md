@@ -142,3 +142,15 @@ De hero stapelde nog steeds op een half scherm. Reden: mijn grens lag op 861px e
 2. **Compacte widget in die band.** Kleinere balk, kleinere avatars, kleinere labels, en de rijhoogte gaat van 88 naar 75px met de lijst van 264 naar 225px, zodat er precies drie reacties passen en de pagina niet gaat springen bij het rouleren. Gemeten over 60 samples: één hoogte, geen verschuiving.
 3. **Regels blijven binnen hun rij.** Onder 1010px wordt de bedrijfsnaam op één regel afgekapt, onder 880px ook de reactietekst, zodat een lange naam niet meer over de volgende rij heen valt.
 4. **Kicker** krimpt mee in letterafstand, zodat hij op de meeste breedtes op één regel past.
+
+---
+
+# Ronde 30, 4 september 2026
+
+1. **Macvenster om de marktscan en om de inboxwidget in de hero.** Zelfde component als bij het dashboard en de cases: stoplichtknopjes, adresbalk met slotje. De marktscan draait op `link2leads.nl/gratis-marktscan`, de widget op `mail.jouwbedrijf.nl/inbox`. Allebei met dezelfde schaduw eronder.
+2. **Reviews zonder scrollen.** De horizontale strook is vervangen door drie kolommen (twee onder 1000px, een onder 640px) waarin alle zeven reviews in een keer in beeld staan. Kaarten breken niet meer over kolommen heen en de tekst is een fractie groter.
+3. **Kennisbanksectie van de homepage af.** De artikelenblokken onderaan zijn weg. De kennisbank blijft bereikbaar via de footer en via de links die al in de FAQ, de cases, de pakketten en de garantie stonden.
+4. **In drie weken live is nu een echt tijdsschema.** Geen lijn met drie lijstjes meer, maar een balkenschema met een weekas: intake, verzendomgeving, warmdraaien en mails schrijven lopen over week 1 en 2, jouw akkoord is een groene markering aan het eind van week 2, en campagne live plus eerste reacties lopen vanaf week 3 door. Legenda eronder: wij bouwen, jij beslist, campagne draait. Op mobiel wordt het een lijst met een weekaanduiding per regel.
+5. **Probleemiconen kloppen nu.** Het grafiekje bij "nieuwe klanten komen via-via" is een doorverwijsketen geworden (drie knopen met een gestippelde verbinding onderaan), en het rondje-met-pijlen bij "zelf koude acquisitie doen is geen optie" is een zandloper.
+
+22 nieuwe Engelse sleutels, dictionary staat op 1958. Gecontroleerd: geen dode ankers, geen kapotte links, geen JS-fouten, geen horizontale overflow, tags in balans en geen Nederlandse tekst over in de Engelse versie.

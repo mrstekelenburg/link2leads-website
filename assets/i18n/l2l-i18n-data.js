@@ -5807,5 +5807,71 @@ window.L2L_I18N_DATA = {
 },
 "Vanaf €995 per maand, all-in en zonder setupfee.": {
 "en": "From EUR 995 per month, all-in and no setup fee."
+},
+"Twee weken bouwen, in week 3 gaat de eerste mail eruit. Hieronder zie je wanneer wat loopt en op welk moment jij aan zet bent.": {
+"en": "Two weeks of building, and in week 3 the first email goes out. Below you see when everything runs and at which point it is your turn."
+},
+"Week 4 en verder": {
+"en": "Week 4 onwards"
+},
+"Intake en doelgroep": {
+"en": "Intake and audience"
+},
+"Aanbod, beslissers en lijst": {
+"en": "Offer, decision makers and list"
+},
+"Verzendomgeving": {
+"en": "Sending environment"
+},
+"Reputatie opbouwen, aankomst testen": {
+"en": "Building reputation, testing deliverability"
+},
+"Mails schrijven": {
+"en": "Writing the emails"
+},
+"Eerste mail en twee opvolgmails": {
+"en": "First email and two follow-ups"
+},
+"Jouw akkoord": {
+"en": "Your sign-off"
+},
+"Jij keurt de lijst en de mails goed": {
+"en": "You approve the list and the emails"
+},
+"Campagne live": {
+"en": "Campaign live"
+},
+"Start op een derde van je volume, groeit naar 100 procent": {
+"en": "Starts at a third of your volume and grows to 100 percent"
+},
+"Eerste reacties": {
+"en": "First replies"
+},
+"Doorgaans 3 tot 10 dagen na livegang": {
+"en": "Usually 3 to 10 days after launch"
+},
+"Wij bouwen": {
+"en": "We build"
+},
+"Jij beslist": {
+"en": "You decide"
+},
+"Campagne draait": {
+"en": "Campaign running"
+},
+"Week 1 en 2": {
+"en": "Weeks 1 and 2"
+},
+"Eind week 2": {
+"en": "End of week 2"
+},
+"Vanaf week 3": {
+"en": "From week 3"
+},
+"mail.jouwbedrijf.nl/inbox": {
+"en": "mail.yourcompany.com/inbox"
+},
+"link2leads.nl/gratis-marktscan": {
+"en": "link2leads.nl/free-market-scan"
 }
 };
