@@ -154,3 +154,25 @@ De hero stapelde nog steeds op een half scherm. Reden: mijn grens lag op 861px e
 5. **Probleemiconen kloppen nu.** Het grafiekje bij "nieuwe klanten komen via-via" is een doorverwijsketen geworden (drie knopen met een gestippelde verbinding onderaan), en het rondje-met-pijlen bij "zelf koude acquisitie doen is geen optie" is een zandloper.
 
 22 nieuwe Engelse sleutels, dictionary staat op 1958. Gecontroleerd: geen dode ankers, geen kapotte links, geen JS-fouten, geen horizontale overflow, tags in balans en geen Nederlandse tekst over in de Engelse versie.
+
+---
+
+# Ronde 31, 4 september 2026
+
+1. **Boekingspagina opnieuw ingedeeld.** De agenda stond onder alle uitleg, waardoor je op mobiel en op een half scherm eerst voorbij alles moest scrollen voordat je kon plannen. Nu: kop over de volle breedte, daaronder links de review en direct de agenda, rechts een smalle kolom "Praktisch" met duur, format, beschikbaarheid en tijdzone. Op smal scherm komt die kolom onder de agenda te staan. De agenda begint nu op ongeveer 470px vanaf de bovenkant in plaats van ver onder de vouw.
+2. **De drie chips zijn weg** (geen verplichtingen, geen verkoopgesprek, concreet plan).
+3. **Review compacter**: logo links, sterren, citaat en naam ernaast, zodat hij weinig hoogte kost boven de agenda.
+4. **Agenda op een prettige breedte.** De kolom is begrensd op 560px en de dagcellen op 46px hoog, anders werd de kalender op een breed scherm onnodig groot.
+5. **Review van DefDigital toegevoegd** aan de reviewsectie op de homepage en aan de structured data. Aantal reviews in het schema van 7 naar 8. Omdat er geen logo van DefDigital is, staat er een tegel met de initialen.
+
+3 nieuwe Engelse sleutels, dictionary staat op 1961.
+
+---
+
+# Ronde 32, 4 september 2026
+
+1. **Reviews staan nu in drie vaste kolommen van drie.** De css-columns zijn vervangen door een echt raster met drie kolommen die elk hun eigen kaarten bevatten, zodat de verdeling niet meer door de browser wordt bepaald. Links Dick, Micah en Mike, midden Rafael, Arnold en Eric, rechts Marit, Lodewijk en de verwijskaart. Kolomhoogtes liggen binnen vijftig pixels van elkaar.
+2. **Verwijskaart rechtsonder:** "En nog veel meer", met het Google-logo, het gemiddelde van 4,8 en een link naar de Google-reviewpagina. Gestippelde rand zodat hij als kaart hoort bij de rij maar niet voor een review wordt aangezien.
+3. **Marit** staat nu als naam boven de review van DefDigital, ook in de structured data.
+
+Op tablet twee kolommen, op mobiel een. 4 nieuwe Engelse sleutels, dictionary staat op 1965.

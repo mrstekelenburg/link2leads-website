@@ -5873,5 +5873,26 @@ window.L2L_I18N_DATA = {
 },
 "link2leads.nl/gratis-marktscan": {
 "en": "link2leads.nl/free-market-scan"
+},
+"Het is erg prettig samenwerken met Demi en Roos. Duidelijke communicatie en eerlijke verwachtingen over de te behalen resultaten. Ze zijn daarnaast altijd goed te bereiken en denken graag mee over nieuwe ideeën. Kortom, fijne partij om mee samen te werken en zeker aan te raden.": {
+"en": "Working with Demi and Roos is a real pleasure. Clear communication and honest expectations about the results to be achieved. They are always easy to reach and happy to think along about new ideas. In short, a good outfit to work with and definitely recommended."
+},
+"DefDigital": {
+"en": "DefDigital"
+},
+"Praktisch": {
+"en": "Practical"
+},
+"En nog veel meer": {
+"en": "And plenty more"
+},
+"4,8 gemiddeld op Google. Bekijk alle reviews.": {
+"en": "4.8 average on Google. See all reviews."
+},
+"Naar Google Reviews →": {
+"en": "Go to Google Reviews →"
+},
+"Marit": {
+"en": "Marit"
 }
 };
