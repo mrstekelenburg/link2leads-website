@@ -239,3 +239,11 @@ De pagina's zijn getest op een lokale server: geen dode interne links, geen hori
 4. **De segmenttabel in het kennisartikel blijft staan zoals hij is.** Daar staat 7,9 procent voor het segment coaches, therapeuten en trainers, en dat volgt uit de aantallen ernaast. Dat spreekt de 9,1 niet tegen: het is een segment, geen campagnerecord.
 5. **Knop onder de carousel.** "Bekijk alle cases" naar `/cases`, in dezelfde stijl als de andere secundaire knoppen.
 6. **Link naar de segmentuitsplitsing losgekoppeld van de MIJU-case**, want die cijfers gaan over een andere klant.
+
+## Fix opmaak casepagina's, 6 september 2026
+
+De casepagina's kwamen zonder kaartopmaak binnen: cijfers en labels plakten aan elkaar, geen kaders, geen kolommen. Oorzaak: de stijl voor die pagina's stond in `assets/l2l-page.css`, en dat bestand staat in `vercel.json` op zeven dagen cache. Browser en CDN serveerden de oude versie zonder het cases-blok, terwijl de HTML wel nieuw was.
+
+Opgelost door de stijl niet meer uit dat bestand te halen. Elke casepagina heeft het blok nu inline in een `<style>` in de head, net zoals de secties op de homepage dat doen. Daarmee kan die opmaak nooit meer uit de pas lopen met de HTML. Het blok is uit `assets/l2l-page.css` verwijderd, en alle pagina's die dat bestand laden hebben nu `?v=2` erachter, zodat de rest ook een verse versie ophaalt.
+
+Let op bij het testen: open de pagina's via een preview-URL of een lokale server, niet door het HTML-bestand aan te klikken. De paden naar `/assets/` zijn absoluut, dus via `file://` laden de nav- en footerstijlen sowieso niet.
