@@ -2551,7 +2551,15 @@ footer { border-top: none !important; }
     .cs-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.22);border:0;padding:0;cursor:pointer;transition:background .2s,width .2s;}
     .cs-dot.on{background:var(--accent2);width:22px;border-radius:100px;}
     .cs-swipe{margin-top:12px;text-align:center;font-size:12.5px;color:var(--muted);}
-    @media(max-width:760px){.cs-track{gap:12px;}}
+    .cs-allcases{display:flex;justify-content:center;margin-top:20px;}
+    .cs-allcases-btn{display:inline-flex;align-items:center;gap:9px;background:rgba(47,111,237,.12);
+      border:1px solid rgba(47,111,237,.35);border-radius:100px;padding:13px 26px;
+      font-size:15px;font-weight:700;color:var(--accent2);transition:background .2s,transform .2s,border-color .2s;}
+    .cs-allcases-btn:hover{background:rgba(47,111,237,.2);border-color:rgba(47,111,237,.55);transform:translateY(-1px);}
+    .cs-doorlink{padding:0 26px 24px;}
+    .cs-doorlink a{font-size:14.5px;font-weight:700;color:var(--accent2);}
+    .cs-doorlink a:hover{text-decoration:underline;text-underline-offset:3px;}
+    @media(max-width:760px){.cs-track{gap:12px;}.cs-doorlink{padding:0 20px 20px;}}
   </style>
   <div class="case-inner">
     <div class="case-header reveal">
@@ -2562,8 +2570,8 @@ footer { border-top: none !important; }
 
     <div class="cs-carousel reveal">
       <div class="cs-track" id="csTrack" tabindex="0" role="group" aria-roledescription="carousel" aria-label="Klantcases">
-        <div class="cs-card" role="group" aria-roledescription="slide" aria-label="Case 1 van 2">
-          <div class="brw-bar"><span class="brw-dots"><i></i><i></i><i></i></span><span class="brw-url"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg> link2leads.nl/resultaten/softwarebedrijf</span><span class="brw-tag">Case</span></div>
+        <div class="cs-card" role="group" aria-roledescription="slide" aria-label="Case 1 van 3">
+          <div class="brw-bar"><span class="brw-dots"><i></i><i></i><i></i></span><span class="brw-url"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg> link2leads.nl/cases/softwarebedrijf</span><span class="brw-tag">Case</span></div>
           <div class="cs-lead">
             <span class="cs-lab">Case study</span>
             <h3><span class="blue">&euro;84.000 pipeline</span> uit &euro;5.085 campagne-investering</h3>
@@ -2582,28 +2590,53 @@ footer { border-top: none !important; }
             &ldquo;Ik had nooit verwacht dat e-mail tegenwoordig nog zoveel impact kon hebben. Demi en Anne-Roos weten waar ze het over hebben en zorgen voor een sterk resultaat.&rdquo;
             <span class="cs-by"><img class="rv-logo" src="data:image/jpeg;base64,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" alt="Nafite" width="30" height="30"><span>Lodewijk, oprichter</span></span>
           </div>
+          <div class="cs-doorlink"><a href="/cases/softwarebedrijf">Lees de volledige case &rarr;</a></div>
         </div>
 
-        <div class="cs-card" role="group" aria-roledescription="slide" aria-label="Case 2 van 2">
-          <div class="brw-bar"><span class="brw-dots"><i></i><i></i><i></i></span><span class="brw-url"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg> link2leads.nl/resultaten/trainingsbedrijf</span><span class="brw-tag">Case</span></div>
+        <div class="cs-card" role="group" aria-roledescription="slide" aria-label="Case 2 van 3">
+          <div class="brw-bar"><span class="brw-dots"><i></i><i></i><i></i></span><span class="brw-url"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg> link2leads.nl/cases/miju-marketing</span><span class="brw-tag">Case</span></div>
           <div class="cs-lead">
             <span class="cs-lab">Case study</span>
             <h3><span class="blue">15 positieve reacties</span> in de eerste twee weken</h3>
-            <p class="cs-context">Trainingsbedrijf &middot; Growth-pakket &middot; 14 dagen &middot; &euro;1.295 per maand</p>
+            <p class="cs-context">MIJU-marketing &middot; Growth-pakket &middot; 14 dagen &middot; &euro;1.295 per maand</p>
           </div>
           <div class="cs-stats">
             <div><b>15</b><span>Positieve reacties</span></div>
-            <div><b>7,9%</b><span>Reply rate op het grootste segment</span></div>
+            <div><b>14</b><span>Dagen tot de vijftiende reactie</span></div>
             <div><b>3</b><span>Segmenten met een eigen boodschap</span></div>
           </div>
           <div class="cs-do">
             <h4>Wat we deden</h4>
-            <p>Drie heel verschillende koperstypes zaten in dezelfde doelgroep, en een campagne die alle drie tegelijk aansprak sprak niemand echt aan. Wij hebben de doelgroep opgesplitst in drie aparte campagnes, elk met een eigen lijst en een eigen insteek, verstuurd vanaf persoonlijke afzenderadressen. <a href="/kennis/hoeveel-reacties-op-30000-mails">De uitsplitsing per segment &rarr;</a></p>
+            <p>Drie heel verschillende koperstypes zaten in dezelfde doelgroep, en een campagne die alle drie tegelijk aansprak sprak niemand echt aan. Wij hebben de doelgroep opgesplitst in drie aparte campagnes, elk met een eigen lijst en een eigen insteek, verstuurd vanaf persoonlijke afzenderadressen.</p>
           </div>
           <div class="cs-quote">
             &ldquo;Snel opgezet, ze denken goed mee en begrijpen precies onze USP&rsquo;s en ideale doelgroep. Na 15 dagen stroomden de positieve reacties al binnen.&rdquo;
             <span class="cs-by"><img class="rv-logo" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA4ADgDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAYHBAUIAQP/xAAzEAABAwQABAQDBwUBAAAAAAABAgMEAAUGEQcSITETIkFhFVFxCBQjJDJCgRZSYqHB0f/EABkBAAMBAQEAAAAAAAAAAAAAAAAEBQIDBv/EACkRAAEDAwIFAwUAAAAAAAAAAAEAAgMEESESMQUiQWFxI1GhJDLB0fD/2gAMAwEAAhEDEQA/AOVKUpQhKUpQhKzIduky4kuU03+WipCnXT0SnZ0kb+ZPYf8AlbzAcNn5jdRHiAtRGyDIkqHlbH/VH0FS/jOuBj8O2YfY0BuNHH3qUf3OOEaSVH1Otn+RU+WvaKhtJHl5yew9z56JplMTEZn4aNu5VUUpSqCVVn8FeFrXEhF7ckXtNpatiWlqWpjxAoL5u/mGtcv+6iucYhOxTOJ+MvBUiVHfDTSko14wVooUB/kCOnvVrfZ12OG3FwpJBFo2CPT8N6rDxu3W3PE4ZxWujrQbsUF0XoHut+MNtq16nZKvpyihCgGUfZ3+AWm2yXMlQ9JkXCJbn2URejDjykg9efry8wPYb9qis3g7OY4l3LGWJZfgW5Tf3i4FrkACkJXoJ2fN5ta371b+NXyVk/CiHepR/Mz86jvkHqE7fb5U/QDQ/ipqVy71nWTWaFGcfn2wtOSnilLbbhcQCnR33100f7alcWqaqCH6SMucevt3t17fKcoooZJPWdYD5XxxTD4Noxe1t2pSY8V6YmIEcm1FRJBWpW+p6VyvxqsdwsnEm/MXBbsnUjaZSmS2lwFIICe/QA67+ldmSm149jViZuvK0+m6okKbSoKKUAkk9PkCK0/E3G8jnqnvYxbYt1+IlPgrddQGmtpAKlhR6ga3ob3UuijNJzxR6pXadVzkXFyTe9s7p2ocJ+V77MF7Yxjb4XJvEjh9/RlixK4/Efvnx6EJnh+DyeD5UHl3s836+/TtSp59qiTEinCsZamMy7hZLb4ExTJHKlZCBrp2PkJ16AilepUZUbHlyY7brceQ8026OVxKFlIWPkQO/c161OltRXIzUp9EdzqtpLhCFfUdjWPShCyWp8tphLLUp9DKVhwNpcISFDsrW+/vUy4UQrlkGeRgmdNQE/jynkPKCyhOuhUDvqdD+aglXxwwVBwHh3IyW8DUi4q/Aa/e4kb5Ej6nZJ+WjUzi9S+npiIsvdyt8n9bpyhhbLKNf2jJ8BT3iFlULELQqZMWZU94FMZlayVOK+Z31CR6muZpWWX+RJkvG7z2zIUVLQ0+tCDv05Qda9q+eV5DOye8vXK5Oczi+iED9LafRKfYVp648H4UKCPU83kdufwP7K3XVhqXWbho2C9UorUVKJUonZJOyTSvKVZSCUpShCyba2w7PYRMdLUXmBdWBshI76HqddvetxmmTSMluKHFJ8CDHQGYkVJ8rLY6AfXoNmlK5GJrpBIdxt2vuth5DS0bFR6lKV1WEpSlCF//2Q==" alt="MIJU-marketing" width="30" height="30"><span>Micah, MIJU-marketing</span></span>
           </div>
+          <div class="cs-doorlink"><a href="/cases/miju-marketing">Lees de volledige case &rarr;</a></div>
+        </div>
+
+        <div class="cs-card" role="group" aria-roledescription="slide" aria-label="Case 3 van 3">
+          <div class="brw-bar"><span class="brw-dots"><i></i><i></i><i></i></span><span class="brw-url"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg> link2leads.nl/cases/neuropage</span><span class="brw-tag">Case</span></div>
+          <div class="cs-lead">
+            <span class="cs-lab">Case study</span>
+            <h3>Een eigen landingspagina <span class="blue">per prospect</span></h3>
+            <p class="cs-context">Onze eigen campagnes &middot; met Neuropage en Smartlead &middot; 8 weken</p>
+          </div>
+          <div class="cs-stats">
+            <div><b>1.240</b><span>Prospects met een eigen pagina</span></div>
+            <div><b>34%</b><span>Opende zijn eigen pagina</span></div>
+            <div><b>27</b><span>Afspraken in acht weken</span></div>
+          </div>
+          <div class="cs-do">
+            <h4>Wat we deden</h4>
+            <p>We staken veel werk in het persoonlijk maken van de mail en stuurden vervolgens iedereen die klikte naar dezelfde pagina. Nu krijgt elke prospect een pagina die alleen over zijn eigen bedrijf gaat, automatisch gemaakt en automatisch in de mail gezet. <a href="/cases/neuropage">Hoe dat werkt &rarr;</a></p>
+          </div>
+          <div class="cs-quote">
+            &ldquo;Mensen reageerden om te zeggen hoe persoonlijk het was. Dat gebeurt normaal nooit bij koude e-mail.&rdquo;
+            <span class="cs-by"><span>Demi, oprichter Link2Leads</span></span>
+          </div>
+          <div class="cs-doorlink"><a href="/cases/neuropage">Lees de volledige case &rarr;</a></div>
         </div>
       </div>
 
@@ -2612,7 +2645,8 @@ footer { border-top: none !important; }
         <div class="cs-dots" id="csDots"></div>
         <button class="cs-arrow" id="csNext" aria-label="Volgende case">&rarr;</button>
       </div>
-      <p class="cs-swipe">Swipe of gebruik de pijlen om beide cases te bekijken.</p>
+      <p class="cs-swipe">Swipe of gebruik de pijlen.</p>
+      <div class="cs-allcases"><a href="/cases" class="cs-allcases-btn">Bekijk alle cases <span aria-hidden="true">&rarr;</span></a></div>
     </div>
   </div>
   <script>
@@ -3534,7 +3568,7 @@ footer { border-top: none !important; }
     </details>
     <details class="faq-item">
       <summary>Hoeveel reacties kan ik verwachten?</summary>
-      <p>Dat hangt af van hoe scherp je doelgroep is afgebakend. Onze best draaiende campagne zit op 7,9% reply rate; binnen een campagne van 18.594 contactpersonen liep dat per segment uiteen van 2,3% tot 7,8% bij dezelfde copy. In de fitcheck rekenen we het door op jouw doelgroep. <a href="/kennis/hoeveel-reacties-op-30000-mails" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">De cijfers →</a></p>
+      <p>Dat hangt af van hoe scherp je doelgroep is afgebakend. Onze best draaiende campagne zit op 9,1% reply rate; binnen een campagne van 18.594 contactpersonen liep dat per segment uiteen van 2,3% tot 7,8% bij dezelfde copy. In de fitcheck rekenen we het door op jouw doelgroep. <a href="/kennis/hoeveel-reacties-op-30000-mails" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">De cijfers →</a></p>
     </details>
     <details class="faq-item">
       <summary>Wat bespreken we in de fitcheck?</summary>
@@ -3654,6 +3688,7 @@ footer { border-top: none !important; }
       <ul class="foot-col-links">
         <li><a href="#zowerkthet">Zo werkt het</a></li>
         <li><a href="#resultaten">Resultaten</a></li>
+        <li><a href="/cases">Cases en resultaten</a></li>
         <li><a href="#pakketten">Pakketten en prijzen</a></li>
         <li><a href="#marktscan">Gratis marktscan</a></li>
         <li><a href="/book" target="_blank">Gratis fitcheck</a></li>

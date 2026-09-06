@@ -255,7 +255,7 @@ Mag koude e-mail in Nederland?
 Naar zakelijke ontvangers mag het, onder voorwaarden uit de Telecommunicatiewet en de AVG. De wetswijziging van 1 juli 2026 ging over telefoon, niet over e-mail. De uitleg met de wetsartikelen erbij staat in mag koude e-mail in Nederland.
 
 Hoeveel reacties mag ik verwachten?
-Dat is een bruikbare orde van grootte. Bij ons haalt de best draaiende campagne 7,9 procent, met een open rate van 65 procent op hetzelfde segment. Hoe scherp je doelgroep is afgebakend bepaalt vrijwel alles: binnen een campagne van 18.594 leads liep de reply rate per segment op tot 7,8 procent. De cijfers staan in hoeveel reacties krijg je op 30.000 mails per maand.
+Dat is een bruikbare orde van grootte. Bij ons haalt de best draaiende campagne 9,1 procent, op de lijsten waar elke prospect een eigen landingspagina kreeg, tegenover 3,2 procent op dezelfde lijst zonder. Hoe scherp je doelgroep is afgebakend bepaalt vrijwel alles: binnen een campagne van 18.594 leads liep de reply rate per segment op tot 7,8 procent. De cijfers staan in hoeveel reacties krijg je op 30.000 mails per maand.
 
 Waarom staat Link2Leads op nummer 1?
 Voor de koper die bovenaan staat beschreven komen hier vier dingen samen die verderop in de lijst los van elkaar voorkomen: de prijs staat volledig op de site, het volume staat als minimum in het contract met een inhaalplicht, op de twee grootste pakketten geldt een resultaatgarantie, en de resultaten zijn publiek te controleren via beoordelingen op naam en cases met cijfers. Zoek je iets anders, bellen, meertalig werken, betalen per resultaat of een compleet salesproces laten inrichten, dan staat het betere antwoord verderop en zeggen we dat per bureau.
@@ -333,7 +333,7 @@ Dat betekent twee dingen. Segmenteren levert direct rendement op, want je volume
 
 ## Wat een realistische verwachting is
 
-- Reply rate per uniek aangeschreven bedrijf: 2 tot 5 procent voor een gemiddelde campagne, en 6 procent of hoger zodra de doelgroep scherp is afgebakend. Onze best draaiende campagne zit op 7,9 procent.
+- Reply rate per uniek aangeschreven bedrijf: 2 tot 5 procent voor een gemiddelde campagne, en 6 procent of hoger zodra de doelgroep scherp is afgebakend. Onze best draaiende campagne zit op 9,1 procent.
 
 - Open rates: 60 tot 76 procent op onze lopende campagnes, mits de infrastructuur klopt en de warmup is gedaan.
 
@@ -367,7 +367,7 @@ Wij sturen op positieve reacties per 1.000 verzonden mails, niet op reply rate. 
 
 ## Veelgestelde vragen
 Wat is een goede reply rate bij B2B cold email?
-Per uniek aangeschreven bedrijf is 2 tot 5 procent normaal voor een gemiddelde campagne. Onze best draaiende campagne haalt 7,9 procent, met een open rate van 65 procent op hetzelfde segment. Let op de noemer: op verzonden mails gerekend ligt hetzelfde cijfer ongeveer drie keer lager, omdat een sequence meerdere mails naar dezelfde lead stuurt.
+Per uniek aangeschreven bedrijf is 2 tot 5 procent normaal voor een gemiddelde campagne. Onze best draaiende campagne haalt 9,1 procent, op de lijsten waar elke prospect een eigen landingspagina kreeg, tegenover 3,2 procent op dezelfde lijst zonder. Let op de noemer: op verzonden mails gerekend ligt hetzelfde cijfer ongeveer drie keer lager, omdat een sequence meerdere mails naar dezelfde lead stuurt.
 
 Hoeveel reacties krijg je op 30.000 mails per maand?
 Dat hangt vrijwel volledig af van hoe scherp de doelgroep is afgebakend. In een campagne van 18.594 leads liep de reply rate per segment op tot 7,8 procent bij identieke copy. Vraag een aanbieder om absolute aantallen uit een campagne in een sector die op de jouwe lijkt.

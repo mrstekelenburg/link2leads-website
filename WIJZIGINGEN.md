@@ -176,3 +176,66 @@ De hero stapelde nog steeds op een half scherm. Reden: mijn grens lag op 861px e
 3. **Marit** staat nu als naam boven de review van DefDigital, ook in de structured data.
 
 Op tablet twee kolommen, op mobiel een. 4 nieuwe Engelse sleutels, dictionary staat op 1965.
+
+---
+
+# Casepagina's, 6 september 2026
+
+## Gekozen opzet: overzichtspagina plus drie losse pagina's
+
+Niet alles op een pagina en ook niet alleen losse pagina's, maar allebei. `/cases` is het overzicht, en elke case heeft daarnaast een eigen URL. Reden: elke case kan los ranken op zijn eigen zoekwoorden, je kunt in een mail of een gesprek een enkele case sturen zonder dat iemand langs de andere twee moet scrollen, en het overzicht is kort genoeg om in de nav te hangen. Alles op een pagina zou een van de drie de eerste plek geven en de andere twee onder de vouw duwen.
+
+## Nieuw
+
+| Bestand | URL | Wat |
+|---|---|---|
+| `cases/index.html` | `/cases` | Overzicht met drie cases, cijferstrip bovenaan, doorklik per case |
+| `cases/softwarebedrijf.html` | `/cases/softwarebedrijf` | 84.000 pipeline uit 5.085 campagne-investering |
+| `cases/trainingsbedrijf.html` | `/cases/trainingsbedrijf` | 15 positieve reacties in de eerste twee weken |
+| `cases/neuropage.html` | `/cases/neuropage` | Een eigen landingspagina per prospect |
+
+De twee bestaande cases staan er inhoudelijk in zoals ze op de homepage stonden. Wat erbij is gekomen is de context: de situatie vooraf, de stappen die we hebben gezet en een feitentabel met investering, doorlooptijd en uitkomst. Geen nieuwe cijfers verzonnen.
+
+De hub staat als `cases/index.html`, niet als `cases.html` naast een map `cases/`. Dat voorkomt de dubbelzinnigheid die bij `/kennis` nog wel bestaat.
+
+## Neuropage-case
+
+Deze gaat over onze eigen campagnes, niet over een klant, en is als zodanig gelabeld: "Onze eigen campagnes". De cijfers komen uit de case study die Neuropage over Link2Leads publiceerde, met bronlink onderaan de pagina.
+
+- 1.240 prospects met een eigen pagina
+- 34 procent opende zijn eigen pagina
+- 9,1 procent reply rate, tegenover 3,2 procent op dezelfde lijst zonder persoonlijke pagina
+- 27 afspraken in acht weken, drie nieuwe klanten op retainer
+
+**Punt om over te beslissen:** die 9,1 procent staat naast de 7,9 procent die elders op de site het beste segment van de best draaiende campagne heet. Beide kunnen kloppen (andere campagnes, andere meting), maar een prospect die beide leest kan erover struikelen. Op de casepagina staat er nu bij waar het cijfer vandaan komt en waartegen het is afgezet. Wil je het scherper, dan zijn er twee opties: de zin op de homepage over de hoogste reply rate herformuleren, of het cijfer 9,1 van de casepagina halen en alleen het verschil ten opzichte van 3,2 noemen.
+
+## Aangepast
+
+1. **Homepage-carousel**: derde slide erbij (Neuropage), doorkliklink onder elke kaart, en de nep-URL's in de browserbalk kloppen nu met de echte pagina's (`/cases/...` in plaats van `/resultaten/...`). Onder de carousel staat "Alle cases op een rij".
+2. **Nav op de subpagina's**: "Resultaten" wijst nu naar `/cases` in plaats van naar de anker op de homepage. Op de homepage zelf blijft het een anker, want daar staat de sectie gewoon op de pagina.
+3. **Footer**: regel "Cases en resultaten" naar `/cases`, in alle pagina's.
+4. **`assets/l2l-page.css`**: blok CASES onderaan, dezelfde tokens en dezelfde kaartstijl als de rest. Geen enkele bestaande regel aangeraakt.
+5. **`sitemap.xml`**: vier URL's erbij, `/cases` op prioriteit 0,9.
+6. **`vercel.json`**: redirects `/resultaten`, `/case-studies` en `/cases/index` naar `/cases`.
+7. **`llms.txt`**: de vier pagina's toegevoegd aan de lijst met belangrijkste pagina's, met de kerncijfers erbij.
+
+## Nog een punt om over te beslissen
+
+Op de tweede case staat het label **Trainingsbedrijf** boven een quote van **Micah van MIJU-marketing**. Die combinatie stond zo al op de homepage. Op een losse pagina valt hij eerder op. Zeg je welk van de twee klopt, dan pas ik of het label of de quote aan.
+
+## Schrijfstijl
+
+Geen em dashes, geen nadruksaccenten, geen "niet X, maar Y". Het woord ruis komt er niet in voor. Loop de teksten nog even langs je eigen verbodenwoordenlijst, die zit niet in deze sessie.
+
+## Voor je pusht
+
+De pagina's zijn getest op een lokale server: geen dode interne links, geen horizontale scroll op mobiel, JSON-LD valideert, HTML sluit netjes. Wat je zelf nog moet checken na de eerste deploy is of `/cases` en `/cases/neuropage` allebei laden op de preview-URL.
+
+## Ronde 2, 6 september 2026
+
+1. **Case 2 is nu MIJU-marketing.** Het label Trainingsbedrijf is eruit, de quote van Micah blijft. De pagina heet `/cases/miju-marketing`, met een permanente redirect vanaf `/cases/trainingsbedrijf`. Doorgevoerd op de homepagekaart, de hub, de sitemap, llms.txt en de i18n-sleutels.
+2. **De 7,9 procent is van die case af gehaald.** Dat cijfer hoort bij het trainingsbureau uit het kennisartikel (2.100 verzonden, 1.224 geopend, 167 reacties), niet bij MIJU. Het is vervangen door 14 dagen tot de vijftiende positieve reactie. Ik heb er geen reply rate voor MIJU voor in de plaats gezet, want die heb ik niet. Heb je hem wel, dan zet ik hem er alsnog in.
+3. **De hoogste reply rate is overal 9,1 procent.** Aangepast op de homepage-FAQ, de vergelijkingspagina, het kennisartikel, llms.txt, llms-full.txt en de EN-vertalingen. Er staat nu telkens bij waar het cijfer vandaan komt: de lijsten waar elke prospect een eigen landingspagina kreeg, tegenover 3,2 procent op dezelfde lijst zonder.
+4. **De segmenttabel in het kennisartikel blijft staan zoals hij is.** Daar staat 7,9 procent voor het segment coaches, therapeuten en trainers, en dat volgt uit de aantallen ernaast. Dat spreekt de 9,1 niet tegen: het is een segment, geen campagnerecord.
+5. **Knop onder de carousel.** "Bekijk alle cases" naar `/cases`, in dezelfde stijl als de andere secundaire knoppen.
+6. **Link naar de segmentuitsplitsing losgekoppeld van de MIJU-case**, want die cijfers gaan over een andere klant.

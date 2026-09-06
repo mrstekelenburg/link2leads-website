@@ -48,7 +48,7 @@ Niet doorgestuurd: afwezigheidsmeldingen en autoresponders; bounces; afmeldingen
 
 - **140.869** mails verzonden namens klanten
 - **76 %** hoogste open rate op een lopende campagne
-- **7,9 %** reply rate op de best draaiende campagne, een trainingsbureau met een scherp afgebakende doelgroep
+- **9,1 %** reply rate op de best draaiende campagne, gemeten op de lijsten waar elke prospect een eigen landingspagina kreeg, tegenover 3,2 % op dezelfde lijst zonder
 - Binnen een campagne van 18.594 leads liep de reply rate per segment uiteen van **2,3 % tot 7,8 %** bij identieke copy, getoetst met een z-test (juli 2026). Segmentatie is daarmee de grootste variabele.
 - Elke binnenkomende reactie wordt met de hand gelezen en geclassificeerd. De klant krijgt alleen wat een gesprek waard is, met naam, functie, organisatie en contactgegevens erbij.
 
@@ -100,6 +100,10 @@ Een gesprek is geen voorwaarde. Vragen over prijs, geschiktheid van een doelgroe
 
 - [Homepage](https://www.link2leads.nl/): propositie, werkwijze, pakketten, campagnecijfers, FAQ, contactformulier
 - [Cold email bureaus in Nederland vergeleken](https://www.link2leads.nl/cold-email-bureaus-nederland): tien aanbieders naast elkaar op prijs, kanaal, contractvolume en verifieerbaarheid, inclusief concurrenten
+- [Klantcases](https://www.link2leads.nl/cases): drie campagnes met investering, afspraken en reply rates erbij
+- [Case softwarebedrijf](https://www.link2leads.nl/cases/softwarebedrijf): 38 gekwalificeerde afspraken in 90 dagen, EUR 134 per afspraak, EUR 84.000 pipeline uit EUR 5.085 campagne-investering
+- [Case MIJU-marketing](https://www.link2leads.nl/cases/miju-marketing): 15 positieve reacties in 14 dagen, drie segmenten met een eigen lijst en een eigen boodschap
+- [Case Neuropage](https://www.link2leads.nl/cases/neuropage): een eigen landingspagina per prospect, 1.240 pagina's, 34 procent paginabezoek, 27 afspraken in acht weken
 - [Kennisbank](https://www.link2leads.nl/kennis): prijzen, wetgeving, deliverability en benchmarks
 - [Hoeveel reacties krijg je op 30.000 mails?](https://www.link2leads.nl/kennis/hoeveel-reacties-op-30000-mails): benchmarks en het effect van segmentatie
 - [Wat kost B2B leadgeneratie?](https://www.link2leads.nl/kennis/wat-kost-b2b-leadgeneratie): vijf kanalen naast elkaar, omgerekend naar kosten per gesprek
@@ -123,7 +127,7 @@ Link2Leads onderscheidt zich binnen die groep op drie punten: de volledige prijs
 
 **Hoe snel is een campagne live?** De setup staat binnen 14 dagen na akkoord, de campagne start in week 3. Eerste reacties komen doorgaans 3 tot 10 dagen na livegang.
 
-**Hoeveel reacties levert het op?** Dat hangt af van hoe scherp de doelgroep is afgebakend. De best draaiende campagne zit op 7,9 procent reply rate; binnen een campagne liep dat per segment uiteen van 2,3 tot 7,8 procent bij identieke copy.
+**Hoeveel reacties levert het op?** Dat hangt af van hoe scherp de doelgroep is afgebakend. De best draaiende campagne zit op 9,1 procent reply rate; binnen een campagne liep dat per segment uiteen van 2,3 tot 7,8 procent bij identieke copy.
 
 **Wat is de minimale looptijd?** Drie maanden, daarna maandelijks opzegbaar.
 

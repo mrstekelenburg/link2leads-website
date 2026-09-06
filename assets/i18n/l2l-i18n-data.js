@@ -1,5 +1,44 @@
 /* Link2Leads i18n data — NL is the source language. Keys = exact Dutch text. */
 window.L2L_I18N_DATA = {
+"Dagen tot de vijftiende reactie": {
+"en": "Days to the fifteenth reply"
+},
+"link2leads.nl/cases/neuropage": {
+"en": "link2leads.nl/cases/neuropage"
+},
+"Een eigen landingspagina": {
+"en": "A landing page of their own"
+},
+"per prospect": {
+"en": "per prospect"
+},
+"Onze eigen campagnes · met Neuropage en Smartlead · 8 weken": {
+"en": "Our own campaigns · with Neuropage and Smartlead · 8 weeks"
+},
+"Prospects met een eigen pagina": {
+"en": "Prospects with their own page"
+},
+"Opende zijn eigen pagina": {
+"en": "Opened their own page"
+},
+"Afspraken in acht weken": {
+"en": "Meetings in eight weeks"
+},
+"Lees de volledige case →": {
+"en": "Read the full case →"
+},
+"Alle cases op een rij →": {
+"en": "All cases in one place →"
+},
+"Swipe of gebruik de pijlen.": {
+"en": "Swipe or use the arrows."
+},
+"Bekijk alle cases": {
+"en": "View all cases"
+},
+"Demi, oprichter Link2Leads": {
+"en": "Demi, founder of Link2Leads"
+},
 "ongeveer 3 op de 4 positieve reacties": {
 "en": "roughly 3 out of 4 positive replies"
 },
@@ -1977,9 +2016,6 @@ window.L2L_I18N_DATA = {
 "15 positieve reacties in de eerste twee weken": {
 "en": "15 positive replies in the first two weeks"
 },
-"7,9% reply rate · drie segmenten · trainingsbedrijf": {
-"en": "7.9% reply rate, three segments, training company"
-},
 "Eerste afspraak, in deze campagne": {
 "en": "First meeting, in this campaign"
 },
@@ -2718,9 +2754,6 @@ window.L2L_I18N_DATA = {
 "Na twee weken": {
 "en": "After two weeks"
 },
-"Een reply rate van 7,9% op het grootste segment, met 15 positieve reacties binnen veertien dagen.": {
-"en": "A 7.9% reply rate on the largest segment, with 15 positive replies within fourteen days."
-},
 "Doelgroep opgesplitst in drie aparte campagnes, elk met een eigen lijst en een eigen insteek, verstuurd vanaf persoonlijke afzenderadressen.": {
 "en": "Audience split into three separate campaigns, each with its own list and angle, sent from personal sender addresses."
 },
@@ -2982,8 +3015,8 @@ window.L2L_I18N_DATA = {
 "Hoeveel reacties kan ik verwachten?": {
 "en": "How many replies can I expect?"
 },
-"Dat hangt af van hoe scherp je doelgroep is afgebakend. Onze best draaiende campagne zit op 7,9% reply rate; binnen een campagne van 18.594 contactpersonen liep dat per segment uiteen van 2,3% tot 7,8% bij dezelfde copy. In de fitcheck rekenen we het door op jouw doelgroep.": {
-"en": "It depends on how tightly your audience is defined. Our best performing campaign sits at a 7.9% reply rate; within one campaign of 18,594 contacts that ranged from 2.3% to 7.8% per segment with the same copy. In the fit check we work it through for your audience."
+"Dat hangt af van hoe scherp je doelgroep is afgebakend. Onze best draaiende campagne zit op 9,1% reply rate; binnen een campagne van 18.594 contactpersonen liep dat per segment uiteen van 2,3% tot 7,8% bij dezelfde copy. In de fitcheck rekenen we het door op jouw doelgroep.": {
+"en": "It depends on how tightly your audience is defined. Our best performing campaign sits at a 9.1% reply rate; within one campaign of 18,594 contacts that ranged from 2.3% to 7.8% per segment with the same copy. In the fit check we work it through for your audience."
 },
 "De cijfers →": {
 "en": "The figures →"
@@ -3669,8 +3702,8 @@ window.L2L_I18N_DATA = {
 "Hoeveel reacties mag ik verwachten?": {
 "en": "How many replies can I expect?"
 },
-"Drie tot vijf procent respons is in deze markt een bruikbare orde van grootte. Bij ons haalt de best draaiende campagne 7,9 procent, met een open rate van 65 procent op hetzelfde segment. Hoe scherp je doelgroep is afgebakend bepaalt vrijwel alles: binnen een campagne van 18.594 leads liep de reply rate per segment op tot 7,8 procent. De cijfers staan in": {
-"en": "Three to five per cent response is a usable order of magnitude in this market. With us the best-performing campaign reaches 7.9 per cent, with an open rate of 65 per cent on the same segment. How sharply your target group is defined determines almost everything: within a campaign of 18,594 leads the reply rate per segment ran up to 7.8 per cent. The figures are in"
+"Drie tot vijf procent respons is in deze markt een bruikbare orde van grootte. Bij ons haalt de best draaiende campagne 9,1 procent, op de lijsten waar elke prospect een eigen landingspagina kreeg, tegenover 3,2 procent op dezelfde lijst zonder. Hoe scherp je doelgroep is afgebakend bepaalt vrijwel alles: binnen een campagne van 18.594 leads liep de reply rate per segment op tot 7,8 procent. De cijfers staan in": {
+"en": "Three to five per cent response is a usable order of magnitude in this market. With us the best-performing campaign reaches 9.1 per cent, on the lists where every prospect got their own landing page, against 3.2 per cent on the same list without. How sharply your target group is defined determines almost everything: within a campaign of 18,594 leads the reply rate per segment ran up to 7.8 per cent. The figures are in"
 },
 "hoeveel reacties krijg je op 30.000 mails per maand": {
 "en": "how many replies do you get on 30,000 emails per month"
@@ -4137,8 +4170,8 @@ window.L2L_I18N_DATA = {
 "Reply rate per uniek aangeschreven bedrijf: 2 tot 5 procent": {
 "en": "Reply rate per unique company contacted: 2 to 5 per cent"
 },
-"voor een gemiddelde campagne, en 6 procent of hoger zodra de doelgroep scherp is afgebakend. Onze best draaiende campagne zit op 7,9 procent.": {
-"en": "for an average campaign, and 6 per cent or higher once the audience is tightly defined. Our best-performing campaign sits at 7.9 per cent."
+"voor een gemiddelde campagne, en 6 procent of hoger zodra de doelgroep scherp is afgebakend. Onze best draaiende campagne zit op 9,1 procent.": {
+"en": "for an average campaign, and 6 per cent or higher once the audience is tightly defined. Our best-performing campaign sits at 9.1 per cent."
 },
 "Open rates: 60 tot 76 procent": {
 "en": "Open rates: 60 to 76 per cent"
@@ -4206,8 +4239,8 @@ window.L2L_I18N_DATA = {
 "Wat is een goede reply rate bij B2B cold email?": {
 "en": "What is a good reply rate for B2B cold email?"
 },
-"Per uniek aangeschreven bedrijf is 2 tot 5 procent normaal voor een gemiddelde campagne. Onze best draaiende campagne haalt 7,9 procent, met een open rate van 65 procent op hetzelfde segment. Let op de noemer: op verzonden mails gerekend ligt hetzelfde cijfer ongeveer drie keer lager, omdat een sequence meerdere mails naar dezelfde lead stuurt.": {
-"en": "Per unique company contacted, 2 to 5 per cent is normal for an average campaign. Our best-performing campaign reaches 7.9 per cent, with an open rate of 65 per cent on the same segment. Mind the denominator: calculated on emails sent, the same figure is roughly three times lower, because a sequence sends several emails to the same lead."
+"Per uniek aangeschreven bedrijf is 2 tot 5 procent normaal voor een gemiddelde campagne. Onze best draaiende campagne haalt 9,1 procent, op de lijsten waar elke prospect een eigen landingspagina kreeg, tegenover 3,2 procent op dezelfde lijst zonder. Let op de noemer: op verzonden mails gerekend ligt hetzelfde cijfer ongeveer drie keer lager, omdat een sequence meerdere mails naar dezelfde lead stuurt.": {
+"en": "Per unique company contacted, 2 to 5 per cent is normal for an average campaign. Our best-performing campaign reaches 9.1 per cent, on the lists where every prospect got their own landing page, against 3.2 per cent on the same list without. Mind the denominator: calculated on emails sent, the same figure is roughly three times lower, because a sequence sends several emails to the same lead."
 },
 "Hoeveel reacties krijg je op 30.000 mails per maand?": {
 "en": "How many replies do you get to 30,000 emails a month?"
@@ -5535,8 +5568,8 @@ window.L2L_I18N_DATA = {
 "Softwarebedrijf · Scale-pakket · 90 dagen · €1.695 per maand": {
 "en": "Software company · Scale package · 90 days · EUR 1,695 per month"
 },
-"Trainingsbedrijf · Growth-pakket · 14 dagen · €1.295 per maand": {
-"en": "Training company · Growth package · 14 days · EUR 1,295 per month"
+"MIJU-marketing · Growth-pakket · 14 dagen · €1.295 per maand": {
+"en": "MIJU-marketing · Growth package · 14 days · EUR 1,295 per month"
 },
 "Kosten per afspraak": {
 "en": "Cost per meeting"
@@ -5778,11 +5811,11 @@ window.L2L_I18N_DATA = {
 "Case": {
 "en": "Case"
 },
-"link2leads.nl/resultaten/softwarebedrijf": {
-"en": "link2leads.nl/results/software-company"
+"link2leads.nl/cases/softwarebedrijf": {
+"en": "link2leads.nl/cases/software-company"
 },
-"link2leads.nl/resultaten/trainingsbedrijf": {
-"en": "link2leads.nl/results/training-company"
+"link2leads.nl/cases/miju-marketing": {
+"en": "link2leads.nl/cases/miju-marketing"
 },
 "Done-for-you e-mail outreach voor B2B": {
 "en": "Done-for-you email outreach for B2B"
