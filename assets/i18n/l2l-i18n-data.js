@@ -2034,7 +2034,7 @@ window.L2L_I18N_DATA = {
 "Wij vinden je doelgroep": {
 "en": "We find your audience"
 },
-"We beginnen bij je beste klanten en bouwen daar het profiel omheen. Elk adres wordt gecontroleerd voordat er iets uitgaat.": {
+"We beginnen bij je beste klanten en bouwen daar het profiel omheen. Elk adres wordt geverifieerd voordat er iets uitgaat.": {
 "en": "We start from your best clients and build the profile around them. Every address is verified before anything goes out."
 },
 "Wij schrijven de campagnes": {
@@ -2232,7 +2232,6 @@ window.L2L_I18N_DATA = {
 "Je ziet welke segmenten het best reageren en wat we de komende maand aanpassen. De reacties zelf komen direct in je mailbox, dus je hoeft nergens voor in te loggen.": {
 "en": "You see which segments respond best and what we will change next month. The replies themselves land straight in your inbox, so there is nothing to log into."
 },
-"De eerste vraag bij koude e-mail is of je markt groot genoeg is. Wij rekenen het voor je uit en zeggen het eerlijk als het antwoord nee is. Je krijgt er een gratis deliverability-check bij, ook als je nu bij een andere partij zit.": {
 "en": "The first question with cold email is whether your market is big enough. We work it out for you and say so honestly if the answer is no. You also get a free deliverability check, even if you are with another provider."
 },
 "Hoeveel bedrijven er in jouw doelgroep passen, verdeeld over regio en bedrijfsgrootte": {
@@ -2244,7 +2243,6 @@ window.L2L_I18N_DATA = {
 "Welk maandvolume realistisch is en hoe lang je erop kunt draaien": {
 "en": "What monthly volume is realistic and how long you can run on it"
 },
-"Plus: een deliverability-check op je huidige setup": {
 "en": "Plus: a deliverability check on your current setup"
 },
 "Week 1 en 2 zijn setup en warmup, in week 3 ga je live. De eerste reacties komen doorgaans binnen drie tot tien dagen na livegang, in enkele campagnes al op dag 1. Vanaf maand 2 sturen we bij op de segmenten die reageren.": {
@@ -2445,8 +2443,8 @@ window.L2L_I18N_DATA = {
 "Dat werkt, tot het even stilvalt. Je weet nooit precies wat de volgende maand brengt, en je kunt het niet aanzetten wanneer je het nodig hebt.": {
 "en": "That works, until it goes quiet. You never quite know what next month brings, and you cannot switch it on when you need it."
 },
-"Zelf koude acquisitie doen is geen optie": {
-"en": "Doing cold outreach yourself is not an option"
+"Zelf koude acquisitie doen is niet de meest ideale aanpak": {
+"en": "Doing cold outreach yourself is not the most ideal approach"
 },
 "Lijsten bouwen, mails schrijven, verzenden en opvolgen kost uren per week. Je wilt wel structureel nieuwe gesprekken, maar niet zelf de machine bouwen en bedienen.": {
 "en": "Building lists, writing emails, sending and following up costs hours every week. You want a steady flow of new conversations, but not to build and run the machine yourself."
@@ -2664,7 +2662,7 @@ window.L2L_I18N_DATA = {
 "Marktscan": {
 "en": "Market scan"
 },
-"Link2Leads vindt bedrijven die passen bij jouw beste klanten en benadert ze persoonlijk per e-mail namens jou. Geïnteresseerde reacties komen direct binnen in je eigen mailbox. Jij voert alleen nog het commerciële gesprek.": {
+"Link2Leads vindt bedrijven die perfect passen binnen jouw ideale klantprofiel en benadert ze persoonlijk per e-mail namens jou. Geïnteresseerde reacties komen direct binnen in je eigen mailbox. Jij voert alleen nog het commerciële gesprek.": {
 "en": "Link2Leads finds companies that match your best clients and approaches them personally by email on your behalf. Interested replies land straight in your own inbox. All you do is have the commercial conversation."
 },
 "Vanaf €995 per maand": {
@@ -2736,8 +2734,6 @@ window.L2L_I18N_DATA = {
 "“Ik had nooit verwacht dat e-mail tegenwoordig nog zoveel impact kon hebben. Demi en Anne-Roos weten waar ze het over hebben en zorgen voor een sterk resultaat.”": {
 "en": "“I never expected email could still have this much impact. Demi and Anne-Roos know what they are talking about and deliver a strong result.”"
 },
-"Lodewijk, oprichter": {
-"en": "Lodewijk, founder"
 },
 "Positieve reacties in twee weken": {
 "en": "Positive replies in two weeks"
@@ -5433,7 +5429,7 @@ window.L2L_I18N_DATA = {
 "Echte cijfers uit onze campagnes": {
 "en": "Real figures from our campaigns"
 },
-"Done-for-you koude acquisitie per e-mail. Wij zoeken bedrijven die passen bij jouw beste klanten, benaderen ze persoonlijk namens jou en leveren de positieve reacties in jouw mailbox.": {
+"Done-for-you koude acquisitie per e-mail. Wij zoeken bedrijven die perfect passen binnen jouw ideale klantprofiel, benaderen ze persoonlijk namens jou en leveren de positieve reacties in jouw mailbox.": {
 "en": "Done-for-you cold outreach by email. We find companies that match your best clients, approach them personally on your behalf and deliver the positive replies to your inbox."
 },
 "Dienst": {
@@ -5694,7 +5690,7 @@ window.L2L_I18N_DATA = {
 "Wij bouwen het profiel vanuit je eigen beste klanten": {
 "en": "We build the profile from your own best clients"
 },
-"Elk adres wordt gecontroleerd, jij keurt de lijst goed": {
+"Elk adres wordt geverifieerd en jij keurt de lijst goed": {
 "en": "Every address is verified and you approve the list"
 },
 "Jouw domein loopt geen risico": {
