@@ -1,5 +1,119 @@
 /* Link2Leads i18n data — NL is the source language. Keys = exact Dutch text. */
 window.L2L_I18N_DATA = {
+"Campagnes die we zelf hebben gedraaid, met de cijfers erbij.": {
+"en": "Campaigns we ran ourselves, with the numbers next to them."
+},
+"Vanuit die klanten bepalen we welke bedrijven erop lijken, wie daar beslist en wat je tegen die persoon zegt.": {
+"en": "From those clients we work out which companies resemble them, who decides there and what to say to that person."
+},
+"Wat het kost, en": {
+"en": "What it costs, and"
+},
+"wat je daarvoor krijgt.": {
+"en": "what you get for it."
+},
+"Je betaalt een vast bedrag per maand. Setup, lijsten, copy, verzending en bijsturing zitten erbij in. Geen setupfee of losse toolingrekening. Je start voor minimaal drie maanden en kunt daarna maandelijks opzeggen.": {
+"en": "You pay one fixed amount per month. Setup, lists, copy, sending and adjustments are included. No setup fee and no separate tooling invoice. You start with a minimum of three months and can cancel monthly after that."
+},
+"Dit zeggen klanten": {
+"en": "This is what clients say"
+},
+"over hun campagne": {
+"en": "about their campaign"
+},
+"Meer referenties delen we tijdens de fitcheck.": {
+"en": "We share more references during the fit check."
+},
+"Vragen die we": {
+"en": "Questions we get"
+},
+"vaak krijgen": {
+"en": "a lot"
+},
+"Wie je aan de lijn": {
+"en": "Who you get"
+},
+"krijgt": {
+"en": "on the line"
+},
+". Wij tweeen draaien de campagnes, er zit geen accountmanager tussen.": {
+"en": ". The two of us run the campaigns, there is no account manager in between."
+},
+"Bouwt de campagnes. Doelgroep, lijsten, verzendomeinen en de mails die eruit gaan.": {
+"en": "Builds the campaigns. Audience, lists, sending domains and the emails that go out."
+},
+"Je vaste contactpersoon. Doet de fitcheck en loopt maandelijks de cijfers met je door.": {
+"en": "Your regular contact. Runs the fit check and goes through the numbers with you every month."
+},
+"FITCHECK": {
+"en": "FIT CHECK"
+},
+"Gratis en vrijblijvend. Je hebt binnen een werkdag antwoord.": {
+"en": "Free and without obligation. You will have an answer within one working day."
+},
+"Je hebt geen tijd om reacties op te volgen. Daar zetten we via": {
+"en": "You have no time to follow up on replies. We put"
+},
+"een setter op": {
+"en": "a setter on that"
+},
+"handelen wij die reacties af en zetten we de afspraak in jouw agenda. Heb je daarnaast iemand nodig die belt en de gesprekken voert, dan regelen we dat via": {
+"en": "we handle those replies and put the meeting in your calendar. If you also need someone to call and run the conversations, we arrange that through"
+},
+"Onderdeel van Link2Group": {
+"en": "Part of Link2Group"
+},
+"Remote Nederlandstalige": {
+"en": "Remote Dutch-speaking"
+},
+"setters en closers": {
+"en": "setters and closers"
+},
+"inhuren, zonder vaste hire. Voor als de reacties binnenkomen maar de opvolging blijft liggen.": {
+"en": "on demand, without a permanent hire. For when replies come in but follow-up keeps slipping."
+},
+"Het moederbedrijf achter": {
+"en": "The parent company behind"
+},
+"Link2Leads en Link2Talent": {
+"en": "Link2Leads and Link2Talent"
+},
+". Nieuwe gesprekken en de capaciteit om ze op te volgen, onder een dak.": {
+"en": ". New conversations and the capacity to follow them up, under one roof."
+},
+"Afspraken per twee weken over de looptijd van negentig dagen.": {
+"en": "Meetings per two weeks across the ninety-day run."
+},
+"Volume naar de lijst die het beste liep, de zwakste eruit.": {
+"en": "Volume to the list that performed best, the weakest one dropped."
+},
+"Elke prospect klikt door naar zijn eigen pagina.": {
+"en": "Every prospect clicks through to a page of their own."
+},
+"Segment 1": {
+"en": "Segment 1"
+},
+"Segment 2": {
+"en": "Segment 2"
+},
+"Segment 3": {
+"en": "Segment 3"
+},
+"Insteek aangepast": {
+"en": "Angle adjusted"
+},
+"Gestopt": {
+"en": "Stopped"
+},
+"Speciaal voor jouw bedrijf": {
+"en": "Made for your company"
+},
+"Een pagina die alleen over": {
+"en": "A page that is only about"
+},
+"hun bedrijf": {
+"en": "their company"
+},
 "Dagen tot de vijftiende reactie": {
 "en": "Days to the fifteenth reply"
 },
@@ -2232,7 +2346,8 @@ window.L2L_I18N_DATA = {
 "Je ziet welke segmenten het best reageren en wat we de komende maand aanpassen. De reacties zelf komen direct in je mailbox, dus je hoeft nergens voor in te loggen.": {
 "en": "You see which segments respond best and what we will change next month. The replies themselves land straight in your inbox, so there is nothing to log into."
 },
-"en": "The first question with cold email is whether your market is big enough. We work it out for you and say so honestly if the answer is no. You also get a free deliverability check, even if you are with another provider."
+"De eerste vraag bij koude e-mail is of je markt groot genoeg is. Wij rekenen het voor je uit en zeggen het eerlijk als het antwoord nee is.": {
+"en": "The first question with cold email is whether your market is big enough. We work it out for you and say so honestly if the answer is no."
 },
 "Hoeveel bedrijven er in jouw doelgroep passen, verdeeld over regio en bedrijfsgrootte": {
 "en": "How many companies fit your audience, split by region and company size"
@@ -2242,8 +2357,6 @@ window.L2L_I18N_DATA = {
 },
 "Welk maandvolume realistisch is en hoe lang je erop kunt draaien": {
 "en": "What monthly volume is realistic and how long you can run on it"
-},
-"en": "Plus: a deliverability check on your current setup"
 },
 "Week 1 en 2 zijn setup en warmup, in week 3 ga je live. De eerste reacties komen doorgaans binnen drie tot tien dagen na livegang, in enkele campagnes al op dag 1. Vanaf maand 2 sturen we bij op de segmenten die reageren.": {
 "en": "Weeks 1 and 2 are setup and warmup, in week 3 you go live. First replies usually arrive three to ten days after launch, in some campaigns on day 1. From month 2 we optimise towards the segments that respond."
@@ -2733,7 +2846,6 @@ window.L2L_I18N_DATA = {
 },
 "“Ik had nooit verwacht dat e-mail tegenwoordig nog zoveel impact kon hebben. Demi en Anne-Roos weten waar ze het over hebben en zorgen voor een sterk resultaat.”": {
 "en": "“I never expected email could still have this much impact. Demi and Anne-Roos know what they are talking about and deliver a strong result.”"
-},
 },
 "Positieve reacties in twee weken": {
 "en": "Positive replies in two weeks"
