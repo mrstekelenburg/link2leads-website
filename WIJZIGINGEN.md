@@ -376,3 +376,5 @@ Cachebusters: `l2l-visuals.css?v=4`, `l2l-page.css?v=4`, `l2l-i18n.js?v=8` en `l
 11. Het Link2Talent-logo op de fitcheckpagina linkte naar Link2Leads. Dat is gecorrigeerd, en het logo in de balk op de homepage van Link2Talent was helemaal niet klikbaar. Alle logo's op alle drie de sites zijn nagelopen en wijzen nu naar hun eigen homepage.
 
 Cachebusters: `l2l-visuals.css?v=5`, `l2l-page.css?v=5`, `l2l-i18n.js?v=9` en `l2t-i18n.js?v=4`. Woordenboeken: 2.032 sleutels op Link2Leads, 709 op Link2Talent.
+
+**Ronde 8b.** De visuals boven de casekaarten op de homepage zijn eruit. De kaarten beginnen nu direct bij het logo en de regel "Case study", en gaan van 664 naar 384 pixels hoog. De grafiek zelf staat nog wel op de casepagina van het softwarebedrijf, waar hij bij de tekst hoort.

@@ -2578,10 +2578,8 @@ Bel ons: 085 080 5381
       font-size:15px;font-weight:700;color:var(--accent2);transition:background .2s,transform .2s,border-color .2s;}
     .cs-allcases-btn:hover{background:rgba(47,111,237,.2);border-color:rgba(47,111,237,.55);transform:translateY(-1px);}
     /* homepage-cases */
-    .cs-track > .cs-card{padding:34px 36px 30px;}
+    .cs-track > .cs-card{padding:32px 36px 28px;}
     .cs-track > .cs-card .cs-body{padding:0;flex:1;display:flex;flex-direction:column;}
-    .cs-viz{padding:0;margin:0 0 26px;}
-    .cs-viz > .viz{height:250px;overflow:hidden;display:flex;flex-direction:column;}
     .cs-kicker{display:flex;align-items:center;gap:14px;margin:0 0 16px;font-size:15px;font-weight:700;
       color:var(--muted);line-height:1.4;}
     .cs-logo{width:42px;height:42px;border-radius:11px;object-fit:cover;background:#fff;flex-shrink:0;}
@@ -2601,7 +2599,6 @@ Bel ons: 085 080 5381
     .cs-more:hover{text-decoration:underline;text-underline-offset:3px;}
     @media(max-width:760px){.cs-track{gap:12px;}
       .cs-track > .cs-card{padding:20px 20px 24px;}
-      .cs-viz > .viz{height:180px;}
       .cs-stats{gap:16px 26px;}
       .cs-kicker{font-size:14px;}
       .cs-sum{font-size:15.5px;}}
@@ -2614,16 +2611,6 @@ Bel ons: 085 080 5381
 <div class="cs-carousel reveal">
 <div aria-label="Klantcases" aria-roledescription="carousel" class="cs-track" id="csTrack" role="group" tabindex="0">
 <div aria-label="Case 1 van 3" aria-roledescription="slide" class="cs-card" role="group">
-<div class="cs-viz" aria-hidden="true">
-<div class="viz">
-<span class="viz-glow"></span>
-<div class="viz-body" style="height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:22px 26px;">
-<div class="viz-head"><span class="viz-head-t">Gekwalificeerde afspraken per twee weken</span><span class="viz-head-v">38 in 90 dagen</span></div>
-<div class="viz-chart numbered" style="height:132px;"><div style="height:33%"><b>3</b></div><div style="height:56%"><b>5</b></div><div style="height:67%"><b>6</b></div><div style="height:78%"><b>7</b></div><div style="height:89%"><b>8</b></div><div style="height:100%"><b>9</b></div></div>
-<div class="viz-axis"><span>wk 1-2</span><span>3-4</span><span>5-6</span><span>7-8</span><span>9-10</span><span>11-13</span></div>
-</div>
-</div>
-</div>
 <div class="cs-body">
 <div class="cs-kicker"><img alt="Nafite" class="cs-logo" height="42" width="42" src="data:image/jpeg;base64,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"/><span>Case study &middot; Softwarebedrijf &middot; Scale-pakket</span></div>
 <h3><span class="blue">€84.000 pipeline</span> uit €5.085 campagne-investering</h3>
@@ -2637,18 +2624,6 @@ Bel ons: 085 080 5381
 </div>
 </div>
 <div aria-label="Case 2 van 3" aria-roledescription="slide" class="cs-card" role="group">
-<div class="cs-viz" aria-hidden="true">
-<div class="viz">
-<span class="viz-glow"></span>
-<div class="viz-body" style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:18px 22px;">
-<div class="viz-lanes" style="gap:14px;">
-<div class="viz-lane" style="padding:13px 16px;"><div><span class="viz-lane-name">Segment 1</span><span class="viz-lane-meter"><i style="width:100%"></i></span></div><div class="viz-lane-n" style="font-size:16px;">&uarr;<small>Meer volume</small></div></div>
-<div class="viz-lane" style="padding:13px 16px;"><div><span class="viz-lane-name">Segment 2</span><span class="viz-lane-meter"><i style="width:58%"></i></span></div><div class="viz-lane-n" style="font-size:16px;">&#8635;<small>Insteek aangepast</small></div></div>
-<div class="viz-lane" style="padding:13px 16px;"><div><span class="viz-lane-name">Segment 3</span><span class="viz-lane-meter"><i style="width:22%"></i></span></div><div class="viz-lane-n" style="font-size:16px;color:var(--muted)">&times;<small>Gestopt</small></div></div>
-</div>
-</div>
-</div>
-</div>
 <div class="cs-body">
 <div class="cs-kicker"><img alt="MIJU-marketing" class="cs-logo" height="42" width="42" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA4ADgDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAYHBAUIAQP/xAAzEAABAwQABAQDBwUBAAAAAAABAgMEAAUGEQcSITETIkFhFVFxCBQjJDJCgRZSYqHB0f/EABkBAAMBAQEAAAAAAAAAAAAAAAAEBQIDBv/EACkRAAEDAwIFAwUAAAAAAAAAAAEAAgMEESESMQUiQWFxI1GhJDLB0fD/2gAMAwEAAhEDEQA/AOVKUpQhKUpQhKzIduky4kuU03+WipCnXT0SnZ0kb+ZPYf8AlbzAcNn5jdRHiAtRGyDIkqHlbH/VH0FS/jOuBj8O2YfY0BuNHH3qUf3OOEaSVH1Otn+RU+WvaKhtJHl5yew9z56JplMTEZn4aNu5VUUpSqCVVn8FeFrXEhF7ckXtNpatiWlqWpjxAoL5u/mGtcv+6iucYhOxTOJ+MvBUiVHfDTSko14wVooUB/kCOnvVrfZ12OG3FwpJBFo2CPT8N6rDxu3W3PE4ZxWujrQbsUF0XoHut+MNtq16nZKvpyihCgGUfZ3+AWm2yXMlQ9JkXCJbn2URejDjykg9efry8wPYb9qis3g7OY4l3LGWJZfgW5Tf3i4FrkACkJXoJ2fN5ta371b+NXyVk/CiHepR/Mz86jvkHqE7fb5U/QDQ/ipqVy71nWTWaFGcfn2wtOSnilLbbhcQCnR33100f7alcWqaqCH6SMucevt3t17fKcoooZJPWdYD5XxxTD4Noxe1t2pSY8V6YmIEcm1FRJBWpW+p6VyvxqsdwsnEm/MXBbsnUjaZSmS2lwFIICe/QA67+ldmSm149jViZuvK0+m6okKbSoKKUAkk9PkCK0/E3G8jnqnvYxbYt1+IlPgrddQGmtpAKlhR6ga3ob3UuijNJzxR6pXadVzkXFyTe9s7p2ocJ+V77MF7Yxjb4XJvEjh9/RlixK4/Efvnx6EJnh+DyeD5UHl3s836+/TtSp59qiTEinCsZamMy7hZLb4ExTJHKlZCBrp2PkJ16AilepUZUbHlyY7brceQ8026OVxKFlIWPkQO/c161OltRXIzUp9EdzqtpLhCFfUdjWPShCyWp8tphLLUp9DKVhwNpcISFDsrW+/vUy4UQrlkGeRgmdNQE/jynkPKCyhOuhUDvqdD+aglXxwwVBwHh3IyW8DUi4q/Aa/e4kb5Ej6nZJ+WjUzi9S+npiIsvdyt8n9bpyhhbLKNf2jJ8BT3iFlULELQqZMWZU94FMZlayVOK+Z31CR6muZpWWX+RJkvG7z2zIUVLQ0+tCDv05Qda9q+eV5DOye8vXK5Oczi+iED9LafRKfYVp648H4UKCPU83kdufwP7K3XVhqXWbho2C9UorUVKJUonZJOyTSvKVZSCUpShCyba2w7PYRMdLUXmBdWBshI76HqddvetxmmTSMluKHFJ8CDHQGYkVJ8rLY6AfXoNmlK5GJrpBIdxt2vuth5DS0bFR6lKV1WEpSlCF//2Q=="/><span>Case study &middot; MIJU-marketing &middot; Growth-pakket</span></div>
 <h3><span class="blue">15 positieve reacties</span> in de eerste twee weken</h3>
@@ -2662,20 +2637,6 @@ Bel ons: 085 080 5381
 </div>
 </div>
 <div aria-label="Case 3 van 3" aria-roledescription="slide" class="cs-card" role="group">
-<div class="cs-viz" aria-hidden="true">
-<div class="viz">
-<span class="viz-glow"></span>
-<div class="viz-bar"><span class="viz-dots"><i></i><i></i><i></i></span><span class="viz-url">pagina.link2leads.nl/voor/<b style="color:var(--accent2);font-weight:700;">jouwbedrijf</b></span></div>
-<div class="viz-body" style="padding:20px 24px;flex:1;display:flex;">
-<div class="viz-lp" style="padding:20px 22px;flex:1;display:flex;flex-direction:column;justify-content:center;">
-<span class="viz-lp-tag" style="align-self:flex-start;">Speciaal voor jouw bedrijf</span>
-<h4 style="font-size:18px;margin-top:12px;">Een pagina die alleen over <em>hun bedrijf</em> gaat</h4>
-<span style="display:block;height:9px;border-radius:100px;background:rgba(255,255,255,.10);margin-top:16px;"></span>
-<span style="display:block;height:9px;width:78%;border-radius:100px;background:rgba(255,255,255,.07);margin-top:9px;"></span>
-</div>
-</div>
-</div>
-</div>
 <div class="cs-body">
 <div class="cs-kicker"><span class="cs-logo-np" aria-hidden="true">NP</span><span>Case study &middot; Onze eigen campagnes &middot; Neuropage</span></div>
 <h3>Een eigen landingspagina <span class="blue">per prospect</span></h3>
