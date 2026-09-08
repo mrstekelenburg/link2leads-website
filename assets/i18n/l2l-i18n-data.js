@@ -1140,8 +1140,8 @@ window.L2L_I18N_DATA = {
 "Je weet wie je ideale klant is": {
 "en": "You know who your ideal customer is"
 },
-"Doe de gratis fitcheck →": {
-"en": "Do the free fit check →"
+"Doe de gratis fitcheck": {
+"en": "Do the free fit check"
 },
 "Plan je gratis strategiecall →": {
 "en": "Book your free strategy call →"
@@ -2808,8 +2808,8 @@ window.L2L_I18N_DATA = {
 "Marktscan": {
 "en": "Market scan"
 },
-"Link2Leads vindt bedrijven die perfect passen binnen jouw ideale klantprofiel en benadert ze persoonlijk per e-mail namens jou. Geïnteresseerde reacties komen direct binnen in je eigen mailbox. Jij voert alleen nog het commerciële gesprek.": {
-"en": "Link2Leads finds companies that match your best clients and approaches them personally by email on your behalf. Interested replies land straight in your own inbox. All you do is have the commercial conversation."
+"Wij zoeken bedrijven die passen bij jouw ideale klant en mailen ze persoonlijk namens jou. Reacties komen binnen in je eigen mailbox. Jij voert alleen het gesprek.": {
+"en": "We find companies that match your ideal client and email them personally on your behalf. Replies land in your own inbox. You only have the conversation."
 },
 "Vanaf €995 per maand": {
 "en": "From EUR 995 per month"

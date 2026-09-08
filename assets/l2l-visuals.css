@@ -36,13 +36,13 @@
 .viz-dots{display:flex;gap:6px;}
 .viz-dots i{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.16);display:block;}
 .viz-url{
-  font-size:11.5px;color:rgba(240,239,237,.55);letter-spacing:.2px;
+  font-size:12.5px;color:rgba(240,239,237,.55);letter-spacing:.2px;
   background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.07);
   border-radius:100px;padding:4px 12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 }
 .viz-live{
   margin-left:auto;display:inline-flex;align-items:center;gap:6px;
-  font-size:10.5px;font-weight:800;letter-spacing:.2px;color:#7FE0A6;
+  font-size:11.5px;font-weight:800;letter-spacing:.2px;color:#7FE0A6;
   background:rgba(74,222,128,.10);border:1px solid rgba(74,222,128,.24);border-radius:100px;padding:3px 9px;white-space:nowrap;
 }
 .viz-live::before{content:'';width:6px;height:6px;border-radius:50%;background:#4ADE80;box-shadow:0 0 0 0 rgba(74,222,128,.6);animation:viz-pulse 2s infinite;}
@@ -52,7 +52,7 @@
 .viz-cap{
   position:relative;z-index:2;
   padding:12px 20px 14px;border-top:1px solid rgba(255,255,255,.07);
-  font-size:12.5px;line-height:1.5;color:var(--muted);background:rgba(0,0,0,.18);
+  font-size:13.5px;line-height:1.5;color:var(--muted);background:rgba(0,0,0,.18);
 }
 
 /* ── statistiekenrij ── */
@@ -60,7 +60,7 @@
 .viz-stat{background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:14px 15px;}
 .viz-stat b{display:block;font-size:clamp(20px,3.4vw,27px);font-weight:800;letter-spacing:-1px;line-height:1;color:var(--white);}
 .viz-stat b.blue{color:var(--accent2);}
-.viz-stat span{display:block;margin-top:7px;font-size:11.5px;line-height:1.35;color:var(--muted);}
+.viz-stat span{display:block;margin-top:7px;font-size:12.5px;line-height:1.35;color:var(--muted);}
 
 /* ── staafdiagram ── */
 .viz-chart{display:flex;align-items:flex-end;gap:8px;height:132px;padding-top:6px;}
@@ -72,7 +72,7 @@
 }
 .viz-chart div.dim{background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,.05));box-shadow:none;}
 .viz-axis{display:flex;gap:8px;margin-top:9px;}
-.viz-axis span{flex:1;text-align:center;font-size:10.5px;color:rgba(240,239,237,.38);}
+.viz-axis span{flex:1;text-align:center;font-size:11.5px;color:rgba(240,239,237,.38);}
 
 /* ── segmentbanen ── */
 .viz-lanes{display:grid;gap:10px;}
@@ -82,24 +82,24 @@
   border-radius:12px;padding:13px 15px;
 }
 .viz-lane-name{display:block;font-size:13.5px;font-weight:600;color:rgba(240,239,237,.88);}
-.viz-lane-sub{display:block;margin-top:4px;font-size:11.5px;color:var(--muted);}
+.viz-lane-sub{display:block;margin-top:4px;font-size:12.5px;color:var(--muted);}
 .viz-lane-meter{display:block;height:5px;border-radius:100px;background:rgba(255,255,255,.08);margin-top:9px;overflow:hidden;}
 .viz-lane-meter i{display:block;height:100%;border-radius:100px;background:linear-gradient(90deg,var(--accent),var(--accent2));}
 .viz-lane-n{font-size:22px;font-weight:800;letter-spacing:-.8px;color:var(--accent2);line-height:1;text-align:right;}
-.viz-lane-n small{display:block;font-size:10.5px;font-weight:600;letter-spacing:0;color:var(--muted);margin-top:5px;}
+.viz-lane-n small{display:block;font-size:11.5px;font-weight:600;letter-spacing:0;color:var(--muted);margin-top:5px;}
 
 /* ── mini-landingspagina ── */
 .viz-lp{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09);border-radius:14px;padding:20px 20px 22px;}
-.viz-lp-tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.2px;
+.viz-lp-tag{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.2px;
   color:var(--accent2);background:rgba(47,111,237,.14);border:1px solid rgba(47,111,237,.28);border-radius:100px;padding:4px 10px;}
 .viz-lp h4{margin:14px 0 0;font-size:clamp(17px,2.6vw,22px);font-weight:800;letter-spacing:-.7px;line-height:1.2;color:var(--white);}
 .viz-lp h4 em{font-style:normal;color:var(--accent2);}
-.viz-lp p{margin:10px 0 0;font-size:13px;line-height:1.6;color:rgba(240,239,237,.62);}
+.viz-lp p{margin:10px 0 0;font-size:14px;line-height:1.6;color:rgba(240,239,237,.62);}
 .viz-lp-rows{display:grid;gap:7px;margin-top:16px;}
 .viz-lp-rows i{display:block;height:8px;border-radius:100px;background:rgba(255,255,255,.09);}
 .viz-lp-rows i:nth-child(2){width:82%;}
 .viz-lp-rows i:nth-child(3){width:64%;}
-.viz-lp-btn{display:inline-block;margin-top:18px;font-size:12.5px;font-weight:700;color:#fff;
+.viz-lp-btn{display:inline-block;margin-top:18px;font-size:13.5px;font-weight:700;color:#fff;
   background:var(--accent);border-radius:9px;padding:9px 15px;}
 
 /* ── omslag boven een casekaart ── */
@@ -136,7 +136,7 @@
 }
 .foot-family .ff-label{
   align-self:center;max-width:190px;
-  font-size:11.5px;font-weight:800;letter-spacing:.2px;color:var(--muted);line-height:1.5;
+  font-size:12.5px;font-weight:800;letter-spacing:.2px;color:var(--muted);line-height:1.5;
 }
 .foot-family a{
   display:block;padding:15px 18px;border-radius:13px;
@@ -146,7 +146,7 @@
 .foot-family a:hover{border-color:rgba(47,111,237,.42);background:rgba(47,111,237,.06);transform:translateY(-2px);}
 .foot-family a b{display:block;font-size:15px;font-weight:800;letter-spacing:-.3px;color:var(--white);}
 .foot-family a b i{font-style:normal;color:var(--accent);}
-.foot-family a span{display:block;margin-top:5px;font-size:13px;line-height:1.5;color:var(--muted);}
+.foot-family a span{display:block;margin-top:5px;font-size:14px;line-height:1.5;color:var(--muted);}
 .foot-family a em{font-style:normal;color:var(--accent2);font-weight:700;}
 @media(max-width:860px){
   .foot-family{grid-template-columns:1fr 1fr;}

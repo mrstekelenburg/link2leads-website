@@ -314,3 +314,36 @@ Cachebusters opgehoogd: `site.css?v=6`, `l2t-i18n.js?v=2` op Link2Talent, en op 
 6. **Casekaarten op de homepage compacter**: van 879 naar 655 pixels hoog. De beeldstrip is lager, het onderschrift eronder is weg omdat de tekst het al zegt, en de kop, cijfers, tekst en quote hebben minder ruimte om zich heen. De inhoud is verder ongewijzigd.
 
 Nieuwe teksten zijn ook in het Engelse woordenboek gezet, dat nu 2.023 sleutels telt. Cachebusters op `l2l-visuals.css?v=3` en `l2l-i18n.js?v=7`.
+
+---
+
+## Ronde 7
+
+### Link2Leads
+
+1. **De twee pills onder elkaar in de hero zijn nu even breed en even hoog.** Google-badge en belknop staan allebei op 300 pixels breed en 46 hoog, met dezelfde padding en uitlijning. De verkleining die de badge op tabletbreedte kreeg is eruit, want die maakte ze juist ongelijk.
+2. **De foto's in de cases zijn weg.** Zowel het brede beeld boven de casesoverzicht als de foto per casepagina, inclusief de bijbehorende opmaak en de bestanden zelf.
+3. **De casekaarten op de homepage staan weer volledig, precies zoals op je screenshots.** Grote visual bovenaan, daaronder het logo met de regel "Case study, klant, pakket", de kop met het blauwe deel, een korte samenvatting, een streep, de drie cijfers naast elkaar en onderaan de link naar de volledige case. De browserbalk bovenop de kaart, het blok "Wat we deden", het onderschrift bij de visual en de quote staan er niet meer in.
+4. **Alle te kleine teksten zijn opgehoogd.** Alles onder de 13,5 pixels is over de hele site verhoogd, 227 plekken in totaal: labels van 11 gaan naar 12,5, bijschriften van 12 naar 13,5 en kleine regels van 13 naar 14. Het lettertype is gecontroleerd op elke pagina van alle drie de sites: overal DM Sans, nergens iets anders.
+5. **De contactkaart is in balans.** De drie contactknoppen staan nu als een rij van drie onder het formulier in plaats van in de linkerkolom. Links staat de kop, de tekst en de foto, rechts het formulier, en beide kolommen eindigen op dezelfde hoogte.
+6. **De herotekst is ingekort** tot twee zinnen: wie we benaderen, waar de reacties binnenkomen en wat jij nog doet. Het pijltje achter "Doe de gratis fitcheck" is overal weg.
+
+### Link2Group
+
+7. Pills weg: de "B2B sales infrastructure" bovenaan en de twee labels boven Link2Leads en Link2Talent.
+8. De sectie "Verdiepen" is verwijderd, inclusief het menu-item. De links naar de kennisbank en de cases blijven in de footer staan, dus voor linkbuilding verandert er niets.
+9. Zelfde lettertype-gewichten als Link2Leads geladen, en de blauwe accentkleur in de koppen is nu dezelfde lichtere tint als daar.
+10. De twee kaarten hadden een vaste minimumhoogte waardoor er een gat onder de opsomming stond. Die is eruit.
+
+### Link2Talent
+
+11. De pill "Remote salescapaciteit" boven de hero is weg.
+12. **De hero heeft een rechterkolom gekregen** met een foto van jullie tweeen en een onderschrift. Daarvoor was die helft leeg en stond de tekst in een smalle kolom links.
+13. **De branchestrip is geen lopende band meer** maar een nette rij chips onder elkaar gecentreerd, met leesbare tekst in plaats van 12 pixels.
+14. De foto bij de aanpak is hoger afgesneden en groter, zodat het hoofd er niet meer half afloopt.
+15. **De appsectie is nu een MacBook.** Browserbalk met het adres, een zijmenu met de echte onderdelen van de app en een lijst zonder verzonnen namen. De nepsetters met beschikbaarheidslabels zijn eruit.
+16. De Google-score in de hero staat op 4,8 en linkt door naar de reviews, net als op Link2Leads. Ook de reviewkaart onderaan zegt nu 4,8.
+17. Lodewijk is uit het team gehaald. Demi en Anne-Roos staan nu gecentreerd naast elkaar.
+18. De footerkolommen blijven op tablet en telefoon naast elkaar staan in plaats van onder elkaar, en het zusterbedrijvenblok loopt nu netjes gelijk met de rest van de footer in plaats van breder.
+
+Cachebusters: `l2l-visuals.css?v=4`, `l2l-page.css?v=4`, `l2l-i18n.js?v=8` en `l2t-i18n.js?v=3`.

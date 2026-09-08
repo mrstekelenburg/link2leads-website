@@ -33,7 +33,7 @@
 <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-<link href="/assets/l2l-visuals.css?v=3" rel="stylesheet"/>
+<link href="/assets/l2l-visuals.css?v=4" rel="stylesheet"/>
 <style>
 
 :root {
@@ -129,7 +129,7 @@ nav.scrolled .nav-inner {
 }
 .nav-cta {
   background:var(--accent); color:#fff;
-  font-size:13px; font-weight:700;
+  font-size:14px; font-weight:700;
   padding:10px 20px; border-radius:100px;
   transition:opacity .2s, transform .15s;
   white-space:nowrap; flex-shrink:0;
@@ -163,7 +163,7 @@ nav.scrolled .nav-inner {
           max-width:none; align-items:center; }
   .hero-h { font-size:clamp(26px,3.6vw,38px); letter-spacing:-1.4px; line-height:1.05; }
   .hero-sub { font-size:15px; line-height:1.6; margin-bottom:24px; max-width:none; }
-  .hero-note { font-size:12.5px; max-width:none; margin-bottom:20px; }
+  .hero-note { font-size:13.5px; max-width:none; margin-bottom:20px; }
   .hero-btns { gap:9px; margin-bottom:12px; }
   .hero-btns .btn-solid, .hero-btns .btn-ghost-l2l { padding:12px 17px; font-size:13.5px; }
   .hero-google-badge { transform:scale(.92); transform-origin:left center; }
@@ -173,12 +173,12 @@ nav.scrolled .nav-inner {
   .inbox-bar { padding:12px 15px; }
   .inbox-bar-l { font-size:13.5px; gap:8px; }
   .inbox-row { padding-left:15px; padding-right:15px; gap:10px; }
-  .inbox-av { width:34px; height:34px; border-radius:10px; font-size:12px; }
-  .inbox-who { font-size:13px; margin-bottom:3px; }
-  .inbox-msg { font-size:12.5px; line-height:1.4; }
-  .inbox-tag { font-size:10px; padding:5px 9px; }
-  .inbox-foot { padding:12px 15px 14px; font-size:11.5px; }
-  .inbox-pill { font-size:11.5px; padding:8px 13px; gap:7px; }
+  .inbox-av { width:34px; height:34px; border-radius:10px; font-size:13.5px; }
+  .inbox-who { font-size:14px; margin-bottom:3px; }
+  .inbox-msg { font-size:13.5px; line-height:1.4; }
+  .inbox-tag { font-size:11.5px; padding:5px 9px; }
+  .inbox-foot { padding:12px 15px 14px; font-size:12.5px; }
+  .inbox-pill { font-size:12.5px; padding:8px 13px; gap:7px; }
   .inbox-pill svg { width:14px; height:14px; }
 }
 /* nog smaller: twee kolommen passen niet meer, dan stapelen */
@@ -187,8 +187,8 @@ nav.scrolled .nav-inner {
   .hero-h { font-size:clamp(24px,3.4vw,30px); letter-spacing:-1.1px; }
   .hero-sub { font-size:14px; }
   .inbox-row { padding-left:12px; padding-right:12px; gap:8px; }
-  .inbox-av { width:30px; height:30px; border-radius:9px; font-size:11px; }
-  .inbox-tag { font-size:9.5px; padding:4px 8px; }
+  .inbox-av { width:30px; height:30px; border-radius:9px; font-size:12.5px; }
+  .inbox-tag { font-size:11px; padding:4px 8px; }
 }
 @media(max-width:700px){
   .hero { grid-template-columns:1fr; gap:36px; max-width:780px; padding-top:104px; padding-bottom:56px; }
@@ -230,17 +230,17 @@ nav.scrolled .nav-inner {
 .cs-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;overflow:hidden;text-align:left;box-shadow:0 26px 60px rgba(0,0,0,.42);}
 .cs-card + .cs-card{margin-top:18px;}
 .cs-top{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;padding:26px 30px 22px;border-bottom:1px solid var(--border);}
-.cs-lab{display:block;font-family:var(--f);font-weight:800;font-size:13px;letter-spacing:.2px;color:var(--accent2);margin-bottom:9px;}
+.cs-lab{display:block;font-family:var(--f);font-weight:800;font-size:14px;letter-spacing:.2px;color:var(--accent2);margin-bottom:9px;}
 .cs-top h3{font-size:clamp(21px,2.8vw,26px);font-weight:800;letter-spacing:-.6px;color:var(--white);margin:0;}
 .cs-meta{display:flex;gap:8px;flex-wrap:wrap;}
-.cs-meta span{font-size:12.5px;font-weight:600;color:rgba(255,255,255,.7);background:rgba(255,255,255,.05);
+.cs-meta span{font-size:13.5px;font-weight:600;color:rgba(255,255,255,.7);background:rgba(255,255,255,.05);
   border:1px solid var(--border);border-radius:100px;padding:6px 13px;white-space:nowrap;}
 .cs-kicker{margin:8px 0 0;font-size:14px;line-height:1.5;color:var(--muted);}
         .cs-lead{padding:22px 26px 18px;border-bottom:1px solid var(--border);}
         .cs-lead h3{font-size:clamp(19px,2.4vw,25px);line-height:1.22;letter-spacing:-.7px;font-weight:800;color:var(--white);margin:8px 0 0;}
         .cs-context{margin-top:8px;font-size:13.5px;line-height:1.45;color:var(--muted);}
         .cs-do{padding:18px 26px 20px;}
-        .cs-do h4{font-family:var(--f);font-size:11px;font-weight:800;letter-spacing:.2px;color:var(--muted);margin:0 0 10px;}
+        .cs-do h4{font-family:var(--f);font-size:12.5px;font-weight:800;letter-spacing:.2px;color:var(--muted);margin:0 0 10px;}
         .cs-do p{margin:0;font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.78);}
         .cs-do a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
         @media(max-width:760px){.cs-lead{padding:18px 20px 16px;}.cs-do{padding:16px 20px 18px;}}
@@ -248,12 +248,12 @@ nav.scrolled .nav-inner {
 .cs-stats > div{padding:16px 22px;border-right:1px solid var(--border);}
 .cs-stats > div:last-child{border-right:0;}
 .cs-stats b{display:block;font-size:clamp(20px,2.6vw,27px);font-weight:900;letter-spacing:-1.1px;line-height:1;color:var(--accent2);}
-.cs-stats span{display:block;margin-top:6px;font-size:12px;line-height:1.4;color:var(--muted);}
+.cs-stats span{display:block;margin-top:6px;font-size:13.5px;line-height:1.4;color:var(--muted);}
 .cs-body{padding:26px 30px;}
 .cs-vn{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:stretch;}
 .cs-vn-col{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:14px;padding:18px 20px;}
 .cs-vn-col.na{background:rgba(47,111,237,.08);border-color:rgba(47,111,237,.3);}
-.cs-vn-lab{display:block;font-family:var(--f);font-weight:700;font-size:11px;letter-spacing:.2px;color:var(--muted);margin-bottom:10px;}
+.cs-vn-lab{display:block;font-family:var(--f);font-weight:700;font-size:12.5px;letter-spacing:.2px;color:var(--muted);margin-bottom:10px;}
 .cs-vn-col.na .cs-vn-lab{color:var(--accent2);}
 .cs-vn-col p{margin:0;font-size:15px;line-height:1.55;color:rgba(255,255,255,.75);}
 .cs-vn-col.na p{color:rgba(255,255,255,.95);font-weight:600;}
@@ -262,7 +262,7 @@ nav.scrolled .nav-inner {
 .cs-aanpak strong{color:var(--white);}
 .cs-quote{padding:17px 26px;border-top:1px solid var(--border);background:rgba(47,111,237,.05);
   font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.85);font-style:italic;}
-.cs-quote span{display:block;margin-top:9px;font-size:13px;font-weight:700;font-style:normal;color:var(--muted);}
+.cs-quote span{display:block;margin-top:9px;font-size:14px;font-weight:700;font-style:normal;color:var(--muted);}
 .cs-quote .cs-by{display:flex;align-items:center;gap:10px;margin-top:12px;}
 .rv-logo{border-radius:8px;object-fit:cover;background:#fff;flex-shrink:0;}
 @media(max-width:900px){
@@ -283,7 +283,7 @@ nav.scrolled .nav-inner {
 .l4-head h2{font-size:clamp(26px,4vw,38px);line-height:1.15;letter-spacing:-1.2px;font-weight:800;margin:16px 0 12px;}
 .l4-head p{font-size:16.5px;line-height:1.65;color:rgba(255,255,255,.62);max-width:640px;margin:0 auto;}
 .l4-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;padding:32px 30px;text-align:left;}
-.l4-note{margin-top:18px;font-size:13px;line-height:1.6;color:var(--muted);}
+.l4-note{margin-top:18px;font-size:14px;line-height:1.6;color:var(--muted);}
 .l4-note a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
 
 /* Inbox */
@@ -302,10 +302,10 @@ nav.scrolled .nav-inner {
 .inbox-live{width:8px;height:8px;border-radius:100px;background:#4ADE80;box-shadow:0 0 0 4px rgba(74,222,128,.15);
   animation:inbox-pulse 2.4s ease-in-out infinite;}
 @keyframes inbox-pulse{0%,100%{box-shadow:0 0 0 4px rgba(74,222,128,.15);}50%{box-shadow:0 0 0 7px rgba(74,222,128,.05);}}
-.inbox-badge{font-size:10.5px;font-weight:800;letter-spacing:1px;padding:5px 11px;border-radius:100px;
+.inbox-badge{font-size:11.5px;font-weight:800;letter-spacing:1px;padding:5px 11px;border-radius:100px;
   background:rgba(47,111,237,.14);color:var(--accent2);border:1px solid rgba(47,111,237,.3);}
 .inbox-list{display:block;overflow:hidden;height:264px;}
-.inbox-foot{padding:15px 20px 17px;border-top:1px solid var(--border);font-size:12.5px;line-height:1.5;color:var(--muted);}
+.inbox-foot{padding:15px 20px 17px;border-top:1px solid var(--border);font-size:13.5px;line-height:1.5;color:var(--muted);}
 .inbox-row{opacity:0;transform:translateY(-10px);}
 .inbox-row.in{opacity:1;transform:none;transition:opacity .28s ease, transform .28s cubic-bezier(.22,.8,.3,1);}
 .inbox-row.drop{animation:inbox-drop .34s cubic-bezier(.22,.8,.3,1) both;}
@@ -322,11 +322,11 @@ nav.scrolled .nav-inner {
 .inbox-row:nth-child(3){border-bottom:0;}
 .inbox-txt{min-width:0;}
 .inbox-av{width:42px;height:42px;border-radius:12px;background:rgba(47,111,237,.14);
-  display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;
+  display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;
   letter-spacing:.5px;color:var(--accent2);flex-shrink:0;}
 .inbox-who{font-size:14.5px;font-weight:700;color:rgba(255,255,255,.95);margin-bottom:4px;}
 .inbox-msg{font-size:14px;line-height:1.45;color:rgba(255,255,255,.66);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
-.inbox-tag{font-size:11px;font-weight:700;letter-spacing:.2px;padding:6px 12px;border-radius:100px;white-space:nowrap;justify-self:end;}
+.inbox-tag{font-size:12.5px;font-weight:700;letter-spacing:.2px;padding:6px 12px;border-radius:100px;white-space:nowrap;justify-self:end;}
 .tag-warm{background:rgba(74,222,128,.12);color:#7EE2A8;border:1px solid rgba(74,222,128,.26);}
 .tag-int{background:rgba(245,158,11,.12);color:#F5B44B;border:1px solid rgba(245,158,11,.26);}
 .tag-no{background:rgba(255,255,255,.05);color:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.12);}
@@ -344,7 +344,7 @@ nav.scrolled .nav-inner {
   .inbox-tag{justify-self:start;text-align:left;}
   .inbox-av{grid-row:1 / span 2;align-self:center;}
   .inbox-tag{grid-column:2;justify-self:start;}
-  .inbox-pill{font-size:12.5px;padding:9px 14px;}
+  .inbox-pill{font-size:13.5px;padding:9px 14px;}
   .inbox-pill.top{margin-left:0;}
   .inbox-pill-row{padding-right:0;}
 }
@@ -362,14 +362,14 @@ nav.scrolled .nav-inner {
 .brw-url{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;
   max-width:320px;margin:0 auto;background:rgba(0,0,0,.3);
   border:1px solid rgba(255,255,255,.07);border-radius:8px;padding:5px 14px;
-  font-size:12.5px;color:rgba(255,255,255,.48);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  font-size:13.5px;color:rgba(255,255,255,.48);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 .brw-url svg{flex-shrink:0;opacity:.6;}
-.brw-tag{flex-shrink:0;font-size:10px;font-weight:800;letter-spacing:.2px;
+.brw-tag{flex-shrink:0;font-size:11.5px;font-weight:800;letter-spacing:.2px;
   color:rgba(255,255,255,.42);border:1px solid rgba(255,255,255,.13);border-radius:100px;padding:3px 9px;}
 @media(max-width:620px){
   .brw-bar{padding:9px 12px;gap:10px;}
   .brw-dots i{width:9px;height:9px;}
-  .brw-url{font-size:11px;padding:4px 10px;}
+  .brw-url{font-size:12.5px;padding:4px 10px;}
   .brw-tag{display:none;}
 }
 
@@ -379,7 +379,7 @@ nav.scrolled .nav-inner {
 .tf-axis{display:grid;grid-template-columns:190px repeat(var(--cols),1fr);
   align-items:end;gap:0;margin-bottom:10px;padding-bottom:10px;
   border-bottom:1px solid var(--border);}
-.tf-axis span{grid-column:auto;font-family:var(--f);font-size:12px;font-weight:800;
+.tf-axis span{grid-column:auto;font-family:var(--f);font-size:13.5px;font-weight:800;
   letter-spacing:.2px;color:rgba(255,255,255,.42);
   padding-left:12px;border-left:1px solid var(--border);}
 .tf-axis span:first-child{grid-column:2;}
@@ -398,7 +398,7 @@ nav.scrolled .nav-inner {
   padding:8px 14px;border-radius:10px;
   background:linear-gradient(90deg, rgba(47,111,237,.24), rgba(47,111,237,.13));
   border:1px solid rgba(47,111,237,.34);
-  font-size:13px;line-height:1.35;color:rgba(255,255,255,.86);
+  font-size:14px;line-height:1.35;color:rgba(255,255,255,.86);
   box-shadow:0 6px 18px rgba(0,0,0,.28);
 }
 .tf-bar.warm{background:linear-gradient(90deg,rgba(47,111,237,.17),rgba(47,111,237,.08));
@@ -407,7 +407,7 @@ nav.scrolled .nav-inner {
   border-color:rgba(74,222,128,.45);color:transparent;overflow:visible;padding:0;
   min-height:34px;}
 .tf-bar.point > span{position:absolute;left:calc(100% + 12px);top:50%;transform:translateY(-50%);
-  white-space:nowrap;font-size:13px;font-weight:700;color:#BFEFD2;}
+  white-space:nowrap;font-size:14px;font-weight:700;color:#BFEFD2;}
 .tf-bar.point::before{content:'';position:absolute;left:50%;top:50%;
   width:9px;height:9px;margin:-4.5px 0 0 -4.5px;border-radius:2px;transform:rotate(45deg);
   background:#4ADE80;box-shadow:0 0 0 4px rgba(74,222,128,.18);}
@@ -416,7 +416,7 @@ nav.scrolled .nav-inner {
 .tf-bar.reply{background:linear-gradient(90deg,rgba(47,111,237,.16),rgba(47,111,237,.05));
   border-color:rgba(47,111,237,.3);}
 .tf-legend{display:flex;flex-wrap:wrap;gap:18px;margin-top:20px;padding-top:16px;
-  border-top:1px solid var(--border);font-size:13px;color:rgba(255,255,255,.5);}
+  border-top:1px solid var(--border);font-size:14px;color:rgba(255,255,255,.5);}
 .tf-legend span{display:inline-flex;align-items:center;gap:8px;}
 .tf-legend i{width:14px;height:9px;border-radius:3px;display:block;}
 .tf-legend .l-build{background:rgba(47,111,237,.28);border:1px solid rgba(47,111,237,.4);}
@@ -447,7 +447,7 @@ nav.scrolled .nav-inner {
 .tl-node{position:absolute;top:-38px;left:0;width:15px;height:15px;border-radius:50%;
   background:#0B0D14;border:2px solid var(--accent);box-shadow:0 0 0 5px rgba(47,111,237,.12);}
 .tl-step:nth-child(3) .tl-node{background:var(--accent);box-shadow:0 0 0 5px rgba(47,111,237,.22);}
-.tl-week{display:block;font-family:var(--f);font-size:12.5px;font-weight:800;letter-spacing:.2px;color:var(--accent2);}
+.tl-week{display:block;font-family:var(--f);font-size:13.5px;font-weight:800;letter-spacing:.2px;color:var(--accent2);}
 .tl-step h3{font-size:20px;font-weight:800;letter-spacing:-.5px;color:var(--white);margin:9px 0 16px;}
 .tl-list{list-style:none;padding:0;margin:0;display:grid;gap:10px;align-content:start;flex:1;}
 .tl-list li{position:relative;padding-left:18px;font-size:15px;line-height:1.55;color:rgba(255,255,255,.7);}
@@ -476,7 +476,7 @@ nav.scrolled .nav-inner {
 .blk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;text-align:left;}
 .blk-card{background:var(--card-bg);border:1px solid var(--border);border-radius:18px;padding:28px 26px;display:flex;flex-direction:column;}
 .blk-num{width:34px;height:34px;border-radius:50%;background:rgba(47,111,237,.14);border:1px solid rgba(47,111,237,.28);
-  display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:var(--accent2);margin-bottom:18px;}
+  display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;color:var(--accent2);margin-bottom:18px;}
 .blk-card h3{font-size:17px;font-weight:700;color:var(--white);margin:0 0 16px;letter-spacing:-.2px;}
 .blk-list{list-style:none;padding:0;margin:0;display:grid;gap:11px;}
 .blk-list li{position:relative;padding-left:26px;font-size:15px;line-height:1.55;color:rgba(255,255,255,.72);}
@@ -485,7 +485,7 @@ nav.scrolled .nav-inner {
 
 .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
 .why-item{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:24px 26px;text-align:left;}
-.why-num{font-family:var(--f);font-size:13px;font-weight:800;color:var(--accent2);letter-spacing:1.5px;margin-bottom:12px;}
+.why-num{font-family:var(--f);font-size:14px;font-weight:800;color:var(--accent2);letter-spacing:1.5px;margin-bottom:12px;}
 .why-item h3{font-size:17.5px;font-weight:700;letter-spacing:-.3px;color:var(--white);margin:0 0 8px;}
 .why-item p{font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.65);margin:0;}
 @media(max-width:820px){.why-grid{grid-template-columns:1fr;}}
@@ -494,7 +494,7 @@ nav.scrolled .nav-inner {
 .rep-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px;}
 .rep-tile{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:14px;padding:20px 18px;}
 .rep-tile .n{font-size:clamp(22px,3vw,28px);font-weight:800;letter-spacing:-1px;color:var(--white);line-height:1.05;}
-.rep-tile .l{margin-top:8px;font-size:12.5px;line-height:1.45;color:var(--muted);}
+.rep-tile .l{margin-top:8px;font-size:13.5px;line-height:1.45;color:var(--muted);}
 @media(max-width:760px){.rep-grid{grid-template-columns:repeat(2,1fr);}}
 
 /* Garantiebadges */
@@ -512,14 +512,14 @@ nav.scrolled .nav-inner {
 .scan-list li{position:relative;padding-left:24px;font-size:15px;line-height:1.55;color:rgba(255,255,255,.75);}
 .scan-list li::before{content:'✓';position:absolute;left:0;color:#4ADE80;font-weight:700;}
 .scan-form .cf-field{margin-bottom:12px;}
-.scan-sub{margin-top:12px;font-size:12.5px;line-height:1.6;color:var(--muted);text-align:center;}
+.scan-sub{margin-top:12px;font-size:13.5px;line-height:1.6;color:var(--muted);text-align:center;}
 @media(max-width:860px){.scan-card{grid-template-columns:1fr;gap:28px;}}
 
 /* Voor/na */
 .vn-wrap{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:stretch;margin:0 0 24px;text-align:left;}
 .vn-col{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:16px;padding:20px 20px;text-align:left;}
 .vn-col.na{background:rgba(47,111,237,.07);border-color:rgba(47,111,237,.28);}
-.vn-lab{font-family:var(--f);font-weight:700;font-size:11px;letter-spacing:.2px;color:var(--muted);margin-bottom:14px;}
+.vn-lab{font-family:var(--f);font-weight:700;font-size:12.5px;letter-spacing:.2px;color:var(--muted);margin-bottom:14px;}
 .vn-col.na .vn-lab{color:var(--accent2);}
 .vn-col ul{list-style:none;padding:0;margin:0;display:grid;gap:10px;}
 .vn-col li{font-size:14.5px;line-height:1.45;color:rgba(255,255,255,.72);}
@@ -565,10 +565,16 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
 
 /* hero Google reviews badge */
 .hero-proof {
-  display:inline-flex; flex-direction:column; align-items:stretch; gap:10px;
-  max-width:300px; margin-bottom:16px;
+  display:flex; flex-direction:column; align-items:stretch; gap:10px;
+  width:300px; max-width:100%; margin-bottom:16px;
 }
-.hero-proof .hero-google-badge { margin-bottom:0; justify-content:flex-start; }
+.hero-proof .hero-google-badge,
+.hero-proof .hero-call {
+  width:100%; box-sizing:border-box;
+  min-height:46px; padding:0 18px;
+  justify-content:center; align-items:center;
+  margin-bottom:0; transform:none;
+}
 .hero-call {
   display:flex; align-items:center; justify-content:center; gap:9px;
   background:rgba(255,255,255,0.05);
@@ -580,7 +586,7 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
 }
 .hero-call svg { color:var(--accent2); flex-shrink:0; }
 .hero-call:hover { border-color:rgba(47,111,237,.5); background:rgba(47,111,237,.1); transform:translateY(-1px); }
-@media(max-width:900px){ .hero-proof { max-width:none; } }
+@media(max-width:900px){ .hero-proof { width:300px; } }
 
 .hero-google-badge {
   display:inline-flex; align-items:center; gap:8px;
@@ -601,7 +607,7 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
 }
 .hero-google-badge .hgb-stars {
   position:relative; display:inline-block;
-  font-size:13px; letter-spacing:1px;
+  font-size:14px; letter-spacing:1px;
   color:rgba(255,255,255,0.25);
 }
 .hero-google-badge .hgb-stars-fill {
@@ -610,7 +616,7 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
   color:#F5B301;
 }
 .hero-google-badge .hgb-label {
-  font-size:13px; color:rgba(255,255,255,0.55);
+  font-size:14px; color:rgba(255,255,255,0.55);
 }
 
 /* review card Google G logo */
@@ -634,7 +640,7 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
   background:rgba(47,111,237,0.15);
   border:1px solid rgba(47,111,237,0.3);
   color:var(--accent2);
-  font-size:12px; font-weight:700; flex-shrink:0;
+  font-size:13.5px; font-weight:700; flex-shrink:0;
 }
 
 /* hero mini review */
@@ -646,8 +652,8 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
   font-size:14px; line-height:1.5; color:rgba(255,255,255,0.75);
   max-width:520px;
 }
-.hero-mini-stars { color:#F5B301; margin-right:8px; letter-spacing:2px; font-size:13px; }
-.hero-mini-author { display:inline-flex; align-items:center; gap:8px; margin-top:8px; font-size:13px; color:rgba(255,255,255,0.5); }
+.hero-mini-stars { color:#F5B301; margin-right:8px; letter-spacing:2px; font-size:14px; }
+.hero-mini-author { display:inline-flex; align-items:center; gap:8px; margin-top:8px; font-size:14px; color:rgba(255,255,255,0.5); }
 .hero-mini-author-wrap { display:block; margin-top:6px; }
 
 /* hero right — visual block */
@@ -669,7 +675,7 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
   opacity:.45;
 }
 .hvc-label {
-  font-family:var(--font); font-size:11px;
+  font-family:var(--font); font-size:12.5px;
   letter-spacing:0; text-transform:none; font-weight:700;
   color:var(--muted); margin-bottom:14px;
   padding-bottom:10px; border-bottom:1px solid var(--border);
@@ -677,7 +683,7 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
 .hvc-row {
   display:flex; justify-content:space-between; align-items:center;
   padding:10px 0; border-bottom:1px solid var(--border);
-  font-size:13px;
+  font-size:14px;
 }
 .hvc-row:last-child { border-bottom:none; }
 .hvc-row-label { color:var(--muted); }
@@ -689,7 +695,7 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
   background:rgba(47,111,237,0.07);
   border:1px solid rgba(47,111,237,0.2);
   border-radius:12px; padding:16px 20px;
-  font-size:13px; color:var(--accent2);
+  font-size:14px; color:var(--accent2);
   font-family:var(--font); line-height:1.6;
 }
 
@@ -770,7 +776,7 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
 }
 
 .marquee-label {
-  text-align:center; font-size:13px; font-weight:600;
+  text-align:center; font-size:14px; font-weight:600;
   color:rgba(255,255,255,0.55); letter-spacing:.2px;
   padding-top:36px; margin-bottom:22px;
 }
@@ -782,7 +788,7 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
 .marquee-item {
   display:inline-flex; align-items:center; gap:12px;
   padding:0 44px; height:48px;
-  font-size:12px; font-weight:700;
+  font-size:13.5px; font-weight:700;
   color:rgba(255,255,255,0.65); letter-spacing:.2px; white-space:nowrap;
   position:relative;
   transition:color .3s;
@@ -947,7 +953,7 @@ h1 .blue, h2 .blue, h3 .blue {
 .case-dot.y { background:#FEBC2E; }
 .case-dot.g { background:#28C840; }
 .case-url {
-  font-family:var(--mono); font-size:12px; letter-spacing:.5px;
+  font-family:var(--mono); font-size:13.5px; letter-spacing:.5px;
   color:rgba(240,239,237,0.35);
 }
 /* content inside browser */
@@ -956,7 +962,7 @@ h1 .blue, h2 .blue, h3 .blue {
 }
 .case-left { padding:44px 48px; border-right:1px solid var(--border); }
 .case-label {
-  font-family:var(--font); font-size:11px; letter-spacing:0;
+  font-family:var(--font); font-size:12.5px; letter-spacing:0;
   text-transform:none; font-weight:700; color:var(--accent); margin-bottom:8px;
 }
 .case-company { font-size:22px; font-weight:800; letter-spacing:-.4px; margin-bottom:28px; }
@@ -988,7 +994,7 @@ h1 .blue, h2 .blue, h3 .blue {
 }
 .case-stat-num span { color:var(--accent); }
 .case-stat-label {
-  font-size:13px; color:rgba(255,255,255,0.7);
+  font-size:14px; color:rgba(255,255,255,0.7);
   font-family:var(--font); letter-spacing:0.3px; font-weight:500;
   text-transform:none;
 }
@@ -1021,7 +1027,7 @@ h1 .blue, h2 .blue, h3 .blue {
 }
 .tl-content { display:flex; flex-direction:column; gap:10px; padding-top:4px; text-align:left; }
 .tl-week {
-  font-family:var(--font); font-size:12px;
+  font-family:var(--font); font-size:13.5px;
   letter-spacing:0; text-transform:none; font-weight:700;
   color:var(--accent);
 }
@@ -1029,7 +1035,7 @@ h1 .blue, h2 .blue, h3 .blue {
 .tl-desc { font-size:15px; color:rgba(240,239,237,0.6); line-height:1.7; max-width:680px; text-align:left; }
 .tl-chips { display:flex; flex-wrap:wrap; gap:8px; }
 .tl-chip {
-  font-size:11px; font-family:var(--font); letter-spacing:0;
+  font-size:12.5px; font-family:var(--font); letter-spacing:0;
   text-transform:none; font-weight:600; color:rgba(47,111,237,0.9);
   background:rgba(47,111,237,0.07);
   border:1px solid rgba(47,111,237,0.18);
@@ -1044,7 +1050,7 @@ h1 .blue, h2 .blue, h3 .blue {
 .who-card { border-radius:20px; padding:44px; border:1px solid transparent; }
 .who-card.yes { background:rgba(34,197,94,0.05); border-color:rgba(34,197,94,0.13); }
 .who-card.no  { background:rgba(239,68,68,0.05);  border-color:rgba(239,68,68,0.13); }
-.who-head { display:flex; align-items:center; gap:10px; font-size:13px; font-weight:700; letter-spacing:.2px; margin-bottom:28px; }
+.who-head { display:flex; align-items:center; gap:10px; font-size:14px; font-weight:700; letter-spacing:.2px; margin-bottom:28px; }
 .who-card.yes .who-head { color:#4ade80; }
 .who-card.no  .who-head { color:#f87171; }
 .who-list { list-style:none; display:flex; flex-direction:column; gap:14px; }
@@ -1092,16 +1098,16 @@ h1 .blue, h2 .blue, h3 .blue {
   content:'MEEST GEKOZEN';
   position:absolute; top:-12px; left:50%; transform:translateX(-50%);
   background:var(--accent); color:#fff;
-  font-size:10px; font-weight:800; letter-spacing:1px;
+  font-size:11.5px; font-weight:800; letter-spacing:1px;
   padding:4px 16px; border-radius:100px; white-space:nowrap;
   font-family:var(--font);
 }
-.p-name { font-size:13px; font-weight:700; letter-spacing:.2px; color:var(--accent); margin-bottom:6px; }
-.p-tagline { font-size:13px; color:rgba(255,255,255,0.75); margin-bottom:22px; min-height:64px; line-height:1.5; }
+.p-name { font-size:14px; font-weight:700; letter-spacing:.2px; color:var(--accent); margin-bottom:6px; }
+.p-tagline { font-size:14px; color:rgba(255,255,255,0.75); margin-bottom:22px; min-height:64px; line-height:1.5; }
 .p-price { font-size:44px; font-weight:900; letter-spacing:-2.5px; line-height:1; margin-bottom:4px; }
-.p-period { font-size:12px; color:var(--muted); margin-bottom:22px; min-height:36px; line-height:1.5; }
+.p-period { font-size:13.5px; color:var(--muted); margin-bottom:22px; min-height:36px; line-height:1.5; }
 .p-volume {
-  font-family:var(--font); font-size:12px; font-weight:600; letter-spacing:0;
+  font-family:var(--font); font-size:13.5px; font-weight:600; letter-spacing:0;
   text-transform:none; color:var(--accent2);
   background:rgba(47,111,237,0.08); border:1px solid rgba(47,111,237,0.18);
   padding:8px 14px; border-radius:6px; margin-bottom:22px;
@@ -1109,7 +1115,7 @@ h1 .blue, h2 .blue, h3 .blue {
 }
 .p-line { height:1px; background:var(--border); margin-bottom:20px; }
 .p-features { list-style:none; flex:1; display:flex; flex-direction:column; gap:11px; }
-.p-features li { font-size:13px; color:rgba(255,255,255,0.65); display:flex; align-items:flex-start; gap:9px; line-height:1.5; }
+.p-features li { font-size:14px; color:rgba(255,255,255,0.65); display:flex; align-items:flex-start; gap:9px; line-height:1.5; }
 .p-features li::before { content:'→'; color:var(--accent2); flex-shrink:0; }
 .p-btn { display:block; text-align:center; padding:14px; border-radius:12px; font-family:var(--f); font-size:14.5px; font-weight:700; margin-top:24px; border:0; cursor:pointer; transition:opacity .2s, transform .2s; }
 .p-btn.solid { background:var(--accent); color:#fff; box-shadow:0 6px 24px rgba(47,111,237,0.3); }
@@ -1131,7 +1137,7 @@ h1 .blue, h2 .blue, h3 .blue {
   border-radius:12px;
 }
 .p-addon-label {
-  font-size:12px; font-weight:700; letter-spacing:0;
+  font-size:13.5px; font-weight:700; letter-spacing:0;
   font-family:var(--font); color:#fff; text-transform:none;
   line-height:1.4;
 }
@@ -1139,7 +1145,7 @@ h1 .blue, h2 .blue, h3 .blue {
   font-size:15px; font-weight:800; color:#22C55E; white-space:nowrap;
 }
 .p-addon-note {
-  margin:8px 0 0; font-size:12.5px; line-height:1.5; color:var(--muted); text-align:left;
+  margin:8px 0 0; font-size:13.5px; line-height:1.5; color:var(--muted); text-align:left;
 }
 
 /* ═══════════ REVIEWS ═══════════ */
@@ -1191,15 +1197,15 @@ h1 .blue, h2 .blue, h3 .blue {
 .review-score {
   background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.09);
   padding:3px 10px; border-radius:100px;
-  font-size:12px; font-weight:700; font-family:var(--font);
+  font-size:13.5px; font-weight:700; font-family:var(--font);
 }
-.review-stars { color:#FBBF24; font-size:13px; letter-spacing:2px; }
+.review-stars { color:#FBBF24; font-size:14px; letter-spacing:2px; }
 .review-text { font-size:14.5px; color:rgba(255,255,255,0.68); line-height:1.65; margin:0; }
-.review-logo { height:30px; display:flex; align-items:center; border-top:1px solid var(--border); padding-top:14px; font-size:12px; font-weight:700; color:var(--muted); letter-spacing:.5px; }
+.review-logo { height:30px; display:flex; align-items:center; border-top:1px solid var(--border); padding-top:14px; font-size:13.5px; font-weight:700; color:var(--muted); letter-spacing:.5px; }
 .rv-initials { width:26px; height:26px; border-radius:7px; margin-right:9px; flex-shrink:0;
   background:rgba(47,111,237,.14); border:1px solid rgba(47,111,237,.28);
   display:flex; align-items:center; justify-content:center;
-  font-family:var(--f); font-size:11px; font-weight:800; color:var(--accent2); letter-spacing:.5px; }
+  font-family:var(--f); font-size:12.5px; font-weight:800; color:var(--accent2); letter-spacing:.5px; }
 
 /* ═══════════ TEAM ═══════════ */
 .team-section { padding:120px 48px; background: transparent; }
@@ -1249,10 +1255,10 @@ h1 .blue, h2 .blue, h3 .blue {
 .team-li:hover { color:var(--white); border-color:rgba(47,111,237,.45); background:rgba(47,111,237,.09); }
 .team-li svg { color:#0A66C2; flex-shrink:0; }
 .team-name { font-size:20px; font-weight:800; letter-spacing:-.4px; margin-bottom:4px; }
-.team-role { font-size:13px; color:var(--accent2); font-family:var(--font); font-weight:600; letter-spacing:0; margin-bottom:16px; }
+.team-role { font-size:14px; color:var(--accent2); font-family:var(--font); font-weight:600; letter-spacing:0; margin-bottom:16px; }
 .team-bio { font-size:14px; color:var(--muted); line-height:1.65; margin-bottom:20px; }
 .team-values { list-style:none; display:flex; flex-direction:column; gap:8px; }
-.team-values li { font-size:13px; color:rgba(255,255,255,0.6); display:flex; align-items:flex-start; gap:8px; line-height:1.5; }
+.team-values li { font-size:14px; color:rgba(255,255,255,0.6); display:flex; align-items:flex-start; gap:8px; line-height:1.5; }
 .team-values li::before { content:'→'; color:var(--accent2); flex-shrink:0; }
 
 /* ═══════════ URGENCY ═══════════ */
@@ -1269,7 +1275,7 @@ h1 .blue, h2 .blue, h3 .blue {
 .spot-n.tot   { color:rgba(255,255,255,0.2); }
 .spot-n.bezet { color:#EF4444; text-shadow:0 0 20px rgba(239,68,68,0.35); }
 .spot-n.vrij  { color:#22C55E; text-shadow:0 0 30px rgba(34,197,94,0.4); }
-.spot-l { font-size:11px; color:var(--muted); font-family:var(--font); letter-spacing:0; text-transform:none; margin-top:6px; }
+.spot-l { font-size:12.5px; color:var(--muted); font-family:var(--font); letter-spacing:0; text-transform:none; margin-top:6px; }
 .prog-bar { height:3px; background:rgba(255,255,255,0.06); border-radius:2px; overflow:hidden; margin-bottom:52px; }
 .prog-fill { height:100%; background:linear-gradient(90deg,var(--accent),var(--accent2)); border-radius:2px; animation:prog 1.5s ease both; }
 @keyframes prog { from{width:0} }
@@ -1292,7 +1298,7 @@ h1 .blue, h2 .blue, h3 .blue {
 @keyframes twinkle { 0%,100%{opacity:.12} 50%{opacity:.65} }
 .cta-h { font-size:clamp(32px,4vw,56px); font-weight:900; letter-spacing:-2px; line-height:1.05; margin-bottom:20px; position:relative; z-index:1; }
 .cta-sub { font-size:17px; color:rgba(255,255,255,0.5); line-height:1.65; max-width:460px; margin:0 auto 44px; position:relative; z-index:1; }
-.cta-note { font-size:13px; color:var(--muted); margin-top:16px; position:relative; z-index:1; }
+.cta-note { font-size:14px; color:var(--muted); margin-top:16px; position:relative; z-index:1; }
 
 /* ═══════════ FOOTER ═══════════ */
 footer { background:var(--black); border-top:1px solid var(--border); padding:64px 48px 40px; }
@@ -1304,14 +1310,14 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
 .foot-logo .dot { color:var(--accent); }
 .foot-tagline { font-size:14px; color:var(--muted); line-height:1.65; max-width:260px; margin-bottom:24px; }
 .foot-socials { display:flex; gap:12px; }
-.foot-social { width:36px; height:36px; border-radius:50%; border:1px solid var(--border); display:flex; align-items:center; justify-content:center; font-size:13px; color:var(--muted); transition:border-color .2s, color .2s; }
+.foot-social { width:36px; height:36px; border-radius:50%; border:1px solid var(--border); display:flex; align-items:center; justify-content:center; font-size:14px; color:var(--muted); transition:border-color .2s, color .2s; }
 .foot-social:hover { border-color:var(--accent); color:var(--accent2); }
-.foot-col-title { font-size:12px; font-weight:800; letter-spacing:.2px; color:var(--accent2); margin-bottom:20px; }
+.foot-col-title { font-size:13.5px; font-weight:800; letter-spacing:.2px; color:var(--accent2); margin-bottom:20px; }
 .foot-col-links { list-style:none; display:flex; flex-direction:column; gap:12px; }
 .foot-col-links a { font-size:14px; color:rgba(255,255,255,0.62); transition:color .2s; }
 .foot-col-links a:hover { color:var(--white); }
 .foot-bottom { max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding-top:32px; flex-wrap:wrap; gap:12px; }
-.foot-copy { font-size:12px; color:var(--muted); }
+.foot-copy { font-size:13.5px; color:var(--muted); }
 
 /* ═══════════ REVEAL ═══════════ */
 .reveal { opacity:0; transform:translateY(22px); transition:opacity .65s ease, transform .65s ease; }
@@ -1439,7 +1445,7 @@ nav.nav-collapsed .nav-inner { padding:8px 8px 8px 18px; }
   .hero-wrap { padding:0 20px; }
   .hero { padding-top:100px; padding-bottom:48px; }
   .hero-h { font-size:clamp(36px,9vw,52px); letter-spacing:-2px; }
-  .hero-guaranteed { font-size:12px; padding:9px 14px; }
+  .hero-guaranteed { font-size:13.5px; padding:9px 14px; }
   .hero-sub { font-size:15px; }
   .hero-btns { flex-direction:column; align-items:stretch; }
   .btn-solid {
@@ -1483,7 +1489,7 @@ nav.nav-collapsed .nav-inner { padding:8px 8px 8px 18px; }
 
   .case-left { padding:24px 20px; }
   .case-stat { padding:24px 20px; }
-  .case-row { grid-template-columns:80px 1fr; gap:12px; font-size:13px; }
+  .case-row { grid-template-columns:80px 1fr; gap:12px; font-size:14px; }
   .case-company { font-size:18px; }
   .case-stat-num { font-size:32px; }
 
@@ -1520,7 +1526,7 @@ nav.nav-collapsed .nav-inner { padding:8px 8px 8px 18px; }
   .foot-top { grid-template-columns:1fr; gap:32px; }
   .foot-bottom { flex-direction:column; align-items:flex-start; gap:8px; }
 
-  .volume-note { font-size:13px; padding:16px 18px; }
+  .volume-note { font-size:14px; padding:16px 18px; }
   .horizon-glow { height:140px; }
 }
 
@@ -1529,7 +1535,7 @@ nav.nav-collapsed .nav-inner { padding:8px 8px 8px 18px; }
   background: linear-gradient(135deg, rgba(34,197,94,0.15), rgba(47,111,237,0.15));
   border: 1px solid rgba(34,197,94,0.35);
   color: #22C55E;
-  font-size: 13px; font-weight: 700;
+  font-size:14px; font-weight: 700;
   padding: 8px 16px; border-radius: 100px;
   white-space: nowrap; flex-shrink: 0;
   transition: all .2s;
@@ -2199,10 +2205,10 @@ footer { border-top: none !important; }
 <span class="blue">Gekwalificeerde salesafspraken</span> in je agenda, zonder zelf koude acquisitie te doen
       </h1>
 <p class="hero-sub">
-        Link2Leads vindt bedrijven die perfect passen binnen jouw ideale klantprofiel en benadert ze persoonlijk per e-mail namens jou. Geïnteresseerde reacties komen direct binnen in je eigen mailbox. Jij voert alleen nog het commerciële gesprek.
+        Wij zoeken bedrijven die passen bij jouw ideale klant en mailen ze persoonlijk namens jou. Reacties komen binnen in je eigen mailbox. Jij voert alleen het gesprek.
       </p>
 <div class="hero-btns">
-<a class="btn-solid" href="/book" target="_blank">Doe de gratis fitcheck →</a>
+<a class="btn-solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 <a class="btn-ghost-l2l" href="#contact">Stel eerst je vraag</a>
 </div>
 <p class="hero-note">Vanaf €995 per maand, all-in en zonder setupfee.</p>
@@ -2499,7 +2505,7 @@ Bel ons: 085 080 5381
     .steps4 > div.you{background:rgba(47,111,237,.07);}
     .s4-n{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
       border-radius:50%;background:rgba(255,255,255,.06);border:1px solid var(--border);
-      font-size:12px;font-weight:800;color:var(--muted);margin-bottom:14px;}
+      font-size:13.5px;font-weight:800;color:var(--muted);margin-bottom:14px;}
     .steps4 > div.you .s4-n{background:rgba(47,111,237,.16);border-color:rgba(47,111,237,.3);color:var(--accent2);}
     .s4-t{font-size:16.5px;font-weight:700;line-height:1.35;color:var(--white);letter-spacing:-.2px;}
     .s4-d{margin:9px 0 0;font-size:14px;line-height:1.55;color:rgba(255,255,255,.62);}
@@ -2565,20 +2571,40 @@ Bel ons: 085 080 5381
     .cs-dots{display:flex;gap:8px;}
     .cs-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.22);border:0;padding:0;cursor:pointer;transition:background .2s,width .2s;}
     .cs-dot.on{background:var(--accent2);width:22px;border-radius:100px;}
-    .cs-swipe{margin-top:12px;text-align:center;font-size:12.5px;color:var(--muted);}
+    .cs-swipe{margin-top:12px;text-align:center;font-size:13.5px;color:var(--muted);}
     .cs-allcases{display:flex;justify-content:center;margin-top:20px;}
     .cs-allcases-btn{display:inline-flex;align-items:center;gap:9px;background:rgba(47,111,237,.12);
       border:1px solid rgba(47,111,237,.35);border-radius:100px;padding:13px 26px;
       font-size:15px;font-weight:700;color:var(--accent2);transition:background .2s,transform .2s,border-color .2s;}
     .cs-allcases-btn:hover{background:rgba(47,111,237,.2);border-color:rgba(47,111,237,.55);transform:translateY(-1px);}
-    .cs-viz{padding:0 26px 0;margin-bottom:16px;}
-    .cs-viz > .viz{height:118px;overflow:hidden;}
-    .cs-viz-cap{display:none;}
-    @media(max-width:760px){.cs-viz{padding:0 20px;} .cs-viz > .viz{height:104px;}}
-    .cs-doorlink{padding:0 26px 20px;}
-    .cs-doorlink a{font-size:14.5px;font-weight:700;color:var(--accent2);}
-    .cs-doorlink a:hover{text-decoration:underline;text-underline-offset:3px;}
-    @media(max-width:760px){.cs-track{gap:12px;}.cs-doorlink{padding:0 20px 20px;}}
+    /* homepage-cases */
+    .cs-track > .cs-card{padding:34px 36px 30px;}
+    .cs-track > .cs-card .cs-body{padding:0;flex:1;display:flex;flex-direction:column;}
+    .cs-viz{padding:0;margin:0 0 26px;}
+    .cs-viz > .viz{height:250px;overflow:hidden;display:flex;flex-direction:column;}
+    .cs-kicker{display:flex;align-items:center;gap:14px;margin:0 0 16px;font-size:15px;font-weight:700;
+      color:var(--muted);line-height:1.4;}
+    .cs-logo{width:42px;height:42px;border-radius:11px;object-fit:cover;background:#fff;flex-shrink:0;}
+    .cs-logo-np{width:42px;height:42px;border-radius:11px;flex-shrink:0;display:flex;align-items:center;
+      justify-content:center;background:rgba(47,111,237,.16);border:1px solid rgba(47,111,237,.35);
+      color:var(--accent2);font-weight:800;font-size:15px;}
+    .cs-card h3{font-size:clamp(24px,3vw,32px);line-height:1.18;letter-spacing:-1px;font-weight:800;
+      color:var(--white);margin:0 0 16px;}
+    .cs-sum{margin:0;font-size:16.5px;line-height:1.62;color:rgba(255,255,255,.66);}
+    .cs-stats{display:flex;flex-wrap:wrap;gap:18px 42px;border:0;border-top:1px solid var(--border);
+      margin-top:26px;padding-top:24px;}
+    .cs-stats > div,.cs-stats > div:nth-child(n){padding:0;border:0;}
+    .cs-stats b{display:block;font-size:clamp(22px,2.4vw,27px);font-weight:800;letter-spacing:-.9px;
+      line-height:1;color:var(--white);}
+    .cs-stats span{display:block;margin-top:9px;font-size:14.5px;line-height:1.4;color:var(--muted);}
+    .cs-more{display:inline-block;margin-top:auto;padding-top:26px;font-size:16px;font-weight:700;color:var(--accent2);}
+    .cs-more:hover{text-decoration:underline;text-underline-offset:3px;}
+    @media(max-width:760px){.cs-track{gap:12px;}
+      .cs-track > .cs-card{padding:20px 20px 24px;}
+      .cs-viz > .viz{height:180px;}
+      .cs-stats{gap:16px 26px;}
+      .cs-kicker{font-size:14px;}
+      .cs-sum{font-size:15.5px;}}
   </style>
 <div class="case-inner">
 <div class="case-header reveal">
@@ -2588,106 +2614,78 @@ Bel ons: 085 080 5381
 <div class="cs-carousel reveal">
 <div aria-label="Klantcases" aria-roledescription="carousel" class="cs-track" id="csTrack" role="group" tabindex="0">
 <div aria-label="Case 1 van 3" aria-roledescription="slide" class="cs-card" role="group">
-<div class="brw-bar"><span class="brw-dots"><i></i><i></i><i></i></span><span class="brw-url"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="11"><rect height="10" rx="2" width="16" x="4" y="11"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg> link2leads.nl/cases/softwarebedrijf</span><span class="brw-tag">Case</span></div>
-<div class="cs-lead">
-<span class="cs-lab">Case study</span>
-<h3><span class="blue">€84.000 pipeline</span> uit €5.085 campagne-investering</h3>
-<p class="cs-context">Softwarebedrijf · Scale-pakket · 90 dagen · €1.695 per maand</p>
-</div>
 <div class="cs-viz" aria-hidden="true">
 <div class="viz">
 <span class="viz-glow"></span>
-<div class="viz-body" style="height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:16px 20px;">
-<div class="viz-chart" style="height:74px;"><div style="height:33%"></div><div style="height:56%"></div><div style="height:67%"></div><div style="height:78%"></div><div style="height:89%"></div><div style="height:100%"></div></div>
+<div class="viz-body" style="height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:22px 26px;">
+<div class="viz-chart" style="height:150px;"><div style="height:33%"></div><div style="height:56%"></div><div style="height:67%"></div><div style="height:78%"></div><div style="height:89%"></div><div style="height:100%"></div></div>
 <div class="viz-axis"><span>wk 1-2</span><span>3-4</span><span>5-6</span><span>7-8</span><span>9-10</span><span>11-13</span></div>
 </div>
 </div>
-<p class="cs-viz-cap">Afspraken per twee weken over de looptijd van negentig dagen.</p>
 </div>
+<div class="cs-body">
+<div class="cs-kicker"><img alt="Nafite" class="cs-logo" height="42" width="42" src="data:image/jpeg;base64,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"/><span>Case study &middot; Softwarebedrijf &middot; Scale-pakket</span></div>
+<h3><span class="blue">€84.000 pipeline</span> uit €5.085 campagne-investering</h3>
+<p class="cs-sum">Nieuwe klanten kwamen hier via-via binnen, zonder structurele acquisitie. In 90 dagen stonden er 38 gekwalificeerde afspraken, waarvan de eerste op dag 1 na livegang.</p>
 <div class="cs-stats">
 <div><b>38</b><span>Gekwalificeerde afspraken</span></div>
 <div><b>€134</b><span>Kosten per afspraak</span></div>
 <div><b>16,5x</b><span>Pipeline ten opzichte van de investering</span></div>
 </div>
-<div class="cs-do">
-<h4>Wat we deden</h4>
-<p>Nieuwe klanten kwamen hier via-via binnen, zonder structurele acquisitie. Wij hebben de doelgroep bepaald, de e-mailinfrastructuur opgezet, de campagne geschreven en die gefaseerd uitgerold naar beslissers bij vergelijkbare bedrijven. De eerste afspraak stond op dag 1 na livegang.</p>
+<a class="cs-more" href="/cases/softwarebedrijf">Lees de volledige case &rarr;</a>
 </div>
-<div class="cs-quote">
-            “Ik had nooit verwacht dat e-mail tegenwoordig nog zoveel impact kon hebben. Demi en Anne-Roos weten waar ze het over hebben en zorgen voor een sterk resultaat.”
-            <span class="cs-by"><img alt="Nafite" class="rv-logo" height="30" src="data:image/jpeg;base64,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" width="30"/><span>Oprichter</span></span>
-</div>
-<div class="cs-doorlink"><a href="/cases/softwarebedrijf">Lees de volledige case →</a></div>
 </div>
 <div aria-label="Case 2 van 3" aria-roledescription="slide" class="cs-card" role="group">
-<div class="brw-bar"><span class="brw-dots"><i></i><i></i><i></i></span><span class="brw-url"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="11"><rect height="10" rx="2" width="16" x="4" y="11"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg> link2leads.nl/cases/miju-marketing</span><span class="brw-tag">Case</span></div>
-<div class="cs-lead">
-<span class="cs-lab">Case study</span>
-<h3><span class="blue">15 positieve reacties</span> in de eerste twee weken</h3>
-<p class="cs-context">MIJU-marketing · Growth-pakket · 14 dagen · €1.295 per maand</p>
-</div>
 <div class="cs-viz" aria-hidden="true">
 <div class="viz">
 <span class="viz-glow"></span>
-<div class="viz-body" style="padding:14px 18px;">
-<div class="viz-lanes" style="gap:7px;">
-<div class="viz-lane" style="padding:8px 12px;"><div><span class="viz-lane-name">Segment 1</span><span class="viz-lane-meter"><i style="width:100%"></i></span></div><div class="viz-lane-n" style="font-size:14px;">&uarr;<small>Meer volume</small></div></div>
-<div class="viz-lane" style="padding:8px 12px;"><div><span class="viz-lane-name">Segment 2</span><span class="viz-lane-meter"><i style="width:58%"></i></span></div><div class="viz-lane-n" style="font-size:14px;">&#8635;<small>Insteek aangepast</small></div></div>
-<div class="viz-lane" style="padding:8px 12px;"><div><span class="viz-lane-name">Segment 3</span><span class="viz-lane-meter"><i style="width:22%"></i></span></div><div class="viz-lane-n" style="font-size:14px;color:var(--muted)">&times;<small>Gestopt</small></div></div>
+<div class="viz-body" style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:18px 22px;">
+<div class="viz-lanes" style="gap:14px;">
+<div class="viz-lane" style="padding:13px 16px;"><div><span class="viz-lane-name">Segment 1</span><span class="viz-lane-meter"><i style="width:100%"></i></span></div><div class="viz-lane-n" style="font-size:16px;">&uarr;<small>Meer volume</small></div></div>
+<div class="viz-lane" style="padding:13px 16px;"><div><span class="viz-lane-name">Segment 2</span><span class="viz-lane-meter"><i style="width:58%"></i></span></div><div class="viz-lane-n" style="font-size:16px;">&#8635;<small>Insteek aangepast</small></div></div>
+<div class="viz-lane" style="padding:13px 16px;"><div><span class="viz-lane-name">Segment 3</span><span class="viz-lane-meter"><i style="width:22%"></i></span></div><div class="viz-lane-n" style="font-size:16px;color:var(--muted)">&times;<small>Gestopt</small></div></div>
 </div>
 </div>
 </div>
-<p class="cs-viz-cap">Volume naar de lijst die het beste liep, de zwakste eruit.</p>
 </div>
+<div class="cs-body">
+<div class="cs-kicker"><img alt="MIJU-marketing" class="cs-logo" height="42" width="42" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA4ADgDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAYHBAUIAQP/xAAzEAABAwQABAQDBwUBAAAAAAABAgMEAAUGEQcSITETIkFhFVFxCBQjJDJCgRZSYqHB0f/EABkBAAMBAQEAAAAAAAAAAAAAAAAEBQIDBv/EACkRAAEDAwIFAwUAAAAAAAAAAAEAAgMEESESMQUiQWFxI1GhJDLB0fD/2gAMAwEAAhEDEQA/AOVKUpQhKUpQhKzIduky4kuU03+WipCnXT0SnZ0kb+ZPYf8AlbzAcNn5jdRHiAtRGyDIkqHlbH/VH0FS/jOuBj8O2YfY0BuNHH3qUf3OOEaSVH1Otn+RU+WvaKhtJHl5yew9z56JplMTEZn4aNu5VUUpSqCVVn8FeFrXEhF7ckXtNpatiWlqWpjxAoL5u/mGtcv+6iucYhOxTOJ+MvBUiVHfDTSko14wVooUB/kCOnvVrfZ12OG3FwpJBFo2CPT8N6rDxu3W3PE4ZxWujrQbsUF0XoHut+MNtq16nZKvpyihCgGUfZ3+AWm2yXMlQ9JkXCJbn2URejDjykg9efry8wPYb9qis3g7OY4l3LGWJZfgW5Tf3i4FrkACkJXoJ2fN5ta371b+NXyVk/CiHepR/Mz86jvkHqE7fb5U/QDQ/ipqVy71nWTWaFGcfn2wtOSnilLbbhcQCnR33100f7alcWqaqCH6SMucevt3t17fKcoooZJPWdYD5XxxTD4Noxe1t2pSY8V6YmIEcm1FRJBWpW+p6VyvxqsdwsnEm/MXBbsnUjaZSmS2lwFIICe/QA67+ldmSm149jViZuvK0+m6okKbSoKKUAkk9PkCK0/E3G8jnqnvYxbYt1+IlPgrddQGmtpAKlhR6ga3ob3UuijNJzxR6pXadVzkXFyTe9s7p2ocJ+V77MF7Yxjb4XJvEjh9/RlixK4/Efvnx6EJnh+DyeD5UHl3s836+/TtSp59qiTEinCsZamMy7hZLb4ExTJHKlZCBrp2PkJ16AilepUZUbHlyY7brceQ8026OVxKFlIWPkQO/c161OltRXIzUp9EdzqtpLhCFfUdjWPShCyWp8tphLLUp9DKVhwNpcISFDsrW+/vUy4UQrlkGeRgmdNQE/jynkPKCyhOuhUDvqdD+aglXxwwVBwHh3IyW8DUi4q/Aa/e4kb5Ej6nZJ+WjUzi9S+npiIsvdyt8n9bpyhhbLKNf2jJ8BT3iFlULELQqZMWZU94FMZlayVOK+Z31CR6muZpWWX+RJkvG7z2zIUVLQ0+tCDv05Qda9q+eV5DOye8vXK5Oczi+iED9LafRKfYVp648H4UKCPU83kdufwP7K3XVhqXWbho2C9UorUVKJUonZJOyTSvKVZSCUpShCyba2w7PYRMdLUXmBdWBshI76HqddvetxmmTSMluKHFJ8CDHQGYkVJ8rLY6AfXoNmlK5GJrpBIdxt2vuth5DS0bFR6lKV1WEpSlCF//2Q=="/><span>Case study &middot; MIJU-marketing &middot; Growth-pakket</span></div>
+<h3><span class="blue">15 positieve reacties</span> in de eerste twee weken</h3>
+<p class="cs-sum">Drie verschillende koperstypes in dezelfde doelgroep, met een campagne die niemand echt aansprak. Opgesplitst in drie aparte campagnes met een eigen lijst en een eigen insteek.</p>
 <div class="cs-stats">
 <div><b>15</b><span>Positieve reacties</span></div>
 <div><b>14</b><span>Dagen tot de vijftiende reactie</span></div>
 <div><b>3</b><span>Segmenten met een eigen boodschap</span></div>
 </div>
-<div class="cs-do">
-<h4>Wat we deden</h4>
-<p>Drie heel verschillende koperstypes zaten in dezelfde doelgroep, en een campagne die alle drie tegelijk aansprak sprak niemand echt aan. Wij hebben de doelgroep opgesplitst in drie aparte campagnes, elk met een eigen lijst en een eigen insteek, verstuurd vanaf persoonlijke afzenderadressen.</p>
+<a class="cs-more" href="/cases/miju-marketing">Lees de volledige case &rarr;</a>
 </div>
-<div class="cs-quote">
-            “Snel opgezet, ze denken goed mee en begrijpen precies onze USP’s en ideale doelgroep. Na 15 dagen stroomden de positieve reacties al binnen.”
-            <span class="cs-by"><img alt="MIJU-marketing" class="rv-logo" height="30" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAA4ADgDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAYHBAUIAQP/xAAzEAABAwQABAQDBwUBAAAAAAABAgMEAAUGEQcSITETIkFhFVFxCBQjJDJCgRZSYqHB0f/EABkBAAMBAQEAAAAAAAAAAAAAAAAEBQIDBv/EACkRAAEDAwIFAwUAAAAAAAAAAAEAAgMEESESMQUiQWFxI1GhJDLB0fD/2gAMAwEAAhEDEQA/AOVKUpQhKUpQhKzIduky4kuU03+WipCnXT0SnZ0kb+ZPYf8AlbzAcNn5jdRHiAtRGyDIkqHlbH/VH0FS/jOuBj8O2YfY0BuNHH3qUf3OOEaSVH1Otn+RU+WvaKhtJHl5yew9z56JplMTEZn4aNu5VUUpSqCVVn8FeFrXEhF7ckXtNpatiWlqWpjxAoL5u/mGtcv+6iucYhOxTOJ+MvBUiVHfDTSko14wVooUB/kCOnvVrfZ12OG3FwpJBFo2CPT8N6rDxu3W3PE4ZxWujrQbsUF0XoHut+MNtq16nZKvpyihCgGUfZ3+AWm2yXMlQ9JkXCJbn2URejDjykg9efry8wPYb9qis3g7OY4l3LGWJZfgW5Tf3i4FrkACkJXoJ2fN5ta371b+NXyVk/CiHepR/Mz86jvkHqE7fb5U/QDQ/ipqVy71nWTWaFGcfn2wtOSnilLbbhcQCnR33100f7alcWqaqCH6SMucevt3t17fKcoooZJPWdYD5XxxTD4Noxe1t2pSY8V6YmIEcm1FRJBWpW+p6VyvxqsdwsnEm/MXBbsnUjaZSmS2lwFIICe/QA67+ldmSm149jViZuvK0+m6okKbSoKKUAkk9PkCK0/E3G8jnqnvYxbYt1+IlPgrddQGmtpAKlhR6ga3ob3UuijNJzxR6pXadVzkXFyTe9s7p2ocJ+V77MF7Yxjb4XJvEjh9/RlixK4/Efvnx6EJnh+DyeD5UHl3s836+/TtSp59qiTEinCsZamMy7hZLb4ExTJHKlZCBrp2PkJ16AilepUZUbHlyY7brceQ8026OVxKFlIWPkQO/c161OltRXIzUp9EdzqtpLhCFfUdjWPShCyWp8tphLLUp9DKVhwNpcISFDsrW+/vUy4UQrlkGeRgmdNQE/jynkPKCyhOuhUDvqdD+aglXxwwVBwHh3IyW8DUi4q/Aa/e4kb5Ej6nZJ+WjUzi9S+npiIsvdyt8n9bpyhhbLKNf2jJ8BT3iFlULELQqZMWZU94FMZlayVOK+Z31CR6muZpWWX+RJkvG7z2zIUVLQ0+tCDv05Qda9q+eV5DOye8vXK5Oczi+iED9LafRKfYVp648H4UKCPU83kdufwP7K3XVhqXWbho2C9UorUVKJUonZJOyTSvKVZSCUpShCyba2w7PYRMdLUXmBdWBshI76HqddvetxmmTSMluKHFJ8CDHQGYkVJ8rLY6AfXoNmlK5GJrpBIdxt2vuth5DS0bFR6lKV1WEpSlCF//2Q==" width="30"/><span>Micah, MIJU-marketing</span></span>
-</div>
-<div class="cs-doorlink"><a href="/cases/miju-marketing">Lees de volledige case →</a></div>
 </div>
 <div aria-label="Case 3 van 3" aria-roledescription="slide" class="cs-card" role="group">
-<div class="brw-bar"><span class="brw-dots"><i></i><i></i><i></i></span><span class="brw-url"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="11"><rect height="10" rx="2" width="16" x="4" y="11"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg> link2leads.nl/cases/neuropage</span><span class="brw-tag">Case</span></div>
-<div class="cs-lead">
-<span class="cs-lab">Case study</span>
-<h3>Een eigen landingspagina <span class="blue">per prospect</span></h3>
-<p class="cs-context">Onze eigen campagnes · met Neuropage en Smartlead · 8 weken</p>
-</div>
 <div class="cs-viz" aria-hidden="true">
 <div class="viz">
 <span class="viz-glow"></span>
 <div class="viz-bar"><span class="viz-dots"><i></i><i></i><i></i></span><span class="viz-url">pagina.link2leads.nl/voor/<b style="color:var(--accent2);font-weight:700;">jouwbedrijf</b></span></div>
-<div class="viz-body" style="padding:14px 18px;">
-<div class="viz-lp" style="padding:13px 15px;">
-<span class="viz-lp-tag">Speciaal voor jouw bedrijf</span>
-<h4 style="font-size:16px;margin-top:9px;">Een pagina die alleen over <em>hun bedrijf</em> gaat</h4>
+<div class="viz-body" style="padding:20px 24px;flex:1;display:flex;">
+<div class="viz-lp" style="padding:20px 22px;flex:1;display:flex;flex-direction:column;justify-content:center;">
+<span class="viz-lp-tag" style="align-self:flex-start;">Speciaal voor jouw bedrijf</span>
+<h4 style="font-size:18px;margin-top:12px;">Een pagina die alleen over <em>hun bedrijf</em> gaat</h4>
+<span style="display:block;height:9px;border-radius:100px;background:rgba(255,255,255,.10);margin-top:16px;"></span>
+<span style="display:block;height:9px;width:78%;border-radius:100px;background:rgba(255,255,255,.07);margin-top:9px;"></span>
 </div>
 </div>
 </div>
-<p class="cs-viz-cap">Elke prospect klikt door naar zijn eigen pagina.</p>
 </div>
+<div class="cs-body">
+<div class="cs-kicker"><span class="cs-logo-np" aria-hidden="true">NP</span><span>Case study &middot; Onze eigen campagnes &middot; Neuropage</span></div>
+<h3>Een eigen landingspagina <span class="blue">per prospect</span></h3>
+<p class="cs-sum">Wie op een link in onze mail klikt, komt op een pagina die alleen over zijn bedrijf gaat. Neuropage maakt die pagina automatisch en Smartlead zet de link in de mail. Prospects gingen reageren om te zeggen hoe persoonlijk het was.</p>
 <div class="cs-stats">
 <div><b>1.240</b><span>Prospects met een eigen pagina</span></div>
 <div><b>34%</b><span>Opende zijn eigen pagina</span></div>
 <div><b>27</b><span>Afspraken in acht weken</span></div>
 </div>
-<div class="cs-do">
-<h4>Wat we deden</h4>
-<p>We staken veel werk in het persoonlijk maken van de mail en stuurden vervolgens iedereen die klikte naar dezelfde pagina. Nu krijgt elke prospect een pagina die alleen over zijn eigen bedrijf gaat, automatisch gemaakt en automatisch in de mail gezet. <a href="/cases/neuropage">Hoe dat werkt →</a></p>
+<a class="cs-more" href="/cases/neuropage">Lees de volledige case &rarr;</a>
 </div>
-<div class="cs-quote">
-            “Mensen reageerden om te zeggen hoe persoonlijk het was. Dat gebeurt normaal nooit bij koude e-mail.”
-            <span class="cs-by"><span>Demi, oprichter Link2Leads</span></span>
-</div>
-<div class="cs-doorlink"><a href="/cases/neuropage">Lees de volledige case →</a></div>
 </div>
 </div>
 <div class="cs-nav">
@@ -2939,9 +2937,9 @@ Bel ons: 085 080 5381
         background:linear-gradient(150deg,#3B7BF5 0%,#1E4FC4 100%);
         box-shadow:0 20px 44px rgba(6,14,38,.62), inset 0 0 0 1px rgba(255,255,255,.2);}
       .camp-sticker b{display:block;font-size:21px;font-weight:900;letter-spacing:-.8px;line-height:1;color:#fff;}
-      .camp-sticker span{display:block;margin-top:6px;font-size:12px;line-height:1.4;color:rgba(255,255,255,.88);}
+      .camp-sticker span{display:block;margin-top:6px;font-size:13.5px;line-height:1.4;color:rgba(255,255,255,.88);}
       @media(max-width:900px){.camp-sticker{max-width:178px;top:-30px;right:-4px;padding:12px 14px;}
-        .camp-sticker b{font-size:18px;} .camp-sticker span{font-size:11.5px;}}
+        .camp-sticker b{font-size:18px;} .camp-sticker span{font-size:12.5px;}}
       @media(max-width:620px){.camp-sticker{position:static;transform:rotate(-2deg);max-width:250px;
         margin:0 4px 14px auto;padding:12px 15px;}}
     </style>
@@ -2958,7 +2956,7 @@ Bel ons: 085 080 5381
         padding:16px 22px;border-bottom:1px solid var(--border);}
       .camp-bar-l{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:700;color:var(--white);}
       .camp-dot{width:8px;height:8px;border-radius:100px;background:#4ADE80;box-shadow:0 0 0 4px rgba(74,222,128,.15);}
-      .camp-bar-r{font-size:11.5px;font-weight:700;letter-spacing:.2px;
+      .camp-bar-r{font-size:12.5px;font-weight:700;letter-spacing:.2px;
         color:var(--accent2);background:rgba(47,111,237,.13);border:1px solid rgba(47,111,237,.28);
         border-radius:100px;padding:5px 11px;}
       .camp-stats{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--border);}
@@ -2966,22 +2964,22 @@ Bel ons: 085 080 5381
       .camp-stats > div:last-child{border-right:0;}
       .camp-stats b{display:block;font-size:clamp(20px,2.4vw,26px);font-weight:800;letter-spacing:-1px;
         line-height:1.05;color:var(--white);}
-      .camp-stats span{display:block;margin-top:6px;font-size:13px;line-height:1.4;color:var(--muted);}
+      .camp-stats span{display:block;margin-top:6px;font-size:14px;line-height:1.4;color:var(--muted);}
       .camp-stats > div.hl b{color:var(--accent2);}
       .camp-rows{display:grid;}
       .camp-row{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;
         padding:15px 22px;border-bottom:1px solid var(--border);}
       .camp-av{width:36px;height:36px;border-radius:10px;background:rgba(47,111,237,.13);
-        display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;
+        display:flex;align-items:center;justify-content:center;font-size:13.5px;font-weight:800;
         color:var(--accent2);flex-shrink:0;}
       .camp-who{font-size:14.5px;font-weight:700;color:rgba(255,255,255,.94);}
-      .camp-sub{margin-top:3px;font-size:13px;color:var(--muted);}
-      .camp-tag{font-size:11px;font-weight:700;padding:6px 12px;border-radius:100px;white-space:nowrap;}
+      .camp-sub{margin-top:3px;font-size:14px;color:var(--muted);}
+      .camp-tag{font-size:12.5px;font-weight:700;padding:6px 12px;border-radius:100px;white-space:nowrap;}
       .camp-foot{padding:16px 22px 18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
-      .camp-legend{font-size:11.5px;font-weight:800;letter-spacing:.2px;
+      .camp-legend{font-size:12.5px;font-weight:800;letter-spacing:.2px;
         color:rgba(255,255,255,.4);flex-shrink:0;}
       .class-chips{display:flex;flex-wrap:wrap;gap:8px;}
-      .class-chip{font-size:12px;font-weight:700;padding:6px 12px;border-radius:100px;white-space:nowrap;}
+      .class-chip{font-size:13.5px;font-weight:700;padding:6px 12px;border-radius:100px;white-space:nowrap;}
       .cc-warm{background:rgba(74,222,128,.12);color:#7EE2A8;border:1px solid rgba(74,222,128,.26);}
       .cc-int{background:rgba(245,158,11,.12);color:#F5B44B;border:1px solid rgba(245,158,11,.26);}
       .cc-no{background:rgba(255,255,255,.05);color:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.12);}
@@ -3079,7 +3077,7 @@ Bel ons: 085 080 5381
           .two-modes{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:820px;margin:26px auto 0;text-align:left;}
           .tm-card{background:var(--card-bg);border:1px solid var(--border);border-radius:14px;padding:20px 22px;}
           .tm-card.fs{border-color:rgba(47,111,237,.35);background:linear-gradient(160deg,rgba(47,111,237,.1),rgba(14,16,26,.5));}
-          .tm-lab{display:block;font-size:12.5px;font-weight:800;letter-spacing:.2px;color:var(--accent2);margin-bottom:10px;}
+          .tm-lab{display:block;font-size:13.5px;font-weight:800;letter-spacing:.2px;color:var(--accent2);margin-bottom:10px;}
           .tm-card p{margin:0;font-size:15px;line-height:1.6;color:rgba(255,255,255,.78);}
           @media(max-width:760px){.two-modes{grid-template-columns:1fr;}}
         </style>
@@ -3119,7 +3117,7 @@ Bel ons: 085 080 5381
 <li>Rapportage van opens en responses</li>
 <li>Alleen gekwalificeerde positieve reacties</li>
 </ul>
-<a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck →</a>
+<a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
 <div class="p-card reveal">
 <div class="p-name">Growth</div>
@@ -3134,7 +3132,7 @@ Bel ons: 085 080 5381
 <li>Snellere opbouw van je instroom</li>
 <li>Wekelijkse optimalisatieslag</li>
 </ul>
-<a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck →</a>
+<a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
 <div class="p-card featured reveal">
 <div class="p-name">Scale</div>
@@ -3154,7 +3152,7 @@ Bel ons: 085 080 5381
 <span class="p-addon-price">+ €600</span>
 </div>
 <p class="p-addon-note">Wij handelen de reacties af en plannen de afspraak direct in jouw agenda.</p>
-<a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck →</a>
+<a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
 <div class="p-card reveal">
 <div class="p-name">Pro</div>
@@ -3174,7 +3172,7 @@ Bel ons: 085 080 5381
 <span class="p-addon-price">+ €800</span>
 </div>
 <p class="p-addon-note">Wij handelen de reacties af en plannen de afspraak direct in jouw agenda.</p>
-<a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck →</a>
+<a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
 </div>
 <div class="volume-note reveal">
@@ -3193,14 +3191,14 @@ Bel ons: 085 080 5381
         .gb-stars{font-size:15px;letter-spacing:3px;color:#FFD36B;line-height:1;text-indent:3px;}
         .gar-badge b{display:block;margin-top:7px;font-size:19px;font-weight:900;color:#fff;
           letter-spacing:-.4px;line-height:1.02;}
-        .gb-sub{display:block;margin-top:5px;font-size:9px;font-weight:800;letter-spacing:.5px;color:rgba(255,255,255,.84);line-height:1.3;}
+        .gb-sub{display:block;margin-top:5px;font-size:11px;font-weight:800;letter-spacing:.5px;color:rgba(255,255,255,.84);line-height:1.3;}
         .res-gar .rg-pill,.res-gar h3,.res-gar > p{max-width:calc(100% - 130px);}
         @media(max-width:900px){.gar-badge{width:112px;height:112px;top:-22px;right:-8px;}
-          .gar-badge b{font-size:16px;} .gb-stars{font-size:13px;}
+          .gar-badge b{font-size:16px;} .gb-stars{font-size:14px;}
           .res-gar .rg-pill,.res-gar h3,.res-gar > p{max-width:calc(100% - 104px);}}
         @media(max-width:620px){.gar-badge{width:92px;height:92px;top:-18px;right:-4px;}
-          .gar-badge b{font-size:14px;margin-top:5px;} .gb-stars{font-size:11px;letter-spacing:2px;}
-          .gb-sub{font-size:8.5px;}
+          .gar-badge b{font-size:14px;margin-top:5px;} .gb-stars{font-size:12.5px;letter-spacing:2px;}
+          .gb-sub{font-size:11px;}
           .res-gar .rg-pill,.res-gar h3{max-width:calc(100% - 82px);} .res-gar > p{max-width:none;}}
         .res-gar .rg-pill{display:block;font-family:var(--f);font-size:14px;font-weight:800;letter-spacing:.2px;color:var(--accent2);margin-bottom:12px;}
         .res-gar h3{font-size:clamp(22px,3.2vw,30px);line-height:1.18;letter-spacing:-.9px;font-weight:800;color:var(--white);margin:0 0 16px;}
@@ -3215,7 +3213,7 @@ Bel ons: 085 080 5381
         .rg-cost{display:flex;align-items:center;gap:9px;background:rgba(255,255,255,.03);border:1px solid var(--border);
           border-radius:12px;padding:13px 15px;font-size:14.5px;color:rgba(255,255,255,.82);}
         .rg-cost::before{content:'\2713';color:#4ADE80;font-weight:700;font-size:14px;}
-        .rg-fine{margin:0;padding-top:18px;border-top:1px solid rgba(255,255,255,.1);font-size:12.5px;line-height:1.6;color:rgba(255,255,255,.42);max-width:820px;}
+        .rg-fine{margin:0;padding-top:18px;border-top:1px solid rgba(255,255,255,.1);font-size:13.5px;line-height:1.6;color:rgba(255,255,255,.42);max-width:820px;}
         .rg-fine a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
         @media(max-width:900px){.rg-costs{grid-template-columns:1fr 1fr;}}
         @media(max-width:760px){.res-gar{padding:26px 22px;}.rg-costs{grid-template-columns:1fr;}.rg-hero{padding:18px;}}
@@ -3253,7 +3251,7 @@ Bel ons: 085 080 5381
         .pa-item[open] summary::after{transform:rotate(45deg);}
         .pa-body{padding:0 24px 22px;}
         .pa-cols{display:grid;grid-template-columns:1fr 1fr;gap:28px;}
-        .pa-cols h4{font-family:var(--f);font-size:11px;letter-spacing:.2px;color:var(--muted);font-weight:700;margin:0 0 12px;}
+        .pa-cols h4{font-family:var(--f);font-size:12.5px;letter-spacing:.2px;color:var(--muted);font-weight:700;margin:0 0 12px;}
         .pa-cols ul{list-style:none;padding:0;margin:0;display:grid;gap:9px;}
         .pa-cols li{position:relative;padding-left:24px;font-size:15px;line-height:1.5;color:rgba(255,255,255,.78);}
         .pa-yes li::before{content:'\2713';position:absolute;left:0;color:#4ADE80;font-weight:700;}
@@ -3407,18 +3405,19 @@ Bel ons: 085 080 5381
 <style>
     .contact-section{padding:0 24px 90px;max-width:1000px;margin:0 auto;}
     .contact-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;padding:40px 36px;text-align:left;display:grid;grid-template-columns:1fr 1.02fr;gap:36px;align-items:stretch;}
+    .contact-left{display:flex;flex-direction:column;}
     .contact-right{align-self:stretch;display:flex;flex-direction:column;justify-content:center;
       background:rgba(255,255,255,.028);border:1px solid var(--border);border-radius:16px;padding:26px 24px;}
     .contact-right form{width:100%;}
-    .contact-photo{margin:0 0 20px;border-radius:16px;overflow:hidden;border:1px solid var(--border);position:relative;}
-    .contact-photo img{display:block;width:100%;height:215px;object-fit:cover;object-position:center 18%;}
-    .contact-photo figcaption{padding:11px 16px;font-size:12.5px;line-height:1.5;color:var(--muted);
+    .contact-photo{margin:auto 0 0;border-radius:16px;overflow:hidden;border:1px solid var(--border);position:relative;}
+    .contact-photo img{display:block;width:100%;height:300px;object-fit:cover;object-position:center 18%;}
+    .contact-photo figcaption{padding:11px 16px;font-size:13.5px;line-height:1.5;color:var(--muted);
       background:rgba(255,255,255,.03);border-top:1px solid var(--border);}
-    @media(max-width:860px){.contact-photo img{height:180px;}}
-    .contact-left h2{font-size:clamp(24px,3.4vw,31px);line-height:1.18;letter-spacing:-1px;font-weight:800;margin:14px 0 14px;}
+    @media(max-width:860px){.contact-photo img{height:210px;}.contact-photo{margin-top:0;}}
+    .contact-left h2{font-size:clamp(24px,3.4vw,31px);line-height:1.18;letter-spacing:-1px;font-weight:800;margin:0 0 14px;}
     .contact-left h2 .blue{color:inherit;}
-    .contact-left p{font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.66);margin:0;}
-    .contact-direct{margin-top:24px;display:grid;gap:10px;}
+    .contact-left p{font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.66);margin:0 0 22px;}
+    .contact-direct{grid-column:1 / -1;margin-top:2px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;align-items:stretch;}
     .contact-direct a{display:flex;align-items:center;gap:13px;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:12px;padding:14px 16px;font-size:15px;font-weight:600;color:var(--white);transition:border-color .2s,background .2s,transform .2s;}
     .contact-direct a > span:nth-child(2){flex:1;min-width:0;}
     .contact-direct a:hover{border-color:rgba(47,111,237,.45);background:rgba(47,111,237,.08);transform:translateX(2px);}
@@ -3427,21 +3426,22 @@ Bel ons: 085 080 5381
     .contact-direct .ci{width:36px;height:36px;border-radius:10px;background:rgba(47,111,237,.14);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--accent2);transition:background .2s,color .2s;}
     .contact-direct .ci svg{width:17px;height:17px;display:block;}
     .contact-direct .cgo{flex-shrink:0;color:rgba(255,255,255,.34);display:flex;align-items:center;transition:color .2s,transform .2s;}
-    .contact-direct small{display:block;font-weight:400;font-size:12.5px;color:var(--muted);margin-top:2px;}
+    .contact-direct small{display:block;font-weight:400;font-size:13.5px;color:var(--muted);margin-top:2px;}
     .cf-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
     .cf-field{display:flex;flex-direction:column;gap:7px;margin-bottom:14px;}
-    .cf-field label{font-family:var(--f);font-weight:700;font-size:11px;letter-spacing:.2px;color:var(--muted);}
+    .cf-field label{font-family:var(--f);font-weight:700;font-size:12.5px;letter-spacing:.2px;color:var(--muted);}
     .cf-field input,.cf-field textarea{width:100%;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.10);border-radius:11px;padding:13px 15px;color:var(--white);font-size:15px;font-family:var(--f);transition:border-color .2s,background .2s;}
     .cf-field textarea{resize:vertical;min-height:100px;line-height:1.6;}
     .cf-field input:focus,.cf-field textarea:focus{outline:none;border-color:var(--accent);background:rgba(47,111,237,.06);}
     .cf-field input::placeholder,.cf-field textarea::placeholder{color:rgba(255,255,255,.30);}
     .cf-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
     .cf-submit{width:100%;justify-content:center;margin-top:4px;}
-    .cf-note{margin-top:14px;font-size:12.5px;line-height:1.6;color:var(--muted);text-align:center;}
+    .cf-note{margin-top:14px;font-size:13.5px;line-height:1.6;color:var(--muted);text-align:center;}
     .cf-note a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
     .cf-msg{margin-top:14px;border-radius:12px;padding:14px 16px;font-size:14.5px;line-height:1.6;display:none;}
     .cf-msg.ok{display:block;background:rgba(74,222,128,.09);border:1px solid rgba(74,222,128,.3);color:#BBF7D0;}
     .cf-msg.err{display:block;background:rgba(248,113,113,.09);border:1px solid rgba(248,113,113,.3);color:#FECACA;}
+    @media(max-width:980px){.contact-direct{grid-template-columns:1fr;}}
     @media(max-width:860px){.contact-card{grid-template-columns:1fr;gap:24px;padding:26px 18px;align-items:start;}
       .contact-right{padding:22px 18px;}}
     @media(max-width:520px){.cf-row{grid-template-columns:1fr;}}
@@ -3450,29 +3450,12 @@ Bel ons: 085 080 5381
 <div class="contact-left">
 <h2>Geen zin in een call? <span class="blue">Stel gewoon je vraag.</span></h2>
 <p>Wil je eerst weten of dit bij jouw doelgroep past of wat het kost? Hoeft geen half uur voor. Stuur je vraag en Demi of Anne-Roos antwoordt binnen een werkdag.</p>
-<div class="contact-direct">
-<a href="mailto:info@link2leads.nl">
-<span class="ci"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24"><rect height="15" rx="2.5" width="19" x="2.5" y="4.5"></rect><path d="m3 7 8.13 5.42a1.6 1.6 0 0 0 1.74 0L21 7"></path></svg></span>
-<span>info@link2leads.nl<small>Direct mailen kan ook, zelfde antwoordtijd</small></span>
-<span class="cgo"><svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="16"><path d="m9 5 7 7-7 7"></path></svg></span>
-</a>
-<a href="tel:+31850805381">
-<span class="ci"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24"><path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.7 2 2 0 0 1 3.1 1.5h2.6a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L6.87 9.23a16 16 0 0 0 6 6l1.13-1.13a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7a2 2 0 0 1 1.7 2.05Z"></path></svg></span>
-<span>085 080 5381<small>Op werkdagen tussen 9 en 18 uur</small></span>
-<span class="cgo"><svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="16"><path d="m9 5 7 7-7 7"></path></svg></span>
-</a>
-<a href="/book" target="_blank">
-<span class="ci"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24"><rect height="16" rx="2.5" width="18" x="3" y="5"></rect><path d="M3 10h18M8 3v4M16 3v4"></path><path d="m9.6 15.4 1.7 1.7 3.3-3.4"></path></svg></span>
-<span>Gratis fitcheck van 30 minuten<small>Als je liever meteen doorpraat</small></span>
-<span class="cgo"><svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="16"><path d="m9 5 7 7-7 7"></path></svg></span>
-</a>
-</div>
-</div>
-<div class="contact-right">
 <figure class="contact-photo">
 <img alt="Demi en Anne-Roos, de twee oprichters van Link2Leads, aan het werk" height="700" loading="lazy" src="/assets/img/demi-anne-roos.jpg" width="900"/>
 <figcaption>Demi en Anne-Roos. Je krijgt een van ons tweeen aan de lijn.</figcaption>
 </figure>
+</div>
+<div class="contact-right">
 
 <form id="contactForm" novalidate="">
 <div class="cf-row">
@@ -3494,6 +3477,23 @@ Bel ons: 085 080 5381
 <div aria-live="polite" class="cf-msg" id="cfMsg" role="status"></div>
 <p class="cf-note">Antwoord binnen een werkdag. Geen nieuwsbrief. Zie ons <a href="/privacy">privacybeleid</a>.</p>
 </form>
+</div>
+<div class="contact-direct">
+<a href="mailto:info@link2leads.nl">
+<span class="ci"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24"><rect height="15" rx="2.5" width="19" x="2.5" y="4.5"></rect><path d="m3 7 8.13 5.42a1.6 1.6 0 0 0 1.74 0L21 7"></path></svg></span>
+<span>info@link2leads.nl<small>Direct mailen kan ook, zelfde antwoordtijd</small></span>
+<span class="cgo"><svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="16"><path d="m9 5 7 7-7 7"></path></svg></span>
+</a>
+<a href="tel:+31850805381">
+<span class="ci"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24"><path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.7 2 2 0 0 1 3.1 1.5h2.6a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L6.87 9.23a16 16 0 0 0 6 6l1.13-1.13a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7a2 2 0 0 1 1.7 2.05Z"></path></svg></span>
+<span>085 080 5381<small>Op werkdagen tussen 9 en 18 uur</small></span>
+<span class="cgo"><svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="16"><path d="m9 5 7 7-7 7"></path></svg></span>
+</a>
+<a href="/book" target="_blank">
+<span class="ci"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24"><rect height="16" rx="2.5" width="18" x="3" y="5"></rect><path d="M3 10h18M8 3v4M16 3v4"></path><path d="m9.6 15.4 1.7 1.7 3.3-3.4"></path></svg></span>
+<span>Gratis fitcheck van 30 minuten<small>Als je liever meteen doorpraat</small></span>
+<span class="cgo"><svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="16"><path d="m9 5 7 7-7 7"></path></svg></span>
+</a>
 </div>
 </div>
 <script>
@@ -3605,7 +3605,7 @@ Bel ons: 085 080 5381
 </details>
 </div>
 <div class="reveal" style="text-align:center;margin-top:36px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
-<a class="btn-solid" href="/book" style="display:inline-flex;" target="_blank">Doe de gratis fitcheck →</a>
+<a class="btn-solid" href="/book" style="display:inline-flex;" target="_blank">Doe de gratis fitcheck</a>
 <a class="btn-ghost-l2l" href="#contact">Of stel je vraag per mail</a>
 </div>
 <p class="reveal" style="text-align:center;margin-top:18px;font-size:14px;color:var(--muted);">
@@ -3663,7 +3663,7 @@ Bel ons: 085 080 5381
 <h2 class="cta-h reveal">Klaar om je<br/><span class="blue">acquisitie uit te besteden?</span></h2>
 <p class="cta-sub reveal">Doe de gratis fitcheck. In 30 minuten kijken we naar je doelgroep, aanbod en wat je realistisch kunt verwachten. Je krijgt een concreet plan, ook als we niet samenwerken.</p>
 <div class="reveal" style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;position:relative;z-index:1;">
-<a class="btn-solid" href="/book" style="display:inline-flex;" target="_blank">Doe de gratis fitcheck →</a>
+<a class="btn-solid" href="/book" style="display:inline-flex;" target="_blank">Doe de gratis fitcheck</a>
 <a class="btn-ghost-l2l" href="#contact">Stel eerst je vraag</a>
 </div>
 <p class="cta-note reveal">Gratis en vrijblijvend. Je hebt binnen een werkdag antwoord.</p>
@@ -3767,7 +3767,7 @@ for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=7"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=8"></script>
 <script data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="681ad6ffbd14c522e7dd3d12" src="https://widgets.leadconnectorhq.com/loader.js">
 </script>
 <script src="/assets/tracking.js"></script>
