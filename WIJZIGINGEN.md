@@ -303,3 +303,14 @@ Eigen favicon in dezelfde stijl als de andere twee (L2G in plaats van het oude l
 13. **Encoding.** De charset-meta stond op de homepage van Link2Talent voorbij de 1024 bytes die browsers afspeuren, waardoor euro's en pijltjes verkeerd konden renderen. De charset staat nu als eerste in de head op alle pagina's van alle drie de sites.
 
 Cachebusters opgehoogd: `site.css?v=6`, `l2t-i18n.js?v=2` op Link2Talent, en op Link2Leads staan `l2l-page.css?v=3`, `l2l-visuals.css?v=2` en `l2l-i18n.js?v=6`.
+
+## Ronde 6, 8 september 2026
+
+1. **Belknop in de hero.** Onder de Google-badge staat nu een even brede knop met telefoonicoon en het volledige nummer: "Bel ons: 085 080 5381". Badge en knop staan in een kolom van gelijke breedte, op mobiel over de volle breedte.
+2. **Blauw accent in de stappenkop**: "Van lijst naar *gesprek*, in vier stappen".
+3. **Contactfoto verplaatst.** Die stond linksboven waar hij jullie gezichten halveerde. Hij staat nu bovenaan de rechterkolom boven het formulier, waar toch lege ruimte zat, en is hoger uitgesneden zodat de gezichten er helemaal op staan.
+4. **Foto's bij de cases.** Een breed beeld boven de casesoverzichtspagina en per casepagina een eigen foto met een onderschrift dat bij die case past, dus geen herhaling van hetzelfde beeld.
+5. **LinkedIn onder de teamfoto's**, met het LinkedIn-icoon in merkkleur, naar jullie beide profielen.
+6. **Casekaarten op de homepage compacter**: van 879 naar 655 pixels hoog. De beeldstrip is lager, het onderschrift eronder is weg omdat de tekst het al zegt, en de kop, cijfers, tekst en quote hebben minder ruimte om zich heen. De inhoud is verder ongewijzigd.
+
+Nieuwe teksten zijn ook in het Engelse woordenboek gezet, dat nu 2.023 sleutels telt. Cachebusters op `l2l-visuals.css?v=3` en `l2l-i18n.js?v=7`.

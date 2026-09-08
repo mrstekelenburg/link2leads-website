@@ -1,5 +1,35 @@
 /* Link2Leads i18n data — NL is the source language. Keys = exact Dutch text. */
 window.L2L_I18N_DATA = {
+"Bel ons: 085 080 5381": {
+"en": "Call us: +31 85 080 5381"
+},
+"Van lijst naar": {
+"en": "From list to"
+},
+"gesprek": {
+"en": "conversation"
+},
+", in vier stappen": {
+"en": ", in four steps"
+},
+"Demi en Anne-Roos. Je krijgt een van ons tweeen aan de lijn.": {
+"en": "Demi and Anne-Roos. You get one of the two of us on the line."
+},
+"LinkedIn": {
+"en": "LinkedIn"
+},
+"Demi en Anne-Roos. Deze campagnes hebben wij zelf gedraaid, dus de cijfers hieronder komen uit onze eigen rapportage.": {
+"en": "Demi and Anne-Roos. We ran these campaigns ourselves, so the numbers below come from our own reporting."
+},
+"Wij bouwden de lijst, de verzendomgeving en de mails. De gesprekken voerde de klant zelf.": {
+"en": "We built the list, the sending setup and the emails. The client ran the conversations."
+},
+"Elke reactie wordt met de hand gelezen voordat hij wordt doorgestuurd.": {
+"en": "Every reply is read by hand before it is passed on."
+},
+"Deze campagne draaiden we voor onszelf, dus alle keuzes erin zijn onze eigen.": {
+"en": "We ran this campaign for ourselves, so every choice in it is our own."
+},
 "Van lijst naar gesprek, in vier stappen": {
 "en": "From list to conversation, in four steps"
 },
