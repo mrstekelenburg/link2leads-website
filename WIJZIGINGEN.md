@@ -261,3 +261,45 @@ Let op bij het testen: open de pagina's via een preview-URL of een lokale server
 7. **Accenttekens en kastlijntjes eruit.** "één" en "óf" zijn overal herschreven, ook op Link2Talent en Link2Group.
 
 Getest op 390, 820 en 1440 pixels: geen horizontale scroll, geen JavaScript-fouten, geen dode interne links, en de Engelse versie rendert de nieuwe teksten.
+
+## Ronde 4, 8 september 2026: caps eruit
+
+Alle blauwe labels in hoofdletters boven de koppen zijn weg, op alle drie de sites. Dat waren op Link2Leads dertien `section-pill`-labels (RESULTATEN, HET PROBLEEM, PAKKETTEN, KLANTREVIEWS en de rest), de `hero-kicker` boven de H1 en de regel ZO WERKT HET. Op Link2Talent zeven `tag`-labels plus de `cta-tag` en de voettekst SALESCAPACITEIT OP MAAT. Op Link2Group de twee `section-label`-regels die alleen decoratie waren. De koppen eronder zeggen al wat de sectie is, dus er gaat geen informatie verloren.
+
+De sectie met de vier stappen had alleen dat caps-label als kop en heeft nu een echte H2 gekregen: "Van lijst naar gesprek, in vier stappen".
+
+Verder is `text-transform:uppercase` uit 115 regelsets gehaald, verspreid over alle pagina's van de drie sites. Waar dat gebeurde is de letterafstand teruggezet van 1,5 tot 2,5 pixel naar 0,2, want die brede spatiëring is gemaakt voor kapitalen en valt uit elkaar bij kleine letters. Dat raakt onder meer de kruimelpaden, de kolomtitels in de voettekst, de labels bij formulieren, de case-labels en de stappenlabels in de calculators. Tekst die in de HTML zelf in kapitalen stond is omgezet naar normale schrijfwijze (WEEK 1, MEEST GEKOZEN, SITUATIE 1, de categorielabels in de kennisbank van Link2Talent, en zo verder). Afkortingen blijven staan: FAQ, ROI, IBAN, BIC, SPF, DKIM, DMARC, btw- en KvK-nummers en de klantnaam 2BE IT.
+
+Ook "Eén" met accent is nog op drie plekken weggehaald die de vorige ronde miste.
+
+Cachebusters opgehoogd omdat er weer in de stylesheets is geschreven: `l2l-page.css?v=3`, `l2l-visuals.css?v=2`, `l2l-i18n.js?v=6` en `site.css?v=3` op Link2Talent.
+
+## Ronde 5, 8 september 2026: foto's, koppen en Link2Talent opnieuw opgebouwd
+
+**Op Link2Leads**
+
+De blauwe accenten in de koppen zijn nagelopen op logica. "Wie je aan de lijn krijgt" heeft het accent nu op *aan de lijn* in plaats van op het losse werkwoord, "Vragen die we vaak krijgen" op *Vragen*, "Dit werkt, maar niet voor iedereen" op *niet voor iedereen*, en de kop van de pakkettensectie en de CTA zijn zo herschreven dat het blauwe deel een afgeronde zin is. De twee teamteksten onder Demi en Anne-Roos zijn eruit, net als de zin over Link2Group onder die kop. Het lijstitem over opvolgen viel uit elkaar omdat de lijstregel een flexbox is en de link daarin een los flexitem werd; de link staat nu in de zin onder het blok.
+
+Nieuw: een foto van jullie tweeen boven het contactblok, met een regel eronder over wie er antwoordt.
+
+**Op Link2Group**
+
+Eigen favicon in dezelfde stijl als de andere twee (L2G in plaats van het oude losse logo), als 32, 192 en 180 pixels. De contactknop onderaan ging naar een mailto-link en deed het bij jou niet; die wijst nu naar het contactformulier van Link2Leads, met het mailadres en telefoonnummer als tekstlink eronder. Ook een teamfoto in het fundament-blok, en accenten in twee koppen die er nog niet in zaten.
+
+**Link2Talent, de grootste ingreep**
+
+1. **Lettertype gelijkgetrokken.** De site draaide op Inter terwijl Link2Leads en Link2Group op DM Sans staan. Alles staat nu op DM Sans, inclusief de kennisbank en de cases. De losse DM Mono-lading is eruit.
+2. **Kleuren gelijkgetrokken.** De kennis- en casepagina's gebruikten een ander blauw (#4b7cff in plaats van #2F6FED) en andere tekst- en lijnkleuren. Alle tokens komen nu overeen met Link2Leads.
+3. **Een te brede CSS-regel gevonden en ingeperkt.** `section > div > div:first-child { text-align:center }` centreerde de eerste kaart in elk raster, waardoor bijvoorbeeld de eerste review als enige gecentreerd stond. Nu worden alleen de sectiekoppen gecentreerd.
+4. **Reviews van een halve schuifbalk naar een net raster** van drie kolommen, met een zevende kaart die naar de Google-beoordelingen verwijst. De vierde review liep eerst gewoon het beeld uit.
+5. **Teamfoto's vervangen.** Dat waren uitgeknipte figuren op een zwart vlak. Demi en Anne-Roos staan er nu op met dezelfde natuurlijke foto's als op Link2Leads; die van Lodewijk staat op een zachte achtergrond in plaats van hard zwart.
+6. **Foto bij de veertien-dagen-sectie**, naast de vier stappen, zodat dat blok niet meer half leeg staat.
+7. **Kaartinhoud links uitgelijnd** en de ruimte tussen de secties teruggebracht, zodat het ritme overeenkomt met Link2Leads.
+8. **Zes kennisartikelen opnieuw geschreven.** Ze bevatten geen echte inhoud: onder elke kop stonden dezelfde twee alinea's, achtendertig keer over de zes artikelen heen. Ze zijn vervangen door artikelen van 700 tot 950 woorden met een besliskader, een tabel, een checklist en een FAQ, plus Article-, Breadcrumb- en FAQPage-structured-data die er helemaal niet was. Er staan bewust geen verzonnen salarisbedragen in; het kostenartikel geeft een rekenschema dat de lezer zelf invult.
+9. **Kennisbank en cases in het sitemapbestand en llms.txt gezet.** Die stonden er niet in, dus die pagina's waren voor Google onvindbaar. Canonieke URL's wezen bovendien naar de .html-variant terwijl Vercel daarvan doorverwijst; alle interne links en canonicals staan nu op de schone URL.
+10. **Kruimelpad, byline en een blok met verwante artikelen** onder elk kennisartikel, gelijk aan Link2Leads.
+11. **Taalschakelaar en Engelse vertaling.** Dezelfde motor als op Link2Leads, met een eigen woordenboek van 687 teksten dat homepage, kennisbank, cases, calculator en boekingspagina dekt.
+12. **JavaScript-fout opgelost** die bij elke scroll optrad: het navigatiescript stond boven de nav in de HTML, dus `document.querySelector('nav')` gaf null. Kwam voor op de homepage, de calculator en de boekingspagina, en dezelfde constructie stond ook op twee pagina's van Link2Leads.
+13. **Encoding.** De charset-meta stond op de homepage van Link2Talent voorbij de 1024 bytes die browsers afspeuren, waardoor euro's en pijltjes verkeerd konden renderen. De charset staat nu als eerste in de head op alle pagina's van alle drie de sites.
+
+Cachebusters opgehoogd: `site.css?v=6`, `l2t-i18n.js?v=2` op Link2Talent, en op Link2Leads staan `l2l-page.css?v=3`, `l2l-visuals.css?v=2` en `l2l-i18n.js?v=6`.

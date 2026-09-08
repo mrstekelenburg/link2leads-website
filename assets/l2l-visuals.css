@@ -42,7 +42,7 @@
 }
 .viz-live{
   margin-left:auto;display:inline-flex;align-items:center;gap:6px;
-  font-size:10.5px;font-weight:800;letter-spacing:1.1px;text-transform:uppercase;color:#7FE0A6;
+  font-size:10.5px;font-weight:800;letter-spacing:.2px;color:#7FE0A6;
   background:rgba(74,222,128,.10);border:1px solid rgba(74,222,128,.24);border-radius:100px;padding:3px 9px;white-space:nowrap;
 }
 .viz-live::before{content:'';width:6px;height:6px;border-radius:50%;background:#4ADE80;box-shadow:0 0 0 0 rgba(74,222,128,.6);animation:viz-pulse 2s infinite;}
@@ -90,7 +90,7 @@
 
 /* ── mini-landingspagina ── */
 .viz-lp{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09);border-radius:14px;padding:20px 20px 22px;}
-.viz-lp-tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:1.3px;text-transform:uppercase;
+.viz-lp-tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.2px;
   color:var(--accent2);background:rgba(47,111,237,.14);border:1px solid rgba(47,111,237,.28);border-radius:100px;padding:4px 10px;}
 .viz-lp h4{margin:14px 0 0;font-size:clamp(17px,2.6vw,22px);font-weight:800;letter-spacing:-.7px;line-height:1.2;color:var(--white);}
 .viz-lp h4 em{font-style:normal;color:var(--accent2);}
@@ -136,7 +136,7 @@
 }
 .foot-family .ff-label{
   align-self:center;max-width:190px;
-  font-size:11.5px;font-weight:800;letter-spacing:1.3px;text-transform:uppercase;color:var(--muted);line-height:1.5;
+  font-size:11.5px;font-weight:800;letter-spacing:.2px;color:var(--muted);line-height:1.5;
 }
 .foot-family a{
   display:block;padding:15px 18px;border-radius:13px;

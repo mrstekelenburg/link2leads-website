@@ -1,5 +1,8 @@
 /* Link2Leads i18n data — NL is the source language. Keys = exact Dutch text. */
 window.L2L_I18N_DATA = {
+"Van lijst naar gesprek, in vier stappen": {
+"en": "From list to conversation, in four steps"
+},
 "Campagnes die we zelf hebben gedraaid, met de cijfers erbij.": {
 "en": "Campaigns we ran ourselves, with the numbers next to them."
 },
