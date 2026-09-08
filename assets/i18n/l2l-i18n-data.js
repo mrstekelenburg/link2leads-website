@@ -1,5 +1,36 @@
 /* Link2Leads i18n data — NL is the source language. Keys = exact Dutch text. */
 window.L2L_I18N_DATA = {
+"Gekwalificeerde afspraken per twee weken": {
+"en": "Qualified meetings per two weeks"
+},
+"38 in 90 dagen": {
+"en": "38 in 90 days"
+},
+"Anne-Roos leest elke reactie met de hand voordat hij wordt doorgestuurd.": {
+"en": "Anne-Roos reads every reply by hand before it is passed on."
+},
+"Demi. Deliverability is het eerste waar we naar kijken als een campagne stilvalt.": {
+"en": "Demi. Deliverability is the first thing we check when a campaign stalls."
+},
+"Anne-Roos. Wij rekenen campagnes zelf door voordat we een prijs noemen.": {
+"en": "Anne-Roos. We run the numbers ourselves before we quote a price."
+},
+"Demi. Wij hebben aan beide kanten van deze keuze gestaan.": {
+"en": "Demi. We have been on both sides of this choice."
+},
+"Anne-Roos. Elke campagne die wij draaien gaat langs dezelfde controle.": {
+"en": "Anne-Roos. Every campaign we run goes through the same check."
+},
+"De cijfers hieronder komen uit campagnes die wij zelf hebben gedraaid.": {
+"en": "The numbers below come from campaigns we ran ourselves."
+},
+"Anne-Roos. Wat je betaalt hangt af van wat er nog gebouwd moet worden.": {
+"en": "Anne-Roos. What you pay depends on what still has to be built."
+},
+"Je spreekt Demi of Anne-Roos, geen accountmanager. Wij draaien de campagnes zelf.": {
+"en": "You speak to Demi or Anne-Roos, not an account manager. We run the campaigns ourselves."
+},
+
 "Bel ons: 085 080 5381": {
 "en": "Call us: +31 85 080 5381"
 },

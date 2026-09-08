@@ -347,3 +347,32 @@ Nieuwe teksten zijn ook in het Engelse woordenboek gezet, dat nu 2.023 sleutels 
 18. De footerkolommen blijven op tablet en telefoon naast elkaar staan in plaats van onder elkaar, en het zusterbedrijvenblok loopt nu netjes gelijk met de rest van de footer in plaats van breder.
 
 Cachebusters: `l2l-visuals.css?v=4`, `l2l-page.css?v=4`, `l2l-i18n.js?v=8` en `l2t-i18n.js?v=3`.
+
+---
+
+## Ronde 8
+
+### Link2Leads
+
+1. **De staafgrafiek bij de softwarecase zegt nu iets.** Erboven staat waar hij over gaat, "Gekwalificeerde afspraken per twee weken", rechts het totaal "38 in 90 dagen", en boven elke staaf het aantal: 3, 5, 6, 7, 8, 9. Bij elkaar de 38 die eronder als cijfer staat. Zelfde aanpassing op de casepagina zelf.
+2. **Foto's terug op de drie casepagina's**, met een onderschrift dat bij die case hoort. Dit gaat om de detailpagina's, niet om de kaarten op de homepage.
+3. **Alle zes de kennisartikelen hebben een eigen foto gekregen**, elk met een korte regel eronder die aan het artikel raakt. Zes verschillende beelden, dus geen herhaling.
+4. **De pakketnamen zijn groter**: Starter, Growth, Scale en Pro gaan van 14 naar 19 pixels en staan nu in de lichtere blauwtint. De regel eronder van 14 naar 15.
+5. **Foto van Demi op de fitcheckpagina**, boven het blokje "Praktisch" in de zijkolom, met de regel dat je Demi of Anne-Roos spreekt en geen accountmanager.
+
+### Link2Group
+
+6. De regel "Twee bedrijven met hetzelfde doel: groei minder afhankelijk maken van toeval." is weg.
+7. Het lettertype is DM Sans, hetzelfde als op Link2Leads en Link2Talent, met dezelfde gewichten geladen.
+
+### Link2Talent
+
+8. **De hero is opnieuw opgebouwd in dezelfde volgorde als Link2Leads.** Links de kop, daaronder de subtekst, twee knoppen, een korte grijze regel met de garantie en daaronder de twee gelijke pillen met de Google-score en het telefoonnummer. De blauwe garantiebox en het vinkjeslijstje zijn eruit.
+9. **Rechts staat nu een widget van de app** in plaats van de foto: een venster op app.link2talent.nl/matches met drie voorgestelde matches, een uitgelichte match, en de regel dat contract, betaling en communicatie via dezelfde omgeving lopen. Rol en branche in plaats van verzonnen namen. Zelfde opbouw als de mailwidget op Link2Leads.
+10. Op mobiel kreeg de blauwe knop de opmaak van de grijze knop, waardoor beide knoppen er hetzelfde uitzagen. Opgelost.
+
+### Alle sites
+
+11. Het Link2Talent-logo op de fitcheckpagina linkte naar Link2Leads. Dat is gecorrigeerd, en het logo in de balk op de homepage van Link2Talent was helemaal niet klikbaar. Alle logo's op alle drie de sites zijn nagelopen en wijzen nu naar hun eigen homepage.
+
+Cachebusters: `l2l-visuals.css?v=5`, `l2l-page.css?v=5`, `l2l-i18n.js?v=9` en `l2t-i18n.js?v=4`. Woordenboeken: 2.032 sleutels op Link2Leads, 709 op Link2Talent.

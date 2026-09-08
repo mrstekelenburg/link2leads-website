@@ -75,6 +75,12 @@ nav{
 
 /* KOP */
 .left{display:flex;flex-direction:column;gap:14px;}
+.side-host{margin-bottom:22px;background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;}
+.side-host img{display:block;width:100%;height:300px;object-fit:cover;object-position:center 20%;}
+.side-host .sh-t{padding:14px 16px;}
+.side-host .sh-t b{display:block;font-size:15px;font-weight:800;letter-spacing:-.2px;color:var(--text);}
+.side-host .sh-t span{display:block;margin-top:5px;font-size:13.5px;line-height:1.5;color:rgba(240,239,237,0.55);}
+@media(max-width:900px){.side-host img{height:240px;}}
 .right{position:sticky;top:74px;}
 .kicker{font-family:var(--font);font-size:14px;font-weight:800;letter-spacing:.2px;color:#5B8FF5;margin-bottom:14px;}
 .bk-head h1{font-size:clamp(28px,3.4vw,38px);font-weight:800;line-height:1.1;letter-spacing:-1.3px;margin-bottom:14px;}
@@ -304,7 +310,7 @@ body { background: transparent !important; color: #F0EFED; }
 </script>
 
 <nav>
-  <a href="https://www.link2leads.nl" class="logo" style="color:#F0EFED!important">Link<span style="color:#2F6FED!important">2</span>Leads</a>
+  <a href="/" class="logo" style="color:#F0EFED!important">Link<span style="color:#2F6FED!important">2</span>Leads</a>
   <a href="/" class="nav-back">← Terug</a>
 </nav>
 
@@ -408,6 +414,10 @@ body { background: transparent !important; color: #F0EFED; }
   </div>
 
   <aside class="right">
+    <div class="side-host">
+      <img src="/assets/img/demi-book.jpg" alt="Demi Stekelenburg van Link2Leads" width="800" height="1000" loading="lazy">
+      <div class="sh-t"><b>Demi Stekelenburg</b><span>Je spreekt Demi of Anne-Roos, geen accountmanager. Wij draaien de campagnes zelf.</span></div>
+    </div>
     <div class="side-title">Praktisch</div>
 <div class="meta">
       <div class="meta-row">
@@ -666,7 +676,7 @@ function reset(){
 
 renderCal();renderSlots();
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=8"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=9"></script>
 <script src="/assets/tracking.js"></script>
 </body>
 </html>

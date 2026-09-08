@@ -155,3 +155,13 @@
 @media(max-width:560px){
   .foot-family{grid-template-columns:1fr;}
 }
+
+/* ── kopregel en waardes bij de staafgrafiek ── */
+.viz-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:16px;}
+.viz-head-t{font-size:14.5px;font-weight:700;color:rgba(240,239,237,.82);}
+.viz-head-v{font-size:14px;font-weight:700;color:var(--accent2);white-space:nowrap;}
+.viz-chart.numbered div{position:relative;overflow:visible;}
+.viz-chart.numbered div > b{
+  position:absolute;left:0;right:0;top:-21px;text-align:center;
+  font-size:14px;font-weight:800;color:rgba(240,239,237,.9);letter-spacing:-.2px;
+}
