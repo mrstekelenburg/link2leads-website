@@ -6387,5 +6387,38 @@ window.L2L_I18N_DATA = {
 },
 "Met Full Service zetten wij de afspraak ook in je agenda": {
 "en": "With Full Service we also put the meeting in your calendar"
+},
+"Verzenddomeinen": {
+"en": "Sending domains"
+},
+"Mailboxen": {
+"en": "Mailboxes"
+},
+"Iemand die het draait, 20 uur per maand": {
+"en": "Someone to run it, 20 hours a month"
+},
+"Totaal per maand": {
+"en": "Total per month"
+},
+"vanaf €1.780": {
+"en": "from EUR 1,780"
+},
+"Plus twee tot drie maanden opbouw voordat het goed draait.": {
+"en": "Plus two to three months of ramp-up before it runs properly."
+},
+"vanaf €995": {
+"en": "from EUR 995"
+},
+"per maand, alles inbegrepen": {
+"en": "per month, everything included"
+},
+"Tooling, data en uitvoering zitten in de prijs": {
+"en": "Tooling, data and execution are included"
+},
+"Geen setupfee": {
+"en": "No setup fee"
+},
+"In week 3 ben je live": {
+"en": "Live in week 3"
 }
 };

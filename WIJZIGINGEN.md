@@ -2,8 +2,8 @@
 
 - **"Van lijst naar gesprek, in vier stappen"** gebruikt nu de kaartstijl van de oude drie blokken (blauw nummer, vetgedrukte titel, drie punten met groen vinkje), in een raster van twee bij twee. De drie oude blokken (geen gekochte lijst, domein zonder risico, iemand leest elke reactie) zitten verwerkt in stap 1 tot 3. Stap 4 heeft een blauwe accentrand.
 - De regel onder de stappen is een regel geworden: "Standaard positieve reacties in je mailbox. Met Full Service ook de afspraak in je agenda." Het stuk over Link2Talent is eruit.
-- **Garantiebalk:** de tekst loopt over de volle breedte van het blok (op desktop een regel), de stempel zit schuin over de rechterbovenhoek geplakt, met schaduw en een lichte glans. Iets meer ruimte boven het blok zodat de stempel vrij staat.
-- Engelse vertalingen toegevoegd, cacheversies opgehoogd (`l2l-i18n.js?v=17`, data `?v=15`).
+- **Garantiebalk:** de stempel zit schuin over de rechterbovenhoek geplakt, met schaduw en een lichte glans. De tekst staat gewoon links uitgelijnd. Iets meer ruimte boven het blok zodat de stempel vrij staat.
+- Engelse vertalingen toegevoegd, cacheversies opgehoogd (`l2l-i18n.js?v=18`, data `?v=16`).
 
 ---
 
