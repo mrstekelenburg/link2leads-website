@@ -43,6 +43,11 @@
       "permanent": true
     },
     {
+      "source": "/cases/neuropage",
+      "destination": "/cases/landingspagina-per-prospect",
+      "permanent": true
+    },
+    {
       "source": "/cases/trainingsbedrijf",
       "destination": "/cases/miju-marketing",
       "permanent": true

@@ -6099,5 +6099,86 @@ window.L2L_I18N_DATA = {
 },
 "Marit": {
 "en": "Marit"
+},
+"Uit te breiden met twee add-ons": {
+"en": "Extend with two add-ons"
+},
+"Op elk pakket": {
+"en": "On every package"
+},
+"Weinig bureaus bieden dit": {
+"en": "Few agencies offer this"
+},
+"Hyperpersonalisatie": {
+"en": "Hyper-personalisation"
+},
+"Elke prospect krijgt een openingszin op basis van echte informatie over zijn bedrijf, en een eigen pagina op jouw domein die voor hem geschreven is. Zo ziet elke lead in de lijst dat je je huiswerk hebt gedaan.": {
+"en": "Every prospect gets an opening line based on real information about their company, and a page of their own on your domain, written for them. That way every lead on the list can see you did your homework."
+},
+"In de mail": {
+"en": "In the email"
+},
+"Zijn eigen pagina": {
+"en": "Their own page"
+},
+"Hoi Martijn, zag dat jullie net een tweede vestiging in Breda hebben geopend.": {
+"en": "Hi Martijn, saw you just opened a second office in Breda."
+},
+"jouwdomein.nl/": {
+"en": "yourdomain.com/"
+},
+"Bekijk wat het in onze eigen campagnes opleverde →": {
+"en": "See what it delivered in our own campaigns →"
+},
+"Op Scale en Pro": {
+"en": "On Scale and Pro"
+},
+"Wij handelen de reacties af en plannen de afspraak direct in jouw agenda. Jij voert alleen nog het gesprek.": {
+"en": "We handle the replies and book the meeting straight into your calendar. All you do is take the call."
+},
+"Add-ons betaal je per maand, bovenop de pakketprijs.": {
+"en": "Add-ons are billed monthly, on top of the package price."
+},
+"Geen setupfee en geen aparte toolingrekening. Hyperpersonalisatie en Full Service zijn add-ons bovenop het pakket.": {
+"en": "No setup fee and no separate tooling bill. Hyper-personalisation and Full Service are add-ons on top of the package."
+},
+"€995 tot €1.995 per maand, all-in. Setup, warmup, domeinen, mailboxen en software zitten in de prijs. Daarbovenop kun je twee add-ons kiezen: Hyperpersonalisatie op elk pakket (+€300 tot +€550 per maand) en Full Service op Scale en Pro (+€600 en +€800).": {
+"en": "EUR 995 to EUR 1,995 per month, all-in. Setup, warmup, domains, mailboxes and software are in the price. On top of that you can choose two add-ons: Hyper-personalisation on every package (+EUR 300 to +EUR 550 per month) and Full Service on Scale and Pro (+EUR 600 and +EUR 800)."
+},
+"Case study · Onze eigen campagnes": {
+"en": "Case study · Our own campaigns"
+},
+"Wie op een link in onze mail klikt, komt op een pagina die alleen over zijn bedrijf gaat. Wij maken die pagina automatisch en Smartlead zet de link in de mail. Prospects gingen reageren om te zeggen hoe persoonlijk het was.": {
+"en": "Anyone who clicks a link in our email lands on a page that is only about their company. We build that page automatically and Smartlead puts the link in the email. Prospects started replying just to say how personal it felt."
+},
+"Starter € 995 p/m (100 mails per dag), Growth € 1.295 (250), Scale € 1.695 (500), Pro € 1.995 (1.000). Daarbovenop zijn twee add-ons: Hyperpersonalisatie op elk pakket (€ 300 tot € 550 p/m) en Full Service op Scale en Pro (€ 600 en € 800 p/m). Eerste termijn drie maanden, vooruit gefactureerd. Op Scale en Pro geldt een resultaatgarantie op het aantal positieve reacties.": {
+"en": "Starter EUR 995 per month (100 emails per day), Growth EUR 1,295 (250), Scale EUR 1,695 (500), Pro EUR 1,995 (1,000). On top of that there are two add-ons: Hyper-personalisation on every package (EUR 300 to EUR 550 per month) and Full Service on Scale and Pro (EUR 600 and EUR 800 per month). First term three months, invoiced in advance. Scale and Pro carry a results guarantee on the number of positive replies."
+},
+"Uit te breiden met twee": {
+"en": "Extend with two"
+},
+"add-ons": {
+"en": "add-ons"
+},
+"Jouw agenda, deze week": {
+"en": "Your calendar, this week"
+},
+"17 afspraken ingepland": {
+"en": "17 meetings booked"
+},
+"ma": {
+"en": "Mon"
+},
+"di": {
+"en": "Tue"
+},
+"wo": {
+"en": "Wed"
+},
+"do": {
+"en": "Thu"
+},
+"vr": {
+"en": "Fri"
 }
 };

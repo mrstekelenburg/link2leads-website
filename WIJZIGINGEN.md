@@ -1,3 +1,36 @@
+# Wijzigingen, 10 september 2026: add-ons in de prijssectie
+
+## Prijssectie (`index.html`)
+
+- De pakketkaarten tonen alleen nog de pakketprijs. De Full Service-blokjes op Scale en Pro zijn eruit.
+- De twee kaartjes Standaard/Full Service boven de prijzen zijn eruit.
+- Nieuw direct onder de pakketten: de rij "Uit te breiden met twee add-ons".
+  - Hyperpersonalisatie, op elk pakket: Starter +€300, Growth +€350, Scale +€450, Pro +€550. Met een voorbeeld van een openingszin en een persoonlijke URL, en een link naar de case.
+  - Full Service, op Scale en Pro: +€600 en +€800. Met een volgeplande weekagenda als visual, zodat beide kaarten even hoog zijn.
+  - In de titel staat "add-ons" in het blauwe accent, net als in de andere koppen.
+  - Onderregel: add-ons betaal je per maand, bovenop de pakketprijs. Er staan nergens totalen.
+- De garantie op positieve reacties blijft bij Scale en Pro horen, los van de add-ons.
+- Uitklapvraag "Wat zit er in de prijs?", FAQ "Wat kost het precies?", FAQ-schema en het Offer-schema noemen beide add-ons.
+
+## Case landingspagina per prospect
+
+- `cases/neuropage.html` heet nu `cases/landingspagina-per-prospect.html`. De oude URL stuurt permanent door (`vercel.json`).
+- Neuropage wordt op de case, de case-tegel op `/cases` en de case-kaart op de homepage nergens meer genoemd. De bronregel met de link naar neuropage.io is weg.
+- De alinea "Dit zit standaard in onze campagnes vanaf het Growth-pakket" is vervangen: het is nu de add-on Hyperpersonalisatie, op elk pakket.
+- Afbeelding hernoemd naar `assets/img/case-landingspagina.jpg`. Links in de andere cases, `sitemap.xml` en `llms.txt` bijgewerkt.
+
+## Overig
+
+- `llms.txt`, `llms-full.txt` en `cold-email-bureaus-nederland.html` noemen beide add-ons.
+- `llms.txt` zei onder "Wat er niet bij zit" dat er geen garantie op reacties is. Dat klopte niet met de campagnegarantie op Scale en Pro; aangepast.
+- Engelse vertalingen voor alle nieuwe teksten toegevoegd. Cacheversies opgehoogd (`l2l-i18n.js?v=11`, data `?v=9`), zodat bezoekers de nieuwe vertalingen direct krijgen.
+
+## Nog open
+
+- Neuropage staat nog als klantlogo in de logocarousel op de homepage (twee keer in de track).
+
+---
+
 # Wijzigingen, 2 september 2026
 
 Opgebouwd vanaf de originele zip. De bestaande structuur, stijl en werkende onderdelen zijn ongemoeid gelaten; alleen toegevoegd wat iets oplevert.

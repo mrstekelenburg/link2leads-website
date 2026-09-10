@@ -16,6 +16,7 @@ Link2Leads voert Nederlandse B2B cold-e-mailcampagnes van begin tot eind uit teg
 | Growth | € 1.295 | 250 mails per dag | ± 7.500 |
 | Scale | € 1.695 | 500 mails per dag | ± 15.000 |
 | Pro | € 1.995 | 1.000 mails per dag | ± 30.000 (contractueel minimum) |
+| Hyperpersonalisatie (add-on) | + € 300 op Starter, + € 350 op Growth, + € 450 op Scale, + € 550 op Pro | Per prospect een openingszin op basis van echte informatie en een eigen pagina op het domein van de klant | Minimaal 3 maanden |
 | Full Service (add-on) | + € 600 op Scale, + € 800 op Pro | Wij handelen replies af en plannen afspraken in | Minimaal 3 maanden |
 
 Alle pakketten zijn all-in: setup, warmup, verzenddomeinen, mailboxen en verzendsoftware zitten in de prijs. Er is geen aparte toolingrekening en geen eenmalige setupfee. Minimale looptijd drie maanden, daarna maandelijks opzegbaar. Facturatie vooruit: eerste factuur bij akkoord, tweede twee weken na livegang, daarna maandelijks.
@@ -24,7 +25,7 @@ Alle pakketten zijn all-in: setup, warmup, verzenddomeinen, mailboxen en verzend
 
 - Het beantwoorden van reacties en het inplannen van afspraken (dat is de Full Service-module)
 - Telefonische acquisitie en LinkedIn-outreach; Link2Leads doet uitsluitend e-mail
-- Een gegarandeerd aantal afspraken of reacties
+- Een gegarandeerd aantal afspraken, omzet of betalende klanten (op Scale en Pro geldt wel een garantie op positieve reacties, zie hieronder)
 - Campagnes voor doelgroepen kleiner dan ongeveer 1.000 bedrijven; daarvoor wordt een kleiner pakket of een ander kanaal geadviseerd
 
 ## Wat wel wordt gegarandeerd
@@ -103,7 +104,7 @@ Een gesprek is geen voorwaarde. Vragen over prijs, geschiktheid van een doelgroe
 - [Klantcases](https://www.link2leads.nl/cases): drie campagnes met investering, afspraken en reply rates erbij
 - [Case softwarebedrijf](https://www.link2leads.nl/cases/softwarebedrijf): 38 gekwalificeerde afspraken in 90 dagen, EUR 134 per afspraak, EUR 84.000 pipeline uit EUR 5.085 campagne-investering
 - [Case MIJU-marketing](https://www.link2leads.nl/cases/miju-marketing): 15 positieve reacties in 14 dagen, drie segmenten met een eigen lijst en een eigen boodschap
-- [Case Neuropage](https://www.link2leads.nl/cases/neuropage): een eigen landingspagina per prospect, 1.240 pagina's, 34 procent paginabezoek, 27 afspraken in acht weken
+- [Case landingspagina per prospect](https://www.link2leads.nl/cases/landingspagina-per-prospect): een eigen landingspagina per prospect, 1.240 pagina's, 34 procent paginabezoek, 27 afspraken in acht weken
 - [Kennisbank](https://www.link2leads.nl/kennis): prijzen, wetgeving, deliverability en benchmarks
 - [Hoeveel reacties krijg je op 30.000 mails?](https://www.link2leads.nl/kennis/hoeveel-reacties-op-30000-mails): benchmarks en het effect van segmentatie
 - [Wat kost B2B leadgeneratie?](https://www.link2leads.nl/kennis/wat-kost-b2b-leadgeneratie): vijf kanalen naast elkaar, omgerekend naar kosten per gesprek
