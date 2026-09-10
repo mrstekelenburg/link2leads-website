@@ -6420,5 +6420,20 @@ window.L2L_I18N_DATA = {
 },
 "In week 3 ben je live": {
 "en": "Live in week 3"
+},
+"Jij voert de gesprekken": {
+"en": "You have the conversations"
+},
+"Garantie op reacties, in je contract": {
+"en": "Reply guarantee, in your contract"
+},
+"Elke campagne krijgt een eigen verzendomgeving die we dagelijks bewaken. Daarom nemen we maar een paar nieuwe klanten tegelijk aan.": {
+"en": "Every campaign gets its own sending setup that we monitor daily. That is why we only take on a few new clients at a time."
+},
+"Twee weken bouwen, in week 3 gaat de eerste mail eruit.": {
+"en": "Two weeks of building, the first email goes out in week 3."
+},
+"Wij zoeken bedrijven die passen bij jouw ideale klant en mailen ze persoonlijk namens jou. Reacties komen binnen in je eigen mailbox. Jij voert het gesprek.": {
+"en": "We find companies that match your ideal client and email them personally on your behalf. Replies land in your own inbox. You have the conversation."
 }
 };

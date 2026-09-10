@@ -1,3 +1,17 @@
+# Wijzigingen, 10 september 2026 (externe feedback verwerkt)
+
+- **Tijdlijn** staat nu direct onder de vier stappen, als compact blok in plaats van een eigen sectie: kop en subregel op een regel, lagere balken, kleinere letters. Daaronder het dashboard. Anker `#aanpak` blijft werken.
+- **Hero-subtekst:** "Jij voert alleen het gesprek" wordt "Jij voert het gesprek".
+- **Stap 4** heet "Jij voert de gesprekken" ("alleen" eruit, want bij het standaardpakket volgt de klant zelf op).
+- **Scale en Pro:** "Garantie op reacties, in je contract" in plaats van "Garantie op positieve reacties".
+- **Reviews:** subtitel "Meer referenties delen we tijdens de fitcheck" weg.
+- **Afsluiter:** onder "Maximaal 3 nieuwe klanten per maand" staat weer de reden (eigen verzendomgeving die dagelijks bewaakt wordt).
+- **Marktscan:** de knop is een rustige omlijnde knop en het venster heeft geen zware schaduw meer, zodat de fitcheck de hoofdroute blijft.
+- Bewust niet overgenomen: marktscan voor de voor-wie-lijst, "Resultaten" hernoemen naar "Cases", andere titel voor de add-ons. Hero ongewijzigd.
+- Cacheversies opgehoogd (`l2l-i18n.js?v=20`, data `?v=18`).
+
+---
+
 # Wijzigingen, 10 september 2026 (stappen samengevoegd)
 
 - **"Van lijst naar gesprek, in vier stappen"** gebruikt nu de kaartstijl van de oude drie blokken (blauw nummer, vetgedrukte titel, drie punten met groen vinkje), in een raster van twee bij twee. De drie oude blokken (geen gekochte lijst, domein zonder risico, iemand leest elke reactie) zitten verwerkt in stap 1 tot 3. Stap 4 heeft een blauwe accentrand.

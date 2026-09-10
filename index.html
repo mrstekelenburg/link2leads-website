@@ -1047,6 +1047,9 @@ h1 .blue, h2 .blue, h3 .blue {
 .who-section::before { display:none; }
 .who-inner { max-width:1200px; margin:0 auto; }
 .who-scan { max-width:1100px; margin:40px auto 0; scroll-margin-top:100px; }
+.who-scan .scan-window{box-shadow:none !important;}
+.sc-ghost{background:transparent !important;color:var(--accent2) !important;border:1.5px solid rgba(91,143,245,.6) !important;box-shadow:none !important;}
+.sc-ghost:hover{background:rgba(47,111,237,.1) !important;}
 .who-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:64px; position:relative; z-index:1; }
 .who-card { border-radius:20px; padding:44px; border:1px solid transparent; }
 .who-card.yes { background:rgba(34,197,94,0.05); border-color:rgba(34,197,94,0.13); }
@@ -2252,7 +2255,7 @@ footer { border-top: none !important; }
 <span class="blue">Gekwalificeerde salesafspraken</span> in je agenda, zonder zelf koude acquisitie te doen
       </h1>
 <p class="hero-sub">
-        Wij zoeken bedrijven die passen bij jouw ideale klant en mailen ze persoonlijk namens jou. Reacties komen binnen in je eigen mailbox. Jij voert alleen het gesprek.
+        Wij zoeken bedrijven die passen bij jouw ideale klant en mailen ze persoonlijk namens jou. Reacties komen binnen in je eigen mailbox. Jij voert het gesprek.
       </p>
 <div class="hero-btns">
 <a class="btn-solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
@@ -2582,6 +2585,21 @@ Bel ons: 085 080 5381
     .blk-head .blk-num{margin:0;flex-shrink:0;}
     .blk-head h3{margin:0 !important;font-size:18px !important;}
     @media(max-width:900px){.s4-grid{grid-template-columns:1fr;}}
+    .tl-compact{max-width:1100px;margin:40px auto 0;background:var(--card-bg);border:1px solid var(--border);border-radius:18px;padding:22px 26px 18px;scroll-margin-top:90px;}
+    .tlc-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin:0 0 14px;}
+    .tlc-head h3{font-size:clamp(18px,2.2vw,21px);font-weight:800;letter-spacing:-.5px;color:var(--white);margin:0;}
+    .tlc-head p{margin:0;font-size:14px;color:var(--muted);}
+    .tl-compact .tf-axis{margin-bottom:8px;padding-bottom:8px;}
+    .tl-compact .tf-axis span{font-size:12.5px;}
+    .tl-compact .tf-rows{gap:5px;}
+    .tl-compact .tf-row{min-height:30px;}
+    .tl-compact .tf-lab{font-size:13px;}
+    .tl-compact .tf-row > .tf-bar{min-height:26px;padding:4px 12px;font-size:12.5px;}
+    .tl-compact .tf-bar.point{min-height:24px;padding:0;}
+    .tl-compact .tf-bar.point > span{font-size:12.5px;}
+    .tl-compact .tf-legend{margin-top:12px;padding-top:10px;font-size:12.5px;gap:14px;}
+    @media(max-width:760px){.tl-compact{padding:18px 16px 14px;}.tl-compact .tf-row > .tf-bar{padding:8px 12px;}}
+    .steps4-camp{margin-top:56px !important;}
   </style>
 <div class="steps4-inner">
 <h2 class="steps4-h">Van lijst naar <span class="blue">gesprek</span>, in vier stappen</h2>
@@ -2611,7 +2629,7 @@ Bel ons: 085 080 5381
 </ul>
 </div>
 <div class="blk-card you">
-<div class="blk-head"><span class="blk-num">4</span><h3>Jij voert alleen de gesprekken</h3></div>
+<div class="blk-head"><span class="blk-num">4</span><h3>Jij voert de gesprekken</h3></div>
 <ul class="blk-list">
 <li>Jij keurt alleen de lijst en de mails goed</li>
 <li>Reacties komen binnen in je eigen mailbox</li>
@@ -2620,6 +2638,49 @@ Bel ons: 085 080 5381
 </div>
 </div>
 <p class="steps4-note reveal"><strong>Standaard</strong> positieve reacties in je mailbox. <strong>Met Full Service</strong> ook de afspraak in je agenda.</p>
+<div class="tl-compact reveal" id="aanpak">
+<div class="tlc-head"><h3>Dit gebeurt er <span class="blue">tijdens de opstart</span></h3><p>Twee weken bouwen, in week 3 gaat de eerste mail eruit.</p></div>
+<div class="tf">
+<div class="tf-axis">
+<span>Week 1</span><span>Week 2</span><span>Week 3</span><span>Week 4 en verder</span>
+</div>
+<div class="tf-rows">
+<div class="tf-row">
+<span class="tf-lab" data-when="Week 1">Intake en doelgroep</span>
+<span class="tf-bar" style="--a:0;--b:1.55;">Aanbod, beslissers en lijst</span>
+</div>
+<div class="tf-row">
+<span class="tf-lab" data-when="Week 1">Verzendomgeving</span>
+<span class="tf-bar" style="--a:.2;--b:1.1;">Domeinen en mailboxen</span>
+</div>
+<div class="tf-row">
+<span class="tf-lab" data-when="Week 1 en 2">Warmdraaien</span>
+<span class="tf-bar warm" style="--a:.5;--b:2;">Reputatie opbouwen, aankomst testen</span>
+</div>
+<div class="tf-row">
+<span class="tf-lab" data-when="Week 1 en 2">Mails schrijven</span>
+<span class="tf-bar" style="--a:.9;--b:2;">Eerste mail en twee opvolgmails</span>
+</div>
+<div class="tf-row you">
+<span class="tf-lab" data-when="Eind week 2">Jouw akkoord</span>
+<span class="tf-bar point" style="--a:1.88;--b:2.06;"><span>Jij keurt de lijst en de mails goed</span></span>
+</div>
+<div class="tf-row">
+<span class="tf-lab" data-when="Vanaf week 3">Campagne live</span>
+<span class="tf-bar live" style="--a:2;--b:4;">Start op een derde van je volume, groeit naar 100 procent</span>
+</div>
+<div class="tf-row">
+<span class="tf-lab" data-when="Vanaf week 3">Eerste reacties</span>
+<span class="tf-bar reply" style="--a:2.4;--b:4;">Doorgaans 3 tot 10 dagen na livegang</span>
+</div>
+</div>
+<div class="tf-legend">
+<span><i class="l-build"></i>Wij bouwen</span>
+<span><i class="l-you"></i>Jij beslist</span>
+<span><i class="l-live"></i>Campagne draait</span>
+</div>
+</div>
+</div>
 <div class="steps4-camp">
 <div class="camp-wrap reveal">
 <style>
@@ -2870,54 +2931,6 @@ Bel ons: 085 080 5381
 <!-- MARKTSCAN -->
 <!-- PROBLEM -->
 <!-- WHAT WE DO -->
-<section class="whatwedo-section" id="aanpak">
-<div class="whatwedo-inner">
-<div class="reveal sec-head">
-<h3 class="big-h">Dit gebeurt er <span class="blue">tijdens de opstart</span></h3>
-<p class="big-sub">Twee weken bouwen, in week 3 gaat de eerste mail eruit. Hieronder zie je wanneer wat loopt en op welk moment jij aan zet bent.</p>
-</div>
-<div class="tf reveal">
-<div class="tf-axis">
-<span>Week 1</span><span>Week 2</span><span>Week 3</span><span>Week 4 en verder</span>
-</div>
-<div class="tf-rows">
-<div class="tf-row">
-<span class="tf-lab" data-when="Week 1">Intake en doelgroep</span>
-<span class="tf-bar" style="--a:0;--b:1.55;">Aanbod, beslissers en lijst</span>
-</div>
-<div class="tf-row">
-<span class="tf-lab" data-when="Week 1">Verzendomgeving</span>
-<span class="tf-bar" style="--a:.2;--b:1.1;">Domeinen en mailboxen</span>
-</div>
-<div class="tf-row">
-<span class="tf-lab" data-when="Week 1 en 2">Warmdraaien</span>
-<span class="tf-bar warm" style="--a:.5;--b:2;">Reputatie opbouwen, aankomst testen</span>
-</div>
-<div class="tf-row">
-<span class="tf-lab" data-when="Week 1 en 2">Mails schrijven</span>
-<span class="tf-bar" style="--a:.9;--b:2;">Eerste mail en twee opvolgmails</span>
-</div>
-<div class="tf-row you">
-<span class="tf-lab" data-when="Eind week 2">Jouw akkoord</span>
-<span class="tf-bar point" style="--a:1.88;--b:2.06;"><span>Jij keurt de lijst en de mails goed</span></span>
-</div>
-<div class="tf-row">
-<span class="tf-lab" data-when="Vanaf week 3">Campagne live</span>
-<span class="tf-bar live" style="--a:2;--b:4;">Start op een derde van je volume, groeit naar 100 procent</span>
-</div>
-<div class="tf-row">
-<span class="tf-lab" data-when="Vanaf week 3">Eerste reacties</span>
-<span class="tf-bar reply" style="--a:2.4;--b:4;">Doorgaans 3 tot 10 dagen na livegang</span>
-</div>
-</div>
-<div class="tf-legend">
-<span><i class="l-build"></i>Wij bouwen</span>
-<span><i class="l-you"></i>Jij beslist</span>
-<span><i class="l-live"></i>Campagne draait</span>
-</div>
-</div>
-</div>
-</section>
 <!-- WAAROM -->
 <!-- FOR WHO -->
 <section class="who-section" id="voorwie">
@@ -2973,7 +2986,7 @@ Bel ons: 085 080 5381
 <textarea id="sc-doel" name="doelgroep" placeholder="Bijvoorbeeld: installatiebedrijven in Nederland met 10 tot 50 medewerkers" required="" style="min-height:92px;"></textarea>
 </div>
 <div class="cf-hp"><label for="sc-website">Website</label><input autocomplete="off" id="sc-website" name="website" tabindex="-1" type="text"/></div>
-<button class="btn-solid cf-submit" id="scSubmit" type="submit">Stuur mij de marktscan →</button>
+<button class="btn-solid cf-submit sc-ghost" id="scSubmit" type="submit">Stuur mij de marktscan →</button>
 <div aria-live="polite" class="cf-msg" id="scMsg" role="status"></div>
 <p class="scan-sub">Binnen een werkdag in je mailbox. Geen verplichtingen en geen verkoopgesprek vooraf.</p>
 </form>
@@ -3061,7 +3074,7 @@ Bel ons: 085 080 5381
 <div class="p-volume">500 mails per dag</div>
 <div class="p-line"></div>
 <ul class="p-features">
-<li class="p-gar">Garantie op positieve reacties</li>
+<li class="p-gar">Garantie op reacties, in&nbsp;je&nbsp;contract</li>
 <li>Alles uit Growth</li>
 <li>Meerdere segmenten tegelijk</li>
 </ul>
@@ -3075,7 +3088,7 @@ Bel ons: 085 080 5381
 <div class="p-volume">1.000 mails per dag</div>
 <div class="p-line"></div>
 <ul class="p-features">
-<li class="p-gar">Garantie op positieve reacties</li>
+<li class="p-gar">Garantie op reacties, in&nbsp;je&nbsp;contract</li>
 <li>Alles uit Scale</li>
 <li>Vaste campagnemanager</li>
 </ul>
@@ -3312,7 +3325,6 @@ Bel ons: 085 080 5381
 <section class="reviews-section" id="reviews">
 <div class="reviews-header reveal">
 <h2 class="big-h">Wat klanten zeggen <span class="blue">over hun campagne</span></h2>
-<p class="big-sub">Meer referenties delen we tijdens de fitcheck.</p>
 </div>
 <div class="reviews-track">
 <div class="reviews-col">
@@ -3417,6 +3429,7 @@ Bel ons: 085 080 5381
     .contact-section{padding:0 24px 110px;max-width:1000px;margin:0 auto;scroll-margin-top:90px;}
     .ct-avail{display:inline-block;align-self:flex-start;font-size:13px;font-weight:700;color:#4ADE80;background:rgba(74,222,128,.08);border:1px solid rgba(74,222,128,.28);border-radius:100px;padding:4px 12px;margin-bottom:14px;}
     .ct-btn{display:inline-flex;align-self:flex-start;margin:0 0 24px;}
+    .contact-left p.ct-why{font-size:13.5px;line-height:1.55;color:var(--muted);margin:-4px 0 16px;}
     .contact-photo figcaption a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;margin-left:6px;white-space:nowrap;}
     .contact-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;padding:40px 36px;text-align:left;display:grid;grid-template-columns:1fr 1.02fr;gap:36px;align-items:stretch;}
     .contact-left{display:flex;flex-direction:column;}
@@ -3465,6 +3478,7 @@ Bel ons: 085 080 5381
 <div class="contact-card reveal">
 <div class="contact-left">
 <span class="ct-avail">Maximaal 3 nieuwe klanten per maand</span>
+<p class="ct-why">Elke campagne krijgt een eigen verzendomgeving die we dagelijks bewaken. Daarom nemen we maar een paar nieuwe klanten tegelijk aan.</p>
 <h2>Klaar om je <span class="blue">acquisitie uit te besteden?</span></h2>
 <p>In de gratis fitcheck van 30 minuten kijken we naar je doelgroep, je aanbod en wat je realistisch kunt verwachten. Je krijgt een concreet plan, ook als we niet samenwerken.</p>
 <a class="btn-solid ct-btn" href="/book" target="_blank">Doe de gratis fitcheck</a>
@@ -3644,7 +3658,7 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=18"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=20"></script>
 <script data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="681ad6ffbd14c522e7dd3d12" src="https://widgets.leadconnectorhq.com/loader.js">
 </script>
 <script src="/assets/tracking.js"></script>
