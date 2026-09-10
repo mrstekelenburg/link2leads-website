@@ -1,14 +1,66 @@
+# Wijzigingen, 10 september 2026 (stappen samengevoegd)
+
+- **"Van lijst naar gesprek, in vier stappen"** gebruikt nu de kaartstijl van de oude drie blokken (blauw nummer, vetgedrukte titel, drie punten met groen vinkje), in een raster van twee bij twee. De drie oude blokken (geen gekochte lijst, domein zonder risico, iemand leest elke reactie) zitten verwerkt in stap 1 tot 3. Stap 4 heeft een blauwe accentrand.
+- De regel onder de stappen is een regel geworden: "Standaard positieve reacties in je mailbox. Met Full Service ook de afspraak in je agenda." Het stuk over Link2Talent is eruit.
+- **Garantiebalk:** de tekst loopt over de volle breedte van het blok (op desktop een regel), de stempel zit schuin over de rechterbovenhoek geplakt, met schaduw en een lichte glans. Iets meer ruimte boven het blok zodat de stempel vrij staat.
+- Engelse vertalingen toegevoegd, cacheversies opgehoogd (`l2l-i18n.js?v=17`, data `?v=15`).
+
+---
+
+# Wijzigingen, 10 september 2026 (feedbackronde)
+
+- **Stappen "Van lijst naar gesprek":** titels, teksten en vinkjesregels staan nu per rij op dezelfde hoogte in alle vier de kolommen. Teksten ingekort; stap 4 heeft ook een vinkjesregel ("Jij keurt alleen de lijst en de mails goed").
+- **Pakketkaarten:** drie korte punten per pakket in plaats van vier tot vijf. Volumeblok alleen nog "100 mails per dag" enzovoort. Minder witruimte tussen de onderdelen.
+  - Starter: volledig ingerichte campagne, alleen gekwalificeerde reacties, maandrapportage.
+  - Growth: alles uit Starter, segmentatie in je doelgroep, wekelijks bijsturen.
+  - Scale: garantie op positieve reacties, alles uit Growth, meerdere segmenten tegelijk.
+  - Pro: garantie op positieve reacties, alles uit Scale, vaste campagnemanager.
+  - Weggelaten: "Prioriteit bij optimalisatie en support", "Wekelijkse rapportage per segment" (Scale), "Volledige marktdekking" en "Maandelijkse strategiesessie" (Pro).
+- **Add-ons:** titel "Haal meer uit je campagne met twee add-ons". Beide kaarten ongeveer 20% lager: compacter voorbeeld, link in de lopende tekst, prijzen als kleine pillen in plaats van grote tegels.
+- **Agenda:** rustiger. 7 afspraken over drie tijdsloten, zachtere kleuren, geen groene blokken meer.
+- **Afsluiter:** het formulier staat in een eigen blok met de kop "Liever eerst een vraag stellen?", bovenaan uitgelijnd. Mail en telefoon staan daaronder in dezelfde kolom. Geen lege ruimte meer boven en onder het formulier.
+- Engelse vertalingen toegevoegd, cacheversies opgehoogd (`l2l-i18n.js?v=16`, data `?v=14`).
+
+---
+
+# Wijzigingen, 10 september 2026 (later): homepage compacter
+
+Van 15 naar 10 onderdelen (hero plus 9 secties). Hero en tijdlijn zijn ongewijzigd.
+
+| Was | Nu |
+|---|---|
+| Probleemsectie "afhankelijk van via-via" | Weg |
+| Vier stappen + "We starten niet met een leadlijst" (drie blokken + dashboard) | Een sectie: de vier stappen, met onder stap 1 tot 3 een bewijsregel met groen vinkje, en het dashboard met de 800.000+ sticker eronder |
+| "Dit werkt, maar niet voor iedereen" + losse marktscansectie | Een sectie: de voor-wie-lijst met direct daaronder het marktscanformulier (anker `#marktscan` blijft werken) |
+| 8 reviews in drie kolommen | De 4 sterkste (Dick, Micah, Rafael, Arnold) op een rij, met de Google-link als smalle balk eronder |
+| 14 FAQ-vragen | 8. Weg: garantie, kosten, kwaliteit van reacties, minimale looptijd (staan in de prijssectie), aparte verzenddomeinen (zelfde als "Loopt mijn domein risico?"), "Werkt dit voor elk bedrijf?" (staat in de voor-wie-sectie). Ook uit het FAQ-schema gehaald waar ze nergens meer zichtbaar zijn |
+| Contact + team + "maximaal 3 klanten" + slot-CTA | Een afsluiter: "Klaar om je acquisitie uit te besteden?", label "Maximaal 3 nieuwe klanten per maand", fitcheck-knop, foto met LinkedIn-links van Demi en Anne-Roos, het vraagformulier en mail/telefoon. Anker `#contact` blijft werken; footerlink "Over ons" wijst er nu naar |
+
+Add-ons compacter: titel "Twee add-ons", labels "Op elk pakket" en "Op Scale en Pro" weg, een zin per add-on, "Weinig bureaus bieden dit" naast de titel, link ingekort tot "Bekijk de resultaten".
+
+Engelse vertalingen toegevoegd, cacheversies opgehoogd (`l2l-i18n.js?v=15`, data `?v=13`).
+
+---
+
 # Wijzigingen, 10 september 2026: add-ons in de prijssectie
 
 ## Prijssectie (`index.html`)
 
-- De pakketkaarten tonen alleen nog de pakketprijs. De Full Service-blokjes op Scale en Pro zijn eruit.
+- De pakketkaarten tonen alleen de pakketprijs. De Full Service-blokjes op Scale en Pro zijn eruit.
 - De twee kaartjes Standaard/Full Service boven de prijzen zijn eruit.
-- Nieuw direct onder de pakketten: de rij "Uit te breiden met twee add-ons".
+- Direct onder de pakketten: "Uit te breiden met twee add-ons" (met "add-ons" in het blauwe accent), twee kaarten naast elkaar.
   - Hyperpersonalisatie, op elk pakket: Starter +€300, Growth +€350, Scale +€450, Pro +€550. Met een voorbeeld van een openingszin en een persoonlijke URL, en een link naar de case.
   - Full Service, op Scale en Pro: +€600 en +€800. Met een volgeplande weekagenda als visual, zodat beide kaarten even hoog zijn.
-  - In de titel staat "add-ons" in het blauwe accent, net als in de andere koppen.
-  - Onderregel: add-ons betaal je per maand, bovenop de pakketprijs. Er staan nergens totalen.
+  - Onderregel: add-ons betaal je per maand, bovenop de pakketprijs. Nergens totalen.
+- Opgeschoond tot vijf onderdelen: kop, pakketten, add-ons, garantiebalk, uitklapvragen.
+  - Intro ingekort tot: "Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar."
+  - Review boven de prijzen weg (dezelfde quote staat al in de reviewsectie eronder).
+  - Scale en Pro hebben als eerste punt "Garantie op positieve reacties", met een groen vinkje.
+  - De vergelijking zelf doen/uitbesteden is weer weg; de link naar de rekensom staat in "Wat zit er in de prijs?".
+  - Het volumeblok is een halve regel onder de add-ons geworden ("Meer volume nodig? Mail info@link2leads.nl").
+  - Het grote garantieblok is een smalle balk geworden, met de stempel. De link "Hoe werkt de garantie?" opent de uitklapvraag.
+  - De uitklapvraag "Wat leggen we verder vast in het contract?" heet nu "Garantie en contract" en bevat de volledige garantietekst, inclusief de kleine lettertjes en de link naar de voorwaarden.
+- Tussenversies (add-ons als regels in de kaarten, de losse vergelijking zelf doen) zijn teruggedraaid.
 - De garantie op positieve reacties blijft bij Scale en Pro horen, los van de add-ons.
 - Uitklapvraag "Wat zit er in de prijs?", FAQ "Wat kost het precies?", FAQ-schema en het Offer-schema noemen beide add-ons.
 
@@ -23,7 +75,7 @@
 
 - `llms.txt`, `llms-full.txt` en `cold-email-bureaus-nederland.html` noemen beide add-ons.
 - `llms.txt` zei onder "Wat er niet bij zit" dat er geen garantie op reacties is. Dat klopte niet met de campagnegarantie op Scale en Pro; aangepast.
-- Engelse vertalingen voor alle nieuwe teksten toegevoegd. Cacheversies opgehoogd (`l2l-i18n.js?v=11`, data `?v=9`), zodat bezoekers de nieuwe vertalingen direct krijgen.
+- Engelse vertalingen voor alle nieuwe teksten toegevoegd. Cacheversies opgehoogd (`l2l-i18n.js?v=14`, data `?v=12`), zodat bezoekers de nieuwe vertalingen direct krijgen.
 
 ## Nog open
 

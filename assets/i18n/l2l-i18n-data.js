@@ -6180,5 +6180,212 @@ window.L2L_I18N_DATA = {
 },
 "vr": {
 "en": "Fri"
+},
+"Add-ons": {
+"en": "Add-ons"
+},
+"Elke prospect krijgt een openingszin op basis van echte informatie over zijn bedrijf, en een eigen pagina op jouw domein die voor hem geschreven is.": {
+"en": "Every prospect gets an opening line based on real information about their company, and a page of their own on your domain, written for them."
+},
+"Zo ziet": {
+"en": "This is what"
+},
+"eruit": {
+"en": "looks like"
+},
+"Wat is Hyperpersonalisatie?": {
+"en": "What is Hyper-personalisation?"
+},
+"Wat is Full Service?": {
+"en": "What is Full Service?"
+},
+"vanaf €1.780 per maand": {
+"en": "from EUR 1,780 per month"
+},
+"€280 tot €1.315 aan tooling, plus 20 tot 40 uur werk van iemand die het draait.": {
+"en": "EUR 280 to EUR 1,315 in tooling, plus 20 to 40 hours of work from someone who runs it."
+},
+"Uitbesteden bij Link2Leads": {
+"en": "Outsourcing to Link2Leads"
+},
+"vanaf €995 per maand": {
+"en": "from EUR 995 per month"
+},
+"Tooling en uitvoering zitten in de pakketprijs, en in week 3 ben je live.": {
+"en": "Tooling and execution are included in the package price, and you are live in week 3."
+},
+"Bekijk de volledige rekensom →": {
+"en": "See the full calculation →"
+},
+"Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar.": {
+"en": "A fixed monthly fee, everything included. Three months minimum, then cancel monthly."
+},
+"Garantie op positieve reacties": {
+"en": "Guarantee on positive replies"
+},
+"Add-ons betaal je per maand, bovenop de pakketprijs. Meer volume nodig? Mail": {
+"en": "Add-ons are billed monthly, on top of the package price. Need more volume? Email"
+},
+"Het afgesproken aantal staat": {
+"en": "The agreed number is"
+},
+"in je contract": {
+"en": "in your contract"
+},
+"Hoe werkt de garantie?": {
+"en": "How does the guarantee work?"
+},
+"Garantie en contract": {
+"en": "Guarantee and contract"
+},
+"Garantie op positieve reacties (Scale en Pro)": {
+"en": "Guarantee on positive replies (Scale and Pro)"
+},
+"Geen abonnements-, mailbox-, domein- of datakosten.": {
+"en": "No subscription, mailbox, domain or data costs."
+},
+"Twee": {
+"en": "Two"
+},
+"Per prospect een openingszin op basis van echte informatie en een eigen pagina op jouw domein.": {
+"en": "For every prospect, an opening line based on real information and a page of their own on your domain."
+},
+"Bekijk de resultaten →": {
+"en": "See the results →"
+},
+"Wij beantwoorden de reacties en zetten de afspraak in jouw agenda.": {
+"en": "We answer the replies and put the meeting in your calendar."
+},
+"Geen gekochte lijst. Elk adres wordt geverifieerd en jij keurt de lijst goed.": {
+"en": "No bought list. Every address is verified and you approve the list."
+},
+"Jouw eigen domein loopt geen risico. Wij bewaken de aankomst.": {
+"en": "Your own domain is never at risk. We monitor deliverability."
+},
+"Met de hand, geen scoringsmodel. Je krijgt naam, functie, organisatie en contactgegevens.": {
+"en": "By hand, no scoring model. You get name, role, organisation and contact details."
+},
+"Maximaal 3 nieuwe klanten per maand": {
+"en": "Max. 3 new clients per month"
+},
+"Klaar om je": {
+"en": "Ready to"
+},
+"acquisitie uit te besteden?": {
+"en": "outsource your prospecting?"
+},
+"In de gratis fitcheck van 30 minuten kijken we naar je doelgroep, je aanbod en wat je realistisch kunt verwachten. Liever eerst een vraag stellen? Dat kan hiernaast, en je hebt binnen een werkdag antwoord.": {
+"en": "In the free 30-minute fit check we look at your audience, your offer and what you can realistically expect. Rather ask a question first? You can do that here, and you will have an answer within one working day."
+},
+"Demi op LinkedIn": {
+"en": "Demi on LinkedIn"
+},
+"Anne-Roos op LinkedIn": {
+"en": "Anne-Roos on LinkedIn"
+},
+"Haal meer uit je campagne met twee": {
+"en": "Get more out of your campaign with two"
+},
+"We kijken naar je bestaande klanten en zoeken bedrijven die daarop lijken.": {
+"en": "We look at your existing clients and find companies that resemble them."
+},
+"Persoonlijke mails, verstuurd vanaf aparte verzenddomeinen.": {
+"en": "Personal emails, sent from separate sending domains."
+},
+"Alleen reacties waar echt iets mee te doen is, sturen we door.": {
+"en": "We only forward replies you can actually do something with."
+},
+"Geen lijsten bouwen, geen mails schrijven, geen campagnes beheren.": {
+"en": "No list building, no email writing, no campaign management."
+},
+"Geen gekochte lijst. Jij keurt de lijst goed.": {
+"en": "No bought list. You approve the list."
+},
+"Jouw eigen domein loopt geen risico.": {
+"en": "Your own domain is never at risk."
+},
+"Met de hand gelezen, met contactgegevens erbij.": {
+"en": "Read by hand, with contact details included."
+},
+"Jij keurt alleen de lijst en de mails goed.": {
+"en": "You only approve the list and the emails."
+},
+"Volledig ingerichte campagne": {
+"en": "Fully set-up campaign"
+},
+"Alleen gekwalificeerde reacties": {
+"en": "Qualified replies only"
+},
+"Segmentatie in je doelgroep": {
+"en": "Segmentation within your audience"
+},
+"Wekelijks bijsturen": {
+"en": "Weekly optimisation"
+},
+"Meerdere segmenten tegelijk": {
+"en": "Multiple segments at once"
+},
+"Vaste campagnemanager": {
+"en": "Dedicated campaign manager"
+},
+"100 mails per dag": {
+"en": "100 emails per day"
+},
+"250 mails per dag": {
+"en": "250 emails per day"
+},
+"500 mails per dag": {
+"en": "500 emails per day"
+},
+"1.000 mails per dag": {
+"en": "1,000 emails per day"
+},
+"7 afspraken ingepland": {
+"en": "7 meetings booked"
+},
+"Liever eerst een vraag stellen?": {
+"en": "Rather ask a question first?"
+},
+"Demi of Anne-Roos antwoordt binnen een werkdag.": {
+"en": "Demi or Anne-Roos replies within one working day."
+},
+"In de gratis fitcheck van 30 minuten kijken we naar je doelgroep, je aanbod en wat je realistisch kunt verwachten. Je krijgt een concreet plan, ook als we niet samenwerken.": {
+"en": "In the free 30-minute fit check we look at your audience, your offer and what you can realistically expect. You get a concrete plan, even if we do not work together."
+},
+"positieve reacties in je mailbox.": {
+"en": "positive replies in your mailbox."
+},
+"ook de afspraak in je agenda.": {
+"en": "the meeting in your calendar as well."
+},
+"We bouwen het profiel vanuit je eigen beste klanten": {
+"en": "We build the profile from your own best clients"
+},
+"Geen gekochte branchelijst": {
+"en": "No bought industry list"
+},
+"Persoonlijke mails, geschreven voor jouw doelgroep": {
+"en": "Personal emails, written for your audience"
+},
+"Verstuurd vanaf aparte domeinen met eigen SPF, DKIM en DMARC": {
+"en": "Sent from separate domains with their own SPF, DKIM and DMARC"
+},
+"Wij bewaken de aankomst, jouw eigen domein loopt geen risico": {
+"en": "We monitor deliverability, your own domain is never at risk"
+},
+"Iemand leest elke reactie, geen scoringsmodel": {
+"en": "A person reads every reply, no scoring model"
+},
+"Met naam, functie, organisatie en contactgegevens": {
+"en": "With name, role, organisation and contact details"
+},
+"Jij keurt alleen de lijst en de mails goed": {
+"en": "You only approve the list and the emails"
+},
+"Reacties komen binnen in je eigen mailbox": {
+"en": "Replies arrive in your own mailbox"
+},
+"Met Full Service zetten wij de afspraak ook in je agenda": {
+"en": "With Full Service we also put the meeting in your calendar"
 }
 };
