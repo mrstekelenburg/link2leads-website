@@ -6435,5 +6435,14 @@ window.L2L_I18N_DATA = {
 },
 "Wij zoeken bedrijven die passen bij jouw ideale klant en mailen ze persoonlijk namens jou. Reacties komen binnen in je eigen mailbox. Jij voert het gesprek.": {
 "en": "We find companies that match your ideal client and email them personally on your behalf. Replies land in your own inbox. You have the conversation."
+},
+"Contractuele garantie op positieve reacties": {
+"en": "Contractual guarantee on positive replies"
+},
+"Wat gebeurt er nadat iemand positief reageert?": {
+"en": "What happens after someone replies positively?"
+},
+"Standaard sturen we de reactie door naar jouw mailbox, met naam, functie, organisatie en contactgegevens erbij. Jij neemt het daarna over en plant het gesprek in, het liefst binnen een werkdag. Kies je Full Service op Scale of Pro, dan beantwoorden wij de reactie en zetten we de afspraak direct in jouw agenda.": {
+"en": "By default we forward the reply to your mailbox, with name, role, organisation and contact details included. You take it from there and schedule the conversation, ideally within one working day. Choose Full Service on Scale or Pro and we answer the reply and put the meeting straight into your calendar."
 }
 };

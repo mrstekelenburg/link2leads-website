@@ -1,3 +1,12 @@
+# Wijzigingen, 10 september 2026 (laatste ronde voor livegang)
+
+- Scale en Pro: "Contractuele garantie op positieve reacties".
+- FAQ: "Wat bespreken we in de fitcheck?" vervangen door "Wat gebeurt er nadat iemand positief reageert?" (verschil standaard en Full Service). Ook in het FAQ-schema.
+- Footer: dubbele link "Resultaten" weg, "Cases en resultaten" blijft.
+- Cacheversies opgehoogd (`l2l-i18n.js?v=21`, data `?v=19`).
+
+---
+
 # Wijzigingen, 10 september 2026 (externe feedback verwerkt)
 
 - **Tijdlijn** staat nu direct onder de vier stappen, als compact blok in plaats van een eigen sectie: kop en subregel op een regel, lagere balken, kleinere letters. Daaronder het dashboard. Anker `#aanpak` blijft werken.
