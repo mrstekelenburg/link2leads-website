@@ -117,12 +117,13 @@ textarea.q-input{min-height:100px;}
 
 @media(max-width:600px){.welcome-title{font-size:30px;}.info-cards{grid-template-columns:1fr;}.btn-row{flex-direction:column-reverse;}.btn-ghost{width:100%;justify-content:center;}}
 </style>
+<link href="/assets/l2l-shared.css?v=1" rel="stylesheet">
 </head>
 <body>
 <canvas id="bg-canvas"></canvas>
 
 <nav>
-  <a href="/" class="logo">Link<span>2</span>Leads</a>
+  <a href="/" class="logo"><span class="l2b">Link<i>2</i>Leads</span></a>
   <a href="/" class="nav-back">← Terug naar home</a>
 </nav>
 
@@ -394,7 +395,7 @@ textarea.q-input{min-height:100px;}
         <div class="ref-lbl">Jouw referentienummer</div>
         <div class="ref-val" id="ref-val">—</div>
       </div>
-      <a href="/" style="display:inline-block;color:var(--muted2);font-size:14px;text-decoration:none;">← Terug naar Link2Leads.nl</a>
+      <a href="/" style="display:inline-block;color:var(--muted2);font-size:14px;text-decoration:none;">← Terug naar <span class="l2b">Link<i>2</i>Leads</span>.nl</a>
     </div>
   </div>
 
@@ -541,7 +542,7 @@ async function submit() {
   requestAnimationFrame(draw);
 })();
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=21"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=22"></script>
 <script src="/assets/tracking.js"></script>
 </body>
 </html>

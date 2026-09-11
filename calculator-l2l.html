@@ -29,7 +29,7 @@
 <meta name="twitter:title" content="B2B Omzetcalculator | Link2Leads">
 <meta name="twitter:description" content="Bereken in 60 seconden hoeveel omzet jouw bedrijf kan genereren via B2B e-mailcampagnes.">
 <meta name="twitter:image" content="https://www.link2leads.nl/og-image.png">
-<title>Bereken Jouw B2B Omzetpotentieel | Link2Leads Calculator</title>
+<title>Omzetcalculator: wat levert een e-mailcampagne op? | Link2Leads</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
@@ -366,7 +366,7 @@ body { background: transparent; }
   width: 100%; height: 100%;
   pointer-events: none; z-index: 0; display: block;
 }
-body > *:not(#bg-canvas):not(nav) { position: relative; z-index: 1; }
+body > *:not(#bg-canvas):not(nav):not(footer ~ *) { position: relative; z-index: 1; }
 section, main, .page-wrap, .content-wrap, .calc-wrap, .book-wrap {
   background: transparent !important;
 }
@@ -464,6 +464,7 @@ section, main, .page-wrap, .content-wrap, .calc-wrap, .book-wrap {
 html { background: #08090C !important; }
 body { background: transparent !important; color: #F0EFED; }
 </style>
+<link href="/assets/l2l-shared.css?v=1" rel="stylesheet">
 </head>
 <body>
 <canvas id="bg-canvas"></canvas>
@@ -556,7 +557,7 @@ body { background: transparent !important; color: #F0EFED; }
 
 <nav>
   <div class="nav-inner">
-    <a href="/" class="nav-logo">Link<span class="dot">2</span>Leads</a>
+    <a href="/" class="nav-logo"><span class="l2b">Link<i>2</i>Leads</span></a>
     <a href="/book" class="nav-cta" target="_blank">Doe de gratis fitcheck</a>
   </div>
 </nav>
@@ -719,16 +720,78 @@ body { background: transparent !important; color: #F0EFED; }
 
 </div>
 
-<footer>
-  <div class="foot-inner">
-    <a href="/" class="foot-logo">Link<span class="dot">2</span>Leads</a>
-    <ul class="foot-links">
-      <li><a href="/">Home</a></li>
-      <li><a href="/privacy">Privacybeleid</a></li>
-      <li><a href="/algemene-voorwaarden">Voorwaarden</a></li>
-    </ul>
-    <span class="foot-copy">© 2026 Link2Leads, onderdeel van <a href="https://link2group.nl" style="color:inherit;">Link2Group</a></span>
-  </div>
+<footer class="l2f">
+<div class="l2f-wrap">
+<div class="l2f-top">
+<div class="l2f-brand">
+<a aria-label="Link2Leads, naar de homepage" class="l2f-logo" href="/"><span class="l2b"><span class="l2b">Link<i>2</i>Leads</span></span></a>
+<p class="l2f-tag">Koude acquisitie per e-mail, geregeld door ons. We zoeken bedrijven die bij je passen, mailen ze namens jou en sturen positieve reacties door naar jouw mailbox.</p>
+<ul class="l2f-contact">
+<li><a href="mailto:info@link2leads.nl"><span class="l2f-ico"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24"><rect height="15" rx="2.5" width="19" x="2.5" y="4.5"></rect><path d="m3 7 8.13 5.42a1.6 1.6 0 0 0 1.74 0L21 7"></path></svg></span>info@link2leads.nl</a></li>
+<li><a href="tel:+31850805381"><span class="l2f-ico"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24"><path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.7 2 2 0 0 1 3.1 1.5h2.6a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L6.87 9.23a16 16 0 0 0 6 6l1.13-1.13a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7a2 2 0 0 1 1.7 2.05Z"></path></svg></span>085 080 5381</a></li>
+</ul>
+</div>
+<div>
+<div class="l2f-title">Dienst</div>
+<ul class="l2f-links">
+<li><a href="/#zowerkthet">Zo werkt het</a></li>
+<li><a href="/cases">Cases en resultaten</a></li>
+<li><a href="/#pakketten">Pakketten en prijzen</a></li>
+<li><a href="/#marktscan">Gratis marktscan</a></li>
+<li><a href="/calculator-l2l">Omzetcalculator</a></li>
+<li><a href="/book">Gratis fitcheck</a></li>
+<li><a href="/#faq">Veelgestelde vragen</a></li>
+</ul>
+</div>
+<div>
+<div class="l2f-title">Meer lezen</div>
+<ul class="l2f-links">
+<li><a href="/kennis">Kennisbank</a></li>
+<li><a href="/kennis/wat-kost-cold-email-uitbesteden">Cold email uitbesteden</a></li>
+<li><a href="/kennis/wat-kost-b2b-leadgeneratie">Kosten leadgeneratie</a></li>
+<li><a href="/kennis/hoeveel-reacties-op-30000-mails">Reactie-benchmarks</a></li>
+<li><a href="/kennis/koude-mails-komen-niet-aan">Deliverability</a></li>
+<li><a href="/kennis/mag-koude-email-nederland">Mag koude e-mail?</a></li>
+<li><a href="/cold-email-bureaus-nederland">Bureaus vergeleken</a></li>
+</ul>
+</div>
+<div>
+<div class="l2f-title">Bedrijf</div>
+<ul class="l2f-links">
+<li><a href="/#contact">Over ons</a></li>
+<li><a href="/#contact">Contact</a></li>
+<li><a href="/algemene-voorwaarden">Algemene voorwaarden</a></li>
+<li><a href="/privacy">Privacyverklaring</a></li>
+</ul>
+</div>
+</div>
+<div class="l2f-group">
+<div class="l2f-gh">
+<small>Onderdeel van</small>
+<a class="l2f-gname" href="https://link2group.nl" rel="noopener" target="_blank"><span class="l2b"><span class="l2b">Link<i>2</i>Group</span></span><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"></path></svg></a>
+<p>Nieuwe gesprekken en de capaciteit om ze op te volgen, onder een dak.</p>
+</div>
+<div class="l2f-sis">
+<b><span class="l2b"><span class="l2b">Link<i>2</i>Leads</span></span></b>
+<span class="d">Nieuwe gesprekken via e-mailcampagnes</span>
+<span class="l2f-here">Je bent hier</span>
+</div>
+<a class="l2f-sis" href="https://www.link2talent.nl" rel="noopener" target="_blank">
+<b><span class="l2b"><span class="l2b">Link<i>2</i>Talent</span></span></b>
+<span class="d">Remote Nederlandstalige setters en closers, zonder vaste hire</span>
+<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+</a>
+</div>
+<div class="l2f-bottom">
+<span>&copy; 2026 <span class="l2b"><span class="l2b">Link<i>2</i>Leads</span></span>. Alle rechten voorbehouden.</span>
+<address class="l2f-legal">
+<span><span class="l2b"><span class="l2b">Link<i>2</i>Leads</span></span> is een dienst van <a href="https://link2group.nl" rel="noopener" target="_blank"><span class="l2b"><span class="l2b">Link<i>2</i>Group</span></span></a></span>
+<span>Frederik Hendrikstraat 59H, 1052 HL Amsterdam</span>
+<span>KvK 42025671</span>
+<span>BTW NL003697236B23</span>
+</address>
+</div>
+</div>
 </footer>
 
 
@@ -884,7 +947,7 @@ calc();
 
 document.addEventListener('l2l:langchange', function(){ try { drawPkgs(); calc(); } catch(e){} });
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=21"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=22"></script>
 <script src="/assets/tracking.js"></script>
 </body>
 </html>

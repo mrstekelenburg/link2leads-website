@@ -140,7 +140,7 @@ Link2Leads onderscheidt zich binnen die groep op drie punten: de volledige prijs
 
 - Naam: Link2Leads
 - Onderdeel van: Link2Group
-- Adres: Frederik Hendrikstraat 59H, 1052HL Amsterdam, Nederland
+- Adres: Frederik Hendrikstraat 59H, 1052 HL Amsterdam, Nederland
 - KvK: 42025671
 - BTW: NL003697236B23
 - E-mail: info@link2leads.nl

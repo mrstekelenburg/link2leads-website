@@ -1,3 +1,42 @@
+# Wijzigingen, 11 september 2026 (merknaam, footer, tijdlijn en SEO)
+
+**Merknaam overal hetzelfde**
+- Link2Leads, Link2Talent en Link2Group staan op elke pagina als: Link wit en recht, 2 blauw en schuin, Leads/Talent/Group wit en recht. Geldt voor nav, footer en alle lopende tekst. Opmaak zit in `assets/l2l-shared.css` (class `l2b`), die op elke pagina geladen wordt.
+- De vertaalmodule slaat de merknaam over; de tekst eromheen heeft eigen Engelse vertalingen gekregen, zodat de Engelse versie blijft werken.
+- Niet aangepast: e-mailadressen en de domeinnaam (link2leads.nl), alt-teksten en paginatitels (kunnen geen opmaak hebben) en de bevestigingsmails uit `/api`.
+- OG-image, favicons (32, 192, apple-touch) opnieuw gemaakt met schuine 2. Nieuw: `logo.png` (vierkant, 512px) als logo in de gestructureerde gegevens. Op het OG-image staat nu "Campagne live in week 3".
+
+**Footer**
+- Een footer voor alle pagina's, ook privacy, voorwaarden en calculator (hadden een kale versie). Mail en telefoon met icoontje.
+- Kolommen: Dienst (nu met Omzetcalculator), Meer lezen, Bedrijf (Over ons, Contact, voorwaarden, privacy).
+- Nieuw groepsblok "Onderdeel van Link2Group" met Link2Leads ("Je bent hier") en Link2Talent. Onderbalk met copyright, KvK, BTW en adres als losse items.
+- "Over ons" en "Het Team" linkten op privacy en voorwaarden naar `#team`, dat niet meer bestaat. Nu naar `#contact`.
+
+**Homepage**
+- Dashboard onder de vier stappen weg (herhaalde de mockup in de hero). De 800.000+-sticker staat nu rechtsboven de cases.
+- Tijdlijn opnieuw opgebouwd: labels met uitleg links, balken op een weekraster, legenda bovenaan in vier duidelijke kleuren (grijs wij bouwen, groen jij beslist, blauw campagne draait, blauw gestreept reacties). Week 3 gemarkeerd met "Eerste mail". Livegang als oplopende balk (start op een derde van het volume). Op half scherm blijft het een schema, op mobiel dezelfde grafiek compact onder elk label.
+- Contact: sticker "Max. 3 nieuwe klanten per maand" met reden, beide kolommen even hoog, bijschrift "Anne-Roos en Demi" met LinkedIn-icoontjes.
+- Chatwidget laadt pas na de pagina of bij de eerste interactie.
+
+**Doorscrollen onder de footer op mobiel**
+- Oorzaak: de regel `body > *:not(#bg-canvas):not(nav)` zette alles wat de chatwidget aan de pagina toevoegt in de normale flow, onder de footer. Getest met een nagebootste widget: pagina werd 800px langer. Regel slaat nu alles na de footer over (homepage, privacy, voorwaarden, calculator).
+
+**SEO**
+- Titels ingekort tot maximaal ongeveer 65 tekens en omschrijvingen tot ongeveer 158, op 13 pagina's.
+- Ingebakken klantlogo's (base64, 19 unieke) uit de homepage gehaald naar `assets/img/logos/`. Homepage van 283 KB naar 182 KB.
+- FAQ-gegevens voor Google: "Hoeveel reacties kan ik verwachten?" toegevoegd, stond wel op de pagina.
+- `cases/neuropage.html` verwijderd; de URL stuurde al door naar `/cases/landingspagina-per-prospect`.
+- Nieuwe `404.html` (noindex) met links naar pakketten, cases en kennisbank.
+- Postcode overal "1052 HL". Sitemap-datums op 11 september.
+- Ontbrekende Engelse vertalingen op de homepage aangevuld (cases, kopjes, Link2Talent-zin).
+- Cacheversies: `l2l-i18n.js?v=22`, data `?v=20`, `l2l-shared.css?v=1`.
+
+**Na deploy checken**
+- Op je telefoon: kun je nog onder de footer scrollen, en verschijnt de chatknop.
+- OG-image verversen in de LinkedIn Post Inspector, anders blijft de oude afbeelding hangen.
+
+---
+
 # Wijzigingen, 10 september 2026 (laatste ronde voor livegang)
 
 - Scale en Pro: "Contractuele garantie op positieve reacties".

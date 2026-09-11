@@ -14,7 +14,7 @@
   // De vertaaldata is een groot bestand. Nederlandse bezoekers hebben het
   // niet nodig, dus we laden het pas zodra er daadwerkelijk naar Engels of
   // Spaans wordt geschakeld. Dat scheelt elke NL-bezoeker een halve MB.
-  var DATA_URL = "/assets/i18n/l2l-i18n-data.js?v=19";
+  var DATA_URL = "/assets/i18n/l2l-i18n-data.js?v=20";
   var dataPromise = null;
   function loadData() {
     if (window.L2L_I18N_DATA) { DATA = window.L2L_I18N_DATA; NORM = null; return Promise.resolve(); }
@@ -59,7 +59,7 @@
   function isInSwitcher(node) {
     var el = node.nodeType === 1 ? node : node.parentNode;
     while (el) {
-      if (el.classList && el.classList.contains("l2l-lang")) return true;
+      if (el.classList && (el.classList.contains("l2l-lang") || el.classList.contains("l2b"))) return true; // merknaam niet vertalen
       if (el.getAttribute && el.getAttribute("data-i18n-skip") !== null) return true;
       el = el.parentNode;
     }
