@@ -1,3 +1,20 @@
+# Wijzigingen, 11 september 2026 (menubalk overal gelijk)
+
+- Elke pagina heeft nu exact dezelfde menubalk als de homepage, ook 404, privacy, voorwaarden, calculator, /book en /klant: Zo werkt het, Resultaten, Pakketten, Reviews, Kennis, FAQ, Contact, taalkeuze en de knop Gratis fitcheck. Onder 1080px dezelfde hamburger met hetzelfde uitklapmenu.
+- Opmaak en script van de balk staan in de pagina zelf (class `l2n`), naast de footerstijl. Getest op 1300, 820 en 390px: de balk staat op alle 19 pagina's op precies dezelfde plek en maat, de taalkeuze zit overal in de balk en het menu klapt overal open.
+- Op subpagina's gaat Resultaten naar /cases en staat Kennis of Resultaten gemarkeerd op de eigen sectie. Op de homepage springen de links naar de secties.
+- /book: meer ruimte bovenaan zodat de kop niet onder de balk valt.
+- Vertaalscript: `l2l-i18n.js?v=23` (plaatst de taalkeuze in de nieuwe balk).
+
+---
+
+# Wijzigingen, 11 september 2026 (na feedback op de deploy)
+
+- E-mailadressen en domeinen (info@link2leads.nl e.d.) blijven gewoon zoals ze waren, zonder aparte opmaak.
+- Add-ons: Hyperpersonalisatie en Full Service zijn even breed en hebben dezelfde kaartstijl (de blauwe rand en gloed op Hyperpersonalisatie zijn weg).
+
+---
+
 # Wijzigingen, 11 september 2026 (merknaam, footer, tijdlijn en SEO)
 
 **Merknaam overal hetzelfde**

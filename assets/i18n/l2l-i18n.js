@@ -381,8 +381,8 @@
     if (!switcherEl) return;
     // Bij voorkeur in de navigatiebalk, links van de call to action. Zo staat
     // hij bovenaan vast, schuift hij mee met de nav en dekt hij niets af.
-    var nav = document.querySelector(".nav-inner") || document.querySelector("nav");
-    var cta = nav && (nav.querySelector(".nav-cta") || nav.querySelector(".nav-hamburger") || nav.querySelector(".nav-back"));
+    var nav = document.querySelector(".l2n-inner") || document.querySelector(".nav-inner") || document.querySelector("nav");
+    var cta = nav && (nav.querySelector(".l2n-cta") || nav.querySelector(".nav-cta") || nav.querySelector(".nav-hamburger") || nav.querySelector(".nav-back"));
     if (nav && cta) {
       switcherEl.className = "l2l-lang l2l-lang-in-nav";
       if (switcherEl.parentNode !== nav) nav.insertBefore(switcherEl, cta);

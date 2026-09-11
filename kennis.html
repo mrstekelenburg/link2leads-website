@@ -165,21 +165,83 @@ a.l2f-sis:hover > svg{color:#5B8FF5;transform:translate(2px,-2px);}
   .l2f-legal{flex-direction:column;}
   .l2f-legal > span{padding:0;border-left:0;}
 }
+
+/* ── 3. Menubalk (class l2n), identiek op elke pagina ── */
+html body nav.l2n{position:fixed !important;top:20px !important;left:0 !important;right:0 !important;bottom:auto !important;
+  z-index:200 !important;display:flex !important;justify-content:center !important;align-items:flex-start !important;
+  padding:0 24px !important;margin:0 !important;width:auto !important;height:auto !important;min-height:0 !important;max-width:none !important;
+  background:none !important;border:0 !important;box-shadow:none !important;backdrop-filter:none !important;-webkit-backdrop-filter:none !important;
+  transform:none !important;pointer-events:none;font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  transition:top .3s ease;}
+html body nav.l2n .l2n-inner{pointer-events:all;box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:8px;
+  width:100%;max-width:1100px;margin:0;background:rgba(10,12,18,.75);
+  backdrop-filter:blur(28px) saturate(180%);-webkit-backdrop-filter:blur(28px) saturate(180%);
+  border:1px solid rgba(255,255,255,.10);border-radius:100px;padding:8px 8px 8px 24px;
+  box-shadow:0 8px 32px rgba(0,0,0,.55),0 0 0 1px rgba(47,111,237,.06),inset 0 1px 0 rgba(255,255,255,.05);
+  transition:background .3s ease,border-color .3s ease,box-shadow .3s ease;}
+html body nav.l2n.scrolled .l2n-inner{background:rgba(8,9,12,.92);border-color:rgba(255,255,255,.13);
+  box-shadow:0 12px 40px rgba(0,0,0,.7),0 0 0 1px rgba(47,111,237,.1);}
+html body nav.l2n a{text-decoration:none !important;}
+html body nav.l2n .l2n-logo{font-size:17px;font-weight:800;letter-spacing:-.5px;line-height:1;white-space:nowrap;margin:0 8px 0 0;padding:0;background:none;}
+html body nav.l2n .l2n-links{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0;}
+html body nav.l2n .l2n-links li{list-style:none;margin:0;padding:0;}
+html body nav.l2n .l2n-links li::before,html body nav.l2n .l2n-links li::marker{content:none !important;display:none !important;}
+html body nav.l2n .l2n-links a{display:block;font-size:14px;font-weight:500;line-height:1.2;color:rgba(255,255,255,.7) !important;
+  padding:8px 14px;border-radius:100px;white-space:nowrap;background:none;transition:color .2s,background .2s;}
+html body nav.l2n .l2n-links a:hover,html body nav.l2n .l2n-links a.is-active{color:#F0EFED !important;background:rgba(255,255,255,.07);}
+html body nav.l2n .l2n-cta{display:inline-block;background:#2F6FED;color:#fff !important;font-size:14px;font-weight:700;line-height:1.2;
+  padding:10px 20px;border-radius:100px;white-space:nowrap;flex-shrink:0;border:0;transition:opacity .2s,transform .15s;}
+html body nav.l2n .l2n-cta:hover{opacity:.9;transform:translateY(-1px);}
+html body nav.l2n .l2n-burger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;margin:0;border-radius:6px;
+  background:transparent;border:0;transition:background .2s;}
+html body nav.l2n .l2n-burger:hover{background:rgba(255,255,255,.06);}
+html body nav.l2n .l2n-burger span{display:block;width:22px;height:2px;background:#F0EFED;border-radius:2px;transition:transform .3s,opacity .3s;}
+html body nav.l2n .l2n-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+html body nav.l2n .l2n-burger.open span:nth-child(2){opacity:0;}
+html body nav.l2n .l2n-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+html body nav.l2n a:focus-visible,html body nav.l2n button:focus-visible{outline:2px solid #5B8FF5;outline-offset:2px;}
+html body .l2n-menu{display:none;position:fixed !important;top:88px;left:12px;right:12px;z-index:9999 !important;box-sizing:border-box;
+  border-radius:16px;background:rgba(8,9,12,.98);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border:1px solid rgba(255,255,255,.1);padding:24px;flex-direction:column;gap:0;
+  font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;}
+html body .l2n-menu.open{display:flex;}
+html body .l2n-menu a{display:block;padding:16px 0;font-size:18px;font-weight:600;line-height:1.3;color:rgba(255,255,255,.75);
+  border-bottom:1px solid rgba(255,255,255,.1);text-decoration:none;transition:color .2s;}
+html body .l2n-menu a:hover{color:#F0EFED;}
+html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;text-align:center;padding:16px;border-radius:100px;font-weight:700;border-bottom:0;}
+@media(max-width:1080px){
+  html body nav.l2n .l2n-links,html body nav.l2n .l2n-cta{display:none;}
+  html body nav.l2n .l2n-burger{display:flex;}
+  html body nav.l2n .l2n-inner{padding:8px 8px 8px 18px;}
+}
+@media(max-width:768px){
+  html body nav.l2n{top:12px !important;padding:0 12px !important;}
+  html body nav.l2n .l2n-inner{border-radius:20px;}
+  html body .l2n-menu{top:80px;}
+}
 </style>
 </head>
 <body>
-<nav>
-  <div class="nav-inner">
-    <a href="/" class="nav-logo"><span class="l2b">Link<i>2</i>Leads</span></a>
-    <ul class="nav-links"><li><a href="/#zowerkthet">Zo werkt het</a></li><li><a href="/cases">Resultaten</a></li><li><a href="/#pakketten">Pakketten</a></li><li><a href="/kennis" class="active">Kennis</a></li><li><a href="/#faq">FAQ</a></li><li><a href="/calculator-l2l">Calculator</a></li></ul>
-    <a href="/#contact" class="nav-cta">Stel je vraag</a>
-    <button class="nav-hamburger" id="hamburger" aria-label="Menu openen"><span></span><span></span><span></span></button>
-  </div>
-</nav>
-<div class="nav-mobile-menu" id="mobileMenu">
-  <a href="/#zowerkthet" onclick="closeMenu()">Zo werkt het</a><a href="/cases" onclick="closeMenu()">Resultaten</a><a href="/#pakketten" onclick="closeMenu()">Pakketten</a><a href="/kennis" onclick="closeMenu()">Kennis</a><a href="/#faq" onclick="closeMenu()">FAQ</a><a href="/calculator-l2l" onclick="closeMenu()">Calculator</a>
-  <a href="/#contact" class="nav-mobile-cta" onclick="closeMenu()">Stel je vraag</a>
+<nav aria-label="Hoofdmenu" class="l2n">
+<div class="l2n-inner">
+<a aria-label="Link2Leads, naar de homepage" class="l2n-logo" href="/"><span class="l2b">Link<i>2</i>Leads</span></a>
+<ul class="l2n-links"><li><a href="/#zowerkthet">Zo werkt het</a></li><li><a href="/cases">Resultaten</a></li><li><a href="/#pakketten">Pakketten</a></li><li><a href="/#reviews">Reviews</a></li><li><a href="/kennis" class="is-active" aria-current="page">Kennis</a></li><li><a href="/#faq">FAQ</a></li><li><a href="/#contact">Contact</a></li></ul>
+<a class="l2n-cta" href="/book">Gratis fitcheck</a>
+<button aria-controls="l2nMenu" aria-expanded="false" aria-label="Menu openen" class="l2n-burger" id="l2nBurger" type="button"><span></span><span></span><span></span></button>
 </div>
+</nav>
+<div class="l2n-menu" id="l2nMenu"><a href="/#zowerkthet" onclick="l2nClose()">Zo werkt het</a><a href="/cases" onclick="l2nClose()">Resultaten</a><a href="/#pakketten" onclick="l2nClose()">Pakketten</a><a href="/#reviews" onclick="l2nClose()">Reviews</a><a href="/kennis" onclick="l2nClose()">Kennis</a><a href="/#faq" onclick="l2nClose()">FAQ</a><a href="/#contact" onclick="l2nClose()">Contact</a><a class="l2n-mcta" href="/book" onclick="l2nClose()">Doe de gratis fitcheck</a></div>
+<script>
+(function(){
+  var nav=document.querySelector('nav.l2n'), b=document.getElementById('l2nBurger'), m=document.getElementById('l2nMenu');
+  function set(o){ if(!b||!m) return; b.classList.toggle('open',o); m.classList.toggle('open',o); b.setAttribute('aria-expanded',o?'true':'false'); }
+  window.l2nClose=function(){ set(false); };
+  if(b) b.addEventListener('click',function(){ set(!m.classList.contains('open')); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') set(false); });
+  function sc(){ if(nav) nav.classList.toggle('scrolled', window.scrollY>60); }
+  window.addEventListener('scroll',sc,{passive:true}); sc();
+})();
+</script>
 <main class="page-wrap">
   <div class="crumb"><a href="/"><span class="l2b">Link<i>2</i>Leads</span></a> / Kennis</div>
   <h1 class="page-h">Kennisbank <span class="blue">cold email</span></h1>
@@ -277,6 +339,6 @@ a.l2f-sis:hover > svg{color:#5B8FF5;transform:translate(2px,-2px);}
   window.closeMenu=function(){ if(m) m.classList.remove('open'); };
 })();
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=22"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=23"></script>
 </body>
 </html>
