@@ -2910,8 +2910,9 @@ Bel ons: 085 080 5381
     .cs-sticker span{display:block;margin-top:6px;font-size:13.5px;line-height:1.4;color:rgba(255,255,255,.88);}
     @media(max-width:900px){.cs-sticker{max-width:178px;top:-30px;right:-4px;padding:12px 14px;}
       .cs-sticker b{font-size:18px;} .cs-sticker span{font-size:12.5px;}}
-    @media(max-width:620px){.cs-sticker{position:static;transform:rotate(-2deg);max-width:230px;
-      margin:0 4px 14px auto;padding:12px 15px;}}
+    @media(max-width:620px){.cs-sticker{top:-22px;right:-4px;max-width:158px;padding:10px 13px;border-radius:13px;transform:rotate(-4deg);}
+      .cs-sticker b{font-size:16.5px;letter-spacing:-.5px;} .cs-sticker span{font-size:11.5px;margin-top:4px;}
+      .cs-carousel .cs-track > .cs-card{padding-top:50px;}}
     @media(max-width:760px){.cs-track{gap:12px;}
       .cs-track > .cs-card{padding:20px 20px 24px;}
       .cs-stats{gap:16px 26px;}
@@ -3726,6 +3727,26 @@ Bel ons: 085 080 5381
 </div>
 </div>
 </footer>
+<script>
+/* Geen lege ruimte onder de footer: wat scripts (zoals de chatwidget) na de footer toevoegen, mag de pagina niet langer maken */
+(function(){
+  var f=document.querySelector('footer'); if(!f) return;
+  function fix(){
+    var fb=f.getBoundingClientRect().bottom+window.scrollY;
+    if(document.documentElement.scrollHeight<=fb+2) return;
+    for(var el=f.nextElementSibling; el; el=el.nextElementSibling){
+      var t=el.tagName; if(t==='SCRIPT'||t==='STYLE'||t==='LINK'||t==='NOSCRIPT') continue;
+      var cs=getComputedStyle(el); if(cs.position==='fixed') continue;
+      el.style.setProperty('position','fixed','important');
+      if(cs.top==='auto'&&cs.bottom==='auto'){ el.style.setProperty('bottom','0','important'); el.style.setProperty('right','0','important'); }
+    }
+  }
+  if('MutationObserver' in window) new MutationObserver(function(){ setTimeout(fix,50); }).observe(document.body,{childList:true});
+  window.addEventListener('load',function(){ fix(); setTimeout(fix,1500); setTimeout(fix,5000); });
+  window.addEventListener('resize',fix,{passive:true});
+})();
+</script>
+
 <script>
 // Hamburger menu
 const hamburger = document.getElementById('hamburger');

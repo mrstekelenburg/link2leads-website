@@ -1,3 +1,10 @@
+# Wijzigingen, 11 september 2026 (scrollen onder footer, sticker mobiel)
+
+- Doorscrollen onder de footer op mobiel: naast de CSS-fix staat nu op elke pagina met footer een klein script dat na het laden (en na elke toevoeging aan de pagina, zoals de chatwidget) controleert of de pagina langer is dan de footer. Zo ja, dan zet het alles wat na de footer is toegevoegd vast in beeld, zodat het geen lengte meer toevoegt. Getest met een statisch blok van 520px, een absoluut blok ver onder de pagina en een schermvullend widgetvlak: pagina eindigt exact bij de footer op home, kennis, privacy en een case.
+- 800.000+-sticker: op mobiel zit hij nu net als op desktop schuin over de rechterbovenhoek van de case, kleiner, met extra ruimte bovenin de kaart zodat hij geen tekst afdekt.
+
+---
+
 # Wijzigingen, 11 september 2026 (menubalk overal gelijk)
 
 - Elke pagina heeft nu exact dezelfde menubalk als de homepage, ook 404, privacy, voorwaarden, calculator, /book en /klant: Zo werkt het, Resultaten, Pakketten, Reviews, Kennis, FAQ, Contact, taalkeuze en de knop Gratis fitcheck. Onder 1080px dezelfde hamburger met hetzelfde uitklapmenu.

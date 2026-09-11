@@ -739,6 +739,26 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
 </div>
 </div>
 </footer>
+<script>
+/* Geen lege ruimte onder de footer: wat scripts (zoals de chatwidget) na de footer toevoegen, mag de pagina niet langer maken */
+(function(){
+  var f=document.querySelector('footer'); if(!f) return;
+  function fix(){
+    var fb=f.getBoundingClientRect().bottom+window.scrollY;
+    if(document.documentElement.scrollHeight<=fb+2) return;
+    for(var el=f.nextElementSibling; el; el=el.nextElementSibling){
+      var t=el.tagName; if(t==='SCRIPT'||t==='STYLE'||t==='LINK'||t==='NOSCRIPT') continue;
+      var cs=getComputedStyle(el); if(cs.position==='fixed') continue;
+      el.style.setProperty('position','fixed','important');
+      if(cs.top==='auto'&&cs.bottom==='auto'){ el.style.setProperty('bottom','0','important'); el.style.setProperty('right','0','important'); }
+    }
+  }
+  if('MutationObserver' in window) new MutationObserver(function(){ setTimeout(fix,50); }).observe(document.body,{childList:true});
+  window.addEventListener('load',function(){ fix(); setTimeout(fix,1500); setTimeout(fix,5000); });
+  window.addEventListener('resize',fix,{passive:true});
+})();
+</script>
+
 
 <script>
 (function() {
