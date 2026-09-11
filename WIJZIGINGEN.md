@@ -1,7 +1,7 @@
 # Wijzigingen, 11 september 2026 (merknaam, footer, tijdlijn en SEO)
 
 **Merknaam overal hetzelfde**
-- Link2Leads, Link2Talent en Link2Group staan op elke pagina als: Link wit en recht, 2 blauw en schuin, Leads/Talent/Group wit en recht. Geldt voor nav, footer en alle lopende tekst. Opmaak zit in `assets/l2l-shared.css` (class `l2b`), die op elke pagina geladen wordt.
+- Link2Leads, Link2Talent en Link2Group staan op elke pagina als: Link wit en recht, 2 blauw en schuin, Leads/Talent/Group wit en recht. Geldt voor nav, footer en alle lopende tekst. Opmaak (class `l2b`) en de footerstijl staan als `<style id="l2l-shared">` in de head van elke pagina, zodat ze niet afhangen van een apart bestand.
 - De vertaalmodule slaat de merknaam over; de tekst eromheen heeft eigen Engelse vertalingen gekregen, zodat de Engelse versie blijft werken.
 - Niet aangepast: e-mailadressen en de domeinnaam (link2leads.nl), alt-teksten en paginatitels (kunnen geen opmaak hebben) en de bevestigingsmails uit `/api`.
 - OG-image, favicons (32, 192, apple-touch) opnieuw gemaakt met schuine 2. Nieuw: `logo.png` (vierkant, 512px) als logo in de gestructureerde gegevens. Op het OG-image staat nu "Campagne live in week 3".
@@ -23,13 +23,13 @@
 
 **SEO**
 - Titels ingekort tot maximaal ongeveer 65 tekens en omschrijvingen tot ongeveer 158, op 13 pagina's.
-- Ingebakken klantlogo's (base64, 19 unieke) uit de homepage gehaald naar `assets/img/logos/`. Homepage van 283 KB naar 182 KB.
+- Klantlogo's blijven ingebakken in de homepage (base64). Een eerdere versie zette ze in losse bestanden; teruggedraaid omdat CrudenVision en Nafite na deploy wegvielen.
 - FAQ-gegevens voor Google: "Hoeveel reacties kan ik verwachten?" toegevoegd, stond wel op de pagina.
 - `cases/neuropage.html` verwijderd; de URL stuurde al door naar `/cases/landingspagina-per-prospect`.
 - Nieuwe `404.html` (noindex) met links naar pakketten, cases en kennisbank.
 - Postcode overal "1052 HL". Sitemap-datums op 11 september.
 - Ontbrekende Engelse vertalingen op de homepage aangevuld (cases, kopjes, Link2Talent-zin).
-- Cacheversies: `l2l-i18n.js?v=22`, data `?v=20`, `l2l-shared.css?v=1`.
+- Cacheversies: `l2l-i18n.js?v=22`, data `?v=20`.
 
 **Na deploy checken**
 - Op je telefoon: kun je nog onder de footer scrollen, en verschijnt de chatknop.

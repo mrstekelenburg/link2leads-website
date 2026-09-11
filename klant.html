@@ -117,7 +117,94 @@ textarea.q-input{min-height:100px;}
 
 @media(max-width:600px){.welcome-title{font-size:30px;}.info-cards{grid-template-columns:1fr;}.btn-row{flex-direction:column-reverse;}.btn-ghost{width:100%;justify-content:center;}}
 </style>
-<link href="/assets/l2l-shared.css?v=1" rel="stylesheet">
+<style id="l2l-shared">
+/* Link2Leads, gedeelde stijl voor alle pagina's.
+   1. Merknaam: Link (wit, recht) 2 (blauw, schuin) Leads/Talent/Group (wit, recht)
+   2. Footer (class l2f), zelfde opbouw op elke pagina */
+
+/* ── 1. Merknaam ── */
+html body span.l2b,html body .l2b{color:#F0EFED !important;font-style:normal !important;white-space:nowrap;
+  -webkit-text-fill-color:#F0EFED;background:none;}
+html body .l2b i{color:#2F6FED !important;-webkit-text-fill-color:#2F6FED;font-style:italic !important;
+  display:inline-block;padding:0 .06em 0 .01em;margin-right:-.02em;}
+/* op blauwe vlakken: lichtblauw zodat de 2 zichtbaar blijft */
+html body .btn-solid .l2b i,html body .cs-sticker .l2b i,html body .ct-sticker .l2b i,html body .l2b-onblue .l2b i,
+html body [class*="btn-primary"] .l2b i{color:#BFD4FF !important;-webkit-text-fill-color:#BFD4FF;}
+
+/* ── 2. Footer ── */
+footer.l2f{position:relative;z-index:1;margin:0;border-top:1px solid rgba(255,255,255,.08) !important;
+  background:#07080B;padding:64px 24px 30px;color:#F0EFED;font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;}
+.l2f a{color:inherit;text-decoration:none;}
+.l2f-wrap{max-width:1140px;margin:0 auto;}
+
+.l2f-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:48px;align-items:start;padding-bottom:44px;}
+.l2f-logo{display:inline-block;font-size:22px;font-weight:800;letter-spacing:-.5px;line-height:1;}
+.l2f-tag{margin:14px 0 22px;max-width:300px;font-size:14.5px;line-height:1.65;color:#8A919E;}
+.l2f-contact{list-style:none;margin:0;padding:0;display:grid;gap:10px;}
+.l2f-contact a{display:inline-flex;align-items:center;gap:11px;font-size:14.5px;font-weight:500;
+  color:rgba(240,239,237,.8);transition:color .2s;}
+.l2f-contact a:hover{color:#fff;}
+.l2f-ico{width:32px;height:32px;border-radius:9px;flex-shrink:0;display:flex;align-items:center;justify-content:center;
+  background:rgba(47,111,237,.13);border:1px solid rgba(47,111,237,.22);color:#5B8FF5;transition:background .2s,color .2s;}
+.l2f-ico svg{width:15px;height:15px;display:block;}
+.l2f-contact a:hover .l2f-ico{background:#2F6FED;color:#fff;border-color:#2F6FED;}
+
+.l2f-title{font-size:13.5px;font-weight:800;letter-spacing:.2px;color:#5B8FF5;margin:4px 0 18px;}
+.l2f-links{list-style:none;margin:0;padding:0;display:grid;gap:11px;}
+.l2f-links a{font-size:14.5px;color:rgba(240,239,237,.64);transition:color .2s;}
+.l2f-links a:hover{color:#fff;}
+
+/* Groepsblok */
+.l2f-group{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:14px;align-items:stretch;
+  padding:22px;border-radius:18px;background:linear-gradient(135deg,rgba(47,111,237,.09),rgba(255,255,255,.02) 55%);
+  border:1px solid rgba(255,255,255,.08);}
+.l2f-gh{display:flex;flex-direction:column;justify-content:center;padding:4px 8px 4px 4px;}
+.l2f-gh small{display:block;font-size:13px;font-weight:600;color:#8A919E;margin-bottom:4px;}
+.l2f-gh a.l2f-gname{display:inline-flex;align-items:center;gap:8px;font-size:21px;font-weight:800;letter-spacing:-.5px;line-height:1.15;}
+.l2f-gh a.l2f-gname svg{width:15px;height:15px;color:#8A919E;transition:color .2s,transform .2s;}
+.l2f-gh a.l2f-gname:hover svg{color:#5B8FF5;transform:translate(2px,-2px);}
+.l2f-gh p{margin:8px 0 0;font-size:14px;line-height:1.55;color:#8A919E;max-width:330px;}
+.l2f-sis{position:relative;display:flex;flex-direction:column;justify-content:center;gap:5px;padding:16px 44px 16px 18px;
+  border-radius:13px;background:rgba(8,9,12,.55);border:1px solid rgba(255,255,255,.08);
+  transition:border-color .2s,background .2s;}
+a.l2f-sis:hover{border-color:rgba(47,111,237,.5);background:rgba(47,111,237,.08);}
+.l2f-sis b{font-size:16px;font-weight:800;letter-spacing:-.3px;}
+.l2f-sis span.d{font-size:13.5px;line-height:1.45;color:#8A919E;}
+.l2f-sis .l2f-here{position:absolute;top:14px;right:14px;font-size:11.5px;font-weight:700;color:#7EE2A8;
+  background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.24);border-radius:100px;padding:2px 8px;}
+.l2f-sis > svg{position:absolute;top:16px;right:16px;width:15px;height:15px;color:#8A919E;transition:color .2s,transform .2s;}
+a.l2f-sis:hover > svg{color:#5B8FF5;transform:translate(2px,-2px);}
+
+/* Onderbalk */
+.l2f-bottom{display:flex;justify-content:space-between;align-items:center;gap:10px 28px;flex-wrap:wrap;
+  margin-top:26px;padding-top:22px;border-top:1px solid rgba(255,255,255,.07);
+  font-size:13px;line-height:1.6;color:rgba(240,239,237,.46);}
+
+.l2f-legal{display:flex;flex-wrap:wrap;gap:4px 0;font-style:normal;}
+.l2f-legal > span{padding:0 14px;border-left:1px solid rgba(255,255,255,.12);}
+.l2f-legal > span:first-child{padding-left:0;border-left:0;}
+.l2f-legal a{text-decoration:underline;text-decoration-color:rgba(255,255,255,.2);text-underline-offset:3px;}
+.l2f-legal a:hover{text-decoration-color:currentColor;}
+
+.l2f a:focus-visible{outline:2px solid #5B8FF5;outline-offset:3px;border-radius:6px;}
+
+@media(max-width:980px){
+  .l2f-top{grid-template-columns:1fr 1fr 1fr;gap:36px 32px;}
+  .l2f-brand{grid-column:1 / -1;}
+  .l2f-tag{max-width:520px;}
+  .l2f-group{grid-template-columns:1fr 1fr;}
+  .l2f-gh{grid-column:1 / -1;padding:2px 2px 6px;}
+}
+@media(max-width:640px){
+  footer.l2f{padding:48px 20px 28px;}
+  .l2f-top{grid-template-columns:1fr 1fr;gap:32px 24px;padding-bottom:34px;}
+  .l2f-top > div:last-child{grid-column:1 / -1;}
+  .l2f-group{grid-template-columns:1fr;padding:18px;}
+  .l2f-bottom{flex-direction:column;align-items:flex-start;}
+  .l2f-legal{flex-direction:column;}
+  .l2f-legal > span{padding:0;border-left:0;}
+}
+</style>
 </head>
 <body>
 <canvas id="bg-canvas"></canvas>
