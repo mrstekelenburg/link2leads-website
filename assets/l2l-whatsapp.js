@@ -17,7 +17,7 @@
       '#l2l-wa svg{width:31px;height:31px;display:block;fill:#fff;}',
       '#l2l-wa:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(0,0,0,.42),0 0 0 1px rgba(255,255,255,.14);}',
       '#l2l-wa:focus-visible{outline:3px solid #BFD4FF;outline-offset:3px;}',
-      '@media (max-width:640px){#l2l-wa{right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));',
+      '@media (max-width:640px){#l2l-wa{right:16px !important;bottom:calc(16px + env(safe-area-inset-bottom,0px)) !important;',
       'width:52px;height:52px;}#l2l-wa svg{width:28px;height:28px;}}',
       '@media (prefers-reduced-motion:reduce){#l2l-wa{transition:none;}#l2l-wa:hover{transform:none;}}'
     ].join('');
