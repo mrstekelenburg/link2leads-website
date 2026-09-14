@@ -51,6 +51,36 @@
       "source": "/cases/trainingsbedrijf",
       "destination": "/cases/miju-marketing",
       "permanent": true
+    },
+    {
+      "source": "/leads-kopen",
+      "destination": "/leads",
+      "permanent": true
+    },
+    {
+      "source": "/b2b-leads-kopen",
+      "destination": "/leads",
+      "permanent": true
+    },
+    {
+      "source": "/leadlijst",
+      "destination": "/leads",
+      "permanent": true
+    },
+    {
+      "source": "/leadlijsten",
+      "destination": "/leads",
+      "permanent": true
+    },
+    {
+      "source": "/adressenbestand",
+      "destination": "/leads",
+      "permanent": true
+    },
+    {
+      "source": "/data",
+      "destination": "/leads",
+      "permanent": true
     }
   ],
   "headers": [

@@ -549,3 +549,13 @@ Cachebusters: `l2l-visuals.css?v=4`, `l2l-page.css?v=4`, `l2l-i18n.js?v=8` en `l
 Cachebusters: `l2l-visuals.css?v=5`, `l2l-page.css?v=5`, `l2l-i18n.js?v=9` en `l2t-i18n.js?v=4`. Woordenboeken: 2.032 sleutels op Link2Leads, 709 op Link2Talent.
 
 **Ronde 8b.** De visuals boven de casekaarten op de homepage zijn eruit. De kaarten beginnen nu direct bij het logo en de regel "Case study", en gaan van 664 naar 384 pixels hoog. De grafiek zelf staat nog wel op de casepagina van het softwarebedrijf, waar hij bij de tekst hoort.
+
+## 14 september 2026 - Leadspagina
+
+- Nieuwe pagina /leads: losse leadbestanden kopen, met configurator (aantal + verrijking, live prijs), voorbeeldbestand, staffeltabel, aanvulgarantie, herkomstblok, vergelijking met de beheerde campagne, FAQ en aanvraagformulier.
+- Menu en footer: item "Leads kopen" toegevoegd op alle pagina's.
+- SEO: /leads in sitemap.xml (prioriteit 0.9), canonical, OG-tags, schema (BreadcrumbList, Service met AggregateOffer, FAQPage). Redirects toegevoegd voor /leads-kopen, /b2b-leads-kopen, /leadlijst, /leadlijsten, /adressenbestand en /data. Interne links vanuit de homepage en twee kennisartikelen.
+- api/contact.js: type "leads" krijgt een eigen bevestigingsmail (telling en prijs) en een eigen onderwerpregel voor de interne notificatie.
+- llms.txt en llms-full.txt: sectie over losse leads toegevoegd.
+- privacy.html: nieuwe secties "Waar de gegevens vandaan komen" en "Leadbestanden die wij leveren", rechtsgrond aangevuld met artikel 6 lid 1 sub f en de informatieplicht uit artikel 14, bezwaarrecht en blokkeerlijst uitgeschreven, bewaartermijn voor leaddata toegevoegd, secties hernummerd.
+- algemene-voorwaarden.html: nieuw artikel 07 "Losse leadbestanden" met levering, prijs, garanties en de verplichtingen van de opdrachtgever; overige artikelen hernummerd.

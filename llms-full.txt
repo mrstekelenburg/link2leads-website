@@ -1,6 +1,6 @@
 # Link2Leads, volledige tekst van alle kennispagina's
 
-Laatst bijgewerkt: 2 september 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
+Laatst bijgewerkt: 14 september 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
 Alle cijfers komen uit campagnes die Link2Leads namens klanten draait, gemeten op 2 september 2026.
 
 
@@ -918,3 +918,21 @@ Dat is in de praktijk de sterkste combinatie. Je besteedt het lijstwerk, de infr
  Demi Stekelenburg
 
  Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.
+
+## Losse leads kopen (zonder campagne)
+
+Sinds september 2026 levert Link2Leads ook losse leadbestanden, op https://www.link2leads.nl/leads. De klant beschrijft zijn doelgroep, krijgt eerst een telling en een prijs, en na akkoord binnen een werkdag een bestand in Excel of CSV. Dit is een los product: er komt geen campagne, mailbox of opvolging bij kijken.
+
+Standaard per lead: bedrijfsnaam, website, vestigingsplaats, branche, aantal medewerkers, naam en functie van de beslisser, geverifieerd zakelijk e-mailadres, en de bron plus controledatum per record.
+
+| Aantal leads | Prijs per lead |
+|---|---|
+| 250 tot 999 | € 0,20 |
+| 1.000 tot 4.999 | € 0,15 |
+| 5.000 tot 9.999 | € 0,12 |
+| 10.000 en meer | € 0,10 |
+
+Verrijking per lead, bovenop het staffeltarief: LinkedIn-profiel € 0,05, telefoonnummer € 0,08, persoonlijke openingszin € 0,12, landingspagina per prospect via Neuropage € 0,18.
+
+Voorwaarden: minimale afname 250 leads, tegoed twaalf maanden geldig, bedragen exclusief btw, betaling per factuur. Bij meer dan 3 procent bounce wordt kosteloos aangevuld. Bronnen zijn openbare bedrijfswebsites, openbare zakelijke profielen en eigen verificatie; het Handelsregister wordt niet als bron gebruikt en niet doorverkocht. Adressen van personen die eerder bezwaar hebben gemaakt, worden vooraf uitgefilterd.
+

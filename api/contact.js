@@ -55,6 +55,7 @@ module.exports = async (req, res) => {
   const body = req.body || {};
   const { name, email, company, question, website, type } = body;
   const isScan = type === 'marktscan';
+  const isLeads = type === 'leads';
 
   // Honeypot: echte bezoekers laten dit veld leeg.
   if (website) return res.status(200).json({ ok: true, ref: 'L2L-000000' });
@@ -84,7 +85,9 @@ module.exports = async (req, res) => {
       from,
       to: email,
       replyTo: 'info@link2leads.nl',
-      subject: isScan ? `Je marktscan is aangevraagd - Link2Leads ${ref}` : `Je vraag is binnen - Link2Leads ${ref}`,
+      subject: isScan ? `Je marktscan is aangevraagd - Link2Leads ${ref}`
+             : isLeads ? `Je leadaanvraag is binnen - Link2Leads ${ref}`
+             : `Je vraag is binnen - Link2Leads ${ref}`,
       text: [
         `Hoi ${name},`,
         ``,
@@ -108,11 +111,15 @@ module.exports = async (req, res) => {
         preheader: 'Je bericht is binnen. Antwoord volgt binnen een werkdag.',
         ref,
         body: [
-          M.h1(isScan ? 'Je marktscan is aangevraagd' : `Hoi ${esc(name)}, je vraag is binnen`),
+          M.h1(isScan ? 'Je marktscan is aangevraagd'
+            : isLeads ? `Hoi ${esc(name)}, je leadaanvraag is binnen`
+            : `Hoi ${esc(name)}, je vraag is binnen`),
           M.p(isScan
             ? 'We rekenen uit hoeveel bedrijven er in je doelgroep passen, hoeveel beslissers daarvan bereikbaar zijn en welk volume daarbij realistisch is. Je krijgt het binnen een werkdag, met een eerlijk oordeel of koude e-mail bij je markt past.'
+            : isLeads
+            ? 'We tellen eerst hoeveel bedrijven er in je selectie passen en sturen je binnen een werkdag die telling met de prijs erbij. Pas als je daarmee akkoord gaat, bouwen we de lijst. Je zit nergens aan vast voordat je ja zegt.'
             : 'Ik lees hem zelf en je hoort binnen een werkdag van me. Geen automatische reeks en geen verkoopmail, gewoon antwoord op wat je vraagt.'),
-          question ? M.answerTable({ [isScan ? 'Je doelgroep' : 'Je vraag']: question }) : '',
+          question ? M.answerTable({ [isScan ? 'Je doelgroep' : isLeads ? 'Je aanvraag' : 'Je vraag']: question }) : '',
           '<div style="height:22px"></div>',
           nextBlock(),
           '<div style="height:22px"></div>',
@@ -126,7 +133,7 @@ module.exports = async (req, res) => {
       from,
       to: notify,
       replyTo: email,
-      subject: `${isScan ? 'MARKTSCAN' : 'Contactformulier'} - ${name}${company ? ' (' + company + ')' : ''} - ${ref}`,
+      subject: `${isScan ? 'MARKTSCAN' : isLeads ? 'LEADAANVRAAG' : 'Contactformulier'} - ${name}${company ? ' (' + company + ')' : ''} - ${ref}`,
       text: [
         `Naam: ${name}`,
         `E-mail: ${email}`,
@@ -138,20 +145,20 @@ module.exports = async (req, res) => {
         `Ref ${ref}`
       ].filter(Boolean).join('\n'),
       html: M.shell({
-        title: 'Nieuw contactformulier',
-        badge: 'Contactformulier',
+        title: isLeads ? 'Nieuwe leadaanvraag' : 'Nieuw contactformulier',
+        badge: isLeads ? 'Leads kopen' : 'Contactformulier',
         footerNote: 'Interne notificatie.',
         preheader: `${name}${company ? ' — ' + company : ''}`,
         ref,
         body: [
-          M.h1('Nieuw contactformulier'),
+          M.h1(isLeads ? 'Nieuwe leadaanvraag' : 'Nieuw contactformulier'),
           M.detailTable([
             ['Naam', name],
             ['E-mail', { raw: `<a href="mailto:${M.escAttr(email)}" style="color:${M.C.accent2};">${esc(email)}</a>` }],
             ['Bedrijf', company || ''],
           ]),
           '<div style="height:18px"></div>',
-          M.answerTable({ 'Vraag': question || '(geen vraag ingevuld)' })
+          M.answerTable({ [isLeads ? 'Aanvraag' : 'Vraag']: question || '(geen vraag ingevuld)' })
         ].join('')
       })
     });
