@@ -133,32 +133,33 @@ module.exports = async (req, res) => {
       from,
       to: notify,
       replyTo: email,
-      subject: `${isScan ? 'MARKTSCAN' : isLeads ? 'LEADAANVRAAG' : 'Contactformulier'} - ${name}${company ? ' (' + company + ')' : ''} - ${ref}`,
+      subject: `${isScan ? 'MARKTSCAN' : isLeads ? 'LEADAANVRAAG' : 'Contactformulier'} - ${isScan ? email : name}${company ? ' (' + company + ')' : ''} - ${ref}`,
       text: [
-        `Naam: ${name}`,
+        isScan ? '' : `Naam: ${name}`,
         `E-mail: ${email}`,
         company ? `Bedrijf: ${company}` : '',
         ``,
-        `Vraag:`,
+        isScan ? `Ideale klant:` : isLeads ? `Aanvraag:` : `Vraag:`,
         question || '(geen vraag ingevuld)',
         ``,
         `Ref ${ref}`
       ].filter(Boolean).join('\n'),
       html: M.shell({
-        title: isLeads ? 'Nieuwe leadaanvraag' : 'Nieuw contactformulier',
-        badge: isLeads ? 'Leads kopen' : 'Contactformulier',
+        title: isLeads ? 'Nieuwe leadaanvraag' : isScan ? 'Nieuwe marktscan-aanvraag' : 'Nieuw contactformulier',
+        badge: isLeads ? 'Leads kopen' : isScan ? 'Marktscan' : 'Contactformulier',
         footerNote: 'Interne notificatie.',
         preheader: `${name}${company ? ' — ' + company : ''}`,
         ref,
         body: [
-          M.h1(isLeads ? 'Nieuwe leadaanvraag' : 'Nieuw contactformulier'),
+          M.h1(isLeads ? 'Nieuwe leadaanvraag' : isScan ? 'Nieuwe marktscan-aanvraag' : 'Nieuw contactformulier'),
           M.detailTable([
-            ['Naam', name],
+            // Bij de marktscan is er geen naamveld: de frontend stuurt het stuk voor de @ mee, dus die regel slaan we over.
+            ['Naam', isScan ? '' : name],
             ['E-mail', { raw: `<a href="mailto:${M.escAttr(email)}" style="color:${M.C.accent2};">${esc(email)}</a>` }],
             ['Bedrijf', company || ''],
           ]),
           '<div style="height:18px"></div>',
-          M.answerTable({ [isLeads ? 'Aanvraag' : 'Vraag']: question || '(geen vraag ingevuld)' })
+          M.answerTable({ [isLeads ? 'Aanvraag' : isScan ? 'Ideale klant' : 'Vraag']: question || '(geen vraag ingevuld)' })
         ].join('')
       })
     });
