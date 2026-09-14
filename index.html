@@ -3180,94 +3180,61 @@ Bel ons: 085 080 5381
 </div>
 <div class="addons reveal">
 <style>
-        .addons{margin-top:34px;text-align:left;}
-        .ao-head{font-size:clamp(20px,2.4vw,24px);font-weight:800;letter-spacing:-.5px;color:var(--white);margin:0 0 16px;}
-        .ao-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:stretch;}
-        .ao-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;padding:24px 26px 22px;
-          display:flex;flex-direction:column;}
-        .ao-card.ao-pers{border-color:rgba(47,111,237,.45);
-          background:linear-gradient(160deg,rgba(47,111,237,.13),var(--card-bg) 62%);}
-        .ao-flag{font-size:12.5px;font-weight:700;color:#4ADE80;background:rgba(74,222,128,.08);
-          border:1px solid rgba(74,222,128,.28);border-radius:100px;padding:3px 11px;}
-        .ao-titlerow{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 8px;}
-        .ao-card h3{font-size:clamp(20px,2.3vw,24px);font-weight:800;letter-spacing:-.6px;line-height:1.2;color:var(--white);margin:0 0 8px;}
-        .ao-titlerow h3{margin:0 !important;}
-        .ao-card > p{font-size:15px;line-height:1.6;color:rgba(255,255,255,.76);margin:0 0 14px;max-width:560px;}
-        .ao-demo{border-left:2px solid var(--accent);background:rgba(8,9,12,.45);border-radius:0 12px 12px 0;
-          padding:12px 14px;margin:0 0 16px;display:flex;flex-direction:column;align-items:flex-start;gap:8px;}
-        .ao-demo .ao-k{font-size:12px;font-weight:700;color:var(--muted);margin-bottom:-4px;}
-        .ao-demo .ao-q{margin:0;font-size:14.5px;line-height:1.5;color:var(--white);}
-        .ao-demo .ao-q::before{content:'\201C';}
-        .ao-demo .ao-q::after{content:'\201D';}
-        .ao-chip{display:inline-block;font-size:13.5px;color:rgba(255,255,255,.82);background:rgba(47,111,237,.12);
-          border:1px solid rgba(47,111,237,.3);border-radius:8px;padding:3px 9px;word-break:break-all;}
-        .ao-chip b{color:var(--accent2);font-weight:700;}
-        .ao-prices{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;}
-        .ao-price{display:flex;align-items:baseline;gap:7px;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:100px;padding:6px 13px;}
-        .ao-price span{font-size:13px;color:var(--muted);}
-        .ao-price b{font-size:14.5px;font-weight:800;color:#22C55E;white-space:nowrap;}
-        .ao-link{font-size:14.5px;font-weight:600;color:var(--accent2);text-decoration:underline;text-underline-offset:3px;white-space:nowrap;}
-        .ao-link:focus-visible{outline:2px solid var(--accent2);outline-offset:3px;border-radius:4px;}
-        .ao-foot{margin:12px 0 0;font-size:13.5px;color:var(--muted);text-align:center;}
-        .ao-cal{background:rgba(8,9,12,.35);border:1px solid var(--border);border-radius:14px;padding:12px 14px 12px;margin:0 0 16px;}
-        .ao-cal-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px;}
-        .ao-cal-top .ao-k{font-size:12.5px;font-weight:700;color:var(--muted);}
-        .ao-cal-count{font-size:12.5px;font-weight:700;color:#4ADE80;}
-        .ao-cal-grid{display:grid;grid-template-columns:40px repeat(5,1fr);grid-template-rows:auto repeat(3,24px);gap:5px 6px;}
-        .ao-cal-d{font-size:12px;font-weight:600;color:var(--muted);text-align:center;padding-bottom:2px;}
-        .ao-cal-t{font-size:11px;color:rgba(255,255,255,.4);align-self:center;}
-        .ao-ev{background:rgba(47,111,237,.14);border-left:2px solid rgba(91,143,245,.7);border-radius:5px;padding:0 7px;display:flex;align-items:center;
-          font-size:11.5px;font-weight:500;color:rgba(255,255,255,.78);overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
-        @media(max-width:520px){.ao-ev{font-size:0;padding:0;}.ao-cal-grid{grid-template-columns:34px repeat(5,1fr);}}
-        @media(max-width:900px){.ao-grid{grid-template-columns:1fr;}}
-        @media(max-width:520px){.ao-card{padding:22px 20px;}.ao-prices.ao-4{grid-template-columns:1fr 1fr;}}
-      </style>
+  .addons{margin-top:34px;text-align:left;}
+  .ao-head{font-size:clamp(20px,2.4vw,24px);font-weight:800;letter-spacing:-.5px;color:var(--white);margin:0 0 18px;}
+  .ao-head .blue{color:var(--accent2);}
+  .ao-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:stretch;}
+  .ao-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;
+    padding:28px 30px 26px;display:flex;flex-direction:column;}
+  .ao-card h3{font-size:20px;font-weight:800;letter-spacing:-.5px;color:var(--white);margin:0 0 10px;}
+  .ao-card > p{font-size:15px;line-height:1.65;color:rgba(255,255,255,.72);margin:0 0 22px;max-width:420px;}
+  .ao-rows{list-style:none;margin:auto 0 0;padding:18px 0 0;border-top:1px solid var(--border);display:grid;gap:11px;}
+  .ao-rows li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;font-size:15px;}
+  .ao-rows span{color:rgba(255,255,255,.62);}
+  .ao-rows b{font-weight:700;color:var(--white);white-space:nowrap;}
+  .ao-link{display:inline-block;margin-top:18px;font-size:14.5px;font-weight:600;color:var(--accent2);
+    text-decoration:underline;text-underline-offset:3px;}
+  .ao-ex{margin:0 0 22px;padding:0 0 0 16px;border-left:2px solid rgba(47,111,237,.5);}
+  .ao-ex span{display:block;font-size:12.5px;font-weight:700;color:var(--muted);margin-bottom:6px;}
+  .ao-ex p{margin:0;font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.82);}
+  .ao-ex .ao-url{margin-top:12px;font-size:14px;color:rgba(255,255,255,.68);}
+  .ao-ex .ao-url b{font-weight:700;color:var(--accent2);}
+  .ao-foot{margin:18px 0 0;font-size:13.5px;line-height:1.6;color:var(--muted);text-align:center;}
+  @media(max-width:860px){.ao-grid{grid-template-columns:1fr;}.ao-card{padding:24px 22px 22px;}}
+</style>
 <h3 class="ao-head">Haal meer uit je campagne met twee <span class="blue">add-ons</span></h3>
 <div class="ao-grid">
 <div class="ao-card">
-<div class="ao-titlerow"><h3>Hyperpersonalisatie</h3><span class="ao-flag">Weinig bureaus bieden dit</span></div>
-<p>Per prospect een openingszin op basis van echte informatie en een eigen pagina op jouw domein. <a class="ao-link" href="/cases/landingspagina-per-prospect">Bekijk de resultaten →</a></p>
-<div class="ao-demo" aria-hidden="true">
-<span class="ao-k">In de mail</span>
-<p class="ao-q">Hoi Martijn, zag dat jullie net een tweede vestiging in Breda hebben geopend.</p>
-<span class="ao-k">Zijn eigen pagina</span>
-<span class="ao-chip">jouwdomein.nl/<b>martijn-bakker</b></span>
+<h3>Hyperpersonalisatie</h3>
+<p>Per prospect een openingszin op basis van echte informatie en een eigen pagina op jouw domein.</p>
+<div class="ao-ex" aria-hidden="true">
+<span>De openingszin bij een prospect</span>
+<p>Hoi Martijn, zag dat jullie net een tweede vestiging in Breda hebben geopend.</p>
+<span style="margin:12px 0 0;">En zijn eigen pagina</span>
+<p class="ao-url">jouwdomein.nl/<b>martijn-bakker</b></p>
 </div>
-<div class="ao-prices ao-4">
-<div class="ao-price"><span>Starter</span><b>+ €300</b></div>
-<div class="ao-price"><span>Growth</span><b>+ €350</b></div>
-<div class="ao-price"><span>Scale</span><b>+ €450</b></div>
-<div class="ao-price"><span>Pro</span><b>+ €550</b></div>
-</div>
+<ul class="ao-rows">
+<li><span>Starter</span><b>+ &euro;300</b></li>
+<li><span>Growth</span><b>+ &euro;350</b></li>
+<li><span>Scale</span><b>+ &euro;450</b></li>
+<li><span>Pro</span><b>+ &euro;550</b></li>
+</ul>
+<a class="ao-link" href="/cases/landingspagina-per-prospect">Bekijk wat het opleverde</a>
 </div>
 <div class="ao-card">
 <h3>Full Service</h3>
-<p>Wij beantwoorden de reacties en zetten de afspraak in jouw agenda.</p>
-<div class="ao-cal" aria-hidden="true">
-<div class="ao-cal-top"><span class="ao-k">Jouw agenda, deze week</span><span class="ao-cal-count">7 afspraken ingepland</span></div>
-<div class="ao-cal-grid">
-<span></span>
-<span class="ao-cal-d">ma</span>
-<span class="ao-cal-d">di</span>
-<span class="ao-cal-d">wo</span>
-<span class="ao-cal-d">do</span>
-<span class="ao-cal-d">vr</span>
-<span class="ao-cal-t" style="grid-column:1;grid-row:2;">09:00</span>
-<span class="ao-cal-t" style="grid-column:1;grid-row:3;">11:00</span>
-<span class="ao-cal-t" style="grid-column:1;grid-row:4;">14:00</span>
-<span class="ao-ev" style="grid-column:2;grid-row:2;">Van Dijk</span>
-<span class="ao-ev" style="grid-column:3;grid-row:3;">Visser</span>
-<span class="ao-ev" style="grid-column:4;grid-row:2;">Smit</span>
-<span class="ao-ev" style="grid-column:4;grid-row:4;">De Vries</span>
-<span class="ao-ev" style="grid-column:5;grid-row:3;">Peters</span>
-<span class="ao-ev" style="grid-column:6;grid-row:4;">Kramer</span>
-<span class="ao-ev" style="grid-column:2;grid-row:4;">Bos</span>
+<p>Wij beantwoorden de reacties en zetten de afspraak in jouw agenda, zodat jij alleen het gesprek voert.</p>
+<div class="ao-ex" aria-hidden="true">
+<span>De reactie die binnenkomt</span>
+<p>Klinkt interessant, kun je volgende week even bellen?</p>
+<span style="margin:12px 0 0;">Wat wij ervan maken</span>
+<p class="ao-url">Afspraak ingepland, <b>donderdag 11:00</b></p>
 </div>
-</div>
-<div class="ao-prices ao-2">
-<div class="ao-price"><span>Scale</span><b>+ €600</b></div>
-<div class="ao-price"><span>Pro</span><b>+ €800</b></div>
-</div>
+<ul class="ao-rows">
+<li><span>Scale</span><b>+ &euro;600</b></li>
+<li><span>Pro</span><b>+ &euro;800</b></li>
+</ul>
+<a class="ao-link" href="#contact">Vraag hoe dit werkt</a>
 </div>
 </div>
 <p class="ao-foot">Add-ons betaal je per maand, bovenop de pakketprijs. Meer volume nodig? Mail <a href="mailto:info@link2leads.nl" style="color:var(--accent2);">info@link2leads.nl</a></p>

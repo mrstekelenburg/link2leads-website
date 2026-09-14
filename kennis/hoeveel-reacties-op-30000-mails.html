@@ -302,9 +302,100 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
   html body nav.l2n .l2n-inner{border-radius:20px;}
   html body .l2n-menu{top:80px;}
 }
+
+/* ── 3. Bewegende achtergrond, gelijk aan de homepage ── */
+#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;display:block;}
+body > *:not(#bg-canvas):not(nav):not(footer ~ *){position:relative;z-index:1;}
+@media(prefers-reduced-motion:reduce){#bg-canvas{display:none;}}
 </style>
 </head>
 <body>
+<canvas id="bg-canvas"></canvas>
+<script>
+(function(){
+  const canvas = document.getElementById('bg-canvas');
+  const ctx    = canvas.getContext('2d');
+  let W, H;
+
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize, { passive: true });
+
+  // Orbs travel through the page as you scroll.
+  // cycleLength = how many px of scroll = one full loop of the orb's journey
+  // Each orb has a unique offset so they're never all in the same place
+  const orbs = [
+    { baseX:0.15, color:[47,111,237],  r:520, floatSpeed:0.00014, rx:80,  ry:60,  phase:0.0, cycleLength:2200, offset:0    },
+    { baseX:0.80, color:[91,143,245],  r:460, floatSpeed:0.00011, rx:100, ry:80,  phase:2.1, cycleLength:1800, offset:600  },
+    { baseX:0.45, color:[60,40,220],   r:500, floatSpeed:0.00013, rx:70,  ry:100, phase:4.3, cycleLength:2600, offset:300  },
+    { baseX:0.20, color:[47,111,237],  r:440, floatSpeed:0.00017, rx:90,  ry:70,  phase:1.5, cycleLength:2000, offset:900  },
+    { baseX:0.75, color:[91,143,245],  r:480, floatSpeed:0.00015, rx:110, ry:90,  phase:3.2, cycleLength:2400, offset:1200 },
+    { baseX:0.55, color:[47,111,237],  r:420, floatSpeed:0.00012, rx:60,  ry:80,  phase:5.1, cycleLength:1900, offset:450  },
+    { baseX:0.30, color:[80,50,220],   r:500, floatSpeed:0.00016, rx:95,  ry:65,  phase:2.7, cycleLength:2300, offset:750  },
+  ];
+
+  let scrollY       = 0;
+  let smoothScrollY = 0;
+
+  window.addEventListener('scroll', () => {
+    scrollY = window.scrollY;
+  }, { passive: true });
+
+  function draw(now) {
+    smoothScrollY += (scrollY - smoothScrollY) * 0.05;
+
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = '#08090C';
+    ctx.fillRect(0, 0, W, H);
+
+    const isMobile = W < 768;
+
+    orbs.forEach(o => {
+      // Each orb cycles vertically through the viewport as you scroll
+      // Using modulo so the orb wraps and is always somewhere on screen
+      const scrollPhase = ((smoothScrollY + o.offset) % o.cycleLength) / o.cycleLength;
+      
+      // Map 0..1 to a sine wave so orb moves up and down smoothly
+      // sin goes -1..1, we map to 0.05..0.95 of viewport height
+      const sineY = Math.sin(scrollPhase * Math.PI * 2);
+      const baseY = 0.5 + sineY * 0.45; // stays within viewport
+
+      const floatX = Math.sin(now * o.floatSpeed + o.phase) * o.rx;
+      const floatY = Math.cos(now * o.floatSpeed * 0.7 + o.phase) * o.ry;
+
+      const cx = o.baseX * W + floatX;
+      const cy = baseY * H + floatY;
+      const r  = o.r * (isMobile ? 0.6 : 1);
+
+      const grad = ctx.createRadialGradient(cx, cy, 0, cx, cy, r);
+      grad.addColorStop(0,    `rgba(${o.color},0.063)`);
+      grad.addColorStop(0.4,  `rgba(${o.color},0.021)`);
+      grad.addColorStop(0.75, `rgba(${o.color},0.005)`);
+      grad.addColorStop(1,    `rgba(${o.color},0)`);
+
+      ctx.filter = 'blur(80px)';
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, 0, Math.PI * 2);
+      ctx.fillStyle = grad;
+      ctx.fill();
+    });
+
+    ctx.filter = 'none';
+    requestAnimationFrame(draw);
+  }
+
+  requestAnimationFrame(draw);
+
+  // Nav scroll style
+  window.addEventListener('scroll', () => {
+    const nav = document.querySelector('nav');
+    if (nav) nav.classList.toggle('scrolled', window.scrollY > 60);
+  }, { passive: true });
+})();
+</script>
 <nav aria-label="Hoofdmenu" class="l2n">
 <div class="l2n-inner">
 <a aria-label="Link2Leads, naar de homepage" class="l2n-logo" href="/"><span class="l2b">Link<i>2</i>Leads</span></a>
