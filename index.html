@@ -2053,6 +2053,7 @@ footer.l2f{margin-bottom:0 !important;}
             "text": "We bouwen de lijst op basis van het ideale klantprofiel en verifieren elk adres voordat er iets uitgaat. Elke binnenkomende reactie wordt met de hand gelezen, niet door een scoringsmodel. Je krijgt naam, functie, organisatie en contactgegevens."
           }
         },
+        {"@type": "Question", "name": "Wat gebeurt er in de eerste weken?", "acceptedAnswer": {"@type": "Answer", "text": "Twee weken bouwen, in week 3 gaat de eerste mail eruit. Week 1 is de intake en het opzetten van de verzendomgeving met aparte domeinen en mailboxen. Week 2 draaien die warm, worden de mails geschreven en keurt de klant de lijst en teksten goed. In week 3 gaat de campagne live op een derde van het volume en groeit naar honderd procent. Eerste reacties doorgaans drie tot tien dagen na livegang."}},
         {"@type": "Question", "name": "Kan ik ook alleen de leads afnemen?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Link2Leads verkoopt ook losse leadbestanden, vanaf 500 leads, met een geverifieerd zakelijk e-mailadres en de bron per record. Je regelt dan zelf de mailboxen, de teksten en het opvolgen van reacties."}},
         {
           "@type": "Question",
@@ -2759,77 +2760,6 @@ Bel ons: 085 080 5381
     .blk-head .blk-num{margin:0;flex-shrink:0;}
     .blk-head h3{margin:0 !important;font-size:18px !important;}
     @media(max-width:900px){.s4-grid{grid-template-columns:1fr;}}
-    .tl-compact{max-width:1100px;margin:40px auto 0;background:var(--card-bg);border:1px solid var(--border);border-radius:18px;padding:22px 26px 18px;scroll-margin-top:90px;}
-    .tlc-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin:0 0 14px;}
-    .tlc-head h3{font-size:clamp(18px,2.2vw,21px);font-weight:800;letter-spacing:-.5px;color:var(--white);margin:0;}
-    .tlc-head p{margin:0;font-size:14px;color:var(--muted);}
-    .tl-compact .tf-axis{margin-bottom:8px;padding-bottom:8px;}
-    .tl-compact .tf-axis span{font-size:12.5px;}
-    .tl-compact .tf-rows{gap:5px;}
-    .tl-compact .tf-row{min-height:30px;}
-    .tl-compact .tf-lab{font-size:13px;}
-    .tl-compact .tf-row > .tf-bar{min-height:26px;padding:4px 12px;font-size:12.5px;}
-    .tl-compact .tf-bar.point{min-height:24px;padding:0;}
-    .tl-compact .tf-bar.point > span{font-size:12.5px;}
-    .tl-compact .tf-legend{margin-top:12px;padding-top:10px;font-size:12.5px;gap:14px;}
-    /* tijdlijn opstart: labels links, balken op een weekraster, zelfde grafiek op mobiel */
-    .tlx{--lab:236px;--c-build:#8C9BB5;--c-you:#4ADE80;--c-live:#2F6FED;--c-reply:#7FA8FF;}
-    .tlx-legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 16px;font-size:13px;font-weight:600;color:rgba(255,255,255,.72);}
-    .tlx-legend span{display:inline-flex;align-items:center;gap:8px;}
-    .tlx-legend i{display:block;width:22px;height:10px;border-radius:5px;}
-    .lg-build{background:rgba(140,155,181,.45);box-shadow:inset 0 0 0 1px rgba(140,155,181,.7);}
-    .lg-you{width:11px !important;height:11px !important;border-radius:2px !important;transform:rotate(45deg);background:var(--c-you);box-shadow:0 0 0 3px rgba(74,222,128,.18);}
-    .lg-live{background:linear-gradient(90deg,#2F6FED,#5B8FF5);}
-    .lg-reply{background:repeating-linear-gradient(135deg,rgba(127,168,255,.85) 0 3px,rgba(127,168,255,.25) 3px 6px);}
-    .tlx-axis{display:grid;grid-template-columns:var(--lab) 1fr;}
-    .tlx-weeks{display:grid;grid-template-columns:repeat(4,1fr);}
-    .tlx-weeks span{position:relative;padding:0 0 9px 10px;font-size:12.5px;font-weight:800;color:rgba(255,255,255,.55);border-left:1px solid rgba(255,255,255,.1);}
-    .tlx-weeks span:nth-child(3){color:#9DBBFF;border-left:2px solid rgba(47,111,237,.9);}
-    .tlx-weeks em{font-style:normal;margin-left:8px;font-size:11.5px;font-weight:700;color:#fff;background:var(--c-live);border-radius:100px;padding:2px 8px;}
-    .tlx-weeks b{font-weight:800;}
-    .tlx-short{display:none;}
-    .tlx-rows{border-top:1px solid rgba(255,255,255,.08);}
-    .tlx-row{display:grid;grid-template-columns:var(--lab) 1fr;align-items:stretch;}
-    .tlx-lab{display:flex;flex-direction:column;justify-content:center;gap:1px;padding:8px 16px 8px 0;position:relative;padding-left:16px;}
-    .tlx-lab::before{content:'';position:absolute;left:0;top:50%;width:8px;height:8px;margin-top:-4px;border-radius:50%;background:var(--dot);}
-    .tlx-lab b{font-size:13.5px;font-weight:700;color:#fff;line-height:1.3;}
-    .tlx-lab span{font-size:12.5px;line-height:1.35;color:var(--muted);}
-    .tlx-row.build{--dot:var(--c-build);} .tlx-row.you{--dot:var(--c-you);} .tlx-row.live{--dot:var(--c-live);} .tlx-row.reply{--dot:var(--c-reply);}
-    .tlx-track{position:relative;min-height:48px;
-      background:
-        linear-gradient(90deg,transparent calc(50% - 1px),rgba(47,111,237,.9) calc(50% - 1px) calc(50% + 1px),transparent calc(50% + 1px)),
-        linear-gradient(90deg,rgba(255,255,255,.1) 0 1px,transparent 1px) 0 0/25% 100%,
-        linear-gradient(90deg,rgba(255,255,255,.025) 0 25%,transparent 25% 50%,rgba(47,111,237,.05) 50% 100%);}
-    .tlx-track i{position:absolute;top:50%;left:calc(var(--a) / 4 * 100%);width:calc((var(--b) - var(--a)) / 4 * 100%);
-      height:20px;margin-top:-10px;border-radius:7px;}
-    .build .tlx-track i{background:rgba(140,155,181,.42);box-shadow:inset 0 0 0 1px rgba(140,155,181,.7);}
-    .you .tlx-track i{width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:3px;transform:rotate(45deg);
-      background:var(--c-you);box-shadow:0 0 0 5px rgba(74,222,128,.18);}
-    .live .tlx-track i{background:linear-gradient(90deg,#2F6FED,#5B8FF5);border-radius:3px 7px 7px 3px;
-      clip-path:polygon(0 62%,100% 0,100% 100%,0 100%);}
-    .reply .tlx-track i{background:repeating-linear-gradient(135deg,rgba(127,168,255,.85) 0 4px,rgba(127,168,255,.25) 4px 8px);
-      -webkit-mask-image:linear-gradient(90deg,transparent,#000 22%);mask-image:linear-gradient(90deg,transparent,#000 22%);}
-    .tlx-row + .tlx-row{border-top:1px solid rgba(255,255,255,.05);}
-    @media(max-width:1000px){.tlx{--lab:200px;}
-      .tlx-weeks em{display:block;margin:4px 0 0;width:max-content;font-size:11px;padding:1px 7px;}}
-    @media(max-width:700px){
-      .tl-compact{padding:18px 14px 14px;}
-      .tlx{--lab:0px;}
-      .tlx-legend{display:grid;grid-template-columns:1fr 1fr;gap:8px 12px;font-size:12.5px;}
-      .tlx-axis{grid-template-columns:1fr;}
-      .tlx-axis-pad{display:none;}
-      .tlx-weeks span{padding:0 0 8px 6px;font-size:11.5px;}
-      .tlx-weeks em{display:block;margin:4px 0 0;width:max-content;font-size:10.5px;padding:1px 6px;}
-      .tlx-long{display:none;} .tlx-short{display:inline;}
-      .tlx-row{grid-template-columns:1fr;}
-      .tlx-lab{padding:11px 0 6px 14px;}
-      .tlx-lab::before{top:17px;margin-top:0;}
-      .tlx-lab b{font-size:13.5px;} .tlx-lab span{font-size:12.5px;}
-      .tlx-track{min-height:24px;margin-bottom:10px;border-radius:6px;}
-      .tlx-track i{height:12px;margin-top:-6px;border-radius:4px;}
-      .you .tlx-track i{width:11px;height:11px;margin:-5.5px 0 0 -5.5px;}
-    }
-    @media(max-width:760px){.tl-compact{padding:18px 16px 14px;}.tl-compact .tf-row > .tf-bar{padding:8px 12px;}}
   </style>
 <div class="steps4-inner">
 <h2 class="steps4-h">Van lijst naar <span class="blue">gesprek</span>, in vier stappen</h2>
@@ -2868,27 +2798,6 @@ Bel ons: 085 080 5381
 </div>
 </div>
 <p class="steps4-note reveal"><strong>Standaard</strong> positieve reacties in je mailbox. <strong>Met Full Service</strong> ook de afspraak in je agenda.</p>
-<div class="tl-compact reveal" id="aanpak">
-<div class="tlc-head"><h3>Dit gebeurt er <span class="blue">tijdens de opstart</span></h3><p>Twee weken bouwen, in week 3 gaat de eerste mail eruit.</p></div>
-<div class="tlx">
-<div class="tlx-legend" aria-label="Legenda">
-<span><i class="lg-build"></i>Wij bouwen</span>
-<span><i class="lg-you"></i>Jij beslist</span>
-<span><i class="lg-live"></i>Campagne draait</span>
-<span><i class="lg-reply"></i>Reacties komen binnen</span>
-</div>
-<div class="tlx-axis"><div class="tlx-axis-pad"></div><div class="tlx-weeks"><span>Week 1</span><span>Week 2</span><span>Week 3<em>Eerste mail</em></span><span><b class="tlx-long">Week 4 en verder</b><b class="tlx-short">Week 4+</b></span></div></div>
-<div class="tlx-rows">
-<div class="tlx-row build"><div class="tlx-lab"><b>Intake en doelgroep</b><span>Aanbod, beslissers en lijst</span></div><div class="tlx-track"><i style="--a:0;--b:1.5;"></i></div></div>
-<div class="tlx-row build"><div class="tlx-lab"><b>Verzendomgeving</b><span>Domeinen en mailboxen</span></div><div class="tlx-track"><i style="--a:0.25;--b:1;"></i></div></div>
-<div class="tlx-row build"><div class="tlx-lab"><b>Warmdraaien</b><span>Reputatie opbouwen, aankomst testen</span></div><div class="tlx-track"><i style="--a:0.5;--b:2;"></i></div></div>
-<div class="tlx-row build"><div class="tlx-lab"><b>Mails schrijven</b><span>Eerste mail en twee opvolgmails</span></div><div class="tlx-track"><i style="--a:1;--b:1.75;"></i></div></div>
-<div class="tlx-row you"><div class="tlx-lab"><b>Jouw akkoord</b><span>Jij keurt de lijst en de mails goed</span></div><div class="tlx-track"><i style="--a:1.85;--b:1.85;"></i></div></div>
-<div class="tlx-row live"><div class="tlx-lab"><b>Campagne live</b><span>Start op een derde van je volume, groeit naar 100 procent</span></div><div class="tlx-track"><i style="--a:2;--b:4;"></i></div></div>
-<div class="tlx-row reply"><div class="tlx-lab"><b>Eerste reacties</b><span>Doorgaans 3 tot 10 dagen na livegang</span></div><div class="tlx-track"><i style="--a:2.4;--b:4;"></i></div></div>
-</div>
-</div>
-</div>
 </section>
 <!-- CASE STUDY -->
 <section class="case-section" id="resultaten">
@@ -3507,6 +3416,10 @@ Bel ons: 085 080 5381
 <details class="faq-item">
 <summary>Hoe snel zie ik resultaat?</summary>
 <p>Week 1 en 2 zijn setup en warmup, in week 3 ga je live. De eerste reacties komen doorgaans binnen drie tot tien dagen na livegang, in enkele campagnes al op dag 1. Vanaf maand 2 sturen we bij op de segmenten die reageren.</p>
+</details>
+<details class="faq-item">
+<summary>Wat gebeurt er in de eerste weken?</summary>
+<p>Twee weken bouwen, in week 3 gaat de eerste mail eruit. Week 1 is de intake: aanbod, beslissers en de lijst. Daarnaast zetten we de verzendomgeving op met aparte domeinen en mailboxen. Week 2 draaien die warm om reputatie op te bouwen, schrijven we de eerste mail en twee opvolgmails, en keur jij de lijst en de teksten goed. In week 3 gaat de campagne live op een derde van je volume en groeit die naar honderd procent. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen.</p>
 </details>
 <details class="faq-item">
 <summary>Kan ik ook alleen de leads afnemen?</summary>
