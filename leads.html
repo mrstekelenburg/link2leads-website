@@ -227,6 +227,11 @@ html body .l2b i{background:none !important;-webkit-text-fill-color:#2F6FED !imp
 html body .btn-solid .l2b i,html body .cs-sticker .l2b i,html body .ct-sticker .l2b i,
 html body .l2b-onblue .l2b i,html body [class*="btn-primary"] .l2b i{
   -webkit-text-fill-color:#BFD4FF !important;color:#BFD4FF !important;}
+
+/* ── 4. Geen zijwaarts scrollen en geen lege ruimte onder de footer ── */
+html,body{overflow-x:hidden;max-width:100%;}
+footer.l2f{margin-bottom:0 !important;}
+body > *:not(#bg-canvas):not(nav):not(footer):not(script):not(style){max-width:100%;}
 </style>
 <style id="l2l-leads">
 /* ── Leadspagina, eigen componenten bovenop l2l-page.css ── */
@@ -241,30 +246,16 @@ html body .l2b-onblue .l2b i,html body [class*="btn-primary"] .l2b i{
   border:1px solid rgba(47,111,237,.3);}
 .lz-quick label{display:block;font-size:14px;font-weight:700;color:var(--white);margin:0 0 12px;}
 .lz-quick-row{display:flex;gap:12px;}
-.lz-quick-row input{flex:1;min-width:0;background:rgba(8,9,12,.6);border:1px solid var(--border);
-  border-radius:12px;padding:15px 17px;color:var(--white);font-family:var(--f);font-size:15px;}
-.lz-quick-row input::placeholder{color:rgba(138,145,158,.75);}
-.lz-quick-row input:focus{outline:none;border-color:rgba(47,111,237,.6);}
+.lz-quick-row textarea{flex:1;min-width:0;background:rgba(8,9,12,.6);border:1px solid var(--border);
+  border-radius:12px;padding:14px 17px;color:var(--white);font-family:var(--f);font-size:15px;line-height:1.5;
+  resize:vertical;min-height:56px;}
+.lz-quick-row textarea::placeholder{color:rgba(138,145,158,.75);}
+.lz-quick-row textarea:focus{outline:none;border-color:rgba(47,111,237,.6);}
+@media(max-width:640px){.lz-quick-row textarea{min-height:84px;}}
 .lz-quick-row .btn-solid{white-space:nowrap;}
 .lz-quick-note{margin:12px 0 0;font-size:13.5px;line-height:1.6;color:var(--muted);}
 @media(max-width:640px){.lz-quick-row{flex-direction:column;}.lz-quick-row .btn-solid{justify-content:center;}}
 .lz-h2 .blue,.page-cta h2 .blue{color:var(--accent2);}
-/* mobiel: kleinere introtekst en een prijsbalk die meescrollt */
-@media(max-width:900px){
-  .page-lede{font-size:16.5px;line-height:1.6;margin-bottom:22px;}
-  .lz-stat-v{font-size:19px;}
-  .lz-conf-right{order:-1;position:sticky;top:86px;z-index:20;}
-  .lz-sum{display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:16px;
-    background:linear-gradient(165deg,rgba(47,111,237,.3),rgba(10,12,18,.97) 70%);
-    backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
-    box-shadow:0 10px 28px rgba(0,0,0,.55);}
-  .lz-sum-top{flex:1;min-width:0;}
-  .lz-sum-lab{display:none;}
-  .lz-sum-tot{font-size:26px;letter-spacing:-1px;margin:0;}
-  .lz-sum-per{font-size:12.5px;}
-  .lz-sum-rows,.lz-sum-note{display:none;}
-  .lz-sum-btn{width:auto;padding:12px 18px;font-size:14px;white-space:nowrap;}
-}
 
 /* foto: bron is 900x700, dus niet oprekken en de uitsnede iets hoger leggen */
 .page-photo{max-width:820px;margin-left:auto;margin-right:auto;}
@@ -384,6 +375,38 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 @media(prefers-reduced-motion:reduce){
   *{transition:none !important;animation:none !important;}
 }
+
+/* ── Mobiel ── */
+@media(max-width:900px){
+  .page-lede{font-size:16.5px;line-height:1.6;margin-bottom:22px;}
+  .lz-stat-v{font-size:19px;}
+
+  /* prijs blijft in beeld tijdens het samenstellen */
+  .lz-conf-right{order:-1;position:sticky;top:84px;z-index:20;}
+  .lz-sum{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;border-radius:14px;
+    background:linear-gradient(150deg,rgba(47,111,237,.34),rgba(10,12,18,.97) 72%);
+    backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 8px 24px rgba(0,0,0,.6);}
+  .lz-sum-top{display:block;flex:1;min-width:0;}
+  .lz-sum-lab{display:none;}
+  .lz-sum-tot{display:block;font-size:24px;letter-spacing:-.9px;margin:0;line-height:1.1;}
+  .lz-sum-per{display:block;font-size:12px;line-height:1.3;}
+  .lz-sum-rows{display:none;}
+  .lz-sum-note{display:none;}
+  .lz-sum-btn{width:auto;flex:0 0 auto;padding:11px 16px;font-size:14px;white-space:nowrap;}
+
+  /* tabellen niet zijwaarts, maar gestapeld */
+  .table-scroll{overflow-x:visible;border:0;background:none;border-radius:0;}
+  .prose table{min-width:0;width:100%;}
+  .prose thead{display:none;}
+  .prose tbody,.prose tr,.prose td{display:block;width:auto;}
+  .prose tr{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:6px 4px;margin-bottom:10px;}
+  .prose tbody tr:last-child{margin-bottom:0;}
+  .prose td{border:0;padding:7px 14px;display:flex;justify-content:space-between;gap:14px;align-items:baseline;}
+  .prose td::before{content:attr(data-label);flex:0 0 auto;font-size:12.5px;font-weight:700;color:var(--muted);}
+  .prose td[data-label=""]::before,.prose td:not([data-label])::before{content:none;}
+  .prose td[data-label=""]{font-weight:700;color:var(--white);border-bottom:1px solid var(--border);margin-bottom:4px;}
+  .prose tbody tr:hover td{background:none;}
+}
 </style>
 
 </head>
@@ -496,13 +519,13 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 </script>
 <main class="page-wrap page-wide">
   <h1 class="page-h">Leads kopen waar je <span class="blue">meteen mee kunt mailen</span></h1>
-  <p class="page-lede">Zeg wie je zoekt, dan tellen wij eerst hoeveel geschikte bedrijven er zijn. Daarna bouwen we de lijst: bedrijf, beslisser en een geverifieerd zakelijk e-mailadres, met de bron per record. Binnen een werkdag in je mailbox als Excel of CSV.</p>
+  <p class="page-lede">Jij vertelt ons wie je zoekt, wij tellen eerst hoeveel geschikte bedrijven er zijn. Daarna bouwen we de lijst: bedrijf, beslisser en een geverifieerd zakelijk e-mailadres, met de bron per record. Binnen een werkdag in je mailbox als Excel of CSV.</p>
 
 
   <div class="lz-quick">
-    <label for="lzQuick">Wie wil je bereiken?</label>
+    <label for="lzQuick">Vertel ons wie je zoekt</label>
     <div class="lz-quick-row">
-      <input id="lzQuick" type="text" placeholder="Bijvoorbeeld: installatiebedrijven in Nederland, 10 tot 50 medewerkers">
+      <textarea id="lzQuick" rows="2" placeholder="Bijvoorbeeld: installatiebedrijven in Nederland met 10 tot 50 medewerkers, gericht op de eigenaar"></textarea>
       <button type="button" class="btn-solid" id="lzQuickGo">Vraag je telling aan</button>
     </div>
     <p class="lz-quick-note">Je hoort binnen een werkdag hoeveel bedrijven er in die selectie passen en wat het kost. Je zit nergens aan vast.</p>
@@ -607,9 +630,9 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
           <tr><th>Bedrijf</th><th>Plaats</th><th>Medewerkers</th><th>Naam</th><th>Functie</th><th>E-mail</th><th>Bron</th></tr>
         </thead>
         <tbody>
-          <tr><td>Van Dijk Technische Handel</td><td>Apeldoorn</td><td>42</td><td>M. van Dijk</td><td>Directeur</td><td>m.vandijk@&hellip;.nl</td><td>Bedrijfswebsite, 12-09-2026</td></tr>
-          <tr><td>Nijhuis Industrie</td><td>Hengelo</td><td>78</td><td>S. Nijhuis</td><td>Commercieel manager</td><td>s.nijhuis@&hellip;.nl</td><td>Bedrijfswebsite, 12-09-2026</td></tr>
-          <tr><td>Kooistra Techniek</td><td>Leeuwarden</td><td>16</td><td>J. Kooistra</td><td>Eigenaar</td><td>j.kooistra@&hellip;.nl</td><td>Bedrijfswebsite, 11-09-2026</td></tr>
+          <tr><td data-label="Bedrijf">Van Dijk Technische Handel</td><td data-label="Plaats">Apeldoorn</td><td data-label="Medewerkers">42</td><td data-label="Naam">M. van Dijk</td><td data-label="Functie">Directeur</td><td data-label="E-mail">m.vandijk@&hellip;.nl</td><td data-label="Bron">Bedrijfswebsite, 12-09-2026</td></tr>
+          <tr><td data-label="Bedrijf">Nijhuis Industrie</td><td data-label="Plaats">Hengelo</td><td data-label="Medewerkers">78</td><td data-label="Naam">S. Nijhuis</td><td data-label="Functie">Commercieel manager</td><td data-label="E-mail">s.nijhuis@&hellip;.nl</td><td data-label="Bron">Bedrijfswebsite, 12-09-2026</td></tr>
+          <tr><td data-label="Bedrijf">Kooistra Techniek</td><td data-label="Plaats">Leeuwarden</td><td data-label="Medewerkers">16</td><td data-label="Naam">J. Kooistra</td><td data-label="Functie">Eigenaar</td><td data-label="E-mail">j.kooistra@&hellip;.nl</td><td data-label="Bron">Bedrijfswebsite, 11-09-2026</td></tr>
         </tbody>
       </table>
     </div>
@@ -617,15 +640,15 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 
   <section class="lz-sec" id="herkomst">
     <h2 class="lz-h2">Waar de data <span class="blue">vandaan komt</span></h2>
-    <p class="lz-sub">Je hebt dit nodig op het moment dat iemand vraagt waar je zijn gegevens vandaan hebt. Zonder herkomst per record kun je die vraag niet beantwoorden.</p>
+    <p class="lz-sub">Vraagt iemand waar je zijn gegevens vandaan hebt, dan moet je dat kunnen zeggen.</p>
     <div class="lz-cards">
       <div class="card lz-card">
         <h3>Bron per record</h3>
-        <p>Bij elke lead staat waar het adres vandaan komt en wanneer we het hebben gecontroleerd. We verzamelen uitsluitend zakelijke contactgegevens die bedrijven zelf op hun site publiceren. Geen priveadressen en geen doorverkoop van Handelsregistergegevens. Of je die adressen voor jouw aanbod mag gebruiken, beoordeel je zelf aan de hand van de regels.</p>
+        <p>Bij elke lead staat waar het adres vandaan komt en wanneer we het controleerden. Alleen zakelijke gegevens die bedrijven zelf publiceren. Geen priveadressen, geen Handelsregisterdata.</p>
       </div>
       <div class="card lz-card">
         <h3>Bezwaren zitten er al uit</h3>
-        <p>Wie ooit bij ons bezwaar maakte, staat op een lijst die over al onze campagnes en leveringen heen werkt. Die adressen komen niet in jouw bestand. Wat de regels precies zijn, staat in <a href="/kennis/mag-koude-email-nederland">Mag koude e-mail in Nederland?</a></p>
+        <p>Wie ooit bij ons bezwaar maakte, komt niet in jouw bestand. Wat wel en niet mag, staat in <a href="/kennis/mag-koude-email-nederland">Mag koude e-mail in Nederland?</a></p>
       </div>
     </div>
   </section>
@@ -674,9 +697,9 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
           <tr><th>&nbsp;</th><th>Leads kopen</th><th>Campagne uitbesteden</th></tr>
         </thead>
         <tbody>
-          <tr><td>Je krijgt</td><td>Een startklare prospectlijst</td><td>Nieuwe gesprekken in je agenda</td></tr>
-          <tr><td>Jij doet</td><td>Mailen en opvolgen</td><td>Alleen de gesprekken voeren</td></tr>
-          <tr><td>Vanaf</td><td>&euro;50 eenmalig</td><td>&euro;995 per maand</td></tr>
+          <tr><td data-label="">Je krijgt</td><td data-label="Leads kopen">Een startklare prospectlijst</td><td data-label="Campagne uitbesteden">Nieuwe gesprekken in je agenda</td></tr>
+          <tr><td data-label="">Jij doet</td><td data-label="Leads kopen">Mailen en opvolgen</td><td data-label="Campagne uitbesteden">Alleen de gesprekken voeren</td></tr>
+          <tr><td data-label="">Vanaf</td><td data-label="Leads kopen">&euro;50 eenmalig</td><td data-label="Campagne uitbesteden">&euro;995 per maand</td></tr>
         </tbody>
       </table>
     </div>
@@ -921,7 +944,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     setTimeout(function(){ if(n) n.focus({preventScroll:true}); }, 600);
   }
   go.addEventListener('click', door);
-  q.addEventListener('keydown', function(e){ if(e.key==='Enter'){ e.preventDefault(); door(); } });
+  q.addEventListener('keydown', function(e){ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); door(); } });
 })();
 </script>
 <script src="/assets/tracking.js"></script>

@@ -97,6 +97,11 @@ html body .l2b i{background:none !important;-webkit-text-fill-color:#2F6FED !imp
 html body .btn-solid .l2b i,html body .cs-sticker .l2b i,html body .ct-sticker .l2b i,
 html body .l2b-onblue .l2b i,html body [class*="btn-primary"] .l2b i{
   -webkit-text-fill-color:#BFD4FF !important;color:#BFD4FF !important;}
+
+/* ── 4. Geen zijwaarts scrollen en geen lege ruimte onder de footer ── */
+html,body{overflow-x:hidden;max-width:100%;}
+footer.l2f{margin-bottom:0 !important;}
+body > *:not(#bg-canvas):not(nav):not(footer):not(script):not(style){max-width:100%;}
 </style>
 
 <script type="application/ld+json">
