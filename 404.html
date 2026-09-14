@@ -179,6 +179,18 @@ html,body{overflow-x:clip !important;}
 html{overscroll-behavior-y:none;}
 body{overscroll-behavior-y:none;min-height:0 !important;}
 footer.l2f{margin-bottom:0 !important;}
+
+/* ── 5. Brede tabellen: laat zien dat je opzij kunt scrollen ── */
+.l2l-tw{position:relative;}
+.l2l-tw::after{content:"";position:absolute;top:1px;right:1px;bottom:1px;width:54px;pointer-events:none;
+  border-radius:0 14px 14px 0;opacity:1;transition:opacity .25s ease;
+  background:linear-gradient(90deg,rgba(13,17,28,0),rgba(13,17,28,.95));}
+.l2l-tw.is-eind::after{opacity:0;}
+.l2l-swipe{font-size:13px;font-weight:600;color:#5B8FF5;margin:0 0 10px;transition:opacity .25s ease;}
+.l2l-swipe.is-weg{opacity:0;}
+.l2l-swipe i{font-style:normal;display:inline-block;animation:l2lSwipe 1.6s ease-in-out infinite;}
+@keyframes l2lSwipe{0%,100%{transform:translateX(0);}50%{transform:translateX(5px);}}
+@media(prefers-reduced-motion:reduce){.l2l-swipe i{animation:none;}}
 </style>
 </head>
 <body>
@@ -397,5 +409,31 @@ footer.l2f{margin-bottom:0 !important;}
 })();
 </script>
 <script src="/assets/i18n/l2l-i18n.js?v=23"></script>
+<script>
+/* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
+   Doet niets bij tabellen die gewoon passen. */
+(function(){
+  function init(){
+    document.querySelectorAll('.table-scroll').forEach(function(sc){
+      if(sc.parentNode && sc.parentNode.classList.contains('l2l-tw')) return;
+      if(sc.closest('.lz-tablewrap')) return;
+      if(sc.scrollWidth <= sc.clientWidth + 4) return;
+      var wrap=document.createElement('div'); wrap.className='l2l-tw';
+      sc.parentNode.insertBefore(wrap, sc); wrap.appendChild(sc);
+      var hint=document.createElement('p'); hint.className='l2l-swipe';
+      hint.innerHTML='Veeg opzij om alles te zien <i aria-hidden="true">&rarr;</i>';
+      wrap.parentNode.insertBefore(hint, wrap);
+      sc.addEventListener('scroll', function(){
+        var eind = sc.scrollLeft + sc.clientWidth >= sc.scrollWidth - 4;
+        wrap.classList.toggle('is-eind', eind);
+        if(sc.scrollLeft > 12) hint.classList.add('is-weg');
+      }, {passive:true});
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+  window.addEventListener('resize', function(){ clearTimeout(window._l2ltw); window._l2ltw=setTimeout(init,200); }, {passive:true});
+})();
+</script>
 </body>
 </html>
