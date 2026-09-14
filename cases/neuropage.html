@@ -98,10 +98,13 @@ html body .btn-solid .l2b i,html body .cs-sticker .l2b i,html body .ct-sticker .
 html body .l2b-onblue .l2b i,html body [class*="btn-primary"] .l2b i{
   -webkit-text-fill-color:#BFD4FF !important;color:#BFD4FF !important;}
 
-/* ── 4. Geen zijwaarts scrollen en geen lege ruimte onder de footer ── */
-html,body{overflow-x:hidden;max-width:100%;}
+/* ── 4. Geen zijwaarts scrollen en geen lege ruimte onder de footer ──
+   overflow-x:clip in plaats van hidden, want hidden maakt in Safari op iOS
+   een extra scrollgebied aan. overscroll-behavior stopt het doorveren. */
+html,body{overflow-x:clip !important;}
+html{overscroll-behavior-y:none;}
+body{overscroll-behavior-y:none;min-height:0 !important;}
 footer.l2f{margin-bottom:0 !important;}
-body > *:not(#bg-canvas):not(nav):not(footer):not(script):not(style){max-width:100%;}
 </style>
 
 <script type="application/ld+json">
