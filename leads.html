@@ -60,11 +60,11 @@
     {
       "@type": "FAQPage",
       "mainEntity": [
-      {"@type":"Question","name":"Mag ik deze leads zomaar mailen?","acceptedAnswer":{"@type":"Answer","text":"Naar zakelijke ontvangers mag koude e-mail in Nederland zonder voorafgaande toestemming, mits je adressen gebruikt die het bedrijf zelf heeft bestemd om zakelijk benaderd te worden, je in elke mail duidelijk maakt wie je bent en je een werkend kanaal biedt om bezwaar te maken. Daarnaast geldt de AVG voor de gegevens zelf. Wij leveren de herkomst per record mee zodat je kunt aantonen waar een adres vandaan komt. Dit is geen juridisch advies."}},
-      {"@type":"Question","name":"Hoe weet ik dat de e-mailadressen kloppen?","acceptedAnswer":{"@type":"Answer","text":"Elk adres gaat door een verificatie voordat het in je bestand komt. Adressen die niet te verifieren zijn, leveren we niet. Kom je toch boven de 3 procent bounce uit, dan vullen we kosteloos aan."}},
-      {"@type":"Question","name":"Wat als ik niet precies weet wie mijn doelgroep is?","acceptedAnswer":{"@type":"Answer","text":"Beschrijf wie je beste klanten nu zijn. Wij maken daar een selectie van en sturen eerst een telling, zodat je ziet hoeveel bedrijven erin passen voordat je iets afneemt."}},
-      {"@type":"Question","name":"Hoe snel heb ik het bestand?","acceptedAnswer":{"@type":"Answer","text":"Tot 5.000 leads binnen een werkdag na akkoord op de telling. Daarboven twee tot drie werkdagen, afhankelijk van de gekozen verrijking."}},
-      {"@type":"Question","name":"Wat kost een lead?","acceptedAnswer":{"@type":"Answer","text":"Vanaf 0,10 euro per lead bij kleine aantallen en 0,05 euro per lead vanaf 10.000. Verrijking zoals een telefoonnummer of een persoonlijke openingszin komt daar per lead bovenop."}}
+      {"@type":"Question","name":"Mag ik deze leads zomaar mailen?","acceptedAnswer":{"@type":"Answer","text":"Naar zakelijke ontvangers mag koude e-mail in Nederland zonder voorafgaande toestemming, mits je adressen gebruikt die het bedrijf zelf heeft bestemd om zakelijk benaderd te worden. Daarnaast geldt de AVG voor de gegevens zelf. Wij leveren de herkomst per record mee. Dit is geen juridisch advies."}},
+      {"@type":"Question","name":"Hoe weet ik dat de adressen kloppen?","acceptedAnswer":{"@type":"Answer","text":"Elk adres gaat door een verificatie voordat het in je bestand komt. Kom je toch boven de 3 procent bounce uit, dan vullen we kosteloos aan."}},
+      {"@type":"Question","name":"Wat kost een lead?","acceptedAnswer":{"@type":"Answer","text":"Vanaf 0,10 euro per lead bij kleine aantallen en 0,05 euro per lead vanaf 10.000. Verrijking zoals een telefoonnummer of een persoonlijke openingszin komt daar per lead bovenop."}},
+      {"@type":"Question","name":"Hoe snel heb ik het bestand?","acceptedAnswer":{"@type":"Answer","text":"Binnen een werkdag na akkoord op de telling."}},
+      {"@type":"Question","name":"Kan ik het bestand in mijn eigen tool gebruiken?","acceptedAnswer":{"@type":"Answer","text":"Ja, je krijgt Excel of CSV met vaste kolomnamen, klaar voor Smartlead, Instantly, Apollo, Lemlist, HubSpot of Pipedrive."}}
       ]
     }
   ]
@@ -175,7 +175,7 @@ html body nav.l2n.scrolled .l2n-inner{background:rgba(8,9,12,.92);border-color:r
   box-shadow:0 12px 40px rgba(0,0,0,.7),0 0 0 1px rgba(47,111,237,.1);}
 html body nav.l2n a{text-decoration:none !important;}
 html body nav.l2n .l2n-logo{font-size:17px;font-weight:800;letter-spacing:-.5px;line-height:1;white-space:nowrap;margin:0 8px 0 0;padding:0;background:none;}
-html body nav.l2n .l2n-links{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0;}
+html body nav.l2n .l2n-links{display:flex;flex:1;align-items:center;justify-content:center;gap:4px;list-style:none;margin:0;padding:0;}
 html body nav.l2n .l2n-links li{list-style:none;margin:0;padding:0;}
 html body nav.l2n .l2n-links li::before,html body nav.l2n .l2n-links li::marker{content:none !important;display:none !important;}
 html body nav.l2n .l2n-links a{display:block;font-size:14px;font-weight:500;line-height:1.2;color:rgba(255,255,255,.7) !important;
@@ -356,7 +356,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 <main class="page-wrap page-wide">
   <div class="crumb"><a href="/"><span class="l2b">Link<i>2</i>Leads</span></a> / Leads kopen</div>
   <h1 class="page-h">Leads kopen waar je <span class="blue">meteen mee kunt mailen</span></h1>
-  <p class="page-lede">Je geeft op wie je zoekt, wij bouwen de lijst. Bedrijf, beslisser en een geverifieerd zakelijk e-mailadres, met de bron per record vastgelegd. Binnen een werkdag in je mailbox als Excel of CSV. Wil je de campagne er ook bij, dan doen we dat ook, maar dat hoeft niet.</p>
+  <p class="page-lede">Je geeft op wie je zoekt, wij bouwen de lijst. Bedrijf, beslisser en een geverifieerd zakelijk e-mailadres, met de bron per record. Binnen een werkdag in je mailbox als Excel of CSV.</p>
 
   <div class="lz-stats">
     <div class="lz-stat"><span class="lz-stat-v">vanaf &euro;0,05</span><span class="lz-stat-l">per geleverde lead</span></div>
@@ -364,24 +364,6 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     <div class="lz-stat"><span class="lz-stat-v">max 3%</span><span class="lz-stat-l">bounce, of we vullen aan</span></div>
     <div class="lz-stat"><span class="lz-stat-v">170+</span><span class="lz-stat-l">eigen mailboxen die er dagelijks op draaien</span></div>
   </div>
-
-  <section class="lz-sec" id="zowerkthet">
-    <h2 class="lz-h2">In drie stappen <span class="blue">naar je bestand</span></h2>
-    <ol class="lz-steps">
-      <li>
-        <h3>Je beschrijft je doelgroep</h3>
-        <p>Branche, bedrijfsgrootte, regio en de functie van de persoon die je wil bereiken. Weet je het niet precies, dan denken we mee en sturen we eerst een telling van hoeveel bedrijven er in die selectie passen.</p>
-      </li>
-      <li>
-        <h3>Wij bouwen en controleren de lijst</h3>
-        <p>We zoeken de bedrijven, halen de juiste beslisser erbij en verifieren elk e-mailadres voordat het in je bestand komt. Dubbelingen eruit, opgeheven bedrijven eruit, en adressen op onze suppressielijst komen er niet in.</p>
-      </li>
-      <li>
-        <h3>Je krijgt het bestand</h3>
-        <p>Excel of CSV, klaar om te importeren in Smartlead, Instantly, Apollo, HubSpot of je eigen systeem. Met een kolom waarin staat waar elk record vandaan komt en op welke datum het is gecontroleerd.</p>
-      </li>
-    </ol>
-  </section>
 
   <section class="lz-sec" id="samenstellen">
     <h2 class="lz-h2">Stel je bestelling <span class="blue">zelf samen</span></h2>
@@ -403,14 +385,13 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
             <button type="button" class="lz-preset" data-vol="25000">25.000</button>
             <button type="button" class="lz-preset" data-vol="50000">50.000</button>
           </div>
-          <p class="lz-hint">Minimaal 500 leads. Meer dan 50.000 nodig? Vraag een offerte aan, dan rekenen we een aparte staffel.</p>
+          <p class="lz-hint">Staffel: &euro;0,10 tot 999 leads, &euro;0,08 vanaf 1.000, &euro;0,06 vanaf 5.000 en &euro;0,05 vanaf 10.000. Minimaal 500 leads, meer dan 50.000 op offerte.</p>
         </div>
 
         <div class="lz-field">
           <span class="lz-label">Wat er standaard in zit</span>
           <ul class="lz-incl">
-            <li>Bedrijfsnaam, website en vestigingsplaats</li>
-            <li>Branche en aantal medewerkers</li>
+            <li>Bedrijfsnaam, website, plaats, branche en aantal medewerkers</li>
             <li>Naam en functie van de beslisser</li>
             <li>Geverifieerd zakelijk e-mailadres</li>
             <li>Bron en controledatum per record</li>
@@ -424,7 +405,6 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
               <input type="checkbox" class="lz-enr" data-price="0.02" data-name="LinkedIn-profiel">
               <span class="lz-opt-b">
                 <span class="lz-opt-t">LinkedIn-profiel van de beslisser</span>
-                <span class="lz-opt-d">Directe link naar het profiel, handig als je naast e-mail ook via LinkedIn werkt.</span>
               </span>
               <span class="lz-opt-p">+&euro;0,02</span>
             </label>
@@ -432,7 +412,6 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
               <input type="checkbox" class="lz-enr" data-price="0.03" data-name="Telefoonnummer">
               <span class="lz-opt-b">
                 <span class="lz-opt-t">Telefoonnummer van het bedrijf</span>
-                <span class="lz-opt-d">Het algemene nummer plus, waar dat publiek beschikbaar is, de directe lijn.</span>
               </span>
               <span class="lz-opt-p">+&euro;0,03</span>
             </label>
@@ -457,7 +436,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
           </div>
           <ul class="lz-sum-rows" id="lzRows"></ul>
           <a class="btn-solid lz-sum-btn" href="#bestellen" id="lzGo">Zet deze bestelling klaar</a>
-          <p class="lz-sum-note">Je tegoed blijft twaalf maanden geldig, dus je hoeft niet alles in een keer af te nemen. Betaling per factuur, veertien dagen.</p>
+          <p class="lz-sum-note">Bouncet er meer dan 3 procent, dan vullen we kosteloos aan. Je tegoed blijft twaalf maanden geldig.</p>
         </div>
       </aside>
     </div>
@@ -465,7 +444,6 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 
   <section class="lz-sec">
     <h2 class="lz-h2">Zo ziet <span class="blue">je bestand</span> eruit</h2>
-    <p class="lz-sub">Een voorbeeld van vier regels uit een levering voor een installatiebedrijf dat technische groothandels zocht.</p>
     <div class="table-scroll prose">
       <table>
         <thead>
@@ -474,63 +452,35 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
         <tbody>
           <tr><td>Van Dijk Technische Handel</td><td>Apeldoorn</td><td>42</td><td>M. van Dijk</td><td>Directeur</td><td>m.vandijk@&hellip;.nl</td><td>Bedrijfswebsite, 12-09-2026</td></tr>
           <tr><td>Nijhuis Industrie</td><td>Hengelo</td><td>78</td><td>S. Nijhuis</td><td>Commercieel manager</td><td>s.nijhuis@&hellip;.nl</td><td>Bedrijfswebsite, 12-09-2026</td></tr>
-          <tr><td>Brabant Groothandel</td><td>Tilburg</td><td>25</td><td>K. Peeters</td><td>Inkoopmanager</td><td>k.peeters@&hellip;.nl</td><td>Bedrijfswebsite, 11-09-2026</td></tr>
           <tr><td>Kooistra Techniek</td><td>Leeuwarden</td><td>16</td><td>J. Kooistra</td><td>Eigenaar</td><td>j.kooistra@&hellip;.nl</td><td>Bedrijfswebsite, 11-09-2026</td></tr>
         </tbody>
       </table>
-    </div>
-    <p class="small-note" style="margin-top:12px;">De e-mailadressen zijn hier afgekort. In je eigen bestand staan ze volledig, met de kolom waarin staat waar en wanneer we ze hebben gevonden.</p>
-  </section>
-
-  <section class="lz-sec" id="prijzen">
-    <h2 class="lz-h2">Prijzen <span class="blue">per staffel</span></h2>
-    <div class="table-scroll prose">
-      <table>
-        <thead>
-          <tr><th>Aantal leads</th><th>Per lead</th><th>Voorbeeld</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>500 tot 999</td><td>&euro;0,10</td><td>500 leads is &euro;50</td></tr>
-          <tr><td>1.000 tot 4.999</td><td>&euro;0,08</td><td>2.000 leads is &euro;160</td></tr>
-          <tr><td>5.000 tot 9.999</td><td>&euro;0,06</td><td>5.000 leads is &euro;300</td></tr>
-          <tr><td>10.000 en meer</td><td>&euro;0,05</td><td>10.000 leads is &euro;500</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="small-note" style="margin-top:12px;">Alle bedragen zijn exclusief btw. Verrijking komt per lead bovenop het staffeltarief.</p>
-
-    <div class="callout accent" style="margin-top:24px;">
-      <div class="callout-label">Wat je terugkrijgt als het niet klopt</div>
-      Bounct er meer dan 3 procent van de adressen, dan vullen we het verschil kosteloos aan. Staat er een bedrijf in dat allang is opgeheven of een persoon die er niet meer werkt, dan meld je dat en vervangen we het record. Daar hoef je geen discussie over te voeren en er zit geen termijn op je eerste levering.
     </div>
   </section>
 
   <section class="lz-sec" id="herkomst">
     <h2 class="lz-h2">Waar de data <span class="blue">vandaan komt</span></h2>
-    <p class="lz-sub">De meeste aanbieders vertellen je dit niet. Wij zetten het hier neer, omdat je het nodig hebt op het moment dat iemand je vraagt waar je zijn gegevens vandaan hebt.</p>
+    <p class="lz-sub">Je hebt dit nodig op het moment dat iemand vraagt waar je zijn gegevens vandaan hebt. De meeste aanbieders kunnen die vraag niet beantwoorden.</p>
     <div class="lz-cards">
       <div class="card lz-card">
         <h3>Bron per record</h3>
-        <p>Bij elke lead staat waar het adres vandaan komt en op welke datum we het hebben gecontroleerd. Krijg je een privacyverzoek, dan kun je die vraag binnen een dag beantwoorden in plaats van hem te moeten reconstrueren.</p>
+        <p>Bij elke lead staat waar het adres vandaan komt en wanneer we het hebben gecontroleerd. Alleen zakelijke adressen die bedrijven zelf publiceren, geen priveadressen en geen doorverkoop van Handelsregistergegevens.</p>
       </div>
       <div class="card lz-card">
-        <h3>Zakelijke adressen</h3>
-        <p>We leveren adressen die bedrijven zelf publiceren om zakelijk benaderd te worden. Geen priveadressen, geen gegevens die achter een inlog vandaan komen en geen doorverkoop van gegevens uit het Handelsregister.</p>
-      </div>
-      <div class="card lz-card">
-        <h3>Onze suppressielijst zit erin</h3>
-        <p>Iedereen die ooit bij ons bezwaar heeft gemaakt, staat op een lijst die over al onze campagnes en klanten heen werkt. Die mensen komen niet in jouw bestand terecht.</p>
-      </div>
-      <div class="card lz-card">
-        <h3>Jij blijft zelf verantwoordelijk</h3>
-        <p>Zodra je gaat mailen, bepaal jij het doel en de inhoud, en gelden de AVG en de Telecommunicatiewet voor jou. We leggen in onze voorwaarden vast wat je met de data mag doen en sturen de checklist mee. Wat de regels precies zijn, staat uitgeschreven in <a href="/kennis/mag-koude-email-nederland">Mag koude e-mail in Nederland?</a></p>
+        <h3>Bezwaren zitten er al uit</h3>
+        <p>Wie ooit bij ons bezwaar maakte, staat op een lijst die over al onze campagnes en leveringen heen werkt. Die adressen komen niet in jouw bestand. Wat de regels precies zijn, staat in <a href="/kennis/mag-koude-email-nederland">Mag koude e-mail in Nederland?</a></p>
       </div>
     </div>
   </section>
 
+  <figure class="page-photo">
+    <img src="/assets/img/demi-anne-roos.jpg" alt="Demi en Anne-Roos van Link2Leads" loading="lazy" width="1200" height="330">
+    <figcaption>Demi en Anne-Roos. Wij bouwen je lijst zelf, dus je krijgt antwoord van de mensen die hem hebben gemaakt.</figcaption>
+  </figure>
+
   <section class="lz-sec" id="bestellen">
     <h2 class="lz-h2">Zet je bestelling <span class="blue">klaar</span></h2>
-    <p class="lz-sub">Beschrijf je doelgroep, dan sturen we eerst een telling en een prijs. Pas als je daarmee akkoord gaat, bouwen we de lijst. Je zit nergens aan vast voordat je ja zegt.</p>
+    <p class="lz-sub">Je krijgt eerst een telling en een prijs. Pas als je daarmee akkoord gaat, bouwen we de lijst.</p>
     <form class="lz-form" id="lzForm" novalidate>
       <div class="lz-form-grid">
         <div class="lz-f">
@@ -547,20 +497,20 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
         </div>
         <div class="lz-f lz-f-wide">
           <label for="lzTarget">Wie wil je bereiken?</label>
-          <textarea id="lzTarget" name="target" rows="4" placeholder="Bijvoorbeeld: technische groothandels in Nederland met 10 tot 100 medewerkers, gericht op de eigenaar of commercieel manager." required></textarea>
+          <textarea id="lzTarget" name="target" rows="3" placeholder="Bijvoorbeeld: technische groothandels in Nederland met 10 tot 100 medewerkers, gericht op de eigenaar of commercieel manager." required></textarea>
         </div>
       </div>
       <div class="lz-conf-echo" id="lzEcho" aria-live="polite"></div>
       <div class="lz-hp"><label>Laat dit veld leeg<input name="website" tabindex="-1" autocomplete="off"></label></div>
       <button class="btn-solid" id="lzSubmit" type="submit">Vraag de telling en prijs aan</button>
       <div class="lz-msg" id="lzMsg" role="status" aria-live="polite"></div>
-      <p class="small-note" style="margin-top:14px;">Antwoord binnen een werkdag, van Demi of Anne-Roos zelf. Liever meteen bellen? 085 080 5381.</p>
+      <p class="small-note" style="margin-top:14px;">Antwoord binnen een werkdag. Liever meteen bellen? 085 080 5381.</p>
     </form>
   </section>
 
   <section class="lz-sec" id="ofcampagne">
     <h2 class="lz-h2">Of laat <span class="blue">de hele campagne</span> bij ons</h2>
-    <p class="lz-sub">Leads kopen is de goedkoopste manier om te beginnen, maar het is niet het werk. Het werk zit in de mailboxen, de opwarming, de teksten en het dagelijks opvolgen van reacties. Doe je dat liever niet zelf, dan nemen we het hele kanaal over.</p>
+    <p class="lz-sub">Het werk zit niet in de lijst, maar in de mailboxen, de teksten en het dagelijks opvolgen van reacties. Doe je dat liever niet zelf, dan nemen we het hele kanaal over.</p>
     <div class="lz-compare table-scroll prose">
       <table>
         <thead>
@@ -569,15 +519,14 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
         <tbody>
           <tr><td>Je krijgt</td><td>Een geverifieerd bestand</td><td>Gesprekken in je agenda</td></tr>
           <tr><td>Wie mailt</td><td>Jij, met je eigen systeem</td><td>Wij, namens jou</td></tr>
-          <tr><td>Mailboxen en domeinen</td><td>Regel je zelf</td><td>Inbegrepen, wij warmen ze op</td></tr>
-          <tr><td>Teksten en opvolging</td><td>Regel je zelf</td><td>Inbegrepen, wij sturen bij</td></tr>
+          <tr><td>Mailboxen, teksten, opvolging</td><td>Regel je zelf</td><td>Inbegrepen</td></tr>
           <tr><td>Vanaf</td><td>&euro;50 eenmalig</td><td>&euro;995 per maand</td></tr>
         </tbody>
       </table>
     </div>
     <div class="lz-btns">
       <a class="btn-ghost" href="/#pakketten">Bekijk de pakketten</a>
-      <a class="btn-ghost" href="/book">Plan de gratis fitcheck</a>
+      <a class="btn-ghost" href="/cases">Zie onze resultaten</a>
     </div>
   </section>
 
@@ -586,31 +535,23 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     <div class="faq-list">
       <details class="faq-item">
         <summary>Mag ik deze leads zomaar mailen?</summary>
-        <div class="faq-body">Naar zakelijke ontvangers mag koude e-mail in Nederland zonder voorafgaande toestemming, mits je adressen gebruikt die het bedrijf zelf heeft bestemd om zakelijk benaderd te worden, je in elke mail duidelijk maakt wie je bent en je een werkend kanaal biedt om bezwaar te maken. Daarnaast geldt de AVG voor de gegevens zelf: je hebt een grondslag nodig, je moet kunnen vertellen waar de gegevens vandaan komen en je moet elk bezwaar direct verwerken. Wij leveren de herkomst per record mee zodat je dat kunt. De volledige uitleg staat in <a href="/kennis/mag-koude-email-nederland">Mag koude e-mail in Nederland?</a> Dit is geen juridisch advies.</div>
+        <div class="faq-body">Naar zakelijke ontvangers mag koude e-mail zonder voorafgaande toestemming, mits je adressen gebruikt die het bedrijf zelf heeft bestemd om zakelijk benaderd te worden, je duidelijk maakt wie je bent en je een werkend kanaal biedt om bezwaar te maken. Daarnaast geldt de AVG voor de gegevens zelf. Wij leveren de herkomst per record mee zodat je kunt aantonen waar een adres vandaan komt. De volledige uitleg staat in <a href="/kennis/mag-koude-email-nederland">Mag koude e-mail in Nederland?</a> Dit is geen juridisch advies.</div>
       </details>
       <details class="faq-item">
-        <summary>Hoe weet ik dat de e-mailadressen kloppen?</summary>
-        <div class="faq-body">Elk adres gaat door een verificatie voordat het in je bestand komt. Adressen die niet te verifieren zijn, leveren we niet. In de praktijk komen we daarmee onder de 3 procent bounce uit. Zit je erboven, dan vullen we kosteloos aan.</div>
+        <summary>Hoe weet ik dat de adressen kloppen?</summary>
+        <div class="faq-body">Elk adres gaat door een verificatie voordat het in je bestand komt. Adressen die niet te verifieren zijn, leveren we niet. Kom je toch boven de 3 procent bounce uit, dan vullen we kosteloos aan.</div>
       </details>
       <details class="faq-item">
         <summary>Wat als ik niet precies weet wie mijn doelgroep is?</summary>
-        <div class="faq-body">Beschrijf zo goed als het gaat wie je beste klanten nu zijn. Wij maken daar een selectie van en sturen eerst een telling, zodat je ziet hoeveel bedrijven erin passen voordat je iets afneemt. Blijkt de markt te klein voor koude e-mail, dan zeggen we dat ook.</div>
+        <div class="faq-body">Beschrijf wie je beste klanten nu zijn. Wij maken daar een selectie van en sturen eerst een telling. Blijkt de markt te klein voor koude e-mail, dan zeggen we dat ook.</div>
       </details>
       <details class="faq-item">
         <summary>Krijg ik dezelfde leads als een ander?</summary>
-        <div class="faq-body">Je selectie kan overlappen met die van iemand anders, want een markt is een markt. Wat we wel doen: binnen jouw bestand zitten geen dubbelingen, en als je vaker bij ons afneemt, leveren we geen records die je al eerder hebt gehad.</div>
+        <div class="faq-body">Je selectie kan overlappen met die van iemand anders, want een markt is een markt. Binnen jouw bestand zitten geen dubbelingen, en neem je vaker af, dan leveren we geen records die je al hebt gehad.</div>
       </details>
       <details class="faq-item">
         <summary>Kan ik het bestand in mijn eigen tool gebruiken?</summary>
-        <div class="faq-body">Ja. Je krijgt Excel of CSV met vaste kolomnamen, klaar voor Smartlead, Instantly, Apollo, Lemlist, HubSpot of Pipedrive. Wil je een andere kolomindeling, geef het door bij je bestelling.</div>
-      </details>
-      <details class="faq-item">
-        <summary>Hoe snel heb ik het bestand?</summary>
-        <div class="faq-body">Tot 5.000 leads binnen een werkdag na akkoord op de telling. Daarboven twee tot drie werkdagen, afhankelijk van hoeveel verrijking je erbij hebt gekozen.</div>
-      </details>
-      <details class="faq-item">
-        <summary>Kan ik eerst iets kleins proberen?</summary>
-        <div class="faq-body">Ja, 500 leads is het minimum en dat is genoeg om te zien of de selectie klopt en of de adressen aankomen. Bevalt het, dan schaal je op in dezelfde selectie.</div>
+        <div class="faq-body">Ja. Excel of CSV met vaste kolomnamen, klaar voor Smartlead, Instantly, Apollo, Lemlist, HubSpot of Pipedrive. Wil je een andere kolomindeling, geef het door bij je bestelling.</div>
       </details>
     </div>
   </section>
@@ -625,6 +566,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     <p class="page-cta-note">Liever eerst even mailen? Dat kan ook: <a href="mailto:info@link2leads.nl">info@link2leads.nl</a></p>
   </div>
 </main>
+
 
 <footer class="l2f">
 <div class="l2f-wrap">

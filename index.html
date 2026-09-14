@@ -2022,6 +2022,7 @@ footer { border-top: none !important; }
             "text": "We bouwen de lijst op basis van het ideale klantprofiel en verifieren elk adres voordat er iets uitgaat. Elke binnenkomende reactie wordt met de hand gelezen, niet door een scoringsmodel. Je krijgt naam, functie, organisatie en contactgegevens."
           }
         },
+        {"@type": "Question", "name": "Kan ik ook alleen de leads afnemen?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Link2Leads verkoopt ook losse leadbestanden, vanaf 500 leads, met een geverifieerd zakelijk e-mailadres en de bron per record. Je regelt dan zelf de mailboxen, de teksten en het opvolgen van reacties."}},
         {
           "@type": "Question",
           "name": "Loopt mijn eigen domein of merk risico?",
@@ -2225,7 +2226,7 @@ html body nav.l2n.scrolled .l2n-inner{background:rgba(8,9,12,.92);border-color:r
   box-shadow:0 12px 40px rgba(0,0,0,.7),0 0 0 1px rgba(47,111,237,.1);}
 html body nav.l2n a{text-decoration:none !important;}
 html body nav.l2n .l2n-logo{font-size:17px;font-weight:800;letter-spacing:-.5px;line-height:1;white-space:nowrap;margin:0 8px 0 0;padding:0;background:none;}
-html body nav.l2n .l2n-links{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0;}
+html body nav.l2n .l2n-links{display:flex;flex:1;align-items:center;justify-content:center;gap:4px;list-style:none;margin:0;padding:0;}
 html body nav.l2n .l2n-links li{list-style:none;margin:0;padding:0;}
 html body nav.l2n .l2n-links li::before,html body nav.l2n .l2n-links li::marker{content:none !important;display:none !important;}
 html body nav.l2n .l2n-links a{display:block;font-size:14px;font-weight:500;line-height:1.2;color:rgba(255,255,255,.7) !important;
@@ -2406,7 +2407,7 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
 </div>
 <p class="hero-note">Vanaf €995 per maand, all-in en zonder setupfee.</p>
 <div class="hero-proof">
-<a aria-label="4,8 sterren op Google Reviews, bekijk de reviews" class="hero-google-badge" href="https://www.google.com/search?sa=X&amp;sca_esv=9e14c540528a302f&amp;rlz=1C5CHFA_enNL1094NL1094&amp;sxsrf=APpeQnuYDL1f-tpWgptG02erCMqeFHNXkA:1782832892362&amp;q=Link2Group+Reviews&amp;rflfq=1&amp;num=20&amp;stick=H4sIAAAAAAAAAONgkxIxNDEzNLEwNTIyNjM3NTAwMrGwNN3AyPiKUcgnMy_byL0ov7RAISi1LDO1vHgRKxZBAIlob41FAAAA&amp;rldimm=14614852236750024895&amp;tbm=lcl&amp;hl=nl-NL&amp;ved=2ahUKEwiPr_iJoq-VAxUs_rsIHVIXBo4Q9fQKegQIRxAG&amp;biw=840&amp;bih=811&amp;dpr=2#lkt=LocalPoiReviews" rel="noopener noreferrer" target="_blank">
+<a aria-label="4,8 sterren op Google Reviews, bekijk de reviews" class="hero-google-badge" href="#reviews">
 <svg fill="none" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg>
 <span class="hgb-rating">4,8</span>
 <span aria-hidden="true" class="hgb-stars"><span class="hgb-stars-fill" style="width:94%">★★★★★</span>★★★★★</span>
@@ -3116,7 +3117,7 @@ Bel ons: 085 080 5381
 <div class="pricing-inner">
 <div class="pricing-header reveal">
 <h2 class="big-h">Wat het kost, en<br/><span class="blue">wat je daarvoor krijgt.</span></h2>
-<p class="big-sub">Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar. Mail je liever zelf en zoek je alleen de lijst? Dan kun je ook <a href="/leads" style="color:#5B8FF5;text-decoration:underline;text-underline-offset:2px;">losse leads kopen</a>.</p>
+<p class="big-sub">Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar.</p>
 </div>
 <div class="pricing-grid">
 <div class="p-card reveal">
@@ -3402,6 +3403,48 @@ Bel ons: 085 080 5381
   if(location.hash==='#garantie'){openGar();}
 })();
 </script>
+<!-- LEADS LOSAF -->
+<section class="l2leads-band" id="leadslos">
+<style>
+  .l2leads-band{padding:0 24px 90px;}
+  .l2lb-wrap{max-width:1000px;margin:0 auto;background:var(--card-bg);border:1px solid var(--border);
+    border-radius:22px;padding:36px 38px;display:grid;grid-template-columns:1.25fr 1fr;gap:34px;align-items:center;}
+  .l2lb-kicker{font-size:13.5px;font-weight:800;color:var(--accent2);margin:0 0 10px;}
+  .l2lb-wrap h2{font-size:clamp(22px,3vw,29px);line-height:1.18;letter-spacing:-.9px;font-weight:800;color:var(--white);margin:0 0 12px;}
+  .l2lb-wrap h2 .blue{color:var(--accent2);}
+  .l2lb-wrap > div > p{font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.72);margin:0 0 18px;max-width:520px;}
+  .l2lb-btns{display:flex;flex-wrap:wrap;gap:12px;}
+  .l2lb-side{border-left:1px solid var(--border);padding-left:30px;}
+  .l2lb-price{font-size:clamp(30px,4vw,38px);font-weight:800;letter-spacing:-1.4px;color:var(--white);line-height:1;}
+  .l2lb-price span{font-size:15px;font-weight:600;color:var(--muted);letter-spacing:0;}
+  .l2lb-list{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:9px;}
+  .l2lb-list li{position:relative;padding-left:24px;font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.75);}
+  .l2lb-list li::before{content:"";position:absolute;left:0;top:7px;width:13px;height:7px;
+    border-left:2px solid var(--accent2);border-bottom:2px solid var(--accent2);transform:rotate(-45deg);}
+  @media(max-width:860px){
+    .l2lb-wrap{grid-template-columns:1fr;padding:28px 24px;gap:24px;}
+    .l2lb-side{border-left:0;border-top:1px solid var(--border);padding-left:0;padding-top:24px;}
+  }
+</style>
+<div class="l2lb-wrap reveal">
+  <div>
+    <p class="l2lb-kicker">Nog geen campagne nodig</p>
+    <h2>Liever alleen <span class="blue">de leadlijst</span>?</h2>
+    <p>Dan verkopen we je die los. Je krijgt hetzelfde bestand waar onze eigen campagnes op draaien, met een geverifieerd zakelijk e-mailadres en de bron per record. De mailboxen, de teksten en het opvolgen van reacties doe je dan zelf.</p>
+    <div class="l2lb-btns">
+      <a href="/leads" class="btn-ghost-l2l">Bekijk leads kopen</a>
+    </div>
+  </div>
+  <div class="l2lb-side">
+    <div class="l2lb-price">&euro;0,05 <span>per lead, vanaf 10.000</span></div>
+    <ul class="l2lb-list">
+      <li>Vanaf 500 leads, geen abonnement</li>
+      <li>Binnen een werkdag geleverd</li>
+      <li>Meer dan 3 procent bounce, dan vullen we aan</li>
+    </ul>
+  </div>
+</div>
+</section>
 <!-- REVIEWS -->
 <section class="reviews-section" id="reviews">
 <div class="reviews-header reveal">
@@ -3465,6 +3508,10 @@ Bel ons: 085 080 5381
 <details class="faq-item">
 <summary>Hoe snel zie ik resultaat?</summary>
 <p>Week 1 en 2 zijn setup en warmup, in week 3 ga je live. De eerste reacties komen doorgaans binnen drie tot tien dagen na livegang, in enkele campagnes al op dag 1. Vanaf maand 2 sturen we bij op de segmenten die reageren.</p>
+</details>
+<details class="faq-item">
+<summary>Kan ik ook alleen de leads afnemen?</summary>
+<p>Ja. Wil je zelf mailen en zoek je alleen een lijst, dan verkopen we die los vanaf 500 leads, met een geverifieerd zakelijk e-mailadres en de bron per record. Je regelt dan zelf de mailboxen, de teksten en het opvolgen van reacties, en dat is in de praktijk het meeste werk. Kijk op <a href="/leads" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">leads kopen</a> wat het kost.</p>
 </details>
 <details class="faq-item">
 <summary>Loopt mijn eigen domein of merk risico?</summary>
