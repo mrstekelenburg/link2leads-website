@@ -927,12 +927,12 @@ Standaard per lead: bedrijfsnaam, website, vestigingsplaats, branche, aantal med
 
 | Aantal leads | Prijs per lead |
 |---|---|
-| 250 tot 999 | € 0,20 |
-| 1.000 tot 4.999 | € 0,15 |
-| 5.000 tot 9.999 | € 0,12 |
-| 10.000 en meer | € 0,10 |
+| 500 tot 999 | € 0,10 |
+| 1.000 tot 4.999 | € 0,08 |
+| 5.000 tot 9.999 | € 0,06 |
+| 10.000 en meer | € 0,05 |
 
-Verrijking per lead, bovenop het staffeltarief: LinkedIn-profiel € 0,05, telefoonnummer € 0,08, persoonlijke openingszin € 0,12, landingspagina per prospect via Neuropage € 0,18.
+Verrijking per lead, bovenop het staffeltarief: LinkedIn-profiel € 0,02, telefoonnummer € 0,03, persoonlijke openingszin € 0,08.
 
-Voorwaarden: minimale afname 250 leads, tegoed twaalf maanden geldig, bedragen exclusief btw, betaling per factuur. Bij meer dan 3 procent bounce wordt kosteloos aangevuld. Bronnen zijn openbare bedrijfswebsites, openbare zakelijke profielen en eigen verificatie; het Handelsregister wordt niet als bron gebruikt en niet doorverkocht. Adressen van personen die eerder bezwaar hebben gemaakt, worden vooraf uitgefilterd.
+Voorwaarden: minimale afname 500 leads, tegoed twaalf maanden geldig, bedragen exclusief btw, betaling per factuur. Bij meer dan 3 procent bounce wordt kosteloos aangevuld. Bronnen zijn openbare bedrijfswebsites, openbare zakelijke profielen en eigen verificatie; het Handelsregister wordt niet als bron gebruikt en niet doorverkocht. Adressen van personen die eerder bezwaar hebben gemaakt, worden vooraf uitgefilterd.
 

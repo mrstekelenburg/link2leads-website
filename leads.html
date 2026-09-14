@@ -4,7 +4,7 @@
 <meta charset="UTF-8"><script>/*l2l-i18n-boot*/(function(){try{var L=['nl','en'];var p=new URLSearchParams(location.search).get('lang');var s=p&&L.indexOf(p)>-1?p:(localStorage.getItem('l2l_lang')||'nl');if(L.indexOf(s)===-1)s='nl';document.documentElement.setAttribute('lang',s);if(s!=='nl'){document.documentElement.className+=' i18n-pending';var st=document.createElement('style');st.textContent='html.i18n-pending body{visibility:hidden}';document.head.appendChild(st);}}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Leads kopen: geverifieerde B2B-leads op maat | Link2Leads</title>
-<meta name="description" content="Koop B2B-leads met een geverifieerd zakelijk e-mailadres en de bron per record. Je geeft je doelgroep op, wij leveren binnen een werkdag een bestand. Vanaf 0,10 euro per lead.">
+<meta name="description" content="Koop B2B-leads met een geverifieerd zakelijk e-mailadres en de bron per record. Je geeft je doelgroep op, wij leveren binnen een werkdag een bestand. Vanaf 0,05 euro per lead.">
 <meta name="robots" content="index, follow, max-snippet:-1">
 <link rel="canonical" href="https://www.link2leads.nl/leads">
 <meta property="og:type" content="website">
@@ -51,8 +51,8 @@
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "EUR",
-        "lowPrice": "0.10",
-        "highPrice": "0.20",
+        "lowPrice": "0.05",
+        "highPrice": "0.10",
         "offerCount": "4",
         "unitText": "per lead"
       }
@@ -64,7 +64,7 @@
       {"@type":"Question","name":"Hoe weet ik dat de e-mailadressen kloppen?","acceptedAnswer":{"@type":"Answer","text":"Elk adres gaat door een verificatie voordat het in je bestand komt. Adressen die niet te verifieren zijn, leveren we niet. Kom je toch boven de 3 procent bounce uit, dan vullen we kosteloos aan."}},
       {"@type":"Question","name":"Wat als ik niet precies weet wie mijn doelgroep is?","acceptedAnswer":{"@type":"Answer","text":"Beschrijf wie je beste klanten nu zijn. Wij maken daar een selectie van en sturen eerst een telling, zodat je ziet hoeveel bedrijven erin passen voordat je iets afneemt."}},
       {"@type":"Question","name":"Hoe snel heb ik het bestand?","acceptedAnswer":{"@type":"Answer","text":"Tot 5.000 leads binnen een werkdag na akkoord op de telling. Daarboven twee tot drie werkdagen, afhankelijk van de gekozen verrijking."}},
-      {"@type":"Question","name":"Wat kost een lead?","acceptedAnswer":{"@type":"Answer","text":"Vanaf 0,20 euro per lead bij kleine aantallen en 0,10 euro per lead vanaf 10.000. Verrijking zoals een telefoonnummer of een persoonlijke openingszin komt daar per lead bovenop."}}
+      {"@type":"Question","name":"Wat kost een lead?","acceptedAnswer":{"@type":"Answer","text":"Vanaf 0,10 euro per lead bij kleine aantallen en 0,05 euro per lead vanaf 10.000. Verrijking zoals een telefoonnummer of een persoonlijke openingszin komt daar per lead bovenop."}}
       ]
     }
   ]
@@ -220,6 +220,9 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
 .lz-stat-l{display:block;margin-top:6px;font-size:13.5px;line-height:1.5;color:var(--muted);}
 
 .lz-sec{margin-top:68px;scroll-margin-top:110px;}
+.lz-h2 .blue,.page-cta h2 .blue{color:var(--accent2);}
+.faq-item summary:focus{outline:none;}
+.faq-item summary:focus-visible{outline:2px solid var(--accent2);outline-offset:-2px;border-radius:14px;}
 .lz-h2{font-size:clamp(24px,3.4vw,32px);line-height:1.15;letter-spacing:-1px;font-weight:800;color:var(--white);margin:0 0 12px;}
 .lz-sub{font-size:16px;line-height:1.7;color:rgba(240,239,237,.72);margin:0 0 24px;max-width:680px;}
 
@@ -333,12 +336,12 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 <nav aria-label="Hoofdmenu" class="l2n">
 <div class="l2n-inner">
 <a aria-label="Link2Leads, naar de homepage" class="l2n-logo" href="/"><span class="l2b">Link<i>2</i>Leads</span></a>
-<ul class="l2n-links"><li><a href="/#zowerkthet">Zo werkt het</a></li><li><a href="/cases">Resultaten</a></li><li><a href="/#pakketten">Pakketten</a></li><li><a href="/leads" class="is-active" aria-current="page">Leads kopen</a></li><li><a href="/#reviews">Reviews</a></li><li><a href="/kennis">Kennis</a></li><li><a href="/#faq">FAQ</a></li><li><a href="/#contact">Contact</a></li></ul>
+<ul class="l2n-links"><li><a href="/#zowerkthet">Zo werkt het</a></li><li><a href="/cases">Resultaten</a></li><li><a href="/#pakketten">Pakketten</a></li><li><a href="/leads" class="is-active" aria-current="page">Leads kopen</a></li><li><a href="/#contact">Contact</a></li></ul>
 <a class="l2n-cta" href="/book">Gratis fitcheck</a>
 <button aria-controls="l2nMenu" aria-expanded="false" aria-label="Menu openen" class="l2n-burger" id="l2nBurger" type="button"><span></span><span></span><span></span></button>
 </div>
 </nav>
-<div class="l2n-menu" id="l2nMenu"><a href="/#zowerkthet" onclick="l2nClose()">Zo werkt het</a><a href="/cases" onclick="l2nClose()">Resultaten</a><a href="/#pakketten" onclick="l2nClose()">Pakketten</a><a href="/leads" onclick="l2nClose()">Leads kopen</a><a href="/#reviews" onclick="l2nClose()">Reviews</a><a href="/kennis" onclick="l2nClose()">Kennis</a><a href="/#faq" onclick="l2nClose()">FAQ</a><a href="/#contact" onclick="l2nClose()">Contact</a><a class="l2n-mcta" href="/book" onclick="l2nClose()">Doe de gratis fitcheck</a></div>
+<div class="l2n-menu" id="l2nMenu"><a href="/#zowerkthet" onclick="l2nClose()">Zo werkt het</a><a href="/cases" onclick="l2nClose()">Resultaten</a><a href="/#pakketten" onclick="l2nClose()">Pakketten</a><a href="/leads" onclick="l2nClose()">Leads kopen</a><a href="/#contact" onclick="l2nClose()">Contact</a><a class="l2n-mcta" href="/book" onclick="l2nClose()">Doe de gratis fitcheck</a></div>
 <script>
 (function(){
   var nav=document.querySelector('nav.l2n'), b=document.getElementById('l2nBurger'), m=document.getElementById('l2nMenu');
@@ -356,14 +359,14 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   <p class="page-lede">Je geeft op wie je zoekt, wij bouwen de lijst. Bedrijf, beslisser en een geverifieerd zakelijk e-mailadres, met de bron per record vastgelegd. Binnen een werkdag in je mailbox als Excel of CSV. Wil je de campagne er ook bij, dan doen we dat ook, maar dat hoeft niet.</p>
 
   <div class="lz-stats">
-    <div class="lz-stat"><span class="lz-stat-v">vanaf &euro;0,10</span><span class="lz-stat-l">per geleverde lead</span></div>
+    <div class="lz-stat"><span class="lz-stat-v">vanaf &euro;0,05</span><span class="lz-stat-l">per geleverde lead</span></div>
     <div class="lz-stat"><span class="lz-stat-v">1 werkdag</span><span class="lz-stat-l">van bestelling tot bestand</span></div>
     <div class="lz-stat"><span class="lz-stat-v">max 3%</span><span class="lz-stat-l">bounce, of we vullen aan</span></div>
     <div class="lz-stat"><span class="lz-stat-v">170+</span><span class="lz-stat-l">eigen mailboxen die er dagelijks op draaien</span></div>
   </div>
 
   <section class="lz-sec" id="zowerkthet">
-    <h2 class="lz-h2">Zo gaat het</h2>
+    <h2 class="lz-h2">In drie stappen <span class="blue">naar je bestand</span></h2>
     <ol class="lz-steps">
       <li>
         <h3>Je beschrijft je doelgroep</h3>
@@ -381,7 +384,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   </section>
 
   <section class="lz-sec" id="samenstellen">
-    <h2 class="lz-h2">Stel je bestelling samen</h2>
+    <h2 class="lz-h2">Stel je bestelling <span class="blue">zelf samen</span></h2>
     <p class="lz-sub">Schuif naar het aantal dat je nodig hebt en vink aan wat er per lead bij moet. De prijs rekent direct mee.</p>
 
     <div class="lz-conf">
@@ -389,7 +392,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
         <div class="lz-field">
           <label class="lz-label" for="lzVol">Aantal leads</label>
           <div class="lz-volrow">
-            <input id="lzVol" type="range" min="250" max="25000" step="250" value="2000" aria-describedby="lzVolOut">
+            <input id="lzVol" type="range" min="500" max="50000" step="500" value="2000" aria-describedby="lzVolOut">
             <output class="lz-volout" id="lzVolOut" for="lzVol">2.000</output>
           </div>
           <div class="lz-presets">
@@ -398,8 +401,9 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
             <button type="button" class="lz-preset" data-vol="5000">5.000</button>
             <button type="button" class="lz-preset" data-vol="10000">10.000</button>
             <button type="button" class="lz-preset" data-vol="25000">25.000</button>
+            <button type="button" class="lz-preset" data-vol="50000">50.000</button>
           </div>
-          <p class="lz-hint">Minimaal 250 leads. Meer dan 25.000 nodig? Vraag een offerte aan, dan rekenen we een aparte staffel.</p>
+          <p class="lz-hint">Minimaal 500 leads. Meer dan 50.000 nodig? Vraag een offerte aan, dan rekenen we een aparte staffel.</p>
         </div>
 
         <div class="lz-field">
@@ -417,36 +421,28 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
           <span class="lz-label">Verrijking, per lead</span>
           <div class="lz-opts">
             <label class="lz-opt">
-              <input type="checkbox" class="lz-enr" data-price="0.05" data-name="LinkedIn-profiel">
+              <input type="checkbox" class="lz-enr" data-price="0.02" data-name="LinkedIn-profiel">
               <span class="lz-opt-b">
                 <span class="lz-opt-t">LinkedIn-profiel van de beslisser</span>
                 <span class="lz-opt-d">Directe link naar het profiel, handig als je naast e-mail ook via LinkedIn werkt.</span>
               </span>
-              <span class="lz-opt-p">+&euro;0,05</span>
+              <span class="lz-opt-p">+&euro;0,02</span>
             </label>
             <label class="lz-opt">
-              <input type="checkbox" class="lz-enr" data-price="0.08" data-name="Telefoonnummer">
+              <input type="checkbox" class="lz-enr" data-price="0.03" data-name="Telefoonnummer">
               <span class="lz-opt-b">
                 <span class="lz-opt-t">Telefoonnummer van het bedrijf</span>
                 <span class="lz-opt-d">Het algemene nummer plus, waar dat publiek beschikbaar is, de directe lijn.</span>
               </span>
-              <span class="lz-opt-p">+&euro;0,08</span>
+              <span class="lz-opt-p">+&euro;0,03</span>
             </label>
             <label class="lz-opt">
-              <input type="checkbox" class="lz-enr" data-price="0.12" data-name="Openingszin">
+              <input type="checkbox" class="lz-enr" data-price="0.08" data-name="Openingszin">
               <span class="lz-opt-b">
                 <span class="lz-opt-t">Persoonlijke openingszin</span>
                 <span class="lz-opt-d">Een zin die klopt met wat dit bedrijf doet, geschreven op basis van hun eigen site. Zet hem als variabele in je eerste mail.</span>
               </span>
-              <span class="lz-opt-p">+&euro;0,12</span>
-            </label>
-            <label class="lz-opt">
-              <input type="checkbox" class="lz-enr" data-price="0.18" data-name="Landingspagina per prospect">
-              <span class="lz-opt-b">
-                <span class="lz-opt-t">Landingspagina per prospect</span>
-                <span class="lz-opt-d">Een eigen pagina per ontvanger met hun bedrijfsnaam en logo erop, via <a href="/cases/landingspagina-per-prospect">Neuropage</a>. Je krijgt de URL als kolom in je bestand.</span>
-              </span>
-              <span class="lz-opt-p">+&euro;0,18</span>
+              <span class="lz-opt-p">+&euro;0,08</span>
             </label>
           </div>
         </div>
@@ -456,8 +452,8 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
         <div class="lz-sum" id="lzSum">
           <div class="lz-sum-top">
             <span class="lz-sum-lab">Totaal</span>
-            <span class="lz-sum-tot" id="lzTotal">&euro;299</span>
-            <span class="lz-sum-per" id="lzPer">&euro;0,15 per lead, exclusief btw</span>
+            <span class="lz-sum-tot" id="lzTotal">&euro;160</span>
+            <span class="lz-sum-per" id="lzPer">&euro;0,08 per lead, exclusief btw</span>
           </div>
           <ul class="lz-sum-rows" id="lzRows"></ul>
           <a class="btn-solid lz-sum-btn" href="#bestellen" id="lzGo">Zet deze bestelling klaar</a>
@@ -468,7 +464,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   </section>
 
   <section class="lz-sec">
-    <h2 class="lz-h2">Wat je bestand er ongeveer zo uitziet</h2>
+    <h2 class="lz-h2">Zo ziet <span class="blue">je bestand</span> eruit</h2>
     <p class="lz-sub">Een voorbeeld van vier regels uit een levering voor een installatiebedrijf dat technische groothandels zocht.</p>
     <div class="table-scroll prose">
       <table>
@@ -487,17 +483,17 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   </section>
 
   <section class="lz-sec" id="prijzen">
-    <h2 class="lz-h2">Prijzen per staffel</h2>
+    <h2 class="lz-h2">Prijzen <span class="blue">per staffel</span></h2>
     <div class="table-scroll prose">
       <table>
         <thead>
           <tr><th>Aantal leads</th><th>Per lead</th><th>Voorbeeld</th></tr>
         </thead>
         <tbody>
-          <tr><td>250 tot 999</td><td>&euro;0,20</td><td>500 leads is &euro;100</td></tr>
-          <tr><td>1.000 tot 4.999</td><td>&euro;0,15</td><td>2.000 leads is &euro;300</td></tr>
-          <tr><td>5.000 tot 9.999</td><td>&euro;0,12</td><td>5.000 leads is &euro;600</td></tr>
-          <tr><td>10.000 en meer</td><td>&euro;0,10</td><td>10.000 leads is &euro;1.000</td></tr>
+          <tr><td>500 tot 999</td><td>&euro;0,10</td><td>500 leads is &euro;50</td></tr>
+          <tr><td>1.000 tot 4.999</td><td>&euro;0,08</td><td>2.000 leads is &euro;160</td></tr>
+          <tr><td>5.000 tot 9.999</td><td>&euro;0,06</td><td>5.000 leads is &euro;300</td></tr>
+          <tr><td>10.000 en meer</td><td>&euro;0,05</td><td>10.000 leads is &euro;500</td></tr>
         </tbody>
       </table>
     </div>
@@ -510,7 +506,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   </section>
 
   <section class="lz-sec" id="herkomst">
-    <h2 class="lz-h2">Waar de data vandaan komt</h2>
+    <h2 class="lz-h2">Waar de data <span class="blue">vandaan komt</span></h2>
     <p class="lz-sub">De meeste aanbieders vertellen je dit niet. Wij zetten het hier neer, omdat je het nodig hebt op het moment dat iemand je vraagt waar je zijn gegevens vandaan hebt.</p>
     <div class="lz-cards">
       <div class="card lz-card">
@@ -533,7 +529,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   </section>
 
   <section class="lz-sec" id="bestellen">
-    <h2 class="lz-h2">Zet je bestelling klaar</h2>
+    <h2 class="lz-h2">Zet je bestelling <span class="blue">klaar</span></h2>
     <p class="lz-sub">Beschrijf je doelgroep, dan sturen we eerst een telling en een prijs. Pas als je daarmee akkoord gaat, bouwen we de lijst. Je zit nergens aan vast voordat je ja zegt.</p>
     <form class="lz-form" id="lzForm" novalidate>
       <div class="lz-form-grid">
@@ -563,7 +559,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   </section>
 
   <section class="lz-sec" id="ofcampagne">
-    <h2 class="lz-h2">Of laat de hele campagne bij ons</h2>
+    <h2 class="lz-h2">Of laat <span class="blue">de hele campagne</span> bij ons</h2>
     <p class="lz-sub">Leads kopen is de goedkoopste manier om te beginnen, maar het is niet het werk. Het werk zit in de mailboxen, de opwarming, de teksten en het dagelijks opvolgen van reacties. Doe je dat liever niet zelf, dan nemen we het hele kanaal over.</p>
     <div class="lz-compare table-scroll prose">
       <table>
@@ -586,41 +582,41 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   </section>
 
   <section class="lz-sec" id="faq">
-    <h2 class="lz-h2">Veelgestelde vragen</h2>
+    <h2 class="lz-h2">Veelgestelde <span class="blue">vragen</span></h2>
     <div class="faq-list">
       <details class="faq-item">
         <summary>Mag ik deze leads zomaar mailen?</summary>
-        <div>Naar zakelijke ontvangers mag koude e-mail in Nederland zonder voorafgaande toestemming, mits je adressen gebruikt die het bedrijf zelf heeft bestemd om zakelijk benaderd te worden, je in elke mail duidelijk maakt wie je bent en je een werkend kanaal biedt om bezwaar te maken. Daarnaast geldt de AVG voor de gegevens zelf: je hebt een grondslag nodig, je moet kunnen vertellen waar de gegevens vandaan komen en je moet elk bezwaar direct verwerken. Wij leveren de herkomst per record mee zodat je dat kunt. De volledige uitleg staat in <a href="/kennis/mag-koude-email-nederland">Mag koude e-mail in Nederland?</a> Dit is geen juridisch advies.</div>
+        <div class="faq-body">Naar zakelijke ontvangers mag koude e-mail in Nederland zonder voorafgaande toestemming, mits je adressen gebruikt die het bedrijf zelf heeft bestemd om zakelijk benaderd te worden, je in elke mail duidelijk maakt wie je bent en je een werkend kanaal biedt om bezwaar te maken. Daarnaast geldt de AVG voor de gegevens zelf: je hebt een grondslag nodig, je moet kunnen vertellen waar de gegevens vandaan komen en je moet elk bezwaar direct verwerken. Wij leveren de herkomst per record mee zodat je dat kunt. De volledige uitleg staat in <a href="/kennis/mag-koude-email-nederland">Mag koude e-mail in Nederland?</a> Dit is geen juridisch advies.</div>
       </details>
       <details class="faq-item">
         <summary>Hoe weet ik dat de e-mailadressen kloppen?</summary>
-        <div>Elk adres gaat door een verificatie voordat het in je bestand komt. Adressen die niet te verifieren zijn, leveren we niet. In de praktijk komen we daarmee onder de 3 procent bounce uit. Zit je erboven, dan vullen we kosteloos aan.</div>
+        <div class="faq-body">Elk adres gaat door een verificatie voordat het in je bestand komt. Adressen die niet te verifieren zijn, leveren we niet. In de praktijk komen we daarmee onder de 3 procent bounce uit. Zit je erboven, dan vullen we kosteloos aan.</div>
       </details>
       <details class="faq-item">
         <summary>Wat als ik niet precies weet wie mijn doelgroep is?</summary>
-        <div>Beschrijf zo goed als het gaat wie je beste klanten nu zijn. Wij maken daar een selectie van en sturen eerst een telling, zodat je ziet hoeveel bedrijven erin passen voordat je iets afneemt. Blijkt de markt te klein voor koude e-mail, dan zeggen we dat ook.</div>
+        <div class="faq-body">Beschrijf zo goed als het gaat wie je beste klanten nu zijn. Wij maken daar een selectie van en sturen eerst een telling, zodat je ziet hoeveel bedrijven erin passen voordat je iets afneemt. Blijkt de markt te klein voor koude e-mail, dan zeggen we dat ook.</div>
       </details>
       <details class="faq-item">
         <summary>Krijg ik dezelfde leads als een ander?</summary>
-        <div>Je selectie kan overlappen met die van iemand anders, want een markt is een markt. Wat we wel doen: binnen jouw bestand zitten geen dubbelingen, en als je vaker bij ons afneemt, leveren we geen records die je al eerder hebt gehad.</div>
+        <div class="faq-body">Je selectie kan overlappen met die van iemand anders, want een markt is een markt. Wat we wel doen: binnen jouw bestand zitten geen dubbelingen, en als je vaker bij ons afneemt, leveren we geen records die je al eerder hebt gehad.</div>
       </details>
       <details class="faq-item">
         <summary>Kan ik het bestand in mijn eigen tool gebruiken?</summary>
-        <div>Ja. Je krijgt Excel of CSV met vaste kolomnamen, klaar voor Smartlead, Instantly, Apollo, Lemlist, HubSpot of Pipedrive. Wil je een andere kolomindeling, geef het door bij je bestelling.</div>
+        <div class="faq-body">Ja. Je krijgt Excel of CSV met vaste kolomnamen, klaar voor Smartlead, Instantly, Apollo, Lemlist, HubSpot of Pipedrive. Wil je een andere kolomindeling, geef het door bij je bestelling.</div>
       </details>
       <details class="faq-item">
         <summary>Hoe snel heb ik het bestand?</summary>
-        <div>Tot 5.000 leads binnen een werkdag na akkoord op de telling. Daarboven twee tot drie werkdagen, afhankelijk van hoeveel verrijking je erbij hebt gekozen.</div>
+        <div class="faq-body">Tot 5.000 leads binnen een werkdag na akkoord op de telling. Daarboven twee tot drie werkdagen, afhankelijk van hoeveel verrijking je erbij hebt gekozen.</div>
       </details>
       <details class="faq-item">
         <summary>Kan ik eerst iets kleins proberen?</summary>
-        <div>Ja, 250 leads is het minimum en dat is genoeg om te zien of de selectie klopt en of de adressen aankomen. Bevalt het, dan schaal je op in dezelfde selectie.</div>
+        <div class="faq-body">Ja, 500 leads is het minimum en dat is genoeg om te zien of de selectie klopt en of de adressen aankomen. Bevalt het, dan schaal je op in dezelfde selectie.</div>
       </details>
     </div>
   </section>
 
   <div class="page-cta">
-    <h2>Zeg wie je zoekt, dan zeggen wij hoeveel er zijn</h2>
+    <h2>Zeg wie je zoekt, dan zeggen wij <span class="blue">hoeveel er zijn</span></h2>
     <p>Je krijgt een telling en een prijs, binnen een werkdag, zonder dat je een gesprek hoeft in te plannen.</p>
     <div class="page-cta-btns">
       <a href="#bestellen" class="btn-solid">Vraag je telling aan</a>
@@ -646,6 +642,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 <ul class="l2f-links">
 <li><a href="/#zowerkthet">Zo werkt het</a></li>
 <li><a href="/cases">Cases en resultaten</a></li>
+<li><a href="/#reviews">Reviews van klanten</a></li>
 <li><a href="/#pakketten">Pakketten en prijzen</a></li>
 <li><a href="/leads">Losse leads kopen</a></li>
 <li><a href="/#marktscan">Gratis marktscan</a></li>
@@ -742,8 +739,8 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
       echo=document.getElementById('lzEcho'), presets=document.querySelectorAll('.lz-preset'),
       enrs=document.querySelectorAll('.lz-enr');
 
-  var TIERS=[{min:10000,p:0.10},{min:5000,p:0.12},{min:1000,p:0.15},{min:250,p:0.20}];
-  function tier(n){ for(var i=0;i<TIERS.length;i++){ if(n>=TIERS[i].min) return TIERS[i].p; } return 0.20; }
+  var TIERS=[{min:10000,p:0.05},{min:5000,p:0.06},{min:1000,p:0.08},{min:500,p:0.10}];
+  function tier(n){ for(var i=0;i<TIERS.length;i++){ if(n>=TIERS[i].min) return TIERS[i].p; } return 0.10; }
   function nf(n){ return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g,'.'); }
   function eur(n){ return '\u20AC'+nf(Math.round(n)); }
   function eur2(n){ return '\u20AC'+n.toFixed(2).replace('.',','); }
@@ -751,7 +748,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   var state={vol:2000,total:0,perLead:0,opts:[]};
 
   function render(){
-    var n=parseInt(vol.value,10)||250;
+    var n=parseInt(vol.value,10)||500;
     var base=tier(n), baseTotal=n*base, extra=0, opts=[], html='';
     html+='<li><span>Basis, '+nf(n)+' leads</span><span>'+eur(baseTotal)+'</span></li>';
     enrs.forEach(function(c){
