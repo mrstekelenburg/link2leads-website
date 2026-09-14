@@ -307,6 +307,17 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
 #bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;display:block;}
 body > *:not(#bg-canvas):not(nav):not(footer ~ *){position:relative;z-index:1;}
 @media(prefers-reduced-motion:reduce){#bg-canvas{display:none;}}
+
+/* ── Blauwe accenten in koppen: verloop van blauw naar lichtblauw, overal gelijk ── */
+html body .blue{
+  background:linear-gradient(135deg,#2F6FED 0%,#7EB3FF 100%) !important;
+  -webkit-background-clip:text !important;background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;color:transparent !important;}
+/* de 2 in de merknaam blijft een vlakke kleur */
+html body .l2b i{background:none !important;-webkit-text-fill-color:#2F6FED !important;color:#2F6FED !important;}
+html body .btn-solid .l2b i,html body .cs-sticker .l2b i,html body .ct-sticker .l2b i,
+html body .l2b-onblue .l2b i,html body [class*="btn-primary"] .l2b i{
+  -webkit-text-fill-color:#BFD4FF !important;color:#BFD4FF !important;}
 </style>
 </head>
 <body>

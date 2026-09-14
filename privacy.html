@@ -195,6 +195,17 @@ section, main, .page-wrap, .content-wrap, .calc-wrap, .book-wrap {
 /* ── CANVAS BG OVERRIDE ── */
 html { background: #08090C !important; }
 body { background: transparent !important; color: #F0EFED; }
+
+/* ── Blauwe accenten in koppen: verloop van blauw naar lichtblauw, overal gelijk ── */
+html body .blue{
+  background:linear-gradient(135deg,#2F6FED 0%,#7EB3FF 100%) !important;
+  -webkit-background-clip:text !important;background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;color:transparent !important;}
+/* de 2 in de merknaam blijft een vlakke kleur */
+html body .l2b i{background:none !important;-webkit-text-fill-color:#2F6FED !important;color:#2F6FED !important;}
+html body .btn-solid .l2b i,html body .cs-sticker .l2b i,html body .ct-sticker .l2b i,
+html body .l2b-onblue .l2b i,html body [class*="btn-primary"] .l2b i{
+  -webkit-text-fill-color:#BFD4FF !important;color:#BFD4FF !important;}
 </style>
 <style>
 html body nav .nav-inner a.nav-logo,
