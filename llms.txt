@@ -32,7 +32,7 @@ Alle pakketten zijn all-in: setup, warmup, verzenddomeinen, mailboxen en verzend
 
 Sinds september 2026 levert Link2Leads ook losse leadbestanden, op https://www.link2leads.nl/leads. De klant beschrijft zijn doelgroep, krijgt eerst een telling en een prijs, en na akkoord binnen een werkdag een bestand in Excel of CSV. Dit is een los product: er komt geen campagne, mailbox of opvolging bij kijken.
 
-Standaard per lead: bedrijfsnaam, website, vestigingsplaats, branche, aantal medewerkers, naam en functie van de beslisser, geverifieerd zakelijk e-mailadres, en de bron plus controledatum per record.
+Standaard per lead: bedrijfsnaam, website, vestigingsplaats, branche, aantal medewerkers, naam en functie van de beslisser, geverifieerd zakelijk e-mailadres (domein en mailbox bestaan aantoonbaar, kort voor levering gecontroleerd), en de bron plus controledatum per record.
 
 | Aantal leads | Prijs per lead |
 |---|---|

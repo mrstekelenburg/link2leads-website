@@ -262,6 +262,12 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 .lz-preset:hover{background:rgba(255,255,255,.09);color:var(--white);}
 .lz-preset.is-on{background:rgba(47,111,237,.16);border-color:rgba(47,111,237,.45);color:#fff;}
 .lz-hint{font-size:13.5px;line-height:1.6;color:var(--muted);margin:14px 0 0;}
+.lz-ladder{list-style:none;margin:18px 0 0;padding:16px 0 0;border-top:1px solid var(--border);
+  display:grid;grid-template-columns:1fr 1fr;gap:10px 28px;}
+.lz-ladder li{display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:14.5px;}
+.lz-ladder span{color:rgba(240,239,237,.62);}
+.lz-ladder b{font-weight:700;color:var(--white);}
+@media(max-width:560px){.lz-ladder{grid-template-columns:1fr;}}
 
 .lz-incl{list-style:none;margin:0;padding:0;display:grid;gap:9px;}
 .lz-incl li{position:relative;padding-left:26px;font-size:14.5px;line-height:1.6;color:rgba(240,239,237,.78);}
@@ -451,13 +457,13 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 <main class="page-wrap page-wide">
   <div class="crumb"><a href="/"><span class="l2b">Link<i>2</i>Leads</span></a> / Leads kopen</div>
   <h1 class="page-h">Leads kopen waar je <span class="blue">meteen mee kunt mailen</span></h1>
-  <p class="page-lede">Je geeft op wie je zoekt, wij bouwen de lijst. Bedrijf, beslisser en een geverifieerd zakelijk e-mailadres, met de bron per record. Binnen een werkdag in je mailbox als Excel of CSV.</p>
+  <p class="page-lede">Zeg wie je zoekt, dan tellen wij eerst hoeveel geschikte bedrijven er zijn. Daarna bouwen we de lijst: bedrijf, beslisser en een geverifieerd zakelijk e-mailadres, met de bron per record. Binnen een werkdag in je mailbox als Excel of CSV.</p>
 
   <div class="lz-stats">
     <div class="lz-stat"><span class="lz-stat-v">vanaf &euro;0,05</span><span class="lz-stat-l">per geleverde lead</span></div>
     <div class="lz-stat"><span class="lz-stat-v">1 werkdag</span><span class="lz-stat-l">van bestelling tot bestand</span></div>
     <div class="lz-stat"><span class="lz-stat-v">max 3%</span><span class="lz-stat-l">bounce, of we vullen aan</span></div>
-    <div class="lz-stat"><span class="lz-stat-v">170+</span><span class="lz-stat-l">eigen mailboxen die er dagelijks op draaien</span></div>
+    <div class="lz-stat"><span class="lz-stat-v">Bron per record</span><span class="lz-stat-l">je weet waar elk adres vandaan komt</span></div>
   </div>
 
   <section class="lz-sec" id="samenstellen">
@@ -480,7 +486,13 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
             <button type="button" class="lz-preset" data-vol="25000">25.000</button>
             <button type="button" class="lz-preset" data-vol="50000">50.000</button>
           </div>
-          <p class="lz-hint">Staffel: &euro;0,10 tot 999 leads, &euro;0,08 vanaf 1.000, &euro;0,06 vanaf 5.000 en &euro;0,05 vanaf 10.000. Minimaal 500 leads, meer dan 50.000 op offerte.</p>
+          <ul class="lz-ladder">
+            <li><span>500 leads</span><b>&euro;50</b></li>
+            <li><span>2.000 leads</span><b>&euro;160</b></li>
+            <li><span>5.000 leads</span><b>&euro;300</b></li>
+            <li><span>10.000 leads</span><b>&euro;500</b></li>
+          </ul>
+          <p class="lz-hint">Hoe meer leads, hoe lager de prijs per stuk: van &euro;0,10 naar &euro;0,05. Verrijking komt hier per lead bovenop. Minimaal 500 leads, meer dan 50.000 op offerte.</p>
         </div>
 
         <div class="lz-field">
@@ -488,7 +500,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
           <ul class="lz-incl">
             <li>Bedrijfsnaam, website, plaats, branche en aantal medewerkers</li>
             <li>Naam en functie van de beslisser</li>
-            <li>Geverifieerd zakelijk e-mailadres</li>
+            <li>Geverifieerd zakelijk e-mailadres: het domein en de mailbox bestaan aantoonbaar en zijn kort voor levering gecontroleerd</li>
             <li>Bron en controledatum per record</li>
           </ul>
         </div>
@@ -507,6 +519,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
               <input type="checkbox" class="lz-enr" data-price="0.03" data-name="Telefoonnummer">
               <span class="lz-opt-b">
                 <span class="lz-opt-t">Telefoonnummer van het bedrijf</span>
+                <span class="lz-opt-d">Niet elk bedrijf publiceert een nummer. Wat we niet vinden, brengen we niet in rekening.</span>
               </span>
               <span class="lz-opt-p">+&euro;0,03</span>
             </label>
@@ -530,7 +543,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
             <span class="lz-sum-per" id="lzPer">&euro;0,08 per lead, exclusief btw</span>
           </div>
           <ul class="lz-sum-rows" id="lzRows"></ul>
-          <a class="btn-solid lz-sum-btn" href="#bestellen" id="lzGo">Zet deze bestelling klaar</a>
+          <a class="btn-solid lz-sum-btn" href="#bestellen" id="lzGo">Vraag je telling aan</a>
           <p class="lz-sum-note">Bouncet er meer dan 3 procent, dan vullen we kosteloos aan. Je tegoed blijft twaalf maanden geldig.</p>
         </div>
       </aside>
@@ -559,7 +572,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     <div class="lz-cards">
       <div class="card lz-card">
         <h3>Bron per record</h3>
-        <p>Bij elke lead staat waar het adres vandaan komt en wanneer we het hebben gecontroleerd. Alleen zakelijke adressen die bedrijven zelf publiceren, geen priveadressen en geen doorverkoop van Handelsregistergegevens.</p>
+        <p>Bij elke lead staat waar het adres vandaan komt en wanneer we het hebben gecontroleerd. We verzamelen uitsluitend zakelijke contactgegevens die bedrijven zelf op hun site publiceren. Geen priveadressen en geen doorverkoop van Handelsregistergegevens. Of je die adressen voor jouw aanbod mag gebruiken, beoordeel je zelf aan de hand van de regels.</p>
       </div>
       <div class="card lz-card">
         <h3>Bezwaren zitten er al uit</h3>
@@ -574,7 +587,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   </figure>
 
   <section class="lz-sec" id="bestellen">
-    <h2 class="lz-h2">Zet je bestelling <span class="blue">klaar</span></h2>
+    <h2 class="lz-h2">Vraag je <span class="blue">telling aan</span></h2>
     <p class="lz-sub">Je krijgt eerst een telling en een prijs. Pas als je daarmee akkoord gaat, bouwen we de lijst.</p>
     <form class="lz-form" id="lzForm" novalidate>
       <div class="lz-form-grid">
@@ -597,7 +610,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
       </div>
       <div class="lz-conf-echo" id="lzEcho" aria-live="polite"></div>
       <div class="lz-hp"><label>Laat dit veld leeg<input name="website" tabindex="-1" autocomplete="off"></label></div>
-      <button class="btn-solid" id="lzSubmit" type="submit">Vraag de telling en prijs aan</button>
+      <button class="btn-solid" id="lzSubmit" type="submit">Vraag je telling aan</button>
       <div class="lz-msg" id="lzMsg" role="status" aria-live="polite"></div>
       <p class="small-note" style="margin-top:14px;">Antwoord binnen een werkdag. Liever meteen bellen? 085 080 5381.</p>
     </form>
@@ -605,16 +618,15 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 
   <section class="lz-sec" id="ofcampagne">
     <h2 class="lz-h2">Of laat <span class="blue">de hele campagne</span> bij ons</h2>
-    <p class="lz-sub">Het werk zit niet in de lijst, maar in de mailboxen, de teksten en het dagelijks opvolgen van reacties. Doe je dat liever niet zelf, dan nemen we het hele kanaal over.</p>
+    <p class="lz-sub">Zelf je leads verzamelen kost tijd, en zelf mailen kost meer tijd. Wij leveren een startklare lijst, of we nemen het hele kanaal over.</p>
     <div class="lz-compare table-scroll prose">
       <table>
         <thead>
-          <tr><th>&nbsp;</th><th>Leads kopen</th><th>Volledig beheerde campagne</th></tr>
+          <tr><th>&nbsp;</th><th>Leads kopen</th><th>Campagne uitbesteden</th></tr>
         </thead>
         <tbody>
-          <tr><td>Je krijgt</td><td>Een geverifieerd bestand</td><td>Gesprekken in je agenda</td></tr>
-          <tr><td>Wie mailt</td><td>Jij, met je eigen systeem</td><td>Wij, namens jou</td></tr>
-          <tr><td>Mailboxen, teksten, opvolging</td><td>Regel je zelf</td><td>Inbegrepen</td></tr>
+          <tr><td>Je krijgt</td><td>Een startklare prospectlijst</td><td>Nieuwe gesprekken in je agenda</td></tr>
+          <tr><td>Jij doet</td><td>Mailen en opvolgen</td><td>Alleen de gesprekken voeren</td></tr>
           <tr><td>Vanaf</td><td>&euro;50 eenmalig</td><td>&euro;995 per maand</td></tr>
         </tbody>
       </table>
@@ -642,7 +654,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
       </details>
       <details class="faq-item">
         <summary>Krijg ik dezelfde leads als een ander?</summary>
-        <div class="faq-body">Je selectie kan overlappen met die van iemand anders, want een markt is een markt. Binnen jouw bestand zitten geen dubbelingen, en neem je vaker af, dan leveren we geen records die je al hebt gehad.</div>
+        <div class="faq-body">Niet standaard. We houden per klant bij welke bedrijven we al hebben geleverd, dus binnen jouw bestand zitten geen dubbelingen en je krijgt nooit records die je eerder van ons hebt gehad. Wil je exclusiviteit op een specifieke doelgroep of regio, dan spreken we dat vooraf af en leggen we het vast.</div>
       </details>
       <details class="faq-item">
         <summary>Kan ik het bestand in mijn eigen tool gebruiken?</summary>
@@ -652,7 +664,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   </section>
 
   <div class="page-cta">
-    <h2>Zeg wie je zoekt, dan zeggen wij <span class="blue">hoeveel er zijn</span></h2>
+    <h2>Begin bij de vraag <span class="blue">hoeveel er zijn</span></h2>
     <p>Je krijgt een telling en een prijs, binnen een werkdag, zonder dat je een gesprek hoeft in te plannen.</p>
     <div class="page-cta-btns">
       <a href="#bestellen" class="btn-solid">Vraag je telling aan</a>
