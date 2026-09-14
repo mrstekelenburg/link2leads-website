@@ -3,6 +3,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/WIJZIGINGEN.md",
+      "destination": "/",
+      "permanent": false
+    },
+    {
       "source": "/diensten",
       "destination": "/#pakketten",
       "permanent": true
