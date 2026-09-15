@@ -353,6 +353,8 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 .lz-sum-rows li span:last-child{color:var(--white);font-weight:600;white-space:nowrap;}
 .lz-sum-btn{width:100%;justify-content:center;}
 .lz-sum-note{font-size:13px;line-height:1.6;color:var(--muted);margin:14px 0 0;}
+.lz-sum-incl{display:block;font-size:13px;color:rgba(240,239,237,.55);margin-top:2px;}
+.lz-sum-cta{display:grid;gap:10px;}
 
 /* Kaarten herkomst */
 .lz-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
@@ -437,6 +439,9 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   .lz-sum-rows{display:none;}
   .lz-sum-note{display:none;}
   .lz-sum-btn{width:auto;flex:0 0 auto;padding:11px 16px;font-size:14px;white-space:nowrap;}
+  .lz-sum-incl{display:none;}
+  .lz-sum-cta{display:contents;}
+  .lz-sum-btn-alt{display:none;}
 
 }
 
@@ -697,13 +702,15 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
         <div class="lz-sum" id="lzSum">
           <div class="lz-sum-top">
             <span class="lz-sum-lab">Totaal</span>
-            <span class="lz-sum-tot" id="lzTotal">&euro;160</span>
-            <span class="lz-sum-per" id="lzPer">&euro;0,08 per lead, exclusief btw</span>
+            <span class="lz-sum-tot" id="lzTotal">&euro;300</span>
+            <span class="lz-sum-per" id="lzPer">&euro;0,15 per lead, exclusief btw</span>
+            <span class="lz-sum-incl" id="lzIncl"></span>
           </div>
           <ul class="lz-sum-rows" id="lzRows"></ul>
-          <p class="lz-sum-per" id="lzIncl" style="margin:0 0 12px;"></p>
-          <a class="btn-solid lz-sum-btn" href="#bestellen" id="lzPayGo">Reken direct af</a>
-          <a class="btn-ghost lz-sum-btn" href="#bestellen" id="lzGo" style="margin-top:8px;">Of vraag eerst een telling aan</a>
+          <div class="lz-sum-cta">
+            <a class="btn-solid lz-sum-btn" href="#bestellen" id="lzPayGo">Reken direct af</a>
+            <a class="btn-ghost lz-sum-btn lz-sum-btn-alt" href="#bestellen" id="lzGo">Of vraag eerst een telling aan</a>
+          </div>
           <p class="lz-sum-note">Blijkt je doelgroep kleiner dan het aantal dat je koopt, dan leveren we wat er is en storten we het verschil binnen vijf werkdagen terug. Bouncet er meer dan 3 procent, dan vullen we kosteloos aan.</p>
         </div>
       </aside>
@@ -1161,7 +1168,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     if(incl) incl.textContent=eur(c.inc)+' inclusief btw';
     var kan = c.ex>=MIN_DIRECT && c.ex<=MAX_DIRECT;
     if(payBtn){
-      payBtn.textContent = kan ? ('Reken direct af, '+eur(c.inc)) : 'Reken direct af';
+      payBtn.textContent = 'Reken direct af';
       payBtn.disabled=!kan;
       payBtn.style.opacity = kan?'1':'.5';
     }
@@ -1170,7 +1177,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
         : c.ex>MAX_DIRECT ? 'Bij dit bedrag doen we eerst een telling en sturen we een factuur.'
         : 'Je betaalt met iDEAL. Daarna bouwen wij het bestand en leveren binnen een werkdag.';
     }
-    if(payGo){ payGo.textContent = kan ? ('Reken direct af, '+eur(c.inc)) : 'Vraag je telling aan'; }
+    if(payGo){ payGo.textContent = kan ? 'Reken direct af' : 'Vraag je telling aan'; if(payGo.parentNode) payGo.style.display=''; }
   }
   vol.addEventListener('input',render);
   document.querySelectorAll('.lz-preset').forEach(function(b){ b.addEventListener('click',function(){ setTimeout(render,0); }); });
