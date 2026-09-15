@@ -708,8 +708,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
           </div>
           <ul class="lz-sum-rows" id="lzRows"></ul>
           <div class="lz-sum-cta">
-            <a class="btn-solid lz-sum-btn" href="#bestellen" id="lzPayGo">Reken direct af</a>
-            <a class="btn-ghost lz-sum-btn lz-sum-btn-alt" href="#bestellen" id="lzGo">Of vraag eerst een telling aan</a>
+            <a class="btn-solid lz-sum-btn" href="#bestellen" id="lzGo">Vraag je telling aan</a>
           </div>
           <p class="lz-sum-note">Blijkt je doelgroep kleiner dan het aantal dat je koopt, dan leveren we wat er is en storten we het verschil binnen vijf werkdagen terug. Bouncet er meer dan 3 procent, dan vullen we kosteloos aan.</p>
         </div>
@@ -1151,7 +1150,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
    api/leads-checkout.js rekent hem opnieuw uit en dat bedrag gaat naar Mollie. */
 (function(){
   var vol=document.getElementById('lzVol'); if(!vol) return;
-  var payBtn=document.getElementById('lzPay'), payGo=document.getElementById('lzPayGo'),
+  var payBtn=document.getElementById('lzPay'), payGo=null,
       note=document.getElementById('lzPayNote'), incl=document.getElementById('lzIncl'),
       msg=document.getElementById('lzMsg'), f=document.getElementById('lzForm');
   var TIERS=[{min:10000,p:0.10},{min:5000,p:0.12},{min:1000,p:0.15},{min:500,p:0.20}];
@@ -1177,7 +1176,6 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
         : c.ex>MAX_DIRECT ? 'Bij dit bedrag doen we eerst een telling en sturen we een factuur.'
         : 'Je betaalt met iDEAL. Daarna bouwen wij het bestand en leveren binnen een werkdag.';
     }
-    if(payGo){ payGo.textContent = kan ? 'Reken direct af' : 'Vraag je telling aan'; if(payGo.parentNode) payGo.style.display=''; }
   }
   vol.addEventListener('input',render);
   document.querySelectorAll('.lz-preset').forEach(function(b){ b.addEventListener('click',function(){ setTimeout(render,0); }); });
