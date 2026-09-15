@@ -2239,9 +2239,12 @@ a.l2f-sis:hover > svg{color:#5B8FF5;transform:translate(2px,-2px);}
   margin-top:26px;padding-top:22px;border-top:1px solid rgba(255,255,255,.07);
   font-size:13px;line-height:1.6;color:rgba(240,239,237,.46);}
 
-.l2f-legal{display:flex;flex-wrap:wrap;gap:4px 0;font-style:normal;}
-.l2f-legal > span{padding:0 14px;border-left:1px solid rgba(255,255,255,.12);}
-.l2f-legal > span:first-child{padding-left:0;border-left:0;}
+.l2f-legal{display:block;font-style:normal;}
+.l2f-legal > span{display:block;}
+.l2f-legal > span + span{margin-top:6px;}
+.l2f-legal .l2f-i{white-space:nowrap;}
+.l2f-legal .l2f-dot{padding:0 9px;color:rgba(255,255,255,.24);}
+.l2f-legal a .l2b i{display:inline;padding:0;margin:0;}
 .l2f-legal a{text-decoration:underline;text-decoration-color:rgba(255,255,255,.2);text-underline-offset:3px;}
 .l2f-legal a:hover{text-decoration-color:currentColor;}
 
@@ -2260,8 +2263,9 @@ a.l2f-sis:hover > svg{color:#5B8FF5;transform:translate(2px,-2px);}
   .l2f-top > div:last-child{grid-column:1 / -1;}
   .l2f-group{grid-template-columns:1fr;padding:18px;}
   .l2f-bottom{flex-direction:column;align-items:flex-start;}
-  .l2f-legal{flex-direction:column;}
-  .l2f-legal > span{padding:0;border-left:0;}
+  .l2f-legal .l2f-dot{display:none;}
+  .l2f-legal .l2f-i{display:block;}
+  .l2f-legal .l2f-i + .l2f-i{margin-top:4px;}
 }
 
 /* ── 3. Menubalk (class l2n), identiek op elke pagina ── */
@@ -3339,20 +3343,33 @@ Bel ons: 085 080 5381
 <style>
   .l2leads-band{padding:0 24px 90px;}
   .l2lb-wrap{max-width:1000px;margin:0 auto;background:var(--card-bg);border:1px solid var(--border);
-    border-radius:22px;padding:36px 38px;display:grid;grid-template-columns:1.25fr 1fr;gap:34px;align-items:center;}
+    border-radius:22px;padding:36px 38px;display:grid;grid-template-columns:1.15fr 1fr;gap:0;align-items:stretch;}
+  .l2lb-wrap > div:first-child{display:flex;flex-direction:column;justify-content:center;padding-right:34px;}
   .l2lb-head{max-width:1000px;margin:0 auto 26px;text-align:center;}
-  .l2lb-wrap > div > p{font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.72);margin:0 0 18px;max-width:520px;}
+  .l2lb-wrap > div > p{font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.72);margin:0 0 20px;}
   .l2lb-btns{display:flex;flex-wrap:wrap;gap:12px;}
-  .l2lb-side{border-left:1px solid var(--border);padding-left:30px;}
+  .l2lb-side{border-left:1px solid var(--border);padding-left:34px;display:flex;flex-direction:column;justify-content:center;}
   .l2lb-price{font-size:clamp(30px,4vw,38px);font-weight:800;letter-spacing:-1.4px;color:var(--white);line-height:1;}
   .l2lb-price span{font-size:15px;font-weight:600;color:var(--muted);letter-spacing:0;}
   .l2lb-list{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:9px;}
   .l2lb-list li{position:relative;padding-left:24px;font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.75);}
   .l2lb-list li::before{content:"";position:absolute;left:0;top:7px;width:13px;height:7px;
     border-left:2px solid var(--accent2);border-bottom:2px solid var(--accent2);transform:rotate(-45deg);}
-  @media(max-width:860px){
-    .l2lb-wrap{grid-template-columns:1fr;padding:28px 24px;gap:24px;}
+  /* Twee kolommen blijven tot een telefoonbreedte; alleen daaronder stapelen ze. */
+  @media(max-width:900px){
+    .l2lb-wrap{grid-template-columns:1fr 0.95fr;padding:30px 28px;}
+    .l2lb-wrap > div:first-child{padding-right:26px;}
+    .l2lb-side{padding-left:26px;}
+    .l2lb-wrap > div > p{font-size:15px;line-height:1.65;}
+    .l2lb-price{font-size:30px;}
+    .l2lb-price span{display:block;margin-top:6px;font-size:14px;}
+    .l2lb-list li{font-size:14px;}
+  }
+  @media(max-width:620px){
+    .l2lb-wrap{grid-template-columns:1fr;padding:26px 22px;}
+    .l2lb-wrap > div:first-child{padding-right:0;padding-bottom:24px;}
     .l2lb-side{border-left:0;border-top:1px solid var(--border);padding-left:0;padding-top:24px;}
+    .l2lb-price span{display:inline;margin:0;font-size:15px;}
   }
 </style>
 <div class="l2lb-head reveal">
@@ -3640,7 +3657,7 @@ Bel ons: 085 080 5381
 <div class="l2f-wrap">
 <div class="l2f-top">
 <div class="l2f-brand">
-<a aria-label="Link2Leads, naar de homepage" class="l2f-logo" href="/"><span class="l2b"><span class="l2b">Link<i>2</i>Leads</span></span></a>
+<a aria-label="Link2Leads, naar de homepage" class="l2f-logo" href="/"><span class="l2b">Link<i>2</i>Leads</span></a>
 <p class="l2f-tag">Koude acquisitie per e-mail, geregeld door ons. We zoeken bedrijven die bij je passen, mailen ze namens jou en sturen positieve reacties door naar jouw mailbox.</p>
 <ul class="l2f-contact">
 <li><a href="mailto:info@link2leads.nl"><span class="l2f-ico"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24"><rect height="15" rx="2.5" width="19" x="2.5" y="4.5"></rect><path d="m3 7 8.13 5.42a1.6 1.6 0 0 0 1.74 0L21 7"></path></svg></span>info@link2leads.nl</a></li>
@@ -3684,12 +3701,10 @@ Bel ons: 085 080 5381
 </div>
 </div>
 <div class="l2f-bottom">
-<span>&copy; 2026 <span class="l2b"><span class="l2b">Link<i>2</i>Leads</span></span>. Alle rechten voorbehouden.</span>
+<span>&copy; 2026 <span class="l2b">Link<i>2</i>Leads</span>. Alle rechten voorbehouden.</span>
 <address class="l2f-legal">
-<span><span class="l2b"><span class="l2b">Link<i>2</i>Leads</span></span> is een dienst van <a href="https://link2group.nl" rel="noopener" target="_blank"><span class="l2b"><span class="l2b">Link<i>2</i>Group</span></span></a></span>
-<span>Frederik Hendrikstraat 59H, 1052 HL Amsterdam</span>
-<span>KvK 42025671</span>
-<span>BTW NL003697236B23</span>
+<span><span class="l2b">Link<i>2</i>Leads</span> is een dienst van <a href="https://link2group.nl" rel="noopener" target="_blank"><span class="l2b">Link<i>2</i>Group</span></a></span>
+<span><span class="l2f-i">Frederik Hendrikstraat 59H, 1052 HL Amsterdam</span><span class="l2f-dot">&middot;</span><span class="l2f-i">KvK 42025671</span><span class="l2f-dot">&middot;</span><span class="l2f-i">BTW NL003697236B23</span></span>
 </address>
 </div>
 </div>

@@ -319,9 +319,12 @@ a.l2f-sis:hover > svg{color:#5B8FF5;transform:translate(2px,-2px);}
   margin-top:26px;padding-top:22px;border-top:1px solid rgba(255,255,255,.07);
   font-size:13px;line-height:1.6;color:rgba(240,239,237,.46);}
 
-.l2f-legal{display:flex;flex-wrap:wrap;gap:4px 0;font-style:normal;}
-.l2f-legal > span{padding:0 14px;border-left:1px solid rgba(255,255,255,.12);}
-.l2f-legal > span:first-child{padding-left:0;border-left:0;}
+.l2f-legal{display:block;font-style:normal;}
+.l2f-legal > span{display:block;}
+.l2f-legal > span + span{margin-top:6px;}
+.l2f-legal .l2f-i{white-space:nowrap;}
+.l2f-legal .l2f-dot{padding:0 9px;color:rgba(255,255,255,.24);}
+.l2f-legal a .l2b i{display:inline;padding:0;margin:0;}
 .l2f-legal a{text-decoration:underline;text-decoration-color:rgba(255,255,255,.2);text-underline-offset:3px;}
 .l2f-legal a:hover{text-decoration-color:currentColor;}
 
@@ -340,8 +343,9 @@ a.l2f-sis:hover > svg{color:#5B8FF5;transform:translate(2px,-2px);}
   .l2f-top > div:last-child{grid-column:1 / -1;}
   .l2f-group{grid-template-columns:1fr;padding:18px;}
   .l2f-bottom{flex-direction:column;align-items:flex-start;}
-  .l2f-legal{flex-direction:column;}
-  .l2f-legal > span{padding:0;border-left:0;}
+  .l2f-legal .l2f-dot{display:none;}
+  .l2f-legal .l2f-i{display:block;}
+  .l2f-legal .l2f-i + .l2f-i{margin-top:4px;}
 }
 
 /* ── 3. Menubalk (class l2n), identiek op elke pagina ── */
