@@ -375,6 +375,8 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   border-radius:0 12px 12px 0;font-size:14px;line-height:1.65;color:rgba(240,239,237,.78);}
 .lz-conf-echo strong{color:var(--white);}
 .lz-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
+.lz-sup{display:flex;gap:11px;align-items:flex-start;font-size:14px;line-height:1.55;color:var(--muted);cursor:pointer;font-weight:500;}
+.lz-sup input{margin:4px 0 0;flex-shrink:0;}
 .lz-msg{margin-top:14px;font-size:14.5px;line-height:1.6;min-height:1px;}
 .lz-msg.ok{color:#4ADE80;}
 .lz-msg.err{color:#F87171;}
@@ -589,6 +591,31 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     <div class="lz-stat"><span class="lz-stat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h4"/></svg></span><span class="lz-stat-t"><b>Bron per record</b><span>je weet waar elk adres vandaan komt</span></span></div>
   </div>
 
+  <section class="lz-sec" id="sample">
+    <h2 class="lz-h2">Eerst <span class="blue">10 leads gratis</span></h2>
+    <p class="lz-sub">Zeg welke bedrijven je wil bereiken en je krijgt tien geschikte bedrijven uit die doelgroep, met beslisser en geverifieerd zakelijk e-mailadres. Zo zie je zelf wat je van ons krijgt voordat je een grotere lijst bestelt. Eenmalig per bedrijf.</p>
+    <form class="lz-form" id="lzSample" novalidate>
+      <div class="lz-form-grid">
+        <div class="lz-f">
+          <label for="lzsEmail">Zakelijk e-mailadres</label>
+          <input id="lzsEmail" name="email" type="email" autocomplete="email" placeholder="naam@bedrijf.nl" required>
+        </div>
+        <div class="lz-f">
+          <label for="lzsSite">Je website</label>
+          <input id="lzsSite" name="site" type="text" placeholder="jouwbedrijf.nl">
+        </div>
+        <div class="lz-f lz-f-wide">
+          <label for="lzsTarget">Wie wil je bereiken?</label>
+          <textarea id="lzsTarget" name="target" rows="3" placeholder="Bijvoorbeeld: schoonmaakbedrijven in Zuid-Holland met 5 tot 50 medewerkers, gericht op de eigenaar." required></textarea>
+        </div>
+      </div>
+      <div class="lz-hp"><label>Laat dit veld leeg<input name="website" tabindex="-1" autocomplete="off"></label></div>
+      <button class="btn-solid" id="lzsSubmit" type="submit">Stuur mij 10 gratis leads</button>
+      <div class="lz-msg" id="lzsMsg" role="status" aria-live="polite"></div>
+      <p class="small-note" style="margin-top:14px;">Je krijgt ze binnen een werkdag. Geen abonnement, geen telefoontje achteraf.</p>
+    </form>
+  </section>
+
   <section class="lz-sec" id="samenstellen">
     <h2 class="lz-h2">Stel je bestelling <span class="blue">zelf samen</span></h2>
     <p class="lz-sub">Schuif naar het aantal dat je nodig hebt en vink aan wat er per lead bij moet. De prijs rekent direct mee.</p>
@@ -732,6 +759,10 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
         <div class="lz-f lz-f-wide">
           <label for="lzTarget">Wie wil je bereiken?</label>
           <textarea id="lzTarget" name="target" rows="3" placeholder="Bijvoorbeeld: technische groothandels in Nederland met 10 tot 100 medewerkers, gericht op de eigenaar of commercieel manager." required></textarea>
+        </div>
+        <div class="lz-f lz-f-wide">
+          <label class="lz-sup"><input type="checkbox" id="lzSup">
+            <span>Ik heb al een lijst met bestaande contacten en stuur die mee. Dan sluiten we die uit, zodat er niets in je bestand staat wat je al hebt. We gebruiken die lijst alleen om te ontdubbelen en verwijderen hem daarna.</span></label>
         </div>
       </div>
       <div class="lz-conf-echo" id="lzEcho" aria-live="polite"></div>
@@ -960,8 +991,10 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ show('err','Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.'); elMail.focus(); return; }
     if(!target){ show('err','Beschrijf kort wie je wil bereiken.'); elTarg.focus(); return; }
 
+    var sup=document.getElementById('lzSup');
     var q=[
       'Doelgroep: '+target,
+      (sup&&sup.checked)?'Stuurt een suppressielijst mee met bestaande contacten.':'',
       '',
       'Samenstelling uit de configurator:',
       '- Aantal leads: '+nf(state.vol),
@@ -978,7 +1011,9 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
       .then(function(r){
         if(r.ok&&r.d.ok){
           f.reset();
-          show('ok','Dank je. Je aanvraag staat klaar. Je krijgt binnen een werkdag de telling en de prijs in je mailbox.');
+          show('ok',(sup&&sup.checked)
+            ? 'Dank je. Je krijgt binnen een werkdag de telling en de prijs. Mail je contactenlijst naar info@link2leads.nl, dan sluiten we die uit.'
+            : 'Dank je. Je aanvraag staat klaar. Je krijgt binnen een werkdag de telling en de prijs in je mailbox.');
           btn.textContent='Aangevraagd';
           if(window.l2lTrack) l2lTrack('leads_order_submitted',{ref:r.d.ref||'',volume:state.vol,total:state.total});
         } else {
@@ -1052,5 +1087,42 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 </style>
 <a id="l2l-fab" href="https://wa.me/31850805381?text=Hoi%20Link2Leads%2C%20ik%20heb%20een%20vraag." target="_blank" rel="noopener" title="WhatsApp: 085 080 5381" aria-label="Stuur ons een WhatsApp-bericht" onclick="if(window.l2lTrack)l2lTrack('whatsapp_click');"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.79-1.67-2.09-.18-.3-.02-.47.13-.62.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.61-.93-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.45 0 1.45 1.06 2.85 1.21 3.05.15.2 2.09 3.19 5.06 4.47.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35zM12.04 21.5h-.01c-1.75 0-3.47-.47-4.98-1.36l-.36-.21-3.7.97.99-3.62-.23-.37a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.45-9.43 2.52 0 4.89.98 6.67 2.76a9.37 9.37 0 0 1 2.77 6.68c0 5.2-4.24 9.42-9.43 9.42zM20.5 3.49A11.8 11.8 0 0 0 12.04 0C5.49 0 .16 5.33.16 11.88c0 2.09.55 4.13 1.59 5.93L0 24l6.34-1.66a11.83 11.83 0 0 0 5.69 1.45h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.24-6.16-3.42-8.42z"/></svg></a>
 <script>if(location.search.indexOf('debug')>-1){var d=document.createElement('script');d.src='/assets/l2l-check.js';document.body.appendChild(d);}</script>
+<script>
+/* Gratis sample: zakelijk e-mailadres plus doelgroep, verder niets. */
+(function(){
+  var f=document.getElementById('lzSample'); if(!f) return;
+  var mail=document.getElementById('lzsEmail'), site=document.getElementById('lzsSite'),
+      targ=document.getElementById('lzsTarget'), btn=document.getElementById('lzsSubmit'),
+      msg=document.getElementById('lzsMsg'), hp=f.querySelector('input[name="website"]');
+  function show(kind,txt){ msg.className='lz-msg '+kind; msg.textContent=txt; }
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var m=(mail.value||'').trim(), t=(targ.value||'').trim(), w=(site.value||'').trim();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(m)){ show('err','Vul een geldig zakelijk e-mailadres in, bijvoorbeeld naam@bedrijf.nl.'); mail.focus(); return; }
+    if(!t){ show('err','Beschrijf kort wie je wil bereiken.'); targ.focus(); return; }
+    if(window.l2lTrack) l2lTrack('sample_started');
+    btn.disabled=true; var lab=btn.textContent; btn.textContent='Versturen...'; msg.className='lz-msg';
+    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({type:'sample',name:m.split('@')[0],email:m,company:w,
+        question:'Doelgroep: '+t+(w?'\n\nWebsite: '+w:''),website:(hp?hp.value:'')})})
+      .then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
+      .then(function(r){
+        if(r.ok&&r.d.ok){
+          f.reset();
+          show('ok','Dank je. Je tien leads komen binnen een werkdag in je mailbox.');
+          btn.textContent='Aangevraagd';
+          if(window.l2lTrack) l2lTrack('sample_submitted',{ref:r.d.ref||''});
+        } else {
+          show('err',(r.d&&r.d.error)||'Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.');
+          btn.disabled=false; btn.textContent=lab;
+        }
+      })
+      .catch(function(){
+        show('err','Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.');
+        btn.disabled=false; btn.textContent=lab;
+      });
+  });
+})();
+</script>
 </body>
 </html>

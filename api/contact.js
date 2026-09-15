@@ -20,6 +20,13 @@ function transporter() {
 // Simpele in-memory rate limit per IP. Vercel-instanties zijn kortlevend,
 // dus dit vangt alleen de botherhalingen binnen dezelfde instantie op.
 const HITS = new Map();
+
+// Gratis mailproviders: hierop leveren we geen sample, want dan is eenmalig per bedrijf niets waard.
+const GRATIS_MAIL = new Set(['gmail.com','googlemail.com','hotmail.com','hotmail.nl','hotmail.be','outlook.com','outlook.nl','live.nl','live.com','icloud.com','me.com','yahoo.com','yahoo.co.uk','ziggo.nl','kpnmail.nl','planet.nl','telfort.nl','upcmail.nl','casema.nl','home.nl','xs4all.nl','proton.me','protonmail.com','gmx.com','mail.com','aol.com']);
+
+// Welke domeinen al een sample hebben gehad. Dit leeft per serverinstantie,
+// dus het vangt de herhalingen op; het echte logboek is de notificatiemail.
+const SAMPLES = new Set();
 function tooMany(ip) {
   const now = Date.now();
   const win = 10 * 60 * 1000;
@@ -56,6 +63,7 @@ module.exports = async (req, res) => {
   const { name, email, company, question, website, type } = body;
   const isScan = type === 'marktscan';
   const isLeads = type === 'leads';
+  const isSample = type === 'sample';
 
   // Honeypot: echte bezoekers laten dit veld leeg.
   if (website) return res.status(200).json({ ok: true, ref: 'L2L-000000' });
@@ -74,6 +82,19 @@ module.exports = async (req, res) => {
     return res.status(400).json({ error: 'Een van de velden is te lang.' });
   }
 
+  // De gratis sample is eenmalig per bedrijf, dus alleen zakelijke adressen.
+  if (isSample) {
+    const dom = String(email).toLowerCase().split('@')[1] || '';
+    if (GRATIS_MAIL.has(dom)) {
+      return res.status(400).json({ error: 'Gebruik je zakelijke e-mailadres, bijvoorbeeld naam@bedrijf.nl. De sample is eenmalig per bedrijf.' });
+    }
+    if (SAMPLES.has(dom)) {
+      return res.status(429).json({ error: 'Voor dit bedrijf is de sample al aangevraagd. Mail info@link2leads.nl als je iets anders nodig hebt.' });
+    }
+    SAMPLES.add(dom);
+    if (SAMPLES.size > 2000) SAMPLES.clear();
+  }
+
   const ref = 'L2L-' + Math.floor(100000 + Math.random() * 900000);
   const notify = process.env.NOTIFY_EMAIL || 'demi@link2leads.nl';
   const from = `"Link2Leads" <${process.env.MAIL_FROM || 'info@link2leads.nl'}>`;
@@ -86,6 +107,7 @@ module.exports = async (req, res) => {
       to: email,
       replyTo: 'info@link2leads.nl',
       subject: isScan ? `Je marktscan is aangevraagd - Link2Leads ${ref}`
+             : isSample ? `Je 10 gratis leads zijn aangevraagd - Link2Leads ${ref}`
              : isLeads ? `Je leadaanvraag is binnen - Link2Leads ${ref}`
              : `Je vraag is binnen - Link2Leads ${ref}`,
       text: [
@@ -133,33 +155,33 @@ module.exports = async (req, res) => {
       from,
       to: notify,
       replyTo: email,
-      subject: `${isScan ? 'MARKTSCAN' : isLeads ? 'LEADAANVRAAG' : 'Contactformulier'} - ${isScan ? email : name}${company ? ' (' + company + ')' : ''} - ${ref}`,
+      subject: `${isScan ? 'MARKTSCAN' : isSample ? 'GRATIS SAMPLE' : isLeads ? 'LEADAANVRAAG' : 'Contactformulier'} - ${isScan ? email : name}${company ? ' (' + company + ')' : ''} - ${ref}`,
       text: [
-        isScan ? '' : `Naam: ${name}`,
+        (isScan || isSample) ? '' : `Naam: ${name}`,
         `E-mail: ${email}`,
         company ? `Bedrijf: ${company}` : '',
         ``,
-        isScan ? `Ideale klant:` : isLeads ? `Aanvraag:` : `Vraag:`,
+        (isScan || isSample) ? `Ideale klant:` : isLeads ? `Aanvraag:` : `Vraag:`,
         question || '(geen vraag ingevuld)',
         ``,
         `Ref ${ref}`
       ].filter(Boolean).join('\n'),
       html: M.shell({
-        title: isLeads ? 'Nieuwe leadaanvraag' : isScan ? 'Nieuwe marktscan-aanvraag' : 'Nieuw contactformulier',
-        badge: isLeads ? 'Leads kopen' : isScan ? 'Marktscan' : 'Contactformulier',
+        title: isLeads ? 'Nieuwe leadaanvraag' : isScan ? 'Nieuwe marktscan-aanvraag' : isSample ? 'Nieuwe sample-aanvraag' : 'Nieuw contactformulier',
+        badge: isLeads ? 'Leads kopen' : isScan ? 'Marktscan' : isSample ? 'Gratis sample' : 'Contactformulier',
         footerNote: 'Interne notificatie.',
         preheader: `${name}${company ? ' — ' + company : ''}`,
         ref,
         body: [
-          M.h1(isLeads ? 'Nieuwe leadaanvraag' : isScan ? 'Nieuwe marktscan-aanvraag' : 'Nieuw contactformulier'),
+          M.h1(isLeads ? 'Nieuwe leadaanvraag' : isScan ? 'Nieuwe marktscan-aanvraag' : isSample ? 'Nieuwe sample-aanvraag' : 'Nieuw contactformulier'),
           M.detailTable([
             // Bij de marktscan is er geen naamveld: de frontend stuurt het stuk voor de @ mee, dus die regel slaan we over.
-            ['Naam', isScan ? '' : name],
+            ['Naam', (isScan || isSample) ? '' : name],
             ['E-mail', { raw: `<a href="mailto:${M.escAttr(email)}" style="color:${M.C.accent2};">${esc(email)}</a>` }],
             ['Bedrijf', company || ''],
           ]),
           '<div style="height:18px"></div>',
-          M.answerTable({ [isLeads ? 'Aanvraag' : isScan ? 'Ideale klant' : 'Vraag']: question || '(geen vraag ingevuld)' })
+          M.answerTable({ [isLeads ? 'Aanvraag' : (isScan || isSample) ? 'Ideale klant' : 'Vraag']: question || '(geen vraag ingevuld)' })
         ].join('')
       })
     });
