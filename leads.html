@@ -375,8 +375,16 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   border-radius:0 12px 12px 0;font-size:14px;line-height:1.65;color:rgba(240,239,237,.78);}
 .lz-conf-echo strong{color:var(--white);}
 .lz-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
-.lz-sup{display:flex;gap:11px;align-items:flex-start;font-size:14px;line-height:1.55;color:var(--muted);cursor:pointer;font-weight:500;}
-.lz-sup input{margin:4px 0 0;flex-shrink:0;}
+.lz-form .lz-sup-wrap{grid-column:1 / -1;}
+.lz-form .lz-sup{display:flex;gap:14px;align-items:flex-start;margin:0;padding:17px 19px;cursor:pointer;
+  background:rgba(47,111,237,.08);border:1px solid rgba(47,111,237,.38);border-radius:14px;
+  font-size:14px;font-weight:500;line-height:1.55;color:var(--muted);
+  transition:background .15s,border-color .15s;}
+.lz-form .lz-sup:hover{background:rgba(47,111,237,.13);border-color:rgba(47,111,237,.6);}
+.lz-form .lz-sup:has(input:checked){background:rgba(47,111,237,.17);border-color:var(--accent);}
+.lz-form .lz-sup input{width:20px;height:20px;flex:0 0 20px;margin:2px 0 0;padding:0;
+  accent-color:var(--accent);cursor:pointer;}
+.lz-form .lz-sup b{display:block;margin-bottom:5px;font-size:15.5px;font-weight:800;color:var(--white);}
 .lz-msg{margin-top:14px;font-size:14.5px;line-height:1.6;min-height:1px;}
 .lz-msg.ok{color:#4ADE80;}
 .lz-msg.err{color:#F87171;}
@@ -760,9 +768,11 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
           <label for="lzTarget">Wie wil je bereiken?</label>
           <textarea id="lzTarget" name="target" rows="3" placeholder="Bijvoorbeeld: technische groothandels in Nederland met 10 tot 100 medewerkers, gericht op de eigenaar of commercieel manager." required></textarea>
         </div>
-        <div class="lz-f lz-f-wide">
-          <label class="lz-sup"><input type="checkbox" id="lzSup">
-            <span>Ik heb al een lijst met bestaande contacten en stuur die mee. Dan sluiten we die uit, zodat er niets in je bestand staat wat je al hebt. We gebruiken die lijst alleen om te ontdubbelen en verwijderen hem daarna.</span></label>
+        <div class="lz-sup-wrap">
+          <label class="lz-sup">
+            <input type="checkbox" id="lzSup">
+            <span><b>Sluit mijn bestaande contacten uit</b>Heb je al een klanten- of contactenlijst? Stuur die mee, dan staat er niets in je bestand wat je al hebt. We gebruiken die lijst alleen om te ontdubbelen en verwijderen hem daarna.</span>
+          </label>
         </div>
       </div>
       <div class="lz-conf-echo" id="lzEcho" aria-live="polite"></div>
