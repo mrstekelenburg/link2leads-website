@@ -57,6 +57,7 @@ module.exports = async (req, res) => {
         body: [
           M.h1(`Betaald: ${esc(m.aantal)} leads`),
           M.p('Er is betaald. Bouwen en binnen een werkdag leveren.', { gap: 24 }),
+          m.ingekort === 'ja' ? M.p('<strong>Let op:</strong> de doelgroepomschrijving was te lang voor Mollie en is hieronder ingekort. Vraag de koper per mail om de volledige tekst (reply op deze mail komt bij de koper uit).', { gap: 24 }) : '',
           M.detailTable([
             ['Bedrag', `${bedrag} euro incl. btw (${m.excl_btw} excl.)`],
             ['Aantal', `${m.aantal} leads`],
@@ -72,6 +73,7 @@ module.exports = async (req, res) => {
       }),
       text: [
         `Er is betaald. Bouwen en binnen een werkdag leveren.`,
+        m.ingekort === 'ja' ? `LET OP: doelgroepomschrijving was te lang voor Mollie en is ingekort. Vraag de koper om de volledige tekst.` : ``,
         ``,
         `Bedrag: ${bedrag} euro inclusief btw (${m.excl_btw} exclusief)`,
         `Aantal leads: ${m.aantal}`,

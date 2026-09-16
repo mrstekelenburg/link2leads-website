@@ -97,6 +97,27 @@ module.exports = async (req, res) => {
   const ref = 'L2L-' + Math.floor(100000 + Math.random() * 900000);
   const beschrijving = `Leadbestand ${calc.n} leads (${ref})`;
 
+  // Mollie staat maximaal 1 kB metadata toe. Past de doelgroep niet, dan
+  // wordt hij ingekort en krijgt de interne mail een seintje.
+  const metadata = {
+    ref,
+    naam: String(name).trim(),
+    email: String(email).trim(),
+    bedrijf: String(company || '').trim(),
+    doelgroep: String(target).trim(),
+    aantal: calc.n,
+    verrijking: calc.namen.join(', ') || 'geen',
+    excl_btw: calc.excl.toFixed(2),
+    per_lead: calc.perLead.toFixed(3),
+    ingekort: 'nee'
+  };
+  const MAX_META = 950;
+  while (Buffer.byteLength(JSON.stringify(metadata), 'utf8') > MAX_META && metadata.doelgroep.length > 50) {
+    metadata.doelgroep = metadata.doelgroep.slice(0, metadata.doelgroep.length - 25).trim();
+    metadata.ingekort = 'ja';
+  }
+  if (metadata.ingekort === 'ja') metadata.doelgroep += ' [...]';
+
   try {
     const r = await fetch('https://api.mollie.com/v2/payments', {
       method: 'POST',
@@ -107,17 +128,7 @@ module.exports = async (req, res) => {
         redirectUrl: 'https://www.link2leads.nl/leads?betaald=' + ref,
         webhookUrl: 'https://www.link2leads.nl/api/mollie-webhook',
         locale: 'nl_NL',
-        metadata: {
-          ref,
-          naam: String(name),
-          email: String(email),
-          bedrijf: String(company || ''),
-          doelgroep: String(target),
-          aantal: calc.n,
-          verrijking: calc.namen.join(', ') || 'geen',
-          excl_btw: calc.excl.toFixed(2),
-          per_lead: calc.perLead.toFixed(3)
-        }
+        metadata
       })
     });
 
