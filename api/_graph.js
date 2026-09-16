@@ -15,6 +15,10 @@
 
 const GRAPH = 'https://graph.microsoft.com/v1.0';
 
+/* Onderwerp van elke afspraak die via /book wordt gemaakt. api/remind.js
+   herkent de fitchecks in de agenda aan dit begin van het onderwerp. */
+const EVENT_PREFIX = 'Fitcheck Link2Leads';
+
 function configured() {
   return !!(process.env.MS_TENANT_ID && process.env.MS_CLIENT_ID &&
             process.env.MS_CLIENT_SECRET && process.env.MS_CALENDAR_USER);
@@ -88,11 +92,11 @@ async function createEvent(opts) {
     .forEach(a => attendees.push({ emailAddress: { address: a }, type: 'required' }));
 
   const body = {
-    subject: 'Strategiecall Link2Leads' + (opts.companyName ? ' x ' + opts.companyName : ''),
+    subject: EVENT_PREFIX + (opts.companyName ? ' x ' + opts.companyName : ''),
     body: {
       contentType: 'HTML',
       content:
-        `<p>Strategiecall van ${opts.minutes || 30} minuten met Link2Leads.</p>` +
+        `<p>Gratis fitcheck van ${opts.minutes || 30} minuten met Link2Leads.</p>` +
         (opts.companyName ? `<p>Bedrijf: ${opts.companyName}</p>` : '') +
         (opts.phone ? `<p>Telefoon: ${opts.phone}</p>` : '') +
         `<p>Boekingsnummer: ${opts.ref || '-'}</p>`
@@ -226,6 +230,64 @@ async function getBusy(dateKey) {
   return busy;
 }
 
+/* Alle fitchecks in de agenda die tussen nu en over `hoursAhead` uur beginnen.
+   Tijden komen in wereldtijd terug (ISO met Z), inclusief deelnemers,
+   categorieen en de Teams-link. Voor api/remind.js. */
+async function listUpcoming(hoursAhead) {
+  if (!configured()) return null;
+  const user = encodeURIComponent(process.env.MS_CALENDAR_USER);
+  const from = new Date(Date.now() - 60 * 60 * 1000).toISOString();
+  const to = new Date(Date.now() + (hoursAhead || 26) * 60 * 60 * 1000).toISOString();
+  const url = `${GRAPH}/users/${user}/calendarView` +
+    `?startDateTime=${encodeURIComponent(from)}&endDateTime=${encodeURIComponent(to)}` +
+    `&$select=id,subject,start,end,isCancelled,attendees,categories,onlineMeeting,webLink,bodyPreview` +
+    `&$top=100&$orderby=start/dateTime`;
+
+  const res = await fetch(url, { headers: { Authorization: 'Bearer ' + (await token()) } });
+  if (!res.ok) {
+    const txt = await res.text();
+    throw new Error('Agenda uitlezen mislukt (' + res.status + '): ' + txt.slice(0, 250));
+  }
+  const data = await res.json();
+  return (data.value || [])
+    .filter(ev => !ev.isCancelled && String(ev.subject || '').startsWith(EVENT_PREFIX))
+    .map(ev => ({
+      id: ev.id,
+      subject: ev.subject,
+      startUtc: new Date(String(ev.start.dateTime).slice(0, 19) + 'Z'),
+      attendees: (ev.attendees || []).map(a => ({
+        email: (a.emailAddress && a.emailAddress.address) || '',
+        name: (a.emailAddress && a.emailAddress.name) || ''
+      })),
+      categories: ev.categories || [],
+      joinUrl: (ev.onlineMeeting && ev.onlineMeeting.joinUrl) || null,
+      webLink: ev.webLink || null,
+      bodyPreview: ev.bodyPreview || ''
+    }));
+}
+
+/* Zet een categorie op de afspraak. Categorieen zijn alleen zichtbaar voor de
+   eigenaar van de agenda, dus de deelnemers krijgen hier geen update-mail van.
+   Zo weet api/remind.js welke herinnering al verstuurd is. */
+async function addCategory(eventId, category) {
+  if (!configured()) return;
+  const user = encodeURIComponent(process.env.MS_CALENDAR_USER);
+  const getRes = await fetch(`${GRAPH}/users/${user}/events/${encodeURIComponent(eventId)}?$select=categories`, {
+    headers: { Authorization: 'Bearer ' + (await token()) }
+  });
+  const cur = getRes.ok ? ((await getRes.json()).categories || []) : [];
+  if (cur.includes(category)) return;
+  const res = await fetch(`${GRAPH}/users/${user}/events/${encodeURIComponent(eventId)}`, {
+    method: 'PATCH',
+    headers: { Authorization: 'Bearer ' + (await token()), 'Content-Type': 'application/json' },
+    body: JSON.stringify({ categories: cur.concat([category]) })
+  });
+  if (!res.ok) {
+    const txt = await res.text();
+    throw new Error('Categorie zetten mislukt (' + res.status + '): ' + txt.slice(0, 250));
+  }
+}
+
 /* Overlapt [start, end) met een van de bezette blokken? */
 function overlaps(busy, start, end) {
   return busy.some(b => start < b.end && b.start < end);
@@ -239,4 +301,4 @@ async function isFree(dateKey, time, minutes) {
   return !overlaps(busy, start, start + (minutes || 30));
 }
 
-module.exports = { configured, createEvent, getBusy, overlaps, isFree };
+module.exports = { configured, createEvent, getBusy, overlaps, isFree, listUpcoming, addCategory, EVENT_PREFIX };

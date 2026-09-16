@@ -20,12 +20,12 @@ function nextBlock() {
     <tr><td style="padding:24px 22px;">
       ${M.label('Wat er nu gebeurt')}
       <p style="margin:0 0 20px;font-family:${M.FONT};font-size:14px;line-height:1.65;color:${M.C.muted};">
-        Staat je gesprek al in de agenda? Dan hoef je verder niets te doen, ik kom voorbereid met een voorstel voor de aanpak.
-        Is er nog geen moment geprikt, kies er dan hieronder een.
+        Staat je fitcheck al in de agenda? Dan hoef je verder niets te doen, ik kom voorbereid met een voorstel voor de aanpak.
+        Is er nog geen moment geprikt, plan de gratis fitcheck dan hieronder.
         <br><br>
         Daarna volgen de overeenkomst en de factuur. Wij starten met domeinen, mailboxen en opwarming zodra die getekend en voldaan zijn, en binnen veertien dagen daarna draait je campagne. Is dat al geregeld, dan gaan we direct aan de slag.
       </p>
-      ${M.button(BOOK_URL, 'Gesprek inplannen')}
+      ${M.button(BOOK_URL, 'Fitcheck inplannen')}
     </td></tr>
   </table>`;
 }
@@ -57,11 +57,11 @@ module.exports = async (req, res) => {
         `Hoi ${name},`,
         ``,
         `Je antwoorden zijn binnen. Hieronder een kopie voor je eigen administratie.`,
-        `Ik neem ze door en gebruik ze als basis voor het strategiegesprek, zodat we die tijd aan de aanpak besteden in plaats van aan uitvragen.`,
+        `Ik neem ze door en gebruik ze als basis voor de fitcheck, zodat we die tijd aan de aanpak besteden in plaats van aan uitvragen.`,
         ``,
         Object.entries(answers || {}).filter(e => e[1]).map(e => `${e[0]}:\n${e[1]}`).join('\n\n'),
         ``,
-        `Staat je gesprek al in de agenda? Dan hoef je verder niets te doen. Is er nog geen moment geprikt, kies er dan een via ${BOOK_URL}.`,
+        `Staat je fitcheck al in de agenda? Dan hoef je verder niets te doen. Is er nog geen moment geprikt, plan de gratis fitcheck via ${BOOK_URL}.`,
         ``,
         `Daarna volgen de overeenkomst en de factuur. Wij starten met domeinen, mailboxen en opwarming zodra die getekend en voldaan zijn, en binnen veertien dagen daarna draait je campagne. Is dat al geregeld, dan gaan we direct aan de slag.`,
         ``,
@@ -79,11 +79,11 @@ module.exports = async (req, res) => {
         ref,
         body: [
           M.h1(`Bedankt, ${esc(name)}`),
-          M.p(`Je antwoorden zijn binnen. Hieronder een kopie voor je eigen administratie. Ik neem ze door en gebruik ze als basis voor het strategiegesprek, zodat we die tijd aan de aanpak besteden in plaats van aan uitvragen.`, { gap: 24 }),
+          M.p(`Je antwoorden zijn binnen. Hieronder een kopie voor je eigen administratie. Ik neem ze door en gebruik ze als basis voor de fitcheck, zodat we die tijd aan de aanpak besteden in plaats van aan uitvragen.`, { gap: 24 }),
           M.answerTable(answers || {}),
-          `<div style="height:28px;line-height:28px;font-size:0;">&nbsp;</div>`,
+          M.spacer(),
           nextBlock(),
-          `<div style="height:28px;line-height:28px;font-size:0;">&nbsp;</div>`,
+          M.spacer(),
           M.signoff()
         ].join('')
       })

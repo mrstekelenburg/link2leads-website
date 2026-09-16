@@ -3,6 +3,8 @@
 // Alleen bij status "paid" gaat er mail uit: naar jou met de order, naar de koper als bevestiging.
 
 const nodemailer = require('nodemailer');
+const M = require('./_mail');
+const { esc } = M;
 
 function transporter() {
   return nodemailer.createTransport({
@@ -36,6 +38,7 @@ module.exports = async (req, res) => {
     if (GEMAILD.size > 2000) GEMAILD.clear();
 
     const m = p.metadata || {};
+    const bedrag = Number(p.amount.value).toLocaleString('nl-NL', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     const from = `"Link2Leads" <${process.env.MAIL_FROM || 'info@link2leads.nl'}>`;
     const notify = process.env.NOTIFY_EMAIL || 'demi@link2leads.nl';
     const t = transporter();
@@ -43,11 +46,34 @@ module.exports = async (req, res) => {
     await t.sendMail({
       from,
       to: notify,
-      subject: `BETAALD ${p.amount.value} euro - leadbestand ${m.aantal} leads - ${m.ref || id}`,
+      replyTo: m.email || undefined,
+      subject: `BETAALD ${bedrag} euro - leadbestand ${m.aantal} leads - ${m.ref || id}`,
+      html: M.shell({
+        title: 'Leadbestand betaald',
+        badge: 'Intern',
+        footerNote: 'Interne notificatie.',
+        preheader: `${m.naam || ''}${m.bedrijf ? ' · ' + m.bedrijf : ''} · ${m.aantal} leads`,
+        ref: m.ref || id,
+        body: [
+          M.h1(`Betaald: ${esc(m.aantal)} leads`),
+          M.p('Er is betaald. Bouwen en binnen een werkdag leveren.', { gap: 24 }),
+          M.detailTable([
+            ['Bedrag', `${bedrag} euro incl. btw (${m.excl_btw} excl.)`],
+            ['Aantal', `${m.aantal} leads`],
+            ['Verrijking', m.verrijking],
+            ['Per lead', m.per_lead],
+            ['Koper', `${m.naam || ''}${m.bedrijf ? ' · ' + m.bedrijf : ''}`],
+            ['E-mail', m.email ? { raw: `<a href="mailto:${M.escAttr(m.email)}" style="color:${M.C.accent2};">${esc(m.email)}</a>` } : ''],
+            ['Mollie', p.id]
+          ]),
+          M.spacer(18),
+          M.answerTable({ 'Doelgroep zoals opgegeven': m.doelgroep || '' })
+        ].join('')
+      }),
       text: [
         `Er is betaald. Bouwen en binnen een werkdag leveren.`,
         ``,
-        `Bedrag: ${p.amount.value} euro inclusief btw (${m.excl_btw} exclusief)`,
+        `Bedrag: ${bedrag} euro inclusief btw (${m.excl_btw} exclusief)`,
         `Aantal leads: ${m.aantal}`,
         `Verrijking: ${m.verrijking}`,
         `Prijs per lead: ${m.per_lead}`,
@@ -68,11 +94,42 @@ module.exports = async (req, res) => {
         from,
         to: m.email,
         replyTo: 'info@link2leads.nl',
-        subject: `Betaling ontvangen, je leadbestand wordt gebouwd - ${m.ref || ''}`,
+        subject: `Betaling ontvangen, je leadbestand wordt gebouwd — Link2Leads ${m.ref || ''}`,
+        html: M.shell({
+          title: 'Betaling ontvangen',
+          badge: 'Leads kopen',
+          footerNote: 'Je ontvangt deze mail omdat je een leadbestand bij Link2Leads hebt gekocht.',
+          preheader: `Je betaling van ${bedrag} euro is binnen. We bouwen je bestand.`,
+          ref: m.ref || '',
+          body: [
+            M.h1(`Bedankt, ${esc(m.naam || '')}`),
+            M.p(`Je betaling van <strong style="color:${M.C.text};">${esc(bedrag)} euro</strong> is binnen. Wij bouwen het bestand en leveren het binnen een werkdag als Excel en CSV. De factuur volgt apart.`, { gap: 24 }),
+            M.detailTable([
+              ['Aantal', `${m.aantal} leads`],
+              ['Verrijking', m.verrijking],
+              ['Bedrag', `${bedrag} euro incl. btw`]
+            ]),
+            M.spacer(18),
+            M.answerTable({ 'Doelgroep': m.doelgroep || '' }),
+            M.spacer(),
+            `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;background:${M.C.panel};border:1px solid ${M.C.border2};border-radius:14px;">
+              <tr><td style="padding:24px 22px;">
+                ${M.label('Goed om te weten')}
+                <p style="margin:0;font-family:${M.FONT};font-size:14px;line-height:1.65;color:${M.C.muted};">
+                  Moet de doelgroep nog scherper, antwoord dan gewoon op deze mail.
+                  <br><br>
+                  Blijkt de doelgroep kleiner dan het aantal dat je hebt gekocht, dan leveren we wat er is en storten we het verschil binnen vijf werkdagen terug.
+                </p>
+              </td></tr>
+            </table>`,
+            M.spacer(),
+            M.signoff('', { name: 'Anne-Roos', lead: 'Groet,' })
+          ].join('')
+        }),
         text: [
           `Hoi ${m.naam || ''},`,
           ``,
-          `Je betaling van ${p.amount.value} euro is binnen. Dank je.`,
+          `Je betaling van ${bedrag} euro is binnen. Dank je.`,
           ``,
           `Wat je hebt gekocht:`,
           `- ${m.aantal} leads`,

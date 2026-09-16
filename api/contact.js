@@ -37,15 +37,50 @@ function tooMany(ip) {
   return list.length > 5;
 }
 
-function nextBlock() {
+// Teksten per soort aanvraag. Zelfde woorden in onderwerp, kop, tekst- en HTML-versie.
+const KIND = {
+  vraag: {
+    subject: 'Je vraag is binnen',
+    h1: (name) => `Hoi ${esc(name)}, je vraag is binnen`,
+    intro: 'Ik lees hem zelf en je hoort binnen een werkdag van me. Geen automatische reeks en geen verkoopmail, gewoon antwoord op wat je vraagt.',
+    label: 'Je vraag',
+    next: 'Ik lees je vraag zelf en antwoord binnen een werkdag, met een concreet antwoord in plaats van een uitnodiging voor een gesprek. Wil je liever meteen doorpraten, plan dan hieronder de gratis fitcheck. Dat hoeft niet.',
+    footer: 'Je ontvangt deze mail omdat je het contactformulier op link2leads.nl hebt ingevuld.'
+  },
+  marktscan: {
+    subject: 'Je marktscan is aangevraagd',
+    h1: () => 'Je marktscan is aangevraagd',
+    intro: 'We rekenen uit hoeveel bedrijven er in je doelgroep passen, hoeveel beslissers daarvan bereikbaar zijn en welk volume daarbij realistisch is. Je krijgt het binnen een werkdag, met een eerlijk oordeel of koude e-mail bij je markt past.',
+    label: 'Je doelgroep',
+    next: 'De marktscan komt binnen een werkdag in je mailbox. Wil je de uitkomst direct doorpraten, plan dan hieronder de gratis fitcheck. Dat hoeft niet.',
+    footer: 'Je ontvangt deze mail omdat je de gratis marktscan op link2leads.nl hebt aangevraagd.'
+  },
+  sample: {
+    subject: 'Je 10 gratis leads zijn aangevraagd',
+    h1: () => 'Je 10 gratis leads zijn aangevraagd',
+    intro: 'We zoeken tien bedrijven uit je doelgroep, met beslisser en geverifieerd zakelijk e-mailadres, en sturen ze binnen een werkdag naar dit adres. Zo zie je zelf wat je van ons krijgt voordat je een grotere lijst bestelt. Eenmalig per bedrijf.',
+    label: 'Je doelgroep',
+    next: 'De tien leads komen binnen een werkdag in je mailbox. Wil je meteen een grotere lijst of een campagne bespreken, plan dan hieronder de gratis fitcheck. Dat hoeft niet.',
+    footer: 'Je ontvangt deze mail omdat je 10 gratis leads op link2leads.nl hebt aangevraagd.'
+  },
+  leads: {
+    subject: 'Je leadaanvraag is binnen',
+    h1: (name) => `Hoi ${esc(name)}, je leadaanvraag is binnen`,
+    intro: 'We tellen eerst hoeveel bedrijven er in je selectie passen en sturen je binnen een werkdag die telling met de prijs erbij. Pas als je daarmee akkoord gaat, bouwen we de lijst. Je zit nergens aan vast voordat je ja zegt.',
+    label: 'Je aanvraag',
+    next: 'De telling met prijs komt binnen een werkdag in je mailbox. Wil je de doelgroep liever eerst doorpraten, plan dan hieronder de gratis fitcheck. Dat hoeft niet.',
+    footer: 'Je ontvangt deze mail omdat je een leadaanvraag op link2leads.nl hebt gedaan.'
+  }
+};
+
+function nextBlock(k) {
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;background:${M.C.panel};border:1px solid ${M.C.border2};border-radius:14px;">
     <tr><td style="padding:24px 22px;">
       ${M.label('Wat er nu gebeurt')}
       <p style="margin:0 0 20px;font-family:${M.FONT};font-size:14px;line-height:1.65;color:${M.C.muted};">
-        Ik lees je vraag zelf en antwoord binnen &eacute;&eacute;n werkdag, met een concreet antwoord in plaats van een uitnodiging voor een gesprek.
-        Wil je liever meteen doorpraten, plan dan hieronder de gratis fitcheck. Dat hoeft niet.
+        ${esc(k.next)}
         <br><br>
-        Ondertussen staat het meeste al op papier: prijzen, wat wel en niet als positieve reactie telt, en wat onze campagnes werkelijk opleveren.
+        Ondertussen staat het meeste al op papier: prijzen, wat wel en niet als positieve reactie telt, en wat onze campagnes werkelijk opleveren. Je vindt het in de <a href="${KENNIS_URL}" style="color:${M.C.accent2};">kennisbank</a>.
       </p>
       ${M.button(BOOK_URL, 'Plan de gratis fitcheck')}
     </td></tr>
@@ -95,6 +130,8 @@ module.exports = async (req, res) => {
     if (SAMPLES.size > 2000) SAMPLES.clear();
   }
 
+  const k = KIND[isScan ? 'marktscan' : isSample ? 'sample' : isLeads ? 'leads' : 'vraag'];
+
   const ref = 'L2L-' + Math.floor(100000 + Math.random() * 900000);
   const notify = process.env.NOTIFY_EMAIL || 'demi@link2leads.nl';
   const from = `"Link2Leads" <${process.env.MAIL_FROM || 'info@link2leads.nl'}>`;
@@ -106,18 +143,15 @@ module.exports = async (req, res) => {
       from,
       to: email,
       replyTo: 'info@link2leads.nl',
-      subject: isScan ? `Je marktscan is aangevraagd - Link2Leads ${ref}`
-             : isSample ? `Je 10 gratis leads zijn aangevraagd - Link2Leads ${ref}`
-             : isLeads ? `Je leadaanvraag is binnen - Link2Leads ${ref}`
-             : `Je vraag is binnen - Link2Leads ${ref}`,
+      subject: `${k.subject} — Link2Leads ${ref}`,
       text: [
-        `Hoi ${name},`,
+        (isScan || isSample) ? `Hoi,` : `Hoi ${name},`,
         ``,
-        `Je bericht is binnen. Ik lees het zelf en antwoord binnen een werkdag.`,
+        k.intro,
         ``,
-        question ? `Je vraag:\n${question}` : '',
+        question ? `${k.label}:\n${question}` : '',
         ``,
-        `Wil je liever meteen doorpraten, plan dan de gratis fitcheck via ${BOOK_URL}. Dat hoeft niet.`,
+        k.next.replace('hieronder de gratis fitcheck', `de gratis fitcheck via ${BOOK_URL}`),
         `Het meeste staat trouwens al op papier: ${KENNIS_URL}`,
         ``,
         `Groet,`,
@@ -127,25 +161,19 @@ module.exports = async (req, res) => {
         `Ref ${ref}`
       ].filter(Boolean).join('\n'),
       html: M.shell({
-        title: 'Je vraag is binnen',
-        badge: 'Contact',
-        footerNote: 'Je ontvangt deze mail omdat je het contactformulier op link2leads.nl hebt ingevuld.',
-        preheader: 'Je bericht is binnen. Antwoord volgt binnen een werkdag.',
+        title: k.subject,
+        badge: isLeads ? 'Leads kopen' : isScan ? 'Marktscan' : isSample ? 'Gratis sample' : 'Contact',
+        footerNote: k.footer,
+        preheader: `${k.subject}. Je hoort binnen een werkdag van ons.`,
         ref,
         body: [
-          M.h1(isScan ? 'Je marktscan is aangevraagd'
-            : isLeads ? `Hoi ${esc(name)}, je leadaanvraag is binnen`
-            : `Hoi ${esc(name)}, je vraag is binnen`),
-          M.p(isScan
-            ? 'We rekenen uit hoeveel bedrijven er in je doelgroep passen, hoeveel beslissers daarvan bereikbaar zijn en welk volume daarbij realistisch is. Je krijgt het binnen een werkdag, met een eerlijk oordeel of koude e-mail bij je markt past.'
-            : isLeads
-            ? 'We tellen eerst hoeveel bedrijven er in je selectie passen en sturen je binnen een werkdag die telling met de prijs erbij. Pas als je daarmee akkoord gaat, bouwen we de lijst. Je zit nergens aan vast voordat je ja zegt.'
-            : 'Ik lees hem zelf en je hoort binnen een werkdag van me. Geen automatische reeks en geen verkoopmail, gewoon antwoord op wat je vraagt.'),
-          question ? M.answerTable({ [isScan ? 'Je doelgroep' : isLeads ? 'Je aanvraag' : 'Je vraag']: question }) : '',
-          '<div style="height:22px"></div>',
-          nextBlock(),
-          '<div style="height:22px"></div>',
-          M.signoff('')
+          M.h1(k.h1(name)),
+          M.p(k.intro),
+          question ? M.answerTable({ [k.label]: question }) : '',
+          M.spacer(22),
+          nextBlock(k),
+          M.spacer(22),
+          M.signoff('', { lead: 'Groet,' })
         ].join('')
       })
     });
@@ -180,7 +208,7 @@ module.exports = async (req, res) => {
             ['E-mail', { raw: `<a href="mailto:${M.escAttr(email)}" style="color:${M.C.accent2};">${esc(email)}</a>` }],
             ['Bedrijf', company || ''],
           ]),
-          '<div style="height:18px"></div>',
+          M.spacer(18),
           M.answerTable({ [isLeads ? 'Aanvraag' : (isScan || isSample) ? 'Ideale klant' : 'Vraag']: question || '(geen vraag ingevuld)' })
         ].join('')
       })

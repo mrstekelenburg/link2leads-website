@@ -361,6 +361,30 @@ window.L2L_I18N_DATA = {
 "Strategiegesprek": {
 "en": "Strategy call"
 },
+"Fitcheck": {
+"en": "Fit check"
+},
+"Je fitcheck staat vast. Drie korte vragen helpen ons om met een concreet plan te komen in plaats van eerst alles uit te vragen. Een minuut werk. Daarna vragen we je de volledige vragenlijst in te vullen (15 vragen, ongeveer 10 minuten): dat is de basis voor de beste fitcheck.": {
+"en": "Your fit check is booked. Three short questions help us come with a concrete plan instead of asking everything first. One minute of work. After that we ask you to fill in the full questionnaire (15 questions, about 10 minutes): that is the basis for the best fit check."
+},
+"Fitcheck bevestigd!": {
+"en": "Fit check confirmed!"
+},
+"Nog een stap: de vragenlijst": {
+"en": "One more step: the questionnaire"
+},
+"15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten. Vul hem nu in, dan komen we in de fitcheck direct met een plan in plaats van eerst alles uit te vragen.": {
+"en": "15 questions about your offer, audience and proof, about 10 minutes. Fill it in now and we come to the fit check with a plan instead of asking everything first."
+},
+"Vul de vragenlijst in": {
+"en": "Fill in the questionnaire"
+},
+"Je krijgt een kopie in je mail. We nemen je antwoorden door in de fitcheck.": {
+"en": "You'll get a copy in your inbox. We'll go through your answers in the fit check."
+},
+"De agenda-uitnodiging met de deelnamelink zit erbij. Een dag en een uur van tevoren krijg je een herinnering.": {
+"en": "The calendar invite with the join link is included. You'll get a reminder a day and an hour beforehand."
+},
 "We nemen je antwoorden door en je krijgt een concreet voorstel: welke doelgroep, welke boodschap en wat je aan reacties kunt verwachten.": {
 "en": "We go through your answers and you get a concrete proposal: which audience, which message and what replies to expect."
 },

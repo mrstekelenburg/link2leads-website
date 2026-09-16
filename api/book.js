@@ -64,8 +64,8 @@ function buildIcs(opts) {
     'DTSTAMP:' + stamp,
     'DTSTART;TZID=Europe/Amsterdam:' + startLocal,
     'DTEND;TZID=Europe/Amsterdam:' + endLocal,
-    'SUMMARY:' + esc('Strategiecall Link2Leads' + (opts.companyName ? ' x ' + opts.companyName : '')),
-    'DESCRIPTION:' + esc('Strategiecall van 30 minuten met Link2Leads.\nJe ontvangt de meeting-link uiterlijk een dag van tevoren.\n\nBoekingsnummer: ' + (opts.ref || '')),
+    'SUMMARY:' + esc(graph.EVENT_PREFIX + (opts.companyName ? ' x ' + opts.companyName : '')),
+    'DESCRIPTION:' + esc('Gratis fitcheck van 30 minuten met Link2Leads.\nJe ontvangt de deelnamelink uiterlijk een dag van tevoren.\n\nBoekingsnummer: ' + (opts.ref || '')),
     'LOCATION:' + esc('Online (link volgt per mail)'),
     'ORGANIZER;CN=Link2Leads:mailto:' + (opts.organizer || 'demi@link2leads.nl'),
     'ATTENDEE;CN=' + esc(opts.name || '') + ';RSVP=TRUE:mailto:' + (opts.email || ''),
@@ -74,12 +74,12 @@ function buildIcs(opts) {
     'BEGIN:VALARM',
     'TRIGGER:-PT15M',
     'ACTION:DISPLAY',
-    'DESCRIPTION:Strategiecall Link2Leads over 15 minuten',
+    'DESCRIPTION:Fitcheck Link2Leads over 15 minuten',
     'END:VALARM',
     'BEGIN:VALARM',
     'TRIGGER:-P1D',
     'ACTION:DISPLAY',
-    'DESCRIPTION:Morgen je strategiecall met Link2Leads',
+    'DESCRIPTION:Morgen je fitcheck met Link2Leads',
     'END:VALARM',
     'END:VEVENT',
     'END:VCALENDAR'
@@ -145,7 +145,7 @@ module.exports = async (req, res) => {
           ``,
           Object.entries(b.answers || {}).filter(e => e[1]).map(e => `${e[0]}:\n${e[1]}`).join('\n\n'),
           ``,
-          `Rond de onboarding eventueel af via ${KLANT_URL}. Dan weet ik wat je aanbod en doelgroep zijn en kan ik ${wd || 'tijdens de call'} direct met een strategie komen in plaats van eerst alles uit te vragen. Niet verplicht, wel makkelijk.`,
+          `Je antwoorden geven me al richting. Vul nu ook de volledige vragenlijst in op ${KLANT_URL} (15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten). Zo kan ik ${wd || 'in de fitcheck'} direct met een plan komen in plaats van eerst alles uit te vragen.`,
           ``,
           `Bedankt en tot ${wd || 'snel'}.`,
           `${SIGNER} · Link2Leads`,
@@ -154,16 +154,16 @@ module.exports = async (req, res) => {
         html: M.shell({
           title: 'Je voorbereiding is binnen',
           badge: 'Voorbereiding',
-          footerNote: 'Je ontvangt deze mail omdat je een strategiecall met Link2Leads hebt gepland.',
+          footerNote: 'Je ontvangt deze mail omdat je een fitcheck met Link2Leads hebt gepland.',
           preheader: 'Je antwoorden zijn binnen. Hier een kopie voor je administratie.',
           ref,
           body: [
             M.h1(`Bedankt, ${esc(b.name)}`),
             M.p(`Je antwoorden zijn binnen. Hieronder een kopie voor je eigen administratie. We bereiden hiermee het gesprek van <strong style="color:${M.C.text};">${esc(b.date)} om ${esc(b.time)}</strong> voor.`, { gap: 24 }),
             M.answerTable(b.answers || {}),
-            `<div style="height:28px;line-height:28px;font-size:0;">&nbsp;</div>`,
+            M.spacer(),
             M.prepBlock(b.date, 'full'),
-            `<div style="height:28px;line-height:28px;font-size:0;">&nbsp;</div>`,
+            M.spacer(),
             M.signoff(b.date)
           ].join('')
         })
@@ -206,7 +206,7 @@ module.exports = async (req, res) => {
       dateKey: b.dateKey, time: b.time, minutes: 30, ref,
       name: b.name, email: b.email, companyName: b.companyName, organizer: notify
     });
-    const icsAttach = ics ? [{ filename: 'strategiecall-link2leads.ics', content: ics, contentType: 'text/calendar; charset=utf-8; method=REQUEST' }] : [];
+    const icsAttach = ics ? [{ filename: 'fitcheck-link2leads.ics', content: ics, contentType: 'text/calendar; charset=utf-8; method=REQUEST' }] : [];
     const icsAlt = ics ? [{ contentType: 'text/calendar; charset=utf-8; method=REQUEST', content: ics }] : [];
 
     // Naar Demi
@@ -215,25 +215,25 @@ module.exports = async (req, res) => {
       attachments: icsAttach,
       subject: `Nieuwe boeking — ${b.name}${b.companyName ? ' (' + b.companyName + ')' : ''} · ${b.date} ${b.time}`,
       html: M.shell({
-        title: 'Nieuwe strategiecall geboekt',
+        title: 'Nieuwe fitcheck geboekt',
         badge: 'Intern',
         preheader: `${b.name} · ${b.date} om ${b.time}`,
         ref,
         body: [
-          M.h1('Nieuwe strategiecall geboekt'),
-          M.p(`${esc(b.name)} heeft een strategiecall geboekt. De vragenlijst volgt in een aparte mail zodra die is ingevuld.`, { gap: 24 }),
+          M.h1('Nieuwe fitcheck geboekt'),
+          M.p(`${esc(b.name)} heeft een fitcheck geboekt. De drie korte vragen volgen in een aparte mail zodra die zijn ingevuld.`, { gap: 24 }),
           M.detailTable([
             ['Naam', b.name],
             ['E-mail', b.email],
             ['Bedrijf', b.companyName],
             ['Telefoon', b.phone],
             ['Datum', b.date],
-            ['Tijd', `${b.time} (CET) · 30 minuten`]
+            ['Tijd', `${b.time} (Nederlandse tijd) · 30 minuten`]
           ]),
-          `<div style="height:20px;line-height:20px;font-size:0;">&nbsp;</div>`,
+          M.spacer(20),
           calendar
-            ? M.p(`De afspraak staat in de agenda en de uitnodiging is vanuit Outlook verstuurd.${calendar.joinUrl ? ` <a href="${M.escAttr(calendar.joinUrl)}" style="color:${M.C.accent2};">Teams-link</a>` : ''}`, { color: M.C.green, gap: 0 })
-            : M.p(`Let op: de afspraak kon niet in de agenda gezet worden${calendarError ? ' (' + esc(calendarError) + ')' : ''}. Zet hem handmatig in je agenda.`, { color: M.C.amber, gap: 0 })
+            ? M.p(`De afspraak staat in de agenda en de uitnodiging is vanuit Outlook verstuurd. Jullie krijgen allebei een dag en een uur van tevoren een herinnering.${calendar.joinUrl ? ` <a href="${M.escAttr(calendar.joinUrl)}" style="color:${M.C.accent2};">Teams-link</a>` : ''}`, { color: M.C.green, gap: 0 })
+            : M.p(`Let op: de afspraak kon niet in de agenda gezet worden${calendarError ? ' (' + esc(calendarError) + ')' : ''}. Zet hem handmatig in je agenda en stuur zelf de Teams-link; de automatische herinneringen werken alleen voor afspraken die in de agenda staan.`, { color: M.C.amber, gap: 0 })
         ].join('')
       })
     });
@@ -243,18 +243,18 @@ module.exports = async (req, res) => {
       from, to: b.email,
       attachments: icsAttach,
       alternatives: icsAlt,
-      subject: `Je strategiecall staat — ${b.date} om ${b.time}`,
+      subject: `Je fitcheck staat — ${b.date} om ${b.time}`,
       text: [
         `Hoi ${b.name},`,
         ``,
-        `Je strategiecall met Link2Leads staat ingepland.`,
-        calendar ? `Je krijgt zo een agenda-uitnodiging met de deelnamelink.` : `Je ontvangt de meeting-link uiterlijk een dag van tevoren.`,
+        `Je gratis fitcheck met Link2Leads staat ingepland.`,
+        calendar ? `Je krijgt zo een agenda-uitnodiging met de deelnamelink. Een dag en een uur van tevoren sturen we je een herinnering.` : `Je ontvangt de deelnamelink uiterlijk een dag van tevoren.`,
         ``,
         `Datum: ${b.date}`,
-        `Tijd: ${b.time} (CET) · 30 minuten`,
-        calendar && calendar.joinUrl ? `Deelnemen: ${calendar.joinUrl}` : `Format: online, link volgt`,
+        `Tijd: ${b.time} (Nederlandse tijd) · 30 minuten`,
+        calendar && calendar.joinUrl ? `Deelnemen via Microsoft Teams: ${calendar.joinUrl}` : `Format: online via Microsoft Teams, link volgt per mail`,
         ``,
-        `Handig als je vooraf even je gegevens achterlaat via ${KLANT_URL}. Dan weet ik wat je aanbod en doelgroep zijn en kan ik ${wd || 'tijdens de call'} direct met een strategie komen in plaats van eerst alles uit te vragen. Niet verplicht, wel makkelijk.`,
+        `Vul voor de beste fitcheck de vragenlijst in op ${KLANT_URL}: 15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten. Dan weet ik vooraf waar je staat en kan ik ${wd || 'in de fitcheck'} direct met een plan komen in plaats van eerst alles uit te vragen.`,
         ``,
         `Bedankt en tot ${wd || 'snel'}.`,
         `${SIGNER} · Link2Leads`,
@@ -263,25 +263,25 @@ module.exports = async (req, res) => {
         `Ref ${ref}`
       ].join('\n'),
       html: M.shell({
-        title: 'Je afspraak is bevestigd',
-        badge: 'Afspraak bevestigd',
-        footerNote: 'Je ontvangt deze mail omdat je een strategiecall met Link2Leads hebt gepland.',
-        preheader: `${b.date} om ${b.time} · 30 minuten`,
+        title: 'Je fitcheck staat',
+        badge: 'Fitcheck bevestigd',
+        footerNote: 'Je ontvangt deze mail omdat je een fitcheck met Link2Leads hebt gepland.',
+        preheader: `${b.date} om ${b.time} · 30 minuten via Microsoft Teams`,
         ref,
         body: [
-          M.h1(`Je afspraak staat, ${esc(b.name)}`),
-          M.p(`Je strategiecall met Link2Leads is ingepland.${calendar ? ' Je krijgt zo een agenda-uitnodiging met de deelnamelink.' : ' Je ontvangt de meeting-link uiterlijk een dag van tevoren.'}`, { gap: 24 }),
+          M.h1(`Je fitcheck staat, ${esc(b.name)}`),
+          M.p(`Je gratis fitcheck met Link2Leads is ingepland.${calendar ? ' Je krijgt zo een agenda-uitnodiging met de deelnamelink. Een dag en een uur van tevoren sturen we je een herinnering.' : ' Je ontvangt de deelnamelink uiterlijk een dag van tevoren.'}`, { gap: 24 }),
           M.detailTable([
             ['Datum', b.date],
-            ['Tijd', `${b.time} (CET)`],
+            ['Tijd', `${b.time} (Nederlandse tijd)`],
             ['Duur', '30 minuten'],
             calendar && calendar.joinUrl
-              ? ['Deelnemen', { raw: `<a href="${M.escAttr(calendar.joinUrl)}" style="color:${M.C.accent2};text-decoration:none;font-weight:700;">Deelnemen aan de call</a>` }]
-              : ['Format', 'Online · link volgt per mail']
+              ? ['Deelnemen', { raw: `<a href="${M.escAttr(calendar.joinUrl)}" style="color:${M.C.accent2};text-decoration:none;font-weight:700;">Deelnemen via Microsoft Teams</a>` }]
+              : ['Format', 'Online via Microsoft Teams · link volgt per mail']
           ]),
-          `<div style="height:28px;line-height:28px;font-size:0;">&nbsp;</div>`,
+          M.spacer(),
           M.prepBlock(b.date),
-          `<div style="height:28px;line-height:28px;font-size:0;">&nbsp;</div>`,
+          M.spacer(),
           M.signoff(b.date)
         ].join('')
       })

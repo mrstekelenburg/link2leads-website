@@ -111,36 +111,54 @@ function button(href, text) {
   </td></tr></table>`;
 }
 
-// Het blok met de vraag om vooraf gegevens achter te laten.
+// Het blok dat in elke fitcheck-mail vraagt om /klant in te vullen.
+// Zelfde boodschap overal: vul de vragenlijst in voor de beste fitcheck.
 function prepBlock(dateStr, variant) {
   const wd = weekdayOf(dateStr);
-  const wanneer = wd ? wd : 'tijdens de call';
+  const wanneer = wd ? wd : 'in de fitcheck';
   const isFull = variant === 'full';
+  const isReminder = variant === 'reminder';
 
   const kop = isFull
-    ? 'Vul de volledige vragenlijst in'
-    : 'Laat vooraf even je gegevens achter';
+    ? 'Vul nu de volledige vragenlijst in'
+    : isReminder
+    ? 'Vragenlijst nog niet ingevuld? Doe het nu'
+    : 'Vul de vragenlijst in voor de beste fitcheck';
 
   const tekst = isFull
-    ? `Je antwoorden hierboven geven me al richting. De volledige vragenlijst staat op ${KLANT_URL} en vult het beeld aan met je aanbod, doelgroep en bewijs. Zo kan ik ${wanneer} direct met een strategie komen in plaats van eerst alles uit te vragen. Niet verplicht, wel makkelijk.`
-    : `Handig als je vooraf even je gegevens achterlaat. Dan weet ik wat je aanbod en doelgroep zijn en kan ik ${wanneer} direct met een strategie komen in plaats van eerst alles uit te vragen. Niet verplicht, wel makkelijk.`;
+    ? `Je antwoorden hierboven geven me al richting. De volledige vragenlijst (15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten) maakt het beeld compleet. Zo kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`
+    : isReminder
+    ? `De vragenlijst (15 vragen, ongeveer 10 minuten) is de basis van de fitcheck. Vul hem in, dan kunnen we je ${wanneer} gericht helpen. Al gedaan? Dan hoef je niets te doen.`
+    : `Vul de vragenlijst in: 15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten. Dan weet ik vooraf waar je staat en kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen. Hoe concreter je antwoordt, hoe scherper de fitcheck.`;
 
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;background:${C.panel};border:1px solid ${C.border2};border-radius:14px;">
     <tr><td style="padding:24px 22px;">
-      ${label('Voorbereiding · 2 minuten')}
+      ${label('Voorbereiding · 15 vragen · 10 minuten')}
       <div style="font-family:${FONT};font-size:17px;font-weight:700;letter-spacing:-0.3px;color:${C.text};margin:0 0 8px;">${esc(kop)}</div>
       <p style="margin:0 0 20px;font-family:${FONT};font-size:14px;line-height:1.65;color:${C.muted};">${esc(tekst)}</p>
-      ${button(KLANT_URL, 'Gegevens achterlaten')}
+      ${button(KLANT_URL, 'Vul de vragenlijst in')}
     </td></tr>
   </table>`;
 }
 
-function signoff(dateStr) {
+// signoff('Woensdag 13 augustus 2026')  -> "Bedankt en tot woensdag."
+// signoff('', { tot: 'morgen' })          -> "Bedankt en tot morgen."
+// signoff('', { name: 'Anne-Roos', lead: 'Groet,' })
+function signoff(dateStr, opts) {
+  const o = opts || {};
   const wd = weekdayOf(dateStr);
+  const tot = o.tot || wd || 'snel';
+  const lead = o.lead || `Bedankt en tot ${esc(tot)}.`;
   return `<p style="margin:0;font-family:${FONT};font-size:15px;line-height:1.7;color:${C.text};">
-      Bedankt en tot ${esc(wd || 'snel')}.<br>
-      <span style="color:${C.muted};">${esc(SIGNER)} · Link2Leads</span>
+      ${lead}<br>
+      <span style="color:${C.muted};">${esc(o.name || SIGNER)} · Link2Leads</span>
     </p>`;
+}
+
+// Witruimte tussen blokken (div met vaste hoogte, werkt ook in Outlook).
+function spacer(h) {
+  const px = h || 28;
+  return `<div style="height:${px}px;line-height:${px}px;font-size:0;">&nbsp;</div>`;
 }
 
 // ── Buitenkant ───────────────────────────────────────────────────────────────
@@ -219,5 +237,5 @@ function shell(o) {
 module.exports = {
   C, FONT, MONO, SITE, KLANT_URL, SIGNER,
   esc, escAttr, weekdayOf,
-  h1, p, label, detailTable, answerTable, button, prepBlock, signoff, shell
+  h1, p, label, detailTable, answerTable, button, prepBlock, signoff, spacer, shell
 };

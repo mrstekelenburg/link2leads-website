@@ -583,7 +583,7 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
             <div class="sp-time">De bevestiging staat in je mail. Boekingsnr. <strong id="qRef">-</strong></div>
           </div>
         </div>
-        <p style="font-size:14px;color:var(--muted,#9aa3b2);line-height:1.6;margin:0 0 8px;">Je afspraak staat vast. Drie korte vragen helpen ons om met een concreet plan te komen in plaats van eerst alles uit te vragen. Een minuut werk.</p>
+        <p style="font-size:14px;color:var(--muted,#9aa3b2);line-height:1.6;margin:0 0 8px;">Je fitcheck staat vast. Drie korte vragen helpen ons om met een concreet plan te komen in plaats van eerst alles uit te vragen. Een minuut werk. Daarna vragen we je de volledige vragenlijst in te vullen (15 vragen, ongeveer 10 minuten): dat is de basis voor de beste fitcheck.</p>
         <p style="font-size:13.5px;line-height:1.6;margin:0 0 18px;"><a href="#" onclick="skipAnswers();return false;" style="color:var(--accent2,#5B8DEF);text-decoration:underline;text-underline-offset:3px;">Liever niet nu, ik vertel het in de call</a></p>
 
         <div class="fg"><label>Wie is jullie ideale klant?</label><textarea id="q1" placeholder="Kort beschrijven..."></textarea></div>
@@ -598,9 +598,16 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
       <div class="step-panel" id="s3">
         <div class="succ">
           <div class="succ-ring"></div>
-          <div class="succ-title">Afspraak bevestigd!</div>
-          <div class="succ-sub">Je ontvangt direct een bevestiging op <strong id="confMail">je e-mail</strong>.<br>De agenda-uitnodiging met de deelnamelink zit erbij.</div>
+          <div class="succ-title">Fitcheck bevestigd!</div>
+          <div class="succ-sub">Je ontvangt direct een bevestiging op <strong id="confMail">je e-mail</strong>.<br>De agenda-uitnodiging met de deelnamelink zit erbij. Een dag en een uur van tevoren krijg je een herinnering.</div>
           <div class="ref-box">Boekingsnummer<span id="bookRef">L2L-000000</span></div>
+          <div class="slot-preview" style="border-color:rgba(47,111,237,0.35);margin-top:18px;text-align:left;">
+            <div class="sp-info">
+              <div class="sp-date" style="color:var(--accent2,#5B8DEF);">Nog een stap: de vragenlijst</div>
+              <div class="sp-time">15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten. Vul hem nu in, dan komen we in de fitcheck direct met een plan in plaats van eerst alles uit te vragen.</div>
+              <a class="btn btn-primary" href="/klant" style="text-decoration:none;margin-top:12px;">Vul de vragenlijst in</a>
+            </div>
+          </div>
           <p style="font-size:14px;line-height:1.6;color:rgba(240,239,237,0.7);margin:16px 0 0;">Alvast inlezen? In de <a href="/kennis" style="color:var(--accent2,#5B8DEF);text-decoration:underline;text-underline-offset:3px;">kennisbank</a> staan de prijzen, de regels rond koude e-mail en onze eigen campagnecijfers.</p>
           <button class="btn btn-ghost" onclick="reset()" style="margin-top:14px">Nieuwe afspraak plannen</button>
         </div>
@@ -873,7 +880,7 @@ function reset(){
 
 renderCal();renderSlots();
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=23"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=24"></script>
 <script src="/assets/tracking.js"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.

@@ -1,3 +1,36 @@
+# Wijzigingen, 16 september 2026 (mails uit het systeem: fitcheck overal, opmaak gelijk, herinneringen)
+
+**Vragenlijstblok**
+- In alle fitcheck-mails (bevestiging, kopie drie vragen, herinneringen) heet de knop nu "Vul de vragenlijst in" met label "Voorbereiding · 15 vragen · 10 minuten"; "gegevens achterlaten" en "2 minuten" zijn weg. Boodschap overal hetzelfde: vul /klant in voor de beste fitcheck.
+- `/book` zelf verwijst nu ook door: het scherm met de drie korte vragen kondigt de vragenlijst aan, en het eindscherm (na antwoorden of overslaan) heeft een blok "Nog een stap: de vragenlijst" met knop naar /klant. Kop "Afspraak bevestigd!" is "Fitcheck bevestigd!". Vertalingen erbij (`l2l-i18n-data.js?v=22`).
+
+**Terminologie**
+- Overal in de mails uit `/api` stond "strategiecall" of "strategiegesprek"; de site zegt "fitcheck". Nu overal "gratis fitcheck": boekingsbevestiging (onderwerp, kop, badge, voettekst), interne boekingsmail, kopie van de drie korte vragen, vragenlijst-mail (`/klant`), Outlook-afspraak (onderwerp "Fitcheck Link2Leads x Bedrijf") en de .ics-fallback.
+- `/klant`: tijdlijnstap 2 heet "Fitcheck" en de succestekst zegt "in de fitcheck". Engelse vertalingen toegevoegd (`l2l-i18n-data.js?v=21`, `l2l-i18n.js?v=24`).
+- Tijdsaanduiding "(CET)" is nu "(Nederlandse tijd)"; CET klopte in de zomer niet.
+- "Format: online, link volgt" is overal "Online via Microsoft Teams".
+
+**Tekst- en HTML-versie gelijkgetrokken**
+- Kopie van de drie korte vragen: de tekstversie zei "rond de onboarding af", de HTML-versie "vul de volledige vragenlijst in". Nu dezelfde tekst.
+- Contactformulier: een aanvraag voor de marktscan of de 10 gratis leads kreeg als kop "je vraag is binnen" en een tekst over "je vraag". Nu heeft elk type (vraag, marktscan, 10 gratis leads, leadaanvraag) een eigen onderwerp, kop, uitleg, vervolgblok en voettekst, gelijk in tekst- en HTML-versie.
+- Betaalbevestiging na Mollie (koper en intern) was kale platte tekst; nu dezelfde huisstijl als de andere mails, bedrag als 1.815,00. Ondertekend door Anne-Roos, zoals hij al was.
+- Blokafstanden overal via `M.spacer()` in plaats van losse divs met verschillende hoogtes.
+
+**Herinneringen (nieuw: `api/remind.js`)**
+- Een dag van tevoren (tussen 23 en 25 uur) en een uur van tevoren (tussen 45 en 75 minuten) gaat er een mail naar de klant en naar NOTIFY_EMAIL. Klantmail: datum, tijd, Teams-knop, blok "vul even je gegevens in zodat we je in de fitcheck gericht kunnen helpen" (link naar /klant). Interne mail: naam, mail, bedrijf, telefoon, Teams-link, link naar de afspraak in Outlook.
+- Bron is de Outlook-agenda (MS_CALENDAR_USER). Elke afspraak die begint met "Fitcheck Link2Leads" telt mee. Na verzending krijgt de afspraak de categorie "L2L herinnering dag verstuurd" of "L2L herinnering uur verstuurd", zodat elke herinnering precies een keer gaat; die categorie zie je ook in Outlook.
+- Werkt alleen voor boekingen die echt in de agenda staan (Graph). Bij de .ics-fallback is er geen afspraak en dus geen herinnering; de interne boekingsmail zegt dat er dan handmatig een link gestuurd moet worden.
+- Beveiligd met REMIND_SECRET (of Vercels eigen CRON_SECRET). Aanroep: `GET https://link2leads.nl/api/remind?key=<sleutel>`.
+- Het endpoint moet elk kwartier worden aangeroepen. Vercel Hobby staat alleen een dagelijkse cron toe, daarom niet in `vercel.json` gezet. Twee opties: (a) cron-job.org, gratis, elk kwartier op bovenstaande URL; (b) op Vercel Pro in `vercel.json` toevoegen: `"crons":[{"path":"/api/remind","schedule":"*/15 * * * *"}]` (dan is de sleutel automatisch CRON_SECRET).
+- Bevestigingsmail en succespagina van `/book` zeggen nu dat er een dag en een uur van tevoren een herinnering komt.
+
+**Na deploy checken**
+- Env var REMIND_SECRET in Vercel zetten en de cron inrichten (zie boven), anders gaan er geen herinneringen uit.
+- Een testboeking doen en beide bevestigingen (klant en intern) nalopen.
+- `https://link2leads.nl/api/remind?key=<sleutel>` een keer in de browser openen: antwoord is JSON met `gecontroleerd` en `verstuurd`.
+
+---
+
 # Wijzigingen, 11 september 2026 (scrollen onder footer, sticker mobiel)
 
 - Doorscrollen onder de footer op mobiel: naast de CSS-fix staat nu op elke pagina met footer een klein script dat na het laden (en na elke toevoeging aan de pagina, zoals de chatwidget) controleert of de pagina langer is dan de footer. Zo ja, dan zet het alles wat na de footer is toegevoegd vast in beeld, zodat het geen lengte meer toevoegt. Getest met een statisch blok van 520px, een absoluut blok ver onder de pagina en een schermvullend widgetvlak: pagina eindigt exact bij de footer op home, kennis, privacy en een case.
