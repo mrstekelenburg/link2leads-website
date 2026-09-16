@@ -230,9 +230,16 @@ async function getBusy(dateKey) {
   return busy;
 }
 
-/* Alle fitchecks in de agenda die tussen nu en over `hoursAhead` uur beginnen.
+/* Alle gesprekken in de agenda die tussen nu en over `hoursAhead` uur beginnen
+   en waar een herinnering voor moet. Regel: het woord "Link2Leads" in het
+   onderwerp (fitchecks van /book beginnen met EVENT_PREFIX, handmatige
+   uitnodigingen heten bijv. "Kennismaking Link2Leads x Bedrijf") of de
+   categorie CAT_AAN. Categorie CAT_UIT sluit een afspraak uit.
    Tijden komen in wereldtijd terug (ISO met Z), inclusief deelnemers,
    categorieen en de Teams-link. Voor api/remind.js. */
+const CAT_AAN = 'L2L herinnering aan';
+const CAT_UIT = 'L2L geen herinnering';
+
 async function listUpcoming(hoursAhead) {
   if (!configured()) return null;
   const user = encodeURIComponent(process.env.MS_CALENDAR_USER);
@@ -240,7 +247,7 @@ async function listUpcoming(hoursAhead) {
   const to = new Date(Date.now() + (hoursAhead || 26) * 60 * 60 * 1000).toISOString();
   const url = `${GRAPH}/users/${user}/calendarView` +
     `?startDateTime=${encodeURIComponent(from)}&endDateTime=${encodeURIComponent(to)}` +
-    `&$select=id,subject,start,end,isCancelled,attendees,categories,onlineMeeting,webLink,bodyPreview` +
+    `&$select=id,subject,start,end,isCancelled,isAllDay,attendees,categories,onlineMeeting,webLink,bodyPreview` +
     `&$top=100&$orderby=start/dateTime`;
 
   const res = await fetch(url, { headers: { Authorization: 'Bearer ' + (await token()) } });
@@ -250,11 +257,18 @@ async function listUpcoming(hoursAhead) {
   }
   const data = await res.json();
   return (data.value || [])
-    .filter(ev => !ev.isCancelled && String(ev.subject || '').startsWith(EVENT_PREFIX))
+    .filter(ev => {
+      if (ev.isCancelled || ev.isAllDay) return false;
+      const cats = ev.categories || [];
+      if (cats.includes(CAT_UIT)) return false;
+      const subj = String(ev.subject || '');
+      return subj.startsWith(EVENT_PREFIX) || /link2leads/i.test(subj) || cats.includes(CAT_AAN);
+    })
     .map(ev => ({
       id: ev.id,
       subject: ev.subject,
       startUtc: new Date(String(ev.start.dateTime).slice(0, 19) + 'Z'),
+      endUtc: new Date(String(ev.end.dateTime).slice(0, 19) + 'Z'),
       attendees: (ev.attendees || []).map(a => ({
         email: (a.emailAddress && a.emailAddress.address) || '',
         name: (a.emailAddress && a.emailAddress.name) || ''
@@ -301,4 +315,4 @@ async function isFree(dateKey, time, minutes) {
   return !overlaps(busy, start, start + (minutes || 30));
 }
 
-module.exports = { configured, createEvent, getBusy, overlaps, isFree, listUpcoming, addCategory, EVENT_PREFIX };
+module.exports = { configured, createEvent, getBusy, overlaps, isFree, listUpcoming, addCategory, EVENT_PREFIX, CAT_AAN, CAT_UIT };

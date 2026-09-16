@@ -113,9 +113,10 @@ function button(href, text) {
 
 // Het blok dat in elke fitcheck-mail vraagt om /klant in te vullen.
 // Zelfde boodschap overal: vul de vragenlijst in voor de beste fitcheck.
-function prepBlock(dateStr, variant) {
+function prepBlock(dateStr, variant, soort) {
+  const g = soort || 'fitcheck';
   const wd = weekdayOf(dateStr);
-  const wanneer = wd ? wd : 'in de fitcheck';
+  const wanneer = wd ? wd : 'in de ' + g;
   const isFull = variant === 'full';
   const isReminder = variant === 'reminder';
 
@@ -123,13 +124,13 @@ function prepBlock(dateStr, variant) {
     ? 'Vul nu de volledige vragenlijst in'
     : isReminder
     ? 'Vragenlijst nog niet ingevuld? Doe het nu'
-    : 'Vul de vragenlijst in voor de beste fitcheck';
+    : `Vul de vragenlijst in voor de beste ${g}`;
 
   const tekst = isFull
     ? `Je antwoorden hierboven geven me al richting. De volledige vragenlijst (15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten) maakt het beeld compleet. Zo kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`
     : isReminder
-    ? `De vragenlijst (15 vragen, ongeveer 10 minuten) is de basis van de fitcheck. Vul hem in, dan kunnen we je ${wanneer} gericht helpen. Al gedaan? Dan hoef je niets te doen.`
-    : `Vul de vragenlijst in: 15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten. Dan weet ik vooraf waar je staat en kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen. Hoe concreter je antwoordt, hoe scherper de fitcheck.`;
+    ? `De vragenlijst (15 vragen, ongeveer 10 minuten) is de basis van de ${g}. Vul hem in, dan kunnen we je ${wanneer} gericht helpen. Al gedaan? Dan hoef je niets te doen.`
+    : `Vul de vragenlijst in: 15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten. Dan weet ik vooraf waar je staat en kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen. Hoe concreter je antwoordt, hoe scherper de ${g}.`;
 
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;background:${C.panel};border:1px solid ${C.border2};border-radius:14px;">
     <tr><td style="padding:24px 22px;">

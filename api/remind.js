@@ -15,7 +15,13 @@
    "Authorization: Bearer <sleutel>" of als ?key=<sleutel> in het adres.
    Vercel Cron stuurt automatisch CRON_SECRET mee; die wordt ook geaccepteerd.
 
-   Werkt alleen voor afspraken die via Microsoft Graph in de agenda zijn gezet
+   Welke afspraken meetellen: alles met "Link2Leads" in het onderwerp (boekingen
+   van /book en handmatige uitnodigingen zoals "Kennismaking Link2Leads x Bedrijf")
+   of met de Outlook-categorie "L2L herinnering aan". Categorie "L2L geen
+   herinnering" sluit een afspraak uit. Bij "fitcheck" in het onderwerp heet het
+   in de mail fitcheck, anders kennismaking. De duur komt uit de afspraak zelf.
+
+   Werkt alleen voor afspraken die in de Outlook-agenda staan
    (dezelfde MS_* variabelen als api/_graph.js). Boekingen die op de .ics-fallback
    liepen, staan niet in de agenda en krijgen dus geen herinnering. */
 
@@ -76,6 +82,15 @@ function prospectOf(ev) {
   };
 }
 
+/* 'fitcheck' voor boekingen van /book, anders 'kennismaking' (handmatige uitnodigingen). */
+function soortOf(ev) {
+  return /fitcheck/i.test(ev.subject) ? 'fitcheck' : 'kennismaking';
+}
+function duurOf(ev) {
+  const m = Math.round((ev.endUtc - ev.startUtc) / 60000);
+  return (m > 0 && m < 600 ? m : 30) + ' minuten';
+}
+
 function joinRow(ev) {
   return ev.joinUrl
     ? ['Deelnemen', { raw: `<a href="${M.escAttr(ev.joinUrl)}" style="color:${M.C.accent2};text-decoration:none;font-weight:700;">Deelnemen via Microsoft Teams</a>` }]
@@ -83,20 +98,20 @@ function joinRow(ev) {
 }
 
 async function sendDag(t, ev, p, from, notify) {
-  const datum = nlDate(ev.startUtc), tijd = nlTime(ev.startUtc);
+  const datum = nlDate(ev.startUtc), tijd = nlTime(ev.startUtc), g = soortOf(ev), duur = duurOf(ev);
   const firstName = p.name.split(' ')[0];
 
   // Klant
   await t.sendMail({
     from, to: p.email,
-    subject: `Morgen om ${tijd}: je fitcheck met Link2Leads`,
+    subject: `Morgen om ${tijd}: je ${g} met Link2Leads`,
     text: [
       `Hoi ${firstName},`,
       ``,
-      `Morgen om ${tijd} (Nederlandse tijd) staat je gratis fitcheck met Link2Leads. 30 minuten via Microsoft Teams.`,
+      `Morgen om ${tijd} (Nederlandse tijd) staat je ${g} met Link2Leads. ${duur} via Microsoft Teams.`,
       ev.joinUrl ? `Deelnemen: ${ev.joinUrl}` : `De deelnamelink staat in je agenda-uitnodiging.`,
       ``,
-      `Vragenlijst nog niet ingevuld? Doe het nu op ${KLANT_URL} (15 vragen, ongeveer 10 minuten), dan kunnen we je in de fitcheck gericht helpen. Al gedaan? Dan hoef je niets te doen.`,
+      `Vragenlijst nog niet ingevuld? Doe het nu op ${KLANT_URL} (15 vragen, ongeveer 10 minuten), dan kunnen we je in de ${g} gericht helpen. Al gedaan? Dan hoef je niets te doen.`,
       ``,
       `Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`,
       ``,
@@ -107,22 +122,22 @@ async function sendDag(t, ev, p, from, notify) {
       p.ref ? `Ref ${p.ref}` : ''
     ].filter(l => l !== null).join('\n'),
     html: M.shell({
-      title: 'Morgen: je fitcheck',
+      title: `Morgen: je ${g}`,
       badge: 'Herinnering',
-      footerNote: 'Je ontvangt deze mail omdat je een fitcheck met Link2Leads hebt gepland.',
-      preheader: `Morgen ${datum.toLowerCase()} om ${tijd} · 30 minuten via Microsoft Teams`,
+      footerNote: `Je ontvangt deze mail omdat je een ${g} met Link2Leads hebt gepland.`,
+      preheader: `Morgen ${datum.toLowerCase()} om ${tijd} · ${duur} via Microsoft Teams`,
       ref: p.ref,
       body: [
-        M.h1(`Morgen om ${esc(tijd)}: je fitcheck, ${esc(firstName)}`),
-        M.p(`Een korte herinnering. Morgen staat je gratis fitcheck met Link2Leads. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 }),
+        M.h1(`Morgen om ${esc(tijd)}: je ${g}, ${esc(firstName)}`),
+        M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 }),
         M.detailTable([
           ['Datum', datum],
           ['Tijd', `${tijd} (Nederlandse tijd)`],
-          ['Duur', '30 minuten'],
+          ['Duur', duur],
           joinRow(ev)
         ]),
         M.spacer(),
-        M.prepBlock('', 'reminder'),
+        M.prepBlock('', 'reminder', g),
         M.spacer(),
         M.signoff('', { tot: 'morgen' })
       ].join('')
@@ -132,14 +147,14 @@ async function sendDag(t, ev, p, from, notify) {
   // Intern
   await t.sendMail({
     from, to: notify, replyTo: p.email || undefined,
-    subject: `Morgen ${tijd}: fitcheck met ${p.name}${p.company ? ' (' + p.company + ')' : ''}`,
+    subject: `Morgen ${tijd}: ${g} met ${p.name}${p.company ? ' (' + p.company + ')' : ''}`,
     html: M.shell({
-      title: 'Morgen: fitcheck',
+      title: `Morgen: ${g}`,
       badge: 'Intern · herinnering',
       preheader: `${p.name} · ${datum} om ${tijd}`,
       ref: p.ref,
       body: [
-        M.h1(`Morgen om ${esc(tijd)}: fitcheck met ${esc(p.name)}`),
+        M.h1(`Morgen om ${esc(tijd)}: ${g} met ${esc(p.name)}`),
         M.p(`De klant heeft dezelfde herinnering gekregen, met de vraag om de vragenlijst op /klant in te vullen. Check of die al binnen is.`, { gap: 24 }),
         M.detailTable([
           ['Naam', p.name],
@@ -147,7 +162,7 @@ async function sendDag(t, ev, p, from, notify) {
           ['Bedrijf', p.company],
           ['Telefoon', p.phone],
           ['Datum', datum],
-          ['Tijd', `${tijd} (Nederlandse tijd) · 30 minuten`],
+          ['Tijd', `${tijd} (Nederlandse tijd) · ${duur}`],
           ev.joinUrl ? ['Teams', { raw: `<a href="${M.escAttr(ev.joinUrl)}" style="color:${M.C.accent2};">Deelnemen</a>` }] : null,
           ev.webLink ? ['Agenda', { raw: `<a href="${M.escAttr(ev.webLink)}" style="color:${M.C.accent2};">Open in Outlook</a>` }] : null
         ])
@@ -157,17 +172,17 @@ async function sendDag(t, ev, p, from, notify) {
 }
 
 async function sendUur(t, ev, p, from, notify) {
-  const datum = nlDate(ev.startUtc), tijd = nlTime(ev.startUtc);
+  const datum = nlDate(ev.startUtc), tijd = nlTime(ev.startUtc), g = soortOf(ev), duur = duurOf(ev);
   const firstName = p.name.split(' ')[0];
 
   // Klant
   await t.sendMail({
     from, to: p.email,
-    subject: `Over een uur: je fitcheck met Link2Leads (${tijd})`,
+    subject: `Over een uur: je ${g} met Link2Leads (${tijd})`,
     text: [
       `Hoi ${firstName},`,
       ``,
-      `Over een uur, om ${tijd} (Nederlandse tijd), begint je gratis fitcheck met Link2Leads. 30 minuten via Microsoft Teams.`,
+      `Over een uur, om ${tijd} (Nederlandse tijd), begint je ${g} met Link2Leads. ${duur} via Microsoft Teams.`,
       ev.joinUrl ? `Deelnemen: ${ev.joinUrl}` : `De deelnamelink staat in je agenda-uitnodiging.`,
       ``,
       `Vragenlijst nog niet ingevuld? Doe het nu op ${KLANT_URL}, dan kunnen we je gericht helpen.`,
@@ -179,24 +194,24 @@ async function sendUur(t, ev, p, from, notify) {
       p.ref ? `Ref ${p.ref}` : ''
     ].join('\n'),
     html: M.shell({
-      title: 'Over een uur: je fitcheck',
+      title: `Over een uur: je ${g}`,
       badge: 'Herinnering',
-      footerNote: 'Je ontvangt deze mail omdat je een fitcheck met Link2Leads hebt gepland.',
-      preheader: `Vandaag om ${tijd} · 30 minuten via Microsoft Teams`,
+      footerNote: `Je ontvangt deze mail omdat je een ${g} met Link2Leads hebt gepland.`,
+      preheader: `Vandaag om ${tijd} · ${duur} via Microsoft Teams`,
       ref: p.ref,
       body: [
-        M.h1(`Over een uur: je fitcheck, ${esc(firstName)}`),
-        M.p(`Om ${esc(tijd)} begint je gratis fitcheck met Link2Leads. Je kunt hieronder direct deelnemen.`, { gap: 24 }),
+        M.h1(`Over een uur: je ${g}, ${esc(firstName)}`),
+        M.p(`Om ${esc(tijd)} begint je ${g} met Link2Leads. Je kunt hieronder direct deelnemen.`, { gap: 24 }),
         M.detailTable([
           ['Datum', datum],
           ['Tijd', `${tijd} (Nederlandse tijd)`],
-          ['Duur', '30 minuten'],
+          ['Duur', duur],
           joinRow(ev)
         ]),
         M.spacer(),
         ev.joinUrl ? M.button(ev.joinUrl, 'Deelnemen via Microsoft Teams') : '',
         ev.joinUrl ? M.spacer() : '',
-        M.prepBlock('', 'reminder'),
+        M.prepBlock('', 'reminder', g),
         M.spacer(),
         M.signoff('', { lead: 'Tot zo.' })
       ].join('')
@@ -206,21 +221,21 @@ async function sendUur(t, ev, p, from, notify) {
   // Intern
   await t.sendMail({
     from, to: notify, replyTo: p.email || undefined,
-    subject: `Over een uur (${tijd}): fitcheck met ${p.name}${p.company ? ' (' + p.company + ')' : ''}`,
+    subject: `Over een uur (${tijd}): ${g} met ${p.name}${p.company ? ' (' + p.company + ')' : ''}`,
     html: M.shell({
-      title: 'Over een uur: fitcheck',
+      title: `Over een uur: ${g}`,
       badge: 'Intern · herinnering',
       preheader: `${p.name} · vandaag om ${tijd}`,
       ref: p.ref,
       body: [
-        M.h1(`Over een uur: fitcheck met ${esc(p.name)}`),
+        M.h1(`Over een uur: ${g} met ${esc(p.name)}`),
         M.p(`Om ${esc(tijd)}. De klant heeft dezelfde herinnering gekregen.`, { gap: 24 }),
         M.detailTable([
           ['Naam', p.name],
           ['E-mail', p.email ? { raw: `<a href="mailto:${M.escAttr(p.email)}" style="color:${M.C.accent2};">${esc(p.email)}</a>` } : ''],
           ['Bedrijf', p.company],
           ['Telefoon', p.phone],
-          ['Tijd', `${tijd} (Nederlandse tijd) · 30 minuten`],
+          ['Tijd', `${tijd} (Nederlandse tijd) · ${duur}`],
           ev.joinUrl ? ['Teams', { raw: `<a href="${M.escAttr(ev.joinUrl)}" style="color:${M.C.accent2};">Deelnemen</a>` }] : null,
           ev.webLink ? ['Agenda', { raw: `<a href="${M.escAttr(ev.webLink)}" style="color:${M.C.accent2};">Open in Outlook</a>` }] : null
         ])
