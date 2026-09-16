@@ -213,7 +213,7 @@ module.exports = async (req, res) => {
     await t.sendMail({
       from, to: notify, replyTo: b.email,
       attachments: icsAttach,
-      subject: `Nieuwe boeking — ${b.name}${b.companyName ? ' (' + b.companyName + ')' : ''} · ${b.date} ${b.time}`,
+      subject: `Nieuwe boeking — ${b.name}${b.companyName ? ' (' + b.companyName + ')' : ''} · ${b.date} ${b.time}${b.pakket ? ' · ' + String(b.pakket).split(' (')[0] : ''}`,
       html: M.shell({
         title: 'Nieuwe fitcheck geboekt',
         badge: 'Intern',
@@ -228,7 +228,8 @@ module.exports = async (req, res) => {
             ['Bedrijf', b.companyName],
             ['Telefoon', b.phone],
             ['Datum', b.date],
-            ['Tijd', `${b.time} (Nederlandse tijd) · 30 minuten`]
+            ['Tijd', `${b.time} (Nederlandse tijd) · 30 minuten`],
+            ['Pakket', b.pakket ? String(b.pakket).slice(0, 200) : '']
           ]),
           M.spacer(20),
           calendar
@@ -252,6 +253,7 @@ module.exports = async (req, res) => {
         ``,
         `Datum: ${b.date}`,
         `Tijd: ${b.time} (Nederlandse tijd) · 30 minuten`,
+        b.pakket ? `Samengesteld pakket: ${String(b.pakket).slice(0, 200)} (bespreken we in de fitcheck)` : '',
         calendar && calendar.joinUrl ? `Deelnemen via Microsoft Teams: ${calendar.joinUrl}` : `Format: online via Microsoft Teams, link volgt per mail`,
         ``,
         `Vul voor de beste fitcheck de vragenlijst in op ${KLANT_URL}: 15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten. Dan weet ik vooraf waar je staat en kan ik ${wd || 'in de fitcheck'} direct met een plan komen in plaats van eerst alles uit te vragen.`,
@@ -275,6 +277,7 @@ module.exports = async (req, res) => {
             ['Datum', b.date],
             ['Tijd', `${b.time} (Nederlandse tijd)`],
             ['Duur', '30 minuten'],
+            ['Pakket', b.pakket ? `${String(b.pakket).slice(0, 200)} · bespreken we in de fitcheck` : ''],
             calendar && calendar.joinUrl
               ? ['Deelnemen', { raw: `<a href="${M.escAttr(calendar.joinUrl)}" style="color:${M.C.accent2};text-decoration:none;font-weight:700;">Deelnemen via Microsoft Teams</a>` }]
               : ['Format', 'Online via Microsoft Teams · link volgt per mail']
