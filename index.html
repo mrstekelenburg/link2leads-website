@@ -2047,6 +2047,7 @@ footer.l2f{margin-bottom:0 !important;}
             },
             "url": "https://www.link2leads.nl/#pakketten"
           }
+          
         ]
       },
       "termsOfService": "https://www.link2leads.nl/algemene-voorwaarden",
@@ -3145,66 +3146,154 @@ Bel ons: 085 080 5381
 <a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
 </div>
-<div class="addons reveal">
+<div class="cfg reveal" id="samenstellen">
 <style>
-  .addons{margin-top:34px;text-align:left;}
-  .ao-head{font-size:clamp(20px,2.4vw,24px);font-weight:800;letter-spacing:-.5px;color:var(--white);margin:0 0 18px;}
-  .ao-head .blue{color:var(--accent2);}
-  .ao-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:stretch;}
-  .ao-card{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;
-    padding:28px 30px 26px;display:flex;flex-direction:column;}
-  .ao-card h3{font-size:20px;font-weight:800;letter-spacing:-.5px;color:var(--white);margin:0 0 10px;}
-  .ao-card > p{font-size:15px;line-height:1.65;color:rgba(255,255,255,.72);margin:0 0 22px;max-width:420px;}
-  .ao-rows{list-style:none;margin:auto 0 0;padding:18px 0 0;border-top:1px solid var(--border);display:grid;gap:11px;}
-  .ao-rows li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;font-size:15px;}
-  .ao-rows span{color:rgba(255,255,255,.62);}
-  .ao-rows b{font-weight:700;color:var(--white);white-space:nowrap;}
-  .ao-link{display:inline-block;margin-top:18px;font-size:14.5px;font-weight:600;color:var(--accent2);
-    text-decoration:underline;text-underline-offset:3px;}
-  .ao-ex{margin:0 0 22px;padding:0 0 0 16px;border-left:2px solid rgba(47,111,237,.5);}
-  .ao-ex span{display:block;font-size:12.5px;font-weight:700;color:var(--muted);margin-bottom:6px;}
-  .ao-ex p{margin:0;font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.82);}
-  .ao-ex .ao-url{margin-top:12px;font-size:14px;color:rgba(255,255,255,.68);}
-  .ao-ex .ao-url b{font-weight:700;color:var(--accent2);}
-  .ao-foot{margin:18px 0 0;font-size:13.5px;line-height:1.6;color:var(--muted);text-align:center;}
-  @media(max-width:860px){.ao-grid{grid-template-columns:1fr;}.ao-card{padding:24px 22px 22px;}}
+  .cfg{margin-top:34px;text-align:left;}
+  .cfg-head{font-size:clamp(20px,2.4vw,24px);font-weight:800;letter-spacing:-.5px;color:var(--white);margin:0 0 6px;}
+  .cfg-head .blue{color:var(--accent2);}
+  .cfg-sub{margin:0 0 22px;font-size:15px;line-height:1.6;color:var(--muted);}
+  .cfg-grid{display:grid;grid-template-columns:1.55fr 1fr;gap:16px;align-items:stretch;}
+  .cfg-grid > aside{display:flex;}
+  .cfg-left{display:grid;gap:18px;}
+  .cfg-lab{display:block;font-size:12.5px;font-weight:700;letter-spacing:.2px;color:var(--muted);margin-bottom:10px;}
+  .cfg-pk{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;}
+  .cfg-pk button{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:14px 10px;cursor:pointer;
+    font-family:var(--f);color:var(--white);text-align:center;transition:border-color .2s,background .2s;}
+  .cfg-pk button:hover{border-color:rgba(255,255,255,.22);}
+  .cfg-pk button.is-on{border-color:var(--accent);background:rgba(47,111,237,.12);}
+  .cfg-pk b{display:block;font-size:15px;font-weight:800;letter-spacing:-.2px;}
+  .cfg-pk em{display:block;margin-top:4px;font-style:normal;font-size:19px;font-weight:900;letter-spacing:-.8px;color:var(--white);}
+  .cfg-pk span{display:block;margin-top:2px;font-size:12.5px;color:var(--muted);}
+  .cfg-opts{display:grid;gap:10px;}
+  .cfg-opt{display:grid;grid-template-columns:22px 1fr auto;align-items:start;gap:14px;cursor:pointer;
+    background:var(--card-bg);border:1px solid var(--border);border-radius:14px;padding:16px 18px;transition:border-color .2s,background .2s;}
+  .cfg-opt:hover{border-color:rgba(255,255,255,.2);}
+  .cfg-opt:has(input:checked){border-color:rgba(47,111,237,.45);background:rgba(47,111,237,.08);}
+  .cfg-opt.is-off{opacity:.55;cursor:not-allowed;}
+  .cfg-opt input{width:18px;height:18px;margin-top:3px;accent-color:var(--accent);cursor:inherit;}
+  .cfg-opt-t{display:block;font-size:15.5px;font-weight:700;color:var(--white);}
+  .cfg-opt-d{display:block;margin-top:4px;font-size:14px;line-height:1.55;color:rgba(255,255,255,.68);}
+  .cfg-opt-x{display:block;margin-top:8px;padding-left:12px;border-left:2px solid rgba(47,111,237,.5);font-size:13.5px;line-height:1.5;color:rgba(255,255,255,.62);}
+  .cfg-opt-x b{color:rgba(255,255,255,.85);font-weight:600;}
+  .cfg-opt-p{font-size:15px;font-weight:800;color:var(--white);white-space:nowrap;}
+  .cfg-opt.is-off .cfg-opt-p{font-size:12.5px;font-weight:700;color:var(--muted);}
+  .cfg-sum{flex:1;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(47,111,237,.14),var(--card-bg) 60%);
+    border:1px solid rgba(47,111,237,.38);border-radius:20px;padding:28px 28px 24px;}
+  .cfg-sum-bot{margin-top:auto;padding-top:20px;}
+  .cfg-incl{margin-top:18px;padding-top:16px;border-top:1px solid var(--border);}
+  .cfg-incl ul{list-style:none;margin:0;padding:0;display:grid;gap:7px;}
+  .cfg-incl li{position:relative;padding-left:20px;font-size:13.5px;line-height:1.5;color:rgba(255,255,255,.66);}
+  .cfg-incl li::before{content:'\2713';position:absolute;left:0;color:#4ADE80;font-weight:700;}
+  .cfg-sum-lab{display:block;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.2px;}
+  .cfg-sum-tot{display:block;margin-top:6px;font-size:40px;font-weight:900;letter-spacing:-2px;line-height:1;color:var(--white);}
+  .cfg-sum-per{display:block;margin-top:6px;font-size:13.5px;color:var(--muted);}
+  .cfg-rows{list-style:none;margin:18px 0 0;padding:16px 0 0;border-top:1px solid var(--border);display:grid;gap:9px;}
+  .cfg-rows li{display:flex;justify-content:space-between;gap:14px;font-size:14.5px;color:rgba(255,255,255,.72);}
+  .cfg-rows li b{color:var(--white);font-weight:700;white-space:nowrap;}
+  .cfg-rows li span small{display:block;font-size:12.5px;color:var(--muted);}
+  .cfg-btn{display:block;text-align:center;margin-top:0;padding:14px;border-radius:12px;background:var(--accent);color:#fff;
+    font-family:var(--f);font-size:14.5px;font-weight:700;box-shadow:0 6px 24px rgba(47,111,237,.3);transition:opacity .2s,transform .2s;}
+  .cfg-btn:hover{opacity:.9;transform:translateY(-2px);}
+  .cfg-note{margin:14px 0 0;font-size:13px;line-height:1.55;color:var(--muted);}
+  .cfg-foot{margin:18px 0 0;font-size:13.5px;line-height:1.6;color:var(--muted);text-align:center;}
+  @media(max-width:900px){.cfg-grid{grid-template-columns:1fr;}}
+  @media(max-width:560px){.cfg-pk{grid-template-columns:1fr 1fr;}.cfg-opt{grid-template-columns:22px 1fr;padding:14px 16px;}
+    .cfg-opt-p{grid-column:2;margin-top:8px;}}
 </style>
-<h3 class="ao-head">Haal meer uit je campagne met twee <span class="blue">add-ons</span></h3>
-<div class="ao-grid">
-<div class="ao-card">
-<h3><span class="blue">Hyperpersonalisatie</span></h3>
-<p>Per prospect een openingszin op basis van echte informatie en een eigen pagina op jouw domein.</p>
-<div class="ao-ex" aria-hidden="true">
-<span>De openingszin bij een prospect</span>
-<p>Hoi Martijn, zag dat jullie net een tweede vestiging in Breda hebben geopend.</p>
-<span style="margin:12px 0 0;">En zijn eigen pagina</span>
-<p class="ao-url">jouwdomein.nl/<b>martijn-bakker</b></p>
+<h3 class="cfg-head">Stel je campagne <span class="blue">zelf samen</span></h3>
+<p class="cfg-sub">Kies een pakket en vink aan wat je erbij wilt. De prijs rekent direct mee.</p>
+<div class="cfg-grid">
+<div class="cfg-left">
+<div>
+<span class="cfg-lab">Pakket</span>
+<div class="cfg-pk" id="cfgPk" role="tablist">
+<button type="button" data-pk="starter"><b>Starter</b><em>&euro;995</em><span>100 mails per dag</span></button>
+<button type="button" data-pk="growth" class="is-on"><b>Growth</b><em>&euro;1.295</em><span>250 mails per dag</span></button>
+<button type="button" data-pk="scale"><b>Scale</b><em>&euro;1.695</em><span>500 mails per dag</span></button>
+<button type="button" data-pk="pro"><b>Pro</b><em>&euro;1.995</em><span>1.000 mails per dag</span></button>
 </div>
-<ul class="ao-rows">
-<li><span>Starter</span><b>+ &euro;300</b></li>
-<li><span>Growth</span><b>+ &euro;350</b></li>
-<li><span>Scale</span><b>+ &euro;450</b></li>
-<li><span>Pro</span><b>+ &euro;550</b></li>
+</div>
+<div>
+<span class="cfg-lab">Erbij, per maand</span>
+<div class="cfg-opts">
+<label class="cfg-opt">
+<input type="checkbox" class="cfg-ao" data-ao="hp">
+<span>
+<span class="cfg-opt-t">Hyperpersonalisatie</span>
+<span class="cfg-opt-d">Elke prospect krijgt een openingszin over zijn eigen bedrijf en een eigen pagina op jouw domein. <a href="/cases/landingspagina-per-prospect" style="color:var(--accent2);">Bekijk wat het opleverde</a></span>
+<span class="cfg-opt-x"><b>Hoi Martijn, zag dat jullie net een tweede vestiging in Breda hebben geopend.</b> Met een link naar jouwdomein.nl/martijn-bakker</span>
+</span>
+<span class="cfg-opt-p" data-p="hp">+ &euro;350</span>
+</label>
+<label class="cfg-opt" id="cfgFs">
+<input type="checkbox" class="cfg-ao" data-ao="fs">
+<span>
+<span class="cfg-opt-t">Full Service</span>
+<span class="cfg-opt-d">Wij beantwoorden de reacties en zetten de afspraak in jouw agenda. Jij voert alleen nog het gesprek.</span>
+<span class="cfg-opt-x"><b>Klinkt interessant, kun je volgende week even bellen?</b> wordt: afspraak ingepland, donderdag 11:00</span>
+</span>
+<span class="cfg-opt-p" data-p="fs">+ &euro;600</span>
+</label>
+</div>
+</div>
+</div>
+<aside>
+<div class="cfg-sum">
+<span class="cfg-sum-lab">Jouw campagne</span>
+<span class="cfg-sum-tot" id="cfgTot">&euro;1.295</span>
+<span class="cfg-sum-per">per maand, exclusief btw, minimaal drie maanden</span>
+<ul class="cfg-rows" id="cfgRows"></ul>
+<div class="cfg-incl">
+<span class="cfg-lab">Altijd inbegrepen</span>
+<ul>
+<li>Doelgroep en geverifieerde contactlijst</li>
+<li>Copy schrijven en bijsturen</li>
+<li>Domeinen, mailboxen en warmup</li>
+<li>Elke reactie handmatig gefilterd</li>
+<li>Maandrapportage</li>
 </ul>
-<a class="ao-link" href="/cases/landingspagina-per-prospect">Bekijk wat het opleverde</a>
 </div>
-<div class="ao-card">
-<h3><span class="blue">Full Service</span></h3>
-<p>Wij beantwoorden de reacties en zetten de afspraak in jouw agenda, zodat jij alleen het gesprek voert.</p>
-<div class="ao-ex" aria-hidden="true">
-<span>De reactie die binnenkomt</span>
-<p>Klinkt interessant, kun je volgende week even bellen?</p>
-<span style="margin:12px 0 0;">Wat wij ervan maken</span>
-<p class="ao-url">Afspraak ingepland, <b>donderdag 11:00</b></p>
-</div>
-<ul class="ao-rows">
-<li><span>Scale</span><b>+ &euro;600</b></li>
-<li><span>Pro</span><b>+ &euro;800</b></li>
-</ul>
-<a class="ao-link" href="#contact">Vraag hoe dit werkt</a>
+<div class="cfg-sum-bot">
+<a class="cfg-btn" href="/book" target="_blank" id="cfgGo">Doe de gratis fitcheck</a>
+<p class="cfg-note">In de fitcheck rekenen we door of dit pakket bij je markt past. Geen setupfee, geen aparte toolingrekening.</p>
 </div>
 </div>
-<p class="ao-foot">Add-ons betaal je per maand, bovenop de pakketprijs. Meer volume nodig? Mail <a href="mailto:info@link2leads.nl" style="color:var(--accent2);">info@link2leads.nl</a></p>
+</aside>
+</div>
+<p class="cfg-foot">Meer volume nodig? Mail <a href="mailto:info@link2leads.nl" style="color:var(--accent2);">info@link2leads.nl</a></p>
+<script>
+(function(){
+  var PK={starter:{n:'Starter',p:995,v:'100 mails per dag'},growth:{n:'Growth',p:1295,v:'250 mails per dag'},scale:{n:'Scale',p:1695,v:'500 mails per dag'},pro:{n:'Pro',p:1995,v:'1.000 mails per dag'}};
+  var AO={hp:{n:'Hyperpersonalisatie',p:{starter:300,growth:350,scale:450,pro:550}},
+          fs:{n:'Full Service',p:{scale:600,pro:800}}};
+  var pk='growth';
+  var wrap=document.getElementById('samenstellen');
+  function nf(n){return '\u20ac'+n.toString().replace(/\B(?=(\d{3})+(?!\d))/g,'.');}
+  function render(){
+    wrap.querySelectorAll('#cfgPk button').forEach(function(b){b.classList.toggle('is-on',b.dataset.pk===pk);});
+    var tot=PK[pk].p, rows='<li><span>'+PK[pk].n+'<small>'+PK[pk].v+'</small></span><b>'+nf(PK[pk].p)+'</b></li>';
+    Object.keys(AO).forEach(function(k){
+      var cb=wrap.querySelector('.cfg-ao[data-ao="'+k+'"]'), lab=cb.closest('.cfg-opt'), pe=wrap.querySelector('.cfg-opt-p[data-p="'+k+'"]');
+      var price=AO[k].p[pk];
+      if(price==null){lab.classList.add('is-off');cb.checked=false;cb.disabled=true;pe.textContent='Vanaf Scale';}
+      else{lab.classList.remove('is-off');cb.disabled=false;pe.textContent='+ '+nf(price);}
+      if(cb.checked){tot+=price;rows+='<li><span>'+AO[k].n+'</span><b>+ '+nf(price)+'</b></li>';}
+    });
+    document.getElementById('cfgTot').textContent=nf(tot);
+    document.getElementById('cfgRows').innerHTML=rows;
+    var sel=Object.keys(AO).filter(function(k){return wrap.querySelector('.cfg-ao[data-ao="'+k+'"]').checked;});
+    document.getElementById('cfgGo').href='/book?pakket='+pk+(sel.length?'&addons='+sel.join(','):'');
+  }
+  wrap.querySelectorAll('#cfgPk button').forEach(function(b){b.addEventListener('click',function(){pk=b.dataset.pk;render();});});
+  wrap.querySelectorAll('.cfg-ao').forEach(function(c){c.addEventListener('change',render);});
+  document.querySelectorAll('.pricing-grid .p-card').forEach(function(card,i){
+    card.addEventListener('click',function(e){ if(e.target.closest('a'))return; pk=['starter','growth','scale','pro'][i]; render();
+      wrap.scrollIntoView({behavior:'smooth',block:'start'}); });
+    card.style.cursor='pointer';
+  });
+  render();
+})();
+</script>
 </div>
 <div class="gar-bar reveal">
 <style>
