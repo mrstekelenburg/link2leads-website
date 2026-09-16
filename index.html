@@ -3212,8 +3212,8 @@ Bel ons: 085 080 5381
 <span class="cfg-lab">Pakket</span>
 <div class="cfg-pk" id="cfgPk" role="tablist">
 <button type="button" data-pk="starter"><b>Starter</b><em>&euro;995</em><span>100 mails per dag</span></button>
-<button type="button" data-pk="growth" class="is-on"><b>Growth</b><em>&euro;1.295</em><span>250 mails per dag</span></button>
-<button type="button" data-pk="scale"><b>Scale</b><em>&euro;1.695</em><span>500 mails per dag</span></button>
+<button type="button" data-pk="growth"><b>Growth</b><em>&euro;1.295</em><span>250 mails per dag</span></button>
+<button type="button" data-pk="scale" class="is-on"><b>Scale</b><em>&euro;1.695</em><span>500 mails per dag</span></button>
 <button type="button" data-pk="pro"><b>Pro</b><em>&euro;1.995</em><span>1.000 mails per dag</span></button>
 </div>
 </div>
@@ -3278,7 +3278,7 @@ Bel ons: 085 080 5381
   var PK={starter:{n:'Starter',p:995,v:'100 mails per dag'},growth:{n:'Growth',p:1295,v:'250 mails per dag'},scale:{n:'Scale',p:1695,v:'500 mails per dag'},pro:{n:'Pro',p:1995,v:'1.000 mails per dag'}};
   var AO={hp:{n:'Hyperpersonalisatie',p:{starter:300,growth:350,scale:450,pro:550}},
           fs:{n:'Full Service',p:{scale:600,pro:800}}};
-  var pk='growth';
+  var pk='scale';
   var wrap=document.getElementById('samenstellen');
   function nf(n){return '\u20ac'+n.toString().replace(/\B(?=(\d{3})+(?!\d))/g,'.');}
   function render(){
