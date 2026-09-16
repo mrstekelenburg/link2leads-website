@@ -3177,6 +3177,10 @@ Bel ons: 085 080 5381
   .cfg-opt-x b{color:rgba(255,255,255,.85);font-weight:600;}
   .cfg-opt-p{font-size:15px;font-weight:800;color:var(--white);white-space:nowrap;}
   .cfg-opt.is-off .cfg-opt-p{font-size:12.5px;font-weight:700;color:var(--muted);}
+  .cfg-opt.is-soon{opacity:.6;cursor:default;}
+  .cfg-opt.is-soon .cfg-opt-p{font-size:12.5px;font-weight:700;color:var(--muted);}
+  .cfg-soon{display:inline-block;margin-left:8px;vertical-align:middle;font-size:10.5px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;
+    color:var(--accent2);background:rgba(47,111,237,.12);border:1px solid rgba(47,111,237,.3);border-radius:100px;padding:2px 8px;}
   .cfg-sum{flex:1;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(47,111,237,.14),var(--card-bg) 60%);
     border:1px solid rgba(47,111,237,.38);border-radius:20px;padding:28px 28px 24px;}
   .cfg-sum-bot{margin-top:auto;padding-top:20px;}
@@ -3224,6 +3228,14 @@ Bel ons: 085 080 5381
 <span class="cfg-opt-x"><b>Hoi Martijn, zag dat jullie net een tweede vestiging in Breda hebben geopend.</b> Met een link naar jouwdomein.nl/martijn-bakker</span>
 </span>
 <span class="cfg-opt-p" data-p="hp">+ &euro;350</span>
+</label>
+<label class="cfg-opt is-soon" aria-disabled="true">
+<input type="checkbox" disabled>
+<span>
+<span class="cfg-opt-t">LinkedIn erbij <span class="cfg-soon">Binnenkort</span></span>
+<span class="cfg-opt-d">Dezelfde bedrijven die je mailt, krijgen ook een connectieverzoek en daarna een korte vraag vanuit jouw LinkedIn-profiel. Zo kennen ze je naam al als je mail binnenkomt.</span>
+</span>
+<span class="cfg-opt-p">Binnenkort</span>
 </label>
 <label class="cfg-opt" id="cfgFs">
 <input type="checkbox" class="cfg-ao" data-ao="fs">

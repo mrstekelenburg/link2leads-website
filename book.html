@@ -560,6 +560,7 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
           <div class="sp-info">
             <div class="sp-date" id="pvDate">-</div>
             <div class="sp-time" id="pvTime">-</div>
+            <div class="sp-time" id="pvPakket" style="display:none;margin-top:6px;color:var(--accent2,#4E8BFF);"></div>
           </div>
           <button class="sp-change" onclick="goS1()">Wijzigen</button>
         </div>
@@ -783,6 +784,22 @@ function goS2(){
 }
 
 let bookingRef=null, bookingName='', bookingEmail='', bookingDateStr='';
+// Samengesteld pakket vanaf de homepage (?pakket=growth&addons=hp,fs)
+const PAKKET_LABEL=(function(){
+  try{
+    const q=new URLSearchParams(location.search);
+    const PK={starter:['Starter',995,'100 mails per dag'],growth:['Growth',1295,'250 mails per dag'],scale:['Scale',1695,'500 mails per dag'],pro:['Pro',1995,'1.000 mails per dag']};
+    const AO={hp:['Hyperpersonalisatie',{starter:300,growth:350,scale:450,pro:550}],fs:['Full Service',{scale:600,pro:800}]};
+    const pk=q.get('pakket'); if(!pk||!PK[pk])return '';
+    let tot=PK[pk][1], parts=[PK[pk][0]+' ('+PK[pk][2]+')'];
+    (q.get('addons')||'').split(',').forEach(function(k){ if(AO[k]&&AO[k][1][pk]!=null){tot+=AO[k][1][pk];parts.push(AO[k][0]);} });
+    const nf=function(n){return '\u20ac'+String(n).replace(/\B(?=(\d{3})+(?!\d))/g,'.');};
+    return parts.join(' + ')+' \u00b7 '+nf(tot)+' per maand';
+  }catch(e){return '';}
+})();
+if(PAKKET_LABEL){
+  const el=document.getElementById('pvPakket'); if(el){el.textContent='Samengesteld: '+PAKKET_LABEL;el.style.display='block';}
+}
 
 async function book(){
   const name=document.getElementById('fName').value.trim();
@@ -808,7 +825,8 @@ async function book(){
         date:bookingDateStr,
         time:selSlot,
         dateKey:selD.getFullYear()+'-'+String(selD.getMonth()+1).padStart(2,'0')+'-'+String(selD.getDate()).padStart(2,'0'),
-        dateObj:selD.toISOString()
+        dateObj:selD.toISOString(),
+        pakket:PAKKET_LABEL
       })
     });
     const data=await res.json();
