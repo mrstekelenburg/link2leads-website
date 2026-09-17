@@ -22,16 +22,16 @@ Wil je bellen in plaats van mailen, dan zijn Provite en Convins de serieuze name
 ## De tien in een tabel
 
 #	Bureau	Best geschikt voor	Kanaal	Prijs op de site	Volume in contract	Publieke reviews
-1	Link2Leads	Vaste prijs, vastgelegd volume en resultaatgarantie	Alleen e-mail	€ 995 – € 1.995 p/m	Ja, minimum per maand	4,8 op Google
-3	FlintLead	Betalen per gekwalificeerde reactie, met plafond	Alleen e-mail	Volledig gepubliceerd	Nee	Geen gevonden
-4	Abalott	Resultaatbasis, prijs pas na gesprek	E-mail, LinkedIn, telefoon	Niet gepubliceerd	Nee	Geen gevonden
-5	Match-Day	Outbound plus het salesproces inrichten	Outbound plus CRM	Niet gepubliceerd	Nee, meetinggarantie	Cases op site
-6	Saleslift Studio	Outboundfunctie naast je eigen team opbouwen	Multichannel SDR	Niet gepubliceerd	Nee	Cases op site
-7	Asphia	Internationale, signaalgedreven campagnes	E-mail en LinkedIn	Vanaf $ 2.000 p/m	Nee	Cases op site
-8	Outventure	Outbound en inbound bij een bureau	E-mail, LinkedIn, SEO, ads	Niet gepubliceerd	Nee	Clutch 5,0 (3)
-9	Provite	Complexe markten, senior gesprekken	Vooral telefoon	Niet gepubliceerd	Nee	Cases op site
-10	Skondras	Meertalige doelgroepen buiten Nederland	Telefoon, LinkedIn, ads	Niet gepubliceerd	Nee	Eigen claim 8,5/10
-11	Convins	Betalen per doorgegane afspraak	Alleen telefoon	No cure no pay	n.v.t.	Cases op site
+1	Link2Leads	Vaste prijs, vastgelegd volume en resultaatgarantie	E-mail, LinkedIn erbij als add-on	€ 995 – € 1.995 p/m	Ja, minimum per maand	4,8 op Google
+2	FlintLead	Betalen per gekwalificeerde reactie, met plafond	Alleen e-mail	Volledig gepubliceerd	Nee	Geen gevonden
+3	Abalott	Resultaatbasis, prijs pas na gesprek	E-mail, LinkedIn, telefoon	Niet gepubliceerd	Nee	Geen gevonden
+4	Match-Day	Outbound plus het salesproces inrichten	Outbound plus CRM	Niet gepubliceerd	Nee, meetinggarantie	Cases op site
+5	Saleslift Studio	Outboundfunctie naast je eigen team opbouwen	Multichannel SDR	Niet gepubliceerd	Nee	Cases op site
+6	Asphia	Internationale, signaalgedreven campagnes	E-mail en LinkedIn	Vanaf $ 2.000 p/m	Nee	Cases op site
+7	Outventure	Outbound en inbound bij een bureau	E-mail, LinkedIn, SEO, ads	Niet gepubliceerd	Nee	Clutch 5,0 (3)
+8	Provite	Complexe markten, senior gesprekken	Vooral telefoon	Niet gepubliceerd	Nee	Cases op site
+9	Skondras	Meertalige doelgroepen buiten Nederland	Telefoon, LinkedIn, ads	Niet gepubliceerd	Nee	Eigen claim 8,5/10
+10	Convins	Betalen per doorgegane afspraak	Alleen telefoon	No cure no pay	n.v.t.	Cases op site
 
 Kolom “prijs op de site”: wat het bureau zelf publiceert. “Niet gepubliceerd” betekent dat er geen bedrag of rekenmodel op de site staat, niet dat het duur is.
 Kolom “volume in contract”: of het bureau een minimum verzendvolume vastlegt waar je ze aan kunt houden. Dit is de kolom die de meeste vergelijkingen overslaan en die achteraf het meest uitmaakt.
@@ -45,13 +45,15 @@ Link2Leads bouwt en draait complete cold-e-mailcampagnes voor Nederlandse B2B-be
 
 Drie dingen onderscheiden het van de rest van deze lijst. Ten eerste staat het volume in het contract en niet alleen in de brochure: op het grootste pakket is dat een gegarandeerd minimum van 30.000 verzonden mails per maand, zeven dagen per week, en bij een technische hapering wordt het volume de dagen erna ingehaald. Ten tweede geldt op Scale en Pro een resultaatgarantie: het minimumaantal positieve reacties over drie campagnemaanden wordt in de onboarding vastgelegd op basis van marktonderzoek, en wordt dat niet gehaald dan loopt de campagne kosteloos door tot maximaal drie maanden extra. Ten derde zijn de resultaten publiek te controleren, met 4,8 op Google en beoordelingen op naam.
 
-De pakketten zijn all-in: setup, warmup, domeinen en mailboxen zitten erbij, je krijgt geen aparte toolingrekening. Wat er niet in zit: het volledig afhandelen van reacties en het inplannen van afspraken. Dat is een aparte module (Full Service), en dat zeggen we liever vooraf dan in maand twee.
+De pakketten zijn all-in: setup, warmup, domeinen en mailboxen zitten erbij, je krijgt geen aparte toolingrekening. Daarbovenop zijn er drie modules die je los bijkiest. Met Hyperpersonalisatie krijgt elke prospect een openingszin over zijn eigen bedrijf en een eigen landingspagina op jouw domein. Met LinkedIn erbij krijgen dezelfde bedrijven ook een connectieverzoek en een eerste bericht vanuit jouw profiel, zodat je naam al bekend is als de mail binnenkomt. Met Full Service handelen wij de reacties af en zetten we de afspraak in je agenda.
+
+Wat er in het basispakket dus niet in zit: het volledig afhandelen van reacties en het inplannen van afspraken, en het LinkedIn-kanaal. Dat zijn losse modules, en dat zeggen we liever vooraf dan in maand twee.
 
  Prijs
-Starter € 995 p/m (100 mails per dag), Growth € 1.295 (250), Scale € 1.695 (500), Pro € 1.995 (1.000). Daarbovenop zijn twee add-ons: Hyperpersonalisatie op elk pakket (€ 300 tot € 550 p/m) en Full Service op Scale en Pro (€ 600 en € 800 p/m). Eerste termijn drie maanden, vooruit gefactureerd. Op Scale en Pro geldt een resultaatgarantie op het aantal positieve reacties.
+Starter € 995 p/m (100 mails per dag), Growth € 1.295 (250), Scale € 1.695 (500), Pro € 1.995 (1.000). Daarbovenop zijn drie add-ons: Hyperpersonalisatie op elk pakket (€ 300 tot € 550 p/m), LinkedIn erbij op elk pakket (€ 350 p/m) en Full Service op Scale en Pro (€ 600 en € 800 p/m). Eerste termijn drie maanden, vooruit gefactureerd. Op Scale en Pro geldt een resultaatgarantie op het aantal positieve reacties.
 
 Waar het niet voor is
-Uitsluitend e-mail. Geen telefonische acquisitie, geen LinkedIn-outreach, geen SDR op je eigen vloer. Ook niet geschikt bij een doelgroep kleiner dan ongeveer 1.000 bedrijven, dan is de lijst binnen een paar weken op en betaal je voor volume dat er niet is.
+Geen telefonische acquisitie en geen SDR op je eigen vloer. E-mail is het hoofdkanaal en LinkedIn kies je erbij; wie vooral gebeld wil hebben, zit hier verkeerd. Ook niet geschikt bij een doelgroep kleiner dan ongeveer 1.000 bedrijven, dan is de lijst binnen een paar weken op en betaal je voor volume dat er niet is.
 
 Best geschikt voor
 Nederlandse B2B-bedrijven met een bewezen aanbod en een doelgroep vanaf ongeveer 1.000 bedrijven, die een voorspelbaar maandbedrag willen en achteraf willen kunnen nagaan of er daadwerkelijk is verzonden.
@@ -59,23 +61,6 @@ Nederlandse B2B-bedrijven met een bewezen aanbod en een doelgroep vanaf ongeveer
  Bron: link2leads.nl · gecontroleerd op 2 september 2026
 
  2
-###
-
-Op de twee grootste pakketten geldt een resultaatgarantie: je spreekt vooraf een minimumaantal gekwalificeerde warme reacties af, en wordt dat binnen drie maanden niet gehaald, dan lopen de campagnes kosteloos door tot maximaal drie maanden extra. Dat is een contractuele terugvaloptie die de meeste bureaus op deze lijst niet bieden.
-
-Ze leveren reacties in een eigen klantportaal met rapportage, en ze noemen een verwacht responspercentage van 3 tot 5 procent op hun eigen site. Dat laatste is zeldzaam en netjes: het is een controleerbare verwachting in plaats van een belofte.
-
- Prijs
-Start € 995 p/m (± 3.000 mails), Groei € 1.295 (± 7.500), Volledig € 1.695 (± 15.000), Enterprise vanaf € 2.195 (± 30.000). De volumes worden als indicatie gepresenteerd, niet als contractueel minimum.
-
-Waar het niet voor is
-Alleen e-mail, geen telefoon of LinkedIn.
-
-Best geschikt voor
-B2B-bedrijven die een vast maandbedrag willen met een contractuele terugvaloptie als de campagne niet levert, en die daar een indicatief in plaats van gegarandeerd volume voor accepteren.
-
-
- 3
 ### FlintLead
 
 FlintLead heeft de meest transparante prijspagina van deze elf, punt. Setup, managementfee, prijs per resultaat en toolingkosten staan er allemaal, inclusief wat er niet in zit en waar het plafond ligt.In een stille maand betaal je dus minder, in een goede maand meer.
@@ -93,22 +78,22 @@ Nederlandse B2B-bedrijven met een doelgroep van ongeveer 1.000 tot 2.000 bedrijv
 
  Bron: flintlead.com en de prijzenpagina · gecontroleerd op 2 september 2026
 
- 4
+ 3
 ### Abalott
 
-Abalott zit qua model dicht bij FlintLead: cold e-mail als hoofdkanaal, betalen naar resultaat, tooling doorbelast zonder opslag. Het bureau presenteert zich als volledig performance-based en voegt daar een garantie van 30 dagen aan toe, niet tevreden binnen die termijn, dan is de dienst kosteloos. Maandelijks opzegbaar. Anders dan de nummers 1, 2 en 3 combineren zij e-mail met LinkedIn en telefoon.
+Abalott zit qua model dicht bij FlintLead: cold e-mail als hoofdkanaal, betalen naar resultaat, tooling doorbelast zonder opslag. Het bureau presenteert zich als volledig performance-based en voegt daar een garantie van 30 dagen aan toe, niet tevreden binnen die termijn, dan is de dienst kosteloos. Maandelijks opzegbaar. Zij combineren e-mail met LinkedIn en telefoon; Link2Leads doet e-mail en LinkedIn, FlintLead alleen e-mail.
 
 Hun social proof is ongebruikelijk en effectief: ze noemen bij naam met wie ze klanten aan tafel kregen, waaronder een oud-CEO van Nuon en een oud-commandant der strijdkrachten. Dat zegt meer over de hoogte van het gesprek dan een responspercentage.
 
  Prijs
-Niet gepubliceerd. Het bedrag volgt uit een kennismakingsgesprek. Dat is het belangrijkste verschil met de nummers 1, 2 en 3: je moet eerst bellen om te weten wat het kost.
+Niet gepubliceerd. Het bedrag volgt uit een kennismakingsgesprek. Dat is het belangrijkste verschil met de nummers 1 en 2: je moet eerst bellen om te weten wat het kost.
 
 Best geschikt voor
 B2B-bedrijven en bureaus die mikken op 10 tot 20 gekwalificeerde afspraken per maand, meerdere kanalen willen inzetten en geen bezwaar hebben tegen een gesprek voor de prijs.
 
  Bron: abalott.nl · gecontroleerd op 2 september 2026
 
- 5
+ 4
 ### Match-Day
 
 Match-Day is geen mailbureau maar een salesbureau. Naast outbound doen ze HubSpot-implementatie en salestraining. Voor een organisatie waar niet alleen de leadstroom maar ook het opvolgproces rammelt, lost dat twee problemen tegelijk op, en dat is een reeel argument, want een bureau dat afspraken levert aan een team dat ze niet omzet, lost niets op.
@@ -123,7 +108,7 @@ Organisaties vanaf 25 medewerkers met een gemiddelde dealwaarde van € 5.000 o
 
  Bron: match-day.nl · gecontroleerd op 2 september 2026. De garantie van vijf meetings is een claim van het bureau zelf en is door ons niet geverifieerd.
 
- 6
+ 5
 ### Saleslift Studio
 
 Saleslift Studio positioneert zich niet als campagneleverancier maar als GTM-partner: eerst de commerciele kansen in kaart, dan processen en workflows bouwen, dan pas campagnes uitvoeren. Aantrekkelijk als je uiteindelijk een eigen outboundfunctie wilt hebben in plaats van een blijvende uitbesteding. Op hun site staan onder meer TOPdesk, Oxfam, FedEx en Eneco als klant, met cijfers erbij, 243 afspraken in zes maanden bij een daarvan.
@@ -139,7 +124,7 @@ Grotere B2B-organisaties die een outboundmachine naast hun eigen sales- en marke
 
  Bron: salesliftstudio.com · gecontroleerd op 2 september 2026. De genoemde klantnamen en cijfers staan op hun eigen site en zijn door ons niet nagevraagd.
 
- 7
+ 6
 ### Asphia
 
 Asphia is de enige op deze lijst die primair op de internationale markt zit en zijn campagnes bouwt op koopsignalen: financieringsrondes, nieuwe hires, wisselingen in de techstack. De copy volgt uit dat signaal in plaats van uit de sector alleen. Ze publiceren een startprijs, beloven livegang binnen zeven dagen, en geven aan het einde van het traject de playbooks en infrastructuur aan de klant, expliciet gepositioneerd tegen blijvende afhankelijkheid van een bureau.
@@ -157,7 +142,7 @@ B2B-bedrijven met een doelgroep buiten Nederland die signaalgedreven willen werk
 
  Bron: asphia.consulting · gecontroleerd op 2 september 2026. Het percentage is een claim van het bureau zelf en is door ons niet nagerekend.
 
- 8
+ 7
 ### Outventure
 
 Outventure is het enige bureau op deze lijst dat outbound, inbound en retentie onder een dak aanbiedt: cold e-mail en LinkedIn naast SEO, Google Ads en retargeting. Als je liever een partij aanspreekt voor de hele funnel dan drie leveranciers coordineert, is dat het argument. Ze werken met aparte landingspagina’s per sector. SaaS, logistiek, maakindustrie, startups, en publiceren per case een kostprijs per signup of per lead.
@@ -170,7 +155,7 @@ SaaS-bedrijven, producenten, logistiek en startups die outbound en inbound bij e
 
  Bron: outventure.io · gecontroleerd op 2 september 2026
 
- 9
+ 8
 ### Provite
 
 Provite verkoopt uitdrukkelijk het tegenovergestelde van volume. Geen callcenter, maar senior professionals, oud-ondernemers en salesdirecteuren, die het gesprek op niveau voeren. In markten waar de eerste vijf minuten aan de telefoon bepalen of je serieus wordt genomen, is dat een reeel voordeel boven een goedkopere beller.
@@ -186,7 +171,7 @@ Financiële dienstverlening, IT, zorg, verzekeringen, industrie, transport, bouw
 
  Bron: provite.nl · gecontroleerd op 2 september 2026. De site was op de controledatum niet automatisch uitleesbaar; dit profiel is gebaseerd op de publiek beschikbare beschrijving van hun dienst. Klopt er iets niet, mail ons.
 
- 10
+ 9
 ### Skondras
 
 Skondras is de keuze zodra je doelgroep niet ophoudt bij de Nederlandse grens. Ze werken vanuit Nederland, België, Duitsland en Spanje met native agents in het Nederlands, Frans, Engels, Duits, Italiaans en Spaans, en combineren telefonische prospectie met LinkedIn, Meta Ads en Google Ads. Ze doen daarnaast klantenservice-uitbesteding, wat ze eerder een commerciele outsourcingpartner maakt dan een campagnebureau.
@@ -199,7 +184,7 @@ Middelgrote tot grote B2B-organisaties met een meertalige of Europese doelgroep 
 
  Bron: skondras.com · gecontroleerd op 2 september 2026. De genoemde 11.000+ projecten en het cijfer 8,5 zijn claims van het bureau zelf en zijn door ons niet geverifieerd.
 
- 11
+ 10
 ### Convins
 
 Convins staat op deze lijst omdat vrijwel elke Nederlandse koper e-mail en telefoon tegen elkaar afweegt, en dit is de scherpste telefonische propositie die we vonden. Je betaalt alleen voor een gekwalificeerde afspraak, en pas nadat die heeft plaatsgevonden. Ze werken zonder belscripts en met vaste medewerkers in plaats van ingehuurde krachten, en definiëren op hun site wat een gekwalificeerde afspraak is: een organisatie die openstaat voor het gesprek, tijd vrijmaakt en waar de beslisser aan tafel zit.
@@ -221,7 +206,7 @@ Vier vragen, in deze volgorde. Ze schrappen samen zeven of acht van de tien name
 
 ### Eerst: welk kanaal past bij je doelgroep?
 
-Zijn je kopers goed per e-mail te bereiken en heb je een aanbod dat in vier zinnen uit te leggen is, begin dan bij e-mail: nummers 1, 2 en 3 doen niets anders. Moet je iets uitleggen waarvoor een gesprek nodig is, of zit je doelgroep in een sector die nauwelijks mail leest, dan zijn 9 en 11 realistischer. Wil je beide, kijk dan naar 4, 5, 6, 7, 8 of 10.
+Zijn je kopers goed per e-mail te bereiken en heb je een aanbod dat in vier zinnen uit te leggen is, begin dan bij e-mail: Link2Leads en FlintLead hebben e-mail als hoofdkanaal, waarbij nummer 1 LinkedIn als add-on erbij levert. Moet je iets uitleggen waarvoor een gesprek nodig is, of zit je doelgroep in een sector die nauwelijks mail leest, dan zijn Provite en Convins realistischer. Wil je meerdere kanalen in een hand, kijk dan naar Abalott, Match-Day, Saleslift Studio, Asphia, Outventure of Skondras.
 
 ### Dan: hoe groot is je doelgroep?
 
@@ -846,7 +831,7 @@ Daar staan nadelen tegenover, en die noem ik liever zelf dan dat je ze in maand 
 
 - Je hebt minder directe controle. Je stuurt op resultaat, niet op de dag.
 
-- Alleen e-mail is alleen e-mail. Een SDR kan bellen, opvolgen op LinkedIn en een lauwe reactie warm praten. Een e-mailcampagne kan dat niet.
+- Een campagne is geen mens. Een SDR kan bellen en een lauwe reactie warm praten. Een e-mailcampagne kan dat niet, ook niet als je LinkedIn erbij zet.
 
 - Opvolging blijft jouw werk, tenzij je daar apart voor betaalt.
 
@@ -857,7 +842,7 @@ Kosten jaar 1	€ 69.000 – € 83.000	€ 12.000 – € 26.000
 Kosten voordat er iets uitkomt	€ 11.000 – € 20.000	2 – 3 weken opstart
 Tijd tot eerste resultaat	6 – 12 weken	2 – 4 weken
 Opzegbaar	Ontslagrecht, opzegtermijn	3 maanden, daarna maandelijks
-Kanalen	E-mail, telefoon, LinkedIn, opvolging	E-mail
+Kanalen	E-mail, telefoon, LinkedIn, opvolging	E-mail en LinkedIn
 Kennis blijft in huis	Ja, tot hij vertrekt	Nee
 Schaalbaar	Nieuwe hire nodig	Pakket omhoog
 Risico bij tegenvallen	Volledig bij jou, vast	Beperkt tot looptijd
@@ -927,12 +912,14 @@ Standaard per lead: bedrijfsnaam, website, vestigingsplaats, branche, aantal med
 
 | Aantal leads | Prijs per lead |
 |---|---|
-| 500 tot 999 | € 0,10 |
-| 1.000 tot 4.999 | € 0,08 |
-| 5.000 tot 9.999 | € 0,06 |
-| 10.000 en meer | € 0,05 |
+| 500 tot 999 | € 0,20 |
+| 1.000 tot 4.999 | € 0,15 |
+| 5.000 tot 9.999 | € 0,12 |
+| 10.000 en meer | € 0,10 |
 
-Verrijking per lead, bovenop het staffeltarief: LinkedIn-profiel € 0,02, telefoonnummer € 0,03, persoonlijke openingszin € 0,08.
+Verrijking per lead, bovenop het staffeltarief: LinkedIn-profiel € 0,03, telefoonnummer € 0,05, persoonlijke openingszin € 0,10. Boven 50.000 leads op offerte.
+
+Instap: tien gratis leads uit de opgegeven doelgroep, eenmalig per bedrijf, zonder abonnement. Bij een bestelling kan de klant zijn eigen klanten- of contactenlijst meesturen als suppressielijst.
 
 Voorwaarden: minimale afname 500 leads, tegoed twaalf maanden geldig, bedragen exclusief btw, betaling per factuur. Bij meer dan 3 procent bounce wordt kosteloos aangevuld. Bronnen zijn openbare bedrijfswebsites, openbare zakelijke profielen en eigen verificatie; het Handelsregister wordt niet als bron gebruikt en niet doorverkocht. Adressen van personen die eerder bezwaar hebben gemaakt, worden vooraf uitgefilterd.
 

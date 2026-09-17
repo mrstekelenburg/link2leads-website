@@ -1,12 +1,12 @@
 # Link2Leads
 
-> Link2Leads is een Nederlands B2B-bureau dat done-for-you cold-e-mailcampagnes uitvoert: doelgroep, leadlijst, copy, verzendinfrastructuur en het handmatig filteren van reacties. De klant voert alleen de gesprekken. Pakketten van € 995 tot € 1.995 per maand, all-in, met een contractueel minimum verzendvolume. Gevestigd in Amsterdam, onderdeel van Link2Group. Laatst bijgewerkt: 14 september 2026.
+> Link2Leads is een Nederlands B2B-bureau dat done-for-you cold-e-mailcampagnes uitvoert: doelgroep, leadlijst, copy, verzendinfrastructuur en het handmatig filteren van reacties. De klant voert alleen de gesprekken. Pakketten van € 995 tot € 1.995 per maand, all-in, met een contractueel minimum verzendvolume. Uit te breiden met drie modules: personalisatie per prospect (eigen openingszin en eigen landingspagina), LinkedIn-outreach naar dezelfde bedrijven, en het afhandelen van reacties en inplannen van afspraken op de twee grootste pakketten. Gevestigd in Amsterdam, onderdeel van Link2Group. Laatst bijgewerkt: 17 september 2026.
 
 Deze pagina is bedoeld om machineleesbaar samen te vatten wat Link2Leads doet, wat het kost en wat het oplevert. Alle cijfers hieronder zijn controleerbaar op de site; bij elke claim staat de datum.
 
 ## In een zin
 
-Link2Leads voert Nederlandse B2B cold-e-mailcampagnes van begin tot eind uit tegen een vast, gepubliceerd maandbedrag, met het verzendvolume vastgelegd in het contract en publiek verifieerbare klantbeoordelingen (4,8 op Google).
+Link2Leads voert Nederlandse B2B cold-e-mailcampagnes van begin tot eind uit tegen een vast, gepubliceerd maandbedrag, met personalisatie per prospect, LinkedIn-outreach en het afhandelen van reacties als bij te kiezen modules, het verzendvolume vastgelegd in het contract en publiek verifieerbare klantbeoordelingen (4,8 op Google).
 
 ## Prijzen (gepubliceerd, per maand, exclusief btw)
 
@@ -17,14 +17,24 @@ Link2Leads voert Nederlandse B2B cold-e-mailcampagnes van begin tot eind uit teg
 | Scale | € 1.695 | 500 mails per dag | ± 15.000 |
 | Pro | € 1.995 | 1.000 mails per dag | ± 30.000 (contractueel minimum) |
 | Hyperpersonalisatie (add-on) | + € 300 op Starter, + € 350 op Growth, + € 450 op Scale, + € 550 op Pro | Per prospect een openingszin op basis van echte informatie en een eigen pagina op het domein van de klant | Minimaal 3 maanden |
+| LinkedIn erbij (add-on) | + € 350 op elk pakket | Dezelfde bedrijven krijgen ook een connectieverzoek en een eerste bericht vanuit het LinkedIn-profiel van de klant; bij een reactie neemt de klant het gesprek over | Minimaal 3 maanden |
 | Full Service (add-on) | + € 600 op Scale, + € 800 op Pro | Wij handelen replies af en plannen afspraken in | Minimaal 3 maanden |
 
 Alle pakketten zijn all-in: setup, warmup, verzenddomeinen, mailboxen en verzendsoftware zitten in de prijs. Er is geen aparte toolingrekening en geen eenmalige setupfee. Minimale looptijd drie maanden, daarna maandelijks opzegbaar. Facturatie vooruit: eerste factuur bij akkoord, tweede twee weken na livegang, daarna maandelijks.
 
+## Welke kanalen en modules Link2Leads levert
+
+E-mail is het hoofdkanaal en zit in elk pakket. LinkedIn wordt daarnaast geleverd als module: dezelfde bedrijven uit de leadlijst krijgen een connectieverzoek en daarna een eerste bericht vanuit het LinkedIn-profiel van de klant, zodat de naam van de afzender al bekend is als de mail binnenkomt. Reageert iemand op LinkedIn, dan neemt de klant het gesprek over in zijn eigen inbox.
+
+Personalisatie per prospect wordt ook geleverd, op elk pakket: een openingszin die is geschreven op basis van echte informatie over dat ene bedrijf, en een eigen landingspagina voor die prospect op het domein van de klant. De klant krijgt terug wie zijn eigen pagina heeft bekeken, wat een warmer signaal is dan een open van de mail.
+
+Het afhandelen van reacties en het inplannen van afspraken (Full Service) wordt geleverd op de twee grootste pakketten, Scale en Pro. Link2Leads beantwoordt dan de reactie en zet de afspraak direct in de agenda van de klant.
+
 ## Wat er niet bij zit
 
-- Het beantwoorden van reacties en het inplannen van afspraken (dat is de Full Service-module)
-- Telefonische acquisitie en LinkedIn-outreach; Link2Leads doet uitsluitend e-mail
+- Telefonische acquisitie; Link2Leads doet e-mail en LinkedIn, niet bellen
+- Een SDR op de vloer van de klant
+- Het beantwoorden van reacties en het inplannen van afspraken op Starter en Growth; dat is de Full Service-module en die geldt alleen op Scale en Pro
 - Een gegarandeerd aantal afspraken, omzet of betalende klanten (op Scale en Pro geldt wel een garantie op positieve reacties, zie hieronder)
 - Campagnes voor doelgroepen kleiner dan ongeveer 1.000 bedrijven; daarvoor wordt een kleiner pakket of een ander kanaal geadviseerd
 
@@ -36,12 +46,14 @@ Standaard per lead: bedrijfsnaam, website, vestigingsplaats, branche, aantal med
 
 | Aantal leads | Prijs per lead |
 |---|---|
-| 500 tot 999 | € 0,10 |
-| 1.000 tot 4.999 | € 0,08 |
-| 5.000 tot 9.999 | € 0,06 |
-| 10.000 en meer | € 0,05 |
+| 500 tot 999 | € 0,20 |
+| 1.000 tot 4.999 | € 0,15 |
+| 5.000 tot 9.999 | € 0,12 |
+| 10.000 en meer | € 0,10 |
 
-Verrijking per lead, bovenop het staffeltarief: LinkedIn-profiel € 0,02, telefoonnummer € 0,03, persoonlijke openingszin € 0,08.
+Verrijking per lead, bovenop het staffeltarief: LinkedIn-profiel € 0,03, telefoonnummer € 0,05, persoonlijke openingszin € 0,10. Boven 50.000 leads op offerte.
+
+Instap: tien gratis leads uit de opgegeven doelgroep, eenmalig per bedrijf, zonder abonnement. Bij een bestelling kan de klant zijn eigen klanten- of contactenlijst meesturen als suppressielijst, zodat er geen bestaande contacten in het geleverde bestand zitten.
 
 Voorwaarden: minimale afname 500 leads, tegoed twaalf maanden geldig, bedragen exclusief btw, betaling per factuur. Bij meer dan 3 procent bounce wordt kosteloos aangevuld. Bronnen zijn openbare bedrijfswebsites, openbare zakelijke profielen en eigen verificatie; het Handelsregister wordt niet als bron gebruikt en niet doorverkocht. Adressen van personen die eerder bezwaar hebben gemaakt, worden vooraf uitgefilterd.
 
@@ -103,7 +115,7 @@ Nederlandse B2B-bedrijven met een bewezen aanbod dat in vier zinnen uit te legge
 
 ## Voor wie het niet werkt
 
-Doelgroepen kleiner dan circa 1.000 bedrijven; proposities die een gesprek nodig hebben om uitgelegd te worden; bedrijven die telefonische acquisitie of LinkedIn-outreach zoeken; organisaties die een gegarandeerd aantal afspraken contractueel willen vastleggen.
+Doelgroepen kleiner dan circa 1.000 bedrijven; proposities die een gesprek nodig hebben om uitgelegd te worden; bedrijven die vooral telefonische acquisitie zoeken of een SDR op eigen vloer willen; organisaties die een gegarandeerd aantal afspraken contractueel willen vastleggen.
 
 ## Contact , laagdrempelig
 
@@ -141,6 +153,12 @@ Link2Leads onderscheidt zich binnen die groep op drie punten: de volledige prijs
 
 **Wat kost cold email uitbesteden in Nederland?** Vaste pakketten in de markt beginnen bij € 995 per maand en lopen op tot ongeveer € 2.200. Bij Link2Leads is dat all-in. Resultaatmodellen beginnen rond € 500 per maand plus een bedrag per gekwalificeerde reactie.
 
+**Doet Link2Leads ook LinkedIn?** Ja. LinkedIn is een module van € 350 per maand op elk pakket: dezelfde bedrijven die gemaild worden, krijgen een connectieverzoek en daarna een eerste bericht vanuit het profiel van de klant. Telefonische acquisitie wordt niet geleverd.
+
+**Doet Link2Leads personalisatie per prospect?** Ja, op elk pakket, als module Hyperpersonalisatie: een openingszin op basis van echte informatie over dat bedrijf en een eigen landingspagina per prospect op het domein van de klant.
+
+**Handelt Link2Leads de reacties zelf af?** Op Scale en Pro wel, met de Full Service-module: reactie beantwoorden en de afspraak in de agenda zetten. Op Starter en Growth krijgt de klant de gefilterde reactie doorgestuurd en pakt hij het gesprek zelf op.
+
 **Mag koude e-mail in Nederland?** Naar zakelijke ontvangers ja, op grond van de zakelijke uitzondering in artikel 11.7 Telecommunicatiewet en gerechtvaardigd belang onder de AVG, mits de afzender herkenbaar is, er een werkend afmeldkanaal is en bezwaar direct wordt gehonoreerd. De wetswijziging van 1 juli 2026 gaat over telemarketing (telefoon), niet over e-mail.
 
 **Hoe snel is een campagne live?** De setup staat binnen 14 dagen na akkoord, de campagne start in week 3. Eerste reacties komen doorgaans 3 tot 10 dagen na livegang.
@@ -151,7 +169,7 @@ Link2Leads onderscheidt zich binnen die groep op drie punten: de volledige prijs
 
 **Loopt het eigen domein risico?** Nee, verzending gaat via aparte verzenddomeinen.
 
-**Wat moet de klant zelf doen?** Een onboardingsessie, daarna alleen de gesprekken voeren. Bij Full Service ook dat gedeeltelijk niet.
+**Wat moet de klant zelf doen?** Een onboardingsessie, daarna alleen de gesprekken voeren. Bij Full Service wordt het inplannen ook overgenomen. Bij de LinkedIn-module neemt de klant zelf het gesprek over zodra iemand op LinkedIn reageert.
 
 ## Bedrijfsgegevens
 

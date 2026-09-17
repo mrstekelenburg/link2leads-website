@@ -1,3 +1,41 @@
+# Wijzigingen, 17 september 2026 (meescrollende prijs op de homepage, LinkedIn live, taal en kennisartikelen)
+
+**Totaalprijs blijft in beeld in "Stel je campagne zelf samen" (homepage)**
+- Werkt nu hetzelfde als de configurator op `/leads`. Desktop: het totaalblok is `position:sticky; top:110px` en blijft staan terwijl je langs de pakketknoppen en de add-ons scrollt. Daarvoor is `.cfg-grid` van `align-items:stretch` naar `align-items:start` gegaan, dus het blok is niet langer even hoog als de linkerkolom.
+- Mobiel (<=900px): het blok gaat met `order:-1` naar boven en blijft op `top:84px` hangen als compacte balk met bedrag, subregel en de fitcheck-knop. De prijsrijen, de lijst "altijd inbegrepen" en de voetnoot zijn in die balk verborgen.
+- Nieuw wrapper-element `.cfg-sum-top` om label, bedrag en subregel, zodat de balk het bedrag en de subregel naast de knop kan zetten. Subregel heeft een korte mobiele variant (`.cfg-sum-per-m`, "per maand, excl. btw"), de lange variant staat op desktop.
+
+**LinkedIn is een echte add-on geworden**
+- In de configurator was LinkedIn een grijze regel met "Binnenkort". Nu aanvinkbaar op elk pakket voor 350 per maand (`AO.li` in het script onderaan de sectie; prijs staat op een plek). Gaat mee in de totaalprijs en in `?pakket=&addons=` naar `/book`.
+- Bijgewerkt: "Niet inbegrepen" (regel over LinkedIn eruit, telefonische acquisitie blijft), de voetregel onder dat blok, de FAQ over prijzen, en in de JSON-LD de servicebeschrijving, `knowsAbout` en een eigen Offer voor LinkedIn.
+- `llms.txt`: nieuw kopje over welke kanalen en modules er geleverd worden (e-mail, LinkedIn, personalisatie per prospect, Full Service op de twee grootste pakketten), LinkedIn in de prijstabel, drie extra FAQ-regels, en "voor wie het niet werkt" klopt weer (LinkedIn stond daar als iets wat we niet doen).
+
+**Top 10-artikel cold email bureaus**
+- Bij nummer 1 (wijzelf) stond "Uitsluitend e-mail. Geen LinkedIn-outreach". Dat is eruit. Kanaalkolom is nu "E-mail, LinkedIn erbij als add-on", het profiel beschrijft de drie modules, en de prijsregel noemt de drie add-ons.
+- De vergelijkende zinnen elders op de pagina zetten ons op kanaal tegenover de anderen; die kloppen nu.
+- Nummering: verwijzingen als "de nummers 1, 2 en 3" en "dan zijn 9 en 11 realistischer" liepen niet meer synchroon met de tabel (die gaat tot 10). Vervangen door bureaunamen, zodat het niet opnieuw stukloopt bij een wijziging.
+- `llms-full.txt` had nog een elfde bureau: een profiel zonder naam als nummer 2, waardoor de nummering 1 tot 11 liep terwijl de pagina 10 bureaus heeft. Dat blok is verwijderd en de rest is hernummerd.
+- `kennis/cold-email-of-sdr.html`: in de vergelijkingstabel stond bij "uitbesteed" als kanaal alleen "E-mail", nu "E-mail en LinkedIn". De bullet "Alleen e-mail is alleen e-mail" is herschreven.
+- Overal "Elf aanbieders" naar "Tien aanbieders".
+
+**Prijzen van losse leads gelijkgetrokken**
+- `llms.txt` en `llms-full.txt` noemden 0,10 tot 0,05 per lead met verrijking van 0,02 / 0,03 / 0,08. De staffel op `/leads` is 0,20 / 0,15 / 0,12 / 0,10 met verrijking 0,03 / 0,05 / 0,10. De LLM-bestanden volgen nu de site, plus de gratis sample van tien leads en de suppressielijst.
+- De meta description van `/leads` zei "Vanaf 0,05 per lead", en in de JSON-LD stond `lowPrice 0.05 / highPrice 0.10` met een FAQ-antwoord van 0,10 tot 0,05. Nu 0,10 tot 0,20 en het FAQ-antwoord klopt.
+
+**Taal: alles wat tekst is, is nu vertaalbaar**
+- De rand "Meest gekozen" op het Scale-pakket zat als `content:'MEEST GEKOZEN'` in de CSS (`.p-card.featured::before`). De vertaalmachine leest alleen tekstnodes en attributen, dus CSS-tekst bleef Nederlands. Nu een echt element `<span class="p-badge">Meest gekozen</span>` in de kaart, met dezelfde opmaak. In de hele repo staat geen tekst meer in `content:`.
+- Er waren 443 teksten zonder Engelse versie, verspreid over vrijwel alle pagina's: de hele `/leads`-pagina, de privacyverklaring, artikel 07 van de voorwaarden, de drie cases, `cases/index`, `klant.html`, `book.html`, de navigatie ("Leads kopen", "Hoofdmenu"), de footer ("Reviews van klanten", "Losse leads kopen") en de meeste `<title>`- en meta-descriptions. Allemaal toegevoegd aan `l2l-i18n-data.js`.
+- Wat bewust Nederlands blijft: bedrijfsnamen van klanten, plaatsnamen, de voorbeeldrijen in de leadtabel, IBAN en BIC, en het WhatsApp-nummer.
+- Cache-busting bijgewerkt: `l2l-i18n-data.js?v=23` en `l2l-i18n.js?v=25` op alle pagina's.
+
+**Na deploy checken**
+- Homepage op mobiel: scroll door de pakketsectie en kijk of de prijsbalk blijft hangen zonder de navigatiebalk te overlappen.
+- Zet de site op Engels en loop `/leads`, `/privacy`, `/algemene-voorwaarden` en de drie cases na; de rand op Scale moet "Most chosen" zeggen.
+- Prijs van LinkedIn staat op 350 in `index.html` (`AO.li`), in `llms.txt`, in `llms-full.txt` en in `cold-email-bureaus-nederland.html`. Wijzigt die, dan die vier plekken.
+
+
+---
+
 # Wijzigingen, 16 september 2026 (mails uit het systeem: fitcheck overal, opmaak gelijk, herinneringen)
 
 **Vragenlijstblok**

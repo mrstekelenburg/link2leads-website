@@ -30,7 +30,6 @@ window.L2L_I18N_DATA = {
 "Je spreekt Demi of Anne-Roos, geen accountmanager. Wij draaien de campagnes zelf.": {
 "en": "You speak to Demi or Anne-Roos, not an account manager. We run the campaigns ourselves."
 },
-
 "Bel ons: 085 080 5381": {
 "en": "Call us: +31 85 080 5381"
 },
@@ -1350,9 +1349,6 @@ window.L2L_I18N_DATA = {
 },
 "Positief geïnteresseerd": {
 "en": "Positively interested"
-},
-"Doe de gratis fitcheck": {
-"en": "Do the free fit check"
 },
 "Boek een strategiecall": {
 "en": "Book a strategy call"
@@ -6469,81 +6465,1564 @@ window.L2L_I18N_DATA = {
 "Standaard sturen we de reactie door naar jouw mailbox, met naam, functie, organisatie en contactgegevens erbij. Jij neemt het daarna over en plant het gesprek in, het liefst binnen een werkdag. Kies je Full Service op Scale of Pro, dan beantwoorden wij de reactie en zetten we de afspraak direct in jouw agenda.": {
 "en": "By default we forward the reply to your mailbox, with name, role, organisation and contact details included. You take it from there and schedule the conversation, ideally within one working day. Choose Full Service on Scale or Pro and we answer the reply and put the meeting straight into your calendar."
 },
-"FlintLead heeft de meest transparante prijspagina van deze tien, punt. Setup, managementfee, prijs per resultaat en toolingkosten staan er allemaal, inclusief wat er niet in zit en waar het plafond ligt. Waar": {"en": "FlintLead has the most transparent pricing page of these ten, full stop. Setup, management fee, price per result and tooling costs are all there, including what is not covered and where the cap sits. Where"},
-"een vast bedrag publiceert, beweegt hier het grootste deel van de rekening mee met wat het oplevert, tot een maandplafond dat je vooraf zelf vaststelt. In een stille maand betaal je dus minder, in een goede maand meer.": {"en": "publishes a fixed amount, here the largest part of the bill moves with what it delivers, up to a monthly cap that you set yourself in advance. So in a quiet month you pay less, in a good month more."},
-"Deze voorwaarden gelden voor alle diensten, offertes en samenwerkingen van": {"en": "These terms apply to all services, quotes and collaborations of"},
-". Voorwaarden van de opdrachtgever zijn niet van toepassing, tenzij schriftelijk anders overeengekomen.": {"en": ". The client's terms do not apply, unless agreed otherwise in writing."},
-", onderdeel van": {"en": ", part of"},
-"Van de tien partijen hier publiceren er drie een bedrag. Vaste pakketten bij": {"en": "Of the ten providers here, three publish an amount. Fixed packages at"},
-"lopen van € 995 tot € 1.995 per maand. Asphia begint bij $ 2.000 per maand. Bij resultaatmodellen hangt het bedrag af van wat er binnenkomt: FlintLead publiceert € 500 per maand plus € 125 per gekwalificeerde positieve reactie tot een afgesproken plafond, naast tooling en een eenmalige setup. De overige zeven noemen geen bedrag op hun site. Let per aanbieder op of setup, warmup en infrastructuur in de prijs zitten of apart komen, dat scheelt al snel € 100 tot € 200 per maand plus een eenmalig bedrag. De volledige rekensom staat in": {"en": "run from EUR 995 to EUR 1,995 per month. Asphia starts at USD 2,000 per month. With results-based models the amount depends on what comes in: FlintLead publishes EUR 500 per month plus EUR 125 per qualified positive reply up to an agreed cap, on top of tooling and a one-off setup. The other seven name no amount on their site. Per provider, check whether setup, warmup and infrastructure are included in the price or come separately, because that quickly adds up to EUR 100 to EUR 200 per month plus a one-off amount. The full calculation is in"},
-"← Terug naar": {"en": "← Back to"},
-".nl": {"en": ".nl"},
-"(onderdeel van": {"en": "(part of"},
-") is verwerkingsverantwoordelijke voor de persoonsgegevens die via onze diensten worden verwerkt. Wij helpen bedrijven met B2B leadgeneratie via e-mailcampagnes.": {"en": ") is the data controller for the personal data processed through our services. We help companies with B2B lead generation via email campaigns."},
-"Waarom staat": {"en": "Why is"},
-"op nummer 1?": {"en": "at number 1?"},
-"De samenwerking tussen": {"en": "The collaboration between"},
-"en de opdrachtgever, vastgelegd in een offerte of contract.": {"en": "and the client, laid down in a quote or contract."},
-"is niet aansprakelijk voor inhoudelijke claims of aanbiedingen richting prospects.": {"en": "is not liable for substantive claims or offers made towards prospects."},
-"Deze pagina is van": {"en": "This page belongs to"},
-", dat zelf op 1 staat. Dat is onze redactionele aanbeveling voor de koper die hierboven staat beschreven, geen onafhankelijke ranking, geen betaalde plaatsing. Niemand op deze lijst heeft betaald om erop te staan, hoger te staan of erin te blijven. Bij elk ander bureau staat voor welke koper dat bureau juist het betere antwoord is.": {"en": ", which sits at number 1 itself. That is our editorial recommendation for the buyer described above, not an independent ranking and not a paid placement. Nobody on this list has paid to be on it, to rank higher or to stay on it. Next to every other agency we state for which buyer that agency is the better answer."},
-"Dienstverlener in B2B leadgeneratie via e-mailcampagnes, onderdeel van": {"en": "Provider of B2B lead generation via email campaigns, part of"},
-"Dat verschilt per aanbieder en het is de belangrijkste vraag bij het vergelijken van offertes.": {"en": "That differs per provider and it is the most important question when comparing quotes."},
-"rekent all-in: setup, warmup, domeinen, mailboxen, leaddata en software zitten in het maandbedrag. Aanbieders die per resultaat werken belasten de tooling doorgaans apart door, en dat loopt bij serieus volume op tot enkele honderden euro per maand, plus een eenmalige setupfee van € 500 tot € 2.500.": {"en": "charges all-in: setup, warmup, domains, mailboxes, lead data and software are included in the monthly fee. Providers working on a per-result basis usually pass the tooling on separately, and at serious volume that runs to several hundred euros per month, plus a one-off setup fee of EUR 500 to EUR 2,500."},
-"Meestal wel, en dat is logisch: de leverancier koopt op dag een domeinen, mailboxen en software voor jouw campagne. Bij": {"en": "Usually yes, and that makes sense: on day one the supplier buys domains, mailboxes and software for your campaign. At"},
-"volgt de eerste factuur bij akkoord, de tweede twee weken na livegang en daarna maandelijks.": {"en": "the first invoice follows on agreement, the second two weeks after go-live and monthly after that."},
-"bouwt en draait complete cold-e-mailcampagnes voor Nederlandse B2B-bedrijven: doelgroep, lijst, copy, verzendinfrastructuur en het filteren van reacties. Je voert alleen de gesprekken.": {"en": "builds and runs complete cold email campaigns for Dutch B2B companies: target group, list, copy, sending infrastructure and filtering the replies. You only have the conversations."},
-"Mede-oprichter van": {"en": "Co-founder of"},
-". Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.": {"en": ". Runs cold email campaigns daily for Dutch B2B companies from around 170 in-house mailboxes. The figures in our articles come from those campaigns."},
-"bouwt en beheert e-mailcampagnes voor B2B bedrijven. Dit omvat:": {"en": "builds and manages email campaigns for B2B companies. This includes:"},
-"Alle campagnes, teksten en systemen die wij ontwikkelen blijven eigendom van": {"en": "All campaigns, copy and systems we develop remain the property of"},
-", tenzij schriftelijk anders overeengekomen. Gebruik of kopiëren zonder toestemming is niet toegestaan.": {"en": ", unless agreed otherwise in writing. Use or copying without permission is not allowed."},
-"voert Nederlandse cold-e-mailcampagnes uit tegen een gepubliceerde prijs met een vastgelegd maandvolume. Stel je vraag via het formulier. Twee velden, antwoord binnen een werkdag. Past het niet, dan zeggen we dat en wijzen we je verder op deze lijst.": {"en": "runs Dutch cold email campaigns at a published price with a fixed monthly volume. Ask your question through the form. Two fields, an answer within one working day. If it does not fit, we say so and point you further down this list."},
-"Onderdeel van": {"en": "Part of"},
-"Nieuwe gesprekken en de capaciteit om ze op te volgen, onder een dak.": {"en": "New conversations and the capacity to follow them up, under one roof."},
-"Nieuwe gesprekken via e-mailcampagnes": {"en": "New conversations through email campaigns"},
-"Je bent hier": {"en": "You are here"},
-"Remote Nederlandstalige setters en closers, zonder vaste hire": {"en": "Remote Dutch-speaking setters and closers, without a permanent hire"},
-"Koude acquisitie per e-mail, geregeld door ons. We zoeken bedrijven die bij je passen, mailen ze namens jou en sturen positieve reacties door naar jouw mailbox.": {"en": "Cold outreach by email, handled by us. We find companies that fit you, email them on your behalf and forward the positive replies to your inbox."},
-"Cases en resultaten": {"en": "Cases and results"},
-"© 2026": {"en": "© 2026"},
-". Alle rechten voorbehouden.": {"en": ". All rights reserved."},
-"is een dienst van": {"en": "is a service of"},
-"BTW NL003697236B23": {"en": "VAT NL003697236B23"},
-"KvK 42025671": {"en": "Chamber of Commerce 42025671"},
-"Link2Leads, naar de homepage": {"en": "Link2Leads, go to the homepage"},
-"Max. 3 nieuwe klanten per maand": {"en": "Max. 3 new clients per month"},
-"zodat we elke verzendomgeving dagelijks kunnen bewaken": {"en": "so we can monitor every sending setup daily"},
-"Anne-Roos": {"en": "Anne-Roos"},
-"en Demi": {"en": "and Demi"},
-". Je krijgt een van ons tweeen aan de lijn.": {"en": ". You get one of the two of us on the line."},
-"Anne-Roos en Demi, de twee oprichters van Link2Leads, aan het werk": {"en": "Anne-Roos and Demi, the two founders of Link2Leads, at work"},
-"Reacties komen binnen": {"en": "Replies coming in"},
-"Eerste mail": {"en": "First email"},
-"Week 4+": {"en": "Week 4+"},
-"Legenda": {"en": "Legend"},
-"Geen tijd om reacties op te volgen? Dan zetten we daar via": {"en": "No time to follow up on replies? Then we put a setter on it through"},
-"een setter op.": {"en": "."},
-"Deze pagina bestaat niet (meer)": {"en": "This page does not exist (anymore)"},
-"De link is verouderd of er zit een typfout in. Hieronder staan de pagina's die de meeste bezoekers zoeken.": {"en": "The link is outdated or contains a typo. Below are the pages most visitors are looking for."},
-"Naar de homepage": {"en": "Go to the homepage"},
-"Pagina niet gevonden": {"en": "Page not found"},
-"Link2Leads (onderdeel van Link2Group) · Frederik Hendrikstraat 59H, 1052 HL Amsterdam · KvK 42025671 · BTW NL003697236B23": {"en": "Link2Leads (part of Link2Group) · Frederik Hendrikstraat 59H, 1052 HL Amsterdam · KvK 42025671 · VAT NL003697236B23"},
-"1052 HL Amsterdam": {"en": "1052 HL Amsterdam, the Netherlands"},
-"Frederik Hendrikstraat 59H, 1052 HL Amsterdam": {"en": "Frederik Hendrikstraat 59H, 1052 HL Amsterdam, the Netherlands"},
-", Frederik Hendrikstraat 59H, 1052 HL Amsterdam. KvK 42025671. BTW NL003697236B23.": {"en": ", Frederik Hendrikstraat 59H, 1052 HL Amsterdam, the Netherlands. Chamber of Commerce 42025671. VAT NL003697236B23."},
-"Vier pakketten, all-in per maand. Wat erin zit en wat het kost.": {"en": "Four packages, all-in per month. What is included and what it costs."},
-"Prijzen, wetgeving, deliverability en benchmarks uit onze eigen campagnes.": {"en": "Pricing, legislation, deliverability and benchmarks from our own campaigns."},
-"404": {"en": "404"},
-"Case study · Softwarebedrijf · Scale-pakket": {"en": "Case study · Software company · Scale package"},
-"Nieuwe klanten kwamen hier via-via binnen, zonder structurele acquisitie. In 90 dagen stonden er 38 gekwalificeerde afspraken, waarvan de eerste op dag 1 na livegang.": {"en": "New clients came in through referrals only, without structured outreach. Within 90 days there were 38 qualified meetings, the first one on day 1 after launch."},
-"Case study · MIJU-marketing · Growth-pakket": {"en": "Case study · MIJU-marketing · Growth package"},
-"Drie verschillende koperstypes in dezelfde doelgroep, met een campagne die niemand echt aansprak. Opgesplitst in drie aparte campagnes met een eigen lijst en een eigen insteek.": {"en": "Three different buyer types in the same audience, with a campaign that did not really speak to anyone. Split into three separate campaigns, each with its own list and angle."},
-"Dit werkt, maar": {"en": "This works, but"},
-"niet voor iedereen": {"en": "not for everyone"},
-"Hoeveel bedrijven zitten er in": {"en": "How many companies are in"},
-"jouw markt": {"en": "your market"},
-"Wat klanten zeggen": {"en": "What clients say"},
-"Vragen": {"en": "Questions"},
-"die we vaak krijgen": {"en": "we get asked a lot"}
+"FlintLead heeft de meest transparante prijspagina van deze tien, punt. Setup, managementfee, prijs per resultaat en toolingkosten staan er allemaal, inclusief wat er niet in zit en waar het plafond ligt. Waar": {
+"en": "FlintLead has the most transparent pricing page of these ten, full stop. Setup, management fee, price per result and tooling costs are all there, including what is not covered and where the cap sits. Where"
+},
+"een vast bedrag publiceert, beweegt hier het grootste deel van de rekening mee met wat het oplevert, tot een maandplafond dat je vooraf zelf vaststelt. In een stille maand betaal je dus minder, in een goede maand meer.": {
+"en": "publishes a fixed amount, here the largest part of the bill moves with what it delivers, up to a monthly cap that you set yourself in advance. So in a quiet month you pay less, in a good month more."
+},
+"Deze voorwaarden gelden voor alle diensten, offertes en samenwerkingen van": {
+"en": "These terms apply to all services, quotes and collaborations of"
+},
+". Voorwaarden van de opdrachtgever zijn niet van toepassing, tenzij schriftelijk anders overeengekomen.": {
+"en": ". The client's terms do not apply, unless agreed otherwise in writing."
+},
+", onderdeel van": {
+"en": ", part of"
+},
+"Van de tien partijen hier publiceren er drie een bedrag. Vaste pakketten bij": {
+"en": "Of the ten providers here, three publish an amount. Fixed packages at"
+},
+"lopen van € 995 tot € 1.995 per maand. Asphia begint bij $ 2.000 per maand. Bij resultaatmodellen hangt het bedrag af van wat er binnenkomt: FlintLead publiceert € 500 per maand plus € 125 per gekwalificeerde positieve reactie tot een afgesproken plafond, naast tooling en een eenmalige setup. De overige zeven noemen geen bedrag op hun site. Let per aanbieder op of setup, warmup en infrastructuur in de prijs zitten of apart komen, dat scheelt al snel € 100 tot € 200 per maand plus een eenmalig bedrag. De volledige rekensom staat in": {
+"en": "run from EUR 995 to EUR 1,995 per month. Asphia starts at USD 2,000 per month. With results-based models the amount depends on what comes in: FlintLead publishes EUR 500 per month plus EUR 125 per qualified positive reply up to an agreed cap, on top of tooling and a one-off setup. The other seven name no amount on their site. Per provider, check whether setup, warmup and infrastructure are included in the price or come separately, because that quickly adds up to EUR 100 to EUR 200 per month plus a one-off amount. The full calculation is in"
+},
+"← Terug naar": {
+"en": "← Back to"
+},
+".nl": {
+"en": ".nl"
+},
+"(onderdeel van": {
+"en": "(part of"
+},
+") is verwerkingsverantwoordelijke voor de persoonsgegevens die via onze diensten worden verwerkt. Wij helpen bedrijven met B2B leadgeneratie via e-mailcampagnes.": {
+"en": ") is the data controller for the personal data processed through our services. We help companies with B2B lead generation via email campaigns."
+},
+"Waarom staat": {
+"en": "Why is"
+},
+"op nummer 1?": {
+"en": "at number 1?"
+},
+"De samenwerking tussen": {
+"en": "The collaboration between"
+},
+"en de opdrachtgever, vastgelegd in een offerte of contract.": {
+"en": "and the client, laid down in a quote or contract."
+},
+"is niet aansprakelijk voor inhoudelijke claims of aanbiedingen richting prospects.": {
+"en": "is not liable for substantive claims or offers made towards prospects."
+},
+"Deze pagina is van": {
+"en": "This page belongs to"
+},
+", dat zelf op 1 staat. Dat is onze redactionele aanbeveling voor de koper die hierboven staat beschreven, geen onafhankelijke ranking, geen betaalde plaatsing. Niemand op deze lijst heeft betaald om erop te staan, hoger te staan of erin te blijven. Bij elk ander bureau staat voor welke koper dat bureau juist het betere antwoord is.": {
+"en": ", which sits at number 1 itself. That is our editorial recommendation for the buyer described above, not an independent ranking and not a paid placement. Nobody on this list has paid to be on it, to rank higher or to stay on it. Next to every other agency we state for which buyer that agency is the better answer."
+},
+"Dienstverlener in B2B leadgeneratie via e-mailcampagnes, onderdeel van": {
+"en": "Provider of B2B lead generation via email campaigns, part of"
+},
+"Dat verschilt per aanbieder en het is de belangrijkste vraag bij het vergelijken van offertes.": {
+"en": "That differs per provider and it is the most important question when comparing quotes."
+},
+"rekent all-in: setup, warmup, domeinen, mailboxen, leaddata en software zitten in het maandbedrag. Aanbieders die per resultaat werken belasten de tooling doorgaans apart door, en dat loopt bij serieus volume op tot enkele honderden euro per maand, plus een eenmalige setupfee van € 500 tot € 2.500.": {
+"en": "charges all-in: setup, warmup, domains, mailboxes, lead data and software are included in the monthly fee. Providers working on a per-result basis usually pass the tooling on separately, and at serious volume that runs to several hundred euros per month, plus a one-off setup fee of EUR 500 to EUR 2,500."
+},
+"Meestal wel, en dat is logisch: de leverancier koopt op dag een domeinen, mailboxen en software voor jouw campagne. Bij": {
+"en": "Usually yes, and that makes sense: on day one the supplier buys domains, mailboxes and software for your campaign. At"
+},
+"volgt de eerste factuur bij akkoord, de tweede twee weken na livegang en daarna maandelijks.": {
+"en": "the first invoice follows on agreement, the second two weeks after go-live and monthly after that."
+},
+"bouwt en draait complete cold-e-mailcampagnes voor Nederlandse B2B-bedrijven: doelgroep, lijst, copy, verzendinfrastructuur en het filteren van reacties. Je voert alleen de gesprekken.": {
+"en": "builds and runs complete cold email campaigns for Dutch B2B companies: target group, list, copy, sending infrastructure and filtering the replies. You only have the conversations."
+},
+"Mede-oprichter van": {
+"en": "Co-founder of"
+},
+". Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.": {
+"en": ". Runs cold email campaigns daily for Dutch B2B companies from around 170 in-house mailboxes. The figures in our articles come from those campaigns."
+},
+"bouwt en beheert e-mailcampagnes voor B2B bedrijven. Dit omvat:": {
+"en": "builds and manages email campaigns for B2B companies. This includes:"
+},
+"Alle campagnes, teksten en systemen die wij ontwikkelen blijven eigendom van": {
+"en": "All campaigns, copy and systems we develop remain the property of"
+},
+", tenzij schriftelijk anders overeengekomen. Gebruik of kopiëren zonder toestemming is niet toegestaan.": {
+"en": ", unless agreed otherwise in writing. Use or copying without permission is not allowed."
+},
+"voert Nederlandse cold-e-mailcampagnes uit tegen een gepubliceerde prijs met een vastgelegd maandvolume. Stel je vraag via het formulier. Twee velden, antwoord binnen een werkdag. Past het niet, dan zeggen we dat en wijzen we je verder op deze lijst.": {
+"en": "runs Dutch cold email campaigns at a published price with a fixed monthly volume. Ask your question through the form. Two fields, an answer within one working day. If it does not fit, we say so and point you further down this list."
+},
+"Onderdeel van": {
+"en": "Part of"
+},
+"Nieuwe gesprekken en de capaciteit om ze op te volgen, onder een dak.": {
+"en": "New conversations and the capacity to follow them up, under one roof."
+},
+"Nieuwe gesprekken via e-mailcampagnes": {
+"en": "New conversations through email campaigns"
+},
+"Je bent hier": {
+"en": "You are here"
+},
+"Remote Nederlandstalige setters en closers, zonder vaste hire": {
+"en": "Remote Dutch-speaking setters and closers, without a permanent hire"
+},
+"Koude acquisitie per e-mail, geregeld door ons. We zoeken bedrijven die bij je passen, mailen ze namens jou en sturen positieve reacties door naar jouw mailbox.": {
+"en": "Cold outreach by email, handled by us. We find companies that fit you, email them on your behalf and forward the positive replies to your inbox."
+},
+"Cases en resultaten": {
+"en": "Cases and results"
+},
+"© 2026": {
+"en": "© 2026"
+},
+". Alle rechten voorbehouden.": {
+"en": ". All rights reserved."
+},
+"is een dienst van": {
+"en": "is a service of"
+},
+"BTW NL003697236B23": {
+"en": "VAT NL003697236B23"
+},
+"KvK 42025671": {
+"en": "Chamber of Commerce 42025671"
+},
+"Link2Leads, naar de homepage": {
+"en": "Link2Leads, go to the homepage"
+},
+"Max. 3 nieuwe klanten per maand": {
+"en": "Max. 3 new clients per month"
+},
+"zodat we elke verzendomgeving dagelijks kunnen bewaken": {
+"en": "so we can monitor every sending setup daily"
+},
+"Anne-Roos": {
+"en": "Anne-Roos"
+},
+"en Demi": {
+"en": "and Demi"
+},
+". Je krijgt een van ons tweeen aan de lijn.": {
+"en": ". You get one of the two of us on the line."
+},
+"Anne-Roos en Demi, de twee oprichters van Link2Leads, aan het werk": {
+"en": "Anne-Roos and Demi, the two founders of Link2Leads, at work"
+},
+"Reacties komen binnen": {
+"en": "Replies coming in"
+},
+"Eerste mail": {
+"en": "First email"
+},
+"Week 4+": {
+"en": "Week 4+"
+},
+"Legenda": {
+"en": "Legend"
+},
+"Geen tijd om reacties op te volgen? Dan zetten we daar via": {
+"en": "No time to follow up on replies? Then we put a setter on it through"
+},
+"een setter op.": {
+"en": "."
+},
+"Deze pagina bestaat niet (meer)": {
+"en": "This page does not exist (anymore)"
+},
+"De link is verouderd of er zit een typfout in. Hieronder staan de pagina's die de meeste bezoekers zoeken.": {
+"en": "The link is outdated or contains a typo. Below are the pages most visitors are looking for."
+},
+"Naar de homepage": {
+"en": "Go to the homepage"
+},
+"Pagina niet gevonden": {
+"en": "Page not found"
+},
+"Link2Leads (onderdeel van Link2Group) · Frederik Hendrikstraat 59H, 1052 HL Amsterdam · KvK 42025671 · BTW NL003697236B23": {
+"en": "Link2Leads (part of Link2Group) · Frederik Hendrikstraat 59H, 1052 HL Amsterdam · KvK 42025671 · VAT NL003697236B23"
+},
+"1052 HL Amsterdam": {
+"en": "1052 HL Amsterdam, the Netherlands"
+},
+"Frederik Hendrikstraat 59H, 1052 HL Amsterdam": {
+"en": "Frederik Hendrikstraat 59H, 1052 HL Amsterdam, the Netherlands"
+},
+", Frederik Hendrikstraat 59H, 1052 HL Amsterdam. KvK 42025671. BTW NL003697236B23.": {
+"en": ", Frederik Hendrikstraat 59H, 1052 HL Amsterdam, the Netherlands. Chamber of Commerce 42025671. VAT NL003697236B23."
+},
+"Vier pakketten, all-in per maand. Wat erin zit en wat het kost.": {
+"en": "Four packages, all-in per month. What is included and what it costs."
+},
+"Prijzen, wetgeving, deliverability en benchmarks uit onze eigen campagnes.": {
+"en": "Pricing, legislation, deliverability and benchmarks from our own campaigns."
+},
+"404": {
+"en": "404"
+},
+"Case study · Softwarebedrijf · Scale-pakket": {
+"en": "Case study · Software company · Scale package"
+},
+"Nieuwe klanten kwamen hier via-via binnen, zonder structurele acquisitie. In 90 dagen stonden er 38 gekwalificeerde afspraken, waarvan de eerste op dag 1 na livegang.": {
+"en": "New clients came in through referrals only, without structured outreach. Within 90 days there were 38 qualified meetings, the first one on day 1 after launch."
+},
+"Case study · MIJU-marketing · Growth-pakket": {
+"en": "Case study · MIJU-marketing · Growth package"
+},
+"Drie verschillende koperstypes in dezelfde doelgroep, met een campagne die niemand echt aansprak. Opgesplitst in drie aparte campagnes met een eigen lijst en een eigen insteek.": {
+"en": "Three different buyer types in the same audience, with a campaign that did not really speak to anyone. Split into three separate campaigns, each with its own list and angle."
+},
+"Dit werkt, maar": {
+"en": "This works, but"
+},
+"niet voor iedereen": {
+"en": "not for everyone"
+},
+"Hoeveel bedrijven zitten er in": {
+"en": "How many companies are in"
+},
+"jouw markt": {
+"en": "your market"
+},
+"Wat klanten zeggen": {
+"en": "What clients say"
+},
+"Vragen": {
+"en": "Questions"
+},
+"die we vaak krijgen": {
+"en": "we get asked a lot"
+},
+"Leads kopen": {
+"en": "Buy leads"
+},
+"Hoofdmenu": {
+"en": "Main menu"
+},
+"Stuur ons een WhatsApp-bericht": {
+"en": "Send us a WhatsApp message"
+},
+"Reviews van klanten": {
+"en": "Client reviews"
+},
+"Losse leads kopen": {
+"en": "Buy leads separately"
+},
+"Bekijk al onze reviews": {
+"en": "See all our reviews"
+},
+"Zie al onze reviews": {
+"en": "See all our reviews"
+},
+"Google Reviews": {
+"en": "Google Reviews"
+},
+"4,8 sterren op Google Reviews, bekijk de reviews": {
+"en": "4.8 stars on Google Reviews, read the reviews"
+},
+", met een 4,8 op Google.": {
+"en": ", rated 4.8 on Google."
+},
+"Benieuwd wat dit in jouw markt oplevert?": {
+"en": "Curious what this would do in your market?"
+},
+"Wij rekenen gratis uit hoeveel bedrijven er in jouw doelgroep zitten en hoeveel beslissers daarvan bereikbaar zijn.": {
+"en": "We work out free of charge how many companies your target group holds and how many of their decision makers are reachable."
+},
+"Vraag de gratis marktscan aan": {
+"en": "Request the free market scan"
+},
+"Vraag je telling aan": {
+"en": "Request your count"
+},
+"Vraag je": {
+"en": "Request your"
+},
+"telling aan": {
+"en": "count"
+},
+"Liever eerst bewijs?": {
+"en": "Rather see proof first?"
+},
+". Of mail ons op": {
+"en": ". Or email us at"
+},
+"Ook interessant": {
+"en": "Also worth reading"
+},
+"per maand": {
+"en": "per month"
+},
+"Afspraken": {
+"en": "Meetings"
+},
+"De situatie": {
+"en": "The situation"
+},
+"Het resultaat": {
+"en": "The result"
+},
+"Het probleem": {
+"en": "The problem"
+},
+"14 dagen": {
+"en": "14 days"
+},
+"8 weken": {
+"en": "8 weeks"
+},
+"Eerste": {
+"en": "First"
+},
+"Met": {
+"en": "With"
+},
+"Gemeten over": {
+"en": "Measured over"
+},
+"gaat": {
+"en": "goes"
+},
+"zelf samen": {
+"en": "yourself"
+},
+"Doe de": {
+"en": "Take the"
+},
+"gratis fitcheck": {
+"en": "free fit check"
+},
+"Bron per record": {
+"en": "Source per record"
+},
+"Zakelijk e-mailadres": {
+"en": "Business email address"
+},
+"Wie wil je bereiken?": {
+"en": "Who do you want to reach?"
+},
+"Laat dit veld leeg": {
+"en": "Leave this field empty"
+},
+"Vertel ons": {
+"en": "Tell us"
+},
+"wat je verkoopt": {
+"en": "what you sell"
+},
+"aan wie": {
+"en": "and to whom"
+},
+"Je naam": {
+"en": "Your name"
+},
+"Je website": {
+"en": "Your website"
+},
+"Totaal": {
+"en": "Total"
+},
+"Plaats": {
+"en": "Town"
+},
+"Medewerkers": {
+"en": "Employees"
+},
+"Functie": {
+"en": "Role"
+},
+"Bron": {
+"en": "Source"
+},
+"Directeur": {
+"en": "Managing director"
+},
+"Commercieel manager": {
+"en": "Commercial manager"
+},
+"Eigenaar": {
+"en": "Owner"
+},
+"Oprichter": {
+"en": "Founder"
+},
+"Prospects": {
+"en": "Prospects"
+},
+"Pipeline": {
+"en": "Pipeline"
+},
+"Campagnes": {
+"en": "Campaigns"
+},
+"Doorlooptijd": {
+"en": "Lead time"
+},
+"Klantcases": {
+"en": "Client cases"
+},
+"Veelgestelde": {
+"en": "Frequently asked"
+},
+"vragen": {
+"en": "questions"
+},
+"Bedrijfswebsite, 12-09-2026": {
+"en": "Company website, 12-09-2026"
+},
+"Bedrijfswebsite, 11-09-2026": {
+"en": "Company website, 11-09-2026"
+},
+"Laatst bijgewerkt: 14 september 2026": {
+"en": "Last updated: 14 September 2026"
+},
+"IBAN": {
+"en": "IBAN"
+},
+"BIC": {
+"en": "BIC"
+},
+"Pagina niet gevonden | Link2Leads": {
+"en": "Page not found | Link2Leads"
+},
+"Deze pagina bestaat niet (meer). Ga naar de homepage, de cases of de kennisbank van Link2Leads.": {
+"en": "This page does not exist (any more). Go to the Link2Leads homepage, the cases or the knowledge base."
+},
+"De algemene voorwaarden van Link2Leads, een dienst van Link2Group. Looptijd, betaling, garantie en aansprakelijkheid.": {
+"en": "The terms and conditions of Link2Leads, a service of Link2Group. Term, payment, guarantee and liability."
+},
+"Plan de gratis fitcheck met Link2Leads. In 30 minuten bespreken we hoe we via e-mailcampagnes direct afspraken genereren met jouw ideale B2B klanten.": {
+"en": "Book the free fit check with Link2Leads. In 30 minutes we go through how our email campaigns generate meetings with your ideal B2B clients."
+},
+"In dertig minuten kijken we naar je doelgroep en je aanbod, en rekenen we door wat koude e-mail bij jou realistisch oplevert. Je krijgt een concreet plan mee, ook als we niet gaan samenwerken. Past het niet bij jouw markt, dan zeggen we dat vooraf.": {
+"en": "In thirty minutes we look at your target group and your offer, and work out what cold email realistically produces in your case. You leave with a concrete plan, even if we do not end up working together. If it does not fit your market, we say so up front."
+},
+"Omzetcalculator e-mailcampagnes | Link2Leads": {
+"en": "Revenue calculator for email campaigns | Link2Leads"
+},
+"Cold email bureau Nederland voor B2B afspraken | Link2Leads": {
+"en": "Dutch cold email agency for B2B meetings | Link2Leads"
+},
+"Nederlands cold email bureau. Wij vinden je doelgroep, mailen namens jou en leveren positieve reacties in je mailbox. Live in week 3, vanaf €995 per maand.": {
+"en": "Dutch cold email agency. We find your target group, email on your behalf and deliver positive replies to your inbox. Live in week 3, from EUR 995 per month."
+},
+"Gekwalificeerde salesafspraken via koude e-mail, zonder zelf acquisitie te doen. Setup klaar in twee weken, eerste reacties doorgaans binnen drie tot tien dagen na livegang.": {
+"en": "Qualified sales meetings through cold email, without doing the prospecting yourself. Setup ready in two weeks, first replies usually within three to ten days of going live."
+},
+"Wij benaderen je doelgroep per e-mail namens jou en leveren alleen de gekwalificeerde positieve reacties. Vanaf €995 per maand, all-in.": {
+"en": "We approach your target group by email on your behalf and deliver only the qualified positive replies. From EUR 995 per month, all in."
+},
+"Kennisbank cold email: prijzen en wetgeving | Link2Leads": {
+"en": "Cold email knowledge base: pricing and legislation | Link2Leads"
+},
+"Wat koude acquisitie in Nederland werkelijk mag, werkelijk oplevert en werkelijk kost. Met bronnen, bedragen en cijfers uit onze eigen campagnes.": {
+"en": "What cold prospecting in the Netherlands is really allowed to do, really produces and really costs. With sources, amounts and figures from our own campaigns."
+},
+"Kennisbank cold email | Link2Leads": {
+"en": "Cold email knowledge base | Link2Leads"
+},
+"Cold email bureaus Nederland vergeleken (2026), 10 aanbieders | Link2Leads": {
+"en": "Dutch cold email agencies compared (2026), 10 providers | Link2Leads"
+},
+"Cold email bureaus Nederland vergeleken (2026) | Link2Leads": {
+"en": "Dutch cold email agencies compared (2026) | Link2Leads"
+},
+"Tien Nederlandse cold email bureaus naast elkaar: gepubliceerde prijs, kanaal en wat er in het contract staat over volume. Gecontroleerd op 2 september 2026.": {
+"en": "Ten Dutch cold email agencies side by side: published price, channel and what the contract says about volume. Checked on 2 September 2026."
+},
+"Cold email uitbesteden of een SDR aannemen? | Link2Leads": {
+"en": "Outsource cold email or hire an SDR? | Link2Leads"
+},
+"Cold email uitbesteden of een SDR aannemen? De rekensom | Link2Leads": {
+"en": "Outsource cold email or hire an SDR? The sums | Link2Leads"
+},
+"Wat een eigen SDR werkelijk kost met werkgeverslasten, tooling en inwerktijd, afgezet tegen uitbestede cold email. Met het punt waarop het omslaat.": {
+"en": "What an in-house SDR really costs including employer charges, tooling and ramp-up time, set against outsourced cold email. Including the point where it tips over."
+},
+"Reacties op 30.000 koude mails: echte cijfers | Link2Leads": {
+"en": "Replies to 30,000 cold emails: real figures | Link2Leads"
+},
+"Hoeveel reacties krijg je op 30.000 koude mails? Echte cijfers (2026) | Link2Leads": {
+"en": "How many replies do you get to 30,000 cold emails? Real figures (2026) | Link2Leads"
+},
+"Wat een realistische reply rate is bij B2B cold email en hoeveel verschil segmentatie maakt. Met cijfers uit onze eigen lopende campagnes.": {
+"en": "What a realistic reply rate is for B2B cold email and how much difference segmentation makes. With figures from our own live campaigns."
+},
+"Waarom komen je koude mails niet aan? | Link2Leads": {
+"en": "Why are your cold emails not arriving? | Link2Leads"
+},
+"Waarom komen je koude mails niet aan? Deliverability uitgelegd | Link2Leads": {
+"en": "Why are your cold emails not arriving? Deliverability explained | Link2Leads"
+},
+"De echte oorzaken van slechte inbox placement bij cold email: lijstkwaliteit, volume per mailbox, domeinen en tracking. Met de instellingen die wij gebruiken.": {
+"en": "The real causes of poor inbox placement in cold email: list quality, volume per mailbox, domains and tracking. Including the settings we use."
+},
+"Mag koude e-mail in Nederland? De regels (2026) | Link2Leads": {
+"en": "Is cold email allowed in the Netherlands? The rules (2026) | Link2Leads"
+},
+"Mag koude e-mail in Nederland? De regels met de wetsartikelen (2026) | Link2Leads": {
+"en": "Is cold email allowed in the Netherlands? The rules with the statutory articles (2026) | Link2Leads"
+},
+"Wat de Telecommunicatiewet en de AVG werkelijk eisen bij B2B cold email, wat er per 1 juli 2026 veranderde, en wat er in je mail moet staan.": {
+"en": "What the Dutch Telecommunications Act and the GDPR actually require for B2B cold email, what changed on 1 July 2026, and what has to be in your email."
+},
+"Wat kost B2B leadgeneratie in Nederland? (2026)": {
+"en": "What does B2B lead generation cost in the Netherlands? (2026)"
+},
+"Wat kost B2B leadgeneratie in Nederland? (2026) | Link2Leads": {
+"en": "What does B2B lead generation cost in the Netherlands? (2026) | Link2Leads"
+},
+"Wat koude e-mail, telefoon, LinkedIn, advertenties en een eigen SDR per maand kosten, en hoe je die kanalen omrekent naar kosten per gesprek.": {
+"en": "What cold email, phone, LinkedIn, ads and an in-house SDR cost per month, and how to convert those channels into a cost per conversation."
+},
+"Wat kost cold email uitbesteden? (2026) | Link2Leads": {
+"en": "What does outsourcing cold email cost? (2026) | Link2Leads"
+},
+"De drie prijsmodellen naast elkaar met echte bedragen: zelf doen, vast maandbedrag of betalen per resultaat. Plus de post die in vrijwel elke offerte ontbreekt.": {
+"en": "The three pricing models side by side with real amounts: doing it yourself, a fixed monthly fee or paying per result. Plus the line item missing from almost every quote."
+},
+"Klantcases: wat onze campagnes opleveren | Link2Leads": {
+"en": "Client cases: what our campaigns produce | Link2Leads"
+},
+"Drie cases met de cijfers erbij: €84.000 pipeline uit een campagne van €5.085, 15 positieve reacties in twee weken en een eigen landingspagina per prospect.": {
+"en": "Three cases with the figures included: EUR 84,000 pipeline from a EUR 5,085 campaign, 15 positive replies in two weeks and a dedicated landing page per prospect."
+},
+"Klantcases Link2Leads": {
+"en": "Link2Leads client cases"
+},
+"Pipeline, kosten per afspraak, reply rates en segmentatie. Onze eigen campagnes, met de cijfers erbij.": {
+"en": "Pipeline, cost per meeting, reply rates and segmentation. Our own campaigns, with the figures included."
+},
+"Case: een eigen landingspagina per prospect | Link2Leads": {
+"en": "Case: a dedicated landing page per prospect | Link2Leads"
+},
+"Een eigen landingspagina per prospect: 1.240 prospects met een eigen pagina, 34 procent opende hem en er kwamen 27 afspraken in acht weken.": {
+"en": "A dedicated landing page per prospect: 1,240 prospects with their own page, 34 percent opened it and it produced 27 meetings in eight weeks."
+},
+"Hoe we personalisatie doortrekken na de klik.": {
+"en": "How we carry personalisation through past the click."
+},
+"Case MIJU-marketing: 15 reacties in twee weken | Link2Leads": {
+"en": "Case MIJU-marketing: 15 replies in two weeks | Link2Leads"
+},
+"Drie koperstypes in een doelgroep, opgesplitst in drie campagnes met een eigen lijst en insteek. Binnen veertien dagen 15 positieve reacties.": {
+"en": "Three buyer types in one target group, split into three campaigns with their own list and angle. 15 positive replies within fourteen days."
+},
+"Case: 15 positieve reacties in twee weken": {
+"en": "Case: 15 positive replies in two weeks"
+},
+"Wat er gebeurt als je een doelgroep opsplitst in drie campagnes in plaats van een.": {
+"en": "What happens when you split one target group into three campaigns instead of one."
+},
+"Case: €84.000 pipeline uit €5.085 campagne | Link2Leads": {
+"en": "Case: EUR 84,000 pipeline from a EUR 5,085 campaign | Link2Leads"
+},
+"Softwarebedrijf zonder structurele acquisitie: in 90 dagen 38 gekwalificeerde afspraken, €134 per afspraak en €84.000 pipeline uit €5.085 campagnekosten.": {
+"en": "A software company with no structural prospecting: 38 qualified meetings in 90 days, EUR 134 per meeting and EUR 84,000 pipeline from EUR 5,085 in campaign costs."
+},
+"Case: 84.000 euro pipeline uit 5.085 euro campagne": {
+"en": "Case: 84,000 euro pipeline from a 5,085 euro campaign"
+},
+"38 gekwalificeerde afspraken in 90 dagen, 134 euro per afspraak, eerste afspraak op dag 1 na livegang.": {
+"en": "38 qualified meetings in 90 days, 134 euro per meeting, first meeting on day 1 after going live."
+},
+"Leads kopen: geverifieerde B2B-leads op maat | Link2Leads": {
+"en": "Buy leads: verified B2B leads built to order | Link2Leads"
+},
+"Koop B2B-leads met een geverifieerd zakelijk e-mailadres en de bron per record. Jij geeft je doelgroep op, wij leveren binnen een werkdag. Vanaf 0,10 per lead.": {
+"en": "Buy B2B leads with a verified business email address and the source per record. You describe your target group, we deliver within one working day. From 0.10 per lead."
+},
+"Leads kopen bij Link2Leads": {
+"en": "Buying leads at Link2Leads"
+},
+"Geverifieerde B2B-leads op maat, met de bron per record. Binnen een werkdag geleverd.": {
+"en": "Verified B2B leads built to order, with the source per record. Delivered within one working day."
+},
+"Het privacybeleid van Link2Leads: welke persoonsgegevens we verwerken, waarom, hoe lang we ze bewaren en welke rechten je hebt.": {
+"en": "The Link2Leads privacy policy: which personal data we process, why, how long we keep it and what rights you have."
+},
+"Anne-Roos van Link2Leads": {
+"en": "Anne-Roos of Link2Leads"
+},
+"Demi van Link2Leads": {
+"en": "Demi of Link2Leads"
+},
+"Demi en Anne-Roos van Link2Leads": {
+"en": "Demi and Anne-Roos of Link2Leads"
+},
+"Anne-Roos en Demi van Link2Leads": {
+"en": "Anne-Roos and Demi of Link2Leads"
+},
+"Demi Stekelenburg van Link2Leads": {
+"en": "Demi Stekelenburg of Link2Leads"
+},
+"Demi aan de telefoon": {
+"en": "Demi on the phone"
+},
+"Demi aan de telefoon achter zijn laptop": {
+"en": "Demi on the phone at his laptop"
+},
+"Demi en Anne-Roos overleggen achter een laptop": {
+"en": "Demi and Anne-Roos going over things at a laptop"
+},
+"Anne-Roos achter haar laptop": {
+"en": "Anne-Roos at her laptop"
+},
+"/ Landingspagina per prospect": {
+"en": "/ Landing page per prospect"
+},
+"Een eigen landingspagina per prospect": {
+"en": "A dedicated landing page per prospect"
+},
+"We staken veel werk in het persoonlijk maken van de mail, en stuurden vervolgens iedereen die klikte naar dezelfde pagina. Precies op het moment dat iemand besluit of hij reageert, hield de personalisatie op. Dat hebben we opgelost met een eigen pagina per prospect.": {
+"en": "We put a lot of work into making the email personal, and then sent everyone who clicked to the same page. At the exact moment someone decides whether to reply, the personalisation stopped. We solved that with a dedicated page per prospect."
+},
+"Onze eigen campagnes": {
+"en": "Our own campaigns"
+},
+"Persoonlijk": {
+"en": "Personal"
+},
+"Wat een campagne voor": {
+"en": "What a campaign for"
+},
+"Jouw Bedrijf B.V.": {
+"en": "Your Company Ltd"
+},
+"zou opleveren": {
+"en": "would produce"
+},
+"De pagina noemt het bedrijf, de branche en de aanleiding uit de mail. Wie klikt, leest verder over zijn eigen situatie in plaats van over ons.": {
+"en": "The page names the company, the industry and the reason from the email. Whoever clicks reads on about their own situation instead of about us."
+},
+"Plan een gesprek →": {
+"en": "Book a call →"
+},
+"We bouwen per prospect een eigen pagina, Smartlead zet de bijbehorende link in de mail. Van de 1.240 prospects opende 34 procent zijn eigen pagina.": {
+"en": "We build a dedicated page per prospect and Smartlead drops the matching link into the email. Of the 1,240 prospects, 34 percent opened their own page."
+},
+"Een goede koude mail kost onderzoek. Je zoekt uit wat een bedrijf doet, waar het mee bezig is en waarom jouw aanbod daar iets mee te maken heeft. Dat onderzoek zit in de eerste zin van de mail en daarna nergens meer. Wie doorklikt, komt op een homepage die net zo goed voor duizend andere bedrijven bedoeld had kunnen zijn.": {
+"en": "A good cold email takes research. You work out what a company does, what it is busy with and why your offer has anything to do with that. That research sits in the first line of the email and nowhere after it. Whoever clicks through lands on a homepage that could just as easily have been meant for a thousand other companies."
+},
+"Daar komt bij dat de standaard AI-openingszin inmiddels herkenbaar is geworden. Kopers zien binnen een regel of een mail met de hand is gemaakt of uit een generator komt.": {
+"en": "On top of that, the standard AI opening line has become recognisable. Buyers can tell within one line whether an email was made by hand or came out of a generator."
+},
+"Wat we nu doen": {
+"en": "What we do now"
+},
+"Per prospect een pagina.": {
+"en": "A page per prospect."
+},
+"We maken automatisch een landingspagina die alleen over dat ene bedrijf gaat, op basis van het onderzoek dat we al deden.": {
+"en": "We automatically build a landing page that is only about that one company, based on the research we already did."
+},
+"De link staat in de mail.": {
+"en": "The link sits in the email."
+},
+"De koppeling met Smartlead zet de persoonlijke URL vanzelf in de juiste mail van de reeks, zonder handwerk per contact.": {
+"en": "The Smartlead connection drops the personal URL into the right email in the sequence by itself, with no manual work per contact."
+},
+"We zien wie er kijkt.": {
+"en": "We can see who is looking."
+},
+"Per pagina is zichtbaar wie hem opende en hoe lang. Dat zegt vaak meer dan een open van de mail.": {
+"en": "For every page we can see who opened it and for how long. That often says more than an email open."
+},
+"Opvolgen op wat we zien.": {
+"en": "Following up on what we see."
+},
+"Wie zijn pagina bekeek maar niet reageerde, volgen we gerichter op, ook via LinkedIn.": {
+"en": "Anyone who viewed their page but did not reply gets a more targeted follow-up, including on LinkedIn."
+},
+"Wat het opleverde": {
+"en": "What it produced"
+},
+"Over 1.240 prospects met een eigen pagina opende 34 procent van de ontvangers die de link kregen zijn eigen pagina. De reply rate op die campagnes kwam uit op 9,1 procent, tegenover 3,2 procent op dezelfde lijst zonder persoonlijke pagina. In acht weken leverde dat 27 afspraken en drie nieuwe klanten op retainer op. De eerste afspraken stonden al in week een.": {
+"en": "Across 1,240 prospects with their own page, 34 percent of the recipients who got the link opened it. The reply rate on those campaigns came out at 9.1 percent, against 3.2 percent on the same list without a personal page. In eight weeks that produced 27 meetings and three new clients on retainer. The first meetings were already booked in week one."
+},
+"met een eigen pagina": {
+"en": "with their own page"
+},
+"Paginabezoek": {
+"en": "Page visits"
+},
+"van de ontvangers die een link kregen": {
+"en": "of the recipients who got a link"
+},
+", tegenover 3,2% op dezelfde lijst zonder persoonlijke pagina": {
+"en": ", against 3.2% on the same list without a personal page"
+},
+"in acht weken": {
+"en": "in eight weeks"
+},
+"op retainer": {
+"en": "on retainer"
+},
+"Het opvallendste zat niet in de cijfers. Prospects gingen reageren om te zeggen dat de benadering echt onderzocht aanvoelde. Dat gebeurt bij koude e-mail vrijwel nooit.": {
+"en": "The most striking part was not in the figures. Prospects started replying to say the approach genuinely felt researched. With cold email that almost never happens."
+},
+"\"Mensen reageerden om te zeggen hoe persoonlijk het was. Dat gebeurt normaal nooit bij koude e-mail.\"": {
+"en": "\"People replied just to say how personal it was. That normally never happens with cold email.\""
+},
+"Demi Stekelenburg, oprichter": {
+"en": "Demi Stekelenburg, founder"
+},
+"Wat dit voor jou betekent": {
+"en": "What this means for you"
+},
+"Dit kun je bij elk pakket toevoegen met de add-on Hyperpersonalisatie. Je hoeft er zelf niets voor in te richten en geen aparte tool voor af te nemen. Je krijgt een lijst terug van bedrijven die je mail openden en daarna ook de moeite namen om een pagina over zichzelf te bekijken. Dat is een warmer signaal dan een open, en het maakt het opvolgen een stuk gerichter.": {
+"en": "You can add this to any package with the Hyperpersonalisation add-on. You do not have to set anything up yourself or buy a separate tool. You get back a list of companies that opened your email and then also took the trouble to look at a page about themselves. That is a warmer signal than an open, and it makes following up a lot more targeted."
+},
+"Bekijk de pakketten en add-ons": {
+"en": "See the packages and add-ons"
+},
+"Gemeten over de campagnes waarin een persoonlijke pagina werd meegestuurd, tegenover dezelfde lijst zonder.": {
+"en": "Measured across the campaigns in which a personal page was included, against the same list without one."
+},
+"De instellingen die wij over ongeveer 170 mailboxen aanhouden": {
+"en": "The settings we keep across roughly 170 mailboxes"
+},
+"Hoe we de personalisatie doortrekken na de klik": {
+"en": "How we carry personalisation through past the click"
+},
+"Personalisatie die doorloopt na de klik": {
+"en": "Personalisation that continues past the click"
+},
+"Wat dit bij jouw ordergrootte betekent": {
+"en": "What this means at your order size"
+},
+"/ MIJU-marketing": {
+"en": "/ MIJU-marketing"
+},
+"Drie heel verschillende koperstypes zaten in dezelfde doelgroep. Een campagne die alle drie tegelijk aansprak, sprak niemand echt aan. Dus hebben we er drie campagnes van gemaakt.": {
+"en": "Three very different buyer types sat inside the same target group. A campaign that spoke to all three at once spoke to nobody in particular. So we turned it into three campaigns."
+},
+"Growth-pakket": {
+"en": "Growth package"
+},
+", €1.295 per maand": {
+"en": ", EUR 1,295 per month"
+},
+"een doelgroep, drie campagnes": {
+"en": "one target group, three campaigns"
+},
+"Eigen lijst, eigen aanleiding, eigen eerste zin": {
+"en": "Own list, own reason, own first line"
+},
+"Zelfde dienst, ander resultaat dat we noemen": {
+"en": "Same service, different result named"
+},
+"Bleef achter op reacties": {
+"en": "Lagged behind on replies"
+},
+"Na twee weken was per segment te zien wat er binnenkwam. Het volume ging naar de lijst die het beste liep, de middelste kreeg een andere insteek en de zwakste is eruit gehaald. De balken geven de onderlinge verhouding weer.": {
+"en": "After two weeks we could see per segment what was coming in. Volume went to the list that ran best, the middle one got a different angle and the weakest was pulled. The bars show how they compared."
+},
+"De doelgroep was op papier een markt, maar bestond in de praktijk uit drie groepen die om heel andere redenen kopen. Een mail die voor alle drie moest werken, werd noodzakelijk vaag. Precies het soort mail dat wordt weggeklikt, omdat er niets in staat dat over de ontvanger zelf gaat.": {
+"en": "On paper the target group was one market, but in practice it consisted of three groups that buy for very different reasons. An email that had to work for all three inevitably went vague. Exactly the kind of email that gets clicked away, because there is nothing in it about the recipient."
+},
+"De lijst gesplitst.": {
+"en": "Split the list."
+},
+"Drie aparte lijsten in plaats van een, elk met een eigen selectie op bedrijfstype en functie.": {
+"en": "Three separate lists instead of one, each with its own selection on company type and job role."
+},
+"Per segment een eigen insteek.": {
+"en": "A separate angle per segment."
+},
+"Andere aanleiding, andere eerste zin, ander resultaat dat we noemen. De dienst bleef hetzelfde, de reden om te reageren niet.": {
+"en": "A different reason, a different first line, a different result named. The service stayed the same, the reason to reply did not."
+},
+"Verzonden vanaf persoonlijke afzenderadressen.": {
+"en": "Sent from personal sender addresses."
+},
+"Een naam en een mailbox van een mens, niet info@ of een nieuwsbriefadres.": {
+"en": "A human name and a human mailbox rather than info@ or a newsletter address."
+},
+"Gemeten per segment.": {
+"en": "Measured per segment."
+},
+"Reply rate per campagne apart bijgehouden, zodat het volume naar het segment kan dat het beste loopt.": {
+"en": "Reply rate tracked separately per campaign, so volume can go to the segment that runs best."
+},
+"Binnen veertien dagen kwamen er 15 positieve reacties binnen. Het verschil tussen de drie segmenten was groot genoeg om er meteen iets mee te doen: meer volume naar de lijst die het beste liep, een andere insteek op de middelste, en de zwakste eruit.": {
+"en": "Within fourteen days 15 positive replies came in. The gap between the three segments was big enough to act on right away: more volume to the list that ran best, a different angle on the middle one, and the weakest pulled."
+},
+"vanaf livegang": {
+"en": "from going live"
+},
+", elk met een eigen lijst en eigen boodschap": {
+"en": ", each with its own list and its own message"
+},
+"Growth,": {
+"en": "Growth,"
+},
+"Wat een positieve reactie is, houden we smal: iemand die vraagt om meer informatie, om een gesprek of om een voorstel. Elke reactie wordt met de hand gelezen en alleen doorgestuurd als er een gesprek in zit, met naam en contactgegevens erbij.": {
+"en": "We keep the definition of a positive reply narrow: someone asking for more information, for a call or for a proposal. Every reply is read by hand and only passed on if there is a conversation in it, with name and contact details included."
+},
+"Hoe groot het verschil tussen segmenten kan zijn, staat in de kennisbank →": {
+"en": "How big the gap between segments can be is covered in the knowledge base →"
+},
+"Wat segmentatie deed bij MIJU-marketing": {
+"en": "What segmentation did at MIJU-marketing"
+},
+"/ Softwarebedrijf": {
+"en": "/ Software company"
+},
+"Een softwarebedrijf dat nieuwe klanten altijd via-via binnenkreeg, zonder structurele acquisitie. Negentig dagen later stonden er 38 gekwalificeerde afspraken in de agenda.": {
+"en": "A software company that always won new clients through referrals, with no structural prospecting. Ninety days later there were 38 qualified meetings in the calendar."
+},
+"Softwarebedrijf": {
+"en": "Software company"
+},
+"Scale-pakket": {
+"en": "Scale package"
+},
+", €1.695 per maand": {
+"en": ", EUR 1,695 per month"
+},
+"campagne-overzicht · softwarebedrijf · 90 dagen": {
+"en": "campaign overview · software company · 90 days"
+},
+"Afgerond": {
+"en": "Completed"
+},
+"Pipeline uit de campagne": {
+"en": "Pipeline from the campaign"
+},
+"Afspraken per twee weken over de looptijd. De eerste stond op dag 1 na livegang, daarna liep het volume op zodra duidelijk was welke segmenten reageerden.": {
+"en": "Meetings per two weeks across the term. The first was on day 1 after going live, after which volume ramped up as soon as it was clear which segments were replying."
+},
+"Groei liep hier volledig op het netwerk van de oprichter. Dat werkt tot het moment waarop het netwerk op is, en dan valt de instroom stil zonder dat je er iets aan kunt draaien. Er was geen lijst, geen campagne en geen apart domein om vanaf te versturen. De vraag was simpel: is er buiten het netwerk genoeg markt om structureel afspraken uit te halen.": {
+"en": "Growth here ran entirely on the founder's network. That works until the network runs out, and then the flow of new business stops with no dial to turn. There was no list, no campaign and no separate domain to send from. The question was simple: outside the network, is there enough market to pull meetings from structurally."
+},
+"Doelgroep bepaald.": {
+"en": "Defined the target group."
+},
+"We zijn begonnen bij de klanten die al het beste liepen en hebben daar het profiel uit gehaald: welk type bedrijf, welke omvang, welke functie er tekent.": {
+"en": "We started with the clients that already ran best and pulled the profile out of them: what type of company, what size, which job role signs."
+},
+"E-mailinfrastructuur opgezet.": {
+"en": "Set up the email infrastructure."
+},
+"Aparte domeinen, eigen mailboxen, authenticatie ingeregeld en opgewarmd, zodat het hoofddomein buiten schot blijft.": {
+"en": "Separate domains, dedicated mailboxes, authentication configured and warmed up, so the main domain stays out of the firing line."
+},
+"Campagne geschreven.": {
+"en": "Wrote the campaign."
+},
+"Persoonlijke mails vanaf een persoonlijk afzenderadres, met een concrete observatie over het bedrijf in plaats van een algemene opening.": {
+"en": "Personal emails from a personal sender address, with a concrete observation about the company instead of a generic opening."
+},
+"Gefaseerd uitgerold.": {
+"en": "Rolled out in phases."
+},
+"Klein beginnen, meten wat aankomt en wat reacties oplevert, en het volume pas opvoeren als beide goed staan.": {
+"en": "Start small, measure what lands and what produces replies, and only raise the volume once both are solid."
+},
+"De eerste afspraak stond op dag 1 na livegang. Over de hele looptijd van negentig dagen kwamen er 38 gekwalificeerde afspraken uit, tegen een campagne-investering van €5.085. Dat komt neer op €134 per afspraak.": {
+"en": "The first meeting was on day 1 after going live. Across the full ninety-day term it produced 38 qualified meetings, against a campaign investment of EUR 5,085. That works out at EUR 134 per meeting."
+},
+"over 90 dagen (Scale-pakket, €1.695 per maand)": {
+"en": "across 90 days (Scale package, EUR 1,695 per month)"
+},
+"gekwalificeerd": {
+"en": "qualified"
+},
+", ofwel 16,5 keer de investering": {
+"en": ", or 16.5 times the investment"
+},
+"Eerste afspraak": {
+"en": "First meeting"
+},
+"Dag": {
+"en": "Day"
+},
+"na livegang": {
+"en": "after going live"
+},
+"Pipeline is de opgetelde waarde van de afspraken die uit de campagne kwamen, niet de gefactureerde omzet. Wat daarvan sluit hangt af van de verkoop, en die deed de klant zelf.": {
+"en": "Pipeline is the combined value of the meetings the campaign produced, not invoiced revenue. What closes out of that depends on the selling, and the client did that themselves."
+},
+"38 gekwalificeerde afspraken in 90 dagen": {
+"en": "38 qualified meetings in 90 days"
+},
+"/ Resultaten": {
+"en": "/ Results"
+},
+"Geen gemiddelden en geen benchmarks van iemand anders. Dit zijn onze eigen campagnes, met de investering, de cijfers en de aanpak erbij. Klik door voor de volledige case.": {
+"en": "No averages and no benchmarks from somebody else. These are our own campaigns, with the investment, the figures and the approach included. Click through for the full case."
+},
+"Liever horen wat klanten zelf zeggen?": {
+"en": "Rather hear what clients say themselves?"
+},
+"Mails verzonden namens klanten": {
+"en": "Emails sent on behalf of clients"
+},
+"Hoogste open rate op een lopende campagne": {
+"en": "Highest open rate on a live campaign"
+},
+"Verschil in reacties tussen het sterkste en het zwakste segment binnen dezelfde campagne": {
+"en": "Difference in replies between the strongest and the weakest segment inside the same campaign"
+},
+"Uitgelezen uit Smartlead op 2 september 2026, over alle campagnes die op dat moment liepen.": {
+"en": "Read out of Smartlead on 2 September 2026, across all campaigns running at that moment."
+},
+"De uitsplitsing per segment, met de toets erbij": {
+"en": "The breakdown per segment, including the test"
+},
+"Reken het door voor je eigen markt": {
+"en": "Run the numbers for your own market"
+},
+"Wat een campagne bij jouw ordergrootte oplevert": {
+"en": "What a campaign produces at your order size"
+},
+"Cold email bureaus in Nederland vergeleken": {
+"en": "Dutch cold email agencies compared"
+},
+"Tien aanbieders op prijs, kanaal en verifieerbaarheid": {
+"en": "Ten providers on price, channel and verifiability"
+},
+"Meest gekozen": {
+"en": "Most chosen"
+},
+"Stel je campagne": {
+"en": "Build your campaign"
+},
+"Kies een pakket en vink aan wat je erbij wilt. De prijs rekent direct mee.": {
+"en": "Pick a package and tick what you want alongside it. The price updates as you go."
+},
+"Erbij, per maand": {
+"en": "Add-ons, per month"
+},
+"Elke prospect krijgt een openingszin over zijn eigen bedrijf en een eigen pagina op jouw domein.": {
+"en": "Every prospect gets an opening line about their own company and a dedicated page on your domain."
+},
+"Bekijk wat het opleverde": {
+"en": "See what it produced"
+},
+"Met een link naar jouwdomein.nl/martijn-bakker": {
+"en": "With a link to yourdomain.com/martijn-bakker"
+},
+"LinkedIn erbij": {
+"en": "LinkedIn alongside"
+},
+"Dezelfde bedrijven die je mailt, krijgen ook een connectieverzoek en daarna een korte vraag vanuit jouw LinkedIn-profiel. Zo kennen ze je naam al als je mail binnenkomt.": {
+"en": "The same companies you email also get a connection request and then a short question from your LinkedIn profile. That way they already know your name when your email arrives."
+},
+"Connectieverzoek, daarna een korte vraag.": {
+"en": "Connection request, then a short question."
+},
+"Reageert iemand, dan gaat het gesprek verder in jouw eigen inbox": {
+"en": "If someone replies, the conversation continues in your own inbox"
+},
+"Wij beantwoorden de reacties en zetten de afspraak in jouw agenda. Jij voert alleen nog het gesprek.": {
+"en": "We answer the replies and put the meeting in your calendar. All you do is have the conversation."
+},
+"Klinkt interessant, kun je volgende week even bellen?": {
+"en": "Sounds interesting, can you give me a call next week?"
+},
+"wordt: afspraak ingepland, donderdag 11:00": {
+"en": "becomes: meeting booked, Thursday 11:00"
+},
+"Jouw campagne": {
+"en": "Your campaign"
+},
+"per maand, exclusief btw, minimaal drie maanden": {
+"en": "per month, excluding VAT, minimum three months"
+},
+"per maand, excl. btw": {
+"en": "per month, excl. VAT"
+},
+"Altijd inbegrepen": {
+"en": "Always included"
+},
+"Doelgroep en geverifieerde contactlijst": {
+"en": "Target group and verified contact list"
+},
+"Domeinen, mailboxen en warmup": {
+"en": "Domains, mailboxes and warmup"
+},
+"In de fitcheck rekenen we door of dit pakket bij je markt past. Geen setupfee, geen aparte toolingrekening.": {
+"en": "In the fit check we work out whether this package suits your market. No setup fee, no separate tooling bill."
+},
+"Meer volume nodig? Mail": {
+"en": "Need more volume? Email"
+},
+"Replies afhandelen en afspraken plannen, tenzij je Full Service erbij neemt (Scale en Pro)": {
+"en": "Handling replies and booking meetings, unless you add Full Service (Scale and Pro)"
+},
+"Geen setupfee en geen aparte toolingrekening. Hyperpersonalisatie, LinkedIn en Full Service kies je erbij in": {
+"en": "No setup fee and no separate tooling bill. You add Hyperpersonalisation, LinkedIn and Full Service in"
+},
+"stel je campagne samen": {
+"en": "build your campaign"
+},
+"Liever alleen": {
+"en": "Rather just"
+},
+"de leadlijst": {
+"en": "the lead list"
+},
+"Nog geen campagne nodig, alleen de bedrijven om te mailen.": {
+"en": "No campaign needed yet, just the companies to email."
+},
+"Dan verkopen we je die los. Hetzelfde bestand waar onze eigen campagnes op draaien, met een geverifieerd zakelijk e-mailadres en de bron per record. Mailen doe je zelf.": {
+"en": "Then we sell you those separately. The same file our own campaigns run on, with a verified business email address and the source per record. You do the emailing."
+},
+"Bekijk leads kopen": {
+"en": "See buying leads"
+},
+"per lead, vanaf 10.000": {
+"en": "per lead, from 10,000"
+},
+"Vanaf 500 leads, geen abonnement": {
+"en": "From 500 leads, no subscription"
+},
+"Binnen een werkdag geleverd": {
+"en": "Delivered within one working day"
+},
+"Meer dan 3 procent bounce, dan vullen we aan": {
+"en": "More than 3 percent bounce and we top it up"
+},
+"Wat gebeurt er in de eerste weken?": {
+"en": "What happens in the first weeks?"
+},
+"Twee weken bouwen, in week 3 gaat de eerste mail eruit. Week 1 is de intake: aanbod, beslissers en de lijst. Daarnaast zetten we de verzendomgeving op met aparte domeinen en mailboxen. Week 2 draaien die warm om reputatie op te bouwen, schrijven we de eerste mail en twee opvolgmails, en keur jij de lijst en de teksten goed. In week 3 gaat de campagne live op een derde van je volume en groeit die naar honderd procent. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen.": {
+"en": "Two weeks of building, and in week 3 the first email goes out. Week 1 is the intake: offer, decision makers and the list. Alongside that we set up the sending environment with separate domains and mailboxes. In week 2 those warm up to build reputation, we write the first email and two follow-ups, and you sign off on the list and the copy. In week 3 the campaign goes live at a third of your volume and grows to a hundred percent. The first replies usually come in three to ten days after going live."
+},
+"Kan ik ook alleen de leads afnemen?": {
+"en": "Can I buy just the leads?"
+},
+"Ja. Wil je zelf mailen en zoek je alleen een lijst, dan verkopen we die los vanaf 500 leads, met een geverifieerd zakelijk e-mailadres en de bron per record. Je regelt dan zelf de mailboxen, de teksten en het opvolgen van reacties, en dat is in de praktijk het meeste werk. Kijk op": {
+"en": "Yes. If you want to do the emailing yourself and only need a list, we sell those separately from 500 leads, with a verified business email address and the source per record. You then arrange the mailboxes, the copy and the follow-up on replies yourself, and in practice that is most of the work. Have a look at"
+},
+"leads kopen": {
+"en": "buying leads"
+},
+"wat het kost.": {
+"en": "to see what it costs."
+},
+"Case 1 van 3": {
+"en": "Case 1 of 3"
+},
+"Case 2 van 3": {
+"en": "Case 2 of 3"
+},
+"Case 3 van 3": {
+"en": "Case 3 of 3"
+},
+"Vorige case": {
+"en": "Previous case"
+},
+"Volgende case": {
+"en": "Next case"
+},
+"Bijvoorbeeld: installatiebedrijven in Nederland met 10 tot 50 medewerkers": {
+"en": "For example: installation companies in the Netherlands with 10 to 50 employees"
+},
+"Bijvoorbeeld: wij verkopen aan installatiebedrijven in Nederland, ongeveer 2.000 stuks. Is dat groot genoeg?": {
+"en": "For example: we sell to installation companies in the Netherlands, roughly 2,000 of them. Is that big enough?"
+},
+"E-mail, LinkedIn erbij als add-on": {
+"en": "Email, LinkedIn available as an add-on"
+},
+"De pakketten zijn all-in: setup, warmup, domeinen en mailboxen zitten erbij, je krijgt geen aparte toolingrekening. Daarbovenop zijn er drie modules die je los bijkiest. Met Hyperpersonalisatie krijgt elke prospect een openingszin over zijn eigen bedrijf en een eigen landingspagina op jouw domein. Met LinkedIn erbij krijgen dezelfde bedrijven ook een connectieverzoek en een eerste bericht vanuit jouw profiel, zodat je naam al bekend is als de mail binnenkomt. Met Full Service handelen wij de reacties af en zetten we de afspraak in je agenda.": {
+"en": "The packages are all in: setup, warmup, domains and mailboxes are part of it, and you get no separate tooling bill. On top of that there are three modules you add separately. With Hyperpersonalisation every prospect gets an opening line about their own company and a dedicated landing page on your domain. With LinkedIn alongside, the same companies also get a connection request and a first message from your profile, so your name is already familiar when the email arrives. With Full Service we handle the replies and put the meeting in your calendar."
+},
+"Wat er in het basispakket dus niet in zit: het volledig afhandelen van reacties en het inplannen van afspraken, en het LinkedIn-kanaal. Dat zijn losse modules, en dat zeggen we liever vooraf dan in maand twee.": {
+"en": "So what the base package does not include: fully handling replies and booking meetings, and the LinkedIn channel. Those are separate modules, and we would rather say that up front than in month two."
+},
+"Starter € 995 p/m (100 mails per dag), Growth € 1.295 (250), Scale € 1.695 (500), Pro € 1.995 (1.000). Daarbovenop zijn drie add-ons: Hyperpersonalisatie op elk pakket (€ 300 tot € 550 p/m), LinkedIn erbij op elk pakket (€ 350 p/m) en Full Service op Scale en Pro (€ 600 en € 800 p/m). Eerste termijn drie maanden, vooruit gefactureerd. Op Scale en Pro geldt een resultaatgarantie op het aantal positieve reacties.": {
+"en": "Starter EUR 995 p/m (100 emails per day), Growth EUR 1,295 (250), Scale EUR 1,695 (500), Pro EUR 1,995 (1,000). On top of that there are three add-ons: Hyperpersonalisation on every package (EUR 300 to EUR 550 p/m), LinkedIn alongside on every package (EUR 350 p/m) and Full Service on Scale and Pro (EUR 600 and EUR 800 p/m). First term three months, invoiced in advance. On Scale and Pro there is a performance guarantee on the number of positive replies."
+},
+"Geen telefonische acquisitie en geen SDR op je eigen vloer. E-mail is het hoofdkanaal en LinkedIn kies je erbij; wie vooral gebeld wil hebben, zit hier verkeerd. Ook niet geschikt bij een doelgroep kleiner dan ongeveer 1.000 bedrijven, dan is de lijst binnen een paar weken op en betaal je voor volume dat er niet is.": {
+"en": "No cold calling and no SDR on your own floor. Email is the main channel and LinkedIn is something you add; anyone who mainly wants calls made is in the wrong place. Also unsuitable for a target group smaller than roughly 1,000 companies, because the list runs out within a few weeks and you pay for volume that is not there."
+},
+"Abalott zit qua model dicht bij FlintLead: cold e-mail als hoofdkanaal, betalen naar resultaat, tooling doorbelast zonder opslag. Het bureau presenteert zich als volledig performance-based en voegt daar een garantie van 30 dagen aan toe, niet tevreden binnen die termijn, dan is de dienst kosteloos. Maandelijks opzegbaar. Zij combineren e-mail met LinkedIn en telefoon; Link2Leads doet e-mail en LinkedIn, FlintLead alleen e-mail.": {
+"en": "In terms of model, Abalott sits close to FlintLead: cold email as the main channel, payment by results, tooling passed on without a mark-up. The agency presents itself as fully performance-based and adds a 30-day guarantee to that: not satisfied within that period and the service is free of charge. Cancellable monthly. They combine email with LinkedIn and phone; Link2Leads does email and LinkedIn, FlintLead email only."
+},
+"Niet gepubliceerd. Het bedrag volgt uit een kennismakingsgesprek. Dat is het belangrijkste verschil met de nummers 1 en 2: je moet eerst bellen om te weten wat het kost.": {
+"en": "Not published. The amount follows from an introductory call. That is the main difference with numbers 1 and 2: you have to get on a call first to know what it costs."
+},
+"Zijn je kopers goed per e-mail te bereiken en heb je een aanbod dat in vier zinnen uit te leggen is, begin dan bij e-mail:": {
+"en": "If your buyers are easy to reach by email and you have an offer you can explain in four sentences, start with email:"
+},
+"hebben e-mail als hoofdkanaal, waarbij nummer 1 LinkedIn als add-on erbij levert. Moet je iets uitleggen waarvoor een gesprek nodig is, of zit je doelgroep in een sector die nauwelijks mail leest, dan zijn": {
+"en": "have email as their main channel, with number 1 offering LinkedIn as an add-on. If you have to explain something that needs a conversation, or your target group sits in a sector that barely reads email, then"
+},
+"realistischer. Wil je meerdere kanalen in een hand, kijk dan naar": {
+"en": "are more realistic. If you want several channels in one place, look at"
+},
+"Een campagne is geen mens.": {
+"en": "A campaign is not a person."
+},
+"Een SDR kan bellen en een lauwe reactie warm praten. Een e-mailcampagne kan dat niet, ook niet als je LinkedIn erbij zet.": {
+"en": "An SDR can call and talk a lukewarm reply warm. An email campaign cannot, not even with LinkedIn alongside."
+},
+"Bron en datum. Dat betekent dat je de herkomst per record vastlegt bij het opbouwen van je lijst, niet achteraf reconstrueert. Dit is de reden dat een bestand kopen een groter risico is dan het lijkt: daarbij kun je die vraag vaak niet beantwoorden. Daarom leveren wij bij": {
+"en": "Source and date. That means you record the origin per record while you build your list, rather than reconstructing it afterwards. This is why buying a file is a bigger risk than it looks: with those you often cannot answer that question. That is why, with"
+},
+"de leadbestanden die we los verkopen": {
+"en": "the lead files we sell separately"
+},
+"per record mee waar het adres vandaan komt en wanneer het is gecontroleerd.": {
+"en": "we include per record where the address came from and when it was checked."
+},
+"Zelf doen is de goedkoopste optie als je het tweede jaar ook nog doet. Wil je het zelf doen maar niet zelf de lijst opbouwen, dan kun je": {
+"en": "Doing it yourself is the cheapest option if you are still doing it in year two. If you want to do it yourself but not build the list yourself, you can"
+},
+"alleen de leads bij ons afnemen": {
+"en": "buy just the leads from us"
+},
+"vanaf 0,10 euro per stuk.": {
+"en": "from 0.10 euro each."
+},
+"link2leads.nl": {
+"en": "link2leads.nl"
+},
+"info@link2leads.nl · +31 85 080 5381": {
+"en": "info@link2leads.nl · +31 85 080 5381"
+},
+"Bijv. Te afhankelijk van 1 grote klant, onvoorspelbare salesinkomsten, geen structurele nieuwe business…": {
+"en": "E.g. too dependent on 1 large client, unpredictable sales revenue, no structural new business…"
+},
+"Leads kopen waar je": {
+"en": "Buy leads you can"
+},
+"meteen mee kunt mailen": {
+"en": "start emailing right away"
+},
+"Jij vertelt ons wie je zoekt, wij tellen eerst hoeveel geschikte bedrijven er zijn. Daarna bouwen we de lijst: bedrijf, beslisser en een geverifieerd zakelijk e-mailadres, met de bron per record. Binnen een werkdag in je mailbox als Excel of CSV.": {
+"en": "You tell us who you are looking for and we first count how many suitable companies there are. Then we build the list: company, decision maker and a verified business email address, with the source per record. In your inbox within one working day as Excel or CSV."
+},
+"Vertel ons wie je zoekt": {
+"en": "Tell us who you are looking for"
+},
+"Je hoort binnen een werkdag hoeveel bedrijven er in die selectie passen en wat het kost. Je zit nergens aan vast.": {
+"en": "Within one working day you hear how many companies fit that selection and what it costs. You are not committed to anything."
+},
+"vanaf €0,10": {
+"en": "from EUR 0.10"
+},
+"per lead, vanaf 10.000 stuks": {
+"en": "per lead, from 10,000 units"
+},
+"1 werkdag": {
+"en": "1 working day"
+},
+"van bestelling tot bestand": {
+"en": "from order to file"
+},
+"max 3% bounce": {
+"en": "max 3% bounce"
+},
+"daarboven vullen we kosteloos aan": {
+"en": "above that we top up free of charge"
+},
+"je weet waar elk adres vandaan komt": {
+"en": "you know where every address came from"
+},
+"10 leads gratis": {
+"en": "10 leads free"
+},
+"Zeg welke bedrijven je wil bereiken en je krijgt tien geschikte bedrijven uit die doelgroep, met beslisser en geverifieerd zakelijk e-mailadres. Zo zie je zelf wat je van ons krijgt voordat je een grotere lijst bestelt. Eenmalig per bedrijf.": {
+"en": "Tell us which companies you want to reach and you get ten suitable companies from that target group, with decision maker and verified business email address. That way you see for yourself what you get from us before you order a bigger list. One per company."
+},
+"Stuur mij 10 gratis leads": {
+"en": "Send me 10 free leads"
+},
+"Je krijgt ze binnen een werkdag. Geen abonnement, geen telefoontje achteraf.": {
+"en": "You get them within one working day. No subscription, no follow-up call."
+},
+"Stel je bestelling": {
+"en": "Build your order"
+},
+"Schuif naar het aantal dat je nodig hebt en vink aan wat er per lead bij moet. De prijs rekent direct mee.": {
+"en": "Slide to the number you need and tick what should come with each lead. The price updates as you go."
+},
+"Aantal leads": {
+"en": "Number of leads"
+},
+"500 leads": {
+"en": "500 leads"
+},
+"2.000 leads": {
+"en": "2,000 leads"
+},
+"5.000 leads": {
+"en": "5,000 leads"
+},
+"10.000 leads": {
+"en": "10,000 leads"
+},
+"Hoe meer leads, hoe lager de prijs per stuk: van €0,20 naar €0,10. Verrijking komt hier per lead bovenop. Minimaal 500 leads, meer dan 50.000 op offerte.": {
+"en": "The more leads, the lower the price each: from EUR 0.20 down to EUR 0.10. Enrichment comes on top of that per lead. Minimum 500 leads, above 50,000 on request."
+},
+"Wat er standaard in zit": {
+"en": "What is included as standard"
+},
+"Bedrijfsnaam, website, plaats, branche en aantal medewerkers": {
+"en": "Company name, website, town, industry and number of employees"
+},
+"Naam en functie van de beslisser": {
+"en": "Name and role of the decision maker"
+},
+"Geverifieerd zakelijk e-mailadres, kort voor levering gecontroleerd": {
+"en": "Verified business email address, checked shortly before delivery"
+},
+"Bron en controledatum per record": {
+"en": "Source and check date per record"
+},
+"Verrijking, per lead": {
+"en": "Enrichment, per lead"
+},
+"LinkedIn-profiel van de beslisser": {
+"en": "LinkedIn profile of the decision maker"
+},
+"Telefoonnummer van het bedrijf": {
+"en": "Phone number of the company"
+},
+"Niet elk bedrijf publiceert een nummer. Wat we niet vinden, brengen we niet in rekening.": {
+"en": "Not every company publishes a number. What we do not find, we do not charge for."
+},
+"Persoonlijke openingszin": {
+"en": "Personal opening line"
+},
+"Een zin die klopt met wat dit bedrijf doet, geschreven op basis van hun eigen site. Zet hem als variabele in je eerste mail.": {
+"en": "A line that matches what this company does, written from their own site. Drop it into your first email as a variable."
+},
+"€0,15 per lead, exclusief btw": {
+"en": "EUR 0.15 per lead, excluding VAT"
+},
+"Blijkt je doelgroep kleiner dan het aantal dat je koopt, dan leveren we wat er is en storten we het verschil binnen vijf werkdagen terug. Bouncet er meer dan 3 procent, dan vullen we kosteloos aan.": {
+"en": "If your target group turns out smaller than the number you buy, we deliver what there is and refund the difference within five working days. If more than 3 percent bounces, we top it up free of charge."
+},
+"je bestand": {
+"en": "your file"
+},
+"Veeg opzij om alle kolommen te zien": {
+"en": "Swipe sideways to see all columns"
+},
+"Waar de data": {
+"en": "Where the data"
+},
+"vandaan komt": {
+"en": "comes from"
+},
+"Vraagt iemand waar je zijn gegevens vandaan hebt, dan moet je dat kunnen zeggen.": {
+"en": "If someone asks where you got their details, you have to be able to say."
+},
+"Bij elke lead staat waar het adres vandaan komt en wanneer we het controleerden. Alleen zakelijke gegevens die bedrijven zelf publiceren. Geen priveadressen, geen Handelsregisterdata.": {
+"en": "Every lead states where the address came from and when we checked it. Only business details that companies publish themselves. No private addresses, no Chamber of Commerce data."
+},
+"Bezwaren zijn er al uit": {
+"en": "Objections are already filtered out"
+},
+"Wie ooit bij ons bezwaar maakte, komt niet in jouw bestand. Wat wel en niet mag, staat in": {
+"en": "Anyone who ever objected to us does not end up in your file. What is and is not allowed is covered in"
+},
+"Anne-Roos en Demi. Wij bouwen je lijst zelf, dus je krijgt antwoord van de mensen die hem hebben gemaakt.": {
+"en": "Anne-Roos and Demi. We build your list ourselves, so you get answers from the people who made it."
+},
+"Je krijgt eerst een telling en een prijs. Pas als je daarmee akkoord gaat, bouwen we de lijst.": {
+"en": "You get a count and a price first. Only once you agree to that do we build the list."
+},
+"Sluit mijn bestaande contacten uit": {
+"en": "Exclude my existing contacts"
+},
+"Heb je al een klanten- of contactenlijst? Stuur die mee, dan staat er niets in je bestand wat je al hebt. We gebruiken die lijst alleen om te ontdubbelen en verwijderen hem daarna.": {
+"en": "Already have a client or contact list? Send it along and nothing you already have will be in your file. We only use that list to de-duplicate and delete it afterwards."
+},
+"Reken direct af": {
+"en": "Pay now"
+},
+"Of vraag eerst een telling aan": {
+"en": "Or request a count first"
+},
+"Antwoord binnen een werkdag. Liever meteen bellen? 085 080 5381.": {
+"en": "An answer within one working day. Rather call straight away? 085 080 5381."
+},
+"Of laat": {
+"en": "Or leave"
+},
+"de hele campagne": {
+"en": "the whole campaign"
+},
+"bij ons": {
+"en": "to us"
+},
+"Zelf je leads verzamelen kost tijd, en zelf mailen kost meer tijd. Wij leveren een startklare lijst, of we nemen het hele kanaal over.": {
+"en": "Collecting your leads yourself takes time, and emailing them yourself takes more time. We deliver a ready-to-use list, or we take over the whole channel."
+},
+"vanaf €50": {
+"en": "from EUR 50"
+},
+"eenmalig": {
+"en": "one-off"
+},
+"Je krijgt een startklare prospectlijst": {
+"en": "You get a ready-to-use prospect list"
+},
+"Jij mailt en volgt zelf op": {
+"en": "You email and follow up yourself"
+},
+"Campagne uitbesteden": {
+"en": "Outsource the campaign"
+},
+"Je krijgt nieuwe gesprekken in je agenda": {
+"en": "You get new conversations in your calendar"
+},
+"Wij mailen en volgen op, jij voert het gesprek": {
+"en": "We email and follow up, you have the conversation"
+},
+"Bekijk de pakketten": {
+"en": "See the packages"
+},
+"Of bekijk eerst onze resultaten": {
+"en": "Or look at our results first"
+},
+"Mag ik deze leads zomaar mailen?": {
+"en": "Am I allowed to just email these leads?"
+},
+"Naar zakelijke ontvangers mag koude e-mail zonder voorafgaande toestemming, mits je adressen gebruikt die het bedrijf zelf heeft bestemd om zakelijk benaderd te worden, je duidelijk maakt wie je bent en je een werkend kanaal biedt om bezwaar te maken. Daarnaast geldt de AVG voor de gegevens zelf. Wij leveren de herkomst per record mee zodat je kunt aantonen waar een adres vandaan komt. De volledige uitleg staat in": {
+"en": "Cold email to business recipients is allowed without prior consent, provided you use addresses the company itself has designated for business contact, you make clear who you are, and you offer a working channel to object. On top of that the GDPR applies to the data itself. We include the origin per record so you can demonstrate where an address came from. The full explanation is in"
+},
+"Dit is geen juridisch advies.": {
+"en": "This is not legal advice."
+},
+"Hoe weet ik dat de adressen kloppen?": {
+"en": "How do I know the addresses are correct?"
+},
+"Voor levering controleren we per adres of het domein bestaat en of de mailbox erachter bestaat. Adressen die we niet kunnen verifieren, leveren we niet. Kom je toch boven de 3 procent bounce uit, dan vullen we kosteloos aan.": {
+"en": "Before delivery we check per address whether the domain exists and whether the mailbox behind it exists. Addresses we cannot verify, we do not deliver. If you still end up above 3 percent bounce, we top it up free of charge."
+},
+"Wat als ik niet precies weet wie mijn doelgroep is?": {
+"en": "What if I do not know exactly who my target group is?"
+},
+"Beschrijf wie je beste klanten nu zijn. Wij maken daar een selectie van en sturen eerst een telling. Blijkt de markt te klein voor koude e-mail, dan zeggen we dat ook.": {
+"en": "Describe who your best clients are right now. We turn that into a selection and send a count first. If the market turns out too small for cold email, we say so."
+},
+"Krijg ik dezelfde leads als een ander?": {
+"en": "Will I get the same leads as somebody else?"
+},
+"Niet standaard. We houden per klant bij welke bedrijven we al hebben geleverd, dus binnen jouw bestand zitten geen dubbelingen en je krijgt nooit records die je eerder van ons hebt gehad. Wil je exclusiviteit op een specifieke doelgroep of regio, dan spreken we dat vooraf af en leggen we het vast.": {
+"en": "Not by default. We track per client which companies we have already delivered, so there are no duplicates inside your file and you never get records you have had from us before. If you want exclusivity on a specific target group or region, we agree that up front and put it in writing."
+},
+"Kan ik het bestand in mijn eigen tool gebruiken?": {
+"en": "Can I use the file in my own tool?"
+},
+"Ja. Excel of CSV met vaste kolomnamen, klaar voor Smartlead, Instantly, Apollo, Lemlist, HubSpot of Pipedrive. Wil je een andere kolomindeling, geef het door bij je bestelling.": {
+"en": "Yes. Excel or CSV with fixed column names, ready for Smartlead, Instantly, Apollo, Lemlist, HubSpot or Pipedrive. If you want a different column layout, mention it with your order."
+},
+"Begin bij de vraag": {
+"en": "Start with the question"
+},
+"hoeveel er zijn": {
+"en": "of how many there are"
+},
+"Je krijgt een telling en een prijs, binnen een werkdag, zonder dat je een gesprek hoeft in te plannen.": {
+"en": "You get a count and a price, within one working day, without having to book a call."
+},
+"Bijvoorbeeld: installatiebedrijven in Nederland, 10 tot 50 medewerkers": {
+"en": "For example: installation companies in the Netherlands, 10 to 50 employees"
+},
+"jouwbedrijf.nl": {
+"en": "yourcompany.com"
+},
+"Bijvoorbeeld: schoonmaakbedrijven in Zuid-Holland met 5 tot 50 medewerkers, gericht op de eigenaar.": {
+"en": "For example: cleaning companies in South Holland with 5 to 50 employees, aimed at the owner."
+},
+"Bijvoorbeeld: technische groothandels in Nederland met 10 tot 100 medewerkers, gericht op de eigenaar of commercieel manager.": {
+"en": "For example: technical wholesalers in the Netherlands with 10 to 100 employees, aimed at the owner or commercial manager."
+},
+"Daarnaast leveren wij losse leadbestanden zonder campagne. Daarvoor gelden de aanvullende afspraken in artikel 07.": {
+"en": "We also deliver standalone lead files without a campaign. The additional terms in article 07 apply to those."
+},
+"Losse leadbestanden": {
+"en": "Standalone lead files"
+},
+"Neemt de opdrachtgever een leadbestand af zonder campagne, dan gelden hiervoor de volgende afspraken.": {
+"en": "If the client purchases a lead file without a campaign, the following terms apply."
+},
+"Levering en prijs": {
+"en": "Delivery and price"
+},
+"Wij tellen eerst hoeveel bedrijven in de opgegeven selectie passen en bevestigen het aantal en de prijs. Pas na akkoord bouwen wij het bestand.": {
+"en": "We first count how many companies fit the stated selection and confirm the number and the price. Only after approval do we build the file."
+},
+"Levering gebeurt als Excel- of CSV-bestand. Bestellingen tot 5.000 leads leveren wij binnen een werkdag na akkoord, grotere bestellingen binnen drie werkdagen.": {
+"en": "Delivery is as an Excel or CSV file. Orders up to 5,000 leads are delivered within one working day of approval, larger orders within three working days."
+},
+"Prijzen gelden per lead volgens de staffel op onze website en zijn exclusief btw. Verrijking wordt per lead in rekening gebracht.": {
+"en": "Prices apply per lead according to the volume tiers on our website and exclude VAT. Enrichment is charged per lead."
+},
+"Een afgenomen tegoed blijft twaalf maanden geldig vanaf de factuurdatum.": {
+"en": "A purchased credit remains valid for twelve months from the invoice date."
+},
+"Wat wij garanderen": {
+"en": "What we guarantee"
+},
+"Elk e-mailadres is voor levering geverifieerd. Komt het aantoonbare bouncepercentage van een levering boven 3 procent uit, dan vullen wij het verschil kosteloos aan.": {
+"en": "Every email address is verified before delivery. If the demonstrable bounce rate of a delivery exceeds 3 percent, we top up the difference free of charge."
+},
+"Bij elk record leveren wij de bron en de datum van controle mee.": {
+"en": "With every record we include the source and the date it was checked."
+},
+"Records van personen die bij ons bezwaar hebben gemaakt, filteren wij vooraf uit het bestand.": {
+"en": "Records of people who have objected to us are filtered out of the file in advance."
+},
+"Wij garanderen geen reacties, afspraken of omzet uit een geleverd bestand.": {
+"en": "We do not guarantee replies, meetings or revenue from a delivered file."
+},
+"Wat de opdrachtgever afspreekt": {
+"en": "What the client agrees to"
+},
+"De opdrachtgever wordt vanaf levering zelfstandig verwerkingsverantwoordelijke voor de gegevens in het bestand.": {
+"en": "From delivery onwards the client becomes an independent data controller for the data in the file."
+},
+"De gegevens worden uitsluitend gebruikt voor zakelijke benadering van de betreffende bedrijven, binnen de AVG en de Telecommunicatiewet.": {
+"en": "The data is used solely to approach the companies concerned in a business capacity, within the GDPR and the Dutch Telecommunications Act."
+},
+"De opdrachtgever handelt bezwaren en verzoeken van betrokkenen zelf en tijdig af, en informeert ons als een verzoek betrekking heeft op de herkomst van een gegeven.": {
+"en": "The client handles objections and requests from data subjects themselves and in good time, and informs us if a request concerns the origin of a data point."
+},
+"Het bestand wordt niet doorverkocht, doorgeleverd of openbaar gemaakt, en niet gebruikt voor benadering van consumenten.": {
+"en": "The file is not resold, passed on or made public, and is not used to approach consumers."
+},
+"De opdrachtgever vrijwaart": {
+"en": "The client indemnifies"
+},
+"voor aanspraken die voortvloeien uit zijn eigen gebruik van het bestand.": {
+"en": "against claims arising from their own use of the file."
+},
+"Omdat een bestand na levering niet meer kan worden teruggenomen, is een geleverd bestand uitgesloten van herroeping. Klopt een record aantoonbaar niet, dan vervangen wij het.": {
+"en": "Because a file cannot be taken back once delivered, a delivered file is excluded from the right of withdrawal. If a record is demonstrably incorrect, we replace it."
+},
+"Wij gaan zorgvuldig om met gegevens van opdrachtgevers, van prospects die wij namens een opdrachtgever benaderen en van personen die in een leadbestand staan dat wij leveren.": {
+"en": "We handle with care the data of clients, of prospects we approach on behalf of a client, and of people listed in a lead file we deliver."
+},
+"Van personen in een leadbestand dat wij leveren": {
+"en": "Of people in a lead file we deliver"
+},
+"Zakelijke contactgegevens zoals naam, functie, zakelijk e-mailadres en bedrijf": {
+"en": "Business contact details such as name, role, business email address and company"
+},
+"Openbare bedrijfsgegevens zoals website, vestigingsplaats, branche en grootte": {
+"en": "Public company details such as website, location, industry and size"
+},
+"Optioneel een openbaar zakelijk telefoonnummer of een link naar een openbaar zakelijk profiel": {
+"en": "Optionally a public business phone number or a link to a public business profile"
+},
+"De bron waar wij het gegeven hebben gevonden en de datum waarop wij het hebben gecontroleerd": {
+"en": "The source where we found the data point and the date on which we checked it"
+},
+"Waar de gegevens vandaan komen": {
+"en": "Where the data comes from"
+},
+"Wij verzamelen de gegevens van prospects en leads niet bij de betrokkene zelf. Daarom leggen wij per record vast waar een gegeven vandaan komt en wanneer het is gecontroleerd, zodat wij die vraag kunnen beantwoorden als iemand hem stelt.": {
+"en": "We do not collect the data of prospects and leads from the data subject themselves. That is why we record per record where a data point came from and when it was checked, so that we can answer that question if somebody asks it."
+},
+"Bronnen die wij gebruiken": {
+"en": "Sources we use"
+},
+"Openbare bedrijfswebsites, waaronder contact-, team- en over-onspagina's": {
+"en": "Public company websites, including contact, team and about pages"
+},
+"Openbare zakelijke profielen en bedrijvengidsen": {
+"en": "Public business profiles and company directories"
+},
+"Gegevens die een opdrachtgever zelf aanlevert": {
+"en": "Data supplied by a client themselves"
+},
+"Eigen afleiding en verificatie, bijvoorbeeld het controleren of een zakelijk e-mailadres bestaat": {
+"en": "Our own derivation and verification, for example checking whether a business email address exists"
+},
+"Wat wij niet doen": {
+"en": "What we do not do"
+},
+"Wij verzamelen geen priveadressen, privetelefoonnummers of persoonlijke e-mailadressen": {
+"en": "We do not collect private addresses, private phone numbers or personal email addresses"
+},
+"Wij verkopen geen gegevens uit het Handelsregister door en gebruiken het Handelsregister niet als bron voor de leadbestanden die wij leveren": {
+"en": "We do not resell data from the Dutch Chamber of Commerce register and do not use that register as a source for the lead files we deliver"
+},
+"Wij verwerken geen bijzondere categorieen van persoonsgegevens": {
+"en": "We do not process special categories of personal data"
+},
+"Wij verzamelen geen gegevens die alleen achter een inlog of betaalmuur beschikbaar zijn": {
+"en": "We do not collect data that is only available behind a login or a paywall"
+},
+"Leadbestanden samen te stellen, te verifieren en te leveren aan opdrachtgevers": {
+"en": "Compiling, verifying and delivering lead files to clients"
+},
+"Uitvoering van een overeenkomst, voor de gegevens van onze opdrachtgevers": {
+"en": "Performance of a contract, for the data of our clients"
+},
+"Gerechtvaardigd belang, artikel 6 lid 1 sub f AVG, voor het benaderen van zakelijke contactpersonen en voor het samenstellen en leveren van zakelijke leadbestanden. Wij hebben die afweging gemaakt en kunnen hem op verzoek toelichten": {
+"en": "Legitimate interest, article 6(1)(f) GDPR, for approaching business contacts and for compiling and delivering business lead files. We have made that assessment and can explain it on request"
+},
+"Toestemming, waar dit wettelijk vereist is": {
+"en": "Consent, where this is legally required"
+},
+"Een wettelijke verplichting, bijvoorbeeld voor onze administratie": {
+"en": "A legal obligation, for example for our bookkeeping"
+},
+"Omdat wij de gegevens niet bij de betrokkene zelf verzamelen, geldt de informatieplicht uit artikel 14 AVG. Deze verklaring is de manier waarop wij daaraan voldoen: hij beschrijft wie wij zijn, wat wij verwerken, waar de gegevens vandaan komen, met wie wij ze delen en welke rechten je hebt.": {
+"en": "Because we do not collect the data from the data subject themselves, the duty to inform under article 14 GDPR applies. This statement is how we meet that duty: it describes who we are, what we process, where the data comes from, who we share it with and what rights you have."
+},
+"Leaddata: maximaal 24 maanden na verzameling, daarna verwijderen wij het record of controleren wij het opnieuw": {
+"en": "Lead data: a maximum of 24 months after collection, after which we delete the record or check it again"
+},
+"Blokkeerlijst: onbeperkt, omdat wij alleen zo kunnen garanderen dat een bezwaar blijft werken. Op die lijst staat niet meer dan nodig is om een adres te herkennen": {
+"en": "Block list: indefinitely, because that is the only way we can guarantee an objection keeps working. That list holds no more than is needed to recognise an address"
+},
+"Leadbestanden die wij leveren": {
+"en": "Lead files we deliver"
+},
+"Naast het uitvoeren van campagnes leveren wij losse leadbestanden aan opdrachtgevers. Dat is een verstrekking van zakelijke contactgegevens aan een ontvanger die daarna zelf bepaalt wat hij ermee doet.": {
+"en": "Besides running campaigns we deliver standalone lead files to clients. That is a disclosure of business contact details to a recipient who then decides themselves what to do with it."
+},
+"Wat dat betekent": {
+"en": "What that means"
+},
+"De ontvangende opdrachtgever wordt vanaf het moment van levering zelfstandig verwerkingsverantwoordelijke voor de gegevens in dat bestand. Wij zijn geen verwerker van hem en hij niet van ons.": {
+"en": "From the moment of delivery the receiving client becomes an independent data controller for the data in that file. We are not their processor and they are not ours."
+},
+"Wij leveren bij elk record de bron en de controledatum mee, zodat de opdrachtgever kan aantonen waar een gegeven vandaan komt.": {
+"en": "With every record we include the source and the check date, so the client can demonstrate where a data point came from."
+},
+"Wij leggen in onze algemene voorwaarden vast dat de opdrachtgever de gegevens uitsluitend gebruikt voor zakelijke benadering van het betreffende bedrijf, binnen de AVG en de Telecommunicatiewet, en dat hij bezwaren zelf afhandelt en de gegevens niet doorverkoopt.": {
+"en": "Our terms and conditions state that the client uses the data solely to approach the company concerned in a business capacity, within the GDPR and the Dutch Telecommunications Act, and that they handle objections themselves and do not resell the data."
+},
+"De categorieen ontvangers zijn Nederlandse en Europese zakelijke opdrachtgevers die zelf zakelijke contacten benaderen. Vraag je ons aan wie een gegeven over jou is verstrekt, dan vertellen wij dat.": {
+"en": "The categories of recipients are Dutch and European business clients who approach business contacts themselves. If you ask us to whom a data point about you has been disclosed, we will tell you."
+},
+"Wat wij niet leveren": {
+"en": "What we do not deliver"
+},
+"Adressen van personen die eerder bezwaar bij ons hebben gemaakt. Die staan op een blokkeerlijst die over al onze campagnes en alle leveringen heen werkt en dus ook uit nieuwe bestanden wordt gefilterd.": {
+"en": "Addresses of people who have previously objected to us. Those are on a block list that works across all our campaigns and all deliveries and is therefore also filtered out of new files."
+},
+"Gegevens van consumenten of van personen in hun prive-hoedanigheid.": {
+"en": "Data of consumers or of people in their private capacity."
+},
+"Bij direct marketing is het recht van bezwaar absoluut, artikel 21 lid 2 en 3 AVG. Maak je bezwaar, dan stoppen wij de verwerking voor dat doel direct en zonder afweging, en komt je adres op een blokkeerlijst die over al onze campagnes en leveringen heen werkt. Dat betekent dat je adres ook niet opnieuw in een later bestand terechtkomt.": {
+"en": "For direct marketing the right to object is absolute, article 21(2) and (3) GDPR. If you object, we stop processing for that purpose immediately and without weighing it up, and your address goes on a block list that works across all our campaigns and deliveries. That means your address will not end up in a later file either."
+},
+"Een verzoek kun je sturen naar": {
+"en": "You can send a request to"
+},
+". Wij reageren binnen een werkdag en handelen het uiterlijk binnen een maand volledig af. Je kunt ook altijd een klacht indienen bij de Autoriteit Persoonsgegevens.": {
+"en": ". We respond within one working day and settle it in full within one month at the latest. You can also always file a complaint with the Dutch Data Protection Authority."
+},
+"Tien aanbieders naast elkaar op prijs, kanaal, contractvolume en verifieerbaarheid. Inclusief onze eigen concurrenten, met bron en controledatum bij elke claim.": {
+"en": "Ten providers side by side on price, channel, contract volume and verifiability. Including our own competitors, with a source and check date on every claim."
+},
+"jouwbedrijf": {
+"en": "yourcompany"
+}
 };

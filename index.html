@@ -1121,11 +1121,10 @@ h1 .blue, h2 .blue, h3 .blue {
   border-color:var(--accent);
   background:linear-gradient(160deg,rgba(47,111,237,0.09),var(--card-bg) 60%);
 }
-.p-card.featured::before {
-  content:'MEEST GEKOZEN';
+.p-badge {
   position:absolute; top:-12px; left:50%; transform:translateX(-50%);
   background:var(--accent); color:#fff;
-  font-size:11.5px; font-weight:800; letter-spacing:1px;
+  font-size:11.5px; font-weight:800; letter-spacing:1px; text-transform:uppercase;
   padding:4px 16px; border-radius:100px; white-space:nowrap;
   font-family:var(--font);
 }
@@ -1892,13 +1891,16 @@ footer.l2f{margin-bottom:0 !important;}
         "@type": "BusinessAudience",
         "name": "B2B-dienstverleners die structureel meer gekwalificeerde salesafspraken willen"
       },
-      "description": "Complete koude e-mailcampagnes voor B2B-bedrijven: leadlijsten, copywriting, aparte verzendinfrastructuur, deliverabilitybeheer en gekwalificeerde positieve reacties in je mailbox. Setup klaar binnen twee weken na akkoord.",
+      "description": "Complete koude e-mailcampagnes voor B2B-bedrijven: leadlijsten, copywriting, aparte verzendinfrastructuur, deliverabilitybeheer en gekwalificeerde positieve reacties in je mailbox. Optioneel uit te breiden met personalisatie per prospect (eigen openingszin en eigen landingspagina), LinkedIn-outreach naar dezelfde bedrijven, en het afhandelen van reacties en inplannen van afspraken op de pakketten Scale en Pro. Setup klaar binnen twee weken na akkoord.",
       "knowsAbout": [
         "cold email",
         "deliverability",
         "lead lists",
         "copywriting",
-        "appointment setting"
+        "email personalization",
+        "linkedin outreach",
+        "appointment setting",
+        "reply handling"
       ],
       "offers": {
         "@type": "AggregateOffer",
@@ -2031,6 +2033,25 @@ footer.l2f{margin-bottom:0 !important;}
           },
           {
             "@type": "Offer",
+            "name": "LinkedIn erbij (add-on)",
+            "description": "Dezelfde bedrijven die gemaild worden, krijgen ook een connectieverzoek en daarna een eerste bericht vanuit het LinkedIn-profiel van de klant. Beschikbaar op elk pakket voor 350 per maand, minimaal drie maanden.",
+            "priceCurrency": "EUR",
+            "price": "350",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": "350",
+              "priceCurrency": "EUR",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": "1",
+                "unitCode": "MON"
+              },
+              "valueAddedTaxIncluded": false
+            },
+            "url": "https://www.link2leads.nl/#pakketten"
+          },
+          {
+            "@type": "Offer",
             "name": "Full Service (add-on)",
             "description": "Wij handelen elke reply af, voeren de follow-up uit en plannen gekwalificeerde afspraken direct in de agenda. Beschikbaar op Scale (+600) en Pro (+800), minimaal drie maanden.",
             "priceCurrency": "EUR",
@@ -2124,7 +2145,7 @@ footer.l2f{margin-bottom:0 !important;}
           "name": "Wat kost cold email uitbesteden bij Link2Leads?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "De pakketten lopen van 995 tot 1.995 euro per maand, all-in. Setup, warmup, domeinen, mailboxen en verzendsoftware zitten in de prijs, dus er is geen aparte toolingrekening en geen setupfee. Daarbovenop zijn er twee add-ons: Hyperpersonalisatie, een persoonlijke openingszin en een eigen pagina per prospect, op elk pakket voor 300 tot 550 euro per maand, en Full Service, waarbij wij ook de replies afhandelen en de afspraken inplannen, voor 600 euro op Scale en 800 op Pro. Minimale looptijd drie maanden."
+            "text": "De pakketten lopen van 995 tot 1.995 euro per maand, all-in. Setup, warmup, domeinen, mailboxen en verzendsoftware zitten in de prijs, dus er is geen aparte toolingrekening en geen setupfee. Daarbovenop zijn er drie add-ons: Hyperpersonalisatie, een persoonlijke openingszin en een eigen pagina per prospect, op elk pakket voor 300 tot 550 euro per maand; LinkedIn erbij, waarbij dezelfde bedrijven ook een connectieverzoek en een eerste bericht via LinkedIn krijgen, op elk pakket voor 350 euro per maand; en Full Service, waarbij wij ook de replies afhandelen en de afspraken inplannen, voor 600 euro op Scale en 800 op Pro. Minimale looptijd drie maanden."
           }
         },
         {
@@ -3118,6 +3139,7 @@ Bel ons: 085 080 5381
 <a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
 <div class="p-card featured reveal">
+<span class="p-badge">Meest gekozen</span>
 <div class="p-name">Scale</div>
 <div class="p-tagline">Voor bedrijven die snel willen opschalen</div>
 <div class="p-price">€1.695</div>
@@ -3152,8 +3174,9 @@ Bel ons: 085 080 5381
   .cfg-head{font-size:clamp(20px,2.4vw,24px);font-weight:800;letter-spacing:-.5px;color:var(--white);margin:0 0 6px;}
   .cfg-head .blue{color:var(--accent2);}
   .cfg-sub{margin:0 0 22px;font-size:15px;line-height:1.6;color:var(--muted);}
-  .cfg-grid{display:grid;grid-template-columns:1.55fr 1fr;gap:16px;align-items:stretch;}
-  .cfg-grid > aside{display:flex;}
+  .cfg-grid{display:grid;grid-template-columns:1.55fr 1fr;gap:16px;align-items:start;}
+  /* totaalprijs blijft in beeld tijdens het samenstellen */
+  .cfg-grid > aside{display:flex;position:sticky;top:110px;align-self:start;}
   .cfg-left{display:grid;gap:18px;}
   .cfg-lab{display:block;font-size:12.5px;font-weight:700;letter-spacing:.2px;color:var(--muted);margin-bottom:10px;}
   .cfg-pk{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;}
@@ -3191,6 +3214,7 @@ Bel ons: 085 080 5381
   .cfg-sum-lab{display:block;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.2px;}
   .cfg-sum-tot{display:block;margin-top:6px;font-size:40px;font-weight:900;letter-spacing:-2px;line-height:1;color:var(--white);}
   .cfg-sum-per{display:block;margin-top:6px;font-size:13.5px;color:var(--muted);}
+  .cfg-sum-per-m{display:none;}
   .cfg-rows{list-style:none;margin:18px 0 0;padding:16px 0 0;border-top:1px solid var(--border);display:grid;gap:9px;}
   .cfg-rows li{display:flex;justify-content:space-between;gap:14px;font-size:14.5px;color:rgba(255,255,255,.72);}
   .cfg-rows li b{color:var(--white);font-weight:700;white-space:nowrap;}
@@ -3200,9 +3224,28 @@ Bel ons: 085 080 5381
   .cfg-btn:hover{opacity:.9;transform:translateY(-2px);}
   .cfg-note{margin:14px 0 0;font-size:13px;line-height:1.55;color:var(--muted);}
   .cfg-foot{margin:18px 0 0;font-size:13.5px;line-height:1.6;color:var(--muted);text-align:center;}
-  @media(max-width:900px){.cfg-grid{grid-template-columns:1fr;}}
+  @media(max-width:900px){
+    .cfg-grid{grid-template-columns:1fr;}
+    /* prijs schuift als compacte balk mee boven het formulier */
+    .cfg-grid > aside{order:-1;position:sticky;top:84px;z-index:20;display:block;}
+    .cfg-sum{display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:12px;
+      padding:12px 14px;border-radius:14px;
+      background:linear-gradient(150deg,rgba(47,111,237,.34),rgba(10,12,18,.97) 72%);
+      backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 8px 24px rgba(0,0,0,.6);}
+    .cfg-sum-top{flex:1;min-width:0;}
+    .cfg-sum-lab{display:none;}
+    .cfg-sum-tot{margin-top:0;font-size:24px;letter-spacing:-.9px;line-height:1.1;}
+    .cfg-sum-per{display:none;}
+    .cfg-sum-per-m{display:block;margin-top:2px;font-size:12px;line-height:1.3;}
+    .cfg-rows{display:none;}
+    .cfg-incl{display:none;}
+    .cfg-note{display:none;}
+    .cfg-sum-bot{margin-top:0;padding-top:0;flex:0 0 auto;}
+    .cfg-btn{padding:11px 16px;font-size:14px;white-space:nowrap;}
+  }
   @media(max-width:560px){.cfg-pk{grid-template-columns:1fr 1fr;}.cfg-opt{grid-template-columns:22px 1fr;padding:14px 16px;}
-    .cfg-opt-p{grid-column:2;margin-top:8px;}}
+    .cfg-opt-p{grid-column:2;margin-top:8px;}
+    .cfg-sum-tot{font-size:21px;}}
 </style>
 <h3 class="cfg-head">Stel je campagne <span class="blue">zelf samen</span></h3>
 <p class="cfg-sub">Kies een pakket en vink aan wat je erbij wilt. De prijs rekent direct mee.</p>
@@ -3227,15 +3270,16 @@ Bel ons: 085 080 5381
 <span class="cfg-opt-d">Elke prospect krijgt een openingszin over zijn eigen bedrijf en een eigen pagina op jouw domein. <a href="/cases/landingspagina-per-prospect" style="color:var(--accent2);">Bekijk wat het opleverde</a></span>
 <span class="cfg-opt-x"><b>Hoi Martijn, zag dat jullie net een tweede vestiging in Breda hebben geopend.</b> Met een link naar jouwdomein.nl/martijn-bakker</span>
 </span>
-<span class="cfg-opt-p" data-p="hp">+ &euro;350</span>
+<span class="cfg-opt-p" data-p="hp">+ &euro;450</span>
 </label>
-<label class="cfg-opt is-soon" aria-disabled="true">
-<input type="checkbox" disabled>
+<label class="cfg-opt">
+<input type="checkbox" class="cfg-ao" data-ao="li">
 <span>
-<span class="cfg-opt-t">LinkedIn erbij <span class="cfg-soon">Binnenkort</span></span>
+<span class="cfg-opt-t">LinkedIn erbij</span>
 <span class="cfg-opt-d">Dezelfde bedrijven die je mailt, krijgen ook een connectieverzoek en daarna een korte vraag vanuit jouw LinkedIn-profiel. Zo kennen ze je naam al als je mail binnenkomt.</span>
+<span class="cfg-opt-x"><b>Connectieverzoek, daarna een korte vraag.</b> Reageert iemand, dan gaat het gesprek verder in jouw eigen inbox</span>
 </span>
-<span class="cfg-opt-p">Binnenkort</span>
+<span class="cfg-opt-p" data-p="li">+ &euro;350</span>
 </label>
 <label class="cfg-opt" id="cfgFs">
 <input type="checkbox" class="cfg-ao" data-ao="fs">
@@ -3251,9 +3295,12 @@ Bel ons: 085 080 5381
 </div>
 <aside>
 <div class="cfg-sum">
+<div class="cfg-sum-top">
 <span class="cfg-sum-lab">Jouw campagne</span>
-<span class="cfg-sum-tot" id="cfgTot">&euro;1.295</span>
+<span class="cfg-sum-tot" id="cfgTot">&euro;1.695</span>
 <span class="cfg-sum-per">per maand, exclusief btw, minimaal drie maanden</span>
+<span class="cfg-sum-per cfg-sum-per-m">per maand, excl. btw</span>
+</div>
 <ul class="cfg-rows" id="cfgRows"></ul>
 <div class="cfg-incl">
 <span class="cfg-lab">Altijd inbegrepen</span>
@@ -3277,6 +3324,7 @@ Bel ons: 085 080 5381
 (function(){
   var PK={starter:{n:'Starter',p:995,v:'100 mails per dag'},growth:{n:'Growth',p:1295,v:'250 mails per dag'},scale:{n:'Scale',p:1695,v:'500 mails per dag'},pro:{n:'Pro',p:1995,v:'1.000 mails per dag'}};
   var AO={hp:{n:'Hyperpersonalisatie',p:{starter:300,growth:350,scale:450,pro:550}},
+          li:{n:'LinkedIn erbij',p:{starter:350,growth:350,scale:350,pro:350}},
           fs:{n:'Full Service',p:{scale:600,pro:800}}};
   var pk='scale';
   var wrap=document.getElementById('samenstellen');
@@ -3383,12 +3431,12 @@ Bel ons: 085 080 5381
 <h4>Niet inbegrepen</h4>
 <ul class="pa-no">
 <li>Replies afhandelen en afspraken plannen, tenzij je Full Service erbij neemt (Scale en Pro)</li>
-<li>Telefonische acquisitie. LinkedIn komt binnenkort als add-on</li>
+<li>Telefonische acquisitie</li>
 <li>Afspraken, omzet of betalende klanten</li>
 </ul>
 </div>
 </div>
-<p class="pa-foot">Geen setupfee en geen aparte toolingrekening. Hyperpersonalisatie en Full Service kies je erbij in <a href="#samenstellen" style="color:var(--accent2);">stel je campagne samen</a>. <a href="/kennis/wat-kost-cold-email-uitbesteden">Vergelijk met zelf doen →</a></p>
+<p class="pa-foot">Geen setupfee en geen aparte toolingrekening. Hyperpersonalisatie, LinkedIn en Full Service kies je erbij in <a href="#samenstellen" style="color:var(--accent2);">stel je campagne samen</a>. <a href="/kennis/wat-kost-cold-email-uitbesteden">Vergelijk met zelf doen →</a></p>
 </div>
 </details>
 <details class="pa-item">
@@ -3868,7 +3916,7 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=24"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=25"></script>
 <script src="/assets/tracking.js"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
