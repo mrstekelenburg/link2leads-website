@@ -7779,14 +7779,14 @@ window.L2L_I18N_DATA = {
 "Of laat": {
 "en": "Or leave"
 },
-"de hele campagne": {
-"en": "the whole campaign"
+"het e-mailkanaal": {
+"en": "the email channel"
 },
 "bij ons": {
 "en": "to us"
 },
-"Zelf je leads verzamelen kost tijd, en ze zelf benaderen kost meer tijd. Wij leveren een startklare lijst, of we nemen het e-mailkanaal helemaal over.": {
-"en": "Collecting your own leads takes time, and approaching them yourself takes more. We deliver a ready-to-use list, or we take the email channel off your hands entirely."
+"Wij leveren een startklare lijst, of we zetten de verzendkant op en draaien de campagne namens jou.": {
+"en": "We deliver a ready-to-use list, or we set up the sending side and run the campaign on your behalf."
 },
 "vanaf €50": {
 "en": "from EUR 50"
@@ -7803,11 +7803,11 @@ window.L2L_I18N_DATA = {
 "Campagne uitbesteden": {
 "en": "Outsource the campaign"
 },
-"Je krijgt nieuwe gesprekken in je agenda": {
-"en": "You get new conversations in your calendar"
+"Wij regelen domeinen, mailboxen, warm-up, de lijst en de teksten": {
+"en": "We arrange domains, mailboxes, warm-up, the list and the copy"
 },
-"Wij mailen en volgen op, jij voert het gesprek": {
-"en": "We email and follow up, you have the conversation"
+"De mails gaan namens jou eruit, reacties komen in jouw mailbox": {
+"en": "The emails go out in your name and replies land in your own inbox"
 },
 "Bekijk de pakketten": {
 "en": "See the packages"
@@ -8069,5 +8069,8 @@ window.L2L_I18N_DATA = {
 },
 "leads": {
 "en": "leads"
+},
+"Reacties opvolgen doe je zelf of laat je bij ons": {
+"en": "Following up on replies is yours to do, or ours"
 }
 };

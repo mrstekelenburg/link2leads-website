@@ -1,3 +1,8 @@
+**Correctie 17 september 2026: vergelijkblok op /leads klopte niet**
+- In "Of laat het e-mailkanaal bij ons" stond bij Campagne uitbesteden "Je krijgt nieuwe gesprekken in je agenda" en "Wij mailen en volgen op, jij voert het gesprek". Dat suggereert dat opvolging en afspraken standaard in het pakket zitten. Er staat nu wat we wel altijd doen: domeinen, mailboxen, warm-up, lijst en teksten, verzenden namens de klant, reacties in zijn eigen mailbox, en opvolging als iets dat hij zelf doet of bij ons laat.
+- Kop van dat blok is "de hele campagne" geworden "het e-mailkanaal", zodat het niet klinkt alsof het hele salesproces eronder valt.
+- De twee extra landingspagina's van eerder vandaag (/belijsten-kopen en /linkedin-leads-kopen) zijn weer verwijderd, met hun footerlinks, sitemapregels, redirects, llms-tekst en i18n-sleutels. De aanpassing op /leads en de homepage, waarbij leads niet meer als mailproduct worden neergezet, blijft staan.
+
 **Aanvulling 17 september 2026: leads niet meer als mailproduct neergezet**
 - `/leads`: H1 is nu "Leads kopen waar je meteen mee aan de slag kunt" (was "meteen mee kunt mailen"). De lede noemt dat telefoonnummer en LinkedIn-profiel aan te vinken zijn en dat de klant zelf bepaalt wat hij ermee doet.
 - Nieuwe sectie `#gebruik` boven het gratis sample, met vier kaarten: E-mail, Bellen, LinkedIn, Advertenties en CRM. Gebruikt de bestaande `.lz-cards`/`.lz-card` (2 kolommen, 1 op mobiel), dus geen nieuwe CSS.
