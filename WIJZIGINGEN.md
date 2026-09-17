@@ -1,3 +1,13 @@
+**Aanvulling 17 september 2026: leads niet meer als mailproduct neergezet**
+- `/leads`: H1 is nu "Leads kopen waar je meteen mee aan de slag kunt" (was "meteen mee kunt mailen"). De lede noemt dat telefoonnummer en LinkedIn-profiel aan te vinken zijn en dat de klant zelf bepaalt wat hij ermee doet.
+- Nieuwe sectie `#gebruik` boven het gratis sample, met vier kaarten: E-mail, Bellen, LinkedIn, Advertenties en CRM. Gebruikt de bestaande `.lz-cards`/`.lz-card` (2 kolommen, 1 op mobiel), dus geen nieuwe CSS.
+- Nieuwe FAQ op `/leads`: "Kan ik de leads ook bellen of via LinkedIn benaderen?", ook toegevoegd aan de FAQPage-JSON-LD. De bestaande vraag over mailen blijft ongewijzigd staan.
+- Aangepaste zinnen op `/leads`: de openingszin-verrijking noemt nu ook belscript en LinkedIn-bericht, "Jij mailt en volgt zelf op" is "Jij benadert ze zelf, per mail, telefoon of LinkedIn", "te klein voor koude e-mail" is "te klein voor koude acquisitie", en de tool-FAQ noemt ook de beltool.
+- Meta description, og:description en de Service-beschrijving in de JSON-LD van `/leads` noemen nu e-mail, telefoon en LinkedIn.
+- Homepage: subregel van het leadblok is "alleen de bedrijven om te benaderen", de paragraaf noemt telefoonnummer en LinkedIn, er staat een extra bullet "Bruikbaar voor mail, telefoon en LinkedIn" en de FAQ "Kan ik ook alleen de leads afnemen?" opent niet meer met "Wil je zelf mailen".
+- `llms.txt` en `llms-full.txt`: bij het losse-leadsproduct staat nu dat het bestand niet aan e-mail gebonden is.
+- Alle nieuwe en gewijzigde zinnen staan met EN-vertaling in `l2l-i18n-data.js`. Versies: `l2l-i18n-data.js?v=25`, `l2l-i18n.js?v=27`.
+
 **Aanvulling 17 september 2026: korte selectieregel in de mobiele prijsbalk**
 - Op mobiel en bij een half scherm stonden alleen het bedrag en de subregel in de balk; de prijsrijen zijn daar verborgen, dus je zag niet meer waar dat bedrag uit bestond. Nu staat er een regel onder het bedrag met de selectie, bijvoorbeeld "Scale + Hyperpersonalisatie + LinkedIn erbij" op de homepage en "5.000 + leads + Telefoonnummer + Openingszin" op `/leads`.
 - Homepage: nieuw element `<span class="cfg-sum-sel" id="cfgSel">`, gevuld door `render()` in de configurator. Op desktop verborgen, want daar staan de volledige prijsrijen al.

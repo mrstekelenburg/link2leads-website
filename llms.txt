@@ -40,7 +40,7 @@ Het afhandelen van reacties en het inplannen van afspraken (Full Service) wordt 
 
 ## Losse leads kopen (zonder campagne)
 
-Sinds september 2026 levert Link2Leads ook losse leadbestanden, op https://www.link2leads.nl/leads. De klant beschrijft zijn doelgroep, krijgt eerst een telling en een prijs, en na akkoord binnen een werkdag een bestand in Excel of CSV. Dit is een los product: er komt geen campagne, mailbox of opvolging bij kijken.
+Sinds september 2026 levert Link2Leads ook losse leadbestanden, op https://www.link2leads.nl/leads. De klant beschrijft zijn doelgroep, krijgt eerst een telling en een prijs, en na akkoord binnen een werkdag een bestand in Excel of CSV. Dit is een los product: er komt geen campagne, mailbox of opvolging bij kijken. Het bestand is niet gebonden aan e-mail. Met het telefoonnummer en het LinkedIn-profiel erbij is dezelfde lijst ook bruikbaar als belijst, voor LinkedIn-benadering, als doelgroep voor advertenties of om het eigen CRM mee aan te vullen.
 
 Standaard per lead: bedrijfsnaam, website, vestigingsplaats, branche, aantal medewerkers, naam en functie van de beslisser, geverifieerd zakelijk e-mailadres (domein en mailbox gecontroleerd kort voor levering), en de bron plus controledatum per record.
 

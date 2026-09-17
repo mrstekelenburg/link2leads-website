@@ -45,9 +45,6 @@ window.L2L_I18N_DATA = {
 "Demi en Anne-Roos. Je krijgt een van ons tweeen aan de lijn.": {
 "en": "Demi and Anne-Roos. You get one of the two of us on the line."
 },
-"LinkedIn": {
-"en": "LinkedIn"
-},
 "Demi en Anne-Roos. Deze campagnes hebben wij zelf gedraaid, dus de cijfers hieronder komen uit onze eigen rapportage.": {
 "en": "Demi and Anne-Roos. We ran these campaigns ourselves, so the numbers below come from our own reporting."
 },
@@ -1979,9 +1976,6 @@ window.L2L_I18N_DATA = {
 },
 "Telefoon": {
 "en": "Phone"
-},
-"E-mail": {
-"en": "Email"
 },
 "KvK-nummer": {
 "en": "Chamber of Commerce number"
@@ -7467,11 +7461,11 @@ window.L2L_I18N_DATA = {
 "de leadlijst": {
 "en": "the lead list"
 },
-"Nog geen campagne nodig, alleen de bedrijven om te mailen.": {
-"en": "No campaign needed yet, just the companies to email."
+"Nog geen campagne nodig, alleen de bedrijven om te benaderen.": {
+"en": "No campaign needed yet, just the companies to approach."
 },
-"Dan verkopen we je die los. Hetzelfde bestand waar onze eigen campagnes op draaien, met een geverifieerd zakelijk e-mailadres en de bron per record. Mailen doe je zelf.": {
-"en": "Then we sell you those separately. The same file our own campaigns run on, with a verified business email address and the source per record. You do the emailing."
+"Dan verkopen we je die los. Hetzelfde bestand waar onze eigen campagnes op draaien, met een geverifieerd zakelijk e-mailadres en de bron per record. Telefoonnummer en LinkedIn-profiel kun je erbij aanvinken, dus je kunt er ook mee bellen of via LinkedIn benaderen.": {
+"en": "Then we sell you those separately. The same file our own campaigns run on, with a verified business email address and the source per record. You can add a phone number and LinkedIn profile, so you can call them or approach them on LinkedIn too."
 },
 "Bekijk leads kopen": {
 "en": "See buying leads"
@@ -7481,6 +7475,9 @@ window.L2L_I18N_DATA = {
 },
 "Vanaf 500 leads, geen abonnement": {
 "en": "From 500 leads, no subscription"
+},
+"Bruikbaar voor mail, telefoon en LinkedIn": {
+"en": "Usable for email, phone and LinkedIn"
 },
 "Binnen een werkdag geleverd": {
 "en": "Delivered within one working day"
@@ -7497,8 +7494,8 @@ window.L2L_I18N_DATA = {
 "Kan ik ook alleen de leads afnemen?": {
 "en": "Can I buy just the leads?"
 },
-"Ja. Wil je zelf mailen en zoek je alleen een lijst, dan verkopen we die los vanaf 500 leads, met een geverifieerd zakelijk e-mailadres en de bron per record. Je regelt dan zelf de mailboxen, de teksten en het opvolgen van reacties, en dat is in de praktijk het meeste werk. Kijk op": {
-"en": "Yes. If you want to do the emailing yourself and only need a list, we sell those separately from 500 leads, with a verified business email address and the source per record. You then arrange the mailboxes, the copy and the follow-up on replies yourself, and in practice that is most of the work. Have a look at"
+"Ja. Zoek je alleen een lijst, dan verkopen we die los vanaf 500 leads, met een geverifieerd zakelijk e-mailadres en de bron per record. Telefoonnummer en LinkedIn-profiel zijn aan te vinken, dus je kunt dezelfde lijst ook bellen of via LinkedIn benaderen. Het benaderen en opvolgen doe je dan zelf, en dat is in de praktijk het meeste werk. Kijk op": {
+"en": "Yes. If you only need a list, we sell those separately from 500 leads, with a verified business email address and the source per record. A phone number and LinkedIn profile can be ticked on, so the same list works for calling or LinkedIn as well. The approaching and following up is then yours, and in practice that is most of the work. Have a look at"
 },
 "leads kopen": {
 "en": "buying leads"
@@ -7593,11 +7590,11 @@ window.L2L_I18N_DATA = {
 "Leads kopen waar je": {
 "en": "Buy leads you can"
 },
-"meteen mee kunt mailen": {
-"en": "start emailing right away"
+"meteen mee aan de slag kunt": {
+"en": "you can get started with right away"
 },
-"Jij vertelt ons wie je zoekt, wij tellen eerst hoeveel geschikte bedrijven er zijn. Daarna bouwen we de lijst: bedrijf, beslisser en een geverifieerd zakelijk e-mailadres, met de bron per record. Binnen een werkdag in je mailbox als Excel of CSV.": {
-"en": "You tell us who you are looking for and we first count how many suitable companies there are. Then we build the list: company, decision maker and a verified business email address, with the source per record. In your inbox within one working day as Excel or CSV."
+"Jij vertelt ons wie je zoekt, wij tellen eerst hoeveel geschikte bedrijven er zijn. Daarna bouwen we de lijst: bedrijf, beslisser en een geverifieerd zakelijk e-mailadres, met de bron per record. Telefoonnummer en LinkedIn-profiel kun je erbij aanvinken. Wat je ermee doet bepaal je zelf. Binnen een werkdag in je mailbox als Excel of CSV.": {
+"en": "You tell us who you are looking for, we first count how many suitable companies there are. Then we build the list: company, decision maker and a verified business email address, with the source per record. You can add a phone number and LinkedIn profile. What you do with it is up to you. In your inbox within one working day as Excel or CSV."
 },
 "Vertel ons wie je zoekt": {
 "en": "Tell us who you are looking for"
@@ -7692,8 +7689,8 @@ window.L2L_I18N_DATA = {
 "Persoonlijke openingszin": {
 "en": "Personal opening line"
 },
-"Een zin die klopt met wat dit bedrijf doet, geschreven op basis van hun eigen site. Zet hem als variabele in je eerste mail.": {
-"en": "A line that matches what this company does, written from their own site. Drop it into your first email as a variable."
+"Een zin die klopt met wat dit bedrijf doet, geschreven op basis van hun eigen site. Bruikbaar als variabele in je eerste mail, als opening van je belscript of in een LinkedIn-bericht.": {
+"en": "A sentence that matches what this company does, written from their own site. Use it as a variable in your first email, as the opening of your call script or in a LinkedIn message."
 },
 "€0,15 per lead, exclusief btw": {
 "en": "EUR 0.15 per lead, excluding VAT"
@@ -7706,6 +7703,39 @@ window.L2L_I18N_DATA = {
 },
 "Veeg opzij om alle kolommen te zien": {
 "en": "Swipe sideways to see all columns"
+},
+"Wat je": {
+"en": "what you"
+},
+"met de lijst doet": {
+"en": "do with the list"
+},
+"Het is een prospectlijst, geen mailbestand. Dezelfde regels zijn bruikbaar in elk kanaal dat je al draait.": {
+"en": "It is a prospect list, not a mailing file. The same rows work in any channel you already run."
+},
+"E-mail": {
+"en": "Email"
+},
+"Importeer het bestand in Smartlead, Instantly of je eigen mailtool. Het adres is kort voor levering gecontroleerd, dus je begint niet met bounces.": {
+"en": "Import the file into Smartlead, Instantly or your own email tool. The address is checked shortly before delivery, so you do not start out with bounces."
+},
+"Bellen": {
+"en": "Calling"
+},
+"Vink het telefoonnummer aan en dezelfde lijst is een belijst, met de naam en functie van de beslisser er al bij.": {
+"en": "Tick the phone number and the same list becomes a call list, with the decision maker's name and role already on it."
+},
+"LinkedIn": {
+"en": "LinkedIn"
+},
+"Vink het LinkedIn-profiel aan en laat je setter connectieverzoeken en berichten sturen, of gebruik de lijst naast je e-mail.": {
+"en": "Tick the LinkedIn profile and let your setter send connection requests and messages, or use the list alongside your email."
+},
+"Advertenties en CRM": {
+"en": "Ads and CRM"
+},
+"Upload de lijst als doelgroep in LinkedIn Ads of Google Ads, of vul je CRM aan met bedrijven die je nog niet in beeld had.": {
+"en": "Upload the list as an audience in LinkedIn Ads or Google Ads, or top up your CRM with companies you did not have yet."
 },
 "Waar de data": {
 "en": "Where the data"
@@ -7755,8 +7785,8 @@ window.L2L_I18N_DATA = {
 "bij ons": {
 "en": "to us"
 },
-"Zelf je leads verzamelen kost tijd, en zelf mailen kost meer tijd. Wij leveren een startklare lijst, of we nemen het hele kanaal over.": {
-"en": "Collecting your leads yourself takes time, and emailing them yourself takes more time. We deliver a ready-to-use list, or we take over the whole channel."
+"Zelf je leads verzamelen kost tijd, en ze zelf benaderen kost meer tijd. Wij leveren een startklare lijst, of we nemen het e-mailkanaal helemaal over.": {
+"en": "Collecting your own leads takes time, and approaching them yourself takes more. We deliver a ready-to-use list, or we take the email channel off your hands entirely."
 },
 "vanaf €50": {
 "en": "from EUR 50"
@@ -7767,8 +7797,8 @@ window.L2L_I18N_DATA = {
 "Je krijgt een startklare prospectlijst": {
 "en": "You get a ready-to-use prospect list"
 },
-"Jij mailt en volgt zelf op": {
-"en": "You email and follow up yourself"
+"Jij benadert ze zelf, per mail, telefoon of LinkedIn": {
+"en": "You approach them yourself, by email, phone or LinkedIn"
 },
 "Campagne uitbesteden": {
 "en": "Outsource the campaign"
@@ -7794,6 +7824,12 @@ window.L2L_I18N_DATA = {
 "Dit is geen juridisch advies.": {
 "en": "This is not legal advice."
 },
+"Kan ik de leads ook bellen of via LinkedIn benaderen?": {
+"en": "Can I also call the leads or approach them on LinkedIn?"
+},
+"Ja. Vink bij je bestelling het telefoonnummer en het LinkedIn-profiel van de beslisser aan, dan is dezelfde lijst ook een belijst of een lijst voor je LinkedIn-benadering. Je kunt het bestand ook uploaden als doelgroep in LinkedIn Ads of Google Ads, of er je CRM mee aanvullen. Per kanaal gelden eigen regels, dus kijk wat voor jouw kanaal van toepassing is.": {
+"en": "Yes. Tick the phone number and the decision maker's LinkedIn profile when you order and the same list also works as a call list or for your LinkedIn approach. You can also upload the file as an audience in LinkedIn Ads or Google Ads, or use it to top up your CRM. Each channel has its own rules, so check what applies to yours."
+},
 "Hoe weet ik dat de adressen kloppen?": {
 "en": "How do I know the addresses are correct?"
 },
@@ -7803,8 +7839,8 @@ window.L2L_I18N_DATA = {
 "Wat als ik niet precies weet wie mijn doelgroep is?": {
 "en": "What if I do not know exactly who my target group is?"
 },
-"Beschrijf wie je beste klanten nu zijn. Wij maken daar een selectie van en sturen eerst een telling. Blijkt de markt te klein voor koude e-mail, dan zeggen we dat ook.": {
-"en": "Describe who your best clients are right now. We turn that into a selection and send a count first. If the market turns out too small for cold email, we say so."
+"Beschrijf wie je beste klanten nu zijn. Wij maken daar een selectie van en sturen eerst een telling. Blijkt de markt te klein voor koude acquisitie, dan zeggen we dat ook.": {
+"en": "Describe who your best customers are today. We turn that into a selection and send you a count first. If the market turns out to be too small for cold outreach, we say so."
 },
 "Krijg ik dezelfde leads als een ander?": {
 "en": "Will I get the same leads as somebody else?"
@@ -7815,8 +7851,8 @@ window.L2L_I18N_DATA = {
 "Kan ik het bestand in mijn eigen tool gebruiken?": {
 "en": "Can I use the file in my own tool?"
 },
-"Ja. Excel of CSV met vaste kolomnamen, klaar voor Smartlead, Instantly, Apollo, Lemlist, HubSpot of Pipedrive. Wil je een andere kolomindeling, geef het door bij je bestelling.": {
-"en": "Yes. Excel or CSV with fixed column names, ready for Smartlead, Instantly, Apollo, Lemlist, HubSpot or Pipedrive. If you want a different column layout, mention it with your order."
+"Ja. Excel of CSV met vaste kolomnamen, klaar voor Smartlead, Instantly, Apollo, Lemlist, HubSpot, Pipedrive of je beltool. Wil je een andere kolomindeling, geef het door bij je bestelling.": {
+"en": "Yes. Excel or CSV with fixed column names, ready for Smartlead, Instantly, Apollo, Lemlist, HubSpot, Pipedrive or your dialler. Want a different column layout, let us know with your order."
 },
 "Begin bij de vraag": {
 "en": "Start with the question"
