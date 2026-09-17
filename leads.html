@@ -348,6 +348,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 .lz-sum-lab{display:block;font-size:13.5px;font-weight:800;color:var(--accent2);}
 .lz-sum-tot{display:block;font-size:clamp(34px,5vw,44px);font-weight:800;letter-spacing:-1.8px;color:var(--white);margin:6px 0 4px;}
 .lz-sum-per{display:block;font-size:14px;color:var(--muted);}
+.lz-sum-sel{display:none;}
 .lz-sum-rows{list-style:none;margin:20px 0 22px;padding:18px 0 0;border-top:1px solid rgba(255,255,255,.12);display:grid;gap:10px;}
 .lz-sum-rows li{display:flex;justify-content:space-between;gap:14px;font-size:14px;line-height:1.5;color:rgba(240,239,237,.76);}
 .lz-sum-rows li span:last-child{color:var(--white);font-weight:600;white-space:nowrap;}
@@ -435,7 +436,9 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   .lz-sum-top{display:block;flex:1;min-width:0;}
   .lz-sum-lab{display:none;}
   .lz-sum-tot{display:block;font-size:24px;letter-spacing:-.9px;margin:0;line-height:1.1;}
-  .lz-sum-per{display:block;font-size:12px;line-height:1.3;}
+  .lz-sum-sel{display:block;margin-top:3px;font-size:12.5px;line-height:1.35;font-weight:600;
+    color:rgba(255,255,255,.9);overflow-wrap:anywhere;}
+  .lz-sum-per{display:block;margin-top:1px;font-size:11.5px;line-height:1.3;}
   .lz-sum-rows{display:none;}
   .lz-sum-note{display:none;}
   .lz-sum-btn{width:auto;flex:0 0 auto;padding:11px 16px;font-size:14px;white-space:nowrap;}
@@ -703,6 +706,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
           <div class="lz-sum-top">
             <span class="lz-sum-lab">Totaal</span>
             <span class="lz-sum-tot" id="lzTotal">&euro;300</span>
+            <span class="lz-sum-sel" id="lzSel"></span>
             <span class="lz-sum-per" id="lzPer">&euro;0,15 per lead, exclusief btw</span>
             <span class="lz-sum-incl" id="lzIncl"></span>
           </div>
@@ -979,6 +983,12 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     tot.textContent=eur(total);
     per.textContent=eur2(total/n)+' per lead, exclusief btw';
     rows.innerHTML=html;
+    var sel=document.getElementById('lzSel');
+    if(sel){
+      var parts=['<span>'+nf(n)+'</span> <span>leads</span>'];
+      opts.forEach(function(name){ parts.push('<span>'+name+'</span>'); });
+      sel.innerHTML=parts.join(' + ');
+    }
     presets.forEach(function(b){ b.classList.toggle('is-on', parseInt(b.getAttribute('data-vol'),10)===n); });
     state={vol:n,total:Math.round(total),perLead:total/n,opts:opts};
     if(echo){
@@ -1065,7 +1075,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 })();
 </script>
 <script src="/assets/tracking.js"></script>
-<script src="/assets/i18n/l2l-i18n.js?v=25"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=26"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
    Doet niets bij tabellen die gewoon passen. */

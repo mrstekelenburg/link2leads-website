@@ -8024,5 +8024,14 @@ window.L2L_I18N_DATA = {
 },
 "jouwbedrijf": {
 "en": "yourcompany"
+},
+"Openingszin": {
+"en": "Opening line"
+},
+"LinkedIn-profiel": {
+"en": "LinkedIn profile"
+},
+"leads": {
+"en": "leads"
 }
 };

@@ -3215,6 +3215,7 @@ Bel ons: 085 080 5381
   .cfg-sum-tot{display:block;margin-top:6px;font-size:40px;font-weight:900;letter-spacing:-2px;line-height:1;color:var(--white);}
   .cfg-sum-per{display:block;margin-top:6px;font-size:13.5px;color:var(--muted);}
   .cfg-sum-per-m{display:none;}
+  .cfg-sum-sel{display:none;}
   .cfg-rows{list-style:none;margin:18px 0 0;padding:16px 0 0;border-top:1px solid var(--border);display:grid;gap:9px;}
   .cfg-rows li{display:flex;justify-content:space-between;gap:14px;font-size:14.5px;color:rgba(255,255,255,.72);}
   .cfg-rows li b{color:var(--white);font-weight:700;white-space:nowrap;}
@@ -3236,7 +3237,9 @@ Bel ons: 085 080 5381
     .cfg-sum-lab{display:none;}
     .cfg-sum-tot{margin-top:0;font-size:24px;letter-spacing:-.9px;line-height:1.1;}
     .cfg-sum-per{display:none;}
-    .cfg-sum-per-m{display:block;margin-top:2px;font-size:12px;line-height:1.3;}
+    .cfg-sum-sel{display:block;margin-top:3px;font-size:12.5px;line-height:1.35;font-weight:600;
+      color:rgba(255,255,255,.9);overflow-wrap:anywhere;}
+    .cfg-sum-per-m{display:block;margin-top:1px;font-size:11.5px;line-height:1.3;}
     .cfg-rows{display:none;}
     .cfg-incl{display:none;}
     .cfg-note{display:none;}
@@ -3299,6 +3302,7 @@ Bel ons: 085 080 5381
 <span class="cfg-sum-lab">Jouw campagne</span>
 <span class="cfg-sum-tot" id="cfgTot">&euro;1.695</span>
 <span class="cfg-sum-per">per maand, exclusief btw, minimaal drie maanden</span>
+<span class="cfg-sum-sel" id="cfgSel"></span>
 <span class="cfg-sum-per cfg-sum-per-m">per maand, excl. btw</span>
 </div>
 <ul class="cfg-rows" id="cfgRows"></ul>
@@ -3341,6 +3345,11 @@ Bel ons: 085 080 5381
     });
     document.getElementById('cfgTot').textContent=nf(tot);
     document.getElementById('cfgRows').innerHTML=rows;
+    var parts=['<span>'+PK[pk].n+'</span>'];
+    Object.keys(AO).forEach(function(k){
+      if(wrap.querySelector('.cfg-ao[data-ao="'+k+'"]').checked) parts.push('<span>'+AO[k].n+'</span>');
+    });
+    document.getElementById('cfgSel').innerHTML=parts.join(' + ');
     var sel=Object.keys(AO).filter(function(k){return wrap.querySelector('.cfg-ao[data-ao="'+k+'"]').checked;});
     document.getElementById('cfgGo').href='/book?pakket='+pk+(sel.length?'&addons='+sel.join(','):'');
   }
@@ -3916,7 +3925,7 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=25"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=26"></script>
 <script src="/assets/tracking.js"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.

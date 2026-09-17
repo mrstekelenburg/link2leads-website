@@ -1,3 +1,10 @@
+**Aanvulling 17 september 2026: korte selectieregel in de mobiele prijsbalk**
+- Op mobiel en bij een half scherm stonden alleen het bedrag en de subregel in de balk; de prijsrijen zijn daar verborgen, dus je zag niet meer waar dat bedrag uit bestond. Nu staat er een regel onder het bedrag met de selectie, bijvoorbeeld "Scale + Hyperpersonalisatie + LinkedIn erbij" op de homepage en "5.000 + leads + Telefoonnummer + Openingszin" op `/leads`.
+- Homepage: nieuw element `<span class="cfg-sum-sel" id="cfgSel">`, gevuld door `render()` in de configurator. Op desktop verborgen, want daar staan de volledige prijsrijen al.
+- `/leads`: nieuw element `<span class="lz-sum-sel" id="lzSel">`, gevuld door `render()` van de bestelconfigurator. Ook alleen zichtbaar onder 900px.
+- Elk onderdeel van de regel staat in een eigen `<span>`, zodat de vertaalmachine de losse namen kan omzetten in plaats van de hele regel als een onbekende tekst te laten staan. Losse sleutels toegevoegd voor "Openingszin", "LinkedIn-profiel" en "leads"; de rest stond er al in.
+- `l2l-i18n-data.js?v=24`, `l2l-i18n.js?v=26`.
+
 # Wijzigingen, 17 september 2026 (meescrollende prijs op de homepage, LinkedIn live, taal en kennisartikelen)
 
 **Totaalprijs blijft in beeld in "Stel je campagne zelf samen" (homepage)**
