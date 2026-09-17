@@ -8072,5 +8072,23 @@ window.L2L_I18N_DATA = {
 },
 "Reacties opvolgen doe je zelf of laat je bij ons": {
 "en": "Following up on replies is yours to do, or ours"
+},
+"Bij elke order": {
+"en": "With every order"
+},
+"Je betaalt alleen voor wat we": {
+"en": "You only pay for what we"
+},
+"echt leveren": {
+"en": "actually deliver"
+},
+"Bouncet er meer dan 3 procent, dan vullen we kosteloos aan.": {
+"en": "If more than 3 percent bounces, we top up your list free of charge."
+},
+"Blijkt je doelgroep kleiner dan het aantal dat je koopt, dan leveren we wat er is en storten we het verschil binnen vijf werkdagen terug.": {
+"en": "If your target group turns out to be smaller than the number you buy, we deliver what there is and refund the difference within five working days."
+},
+"Hoe we de adressen controleren": {
+"en": "How we verify the addresses"
 }
 };

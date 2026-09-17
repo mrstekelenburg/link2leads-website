@@ -398,6 +398,42 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 .lz-textlink{font-size:15px;font-weight:600;color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
 .lz-textlink:hover{color:#7EB3FF;}
 
+/* Icoon in de kanaalkaarten */
+.lz-card-h{display:flex;align-items:center;gap:13px;margin:0 0 10px;}
+.lz-card-h h3{margin:0;}
+.lz-card-ic{flex:0 0 auto;width:38px;height:38px;border-radius:11px;display:flex;align-items:center;justify-content:center;
+  background:rgba(47,111,237,.14);border:1px solid rgba(47,111,237,.26);color:var(--accent2);}
+.lz-card-ic svg{width:19px;height:19px;display:block;}
+
+/* Garantiebalk met sticker */
+.lz-gar{position:relative;margin-top:46px;background:linear-gradient(160deg,rgba(47,111,237,.16),rgba(14,16,26,.55));
+  border:1px solid rgba(47,111,237,.38);border-radius:20px;padding:26px 28px;text-align:left;}
+.lz-gar .lz-gar-badge{position:absolute;top:-34px;right:-22px;z-index:4;width:118px;height:118px;border-radius:50%;
+  background:radial-gradient(circle at 34% 26%,#4E8BFF 0%,#2F6FED 46%,#153B9C 100%);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12px;transform:rotate(-9deg);
+  box-shadow:0 14px 30px rgba(6,16,46,.7), 0 3px 6px rgba(0,0,0,.35), inset 0 0 0 2px rgba(255,255,255,.26), inset 0 0 0 8px rgba(255,255,255,.07);}
+.lz-gar .lz-gar-badge::after{content:"";position:absolute;inset:0;border-radius:50%;
+  background:linear-gradient(135deg,rgba(255,255,255,.22) 0%,rgba(255,255,255,0) 42%);pointer-events:none;}
+.lz-gar .lz-gb-stars{font-size:13px;letter-spacing:3px;color:#FFD36B;line-height:1;text-indent:3px;}
+.lz-gar .lz-gar-badge b{display:block;margin-top:6px;font-size:16px;font-weight:900;color:#fff;letter-spacing:-.3px;line-height:1.02;}
+.lz-gar .lz-gb-sub{display:block;margin-top:4px;font-size:10.5px;font-weight:800;letter-spacing:.4px;color:rgba(255,255,255,.84);line-height:1.3;}
+.lz-gar .lz-gb-pill{display:inline-block;font-size:13px;font-weight:700;color:var(--accent2);background:rgba(47,111,237,.1);
+  border:1px solid rgba(47,111,237,.25);border-radius:100px;padding:4px 12px;margin-bottom:10px;}
+.lz-gar h3{font-size:clamp(20px,2.6vw,25px);line-height:1.2;letter-spacing:-.7px;font-weight:800;color:var(--white);
+  margin:0 0 8px;max-width:calc(100% - 110px);}
+.lz-gar p{margin:0;font-size:15px;line-height:1.6;color:rgba(255,255,255,.76);max-width:760px;}
+.lz-gar .lz-gb-more{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;font-weight:600;white-space:nowrap;}
+.lz-gar .lz-gb-more:focus-visible{outline:2px solid var(--accent2);outline-offset:3px;border-radius:4px;}
+@media(max-width:1300px){.lz-gar .lz-gar-badge{right:-6px;}}
+@media(max-width:620px){
+  .lz-gar{padding:22px 20px;}
+  .lz-gar .lz-gar-badge{top:-22px;right:-8px;width:88px;height:88px;}
+  .lz-gar .lz-gar-badge b{font-size:13px;margin-top:4px;}
+  .lz-gar .lz-gb-stars{font-size:11px;letter-spacing:2px;}
+  .lz-gar .lz-gb-sub{font-size:9.5px;}
+  .lz-gar .lz-gb-pill,.lz-gar h3{max-width:calc(100% - 72px);}
+}
+
 @media(max-width:900px){
   .lz-stats{grid-template-columns:1fr 1fr;}
   .lz-stat:nth-child(-n+2){border-bottom:1px solid var(--border);}
@@ -613,19 +649,19 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     <p class="lz-sub">Het is een prospectlijst, geen mailbestand. Dezelfde regels zijn bruikbaar in elk kanaal dat je al draait.</p>
     <div class="lz-cards">
       <div class="card lz-card">
-        <h3>E-mail</h3>
+        <div class="lz-card-h"><span class="lz-card-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M3 7.5l8.1 5.4a1.6 1.6 0 0 0 1.8 0L21 7.5"/></svg></span><h3>E-mail</h3></div>
         <p>Importeer het bestand in Smartlead, Instantly of je eigen mailtool. Het adres is kort voor levering gecontroleerd, dus je begint niet met bounces.</p>
       </div>
       <div class="card lz-card">
-        <h3>Bellen</h3>
+        <div class="lz-card-h"><span class="lz-card-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.2 3.5h2.6l1.5 3.9-1.9 1.4a11 11 0 0 0 5.3 5.3l1.4-1.9 3.9 1.5v2.6a2 2 0 0 1-2.2 2A15.5 15.5 0 0 1 4.2 5.7a2 2 0 0 1 2-2.2Z"/><path d="M15 4.2a6 6 0 0 1 4.8 4.8"/></svg></span><h3>Bellen</h3></div>
         <p>Vink het telefoonnummer aan en dezelfde lijst is een belijst, met de naam en functie van de beslisser er al bij.</p>
       </div>
       <div class="card lz-card">
-        <h3>LinkedIn</h3>
+        <div class="lz-card-h"><span class="lz-card-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="8" r="3"/><circle cx="17.5" cy="5.5" r="2.2"/><path d="M2.8 19.5c0-2.9 2.3-5 5.2-5s5.2 2.1 5.2 5"/><path d="M16 12.2c2.6.3 4.4 2.2 4.4 4.6"/></svg></span><h3>LinkedIn</h3></div>
         <p>Vink het LinkedIn-profiel aan en laat je setter connectieverzoeken en berichten sturen, of gebruik de lijst naast je e-mail.</p>
       </div>
       <div class="card lz-card">
-        <h3>Advertenties en CRM</h3>
+        <div class="lz-card-h"><span class="lz-card-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.2"/><circle cx="12" cy="12" r="3.9"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg></span><h3>Advertenties en CRM</h3></div>
         <p>Upload de lijst als doelgroep in LinkedIn Ads of Google Ads, of vul je CRM aan met bedrijven die je nog niet in beeld had.</p>
       </div>
     </div>
@@ -738,10 +774,19 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
           <div class="lz-sum-cta">
             <a class="btn-solid lz-sum-btn" href="#bestellen" id="lzGo">Vraag je telling aan</a>
           </div>
-          <p class="lz-sum-note">Blijkt je doelgroep kleiner dan het aantal dat je koopt, dan leveren we wat er is en storten we het verschil binnen vijf werkdagen terug. Bouncet er meer dan 3 procent, dan vullen we kosteloos aan.</p>
         </div>
       </aside>
     </div>
+
+  <div class="lz-gar">
+    <div aria-hidden="true" class="lz-gar-badge">
+      <span class="lz-gb-stars">&#9733;&#9733;&#9733;</span>
+      <b>Garantie</b>
+      <span class="lz-gb-sub">Bij elke order</span>
+    </div>
+    <h3>Je betaalt alleen voor wat we <span class="blue">echt leveren</span></h3>
+    <p><span>Bouncet er meer dan 3 procent, dan vullen we kosteloos aan.</span> <span>Blijkt je doelgroep kleiner dan het aantal dat je koopt, dan leveren we wat er is en storten we het verschil binnen vijf werkdagen terug.</span> <a class="lz-gb-more" href="#faq">Hoe we de adressen controleren</a></p>
+  </div>
   </section>
 
   <section class="lz-sec">
@@ -1104,7 +1149,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 })();
 </script>
 <script src="/assets/tracking.js"></script>
-<script src="/assets/i18n/l2l-i18n.js?v=27"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=28"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
    Doet niets bij tabellen die gewoon passen. */

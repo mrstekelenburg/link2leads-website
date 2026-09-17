@@ -1,3 +1,9 @@
+**Aanvulling 17 september 2026: iconen en garantiebalk op /leads**
+- `#gebruik`: de vier kaarten (E-mail, Bellen, LinkedIn, Advertenties en CRM) hebben een lijnicoon in een blauw tegeltje gekregen. Nieuwe CSS: `.lz-card-h`, `.lz-card-ic`, met dezelfde maten en kleuren als `.lz-stat-ic` in de statsbalk. Voor LinkedIn staat er een neutraal netwerkicoon en niet het LinkedIn-beeldmerk.
+- Nieuwe garantiebalk `.lz-gar` onder de configurator `#samenstellen`, met de ronde sticker rechtsboven, overgenomen van `.gar-bar` op de homepage. Kop: "Je betaalt alleen voor wat we echt leveren". Inhoud: de 3-procent-aanvulling en de terugstorting bij een te kleine doelgroep, met een link naar `#faq`.
+- De `p.lz-sum-note` onder het totaalblok is weg; die tekst staat nu in de garantiebalk. Op mobiel stond die notitie al op `display:none`, dus daar verandert niets.
+- Nieuwe en gewijzigde zinnen staan met EN-vertaling in `l2l-i18n-data.js`. Versies: `l2l-i18n-data.js?v=26`, `l2l-i18n.js?v=28`.
+
 **Correctie 17 september 2026: vergelijkblok op /leads klopte niet**
 - In "Of laat het e-mailkanaal bij ons" stond bij Campagne uitbesteden "Je krijgt nieuwe gesprekken in je agenda" en "Wij mailen en volgen op, jij voert het gesprek". Dat suggereert dat opvolging en afspraken standaard in het pakket zitten. Er staat nu wat we wel altijd doen: domeinen, mailboxen, warm-up, lijst en teksten, verzenden namens de klant, reacties in zijn eigen mailbox, en opvolging als iets dat hij zelf doet of bij ons laat.
 - Kop van dat blok is "de hele campagne" geworden "het e-mailkanaal", zodat het niet klinkt alsof het hele salesproces eronder valt.
