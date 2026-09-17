@@ -1,3 +1,9 @@
+**Aanvulling 17 september 2026: fade-in op de leespagina's**
+- Nieuw bestand `assets/l2l-reveal.js`, ingeladen met `defer` op `/leads`, `/kennis`, de zes kennisartikelen, `/cases` met de drie cases, en `/cold-email-bureaus-nederland`. Het script laat de directe blokken in `main.page-wrap` een voor een opkomen, met dezelfde beweging als `.reveal` op de homepage (18px omhoog, 0,6s, 55ms tussen blokken onder elkaar).
+- Bewust niet toegepast op `/book`, `/klant`, `/calculator-l2l`, `/privacy`, `/algemene-voorwaarden` en `404`. Dat zijn formulier- en naslagpagina's; daar vertraagt beweging alleen waar iemand voor komt.
+- Binnen een pagina doen het kruimelpad, de metaregel, de inhoudsopgave en de lopende tekst (`.prose`) niet mee, zodat er niets beweegt terwijl je leest.
+- Blokken die bij het laden al in beeld staan krijgen geen fade, dus de bovenkant van de pagina staat er direct. Bij `prefers-reduced-motion` doet het script niets en blijft alles zichtbaar. De opacity wordt alleen door het script gezet, dus zonder JS blijft de pagina gewoon leesbaar.
+
 **Aanvulling 17 september 2026: iconen en garantiebalk op /leads**
 - `#gebruik`: de vier kaarten (E-mail, Bellen, LinkedIn, Advertenties en CRM) hebben een lijnicoon in een blauw tegeltje gekregen. Nieuwe CSS: `.lz-card-h`, `.lz-card-ic`, met dezelfde maten en kleuren als `.lz-stat-ic` in de statsbalk. Voor LinkedIn staat er een neutraal netwerkicoon en niet het LinkedIn-beeldmerk.
 - Nieuwe garantiebalk `.lz-gar` onder de configurator `#samenstellen`, met de ronde sticker rechtsboven, overgenomen van `.gar-bar` op de homepage. Kop: "Je betaalt alleen voor wat we echt leveren". Inhoud: de 3-procent-aanvulling en de terugstorting bij een te kleine doelgroep, met een link naar `#faq`.
