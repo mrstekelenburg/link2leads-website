@@ -159,7 +159,7 @@ h1.page-h .blue{color:var(--accent2);}
 .kb-card{display:block;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:26px 28px;transition:border-color .2s,transform .2s;}
 .kb-card:hover{border-color:rgba(47,111,237,.35);transform:translateY(-2px);}
 .kb-card .kb-meta{font-family:var(--f);font-weight:700;font-size:12.5px;letter-spacing:.2px;color:var(--muted);margin-bottom:10px;}
-.kb-card h2{font-size:21px;line-height:1.25;letter-spacing:-.5px;font-weight:700;color:var(--white);margin:0 0 8px;}
+.kb-card h2{font-size:21px;line-height:1.25;letter-spacing:-.5px;font-weight:700;color:var(--accent2);margin:0 0 8px;}
 .kb-card p{font-size:15px;line-height:1.65;color:rgba(240,239,237,.68);margin:0;}
 .kb-card .kb-more{display:inline-block;margin-top:14px;font-size:14px;font-weight:600;color:var(--accent2);}
 
@@ -169,8 +169,8 @@ h1.page-h .blue{color:var(--accent2);}
 .related ul{list-style:none;padding:0;display:grid;gap:10px;}
 .related li{margin:0;}
 .related a{display:block;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 18px;
-  font-size:15px;font-weight:600;color:rgba(240,239,237,.85);text-decoration:none;transition:border-color .2s;}
-.related a:hover{border-color:rgba(47,111,237,.35);color:var(--white);}
+  font-size:15px;font-weight:600;color:var(--accent2);text-decoration:none;transition:border-color .2s;}
+.related a:hover{border-color:rgba(47,111,237,.35);}
 .related a span{display:block;font-weight:400;font-size:13.5px;color:var(--muted);margin-top:3px;}
 
 /* ── INHOUDSOPGAVE ── */
