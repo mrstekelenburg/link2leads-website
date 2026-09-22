@@ -9592,5 +9592,13 @@ window.L2L_I18N_DATA = {
 },
 "je krijgt elke week een rapportage met wat er is verstuurd en wat eruit kwam, en elke positieve reactie gaat direct door naar je eigen mailbox met naam, functie, organisatie en contactgegevens erbij. Wil je alles zien, ook de afwijzingen, dan sturen we elke reactie live door. Bewust geen portaal met een inlog: wat je moet zien staat in je eigen mailbox, waar het hoort. Elke reactie wordt met de hand gelezen, niet door een scoringsmodel.": {
 "en": "you get a weekly report with what was sent and what came back, and every positive reply goes straight to your own inbox with name, role, organisation and contact details attached. If you want to see everything, including rejections, we forward every reply live. Deliberately no portal with a login: what you need to see is in your own inbox, where it belongs. Every reply is read by hand, not by a scoring model."
+},
+
+/* ── Accordeonkoppen prijssectie (22 sept 2026) ── */
+"Wij versturen ook in het weekend": {
+"en": "We send on weekends too"
+},
+"We mailen op het moment dat er iets verandert": {
+"en": "We email at the moment something changes"
 }
 };

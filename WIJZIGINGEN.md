@@ -1,3 +1,7 @@
+**Correctie 22 september 2026: prijssectie was te druk**
+- De twee blokken van vanochtend ("Wij versturen ook in het weekend" en "We mailen op het moment dat er iets verandert") stonden als volledige kaarten tussen de pakketkaarten en de configurator en tussen de configurator en de garantiebalk. De sectie werd daardoor 3.175 pixels hoog en de kaarten raakten los van de configurator waar ze naartoe scrollen. Beide blokken zijn nu accordeon-items onder "Garantie en contract", met dezelfde inhoud (tabel, drie signaalkaarten, voetnoot). Sectie terug naar 2.436 pixels, dus 240 pixels boven de oude hoogte, en dat zit in de extra regel op de pakketkaarten. Ankers `#verzenddagen` en `#koopsignalen` werken nog.
+- CSS `.wknd` en `.ksig` verliezen hun eigen kaartstijl binnen `.pa-body`. Twee i18n-sleutels voor de accordeonkoppen.
+
 **Aanvulling 22 september 2026 (4): geen portaal, alles in de eigen mailbox**
 - Bewuste keuze tegenover bureaus met een klantportaal: nieuw FAQ-item op de homepage "Krijg ik een portaal of een inlog?" (ook in het FAQPage-schema). Antwoord: alle positieve reacties komen direct in de eigen mailbox, op verzoek elke reactie live, plus de wekelijkse rapportage; geen inlog bij een derde partij.
 - Stap 4 van "Van lijst naar gesprek" zegt nu "Alle positieve reacties, of op verzoek elke reactie, direct in je eigen mailbox. Geen portaal, geen inlog".
