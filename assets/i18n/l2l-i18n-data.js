@@ -9614,5 +9614,17 @@ window.L2L_I18N_DATA = {
 },
 "dat er": {
 "en": "something"
+},
+"De vergelijking →": {
+"en": "The comparison →"
+},
+"Hyperpersonalisatie, LinkedIn en Full Service kies je erbij via": {
+"en": "You add Hyperpersonalisation, LinkedIn and Full Service via"
+},
+"Stel je campagne samen": {
+"en": "Build your campaign"
+},
+"Geen setupfee en geen aparte toolingrekening. Hyperpersonalisatie, LinkedIn en Full Service kies je erbij via": {
+"en": "No setup fee and no separate tooling bill. You add Hyperpersonalisation, LinkedIn and Full Service via"
 }
 };
