@@ -1,6 +1,6 @@
 # Link2Leads, volledige tekst van alle kennispagina's
 
-Laatst bijgewerkt: 14 september 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
+Laatst bijgewerkt: 22 september 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
 Alle cijfers komen uit campagnes die Link2Leads namens klanten draait, gemeten op 2 september 2026.
 
 
@@ -923,3 +923,573 @@ Instap: tien gratis leads uit de opgegeven doelgroep, eenmalig per bedrijf, zond
 
 Voorwaarden: minimale afname 500 leads, tegoed twaalf maanden geldig, bedragen exclusief btw, betaling per factuur. Bij meer dan 3 procent bounce wordt kosteloos aangevuld. Bronnen zijn openbare bedrijfswebsites, openbare zakelijke profielen en eigen verificatie; het Handelsregister wordt niet als bron gebruikt en niet doorverkocht. Adressen van personen die eerder bezwaar hebben gemaakt, worden vooraf uitgefilterd.
 
+==============================================================================
+# Wat kost B2B leadgeneratie?
+Bron: https://www.link2leads.nl/kennis/wat-kost-b2b-leadgeneratie
+==============================================================================
+
+Vijf kanalen, vijf prijskaartjes die een factor tien uit elkaar liggen. Wat je per maand betaalt, wat je ervoor terugkrijgt en hoe je ze eerlijk naast elkaar zet.
+
+Leadgeneratie is een verzamelnaam voor vier heel verschillende manieren om aan gesprekken te komen, met prijzen die een factor tien uit elkaar liggen. Hieronder wat elk kanaal in Nederland kost, wat je ervoor terugkrijgt en hoe je ze eerlijk naast elkaar zet.
+
+
+## Het korte antwoord
+
+Voor B2B-leadgeneratie in Nederland betaal je in 2026 grofweg:
+
+Kanaal	Kosten per maand	Wat je koopt
+Koude e-mail uitbesteed	€ 995 – € 2.200	Volume en gekwalificeerde reacties
+Telefonische acquisitie uitbesteed	€ 1.500 – € 4.000	Gesprekken en afspraken
+LinkedIn-outreach uitbesteed	€ 800 – € 2.500	Connecties en gesprekken
+Google Ads en SEA	€ 1.000 – € 10.000+	Klikken van mensen die al zoeken
+Eigen SDR in dienst	€ 5.750 – € 6.900	Capaciteit die je zelf aanstuurt
+
+Marktprijzen op basis van gepubliceerde tarieven van Nederlandse aanbieders en werkgeverslasten volgens de gangbare vuistregel, gecontroleerd op 3 september 2026.
+
+Het bedrag per maand zegt alleen niets. De vraag die je eigenlijk stelt is: wat kost mij een gesprek met iemand die kan tekenen. Daar komen we onderaan op terug.
+
+
+## Het verschil tussen een lead en een gesprek
+
+Bureaus tellen niet hetzelfde. Dezelfde campagne kan 400 leads, 87 positieve reacties of 12 afspraken heten, afhankelijk van wie de rekening stuurt. Voordat je prijzen vergelijkt, vraag je bij elke aanbieder hetzelfde uit:
+
+- Wat telt als resultaat? Een gedownload whitepaper is iets heel anders dan iemand die vraagt of je volgende week kunt bellen.
+- Wie bepaalt dat? Als de leverancier zelf classificeert en op basis daarvan factureert, zit er een prikkel in het model.
+- Wat telt niet mee? Een eerlijke definitie noemt ook de afwezigheidsmeldingen, bounces, afmeldingen en uitstelreacties.
+- Wat moet jij nog zelf doen? Filteren en doorsturen is iets anders dan beantwoorden en inplannen.
+Zonder die vier antwoorden vergelijk je bedragen die niet over hetzelfde gaan.
+
+
+## De kanalen op een rij
+
+
+### Koude e-mail
+
+Het goedkoopste kanaal per contactmoment en het best schaalbaar, mits je doelgroep per e-mail bereikbaar is en groot genoeg. Vanaf ongeveer 1.000 bedrijven wordt het interessant. Onder dat aantal is je lijst binnen een paar weken op en betaal je voor volume dat er niet is. De volledige rekensom staat in wat kost cold email uitbesteden.
+
+
+### Telefonische acquisitie
+
+Duurder per contactmoment, maar je hoort direct waarom iemand nee zegt. Werkt goed bij complexe proposities die uitleg nodig hebben en bij kleine doelgroepen waar je elk bedrijf wilt spreken. Let op: sinds 1 juli 2026 gelden er strengere regels voor ongevraagde zakelijke telefoongesprekken dan voor e-mail.
+
+
+### LinkedIn-outreach
+
+Goed voor functies die hun mail nauwelijks lezen en voor markten waar het netwerk zwaarder weegt dan de boodschap. Het volume ligt structureel lager dan bij e-mail, omdat LinkedIn hard begrenst hoeveel uitnodigingen en berichten je per week mag sturen.
+
+
+### Google Ads
+
+Het enige kanaal waar de koper zelf begint. Daarmee is de intentie het hoogst en de kosten per klik ook. Werkt alleen als er daadwerkelijk op je categorie wordt gezocht. Bij een nieuwe of onbekende propositie zoekt niemand op je oplossing en heb je een kanaal nodig dat zelf begint.
+
+
+### Eigen SDR
+
+De duurste optie in jaar 1 en de goedkoopste in jaar 3, mits diegene blijft. Reken op zes tot twaalf weken inwerktijd waarin je volledig betaalt en niets ontvangt. De volledige businesscase staat in cold email uitbesteden of een SDR aannemen.
+
+
+## Reken het om naar kosten per gesprek
+
+Neem een uitbesteed e-mailtraject van € 1.695 per maand voor 15.000 mails. Levert dat 45 positieve reacties op, dan is dat € 38 per reactie. Levert het er 15 op, dan is het € 113. Zet daar een SDR naast op € 6.300 per maand die 25 gesprekken voert: € 252 per gesprek, plus de maanden waarin hij nog wordt ingewerkt.
+
+Vul daarna je eigen conversie in. Sluit je een op de vijf gesprekken en is een klant gemiddeld € 3.000 waard, dan is elk gesprek € 600 waard. Bij € 113 per reactie verdien je een traject van € 1.695 terug bij drie gesprekken per maand.
+
+Let op
+ Dit zijn rekenvoorbeelden om de vergelijking te laten zien, geen belofte. Hoeveel reacties een campagne oplevert hangt af van je aanbod, je doelgroep en het seizoen. Wat het bij ons werkelijk is, staat in hoeveel reacties krijg je op 30.000 mails.
+
+## Welk kanaal past bij jou
+
+- Doelgroep boven 1.000 bedrijven en per e-mail bereikbaar: koude e-mail, laagste kosten per gesprek.
+- Doelgroep onder 500 bedrijven: telefoon of LinkedIn, want je lijst is te snel op.
+- Er wordt actief op je categorie gezocht: Google Ads erbij, want die intentie laat je anders liggen.
+- Meer dan vijftien afspraken per maand nodig en iemand die kan aansturen: een eigen SDR wordt vanaf dat punt verdedigbaar.
+In de praktijk kiezen de meeste Nederlandse B2B-bedrijven met een doelgroep vanaf 1.000 bedrijven voor e-mail als basis, omdat het kanaal het snelst aan te zetten is en het risico per maand het kleinst.
+
+
+## Veelgestelde vragen
+
+
+**Wat kost een B2B-lead gemiddeld in Nederland?**
+Dat hangt volledig af van wat er lead wordt genoemd. Een gedownload document kost een paar euro, een gesprek met een beslisser die interesse heeft kost in koude e-mail tussen de € 38 en € 150. Vraag altijd eerst wat er precies wordt geteld voordat je bedragen vergelijkt.
+
+
+**Is leadgeneratie uitbesteden goedkoper dan zelf doen?**
+In het eerste jaar vrijwel altijd wel. Zelf de tooling kopen kost € 280 tot € 1.315 per maand plus een tot twee uur per werkdag van iemand die het draait, en de eerste twee tot drie maanden gaan op aan warmup en leergeld. Vanaf jaar twee of drie kantelt dat, mits je de kennis in huis houdt.
+
+
+**Hoeveel budget heb ik minimaal nodig?**
+Voor een serieus uitbesteed e-mailtraject in Nederland begint het rond € 995 per maand met een minimale looptijd van drie maanden. Onder dat bedrag koop je te weinig volume om te kunnen leren wat werkt.
+
+
+**Hoe snel levert leadgeneratie iets op?**
+Bij koude e-mail ben je doorgaans binnen twee weken live en komen de eerste reacties drie tot tien dagen na livegang. Bij advertenties kan het sneller, bij een eigen SDR duurt het zes tot twaalf weken voordat er structureel iets uitkomt.
+
+
+==============================================================================
+# Koude acquisitie uitbesteden: zo werkt het
+Bron: https://www.link2leads.nl/kennis/acquisitie-uitbesteden
+==============================================================================
+
+Je geeft de lijst, de teksten en de verzending weg, en je houdt het gesprek. Wat dat kost, hoe de eerste drie maanden lopen en waarom de meeste trajecten op de doelgroep stuklopen.
+
+Koude acquisitie uitbesteden betekent dat een externe partij het zoeken en benaderen van nieuwe klanten overneemt, en jij alleen nog de gesprekken voert met wie reageert. Hieronder wat je precies weggeeft, wat je zelf houdt, wat het kost en waar het in de praktijk misgaat.
+
+
+## Het korte antwoord
+
+Een bureau neemt vier dingen over: de lijst met bedrijven die je wilt bereiken, de teksten, de verzendinfrastructuur en het bewaken daarvan. Wat je zelf houdt is het gesprek. In Nederland betaal je voor een volledig beheerd e-mailtraject tussen de € 800 en € 2.000 per maand, met een minimale looptijd van drie maanden omdat een verzendomgeving eerst moet worden opgebouwd.
+
+De vraag die je eerst beantwoordt is niet welk bureau, maar of jouw markt groot genoeg is. Onder de duizend bedrijven in je doelgroep is een campagne binnen een paar weken door de lijst heen en betaal je voor capaciteit die je niet gebruikt.
+
+
+## Wat je precies uitbesteedt
+
+Bij koude acquisitie per e-mail zit het meeste werk niet in het versturen. Dat is het makkelijkste deel. Het werk zit in alles eromheen, en dat is ook waar het misgaat als je het zelf probeert.
+
+- De doelgroep vertalen naar een lijst. Je zegt wie je ideale klant is; het bureau zet dat om in branche, bedrijfsgrootte, regio en functietitel, en zoekt daar bedrijven bij die op je bestaande klanten lijken. Elk adres wordt geverifieerd voordat er iets uitgaat, want een lijst met dode adressen laat je bezorging instorten.
+- De teksten. Een eerste mail en twee opvolgmails, geschreven voor jouw doelgroep en niet voor iedereen. Je keurt ze goed voordat ze de deur uit gaan.
+- De verzendomgeving. Aparte domeinen en mailboxen met eigen SPF, DKIM en DMARC, die eerst twee weken warmdraaien. Je eigen domein wordt nooit gebruikt, zodat je normale mailverkeer buiten schot blijft als er in een campagne iets misgaat.
+- Het bewaken. Bounce, spamklachten en mailboxgezondheid worden dagelijks bekeken. Loopt de bezorging terug, dan gaat het tempo omlaag, worden mailboxen vervangen of wordt de lijst opgeschoond.
+Daarbovenop komt het lezen van de reacties. Bij ons doet een mens dat, geen scoringsmodel, zodat je alleen doorgestuurd krijgt wat een gesprek waard is, met naam, functie, organisatie en telefoonnummer erbij.
+
+
+## Wat je zelf houdt
+
+Een bureau dat belooft je hele salesproces over te nemen, verkoopt je iets anders dan koude acquisitie. Wat bij jou blijft:
+
+- Het gesprek. Iemand reageert omdat hij interesse heeft in jouw aanbod, niet in dat van een tussenpersoon. Dat gesprek voer je zelf, het liefst binnen een werkdag.
+- De goedkeuring. Je ziet de lijst en de teksten voordat de campagne aangaat. Dat is geen formaliteit: jij weet welke bedrijven al klant zijn, welke je bewust niet wilt benaderen en welke woorden in jouw markt verkeerd vallen.
+- De opvolging na het eerste gesprek. Offertes, onderhandeling en nazorg zijn jouw werk.
+Heb je geen tijd om reacties op te pakken, dan is dat een apart probleem met een aparte oplossing. Wij handelen de reacties af en zetten de afspraak in je agenda met de Full Service-module, of we zetten er via Link2Talent een setter op.
+
+
+## Wat het kost
+
+De markt voor uitbestede e-mailacquisitie in Nederland ligt tussen de € 800 en € 2.000 per maand. Onze eigen pakketten:
+
+Pakket	Per maand	Mails per dag	Mails per maand	Bedrijven per maand
+Starter	€ 995	100	3.000	± 1.000
+Growth	€ 1.295	250	7.500	± 2.500
+Scale	€ 1.695	500	15.000	± 5.000
+Pro	€ 1.995	1.000	30.000	± 10.000
+
+Gerekend met zeven verzenddagen per week, dus 30 per maand, en drie mails per bedrijf (een eerste mail en twee opvolgmails). Bedragen exclusief btw, zonder setupfee en zonder aparte toolingrekening.
+
+Let bij elke offerte op wat er buiten het maandbedrag valt. Eenmalige opstartkosten, datakosten en tooling komen bij veel aanbieders apart, en dat scheelt al snel € 100 tot € 200 per maand plus een bedrag ineens. Vraag ook naar het aantal verzenddagen: wie alleen op werkdagen mailt, zit op gemiddeld 22 dagen per maand in plaats van 30, en dat is ruim een derde minder bereikte bedrijven voor dezelfde factuur. De volledige rekensom staat in wat kost cold email uitbesteden.
+
+
+## De eerste drie maanden
+
+Zo loopt een traject bij ons, en de tijdlijn is bij elk serieus bureau vergelijkbaar.
+
+Periode	Wat er gebeurt
+Week 1	Intake over aanbod, beslissers en doelgroep. Domeinen en mailboxen worden aangemaakt.
+Week 2	Mailboxen draaien warm. De eerste mail en twee opvolgmails worden geschreven, jij keurt lijst en teksten goed.
+Week 3	De campagne gaat live op een derde van je volume en groeit naar honderd procent. Eerste reacties doorgaans drie tot tien dagen na livegang.
+Maand 2	Bijsturen op de segmenten die reageren. Nieuwe teksten laten we minimaal drie weken draaien voordat we opnieuw wijzigen.
+Maand 3	Nu heb je genoeg data om te beoordelen wat het kanaal voor jouw markt doet.
+
+Dat is ook de reden dat de looptijd minimaal drie maanden is. Korter beoordeel je iets dat nog niet af is.
+
+
+## Waar het in de praktijk misgaat
+
+Drie oorzaken zien wij het vaakst terug, in deze volgorde.
+
+De doelgroep is te breed. Dit is verreweg de grootste. Campagnes voor een klant die zegt dat iedereen met personeel een prospect is, presteren structureel slechter dan campagnes met een scherp afgebakende branche. In onze eigen cijfers liep de reply rate binnen een campagne van 18.594 contactpersonen per segment uiteen van 2,3 tot 7,8 procent, met precies dezelfde teksten. De lijst doet dus meer dan de tekst.
+
+Reacties blijven liggen. Iemand die op dinsdag reageert en op vrijdag antwoord krijgt, is de helft van de tijd al verder. Als niemand bij jou binnen een werkdag kan reageren, regel dat dan voordat de campagne aangaat.
+
+Te vroeg ingrijpen. Na twee weken concluderen dat de teksten niet werken en alles omgooien betekent dat je nooit weet wat wel werkte. Laat nieuwe teksten drie weken staan.
+
+Wat er technisch mis kan gaan met de bezorging staat apart uitgewerkt in waarom komen je koude mails niet aan.
+
+
+## Wanneer uitbesteden loont
+
+Uitbesteden is de betere keuze als je doelgroep minstens duizend bedrijven telt, je aanbod al aan betalende klanten is verkocht en een nieuwe klant je in het eerste jaar enkele duizenden euro’s waard is. Dan verdient een van de eerste klanten de hele looptijd terug.
+
+Zelf doen kan prima als je iemand hebt met tijd en kennis van bezorging, adresdata en teksten, en als je onder de 250 mails per dag blijft. Boven de 500 per dag lopen de mailbox- en datakosten zo op dat het verschil met een all-in pakket klein wordt, en dan betaal je bij zelf doen ook nog de uren en het risico op verbrande domeinen.
+
+
+## Veelgestelde vragen
+
+
+**Wat kost koude acquisitie uitbesteden per maand?**
+In Nederland betaal je voor een volledig beheerd e-mailtraject doorgaans € 800 tot € 2.000 per maand. Onze eigen pakketten zijn € 995, € 1.295, € 1.695 en € 1.995 per maand, all-in en zonder setupfee. Telefonische acquisitie is duurder: daar reken je 150 tot 400 euro per geplande afspraak.
+
+
+**Hoe snel levert het iets op?**
+De eerste twee weken zijn opbouw en warmup, in week 3 gaat de campagne live. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen, in sommige campagnes al op dag 1. Een betrouwbaar beeld van het kanaal heb je na drie maanden.
+
+
+**Blijft mijn eigen domein veilig?**
+Ja, mits het bureau vanaf aparte verzenddomeinen werkt. Wij versturen nooit vanaf je hoofddomein. We zetten losse domeinen en mailboxen op die we opwarmen en bewaken, zodat je website, je e-mail en je merkreputatie buiten de campagne blijven.
+
+
+**Hoe groot moet mijn doelgroep zijn?**
+Reken op minimaal duizend bedrijven. Daaronder is je lijst binnen een paar weken op en kun je niet segmenteren, en juist segmentatie levert het meeste op. Past jouw markt niet bij dit kanaal, dan zeggen wij dat in de gratis fitcheck voordat je tekent.
+
+
+**Wat moet ik zelf nog doen?**
+Een onboardingsessie waarin we je ideale klant en je aanbod scherpstellen, daarna het goedkeuren van de lijst en de teksten, en vervolgens het voeren van de gesprekken met wie reageert. De rest loopt via ons.
+
+
+==============================================================================
+# Sales uitbesteden: welk deel geef je weg?
+Bron: https://www.link2leads.nl/kennis/sales-uitbesteden
+==============================================================================
+
+Je kunt de bovenkant van je funnel weggeven, het kwalificatiegesprek, of allebei. Wat elk van die drie kost, en waarom betalen per afspraak zelden goedkoper uitpakt.
+
+Sales uitbesteden klinkt als een ding, maar er zitten drie heel verschillende afspraken achter met heel verschillende prijskaartjes en risico’s. Hieronder welk deel van je verkoopproces je werkelijk kunt weggeven, wat dat kost en waarom het model waarin je pas bij resultaat betaalt in B2B meestal tegenvalt.
+
+
+## Het korte antwoord
+
+Je kunt de bovenkant van je funnel uitbesteden: het zoeken en benaderen van bedrijven tot en met de eerste geïnteresseerde reactie. Dat kost in Nederland € 800 tot € 2.000 per maand voor e-mail. Je kunt ook het gesprek zelf uitbesteden, aan een setter of closer, en dat gaat per uur of per commissie. Wat je niet kunt uitbesteden is weten waarom klanten bij je kopen, want daar is elke tekst en elk gesprek op gebouwd.
+
+Wij doen bewust alleen het eerste deel. Wij zoeken de bedrijven, mailen ze namens jou en leveren de gekwalificeerde positieve reacties af in jouw mailbox. Het gesprek voer jij, of wij zetten er een setter op.
+
+
+## Drie dingen die sales uitbesteden kan betekenen
+
+1. Alleen de eerste benadering. Een partij bouwt de lijst, schrijft de teksten, beheert de verzending en levert je de reacties. Vast maandbedrag, voorspelbaar, en het risico dat een maand tegenvalt ligt bij jou. Dit is waar wij zitten.
+
+2. Benadering plus het kwalificatiegesprek. Er komt iemand bij die reacties opvolgt, belt en de afspraak in je agenda zet. Dat gaat per uur (in de markt rond de € 30 tot € 45) of per gekwalificeerde afspraak. Zinvol als er bij jou niemand is die binnen een werkdag kan reageren.
+
+3. Het hele verkoopproces, inclusief closen. Een extern team dat namens jou offreert en tekent. In B2B werkt dit alleen bij een eenvoudig, gestandaardiseerd aanbod. Zodra er maatwerk of techniek bij komt kijken, verliest een externe closer het van iemand die het product echt kent.
+
+
+## Waarom no cure no pay in B2B tegenvalt
+
+Betalen per afspraak klinkt veilig: je betaalt alleen voor resultaat. In de praktijk verschuift het probleem alleen maar. De leverancier moet zijn risico terugverdienen, dus de prijs per afspraak ligt hoog, en hij verdient aan het aantal afspraken en niet aan de kwaliteit ervan. Dat betekent in een slechte maand druk om iets te leveren, en jij zit met een agenda vol gesprekken die nergens heen gaan.
+
+Vraag bij elk resultaatmodel drie dingen voordat je tekent: wat telt precies als resultaat, wie bepaalt dat, en waar zit het plafond. Zonder plafond is betalen per resultaat een open rekening. Met een te ruime definitie van resultaat betaal je voor afwezigheidsmeldingen.
+
+Wij werken daarom met een vast maandbedrag, en leggen op de twee grootste pakketten een minimumaantal gekwalificeerde positieve reacties vast in het contract. Halen we dat niet, dan draaien we kosteloos door tot het aantal er staat, maximaal drie maanden extra. De garantie gaat over positieve reacties en niet over afspraken, omzet of betalende klanten, want dat laatste hangt af van gesprekken die wij niet voeren.
+
+
+## De rekensom tegenover iemand in dienst
+
+De eerlijke vergelijking is niet het maandbedrag tegen nul, maar het maandbedrag tegen wat een eigen salesmedewerker in het eerste jaar kost.
+
+Post	Eigen SDR, jaar 1	Uitbesteed e-mailkanaal
+Directe kosten	€ 69.000 – € 83.000 inclusief werkgeverslasten, tooling en werkplek	€ 12.000 – € 26.000 per jaar
+Kosten voordat er iets uitkomt	€ 11.000 – € 20.000 aan inwerktijd	Twee tot drie weken opstart
+Tijd tot eerste resultaat	6 tot 12 weken	2 tot 4 weken
+Stoppen	Ontslagrecht en opzegtermijn	Drie maanden, daarna maandelijks
+Risico bij tegenvallen	Volledig bij jou, en vast	Beperkt tot de looptijd
+
+Kosten voor een eigen SDR volgens de gangbare vuistregel voor werkgeverslasten, uitgewerkt in cold email uitbesteden of een SDR aannemen.
+
+De uitkomst kantelt zodra je genoeg volume hebt om iemand fulltime bezig te houden en de kennis in huis wilt opbouwen. Onder dat punt koop je met uitbesteden vooral snelheid en het uitblijven van een vaste last.
+
+
+## Waar wij de grens leggen
+
+Wij zijn geen verkoopkantoor en willen dat ook niet zijn. Wat wij altijd doen: de doelgroep bepalen en de geverifieerde lijst opbouwen, de teksten schrijven en bijsturen, domeinen, mailboxen en warmup beheren, elke binnenkomende reactie met de hand lezen, en wekelijks rapporteren wat eruit is gegaan en wat er terugkwam.
+
+Wat er niet standaard in zit: het beantwoorden van reacties en het plannen van afspraken, tenzij je Full Service erbij neemt op Scale of Pro. Telefonische acquisitie doen we niet. En we garanderen geen afspraken, omzet of betalende klanten, omdat die van jouw gesprek afhangen.
+
+Die afbakening is bewust. Een partij die alles belooft, van de eerste mail tot de handtekening, verdeelt zijn aandacht over stappen waar hij geen grip op heeft. Wij leveren het stuk waarop we wel kunnen sturen, en zijn duidelijk over de rest.
+
+
+## Veelgestelde vragen
+
+
+**Wat kost sales uitbesteden in Nederland?**
+Voor het e-mailkanaal betaal je doorgaans € 800 tot € 2.000 per maand. Een externe setter of closer gaat per uur (in de markt rond de € 30 tot € 45) of op commissie. Telemarketingbureaus rekenen 150 tot 400 euro per geplande afspraak. Een eigen SDR kost in het eerste jaar € 69.000 tot € 83.000 inclusief lasten en tooling.
+
+
+**Is no cure no pay niet gewoon veiliger?**
+Zelden. De leverancier moet zijn risico terugverdienen, dus de prijs per afspraak is hoog en de prikkel ligt op aantallen in plaats van op kwaliteit. Vraag altijd wat er precies als resultaat telt, wie dat bepaalt en waar het plafond ligt. Zonder plafond is het een open rekening.
+
+
+**Nemen jullie ook de gesprekken over?**
+Niet standaard. Met de Full Service-module op Scale en Pro beantwoorden wij de reacties en zetten we de afspraak in je agenda. Het verkoopgesprek zelf voer je zelf, of we zetten er via Link2Talent een setter op.
+
+
+**Krijg ik garantie op resultaat?**
+Op de pakketten Scale en Pro leggen we vooraf een minimumaantal gekwalificeerde positieve reacties vast in het contract, berekend op je doelgroep, aanbod en marktgrootte. Halen we dat niet in drie campagnemaanden, dan draaien we kosteloos door tot het er staat, maximaal drie maanden extra. De garantie geldt voor positieve reacties, niet voor afspraken of omzet.
+
+
+**Kan ik tussentijds stoppen?**
+De eerste termijn is drie maanden, omdat de eerste twee weken warmup zijn en nieuwe teksten drie weken moeten draaien voordat je iets kunt beoordelen. Daarna loopt het maandelijks door en kun je per maand opzeggen.
+
+
+==============================================================================
+# Cold calling of cold e-mail?
+Bron: https://www.link2leads.nl/kennis/cold-calling-vs-cold-email
+==============================================================================
+
+Bellen levert sneller een echt gesprek, mailen levert meer gesprekken per euro. Wat elk kanaal kost per afspraak, hoeveel bedrijven je ermee bereikt en wanneer de telefoon wint.
+
+Bellen en mailen worden vaak tegenover elkaar gezet alsof er een winnaar is. Die is er niet, maar er is wel een duidelijk verschil in kosten per gesprek, in bereik per week en in wat het kost om ermee te stoppen. Hieronder de cijfers naast elkaar.
+
+
+## Het korte antwoord
+
+Koude e-mail is per bereikt bedrijf verreweg het goedkoopst en schaalt zonder dat je mensen aanneemt. Bellen levert sneller een echt gesprek op en werkt beter bij een complex aanbod, maar kost per afspraak een veelvoud en schaalt alleen door meer uren in te kopen.
+
+	Koude e-mail	Cold calling
+Kosten per maand (uitbesteed)	€ 800 – € 2.000	Vanaf ± € 2.000
+Kosten per geplande afspraak	Doorgaans € 100 – € 200	€ 150 – € 400
+Bedrijven per maand bereikt	1.000 tot 10.000	Enkele honderden
+Tijd tot eerste resultaat	2 tot 4 weken	1 tot 2 weken
+Opschalen	Pakket omhoog	Meer uren of meer mensen
+Uitleg mogelijk	Beperkt, vier zinnen	Volledig, in gesprek
+
+Marktbandbreedtes op basis van gepubliceerde tarieven van Nederlandse aanbieders, gecontroleerd op 22 september 2026. Onze eigen kosten per afspraak in een campagne voor een softwarebedrijf kwamen uit op € 134.
+
+
+## Kosten per gesprek
+
+Bij bellen betaal je voor tijd. Een belbureau realiseert gemiddeld ongeveer één afspraak per vier uur bellen, en daar rekent het een uurtarief of een bedrag per afspraak voor. Dat bedrag is redelijk stabiel: of je nu tien of honderd afspraken wilt, de prijs per afspraak beweegt nauwelijks mee.
+
+Bij e-mail betaal je voor capaciteit, en de prijs per gesprek daalt naarmate je doelgroep groter is en scherper is afgebakend. In onze eigen campagne voor een softwarebedrijf leverde € 5.085 aan campagne-investering 38 gekwalificeerde afspraken op, dus € 134 per afspraak, en € 84.000 aan pipeline. Diezelfde som kan bij een slecht afgebakende doelgroep drie keer zo ongunstig uitvallen, want de lijst bepaalt het resultaat meer dan de tekst.
+
+
+## Bereik per week
+
+Dit is het verschil dat de meeste mensen onderschatten. Eén beller haalt op een werkdag tussen de zestig en honderd pogingen, waarvan een deel niet opneemt. Een e-mailcampagne op ons Scale-pakket benadert 500 bedrijven per dag, zeven dagen per week, dus 15.000 mails per maand naar ongeveer 5.000 bedrijven.
+
+Dat maakt e-mail ook het enige kanaal waarmee je kunt testen. Met vijf segmenten naast elkaar zie je binnen een maand welk segment reageert. In een van onze campagnes van 18.594 contactpersonen liep de reply rate per segment uiteen van 2,3 tot 7,8 procent bij precies dezelfde tekst. Aan de telefoon duurt het maanden voordat je zoiets betrouwbaar weet.
+
+
+## Wanneer bellen wint
+
+Er zijn situaties waarin de telefoon gewoon het betere kanaal is.
+
+- Je doelgroep is klein. Onder de paar honderd bedrijven kun je ze net zo goed allemaal bellen. E-mail heeft volume nodig om iets te kunnen leren.
+- Je aanbod is niet in vier zinnen uit te leggen. Vraagt de propositie om context, tekening of demonstratie, dan verlies je dat in een koude mail.
+- Je klantwaarde is hoog en je markt is bekend. Bij een handvol grote accounts met een lange verkoopcyclus is persoonlijk contact meer waard dan bereik.
+- Je doelgroep leest nauwelijks mail. In sommige sectoren zit de beslisser de hele dag buiten.
+
+## De regels verschillen
+
+Voor telefonische acquisitie naar bedrijven en consumenten gelden andere en strengere regels dan voor zakelijke e-mail, en die zijn de laatste jaren aangescherpt. Wat er precies is veranderd en wat er voor koude e-mail naar zakelijke ontvangers geldt, staat met de wetsartikelen erbij in mag koude e-mail in Nederland. Wij richten campagnes zakelijk en relevant in, met een duidelijke afmeldmogelijkheid, en verwerken afmeldingen direct. Voor jouw specifieke situatie is juridisch advies op zijn plaats.
+
+
+## Allebei, in deze volgorde
+
+De combinatie werkt beter dan elk kanaal apart, maar dan wel in de goede volgorde. Mail eerst breed, kijk welke segmenten reageren, en zet de telefoon in op de bedrijven die hebben geopend, geklikt of gereageerd zonder ja te zeggen. Dan bel je warm in plaats van koud, en zakt het aantal belminuten per afspraak fors.
+
+Wie dat andersom doet, betaalt de duurste uren om erachter te komen welk segment interessant is. Die vraag beantwoordt e-mail in een maand voor een fractie van het geld.
+
+
+## Veelgestelde vragen
+
+
+**Wat is goedkoper, bellen of mailen?**
+Mailen, per bereikt bedrijf met afstand. Een uitbesteed e-mailtraject kost € 800 tot € 2.000 per maand en bereikt daarmee duizenden bedrijven. Telemarketing begint rond de € 2.000 per maand of 150 tot 400 euro per geplande afspraak, bij enkele honderden bedrijven.
+
+
+**Werkt cold calling nog in 2026?**
+Ja, vooral bij een kleine doelgroep, een complex aanbod of een hoge klantwaarde. Het is het duurste kanaal per gesprek en het schaalt alleen door meer uren in te kopen, maar je krijgt er wel direct een echt gesprek voor terug.
+
+
+**Kan ik beide kanalen combineren?**
+Dat is de sterkste opzet, mits je begint met mailen. Je gebruikt e-mail om te zien welke segmenten reageren en zet de telefoon daarna in op bedrijven die interesse toonden. Zo bel je warm en heb je minder belminuten per afspraak nodig.
+
+
+**Hoeveel afspraken levert koude e-mail op?**
+Dat hangt vooral af van hoe scherp je doelgroep is afgebakend. In een campagne voor een softwarebedrijf leverde € 5.085 aan campagne-investering 38 gekwalificeerde afspraken op in 90 dagen, dus € 134 per afspraak. Binnen een andere campagne liep de reply rate per segment uiteen van 2,3 tot 7,8 procent bij dezelfde tekst.
+
+
+**Gelden voor bellen dezelfde regels als voor mailen?**
+Nee. Voor telefonische acquisitie gelden andere en strengere regels dan voor zakelijke e-mail. Wat er voor koude e-mail naar zakelijke ontvangers geldt, staat met de wetsartikelen erbij op onze pagina over koude e-mail en de wet. Voor je eigen situatie is juridisch advies op zijn plaats.
+
+
+==============================================================================
+# Zeven vragen aan een leadgeneratiebureau
+Bron: https://www.link2leads.nl/kennis/leadgeneratie-bureau-kiezen
+==============================================================================
+
+De meeste bureaus verkopen hetzelfde verhaal. Het verschil zit in wat er als resultaat telt, wat er per maand wordt verstuurd en wat er gebeurt als dat niet wordt gehaald.
+
+De meeste leadgeneratiebureaus verkopen hetzelfde verhaal. Het verschil zit in de antwoorden op zeven vragen die vrijwel niemand stelt, en die pas in maand twee pijn doen als je ze hebt overgeslagen. Hieronder de vragen, waarom ze ertoe doen en hoe wij ze zelf beantwoorden.
+
+
+## Het korte antwoord
+
+Vergelijk bureaus niet op het maandbedrag, maar op vier dingen die je zwart op wit kunt krijgen: wat er precies als resultaat telt, hoeveel er per maand wordt verstuurd, wat er gebeurt als dat niet wordt gehaald, en of je live kunt meekijken. Een bureau dat op die vier punten vaag blijft, is duurder dan het bedrag op de offerte.
+
+
+## De zeven vragen
+
+
+### 1. Wat telt bij jullie als lead?
+
+Dit is de vraag die het vaakst geld kost. Dezelfde campagne kan 400 leads, 87 positieve reacties of 12 afspraken heten, afhankelijk van wie de rekening stuurt. Een gedownload document is iets heel anders dan iemand die vraagt of je volgende week kunt bellen.
+
+Ons antwoord: een positieve reactie is een vraag om een gesprek of demo, een vraag naar de prijs, een inhoudelijke vraag over je aanbod of een doorverwijzing naar de juiste collega. Afwezigheidsmeldingen, bounces, afmeldingen, privacyvragen en opgeheven bedrijven tellen niet mee. Dat staat op onze pakkettenpagina zodat je het kunt nakijken voordat je tekent.
+
+
+### 2. Staat de prijs op jullie site?
+
+Prijs op aanvraag betekent dat het bedrag afhangt van wat er over tafel gaat. Dat hoeft niet verkeerd te zijn, maar het maakt vergelijken onmogelijk en zet jou op achterstand. Let vooral op eenmalige opstartkosten, datakosten en tooling: die komen vaak pas in de offerte naar boven en schelen € 100 tot € 200 per maand plus een bedrag ineens.
+
+Ons antwoord: € 995, € 1.295, € 1.695 en € 1.995 per maand, all-in, geen setupfee en geen aparte toolingrekening. De add-ons staan er met hun prijs bij.
+
+
+### 3. Hoeveel wordt er per maand verstuurd, en staat dat in het contract?
+
+Bij een vast maandbedrag koop je in feite verzendcapaciteit. Vraag dus wat er gebeurt als er in week drie niets is verzonden. Vraag ook op hoeveel dagen per maand er wordt verstuurd: wie alleen op werkdagen mailt, zit op gemiddeld 22 dagen in plaats van 30, en dat is ruim een derde minder bereikte bedrijven voor dezelfde factuur.
+
+Ons antwoord: minimaal 30.000 verzonden mails per maand op Pro, naar rato op de andere pakketten, vastgelegd in het contract. Zeven verzenddagen per week. Valt er een dag uit, dan halen we dat de dag erna in.
+
+
+### 4. Vanaf welk domein wordt er verstuurd?
+
+Wie vanaf jouw hoofddomein mailt, zet je normale e-mailverkeer op het spel. Gaat er iets mis met de bezorging, dan raakt dat je offertes en je factuurmail, niet alleen een campagne.
+
+Ons antwoord: nooit vanaf je hoofddomein. We zetten aparte verzenddomeinen en mailboxen op met eigen SPF, DKIM en DMARC, laten die twee weken warmdraaien en houden de warmup aan terwijl de campagne loopt. We hanteren maximaal 25 mails per mailbox per dag, en werken naar 12 toe. Volume komt uit het aantal mailboxen en niet uit hardere instellingen op een enkele box.
+
+
+### 5. Keur ik de lijst en de teksten goed?
+
+Jij weet welke bedrijven al klant zijn, welke je bewust niet wilt benaderen en welke woorden in jouw markt verkeerd vallen. Een bureau dat zonder jouw akkoord live gaat, zet jouw naam onder een tekst die je niet hebt gezien.
+
+Ons antwoord: de volledige startlijst en de volledige teksten gaan naar je toe voordat de campagne aangaat, en jij keurt allebei goed.
+
+
+### 6. Kan ik live meekijken?
+
+Een maandrapport laat zien wat er is gebeurd toen je er niets meer aan kon doen. Vraag hoe vaak je iets hoort en hoe snel een positieve reactie bij jou is.
+
+Ons antwoord: je krijgt elke week een rapportage met wat er is verstuurd en wat eruit kwam, en elke positieve reactie gaat direct door naar je eigen mailbox met naam, functie, organisatie en contactgegevens erbij. Wil je alles zien, ook de afwijzingen, dan sturen we elke reactie live door. Bewust geen portaal met een inlog: wat je moet zien staat in je eigen mailbox, waar het hoort. Elke reactie wordt met de hand gelezen, niet door een scoringsmodel.
+
+
+### 7. Wat gebeurt er als het tegenvalt?
+
+Vraag naar de opzegtermijn, naar wat er met de opgebouwde verzendreputatie en de domeinen gebeurt als je stopt, en of er een minimumresultaat op papier staat. Mondelinge beloftes over aantallen zijn geen afspraak.
+
+Ons antwoord: op Scale en Pro spreken we vooraf een minimumaantal gekwalificeerde positieve reacties af voor drie campagnemaanden, berekend op je doelgroep, aanbod en marktgrootte, en dat staat in je contract. Halen we het niet, dan draaien we kosteloos door tot het aantal er staat, maximaal drie maanden extra, zonder abonnements-, mailbox-, domein- of datakosten. De garantie geldt voor positieve reacties en niet voor afspraken, omzet of betalende klanten.
+
+
+## Vier antwoorden waarop je weg moet lopen
+
+- Een gegarandeerd aantal afspraken. Afspraken hangen af van gesprekken die het bureau niet voert. Wie daar een getal aan hangt, verdient aan volume en zal dat volume leveren.
+- Een gekochte lijst die meer klanten gebruikt. Je betaalt dan voor bedrijven die dezelfde week door drie anderen worden gemaild.
+- Geen minimumvolume in het contract. Dan is het aantal mails een streefgetal en heb je geen noemer om resultaat tegen af te zetten.
+- Vaagheid over de verzendomgeving. Als niet duidelijk is vanaf welk domein er wordt gemaild, is het antwoord vaak dat van jou.
+
+## Tien Nederlandse bureaus naast elkaar
+
+We hebben tien aanbieders in deze markt op deze punten vergeleken, onszelf op nummer één, met per bureau de bron en de controledatum erbij. Dat overzicht staat op cold email bureaus in Nederland vergeleken. Zoek je iets anders dan e-mail, bellen, meertalig werken of een compleet salesproces laten inrichten, dan staat daar per bureau wie daar beter voor is.
+
+
+## Veelgestelde vragen
+
+
+**Waar let ik op bij het kiezen van een leadgeneratiebureau?**
+Op vier dingen die zwart op wit kunnen: wat er precies als resultaat telt, hoeveel er per maand wordt verstuurd en of dat in het contract staat, wat er gebeurt als dat niet wordt gehaald, en of je live kunt meekijken. Het maandbedrag zegt zonder die vier weinig.
+
+
+**Waarom noemen de meeste bureaus geen prijs?**
+Omdat het bedrag dan afhangt van het gesprek, en omdat opstartkosten, datakosten en tooling vaak pas in de offerte naar boven komen. Vraag altijd om een totaalprijs per maand inclusief alles, en om het bedrag dat eenmalig bij aanvang wordt gerekend.
+
+
+**Is een gegarandeerd aantal afspraken een goed teken?**
+Nee. Afspraken hangen af van gesprekken die het bureau niet voert. Een garantie die daarover gaat, betekent dat iemand aan aantallen verdient en dus aantallen gaat leveren. Een garantie op gekwalificeerde positieve reacties is wel te onderbouwen, mits de definitie ervan op papier staat.
+
+
+**Wat moet er over volume in het contract staan?**
+Een minimumaantal verzonden mails per maand, plus wat er gebeurt als een dag uitvalt. Vraag ook op hoeveel dagen per maand er wordt verstuurd. Alleen op werkdagen betekent gemiddeld 22 verzenddagen in plaats van 30.
+
+
+**Hoe lang zit ik vast?**
+In deze markt is drie maanden gebruikelijk, en dat is terecht: de eerste twee weken zijn warmup en nieuwe teksten moeten drie weken draaien voordat je iets kunt beoordelen. Vraag wat er daarna geldt. Bij ons loopt het na drie maanden maandelijks door.
+
+
+==============================================================================
+# Leadgeneratie Amsterdam
+Bron: https://www.link2leads.nl/leadgeneratie-amsterdam
+==============================================================================
+
+Wij zitten aan de Frederik Hendrikstraat en draaien vanaf daar koude e-mailcampagnes voor Nederlandse B2B-bedrijven. Vanaf 995 euro per maand, live in week 3.
+
+Wij zitten aan de Frederik Hendrikstraat in Amsterdam en draaien vanaf daar koude e-mailcampagnes voor Nederlandse B2B-bedrijven. Hieronder voor welke Amsterdamse bedrijven dat werkt, hoe een traject loopt en wat het kost.
+
+
+## Het korte antwoord
+
+Wij zoeken de bedrijven die bij jouw beste klanten passen, mailen ze persoonlijk namens jou en leveren de gekwalificeerde positieve reacties af in je eigen mailbox. Jij voert het gesprek. Vaste prijs vanaf € 995 per maand, live in week 3, en op de twee grootste pakketten een minimumaantal positieve reacties dat in je contract staat.
+
+De campagnes draaien volledig online, dus je doelgroep hoeft niet in Amsterdam te zitten. Wel zitten wij hier, dus we kunnen gewoon langskomen of afspreken.
+
+
+## Voor welke Amsterdamse bedrijven dit werkt
+
+Amsterdam zit vol met bedrijven die per e-mail goed te bereiken beslissers als klant hebben: softwarebedrijven, bureaus, zakelijke dienstverleners, uitzenders en detacheerders, en groothandels in de regio. Dat zijn ook precies de markten waar wij de meeste campagnes voor draaien.
+
+Het werkt als je aan vier dingen voldoet:
+
+- Je aanbod is al aan betalende klanten verkocht, dus je weet dat er vraag naar is.
+- Je weet wie je ideale klant is, of je hebt genoeg bestaande klanten om dat uit af te leiden.
+- Je doelgroep telt minstens duizend bedrijven. Dat hoeft niet Amsterdam te zijn: de meeste van onze klanten mailen heel Nederland, sommige ook Vlaanderen.
+- Er is iemand die een nieuwe reactie binnen een werkdag oppakt.
+Het is te vroeg als je aanbod nog niet is verkocht, als je doelgroep kleiner is dan duizend bedrijven of als er niemand is om reacties op te volgen. In dat laatste geval zetten we er via Link2Talent een setter op, of nemen we het over met de Full Service-module.
+
+
+## Hoe een traject loopt
+
+Het begint met een gratis fitcheck van 30 minuten waarin we naar je doelgroep en je aanbod kijken en doorrekenen wat realistisch is. Past jouw markt niet bij dit kanaal, dan zeggen we dat voordat je tekent.
+
+Daarna: week 1 is de intake en het opzetten van aparte verzenddomeinen en mailboxen, week 2 draaien die warm en schrijven we de eerste mail en twee opvolgmails, en in week 3 gaat de campagne live op een derde van je volume en groeit naar honderd procent. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen. Je eigen domein gebruiken we nooit, dus je normale mailverkeer blijft buiten de campagne.
+
+Elke binnenkomende reactie wordt met de hand gelezen. Wat een gesprek waard is gaat door naar jouw mailbox met naam, functie, organisatie en contactgegevens, klaar om te bellen. Elke week krijg je een rapportage met wat er is verstuurd en wat eruit kwam.
+
+
+## Wat het kost
+
+Pakket	Per maand	Mails per dag	Mails per maand	Garantie
+Starter	€ 995	100	3.000	Nee
+Growth	€ 1.295	250	7.500	Nee
+Scale	€ 1.695	500	15.000	Ja
+Pro	€ 1.995	1.000	30.000	Ja
+
+Bedragen exclusief btw, all-in, zonder setupfee en zonder aparte toolingrekening. Zeven verzenddagen per week, dus 30 per maand. Eerste termijn drie maanden, daarna maandelijks opzegbaar.
+
+Op Scale en Pro leggen we vooraf vast hoeveel gekwalificeerde positieve reacties je minimaal ontvangt in drie campagnemaanden, berekend op je doelgroep, aanbod en marktgrootte. Halen we dat niet, dan draaien we kosteloos door tot het aantal er staat, maximaal drie maanden extra.
+
+Zoek je alleen een lijst met bedrijven om zelf te benaderen, dan verkopen we die los vanaf 500 leads met een geverifieerd zakelijk e-mailadres en de bron per record. Kijk op leads kopen wat het kost.
+
+
+## Wat het bij anderen opleverde
+
+Een greep uit campagnes die we zelf hebben gedraaid, met de cijfers erbij:
+
+- Softwarebedrijf, Scale-pakket. 38 gekwalificeerde afspraken in 90 dagen uit € 5.085 aan campagne-investering, dus € 134 per afspraak, en € 84.000 aan pipeline.
+- Marketingbureau, Growth-pakket. 15 positieve reacties in de eerste twee weken, na de doelgroep te hebben opgesplitst in drie segmenten met elk een eigen insteek.
+- Eigen campagne met een pagina per prospect. 1.240 prospects kregen een landingspagina over hun eigen bedrijf, 34 procent opende die pagina, en er stonden 27 afspraken in acht weken.
+De volledige cases staan op cases en resultaten. In totaal hebben we ruim 800.000 mails namens onze klanten verstuurd, vanaf ongeveer 170 eigen mailboxen.
+
+
+## Waar je ons vindt
+
+Link2Leads is een dienst van Link2Group, Frederik Hendrikstraat 59H, 1052 HL Amsterdam, KvK 42025671. Bereikbaar op info@link2leads.nl en 085 080 5381, op werkdagen tussen 9 en 18 uur. Je spreekt Demi of Anne-Roos, geen accountmanager: wij draaien de campagnes zelf.
+
+
+## Veelgestelde vragen
+
+
+**Werken jullie alleen voor bedrijven in Amsterdam?**
+Nee. Wij zitten in Amsterdam, aan de Frederik Hendrikstraat 59H, en werken voor B2B-bedrijven door heel Nederland. De campagnes draaien volledig online, dus je hoeft niet in de buurt te zitten. Langskomen kan wel gewoon.
+
+
+**Kunnen jullie ook buiten Nederland mailen?**
+Vlaanderen en België doen we standaard. Wil je daarbuiten mailen, zet dat dan in de onboarding bij de regio's, dan kijken we of we de doelgroep kunnen opbouwen en of het kanaal daar past.
+
+
+**Wat kost leadgeneratie bij jullie?**
+Vaste maandprijzen van € 995, € 1.295, € 1.695 en € 1.995, all-in en zonder setupfee. Het verschil zit in het dagvolume: 100, 250, 500 of 1.000 mails per dag, zeven dagen per week. De eerste termijn is drie maanden, daarna maandelijks opzegbaar.
+
+
+**Hoe snel kan mijn campagne live?**
+Week 1 en 2 zijn opbouw en warmup, in week 3 gaat de campagne live. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen. Staat de setup niet op tijd door iets aan onze kant, dan schuift je facturatie mee.
+
+
+**Loopt mijn eigen domein risico?**
+Nee. We versturen nooit vanaf je hoofddomein. We zetten aparte verzenddomeinen en mailboxen op die we opwarmen en dagelijks bewaken, zodat je website, je e-mail en je merkreputatie buiten de campagne blijven.
