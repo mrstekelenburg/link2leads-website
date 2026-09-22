@@ -6808,7 +6808,7 @@ window.L2L_I18N_DATA = {
 "en": "what you sell"
 },
 "aan wie": {
-"en": "and to whom"
+"en": "to whom"
 },
 "Je naam": {
 "en": "Your name"
@@ -8475,5 +8475,1122 @@ window.L2L_I18N_DATA = {
 },
 "Plak hier de handtekening of beschrijf wat erin hoort: naam, functie, telefoon en website.": {
 "en": "Paste the signature here or describe what belongs in it: name, role, phone and website."
+},
+
+/* ── Verzenddagen, maandvolume, koopsignalen en wekelijkse rapportage (sept 2026) ── */
+"Wekelijkse rapportage": {
+"en": "Weekly reporting"
+},
+"Telemarketing kost in Nederland doorgaans €150 tot €400 per geplande afspraak.": {
+"en": "Telemarketing in the Netherlands typically costs EUR 150 to EUR 400 per booked meeting."
+},
+"3.000 mails per maand": {
+"en": "3,000 emails per month"
+},
+"7.500 mails per maand": {
+"en": "7,500 emails per month"
+},
+"15.000 mails per maand": {
+"en": "15,000 emails per month"
+},
+"30.000 mails per maand": {
+"en": "30,000 emails per month"
+},
+", verzonden op 30 dagen · ± 1.000 nieuwe bedrijven": {
+"en": ", sent across 30 days · approx. 1,000 new companies"
+},
+", verzonden op 30 dagen · ± 2.500 nieuwe bedrijven": {
+"en": ", sent across 30 days · approx. 2,500 new companies"
+},
+", verzonden op 30 dagen · ± 5.000 nieuwe bedrijven": {
+"en": ", sent across 30 days · approx. 5,000 new companies"
+},
+", verzonden op 30 dagen · ± 10.000 nieuwe bedrijven": {
+"en": ", sent across 30 days · approx. 10,000 new companies"
+},
+"Wij versturen": {
+"en": "We send"
+},
+"ook in het weekend": {
+"en": "on weekends too"
+},
+"De meeste bureaus mailen alleen op werkdagen, gemiddeld 22 dagen per maand. Wij versturen zeven dagen per week, dus 30 dagen per maand. Bij hetzelfde dagvolume bereik je daardoor ruim een derde meer bedrijven voor hetzelfde maandbedrag.": {
+"en": "Most agencies only send on working days, an average of 22 days a month. We send seven days a week, so 30 days a month. At the same daily volume that reaches over a third more companies for the same monthly fee."
+},
+"Per dag": {
+"en": "Per day"
+},
+"Bij ons, 30 verzenddagen": {
+"en": "With us, 30 sending days"
+},
+"Bij 22 verzenddagen": {
+"en": "At 22 sending days"
+},
+"100 mails": {
+"en": "100 emails"
+},
+"250 mails": {
+"en": "250 emails"
+},
+"500 mails": {
+"en": "500 emails"
+},
+"1.000 mails": {
+"en": "1,000 emails"
+},
+"€ 332 per 1.000 mails": {
+"en": "EUR 332 per 1,000 emails"
+},
+"€ 452 per 1.000 mails": {
+"en": "EUR 452 per 1,000 emails"
+},
+"€ 173 per 1.000 mails": {
+"en": "EUR 173 per 1,000 emails"
+},
+"€ 235 per 1.000 mails": {
+"en": "EUR 235 per 1,000 emails"
+},
+"€ 113 per 1.000 mails": {
+"en": "EUR 113 per 1,000 emails"
+},
+"€ 154 per 1.000 mails": {
+"en": "EUR 154 per 1,000 emails"
+},
+"€ 67 per 1.000 mails": {
+"en": "EUR 67 per 1,000 emails"
+},
+"€ 91 per 1.000 mails": {
+"en": "EUR 91 per 1,000 emails"
+},
+"De rechterkolom is hetzelfde maandbedrag, gedeeld door het aantal mails dat er bij 22 verzenddagen uitgaat. Op Pro staat het minimum van 30.000 verzonden mails per maand in je contract.": {
+"en": "The right-hand column is the same monthly fee, divided by the number of emails that go out across 22 sending days. On Pro, the minimum of 30,000 emails sent per month is in your contract."
+},
+"We mailen op het moment dat er": {
+"en": "We email at the moment something"
+},
+"iets verandert": {
+"en": "changes"
+},
+"Een lijst zegt alleen wie een bedrijf is, niet of het nu iets nodig heeft. Wij zoeken daarom per bedrijf naar een aanleiding en verwijzen daar in de mail naar. Zo komt je bericht binnen op het moment dat het relevant is, in plaats van op een willekeurige dinsdag.": {
+"en": "A list only tells you who a company is, not whether it needs anything right now. So for each company we look for a reason to reach out and refer to it in the email. That way your message lands at the moment it is relevant, instead of on a random Tuesday."
+},
+"Zoekt personeel": {
+"en": "Hiring"
+},
+"Een openstaande vacature, gecontroleerd op de site van het bedrijf zelf.": {
+"en": "An open vacancy, verified on the company's own website."
+},
+"Groeit zichtbaar": {
+"en": "Visibly growing"
+},
+"Een nieuwe vestiging, een overname of een verhuizing die het bedrijf zelf heeft aangekondigd.": {
+"en": "A new location, an acquisition or a move the company announced itself."
+},
+"Investeert in klanten werven": {
+"en": "Investing in winning customers"
+},
+"Een bedrijf dat net is gaan adverteren, of juist een site heeft die jaren niet is bijgewerkt.": {
+"en": "A company that has just started advertising, or one whose website has not been updated in years."
+},
+"Welke aanleiding bij jouw aanbod past, bepalen we in de onboarding. Past er geen enkel signaal bij, dan zeggen we dat en werken we met een scherper afgebakende doelgroep.": {
+"en": "Which trigger fits your offer is something we decide during onboarding. If no signal fits, we say so and work with a more tightly defined target group."
+},
+"Vijf vragen, in deze volgorde. Ze schrappen samen zes of zeven van de tien namen weg.": {
+"en": "Five questions, in this order. Together they rule out six or seven of the ten names."
+},
+"Dan: op hoeveel dagen per maand wordt er verstuurd?": {
+"en": "Then: how many days a month do they send?"
+},
+"Twee bureaus met hetzelfde maandbedrag en hetzelfde dagvolume leveren niet hetzelfde. Wie alleen op werkdagen verstuurt, komt op gemiddeld 22 verzenddagen per maand; wie zeven dagen per week verstuurt, komt op 30. Dat is ruim een derde verschil in bereikte bedrijven, voor precies dezelfde factuur. Vraag dus niet alleen naar het aantal mails per dag, maar naar het aantal mails per maand, en reken het om naar een prijs per 1.000 mails. Ter illustratie onze eigen pakketten, die zeven dagen per week draaien, naast dezelfde bedragen bij 22 verzenddagen.": {
+"en": "Two agencies with the same monthly fee and the same daily volume do not deliver the same thing. Sending only on working days comes to an average of 22 sending days a month; sending seven days a week comes to 30. That is a difference of more than a third in companies reached, for exactly the same invoice. So do not just ask how many emails go out per day, ask how many go out per month, and convert it into a price per 1,000 emails. As an illustration, our own packages, which run seven days a week, next to the same amounts at 22 sending days."
+},
+"Per maand bij 30 verzenddagen": {
+"en": "Per month at 30 sending days"
+},
+"Prijs per 1.000 mails": {
+"en": "Price per 1,000 emails"
+},
+"Dezelfde prijs bij 22 verzenddagen": {
+"en": "The same price at 22 sending days"
+},
+"Starter, € 995": {
+"en": "Starter, EUR 995"
+},
+"Growth, € 1.295": {
+"en": "Growth, EUR 1,295"
+},
+"Scale, € 1.695": {
+"en": "Scale, EUR 1,695"
+},
+"Pro, € 1.995": {
+"en": "Pro, EUR 1,995"
+},
+"Vraag er meteen achteraan of dat maandvolume ook als minimum in het contract staat, want anders is het een streefgetal.": {
+"en": "Ask straight away whether that monthly volume is also in the contract as a minimum, because otherwise it is a target, not a promise."
+},
+
+/* ── Regiovraag /klant (22 sept 2026) ── */
+"Meerdere mag. Wil je buiten Nederland en België mailen, zet dat dan in het veld eronder.": {
+"en": "You can pick more than one. If you want to email outside the Netherlands and Belgium, put that in the field below."
+},
+"Welke provincies, steden of landen precies? (optioneel)": {
+"en": "Which provinces, cities or countries exactly? (optional)"
+},
+
+/* ── Nieuwe kennispagina's: acquisitie, sales, bellen vs mailen, bureau kiezen, Amsterdam (22 sept 2026) ── */
+"Koude acquisitie uitbesteden: zo werkt het en wat het kost (2026) | Link2Leads": {
+"en": "Outsourcing cold outreach: how it works and what it costs (2026) | Link2Leads"
+},
+"Koude acquisitie": {
+"en": "Cold outreach"
+},
+"Je geeft de lijst, de teksten en de verzending weg, en je houdt het gesprek. Wat dat kost, hoe de eerste drie maanden lopen en waarom de meeste trajecten op de doelgroep stuklopen.": {
+"en": "You hand over the list, the copy and the sending, and you keep the conversation. What that costs, how the first three months go and why most projects fail on the target group."
+},
+"22 september 2026": {
+"en": "22 September 2026"
+},
+"Wat je uitbesteedt": {
+"en": "What you outsource"
+},
+"Wat je zelf houdt": {
+"en": "What you keep"
+},
+"Wat het kost": {
+"en": "What it costs"
+},
+"De eerste drie maanden": {
+"en": "The first three months"
+},
+"Waar het misgaat": {
+"en": "Where it goes wrong"
+},
+"Wanneer het loont": {
+"en": "When it pays off"
+},
+"Koude acquisitie uitbesteden betekent dat een externe partij het zoeken en benaderen van nieuwe klanten overneemt, en jij alleen nog de gesprekken voert met wie reageert. Hieronder wat je precies weggeeft, wat je zelf houdt, wat het kost en waar het in de praktijk misgaat.": {
+"en": "Outsourcing cold outreach means an external party takes over finding and approaching new customers, and you only handle the conversations with whoever replies. Below: exactly what you hand over, what you keep, what it costs and where it goes wrong in practice."
+},
+"Een bureau neemt vier dingen over: de lijst met bedrijven die je wilt bereiken, de teksten, de verzendinfrastructuur en het bewaken daarvan. Wat je zelf houdt is het gesprek. In Nederland betaal je voor een volledig beheerd e-mailtraject tussen de € 800 en € 2.000 per maand, met een minimale looptijd van drie maanden omdat een verzendomgeving eerst moet worden opgebouwd.": {
+"en": "An agency takes over four things: the list of companies you want to reach, the copy, the sending infrastructure and the monitoring of it. What you keep is the conversation. In the Netherlands, a fully managed email program costs between EUR 800 and EUR 2,000 per month, with a minimum term of three months because a sending environment has to be built up first."
+},
+"De vraag die je eerst beantwoordt is niet welk bureau, maar of jouw markt groot genoeg is. Onder de duizend bedrijven in je doelgroep is een campagne binnen een paar weken door de lijst heen en betaal je voor capaciteit die je niet gebruikt.": {
+"en": "The first question to answer is not which agency, but whether your market is big enough. With fewer than a thousand companies in your target group, a campaign is through the list within a few weeks and you pay for capacity you do not use."
+},
+"Wat je precies uitbesteedt": {
+"en": "What exactly you outsource"
+},
+"Bij koude acquisitie per e-mail zit het meeste werk niet in het versturen. Dat is het makkelijkste deel. Het werk zit in alles eromheen, en dat is ook waar het misgaat als je het zelf probeert.": {
+"en": "In cold outreach by email, most of the work is not in the sending. That is the easy part. The work is in everything around it, and that is also where it goes wrong if you try it yourself."
+},
+"De doelgroep vertalen naar een lijst.": {
+"en": "Turning the target group into a list."
+},
+"Je zegt wie je ideale klant is; het bureau zet dat om in branche, bedrijfsgrootte, regio en functietitel, en zoekt daar bedrijven bij die op je bestaande klanten lijken. Elk adres wordt geverifieerd voordat er iets uitgaat, want een lijst met dode adressen laat je bezorging instorten.": {
+"en": "You say who your ideal customer is; the agency turns that into industry, company size, region and job title, and finds companies that resemble your existing customers. Every address is verified before anything goes out, because a list full of dead addresses will collapse your deliverability."
+},
+"De teksten.": {
+"en": "The copy."
+},
+"Een eerste mail en twee opvolgmails, geschreven voor jouw doelgroep en niet voor iedereen. Je keurt ze goed voordat ze de deur uit gaan.": {
+"en": "A first email and two follow-up emails, written for your target group and not for everyone. You approve them before they go out."
+},
+"De verzendomgeving.": {
+"en": "The sending environment."
+},
+"Aparte domeinen en mailboxen met eigen SPF, DKIM en DMARC, die eerst twee weken warmdraaien. Je eigen domein wordt nooit gebruikt, zodat je normale mailverkeer buiten schot blijft als er in een campagne iets misgaat.": {
+"en": "Separate domains and mailboxes with their own SPF, DKIM and DMARC, which warm up for two weeks first. Your own domain is never used, so your normal email traffic stays out of harm's way if something goes wrong in a campaign."
+},
+"Het bewaken.": {
+"en": "The monitoring."
+},
+"Bounce, spamklachten en mailboxgezondheid worden dagelijks bekeken. Loopt de bezorging terug, dan gaat het tempo omlaag, worden mailboxen vervangen of wordt de lijst opgeschoond.": {
+"en": "Bounces, spam complaints and mailbox health are checked daily. If deliverability drops, the pace goes down, mailboxes are replaced or the list is cleaned up."
+},
+"Daarbovenop komt het lezen van de reacties. Bij ons doet een mens dat, geen scoringsmodel, zodat je alleen doorgestuurd krijgt wat een gesprek waard is, met naam, functie, organisatie en telefoonnummer erbij.": {
+"en": "On top of that comes reading the replies. With us a person does that, not a scoring model, so you only get forwarded what is worth a conversation, with name, job title, organisation and phone number included."
+},
+"Een bureau dat belooft je hele salesproces over te nemen, verkoopt je iets anders dan koude acquisitie. Wat bij jou blijft:": {
+"en": "An agency that promises to take over your entire sales process is selling you something other than cold outreach. What stays with you:"
+},
+"Het gesprek.": {
+"en": "The conversation."
+},
+"Iemand reageert omdat hij interesse heeft in jouw aanbod, niet in dat van een tussenpersoon. Dat gesprek voer je zelf, het liefst binnen een werkdag.": {
+"en": "Someone replies because they are interested in your offer, not an intermediary's. You have that conversation yourself, preferably within one working day."
+},
+"De goedkeuring.": {
+"en": "The approval."
+},
+"Je ziet de lijst en de teksten voordat de campagne aangaat. Dat is geen formaliteit: jij weet welke bedrijven al klant zijn, welke je bewust niet wilt benaderen en welke woorden in jouw markt verkeerd vallen.": {
+"en": "You see the list and the copy before the campaign starts. That is not a formality: you know which companies are already customers, which ones you deliberately do not want to approach and which words land badly in your market."
+},
+"De opvolging na het eerste gesprek.": {
+"en": "The follow-up after the first conversation."
+},
+"Offertes, onderhandeling en nazorg zijn jouw werk.": {
+"en": "Quotes, negotiation and aftercare are your job."
+},
+"Heb je geen tijd om reacties op te pakken, dan is dat een apart probleem met een aparte oplossing. Wij handelen de reacties af en zetten de afspraak in je agenda met de Full Service-module, of we zetten er via": {
+"en": "If you have no time to pick up replies, that is a separate problem with a separate solution. We handle the replies and put the meeting in your calendar with the Full Service module, or we put a setter on it via"
+},
+"De markt voor uitbestede e-mailacquisitie in Nederland ligt tussen de € 800 en € 2.000 per maand. Onze eigen pakketten:": {
+"en": "The market for outsourced email outreach in the Netherlands runs between EUR 800 and EUR 2,000 per month. Our own packages:"
+},
+"Per maand": {
+"en": "Per month"
+},
+"Mails per dag": {
+"en": "Emails per day"
+},
+"Mails per maand": {
+"en": "Emails per month"
+},
+"Bedrijven per maand": {
+"en": "Companies per month"
+},
+"Gerekend met zeven verzenddagen per week, dus 30 per maand, en drie mails per bedrijf (een eerste mail en twee opvolgmails). Bedragen exclusief btw, zonder setupfee en zonder aparte toolingrekening.": {
+"en": "Based on seven sending days per week, so 30 per month, and three emails per company (a first email and two follow-up emails). Amounts exclude VAT, with no setup fee and no separate tooling bill."
+},
+"Let bij elke offerte op wat er buiten het maandbedrag valt. Eenmalige opstartkosten, datakosten en tooling komen bij veel aanbieders apart, en dat scheelt al snel € 100 tot € 200 per maand plus een bedrag ineens. Vraag ook naar het aantal verzenddagen: wie alleen op werkdagen mailt, zit op gemiddeld 22 dagen per maand in plaats van 30, en dat is ruim een derde minder bereikte bedrijven voor dezelfde factuur. De volledige rekensom staat in": {
+"en": "With every quote, check what falls outside the monthly amount. One-off setup costs, data costs and tooling are charged separately by many providers, and that quickly adds EUR 100 to EUR 200 per month plus a lump sum. Also ask about the number of sending days: anyone who only emails on working days averages 22 days per month instead of 30, and that is well over a third fewer companies reached for the same invoice. The full calculation is in"
+},
+"Zo loopt een traject bij ons, en de tijdlijn is bij elk serieus bureau vergelijkbaar.": {
+"en": "This is how a program runs with us, and the timeline is similar at any serious agency."
+},
+"Periode": {
+"en": "Period"
+},
+"Wat er gebeurt": {
+"en": "What happens"
+},
+"Intake over aanbod, beslissers en doelgroep. Domeinen en mailboxen worden aangemaakt.": {
+"en": "Intake on your offer, decision-makers and target group. Domains and mailboxes are created."
+},
+"Mailboxen draaien warm. De eerste mail en twee opvolgmails worden geschreven, jij keurt lijst en teksten goed.": {
+"en": "Mailboxes warm up. The first email and two follow-up emails are written, you approve the list and the copy."
+},
+"De campagne gaat live op een derde van je volume en groeit naar honderd procent. Eerste reacties doorgaans drie tot tien dagen na livegang.": {
+"en": "The campaign goes live at a third of your volume and grows to one hundred percent. First replies usually three to ten days after going live."
+},
+"Maand 2": {
+"en": "Month 2"
+},
+"Bijsturen op de segmenten die reageren. Nieuwe teksten laten we minimaal drie weken draaien voordat we opnieuw wijzigen.": {
+"en": "Adjusting towards the segments that reply. We let new copy run for at least three weeks before changing it again."
+},
+"Maand 3": {
+"en": "Month 3"
+},
+"Nu heb je genoeg data om te beoordelen wat het kanaal voor jouw markt doet.": {
+"en": "Now you have enough data to judge what the channel does for your market."
+},
+"Dat is ook de reden dat de looptijd minimaal drie maanden is. Korter beoordeel je iets dat nog niet af is.": {
+"en": "That is also why the minimum term is three months. Any shorter and you are judging something that is not finished yet."
+},
+"Waar het in de praktijk misgaat": {
+"en": "Where it goes wrong in practice"
+},
+"Drie oorzaken zien wij het vaakst terug, in deze volgorde.": {
+"en": "We see three causes most often, in this order."
+},
+"De doelgroep is te breed.": {
+"en": "The target group is too broad."
+},
+"Dit is verreweg de grootste. Campagnes voor een klant die zegt dat iedereen met personeel een prospect is, presteren structureel slechter dan campagnes met een scherp afgebakende branche. In onze eigen cijfers liep de reply rate binnen een campagne van 18.594 contactpersonen per segment uiteen van 2,3 tot 7,8 procent, met precies dezelfde teksten. De lijst doet dus meer dan de tekst.": {
+"en": "This is by far the biggest one. Campaigns for a client who says everyone with staff is a prospect perform structurally worse than campaigns with a sharply defined industry. In our own figures, the reply rate within one campaign of 18,594 contacts ranged from 2.3 to 7.8 percent per segment, with exactly the same copy. So the list does more than the copy."
+},
+"Reacties blijven liggen.": {
+"en": "Replies are left waiting."
+},
+"Iemand die op dinsdag reageert en op vrijdag antwoord krijgt, is de helft van de tijd al verder. Als niemand bij jou binnen een werkdag kan reageren, regel dat dan voordat de campagne aangaat.": {
+"en": "Someone who replies on Tuesday and gets an answer on Friday has moved on half the time. If nobody on your side can respond within one working day, sort that out before the campaign starts."
+},
+"Te vroeg ingrijpen.": {
+"en": "Intervening too early."
+},
+"Na twee weken concluderen dat de teksten niet werken en alles omgooien betekent dat je nooit weet wat wel werkte. Laat nieuwe teksten drie weken staan.": {
+"en": "Concluding after two weeks that the copy does not work and changing everything means you never find out what did work. Leave new copy in place for three weeks."
+},
+"Wat er technisch mis kan gaan met de bezorging staat apart uitgewerkt in": {
+"en": "What can go wrong technically with deliverability is covered separately in"
+},
+"waarom komen je koude mails niet aan": {
+"en": "why your cold emails are not getting through"
+},
+"Wanneer uitbesteden loont": {
+"en": "When outsourcing pays off"
+},
+"Uitbesteden is de betere keuze als je doelgroep minstens duizend bedrijven telt, je aanbod al aan betalende klanten is verkocht en een nieuwe klant je in het eerste jaar enkele duizenden euro's waard is. Dan verdient een van de eerste klanten de hele looptijd terug.": {
+"en": "Outsourcing is the better choice if your target group has at least a thousand companies, your offer has already been sold to paying customers and a new customer is worth several thousand euros to you in the first year. Then one of the first customers pays back the entire term."
+},
+"Zelf doen kan prima als je iemand hebt met tijd en kennis van bezorging, adresdata en teksten, en als je onder de 250 mails per dag blijft. Boven de 500 per dag lopen de mailbox- en datakosten zo op dat het verschil met een all-in pakket klein wordt, en dan betaal je bij zelf doen ook nog de uren en het risico op verbrande domeinen.": {
+"en": "Doing it yourself works fine if you have someone with the time and knowledge of deliverability, address data and copy, and if you stay under 250 emails per day. Above 500 per day, mailbox and data costs rise so much that the difference with an all-in package becomes small, and doing it yourself still costs you the hours and the risk of burned domains."
+},
+"Wat kost koude acquisitie uitbesteden per maand?": {
+"en": "What does outsourcing cold outreach cost per month?"
+},
+"In Nederland betaal je voor een volledig beheerd e-mailtraject doorgaans € 800 tot € 2.000 per maand. Onze eigen pakketten zijn € 995, € 1.295, € 1.695 en € 1.995 per maand, all-in en zonder setupfee. Telefonische acquisitie is duurder: daar reken je 150 tot 400 euro per geplande afspraak.": {
+"en": "In the Netherlands, a fully managed email program usually costs EUR 800 to EUR 2,000 per month. Our own packages are EUR 995, EUR 1,295, EUR 1,695 and EUR 1,995 per month, all-in and with no setup fee. Cold calling is more expensive: expect 150 to 400 euros per booked meeting."
+},
+"Hoe snel levert het iets op?": {
+"en": "How quickly does it deliver anything?"
+},
+"De eerste twee weken zijn opbouw en warmup, in week 3 gaat de campagne live. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen, in sommige campagnes al op dag 1. Een betrouwbaar beeld van het kanaal heb je na drie maanden.": {
+"en": "The first two weeks are setup and warmup, in week 3 the campaign goes live. The first replies usually come in three to ten days after going live, in some campaigns as early as day 1. You have a reliable picture of the channel after three months."
+},
+"Blijft mijn eigen domein veilig?": {
+"en": "Does my own domain stay safe?"
+},
+"Ja, mits het bureau vanaf aparte verzenddomeinen werkt. Wij versturen nooit vanaf je hoofddomein. We zetten losse domeinen en mailboxen op die we opwarmen en bewaken, zodat je website, je e-mail en je merkreputatie buiten de campagne blijven.": {
+"en": "Yes, provided the agency works from separate sending domains. We never send from your main domain. We set up separate domains and mailboxes that we warm up and monitor, so your website, your email and your brand reputation stay out of the campaign."
+},
+"Hoe groot moet mijn doelgroep zijn?": {
+"en": "How big does my target group need to be?"
+},
+"Reken op minimaal duizend bedrijven. Daaronder is je lijst binnen een paar weken op en kun je niet segmenteren, en juist segmentatie levert het meeste op. Past jouw markt niet bij dit kanaal, dan zeggen wij dat in de gratis fitcheck voordat je tekent.": {
+"en": "Count on at least a thousand companies. Below that, your list runs out within a few weeks and you cannot segment, and segmentation is exactly what delivers the most. If your market does not fit this channel, we say so in the free fitcheck before you sign."
+},
+"Wat moet ik zelf nog doen?": {
+"en": "What do I still have to do myself?"
+},
+"Een onboardingsessie waarin we je ideale klant en je aanbod scherpstellen, daarna het goedkeuren van de lijst en de teksten, en vervolgens het voeren van de gesprekken met wie reageert. De rest loopt via ons.": {
+"en": "An onboarding session in which we sharpen your ideal customer and your offer, then approving the list and the copy, and then having the conversations with whoever replies. The rest runs through us."
+},
+"Past jouw doelgroep bij dit kanaal?": {
+"en": "Does your target group fit this channel?"
+},
+"Sales uitbesteden: welk deel geef je weg?": {
+"en": "Outsourcing sales: which part do you hand over?"
+},
+"De grens tussen bovenkant en onderkant van de funnel": {
+"en": "The line between the top and the bottom of the funnel"
+},
+"Cold email bureaus vergeleken": {
+"en": "Cold email agencies compared"
+},
+"Tien aanbieders op prijs en contractvolume": {
+"en": "Ten providers on price and contract volume"
+},
+"Acquisitie uitbesteden": {
+"en": "Outsourcing outreach"
+},
+"Bureau kiezen": {
+"en": "Choosing an agency"
+},
+"Sales uitbesteden: welk deel geef je weg en wat kost het? | Link2Leads": {
+"en": "Outsourcing sales: which part do you hand over and what does it cost? | Link2Leads"
+},
+"Je kunt de bovenkant van je funnel weggeven, het kwalificatiegesprek, of allebei. Wat elk van die drie kost, en waarom betalen per afspraak zelden goedkoper uitpakt.": {
+"en": "You can hand over the top of your funnel, the qualification call, or both. What each of those three costs, and why paying per meeting rarely turns out cheaper."
+},
+"Drie betekenissen": {
+"en": "Three meanings"
+},
+"Tegenover iemand in dienst": {
+"en": "Versus hiring someone"
+},
+"Waar wij de grens leggen": {
+"en": "Where we draw the line"
+},
+"Sales uitbesteden klinkt als een ding, maar er zitten drie heel verschillende afspraken achter met heel verschillende prijskaartjes en risico's. Hieronder welk deel van je verkoopproces je werkelijk kunt weggeven, wat dat kost en waarom het model waarin je pas bij resultaat betaalt in B2B meestal tegenvalt.": {
+"en": "Outsourcing sales sounds like one thing, but there are three very different arrangements behind it with very different price tags and risks. Below: which part of your sales process you can really hand over, what it costs and why the model where you only pay on results usually disappoints in B2B."
+},
+"Je kunt de bovenkant van je funnel uitbesteden: het zoeken en benaderen van bedrijven tot en met de eerste geïnteresseerde reactie. Dat kost in Nederland € 800 tot € 2.000 per maand voor e-mail. Je kunt ook het gesprek zelf uitbesteden, aan een setter of closer, en dat gaat per uur of per commissie. Wat je niet kunt uitbesteden is weten waarom klanten bij je kopen, want daar is elke tekst en elk gesprek op gebouwd.": {
+"en": "You can outsource the top of your funnel: finding and approaching companies up to and including the first interested reply. In the Netherlands that costs EUR 800 to EUR 2,000 per month for email. You can also outsource the conversation itself, to a setter or closer, and that is charged per hour or on commission. What you cannot outsource is knowing why customers buy from you, because every piece of copy and every conversation is built on that."
+},
+"Wij doen bewust alleen het eerste deel. Wij zoeken de bedrijven, mailen ze namens jou en leveren de gekwalificeerde positieve reacties af in jouw mailbox. Het gesprek voer jij, of wij zetten er een setter op.": {
+"en": "We deliberately only do the first part. We find the companies, email them on your behalf and deliver the qualified positive replies to your inbox. You have the conversation, or we put a setter on it."
+},
+"Drie dingen die sales uitbesteden kan betekenen": {
+"en": "Three things outsourcing sales can mean"
+},
+"1. Alleen de eerste benadering.": {
+"en": "1. Only the first approach."
+},
+"Een partij bouwt de lijst, schrijft de teksten, beheert de verzending en levert je de reacties. Vast maandbedrag, voorspelbaar, en het risico dat een maand tegenvalt ligt bij jou. Dit is waar wij zitten.": {
+"en": "A party builds the list, writes the copy, manages the sending and delivers the replies to you. Fixed monthly fee, predictable, and the risk of a disappointing month sits with you. This is where we sit."
+},
+"2. Benadering plus het kwalificatiegesprek.": {
+"en": "2. Approach plus the qualification call."
+},
+"Er komt iemand bij die reacties opvolgt, belt en de afspraak in je agenda zet. Dat gaat per uur (in de markt rond de € 30 tot € 45) of per gekwalificeerde afspraak. Zinvol als er bij jou niemand is die binnen een werkdag kan reageren.": {
+"en": "Someone is added who follows up on replies, calls and puts the meeting in your calendar. That is charged per hour (in the market around EUR 30 to EUR 45) or per qualified meeting. Worthwhile if nobody on your side can respond within one working day."
+},
+"3. Het hele verkoopproces, inclusief closen.": {
+"en": "3. The entire sales process, including closing."
+},
+"Een extern team dat namens jou offreert en tekent. In B2B werkt dit alleen bij een eenvoudig, gestandaardiseerd aanbod. Zodra er maatwerk of techniek bij komt kijken, verliest een externe closer het van iemand die het product echt kent.": {
+"en": "An external team that quotes and signs on your behalf. In B2B this only works with a simple, standardised offer. As soon as customisation or technology comes into play, an external closer loses out to someone who really knows the product."
+},
+"Waarom no cure no pay in B2B tegenvalt": {
+"en": "Why no cure no pay disappoints in B2B"
+},
+"Betalen per afspraak klinkt veilig: je betaalt alleen voor resultaat. In de praktijk verschuift het probleem alleen maar. De leverancier moet zijn risico terugverdienen, dus de prijs per afspraak ligt hoog, en hij verdient aan het aantal afspraken en niet aan de kwaliteit ervan. Dat betekent in een slechte maand druk om iets te leveren, en jij zit met een agenda vol gesprekken die nergens heen gaan.": {
+"en": "Paying per meeting sounds safe: you only pay for results. In practice it just shifts the problem. The supplier has to earn back their risk, so the price per meeting is high, and they earn on the number of meetings and not on their quality. In a bad month that means pressure to deliver something, and you end up with a calendar full of conversations that go nowhere."
+},
+"Vraag bij elk resultaatmodel drie dingen voordat je tekent: wat telt precies als resultaat, wie bepaalt dat, en waar zit het plafond. Zonder plafond is betalen per resultaat een open rekening. Met een te ruime definitie van resultaat betaal je voor afwezigheidsmeldingen.": {
+"en": "With any results-based model, ask three things before you sign: what exactly counts as a result, who decides that, and where the cap is. Without a cap, paying per result is an open-ended bill. With too broad a definition of result, you pay for out-of-office replies."
+},
+"Wij werken daarom met een vast maandbedrag, en leggen op de twee grootste pakketten een minimumaantal gekwalificeerde positieve reacties vast in het contract. Halen we dat niet, dan draaien we kosteloos door tot het aantal er staat, maximaal drie maanden extra. De garantie gaat over positieve reacties en niet over afspraken, omzet of betalende klanten, want dat laatste hangt af van gesprekken die wij niet voeren.": {
+"en": "That is why we work with a fixed monthly fee, and on the two largest packages we set a minimum number of qualified positive replies in the contract. If we do not reach it, we keep going at no cost until the number is there, for up to three extra months. The guarantee covers positive replies and not meetings, revenue or paying customers, because the latter depends on conversations we do not have."
+},
+"De rekensom tegenover iemand in dienst": {
+"en": "The calculation versus hiring someone"
+},
+"De eerlijke vergelijking is niet het maandbedrag tegen nul, maar het maandbedrag tegen wat een eigen salesmedewerker in het eerste jaar kost.": {
+"en": "The honest comparison is not the monthly fee against zero, but the monthly fee against what your own sales employee costs in the first year."
+},
+"Eigen SDR, jaar 1": {
+"en": "In-house SDR, year 1"
+},
+"Uitbesteed e-mailkanaal": {
+"en": "Outsourced email channel"
+},
+"Directe kosten": {
+"en": "Direct costs"
+},
+"€ 69.000 – € 83.000 inclusief werkgeverslasten, tooling en werkplek": {
+"en": "EUR 69,000 to EUR 83,000 including employer costs, tooling and workspace"
+},
+"€ 12.000 – € 26.000 per jaar": {
+"en": "EUR 12,000 to EUR 26,000 per year"
+},
+"€ 11.000 – € 20.000 aan inwerktijd": {
+"en": "EUR 11,000 to EUR 20,000 in onboarding time"
+},
+"Twee tot drie weken opstart": {
+"en": "Two to three weeks of setup"
+},
+"6 tot 12 weken": {
+"en": "6 to 12 weeks"
+},
+"2 tot 4 weken": {
+"en": "2 to 4 weeks"
+},
+"Stoppen": {
+"en": "Stopping"
+},
+"Ontslagrecht en opzegtermijn": {
+"en": "Employment law and notice period"
+},
+"Drie maanden, daarna maandelijks": {
+"en": "Three months, then monthly"
+},
+"Volledig bij jou, en vast": {
+"en": "Entirely with you, and fixed"
+},
+"Beperkt tot de looptijd": {
+"en": "Limited to the term"
+},
+"Kosten voor een eigen SDR volgens de gangbare vuistregel voor werkgeverslasten, uitgewerkt in": {
+"en": "Costs for an in-house SDR based on the common rule of thumb for employer costs, worked out in"
+},
+"De uitkomst kantelt zodra je genoeg volume hebt om iemand fulltime bezig te houden en de kennis in huis wilt opbouwen. Onder dat punt koop je met uitbesteden vooral snelheid en het uitblijven van een vaste last.": {
+"en": "The outcome tips once you have enough volume to keep someone busy full-time and want to build the knowledge in-house. Below that point, outsourcing mainly buys you speed and the absence of a fixed overhead."
+},
+"Wij zijn geen verkoopkantoor en willen dat ook niet zijn. Wat wij altijd doen: de doelgroep bepalen en de geverifieerde lijst opbouwen, de teksten schrijven en bijsturen, domeinen, mailboxen en warmup beheren, elke binnenkomende reactie met de hand lezen, en wekelijks rapporteren wat eruit is gegaan en wat er terugkwam.": {
+"en": "We are not a sales office and do not want to be one. What we always do: define the target group and build the verified list, write and adjust the copy, manage domains, mailboxes and warmup, read every incoming reply by hand, and report weekly on what went out and what came back."
+},
+"Wat er niet standaard in zit: het beantwoorden van reacties en het plannen van afspraken, tenzij je Full Service erbij neemt op Scale of Pro. Telefonische acquisitie doen we niet. En we garanderen geen afspraken, omzet of betalende klanten, omdat die van jouw gesprek afhangen.": {
+"en": "What is not included by default: answering replies and scheduling meetings, unless you add Full Service on Scale or Pro. We do not do cold calling. And we do not guarantee meetings, revenue or paying customers, because those depend on your conversation."
+},
+"Die afbakening is bewust. Een partij die alles belooft, van de eerste mail tot de handtekening, verdeelt zijn aandacht over stappen waar hij geen grip op heeft. Wij leveren het stuk waarop we wel kunnen sturen, en zijn duidelijk over de rest.": {
+"en": "That boundary is deliberate. A party that promises everything, from the first email to the signature, spreads its attention across steps it has no control over. We deliver the part we can actually steer, and are clear about the rest."
+},
+"Wat kost sales uitbesteden in Nederland?": {
+"en": "What does outsourcing sales cost in the Netherlands?"
+},
+"Voor het e-mailkanaal betaal je doorgaans € 800 tot € 2.000 per maand. Een externe setter of closer gaat per uur (in de markt rond de € 30 tot € 45) of op commissie. Telemarketingbureaus rekenen 150 tot 400 euro per geplande afspraak. Een eigen SDR kost in het eerste jaar € 69.000 tot € 83.000 inclusief lasten en tooling.": {
+"en": "For the email channel you usually pay EUR 800 to EUR 2,000 per month. An external setter or closer is charged per hour (in the market around EUR 30 to EUR 45) or on commission. Telemarketing agencies charge 150 to 400 euros per booked meeting. An in-house SDR costs EUR 69,000 to EUR 83,000 in the first year including employer costs and tooling."
+},
+"Is no cure no pay niet gewoon veiliger?": {
+"en": "Isn't no cure no pay simply safer?"
+},
+"Zelden. De leverancier moet zijn risico terugverdienen, dus de prijs per afspraak is hoog en de prikkel ligt op aantallen in plaats van op kwaliteit. Vraag altijd wat er precies als resultaat telt, wie dat bepaalt en waar het plafond ligt. Zonder plafond is het een open rekening.": {
+"en": "Rarely. The supplier has to earn back their risk, so the price per meeting is high and the incentive is on numbers rather than quality. Always ask what exactly counts as a result, who decides that and where the cap is. Without a cap it is an open-ended bill."
+},
+"Nemen jullie ook de gesprekken over?": {
+"en": "Do you also take over the conversations?"
+},
+"Niet standaard. Met de Full Service-module op Scale en Pro beantwoorden wij de reacties en zetten we de afspraak in je agenda. Het verkoopgesprek zelf voer je zelf, of we zetten er via Link2Talent een setter op.": {
+"en": "Not by default. With the Full Service module on Scale and Pro we answer the replies and put the meeting in your calendar. You have the sales conversation yourself, or we put a setter on it via Link2Talent."
+},
+"Krijg ik garantie op resultaat?": {
+"en": "Do I get a guarantee on results?"
+},
+"Op de pakketten Scale en Pro leggen we vooraf een minimumaantal gekwalificeerde positieve reacties vast in het contract, berekend op je doelgroep, aanbod en marktgrootte. Halen we dat niet in drie campagnemaanden, dan draaien we kosteloos door tot het er staat, maximaal drie maanden extra. De garantie geldt voor positieve reacties, niet voor afspraken of omzet.": {
+"en": "On the Scale and Pro packages we set a minimum number of qualified positive replies in the contract up front, calculated on your target group, offer and market size. If we do not reach it in three campaign months, we keep going at no cost until it is there, for up to three extra months. The guarantee covers positive replies, not meetings or revenue."
+},
+"Kan ik tussentijds stoppen?": {
+"en": "Can I stop early?"
+},
+"De eerste termijn is drie maanden, omdat de eerste twee weken warmup zijn en nieuwe teksten drie weken moeten draaien voordat je iets kunt beoordelen. Daarna loopt het maandelijks door en kun je per maand opzeggen.": {
+"en": "The first term is three months, because the first two weeks are warmup and new copy has to run for three weeks before you can judge anything. After that it continues monthly and you can cancel month by month."
+},
+"Welk deel kun je in jouw geval het beste weggeven?": {
+"en": "Which part is best to hand over in your case?"
+},
+"In de gratis fitcheck kijken we naar je doelgroep, je aanbod en je opvolgcapaciteit, en zeggen we welk deel bij ons past en welk deel beter bij jou blijft.": {
+"en": "In the free fitcheck we look at your target group, your offer and your follow-up capacity, and tell you which part fits with us and which part is better kept with you."
+},
+"Koude acquisitie uitbesteden": {
+"en": "Outsourcing cold outreach"
+},
+"Wat je weggeeft en wat je zelf houdt": {
+"en": "What you hand over and what you keep"
+},
+"Vijf kanalen naast elkaar": {
+"en": "Five channels side by side"
+},
+"Cold calling of cold e-mail? De cijfers naast elkaar (2026) | Link2Leads": {
+"en": "Cold calling or cold email? The numbers side by side (2026) | Link2Leads"
+},
+"Cold calling of": {
+"en": "Cold calling or"
+},
+"cold e-mail": {
+"en": "cold email"
+},
+"Bellen levert sneller een echt gesprek, mailen levert meer gesprekken per euro. Wat elk kanaal kost per afspraak, hoeveel bedrijven je ermee bereikt en wanneer de telefoon wint.": {
+"en": "Calling gets you a real conversation faster, emailing gets you more conversations per euro. What each channel costs per meeting, how many companies you reach with it and when the phone wins."
+},
+"Bereik per week": {
+"en": "Reach per week"
+},
+"Wanneer bellen wint": {
+"en": "When calling wins"
+},
+"De regels verschillen": {
+"en": "The rules differ"
+},
+"Allebei, in volgorde": {
+"en": "Both, in order"
+},
+"Bellen en mailen worden vaak tegenover elkaar gezet alsof er een winnaar is. Die is er niet, maar er is wel een duidelijk verschil in kosten per gesprek, in bereik per week en in wat het kost om ermee te stoppen. Hieronder de cijfers naast elkaar.": {
+"en": "Calling and emailing are often set against each other as if there is a winner. There is not, but there is a clear difference in cost per conversation, in reach per week and in what it costs to stop. Below, the numbers side by side."
+},
+"Koude e-mail is per bereikt bedrijf verreweg het goedkoopst en schaalt zonder dat je mensen aanneemt. Bellen levert sneller een echt gesprek op en werkt beter bij een complex aanbod, maar kost per afspraak een veelvoud en schaalt alleen door meer uren in te kopen.": {
+"en": "Cold email is by far the cheapest per company reached and scales without hiring people. Calling gets you a real conversation faster and works better for a complex offer, but costs several times more per meeting and only scales by buying more hours."
+},
+"Kosten per maand (uitbesteed)": {
+"en": "Cost per month (outsourced)"
+},
+"Vanaf ± € 2.000": {
+"en": "From approx. EUR 2,000"
+},
+"Kosten per geplande afspraak": {
+"en": "Cost per booked meeting"
+},
+"Doorgaans € 100 – € 200": {
+"en": "Usually EUR 100 to EUR 200"
+},
+"Bedrijven per maand bereikt": {
+"en": "Companies reached per month"
+},
+"1.000 tot 10.000": {
+"en": "1,000 to 10,000"
+},
+"Enkele honderden": {
+"en": "A few hundred"
+},
+"1 tot 2 weken": {
+"en": "1 to 2 weeks"
+},
+"Opschalen": {
+"en": "Scaling up"
+},
+"Meer uren of meer mensen": {
+"en": "More hours or more people"
+},
+"Uitleg mogelijk": {
+"en": "Room for explanation"
+},
+"Beperkt, vier zinnen": {
+"en": "Limited, four sentences"
+},
+"Volledig, in gesprek": {
+"en": "Full, in conversation"
+},
+"Marktbandbreedtes op basis van gepubliceerde tarieven van Nederlandse aanbieders, gecontroleerd op 22 september 2026. Onze eigen kosten per afspraak in een campagne voor een softwarebedrijf kwamen uit op € 134.": {
+"en": "Market ranges based on published rates of Dutch providers, checked on 22 September 2026. Our own cost per meeting in a campaign for a software company came to EUR 134."
+},
+"Bij bellen betaal je voor tijd. Een belbureau realiseert gemiddeld ongeveer één afspraak per vier uur bellen, en daar rekent het een uurtarief of een bedrag per afspraak voor. Dat bedrag is redelijk stabiel: of je nu tien of honderd afspraken wilt, de prijs per afspraak beweegt nauwelijks mee.": {
+"en": "With calling you pay for time. A call centre books on average about one meeting per four hours of calling, and charges an hourly rate or a fee per meeting for that. That amount is fairly stable: whether you want ten or a hundred meetings, the price per meeting barely moves."
+},
+"Bij e-mail betaal je voor capaciteit, en de prijs per gesprek daalt naarmate je doelgroep groter is en scherper is afgebakend. In onze eigen campagne voor een softwarebedrijf leverde € 5.085 aan campagne-investering 38 gekwalificeerde afspraken op, dus € 134 per afspraak, en € 84.000 aan pipeline. Diezelfde som kan bij een slecht afgebakende doelgroep drie keer zo ongunstig uitvallen, want de lijst bepaalt het resultaat meer dan de tekst.": {
+"en": "With email you pay for capacity, and the price per conversation drops as your target group gets bigger and more sharply defined. In our own campaign for a software company, EUR 5,085 in campaign investment produced 38 qualified meetings, so EUR 134 per meeting, and EUR 84,000 in pipeline. That same calculation can come out three times worse with a poorly defined target group, because the list determines the result more than the copy."
+},
+"Dit is het verschil dat de meeste mensen onderschatten. Eén beller haalt op een werkdag tussen de zestig en honderd pogingen, waarvan een deel niet opneemt. Een e-mailcampagne op ons Scale-pakket benadert 500 bedrijven per dag, zeven dagen per week, dus 15.000 mails per maand naar ongeveer 5.000 bedrijven.": {
+"en": "This is the difference most people underestimate. One caller makes between sixty and a hundred attempts on a working day, some of which are not answered. An email campaign on our Scale package approaches 500 companies per day, seven days a week, so 15,000 emails per month to around 5,000 companies."
+},
+"Dat maakt e-mail ook het enige kanaal waarmee je kunt testen. Met vijf segmenten naast elkaar zie je binnen een maand welk segment reageert. In een van onze campagnes van 18.594 contactpersonen liep de reply rate per segment uiteen van 2,3 tot 7,8 procent bij precies dezelfde tekst. Aan de telefoon duurt het maanden voordat je zoiets betrouwbaar weet.": {
+"en": "That also makes email the only channel you can test with. With five segments side by side, you see within a month which segment replies. In one of our campaigns of 18,594 contacts, the reply rate per segment ranged from 2.3 to 7.8 percent with exactly the same copy. On the phone it takes months before you know something like that reliably."
+},
+"Er zijn situaties waarin de telefoon gewoon het betere kanaal is.": {
+"en": "There are situations where the phone is simply the better channel."
+},
+"Je doelgroep is klein.": {
+"en": "Your target group is small."
+},
+"Onder de paar honderd bedrijven kun je ze net zo goed allemaal bellen. E-mail heeft volume nodig om iets te kunnen leren.": {
+"en": "Below a few hundred companies, you might as well call them all. Email needs volume to learn anything."
+},
+"Je aanbod is niet in vier zinnen uit te leggen.": {
+"en": "Your offer cannot be explained in four sentences."
+},
+"Vraagt de propositie om context, tekening of demonstratie, dan verlies je dat in een koude mail.": {
+"en": "If the proposition needs context, a drawing or a demonstration, you lose that in a cold email."
+},
+"Je klantwaarde is hoog en je markt is bekend.": {
+"en": "Your customer value is high and your market is known."
+},
+"Bij een handvol grote accounts met een lange verkoopcyclus is persoonlijk contact meer waard dan bereik.": {
+"en": "With a handful of large accounts and a long sales cycle, personal contact is worth more than reach."
+},
+"Je doelgroep leest nauwelijks mail.": {
+"en": "Your target group hardly reads email."
+},
+"In sommige sectoren zit de beslisser de hele dag buiten.": {
+"en": "In some sectors the decision-maker is out in the field all day."
+},
+"Voor telefonische acquisitie naar bedrijven en consumenten gelden andere en strengere regels dan voor zakelijke e-mail, en die zijn de laatste jaren aangescherpt. Wat er precies is veranderd en wat er voor koude e-mail naar zakelijke ontvangers geldt, staat met de wetsartikelen erbij in": {
+"en": "Cold calling businesses and consumers is subject to different and stricter rules than business email, and those have been tightened in recent years. What exactly has changed and what applies to cold email to business recipients, with the legal articles included, is in"
+},
+". Wij richten campagnes zakelijk en relevant in, met een duidelijke afmeldmogelijkheid, en verwerken afmeldingen direct. Voor jouw specifieke situatie is juridisch advies op zijn plaats.": {
+"en": ". We set up campaigns to be business-focused and relevant, with a clear opt-out option, and process opt-outs immediately. For your specific situation, legal advice is appropriate."
+},
+"Allebei, in deze volgorde": {
+"en": "Both, in this order"
+},
+"De combinatie werkt beter dan elk kanaal apart, maar dan wel in de goede volgorde. Mail eerst breed, kijk welke segmenten reageren, en zet de telefoon in op de bedrijven die hebben geopend, geklikt of gereageerd zonder ja te zeggen. Dan bel je warm in plaats van koud, en zakt het aantal belminuten per afspraak fors.": {
+"en": "The combination works better than either channel alone, but only in the right order. Email broadly first, see which segments reply, and use the phone on the companies that opened, clicked or replied without saying yes. Then you call warm instead of cold, and the number of calling minutes per meeting drops sharply."
+},
+"Wie dat andersom doet, betaalt de duurste uren om erachter te komen welk segment interessant is. Die vraag beantwoordt e-mail in een maand voor een fractie van het geld.": {
+"en": "Anyone who does it the other way round pays for the most expensive hours to find out which segment is interesting. Email answers that question in a month for a fraction of the money."
+},
+"Wat is goedkoper, bellen of mailen?": {
+"en": "What is cheaper, calling or emailing?"
+},
+"Mailen, per bereikt bedrijf met afstand. Een uitbesteed e-mailtraject kost € 800 tot € 2.000 per maand en bereikt daarmee duizenden bedrijven. Telemarketing begint rond de € 2.000 per maand of 150 tot 400 euro per geplande afspraak, bij enkele honderden bedrijven.": {
+"en": "Emailing, by a wide margin per company reached. An outsourced email program costs EUR 800 to EUR 2,000 per month and reaches thousands of companies with that. Telemarketing starts around EUR 2,000 per month or 150 to 400 euros per booked meeting, for a few hundred companies."
+},
+"Werkt cold calling nog in 2026?": {
+"en": "Does cold calling still work in 2026?"
+},
+"Ja, vooral bij een kleine doelgroep, een complex aanbod of een hoge klantwaarde. Het is het duurste kanaal per gesprek en het schaalt alleen door meer uren in te kopen, maar je krijgt er wel direct een echt gesprek voor terug.": {
+"en": "Yes, especially with a small target group, a complex offer or a high customer value. It is the most expensive channel per conversation and only scales by buying more hours, but you do get a real conversation straight away."
+},
+"Kan ik beide kanalen combineren?": {
+"en": "Can I combine both channels?"
+},
+"Dat is de sterkste opzet, mits je begint met mailen. Je gebruikt e-mail om te zien welke segmenten reageren en zet de telefoon daarna in op bedrijven die interesse toonden. Zo bel je warm en heb je minder belminuten per afspraak nodig.": {
+"en": "That is the strongest setup, provided you start with email. You use email to see which segments reply and then use the phone on companies that showed interest. That way you call warm and need fewer calling minutes per meeting."
+},
+"Hoeveel afspraken levert koude e-mail op?": {
+"en": "How many meetings does cold email produce?"
+},
+"Dat hangt vooral af van hoe scherp je doelgroep is afgebakend. In een campagne voor een softwarebedrijf leverde € 5.085 aan campagne-investering 38 gekwalificeerde afspraken op in 90 dagen, dus € 134 per afspraak. Binnen een andere campagne liep de reply rate per segment uiteen van 2,3 tot 7,8 procent bij dezelfde tekst.": {
+"en": "That depends mainly on how sharply your target group is defined. In a campaign for a software company, EUR 5,085 in campaign investment produced 38 qualified meetings in 90 days, so EUR 134 per meeting. Within another campaign, the reply rate per segment ranged from 2.3 to 7.8 percent with the same copy."
+},
+"Gelden voor bellen dezelfde regels als voor mailen?": {
+"en": "Do the same rules apply to calling as to emailing?"
+},
+"Nee. Voor telefonische acquisitie gelden andere en strengere regels dan voor zakelijke e-mail. Wat er voor koude e-mail naar zakelijke ontvangers geldt, staat met de wetsartikelen erbij op onze pagina over koude e-mail en de wet. Voor je eigen situatie is juridisch advies op zijn plaats.": {
+"en": "No. Cold calling is subject to different and stricter rules than business email. What applies to cold email to business recipients, with the legal articles included, is on our page about cold email and the law. For your own situation, legal advice is appropriate."
+},
+"Welk kanaal past bij jouw doelgroep?": {
+"en": "Which channel fits your target group?"
+},
+"In de gratis fitcheck rekenen we door hoeveel bedrijven er in jouw markt zitten en of e-mail daar het juiste kanaal voor is. Ook als het antwoord nee is.": {
+"en": "In the free fitcheck we work out how many companies are in your market and whether email is the right channel for it. Even if the answer is no."
+},
+"Zeven vragen die je een leadgeneratiebureau stelt voordat je tekent | Link2Leads": {
+"en": "Seven questions to ask a lead generation agency before you sign | Link2Leads"
+},
+"Zeven vragen aan een": {
+"en": "Seven questions for a"
+},
+"leadgeneratiebureau": {
+"en": "lead generation agency"
+},
+"De meeste bureaus verkopen hetzelfde verhaal. Het verschil zit in wat er als resultaat telt, wat er per maand wordt verstuurd en wat er gebeurt als dat niet wordt gehaald.": {
+"en": "Most agencies sell the same story. The difference is in what counts as a result, what is sent per month and what happens if that is not reached."
+},
+"De zeven vragen": {
+"en": "The seven questions"
+},
+"Wanneer je weglopt": {
+"en": "When to walk away"
+},
+"Tien bureaus vergeleken": {
+"en": "Ten agencies compared"
+},
+"De meeste leadgeneratiebureaus verkopen hetzelfde verhaal. Het verschil zit in de antwoorden op zeven vragen die vrijwel niemand stelt, en die pas in maand twee pijn doen als je ze hebt overgeslagen. Hieronder de vragen, waarom ze ertoe doen en hoe wij ze zelf beantwoorden.": {
+"en": "Most lead generation agencies sell the same story. The difference is in the answers to seven questions almost nobody asks, and that only start to hurt in month two if you skipped them. Below: the questions, why they matter and how we answer them ourselves."
+},
+"Vergelijk bureaus niet op het maandbedrag, maar op vier dingen die je zwart op wit kunt krijgen: wat er precies als resultaat telt, hoeveel er per maand wordt verstuurd, wat er gebeurt als dat niet wordt gehaald, en of je live kunt meekijken. Een bureau dat op die vier punten vaag blijft, is duurder dan het bedrag op de offerte.": {
+"en": "Do not compare agencies on the monthly fee, but on four things you can get in writing: what exactly counts as a result, how much is sent per month, what happens if that is not reached, and whether you can watch live. An agency that stays vague on those four points is more expensive than the amount on the quote."
+},
+"1. Wat telt bij jullie als lead?": {
+"en": "1. What counts as a lead with you?"
+},
+"Dit is de vraag die het vaakst geld kost. Dezelfde campagne kan 400 leads, 87 positieve reacties of 12 afspraken heten, afhankelijk van wie de rekening stuurt. Een gedownload document is iets heel anders dan iemand die vraagt of je volgende week kunt bellen.": {
+"en": "This is the question that most often costs money. The same campaign can be called 400 leads, 87 positive replies or 12 meetings, depending on who sends the invoice. A downloaded document is something completely different from someone asking whether you can call next week."
+},
+"Ons antwoord:": {
+"en": "Our answer:"
+},
+"een positieve reactie is een vraag om een gesprek of demo, een vraag naar de prijs, een inhoudelijke vraag over je aanbod of een doorverwijzing naar de juiste collega. Afwezigheidsmeldingen, bounces, afmeldingen, privacyvragen en opgeheven bedrijven tellen niet mee. Dat staat op onze pakkettenpagina zodat je het kunt nakijken voordat je tekent.": {
+"en": "a positive reply is a request for a conversation or demo, a question about the price, a substantive question about your offer or a referral to the right colleague. Out-of-office replies, bounces, opt-outs, privacy questions and dissolved companies do not count. That is on our packages page so you can check it before you sign."
+},
+"2. Staat de prijs op jullie site?": {
+"en": "2. Is the price on your website?"
+},
+"Prijs op aanvraag betekent dat het bedrag afhangt van wat er over tafel gaat. Dat hoeft niet verkeerd te zijn, maar het maakt vergelijken onmogelijk en zet jou op achterstand. Let vooral op eenmalige opstartkosten, datakosten en tooling: die komen vaak pas in de offerte naar boven en schelen € 100 tot € 200 per maand plus een bedrag ineens.": {
+"en": "Price on request means the amount depends on what is discussed at the table. That does not have to be wrong, but it makes comparing impossible and puts you at a disadvantage. Watch out in particular for one-off setup costs, data costs and tooling: those often only surface in the quote and add EUR 100 to EUR 200 per month plus a lump sum."
+},
+"€ 995, € 1.295, € 1.695 en € 1.995 per maand, all-in, geen setupfee en geen aparte toolingrekening. De add-ons staan er met hun prijs bij.": {
+"en": "EUR 995, EUR 1,295, EUR 1,695 and EUR 1,995 per month, all-in, no setup fee and no separate tooling bill. The add-ons are listed with their prices."
+},
+"3. Hoeveel wordt er per maand verstuurd, en staat dat in het contract?": {
+"en": "3. How much is sent per month, and is that in the contract?"
+},
+"Bij een vast maandbedrag koop je in feite verzendcapaciteit. Vraag dus wat er gebeurt als er in week drie niets is verzonden. Vraag ook op hoeveel dagen per maand er wordt verstuurd: wie alleen op werkdagen mailt, zit op gemiddeld 22 dagen in plaats van 30, en dat is ruim een derde minder bereikte bedrijven voor dezelfde factuur.": {
+"en": "With a fixed monthly fee, you are effectively buying sending capacity. So ask what happens if nothing has been sent in week three. Also ask on how many days per month sending takes place: anyone who only emails on working days averages 22 days instead of 30, and that is well over a third fewer companies reached for the same invoice."
+},
+"minimaal 30.000 verzonden mails per maand op Pro, naar rato op de andere pakketten, vastgelegd in het contract. Zeven verzenddagen per week. Valt er een dag uit, dan halen we dat de dag erna in.": {
+"en": "at least 30,000 emails sent per month on Pro, pro rata on the other packages, set out in the contract. Seven sending days per week. If a day is missed, we make it up the next day."
+},
+"4. Vanaf welk domein wordt er verstuurd?": {
+"en": "4. Which domain is used for sending?"
+},
+"Wie vanaf jouw hoofddomein mailt, zet je normale e-mailverkeer op het spel. Gaat er iets mis met de bezorging, dan raakt dat je offertes en je factuurmail, niet alleen een campagne.": {
+"en": "Anyone who emails from your main domain puts your normal email traffic at risk. If something goes wrong with deliverability, it hits your quotes and your invoice emails, not just a campaign."
+},
+"nooit vanaf je hoofddomein. We zetten aparte verzenddomeinen en mailboxen op met eigen SPF, DKIM en DMARC, laten die twee weken warmdraaien en houden de warmup aan terwijl de campagne loopt. We hanteren maximaal 25 mails per mailbox per dag, en werken naar 12 toe. Volume komt uit het aantal mailboxen en niet uit hardere instellingen op een enkele box.": {
+"en": "never from your main domain. We set up separate sending domains and mailboxes with their own SPF, DKIM and DMARC, warm them up for two weeks and keep the warmup running while the campaign is live. We use a maximum of 25 emails per mailbox per day, and work towards 12. Volume comes from the number of mailboxes and not from harder settings on a single box."
+},
+"5. Keur ik de lijst en de teksten goed?": {
+"en": "5. Do I approve the list and the copy?"
+},
+"Jij weet welke bedrijven al klant zijn, welke je bewust niet wilt benaderen en welke woorden in jouw markt verkeerd vallen. Een bureau dat zonder jouw akkoord live gaat, zet jouw naam onder een tekst die je niet hebt gezien.": {
+"en": "You know which companies are already customers, which ones you deliberately do not want to approach and which words land badly in your market. An agency that goes live without your approval puts your name under copy you have not seen."
+},
+"de volledige startlijst en de volledige teksten gaan naar je toe voordat de campagne aangaat, en jij keurt allebei goed.": {
+"en": "the complete starting list and the complete copy are sent to you before the campaign starts, and you approve both."
+},
+"6. Kan ik live meekijken?": {
+"en": "6. Can I watch live?"
+},
+"Een maandrapport laat zien wat er is gebeurd toen je er niets meer aan kon doen. Vraag hoe vaak je iets hoort en hoe snel een positieve reactie bij jou is.": {
+"en": "A monthly report shows what happened when you could no longer do anything about it. Ask how often you hear something and how quickly a positive reply reaches you."
+},
+"je krijgt elke week een rapportage met wat er is verstuurd en wat eruit kwam, en elke positieve reactie gaat direct door naar je eigen mailbox met naam, functie, organisatie en contactgegevens erbij. Elke reactie wordt met de hand gelezen, niet door een scoringsmodel.": {
+"en": "you get a report every week with what was sent and what came out of it, and every positive reply goes straight to your own inbox with name, job title, organisation and contact details included. Every reply is read by hand, not by a scoring model."
+},
+"7. Wat gebeurt er als het tegenvalt?": {
+"en": "7. What happens if it disappoints?"
+},
+"Vraag naar de opzegtermijn, naar wat er met de opgebouwde verzendreputatie en de domeinen gebeurt als je stopt, en of er een minimumresultaat op papier staat. Mondelinge beloftes over aantallen zijn geen afspraak.": {
+"en": "Ask about the notice period, about what happens to the built-up sending reputation and the domains if you stop, and whether there is a minimum result on paper. Verbal promises about numbers are not an agreement."
+},
+"op Scale en Pro spreken we vooraf een minimumaantal gekwalificeerde positieve reacties af voor drie campagnemaanden, berekend op je doelgroep, aanbod en marktgrootte, en dat staat in je contract. Halen we het niet, dan draaien we kosteloos door tot het aantal er staat, maximaal drie maanden extra, zonder abonnements-, mailbox-, domein- of datakosten. De garantie geldt voor positieve reacties en niet voor afspraken, omzet of betalende klanten.": {
+"en": "on Scale and Pro we agree a minimum number of qualified positive replies for three campaign months up front, calculated on your target group, offer and market size, and that is in your contract. If we do not reach it, we keep going at no cost until the number is there, for up to three extra months, with no subscription, mailbox, domain or data costs. The guarantee covers positive replies and not meetings, revenue or paying customers."
+},
+"Vier antwoorden waarop je weg moet lopen": {
+"en": "Four answers you should walk away from"
+},
+"Een gegarandeerd aantal afspraken.": {
+"en": "A guaranteed number of meetings."
+},
+"Afspraken hangen af van gesprekken die het bureau niet voert. Wie daar een getal aan hangt, verdient aan volume en zal dat volume leveren.": {
+"en": "Meetings depend on conversations the agency does not have. Anyone who puts a number on that earns on volume and will deliver that volume."
+},
+"Een gekochte lijst die meer klanten gebruikt.": {
+"en": "A purchased list that multiple clients use."
+},
+"Je betaalt dan voor bedrijven die dezelfde week door drie anderen worden gemaild.": {
+"en": "You then pay for companies that are emailed by three others in the same week."
+},
+"Geen minimumvolume in het contract.": {
+"en": "No minimum volume in the contract."
+},
+"Dan is het aantal mails een streefgetal en heb je geen noemer om resultaat tegen af te zetten.": {
+"en": "Then the number of emails is a target figure and you have no denominator to measure results against."
+},
+"Vaagheid over de verzendomgeving.": {
+"en": "Vagueness about the sending environment."
+},
+"Als niet duidelijk is vanaf welk domein er wordt gemaild, is het antwoord vaak dat van jou.": {
+"en": "If it is not clear which domain the emails are sent from, the answer is often yours."
+},
+"Tien Nederlandse bureaus naast elkaar": {
+"en": "Ten Dutch agencies side by side"
+},
+"We hebben tien aanbieders in deze markt op deze punten vergeleken, onszelf op nummer één, met per bureau de bron en de controledatum erbij. Dat overzicht staat op": {
+"en": "We compared ten providers in this market on these points, with ourselves at number one, with the source and the check date listed per agency. That overview is at"
+},
+"cold email bureaus in Nederland vergeleken": {
+"en": "cold email agencies in the Netherlands compared"
+},
+". Zoek je iets anders dan e-mail, bellen, meertalig werken of een compleet salesproces laten inrichten, dan staat daar per bureau wie daar beter voor is.": {
+"en": ". If you are looking for something other than email, such as calling, multilingual work or having a complete sales process set up, it lists per agency who is better suited for that."
+},
+"Waar let ik op bij het kiezen van een leadgeneratiebureau?": {
+"en": "What should I look for when choosing a lead generation agency?"
+},
+"Op vier dingen die zwart op wit kunnen: wat er precies als resultaat telt, hoeveel er per maand wordt verstuurd en of dat in het contract staat, wat er gebeurt als dat niet wordt gehaald, en of je live kunt meekijken. Het maandbedrag zegt zonder die vier weinig.": {
+"en": "Four things that can be put in writing: what exactly counts as a result, how much is sent per month and whether that is in the contract, what happens if that is not reached, and whether you can watch live. Without those four, the monthly fee says little."
+},
+"Waarom noemen de meeste bureaus geen prijs?": {
+"en": "Why do most agencies not list a price?"
+},
+"Omdat het bedrag dan afhangt van het gesprek, en omdat opstartkosten, datakosten en tooling vaak pas in de offerte naar boven komen. Vraag altijd om een totaalprijs per maand inclusief alles, en om het bedrag dat eenmalig bij aanvang wordt gerekend.": {
+"en": "Because the amount then depends on the conversation, and because setup costs, data costs and tooling often only surface in the quote. Always ask for a total price per month including everything, and for the amount charged once at the start."
+},
+"Is een gegarandeerd aantal afspraken een goed teken?": {
+"en": "Is a guaranteed number of meetings a good sign?"
+},
+"Nee. Afspraken hangen af van gesprekken die het bureau niet voert. Een garantie die daarover gaat, betekent dat iemand aan aantallen verdient en dus aantallen gaat leveren. Een garantie op gekwalificeerde positieve reacties is wel te onderbouwen, mits de definitie ervan op papier staat.": {
+"en": "No. Meetings depend on conversations the agency does not have. A guarantee about that means someone earns on numbers and will therefore deliver numbers. A guarantee on qualified positive replies can be substantiated, provided its definition is on paper."
+},
+"Wat moet er over volume in het contract staan?": {
+"en": "What should the contract say about volume?"
+},
+"Een minimumaantal verzonden mails per maand, plus wat er gebeurt als een dag uitvalt. Vraag ook op hoeveel dagen per maand er wordt verstuurd. Alleen op werkdagen betekent gemiddeld 22 verzenddagen in plaats van 30.": {
+"en": "A minimum number of emails sent per month, plus what happens if a day is missed. Also ask on how many days per month sending takes place. Working days only means an average of 22 sending days instead of 30."
+},
+"Hoe lang zit ik vast?": {
+"en": "How long am I tied in?"
+},
+"In deze markt is drie maanden gebruikelijk, en dat is terecht: de eerste twee weken zijn warmup en nieuwe teksten moeten drie weken draaien voordat je iets kunt beoordelen. Vraag wat er daarna geldt. Bij ons loopt het na drie maanden maandelijks door.": {
+"en": "Three months is standard in this market, and rightly so: the first two weeks are warmup and new copy has to run for three weeks before you can judge anything. Ask what applies after that. With us it continues monthly after three months."
+},
+"Stel ons deze zeven vragen gerust zelf": {
+"en": "Feel free to ask us these seven questions yourself"
+},
+"In de gratis fitcheck van 30 minuten beantwoorden we ze met cijfers uit onze eigen campagnes, en zeggen we het eerlijk als je doelgroep niet bij dit kanaal past.": {
+"en": "In the free 30-minute fitcheck we answer them with figures from our own campaigns, and we tell you honestly if your target group does not fit this channel."
+},
+"Leadgeneratie Amsterdam: B2B-afspraken via koude e-mail | Link2Leads": {
+"en": "Lead generation Amsterdam: B2B meetings through cold email | Link2Leads"
+},
+"Leadgeneratie": {
+"en": "Lead generation"
+},
+"Wij zitten aan de Frederik Hendrikstraat en draaien vanaf daar koude e-mailcampagnes voor Nederlandse B2B-bedrijven. Vanaf 995 euro per maand, live in week 3.": {
+"en": "We are based on Frederik Hendrikstraat and run cold email campaigns for Dutch B2B companies from there. From 995 euros per month, live in week 3."
+},
+"Voor wie dit werkt": {
+"en": "Who this works for"
+},
+"Hoe een traject loopt": {
+"en": "How a program runs"
+},
+"Waar je ons vindt": {
+"en": "Where to find us"
+},
+"Wij zitten aan de Frederik Hendrikstraat in Amsterdam en draaien vanaf daar koude e-mailcampagnes voor Nederlandse B2B-bedrijven. Hieronder voor welke Amsterdamse bedrijven dat werkt, hoe een traject loopt en wat het kost.": {
+"en": "We are based on Frederik Hendrikstraat in Amsterdam and run cold email campaigns for Dutch B2B companies from there. Below: which Amsterdam companies this works for, how a program runs and what it costs."
+},
+"Wij zoeken de bedrijven die bij jouw beste klanten passen, mailen ze persoonlijk namens jou en leveren de gekwalificeerde positieve reacties af in je eigen mailbox. Jij voert het gesprek. Vaste prijs vanaf € 995 per maand, live in week 3, en op de twee grootste pakketten een minimumaantal positieve reacties dat in je contract staat.": {
+"en": "We find the companies that match your best customers, email them personally on your behalf and deliver the qualified positive replies to your own inbox. You have the conversation. Fixed price from EUR 995 per month, live in week 3, and on the two largest packages a minimum number of positive replies that is in your contract."
+},
+"De campagnes draaien volledig online, dus je doelgroep hoeft niet in Amsterdam te zitten. Wel zitten wij hier, dus we kunnen gewoon langskomen of afspreken.": {
+"en": "The campaigns run entirely online, so your target group does not have to be in Amsterdam. But we are here, so we can simply drop by or meet up."
+},
+"Voor welke Amsterdamse bedrijven dit werkt": {
+"en": "Which Amsterdam companies this works for"
+},
+"Amsterdam zit vol met bedrijven die per e-mail goed te bereiken beslissers als klant hebben: softwarebedrijven, bureaus, zakelijke dienstverleners, uitzenders en detacheerders, en groothandels in de regio. Dat zijn ook precies de markten waar wij de meeste campagnes voor draaien.": {
+"en": "Amsterdam is full of companies whose customers are decision-makers who are easy to reach by email: software companies, agencies, business service providers, staffing and secondment firms, and wholesalers in the region. Those are exactly the markets we run most campaigns for."
+},
+"Het werkt als je aan vier dingen voldoet:": {
+"en": "It works if you meet four conditions:"
+},
+"Je aanbod is al aan betalende klanten verkocht, dus je weet dat er vraag naar is.": {
+"en": "Your offer has already been sold to paying customers, so you know there is demand for it."
+},
+"Je weet wie je ideale klant is, of je hebt genoeg bestaande klanten om dat uit af te leiden.": {
+"en": "You know who your ideal customer is, or you have enough existing customers to derive that from."
+},
+"Je doelgroep telt minstens duizend bedrijven. Dat hoeft niet Amsterdam te zijn: de meeste van onze klanten mailen heel Nederland, sommige ook Vlaanderen.": {
+"en": "Your target group has at least a thousand companies. That does not have to be Amsterdam: most of our clients email all of the Netherlands, some also Flanders."
+},
+"Er is iemand die een nieuwe reactie binnen een werkdag oppakt.": {
+"en": "There is someone who picks up a new reply within one working day."
+},
+"Het is te vroeg als je aanbod nog niet is verkocht, als je doelgroep kleiner is dan duizend bedrijven of als er niemand is om reacties op te volgen. In dat laatste geval zetten we er via": {
+"en": "It is too early if your offer has not been sold yet, if your target group is smaller than a thousand companies or if there is nobody to follow up on replies. In the latter case we bring in a setter via"
+},
+"een setter op, of nemen we het over met de Full Service-module.": {
+"en": ", or we take it over with the Full Service module."
+},
+"Het begint met een gratis fitcheck van 30 minuten waarin we naar je doelgroep en je aanbod kijken en doorrekenen wat realistisch is. Past jouw markt niet bij dit kanaal, dan zeggen we dat voordat je tekent.": {
+"en": "It starts with a free 30-minute fitcheck in which we look at your target group and your offer and work out what is realistic. If your market does not fit this channel, we say so before you sign."
+},
+"Daarna: week 1 is de intake en het opzetten van aparte verzenddomeinen en mailboxen, week 2 draaien die warm en schrijven we de eerste mail en twee opvolgmails, en in week 3 gaat de campagne live op een derde van je volume en groeit naar honderd procent. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen. Je eigen domein gebruiken we nooit, dus je normale mailverkeer blijft buiten de campagne.": {
+"en": "After that: week 1 is the intake and setting up separate sending domains and mailboxes, in week 2 those warm up and we write the first email and two follow-up emails, and in week 3 the campaign goes live at a third of your volume and grows to one hundred percent. The first replies usually come in three to ten days after going live. We never use your own domain, so your normal email traffic stays out of the campaign."
+},
+"Elke binnenkomende reactie wordt met de hand gelezen. Wat een gesprek waard is gaat door naar jouw mailbox met naam, functie, organisatie en contactgegevens, klaar om te bellen. Elke week krijg je een rapportage met wat er is verstuurd en wat eruit kwam.": {
+"en": "Every incoming reply is read by hand. Whatever is worth a conversation goes to your inbox with name, job title, organisation and contact details, ready to call. Every week you get a report with what was sent and what came out of it."
+},
+"Bedragen exclusief btw, all-in, zonder setupfee en zonder aparte toolingrekening. Zeven verzenddagen per week, dus 30 per maand. Eerste termijn drie maanden, daarna maandelijks opzegbaar.": {
+"en": "Amounts exclude VAT, all-in, with no setup fee and no separate tooling bill. Seven sending days per week, so 30 per month. First term three months, then cancellable monthly."
+},
+"Op Scale en Pro leggen we vooraf vast hoeveel gekwalificeerde positieve reacties je minimaal ontvangt in drie campagnemaanden, berekend op je doelgroep, aanbod en marktgrootte. Halen we dat niet, dan draaien we kosteloos door tot het aantal er staat, maximaal drie maanden extra.": {
+"en": "On Scale and Pro we set out up front the minimum number of qualified positive replies you will receive in three campaign months, calculated on your target group, offer and market size. If we do not reach it, we keep going at no cost until the number is there, for up to three extra months."
+},
+"Zoek je alleen een lijst met bedrijven om zelf te benaderen, dan verkopen we die los vanaf 500 leads met een geverifieerd zakelijk e-mailadres en de bron per record. Kijk op": {
+"en": "If you only want a list of companies to approach yourself, we sell that separately from 500 leads with a verified business email address and the source per record. See"
+},
+"Wat het bij anderen opleverde": {
+"en": "What it delivered for others"
+},
+"Een greep uit campagnes die we zelf hebben gedraaid, met de cijfers erbij:": {
+"en": "A selection of campaigns we ran ourselves, with the figures included:"
+},
+"Softwarebedrijf, Scale-pakket.": {
+"en": "Software company, Scale package."
+},
+"38 gekwalificeerde afspraken in 90 dagen uit € 5.085 aan campagne-investering, dus € 134 per afspraak, en € 84.000 aan pipeline.": {
+"en": "38 qualified meetings in 90 days from EUR 5,085 in campaign investment, so EUR 134 per meeting, and EUR 84,000 in pipeline."
+},
+"Marketingbureau, Growth-pakket.": {
+"en": "Marketing agency, Growth package."
+},
+"15 positieve reacties in de eerste twee weken, na de doelgroep te hebben opgesplitst in drie segmenten met elk een eigen insteek.": {
+"en": "15 positive replies in the first two weeks, after splitting the target group into three segments, each with its own angle."
+},
+"Eigen campagne met een pagina per prospect.": {
+"en": "Our own campaign with a page per prospect."
+},
+"1.240 prospects kregen een landingspagina over hun eigen bedrijf, 34 procent opende die pagina, en er stonden 27 afspraken in acht weken.": {
+"en": "1,240 prospects received a landing page about their own company, 34 percent opened that page, and 27 meetings were booked in eight weeks."
+},
+"De volledige cases staan op": {
+"en": "The full cases are at"
+},
+"cases en resultaten": {
+"en": "cases and results"
+},
+". In totaal hebben we ruim 800.000 mails namens onze klanten verstuurd, vanaf ongeveer 170 eigen mailboxen.": {
+"en": ". In total we have sent over 800,000 emails on behalf of our clients, from around 170 of our own mailboxes."
+},
+", Frederik Hendrikstraat 59H, 1052 HL Amsterdam, KvK 42025671. Bereikbaar op": {
+"en": ", Frederik Hendrikstraat 59H, 1052 HL Amsterdam, KvK 42025671. Reachable at"
+},
+", op werkdagen tussen 9 en 18 uur. Je spreekt Demi of Anne-Roos, geen accountmanager: wij draaien de campagnes zelf.": {
+"en": ", on working days between 9:00 and 18:00. You speak to Demi or Anne-Roos, not an account manager: we run the campaigns ourselves."
+},
+"Werken jullie alleen voor bedrijven in Amsterdam?": {
+"en": "Do you only work for companies in Amsterdam?"
+},
+"Nee. Wij zitten in Amsterdam, aan de Frederik Hendrikstraat 59H, en werken voor B2B-bedrijven door heel Nederland. De campagnes draaien volledig online, dus je hoeft niet in de buurt te zitten. Langskomen kan wel gewoon.": {
+"en": "No. We are based in Amsterdam, at Frederik Hendrikstraat 59H, and work for B2B companies across the Netherlands. The campaigns run entirely online, so you do not have to be nearby. Dropping by is always possible."
+},
+"Kunnen jullie ook buiten Nederland mailen?": {
+"en": "Can you also email outside the Netherlands?"
+},
+"Vlaanderen en België doen we standaard. Wil je daarbuiten mailen, zet dat dan in de onboarding bij de regio's, dan kijken we of we de doelgroep kunnen opbouwen en of het kanaal daar past.": {
+"en": "Flanders and Belgium we do as standard. If you want to email beyond that, put it under regions in the onboarding, and we will check whether we can build the target group and whether the channel fits there."
+},
+"Wat kost leadgeneratie bij jullie?": {
+"en": "What does lead generation cost with you?"
+},
+"Vaste maandprijzen van € 995, € 1.295, € 1.695 en € 1.995, all-in en zonder setupfee. Het verschil zit in het dagvolume: 100, 250, 500 of 1.000 mails per dag, zeven dagen per week. De eerste termijn is drie maanden, daarna maandelijks opzegbaar.": {
+"en": "Fixed monthly prices of EUR 995, EUR 1,295, EUR 1,695 and EUR 1,995, all-in and with no setup fee. The difference is in the daily volume: 100, 250, 500 or 1,000 emails per day, seven days a week. The first term is three months, then cancellable monthly."
+},
+"Hoe snel kan mijn campagne live?": {
+"en": "How quickly can my campaign go live?"
+},
+"Week 1 en 2 zijn opbouw en warmup, in week 3 gaat de campagne live. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen. Staat de setup niet op tijd door iets aan onze kant, dan schuift je facturatie mee.": {
+"en": "Weeks 1 and 2 are setup and warmup, in week 3 the campaign goes live. The first replies usually come in three to ten days after going live. If the setup is not ready on time because of something on our side, your billing shifts along with it."
+},
+"Loopt mijn eigen domein risico?": {
+"en": "Is my own domain at risk?"
+},
+"Nee. We versturen nooit vanaf je hoofddomein. We zetten aparte verzenddomeinen en mailboxen op die we opwarmen en dagelijks bewaken, zodat je website, je e-mail en je merkreputatie buiten de campagne blijven.": {
+"en": "No. We never send from your main domain. We set up separate sending domains and mailboxes that we warm up and monitor daily, so your website, your email and your brand reputation stay out of the campaign."
+},
+"Hoeveel bedrijven zitten er in jouw markt?": {
+"en": "How many companies are in your market?"
+},
+"Campagnes die we zelf draaiden, met de cijfers erbij": {
+"en": "Campaigns we ran ourselves, with the figures included"
+},
+"Alleen de lijst, vanaf 500 leads": {
+"en": "Just the list, from 500 leads"
+},
+"Uitbesteden · 9 min": {
+"en": "Outsourcing · 9 min"
+},
+"Wat je precies weggeeft, wat je zelf houdt, wat het per maand kost en waar een uitbesteed traject in de praktijk op vastloopt.": {
+"en": "What exactly you hand over, what you keep, what it costs per month and where an outsourced program gets stuck in practice."
+},
+"Keuzehulp · 9 min": {
+"en": "Decision guide · 9 min"
+},
+"Zeven vragen aan een leadgeneratiebureau": {
+"en": "Seven questions for a lead generation agency"
+},
+"De vragen die bepalen of een offerte klopt, waarom ze ertoe doen en hoe wij ze zelf beantwoorden. Plus vier antwoorden waarop je weg moet lopen.": {
+"en": "The questions that determine whether a quote adds up, why they matter and how we answer them ourselves. Plus four answers you should walk away from."
+},
+"Kanalen · 8 min": {
+"en": "Channels · 8 min"
+},
+"Cold calling of cold e-mail?": {
+"en": "Cold calling or cold email?"
+},
+"Kosten per afspraak, bereik per week en snelheid naast elkaar, en wanneer de telefoon het betere kanaal is.": {
+"en": "Cost per meeting, reach per week and speed side by side, and when the phone is the better channel."
+},
+"Uitbesteden · 8 min": {
+"en": "Outsourcing · 8 min"
+},
+"Drie manieren om sales uit te besteden, waarom betalen per afspraak in B2B tegenvalt, en de rekensom tegenover iemand in dienst.": {
+"en": "Three ways to outsource sales, why paying per meeting disappoints in B2B, and the calculation versus hiring someone."
+},
+"Koude acquisitie uitbesteden:": {
+"en": "Outsourcing cold outreach:"
+},
+"zo werkt het": {
+"en": "how it works"
+},
+"Sales uitbesteden:": {
+"en": "Outsourcing sales:"
+},
+"welk deel geef je weg?": {
+"en": "which part do you hand over?"
+},
+
+/* ── Eigendom na afloop, artikel 9 (22 sept 2026) ── */
+"De campagneteksten die wij voor jou schrijven mag je ook na het einde van de samenwerking blijven gebruiken. De contactgegevens van de bedrijven die in jouw campagne zijn benaderd, inclusief de reacties, krijg je bij beëindiging in een gangbaar bestandsformaat mee. Wat van": {
+"en": "You may keep using the campaign copy we write for you after the collaboration ends. The contact details of the companies approached in your campaign, including their replies, are handed over in a common file format when the collaboration ends. What remains with"
+},
+"blijft: de verzendomgeving (domeinen, mailboxen en instellingen), onze werkwijze, systemen en interne documentatie. Die mag je niet zonder toestemming gebruiken of kopiëren. Afmeldingen bewaren wij ook na afloop, zodat die bedrijven niet opnieuw worden benaderd.": {
+"en": ": the sending environment (domains, mailboxes and settings), our method, systems and internal documentation. You may not use or copy those without permission. We keep unsubscribes after the collaboration ends, so those companies are not approached again."
+},
+"Wat van jou blijft als je stopt": {
+"en": "What stays yours if you stop"
+},
+"De teksten die we voor je schreven mag je blijven gebruiken, en de contactgegevens en reacties uit jouw campagne krijg je in een gangbaar bestandsformaat mee. Alleen de verzendomgeving en onze werkwijze blijven van ons.": {
+"en": "You may keep using the copy we wrote for you, and you receive the contact details and replies from your campaign in a common file format. Only the sending environment and our method remain ours."
+},
+
+/* ── Geen portaal, alles in de eigen mailbox (22 sept 2026) ── */
+"Krijg ik een portaal of een inlog?": {
+"en": "Do I get a portal or a login?"
+},
+"Nee, en dat is bewust. Alles wat je moet zien komt direct binnen in je eigen mailbox, waar het hoort. Standaard zijn dat alle positieve reacties, met naam, functie, organisatie en contactgegevens erbij. Wil je liever elke reactie zien, ook de afwijzingen en afwezigheidsmeldingen, dan sturen we alles live door. Daarnaast krijg je elke week een rapportage met wat er is verstuurd en wat eruit kwam. Geen inlog op een portaal van een derde partij, geen dashboard dat je moet leren lezen.": {
+"en": "No, and that is deliberate. Everything you need to see lands directly in your own inbox, where it belongs. By default that is every positive reply, with name, role, organisation and contact details attached. If you would rather see every reply, including rejections and out-of-office messages, we forward everything live. On top of that you get a weekly report with what was sent and what came back. No login on a third-party portal, no dashboard you have to learn to read."
+},
+"Alle positieve reacties, of op verzoek elke reactie, direct in je eigen mailbox. Geen portaal, geen inlog": {
+"en": "Every positive reply, or on request every reply, straight into your own inbox. No portal, no login"
+},
+"je krijgt elke week een rapportage met wat er is verstuurd en wat eruit kwam, en elke positieve reactie gaat direct door naar je eigen mailbox met naam, functie, organisatie en contactgegevens erbij. Wil je alles zien, ook de afwijzingen, dan sturen we elke reactie live door. Bewust geen portaal met een inlog: wat je moet zien staat in je eigen mailbox, waar het hoort. Elke reactie wordt met de hand gelezen, niet door een scoringsmodel.": {
+"en": "you get a weekly report with what was sent and what came back, and every positive reply goes straight to your own inbox with name, role, organisation and contact details attached. If you want to see everything, including rejections, we forward every reply live. Deliberately no portal with a login: what you need to see is in your own inbox, where it belongs. Every reply is read by hand, not by a scoring model."
 }
 };

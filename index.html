@@ -272,6 +272,7 @@ nav.scrolled .nav-inner {
 .cs-stats > div:last-child{border-right:0;}
 .cs-stats b{display:block;font-size:clamp(20px,2.6vw,27px);font-weight:900;letter-spacing:-1.1px;line-height:1;color:var(--accent2);}
 .cs-stats span{display:block;margin-top:6px;font-size:13.5px;line-height:1.4;color:var(--muted);}
+.cs-stats small.cs-note{display:block;margin-top:8px;padding-top:8px;border-top:1px solid var(--border);font-size:12.5px;line-height:1.45;color:rgba(255,255,255,.5);}
 .cs-body{padding:26px 30px;}
 .cs-vn{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:stretch;}
 .cs-vn-col{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:14px;padding:18px 20px;}
@@ -1139,6 +1140,9 @@ h1 .blue, h2 .blue, h3 .blue {
   padding:8px 14px; border-radius:6px; margin-bottom:22px;
   display:flex; align-items:center; justify-content:center; line-height:1.5;
 }
+.p-volume:has(+ .p-volume-sub) { margin-bottom:8px; }
+.p-volume-sub { font-size:13px; line-height:1.5; color:rgba(255,255,255,0.58); text-align:center; margin-bottom:22px; }
+.p-volume-sub b { color:rgba(255,255,255,0.8); font-weight:700; }
 .p-line { height:1px; background:var(--border); margin-bottom:20px; }
 .p-features { list-style:none; flex:1; display:flex; flex-direction:column; gap:11px; }
 .p-features li { font-size:14px; color:rgba(255,255,255,0.65); display:flex; align-items:flex-start; gap:9px; line-height:1.5; }
@@ -2182,6 +2186,14 @@ footer.l2f{margin-bottom:0 !important;}
         },
         {
           "@type": "Question",
+          "name": "Krijg ik een portaal of een inlog?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nee, en dat is bewust. Alles wat je moet zien komt direct binnen in je eigen mailbox, waar het hoort. Standaard zijn dat alle positieve reacties, met naam, functie, organisatie en contactgegevens erbij. Wil je liever elke reactie zien, ook de afwijzingen en afwezigheidsmeldingen, dan sturen we alles live door. Daarnaast krijg je elke week een rapportage met wat er is verstuurd en wat eruit kwam. Geen inlog op een portaal van een derde partij, geen dashboard dat je moet leren lezen."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Hoeveel reacties kan ik verwachten?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -2841,12 +2853,13 @@ Bel ons: 085 080 5381
 <div class="blk-head"><span class="blk-num">4</span><h3>Jij voert de gesprekken</h3></div>
 <ul class="blk-list">
 <li>Jij keurt alleen de lijst en de mails goed</li>
-<li>Reacties komen binnen in je eigen mailbox</li>
+<li>Alle positieve reacties, of op verzoek elke reactie, direct in je eigen mailbox. Geen portaal, geen inlog</li>
 <li>Met Full Service zetten wij de afspraak ook in je agenda</li>
 </ul>
 </div>
 </div>
 <p class="steps4-note reveal"><strong>Standaard</strong> positieve reacties in je mailbox. <strong>Met Full Service</strong> ook de afspraak in je agenda.</p>
+</div>
 </section>
 <!-- CASE STUDY -->
 <section class="case-section" id="resultaten">
@@ -2924,7 +2937,7 @@ Bel ons: 085 080 5381
 <p class="cs-sum">Nieuwe klanten kwamen hier via-via binnen, zonder structurele acquisitie. In 90 dagen stonden er 38 gekwalificeerde afspraken, waarvan de eerste op dag 1 na livegang.</p>
 <div class="cs-stats">
 <div><b>38</b><span>Gekwalificeerde afspraken</span></div>
-<div><b>€134</b><span>Kosten per afspraak</span></div>
+<div><b>€134</b><span>Kosten per afspraak</span><small class="cs-note">Telemarketing kost in Nederland doorgaans €150 tot €400 per geplande afspraak.</small></div>
 <div><b>16,5x</b><span>Pipeline ten opzichte van de investering</span></div>
 </div>
 <a class="cs-more" href="/cases/softwarebedrijf">Lees de volledige case &rarr;</a>
@@ -3116,11 +3129,12 @@ Bel ons: 085 080 5381
 <div class="p-price">€995</div>
 <div class="p-period">per maand, volledig beheerd</div>
 <div class="p-volume">100 mails per dag</div>
+<div class="p-volume-sub"><b>3.000 mails per maand</b>, verzonden op 30 dagen &middot; ± 1.000 nieuwe bedrijven</div>
 <div class="p-line"></div>
 <ul class="p-features">
 <li>Volledig ingerichte campagne</li>
 <li>Alleen gekwalificeerde reacties</li>
-<li>Maandrapportage</li>
+<li>Wekelijkse rapportage</li>
 </ul>
 <a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
@@ -3130,6 +3144,7 @@ Bel ons: 085 080 5381
 <div class="p-price">€1.295</div>
 <div class="p-period">per maand, volledig beheerd</div>
 <div class="p-volume">250 mails per dag</div>
+<div class="p-volume-sub"><b>7.500 mails per maand</b>, verzonden op 30 dagen &middot; ± 2.500 nieuwe bedrijven</div>
 <div class="p-line"></div>
 <ul class="p-features">
 <li>Alles uit Starter</li>
@@ -3145,6 +3160,7 @@ Bel ons: 085 080 5381
 <div class="p-price">€1.695</div>
 <div class="p-period">per maand, volledig beheerd</div>
 <div class="p-volume">500 mails per dag</div>
+<div class="p-volume-sub"><b>15.000 mails per maand</b>, verzonden op 30 dagen &middot; ± 5.000 nieuwe bedrijven</div>
 <div class="p-line"></div>
 <ul class="p-features">
 <li class="p-gar">Contractuele garantie op positieve reacties</li>
@@ -3159,6 +3175,7 @@ Bel ons: 085 080 5381
 <div class="p-price">€1.995</div>
 <div class="p-period">per maand, volledig beheerd</div>
 <div class="p-volume">1.000 mails per dag</div>
+<div class="p-volume-sub"><b>30.000 mails per maand</b>, verzonden op 30 dagen &middot; ± 10.000 nieuwe bedrijven</div>
 <div class="p-line"></div>
 <ul class="p-features">
 <li class="p-gar">Contractuele garantie op positieve reacties</li>
@@ -3167,6 +3184,43 @@ Bel ons: 085 080 5381
 </ul>
 <a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
+</div>
+<div class="wknd reveal" id="verzenddagen">
+<style>
+  .wknd{margin-top:34px;text-align:left;background:var(--card-bg);border:1px solid var(--border);border-radius:18px;padding:26px 30px;}
+  .wknd-h{font-size:clamp(19px,2.3vw,23px);font-weight:800;letter-spacing:-.5px;color:var(--white);margin:0 0 8px;}
+  .wknd-h .blue{color:var(--accent2);}
+  .wknd-p{margin:0 0 20px;font-size:15px;line-height:1.65;color:rgba(255,255,255,.7);max-width:70ch;}
+  .wknd-tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--border);border-radius:14px;}
+  .wknd table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:520px;}
+  .wknd th,.wknd td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--border);}
+  .wknd thead th{font-family:var(--f);font-size:12.5px;font-weight:800;letter-spacing:.2px;color:var(--muted);
+    background:rgba(255,255,255,.03);white-space:nowrap;}
+  .wknd tbody tr:last-child td{border-bottom:0;}
+  .wknd td:first-child{font-weight:700;color:var(--white);}
+  .wknd .ours{color:var(--accent2);font-weight:800;}
+  .wknd .theirs{color:rgba(255,255,255,.55);}
+  .wknd-foot{margin:16px 0 0;font-size:13.5px;line-height:1.6;color:var(--muted);}
+  @media(max-width:760px){.wknd{padding:22px 20px;}}
+  @media(max-width:620px){.wknd table{min-width:0;font-size:13px;}
+    .wknd th,.wknd td{padding:11px 10px;}
+    .wknd th:nth-child(2),.wknd td:nth-child(2){display:none;}
+    .wknd thead th{white-space:normal;}}
+</style>
+<h3 class="wknd-h">Wij versturen <span class="blue">ook in het weekend</span></h3>
+<p class="wknd-p">De meeste bureaus mailen alleen op werkdagen, gemiddeld 22 dagen per maand. Wij versturen zeven dagen per week, dus 30 dagen per maand. Bij hetzelfde dagvolume bereik je daardoor ruim een derde meer bedrijven voor hetzelfde maandbedrag.</p>
+<div class="wknd-tw">
+<table>
+<thead><tr><th>Pakket</th><th>Per dag</th><th>Bij ons, 30 verzenddagen</th><th>Bij 22 verzenddagen</th></tr></thead>
+<tbody>
+<tr><td>Starter</td><td>100 mails</td><td class="ours">&euro;&nbsp;332 per 1.000 mails</td><td class="theirs">&euro;&nbsp;452 per 1.000 mails</td></tr>
+<tr><td>Growth</td><td>250 mails</td><td class="ours">&euro;&nbsp;173 per 1.000 mails</td><td class="theirs">&euro;&nbsp;235 per 1.000 mails</td></tr>
+<tr><td>Scale</td><td>500 mails</td><td class="ours">&euro;&nbsp;113 per 1.000 mails</td><td class="theirs">&euro;&nbsp;154 per 1.000 mails</td></tr>
+<tr><td>Pro</td><td>1.000 mails</td><td class="ours">&euro;&nbsp;67 per 1.000 mails</td><td class="theirs">&euro;&nbsp;91 per 1.000 mails</td></tr>
+</tbody>
+</table>
+</div>
+<p class="wknd-foot">De rechterkolom is hetzelfde maandbedrag, gedeeld door het aantal mails dat er bij 22 verzenddagen uitgaat. Op Pro staat het minimum van 30.000 verzonden mails per maand in je contract.</p>
 </div>
 <div class="cfg reveal" id="samenstellen">
 <style>
@@ -3313,7 +3367,7 @@ Bel ons: 085 080 5381
 <li>Copy schrijven en bijsturen</li>
 <li>Domeinen, mailboxen en warmup</li>
 <li>Elke reactie handmatig gefilterd</li>
-<li>Maandrapportage</li>
+<li>Wekelijkse rapportage</li>
 </ul>
 </div>
 <div class="cfg-sum-bot">
@@ -3363,6 +3417,29 @@ Bel ons: 085 080 5381
   render();
 })();
 </script>
+</div>
+<div class="ksig reveal" id="koopsignalen">
+<style>
+  .ksig{margin-top:34px;text-align:left;background:var(--card-bg);border:1px solid var(--border);border-radius:18px;padding:26px 30px;}
+  .ksig-h{font-size:clamp(19px,2.3vw,23px);font-weight:800;letter-spacing:-.5px;color:var(--white);margin:0 0 8px;}
+  .ksig-h .blue{color:var(--accent2);}
+  .ksig-p{margin:0 0 20px;font-size:15px;line-height:1.65;color:rgba(255,255,255,.7);max-width:70ch;}
+  .ksig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .ksig-c{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:14px;padding:16px 18px;}
+  .ksig-c b{display:block;font-size:15px;font-weight:700;color:var(--white);margin-bottom:6px;}
+  .ksig-c span{display:block;font-size:14px;line-height:1.55;color:rgba(255,255,255,.66);}
+  .ksig-foot{margin:18px 0 0;font-size:13.5px;line-height:1.6;color:var(--muted);}
+  @media(max-width:860px){.ksig-grid{grid-template-columns:1fr;}}
+  @media(max-width:760px){.ksig{padding:22px 20px;}}
+</style>
+<h3 class="ksig-h">We mailen op het moment dat er <span class="blue">iets verandert</span></h3>
+<p class="ksig-p">Een lijst zegt alleen wie een bedrijf is, niet of het nu iets nodig heeft. Wij zoeken daarom per bedrijf naar een aanleiding en verwijzen daar in de mail naar. Zo komt je bericht binnen op het moment dat het relevant is, in plaats van op een willekeurige dinsdag.</p>
+<div class="ksig-grid">
+<div class="ksig-c"><b>Zoekt personeel</b><span>Een openstaande vacature, gecontroleerd op de site van het bedrijf zelf.</span></div>
+<div class="ksig-c"><b>Groeit zichtbaar</b><span>Een nieuwe vestiging, een overname of een verhuizing die het bedrijf zelf heeft aangekondigd.</span></div>
+<div class="ksig-c"><b>Investeert in klanten werven</b><span>Een bedrijf dat net is gaan adverteren, of juist een site heeft die jaren niet is bijgewerkt.</span></div>
+</div>
+<p class="ksig-foot">Welke aanleiding bij jouw aanbod past, bepalen we in de onboarding. Past er geen enkel signaal bij, dan zeggen we dat en werken we met een scherper afgebakende doelgroep.</p>
 </div>
 <div class="gar-bar reveal">
 <style>
@@ -3433,7 +3510,7 @@ Bel ons: 085 080 5381
 <li>Warmup en deliverability</li>
 <li>Verzendsoftware</li>
 <li>Elke reactie handmatig gefilterd</li>
-<li>Maandrapportage</li>
+<li>Wekelijkse rapportage</li>
 </ul>
 </div>
 <div>
@@ -3483,6 +3560,7 @@ Bel ons: 085 080 5381
 <div><div class="gt">Volumegarantie</div><p>Minimaal 30.000 verzonden mails per maand op Pro, naar rato op de andere pakketten. Valt er een dag uit, dan halen we dat in.</p></div>
 <div><div class="gt">Setupgarantie van 14 dagen</div><p>Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken na akkoord klaar, zodat de campagne in week 3 start. Loopt het uit door iets aan onze kant, dan schuift je facturatie mee.</p></div>
 <div><div class="gt">Fitgarantie</div><p>Past je doelgroep of aanbod niet bij koude e-mail, dan zeggen we dat voordat je tekent.</p></div>
+<div><div class="gt">Wat van jou blijft als je stopt</div><p>De teksten die we voor je schreven mag je blijven gebruiken, en de contactgegevens en reacties uit jouw campagne krijg je in een gangbaar bestandsformaat mee. Alleen de verzendomgeving en onze werkwijze blijven van ons.</p></div>
 <div><div class="gt">Waarom drie maanden minimaal</div><p>De eerste twee weken zijn warmup en nieuwe copy laten we drie weken draaien voordat we bijsturen. Korter dan drie maanden beoordeel je iets dat nog niet af is.</p></div>
 </div>
 </div>
@@ -3651,6 +3729,10 @@ Bel ons: 085 080 5381
 <details class="faq-item">
 <summary>Wat gebeurt er nadat iemand positief reageert?</summary>
 <p>Standaard sturen we de reactie door naar jouw mailbox, met naam, functie, organisatie en contactgegevens erbij. Jij neemt het daarna over en plant het gesprek in, het liefst binnen een werkdag. Kies je Full Service op Scale of Pro, dan beantwoorden wij de reactie en zetten we de afspraak direct in jouw agenda.</p>
+</details>
+<details class="faq-item">
+<summary>Krijg ik een portaal of een inlog?</summary>
+<p>Nee, en dat is bewust. Alles wat je moet zien komt direct binnen in je eigen mailbox, waar het hoort. Standaard zijn dat alle positieve reacties, met naam, functie, organisatie en contactgegevens erbij. Wil je liever elke reactie zien, ook de afwijzingen en afwezigheidsmeldingen, dan sturen we alles live door. Daarnaast krijg je elke week een rapportage met wat er is verstuurd en wat eruit kwam. Geen inlog op een portaal van een derde partij, geen dashboard dat je moet leren lezen.</p>
 </details>
 </div>
 <div class="reveal" style="text-align:center;margin-top:36px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
@@ -3846,6 +3928,8 @@ Bel ons: 085 080 5381
 <li><a href="/kennis/hoeveel-reacties-op-30000-mails">Reactie-benchmarks</a></li>
 <li><a href="/kennis/koude-mails-komen-niet-aan">Deliverability</a></li>
 <li><a href="/kennis/mag-koude-email-nederland">Mag koude e-mail?</a></li>
+<li><a href="/kennis/acquisitie-uitbesteden">Acquisitie uitbesteden</a></li>
+<li><a href="/kennis/leadgeneratie-bureau-kiezen">Bureau kiezen</a></li>
 <li><a href="/cold-email-bureaus-nederland">Bureaus vergeleken</a></li>
 </ul>
 </div>
@@ -3926,7 +4010,7 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=28"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=32"></script>
 <script src="/assets/tracking.js"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.

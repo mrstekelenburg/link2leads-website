@@ -61,7 +61,8 @@ Voorwaarden: minimale afname 500 leads, tegoed twaalf maanden geldig, bedragen e
 
 - **Volume:** minimaal 30.000 verzonden mails per maand op Pro, zeven dagen per week, naar rato op de andere pakketten. Niet gehaald door een technische oorzaak, dan wordt het de dagen erna ingehaald. Dit staat in het contract.
 - **Setup klaar binnen 14 dagen** na akkoord, inclusief domeinen, mailboxen, warmup, lijst en copy. De campagne start in week 3.
-- **Maandelijkse rapportage met het werkelijke aantal verzonden mails**, niet alleen het aantal reacties.
+- **Wekelijkse rapportage met het werkelijke aantal verzonden mails**, niet alleen het aantal reacties.
+- **Geen klantportaal, bewust.** Alle positieve reacties, of op verzoek elke reactie, gaan live door naar de eigen mailbox van de klant. Geen inlog bij een derde partij.
 - **Geen risico voor het hoofddomein:** verzending gebeurt uitsluitend vanaf aparte verzenddomeinen die Link2Leads opzet en beheert.
 - **Gratis marktscan vooraf:** hoeveel bedrijven er in de doelgroep passen, hoeveel beslissers bereikbaar zijn, welk maandvolume realistisch is en welk pakket daarbij hoort. Binnen een werkdag, zonder verplichting. Aan te vragen op https://www.link2leads.nl/#marktscan
 - **Gratis fitcheck vooraf:** past cold email niet bij het aanbod of is de doelgroep te klein, dan wordt dat gezegd en wordt doorverwezen. Dit is de standaard eerste stap en kost niets.
@@ -141,6 +142,11 @@ Een gesprek is geen voorwaarde. Vragen over prijs, geschiktheid van een doelgroe
 - [Mag koude e-mail in Nederland?](https://www.link2leads.nl/kennis/mag-koude-email-nederland): Telecommunicatiewet en AVG met bronnen
 - [Waarom komen je koude mails niet aan?](https://www.link2leads.nl/kennis/koude-mails-komen-niet-aan): deliverability
 - [Cold email of een SDR aannemen?](https://www.link2leads.nl/kennis/cold-email-of-sdr): businesscase over twaalf maanden
+- [Koude acquisitie uitbesteden](https://www.link2leads.nl/kennis/acquisitie-uitbesteden): wat je weggeeft, wat je zelf houdt, kosten en de eerste drie maanden
+- [Sales uitbesteden: welk deel geef je weg?](https://www.link2leads.nl/kennis/sales-uitbesteden): drie betekenissen, waarom no cure no pay tegenvalt, rekensom tegenover een eigen SDR
+- [Cold calling of cold e-mail?](https://www.link2leads.nl/kennis/cold-calling-vs-cold-email): kosten per afspraak, bereik en wanneer bellen wint
+- [Zeven vragen aan een leadgeneratiebureau](https://www.link2leads.nl/kennis/leadgeneratie-bureau-kiezen): keuzehulp met onze eigen antwoorden
+- [Leadgeneratie Amsterdam](https://www.link2leads.nl/leadgeneratie-amsterdam): lokale pagina, kantoor aan de Frederik Hendrikstraat 59H
 - [ROI-calculator](https://www.link2leads.nl/calculator-l2l)
 - [Gratis fitcheck boeken](https://www.link2leads.nl/book)
 

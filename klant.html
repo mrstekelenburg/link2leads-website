@@ -487,15 +487,13 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
   <div class="panel" id="panel-5">
     <div class="q-block">Blok 2 van 5 · Aan wie we mailen <span class="q-num">· Vraag 5 van 18</span></div>
     <h2 class="q-title">Welke regio's willen jullie aanschrijven?</h2>
-    <p class="q-hint">Meerdere mag.</p>
+    <p class="q-hint">Meerdere mag. Wil je buiten Nederland en België mailen, zet dat dan in het veld eronder.</p>
     <div class="chips" id="a5" data-multi="1">
       <button type="button" class="chip" data-v="Heel Nederland" onclick="pick(this)">Heel Nederland</button>
       <button type="button" class="chip" data-v="Vlaanderen en België" onclick="pick(this)">Vlaanderen en België</button>
-      <button type="button" class="chip" data-v="Duitsland" onclick="pick(this)">Duitsland</button>
-      <button type="button" class="chip" data-v="Rest van Europa" onclick="pick(this)">Rest van Europa</button>
       <button type="button" class="chip" data-v="Alleen bepaalde provincies of steden" onclick="pick(this)">Alleen bepaalde provincies of steden</button>
     </div>
-    <input class="q-input q-extra" id="a5x" placeholder="Welke provincies of steden precies? (optioneel)">
+    <input class="q-input q-extra" id="a5x" placeholder="Welke provincies, steden of landen precies? (optioneel)">
     <div class="btn-row">
       <button class="btn btn-ghost" onclick="goTo(4)">&larr; Terug</button>
       <button class="btn btn-primary" onclick="next(5)">Volgende &rarr;</button>
@@ -1041,7 +1039,7 @@ document.addEventListener('input', function (e) {
   requestAnimationFrame(draw);
 })();
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=31"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=32"></script>
 <script src="/assets/tracking.js"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
