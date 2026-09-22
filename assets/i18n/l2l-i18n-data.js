@@ -9600,5 +9600,19 @@ window.L2L_I18N_DATA = {
 },
 "We mailen op het moment dat er iets verandert": {
 "en": "We email at the moment something changes"
+},
+
+/* ── Koopsignalen als eigen sectie (22 sept 2026) ── */
+"Een lijst zegt wie een bedrijf is, niet of het nu iets nodig heeft.": {
+"en": "A list tells you who a company is, not whether it needs anything right now."
+},
+"Wij zoeken daarom per bedrijf naar een aanleiding en verwijzen daar in de mail naar. Zo komt je bericht binnen op het moment dat het relevant is, in plaats van op een willekeurige dinsdag.": {
+"en": "So for each company we look for a reason to reach out and refer to it in the email. That way your message lands at the moment it is relevant, instead of on a random Tuesday."
+},
+"We mailen op het moment": {
+"en": "We email at the moment"
+},
+"dat er": {
+"en": "something"
 }
 };

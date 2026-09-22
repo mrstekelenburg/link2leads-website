@@ -1,4 +1,5 @@
 **Correctie 22 september 2026: prijssectie was te druk**
+- Vervolg: koopsignalen is geen prijsdetail en hoort niet in een accordeon. Het is nu een eigen sectie `#koopsignalen` tussen de prijzen en "Liever alleen de leadlijst?", in dezelfde opmaak als die leadsectie (gecentreerde kop, een kaart met de drie signalen). De weekendtabel blijft wel een accordeon-item, want dat is een rekensom bij de prijs.
 - De twee blokken van vanochtend ("Wij versturen ook in het weekend" en "We mailen op het moment dat er iets verandert") stonden als volledige kaarten tussen de pakketkaarten en de configurator en tussen de configurator en de garantiebalk. De sectie werd daardoor 3.175 pixels hoog en de kaarten raakten los van de configurator waar ze naartoe scrollen. Beide blokken zijn nu accordeon-items onder "Garantie en contract", met dezelfde inhoud (tabel, drie signaalkaarten, voetnoot). Sectie terug naar 2.436 pixels, dus 240 pixels boven de oude hoogte, en dat zit in de extra regel op de pakketkaarten. Ankers `#verzenddagen` en `#koopsignalen` werken nog.
 - CSS `.wknd` en `.ksig` verliezen hun eigen kaartstijl binnen `.pa-body`. Twee i18n-sleutels voor de accordeonkoppen.
 
