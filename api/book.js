@@ -145,7 +145,7 @@ module.exports = async (req, res) => {
           ``,
           Object.entries(b.answers || {}).filter(e => e[1]).map(e => `${e[0]}:\n${e[1]}`).join('\n\n'),
           ``,
-          `Je antwoorden geven me al richting. Vul nu ook de volledige vragenlijst in op ${KLANT_URL} (15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten). Zo kan ik ${wd || 'in de fitcheck'} direct met een plan komen in plaats van eerst alles uit te vragen.`,
+          `Je antwoorden geven me al richting. Vul nu ook de volledige vragenlijst in op ${M.klantUrl({ name: b.name, email: b.email, company: b.companyName })} (18 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 8 minuten, de laatste vier optioneel). Zo kan ik ${wd || 'in de fitcheck'} direct met een plan komen in plaats van eerst alles uit te vragen.`,
           ``,
           `Bedankt en tot ${wd || 'snel'}.`,
           `${SIGNER} · Link2Leads`,
@@ -162,7 +162,7 @@ module.exports = async (req, res) => {
             M.p(`Je antwoorden zijn binnen. Hieronder een kopie voor je eigen administratie. We bereiden hiermee het gesprek van <strong style="color:${M.C.text};">${esc(b.date)} om ${esc(b.time)}</strong> voor.`, { gap: 24 }),
             M.answerTable(b.answers || {}),
             M.spacer(),
-            M.prepBlock(b.date, 'full'),
+            M.prepBlock(b.date, 'full', '', { name: b.name, email: b.email, company: b.companyName }),
             M.spacer(),
             M.signoff(b.date)
           ].join('')
@@ -221,7 +221,7 @@ module.exports = async (req, res) => {
         ref,
         body: [
           M.h1('Nieuwe fitcheck geboekt'),
-          M.p(`${esc(b.name)} heeft een fitcheck geboekt. De drie korte vragen volgen in een aparte mail zodra die zijn ingevuld.`, { gap: 24 }),
+          M.p(`${esc(b.name)} heeft een fitcheck geboekt. De vier korte vragen volgen in een aparte mail zodra die zijn ingevuld.`, { gap: 24 }),
           M.detailTable([
             ['Naam', b.name],
             ['E-mail', b.email],
@@ -256,7 +256,7 @@ module.exports = async (req, res) => {
         b.pakket ? `Samengesteld pakket: ${String(b.pakket).slice(0, 200)} (bespreken we in de fitcheck)` : '',
         calendar && calendar.joinUrl ? `Deelnemen via Microsoft Teams: ${calendar.joinUrl}` : `Format: online via Microsoft Teams, link volgt per mail`,
         ``,
-        `Vul voor de beste fitcheck de vragenlijst in op ${KLANT_URL}: 15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten. Dan weet ik vooraf waar je staat en kan ik ${wd || 'in de fitcheck'} direct met een plan komen in plaats van eerst alles uit te vragen.`,
+        `Vul voor de beste fitcheck de vragenlijst in op ${M.klantUrl({ name: b.name, email: b.email, company: b.companyName })}: 18 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 8 minuten. Een deel is aanklikken en de laatste vier mag je overslaan. Dan weet ik vooraf waar je staat en kan ik ${wd || 'in de fitcheck'} direct met een plan komen in plaats van eerst alles uit te vragen.`,
         ``,
         `Bedankt en tot ${wd || 'snel'}.`,
         `${SIGNER} · Link2Leads`,
@@ -283,7 +283,7 @@ module.exports = async (req, res) => {
               : ['Format', 'Online via Microsoft Teams · link volgt per mail']
           ]),
           M.spacer(),
-          M.prepBlock(b.date),
+          M.prepBlock(b.date, '', '', { name: b.name, email: b.email, company: b.companyName }),
           M.spacer(),
           M.signoff(b.date)
         ].join('')

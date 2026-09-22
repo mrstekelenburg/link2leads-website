@@ -37,7 +37,7 @@ module.exports = async (req, res) => {
   if (req.method === 'OPTIONS') return res.status(200).end();
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
-  const { name, email, company, answers } = req.body || {};
+  const { name, email, company, site, answers, meta } = req.body || {};
   if (!name || !email) return res.status(400).json({ error: 'Naam en e-mail zijn verplicht' });
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(email))) {
     return res.status(400).json({ error: 'Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.' });
@@ -90,13 +90,18 @@ module.exports = async (req, res) => {
     });
 
     // ===== Naar Demi =====
+    // Startmoment en klantwaarde staan in de onderwerpregel, zodat je in de
+    // inbox ziet wie je het eerst moet bellen.
+    const m = meta || {};
+    const kort = [m.startmoment, m.waarde].filter(Boolean).join(' · ');
+
     await t.sendMail({
       from, to: notify, replyTo: email,
-      subject: `Volledige vragenlijst ingevuld — ${name}${company ? ' (' + company + ')' : ''} · ${ref}`,
+      subject: `Vragenlijst ingevuld — ${name}${company ? ' (' + company + ')' : ''}${kort ? ' · ' + kort : ''} · ${ref}`,
       html: M.shell({
         title: 'Volledige vragenlijst ingevuld',
         badge: 'Intern',
-        preheader: `${name}${company ? ' · ' + company : ''} vulde de volledige vragenlijst in`,
+        preheader: `${name}${company ? ' · ' + company : ''}${kort ? ' · ' + kort : ''}`,
         ref,
         body: [
           M.h1(`${esc(name)} vulde de volledige vragenlijst in`),
@@ -105,7 +110,15 @@ module.exports = async (req, res) => {
           M.detailTable([
             ['Naam', name],
             ['E-mail', email],
-            ['Bedrijf', company]
+            ['Bedrijf', company],
+            ['Website', site]
+          ]),
+          `<div style="height:26px;line-height:26px;font-size:0;">&nbsp;</div>`,
+          M.label('Waar je op kunt sturen'),
+          M.detailTable([
+            ['Startmoment', m.startmoment],
+            ['Klantwaarde', m.waarde],
+            ['Capaciteit', m.capaciteit ? m.capaciteit + ' gesprekken per week' : '']
           ]),
           `<div style="height:26px;line-height:26px;font-size:0;">&nbsp;</div>`,
           M.label('Antwoorden'),

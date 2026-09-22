@@ -175,6 +175,15 @@ nav{
 .fg textarea{resize:vertical;min-height:64px;}
 .required{color:var(--accent);margin-left:2px;}
 
+/* Aanklikopties bij de korte vragen na het boeken */
+.chips{display:flex;flex-wrap:wrap;gap:7px;}
+.chip{background:var(--card2);border:1.5px solid var(--border2);color:var(--text);font-family:var(--font);font-size:13.5px;font-weight:500;
+  padding:9px 15px;border-radius:100px;cursor:pointer;transition:border-color .15s,background .15s;text-align:left;}
+.chip:hover{border-color:rgba(37,99,235,.6);}
+.chip.on{background:rgba(37,99,235,.18);border-color:var(--accent);color:#fff;font-weight:600;}
+.chip.on::before{content:'\2713';margin-right:6px;color:#8FB6FF;font-weight:700;}
+.chip:focus-visible{outline:2px solid #5B8FF5;outline-offset:2px;}
+
 .err{background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:6px;padding:9px 12px;font-size:13.5px;color:#f87171;margin-bottom:12px;display:none;}
 .err.show{display:block;}
 
@@ -584,12 +593,42 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
             <div class="sp-time">De bevestiging staat in je mail. Boekingsnr. <strong id="qRef">-</strong></div>
           </div>
         </div>
-        <p style="font-size:14px;color:var(--muted,#9aa3b2);line-height:1.6;margin:0 0 8px;">Je fitcheck staat vast. Drie korte vragen helpen ons om met een concreet plan te komen in plaats van eerst alles uit te vragen. Een minuut werk. Daarna vragen we je de volledige vragenlijst in te vullen (15 vragen, ongeveer 10 minuten): dat is de basis voor de beste fitcheck.</p>
+        <p style="font-size:14px;color:var(--muted,#9aa3b2);line-height:1.6;margin:0 0 8px;">Je fitcheck staat vast. Vier korte vragen helpen ons om met een concreet plan te komen in plaats van eerst alles uit te vragen. Drie ervan zijn aanklikken, samen een minuut werk. Daarna vragen we je de volledige vragenlijst in te vullen (18 vragen, ongeveer 8 minuten, de laatste vier optioneel): dat is de basis voor de beste fitcheck.</p>
         <p style="font-size:13.5px;line-height:1.6;margin:0 0 18px;"><a href="#" onclick="skipAnswers();return false;" style="color:var(--accent2,#5B8DEF);text-decoration:underline;text-underline-offset:3px;">Liever niet nu, ik vertel het in de call</a></p>
 
-        <div class="fg"><label>Wie is jullie ideale klant?</label><textarea id="q1" placeholder="Kort beschrijven..."></textarea></div>
-        <div class="fg"><label>Welke regio's of markten zijn belangrijk?</label><textarea id="q2" placeholder="Bijv. Nederland, DACH, Benelux..."></textarea></div>
-        <div class="fg"><label>Wat is je belangrijkste doel de komende 30-60 dagen?</label><textarea id="q4" placeholder="Bijv. meer afspraken, pipeline opbouwen..."></textarea></div>
+        <div class="fg"><label>Wat verkoop je, en aan wie?</label><textarea id="q1" placeholder="Bijv. ERP-software voor productiebedrijven van 20 tot 100 medewerkers"></textarea></div>
+
+        <div class="fg"><label>Hoe komen jullie nu aan nieuwe klanten?</label>
+          <div class="chips" id="q2" data-multi="1">
+            <button type="button" class="chip" data-v="Netwerk en via-via" onclick="bPick(this)">Netwerk en via-via</button>
+            <button type="button" class="chip" data-v="LinkedIn" onclick="bPick(this)">LinkedIn</button>
+            <button type="button" class="chip" data-v="Zelf bellen" onclick="bPick(this)">Zelf bellen</button>
+            <button type="button" class="chip" data-v="Advertenties" onclick="bPick(this)">Advertenties</button>
+            <button type="button" class="chip" data-v="Zelf al eens gemaild" onclick="bPick(this)">Zelf al eens gemaild</button>
+            <button type="button" class="chip" data-v="Eerder een bureau of setter" onclick="bPick(this)">Eerder een bureau of setter</button>
+            <button type="button" class="chip" data-v="Nog niets structureel" onclick="bPick(this)">Nog niets structureel</button>
+          </div>
+        </div>
+
+        <div class="fg"><label>Wat is een nieuwe klant gemiddeld waard in het eerste jaar?</label>
+          <div class="chips" id="q3">
+            <button type="button" class="chip" data-v="Tot €2.500" onclick="bPick(this)">Tot €2.500</button>
+            <button type="button" class="chip" data-v="€2.500 tot €10.000" onclick="bPick(this)">€2.500 tot €10.000</button>
+            <button type="button" class="chip" data-v="€10.000 tot €25.000" onclick="bPick(this)">€10.000 tot €25.000</button>
+            <button type="button" class="chip" data-v="€25.000 tot €100.000" onclick="bPick(this)">€25.000 tot €100.000</button>
+            <button type="button" class="chip" data-v="Meer dan €100.000" onclick="bPick(this)">Meer dan €100.000</button>
+            <button type="button" class="chip" data-v="Dat wisselt te sterk" onclick="bPick(this)">Dat wisselt te sterk</button>
+          </div>
+        </div>
+
+        <div class="fg"><label>Wanneer wil je de eerste reacties binnen hebben?</label>
+          <div class="chips" id="q4">
+            <button type="button" class="chip" data-v="Zo snel mogelijk" onclick="bPick(this)">Zo snel mogelijk</button>
+            <button type="button" class="chip" data-v="Binnen een maand" onclick="bPick(this)">Binnen een maand</button>
+            <button type="button" class="chip" data-v="Volgend kwartaal" onclick="bPick(this)">Volgend kwartaal</button>
+            <button type="button" class="chip" data-v="We kijken nog rond" onclick="bPick(this)">We kijken nog rond</button>
+          </div>
+        </div>
 
         <button class="btn btn-primary" id="btnAnswers" onclick="sendAnswers()">Antwoorden versturen </button>
         <button class="btn btn-ghost" onclick="skipAnswers()">Overslaan, ik vertel het in de call</button>
@@ -605,8 +644,8 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
           <div class="slot-preview" style="border-color:rgba(47,111,237,0.35);margin-top:18px;text-align:left;">
             <div class="sp-info">
               <div class="sp-date" style="color:var(--accent2,#5B8DEF);">Nog een stap: de vragenlijst</div>
-              <div class="sp-time">15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten. Vul hem nu in, dan komen we in de fitcheck direct met een plan in plaats van eerst alles uit te vragen.</div>
-              <a class="btn btn-primary" href="/klant" style="text-decoration:none;margin-top:12px;">Vul de vragenlijst in</a>
+              <div class="sp-time">18 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 8 minuten. Vul hem nu in, dan komen we in de fitcheck direct met een plan in plaats van eerst alles uit te vragen.</div>
+              <a class="btn btn-primary" id="klantLink" href="/klant" style="text-decoration:none;margin-top:12px;">Vul de vragenlijst in</a>
             </div>
           </div>
           <p style="font-size:14px;line-height:1.6;color:rgba(240,239,237,0.7);margin:16px 0 0;">Alvast inlezen? In de <a href="/kennis" style="color:var(--accent2,#5B8DEF);text-decoration:underline;text-underline-offset:3px;">kennisbank</a> staan de prijzen, de regels rond koude e-mail en onze eigen campagnecijfers.</p>
@@ -838,8 +877,9 @@ async function book(){
       document.getElementById('qRef').textContent=data.ref;
       document.querySelectorAll('.step-panel').forEach(p=>p.classList.remove('active'));
       document.getElementById('sq').classList.add('active');
-      document.getElementById('wTitle').textContent='Drie korte vragen';
+      document.getElementById('wTitle').textContent='Vier korte vragen';
       document.getElementById('wStep').textContent='Stap 3 van 3 · optioneel';
+      setKlantLink();
     }else if(res.status===409||data.reason==='slot_taken'){
       if(window.l2lTrack)l2lTrack('booking_slot_taken');
       alert('Dit tijdstip is net bezet geraakt. Kies een ander moment.');
@@ -851,11 +891,25 @@ async function book(){
   }catch(e){if(window.l2lTrack)l2lTrack('booking_error');alert('Verbindingsfout. Probeer opnieuw.');btn.disabled=false;btn.textContent='Afspraak bevestigen ';}
 }
 
+// Aanklikopties bij de korte vragen. Bij een enkele keuze vervalt de vorige.
+function bPick(btn){
+  const box=btn.parentNode;
+  if(box.getAttribute('data-multi')==='1'){btn.classList.toggle('on');}
+  else{[].slice.call(box.querySelectorAll('.chip')).forEach(c=>c.classList.remove('on'));btn.classList.add('on');}
+}
+function bVal(id){
+  const box=document.getElementById(id);
+  if(!box)return '';
+  if(box.classList.contains('chips'))return [].slice.call(box.querySelectorAll('.chip.on')).map(c=>c.getAttribute('data-v')||c.textContent.trim()).join(', ');
+  return box.value.trim();
+}
+
 async function sendAnswers(){
   const answers={
-    'Ideale klant':document.getElementById('q1').value.trim(),
-    "Regio's / markten":document.getElementById('q2').value.trim(),
-    'Doel 30-60 dagen':document.getElementById('q4').value.trim()
+    'Wat en aan wie':bVal('q1'),
+    'Huidige kanalen':bVal('q2'),
+    'Waarde nieuwe klant (eerste jaar)':bVal('q3'),
+    'Gewenst startmoment':bVal('q4')
   };
   if(!Object.values(answers).some(v=>v)){skipAnswers();return;}
   const btn=document.getElementById('btnAnswers');
@@ -887,9 +941,20 @@ function finishFlow(){
   document.getElementById('wStep').textContent='';
 }
 
+// De vragenlijst krijgt naam, mail en bedrijf mee, zodat niemand dat twee keer typt.
+function setKlantLink(){
+  const a=document.getElementById('klantLink'); if(!a) return;
+  const q=new URLSearchParams();
+  if(bookingName) q.set('naam',bookingName);
+  if(bookingEmail) q.set('email',bookingEmail);
+  const c=document.getElementById('fCompany').value.trim(); if(c) q.set('bedrijf',c);
+  a.href='/klant'+(q.toString()?'?'+q.toString():'');
+}
+
 function reset(){
   selD=null;selSlot=null;bookingRef=null;
-  ['fName','fEmail','fCompany','fPhone','q1','q2','q4'].forEach(id=>document.getElementById(id).value='');
+  ['fName','fEmail','fCompany','fPhone','q1'].forEach(id=>document.getElementById(id).value='');
+  document.querySelectorAll('#sq .chip.on').forEach(c=>c.classList.remove('on'));
   const bb=document.getElementById('btnBook');bb.disabled=false;bb.textContent='Afspraak bevestigen ';
   const ba=document.getElementById('btnAnswers');ba.disabled=false;ba.textContent='Antwoorden versturen ';
   document.getElementById('btnNext').disabled=true;
@@ -898,7 +963,7 @@ function reset(){
 
 renderCal();renderSlots();
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=28"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=31"></script>
 <script src="/assets/tracking.js"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.

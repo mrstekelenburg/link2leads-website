@@ -8090,5 +8090,390 @@ window.L2L_I18N_DATA = {
 },
 "Hoe we de adressen controleren": {
 "en": "How we verify the addresses"
+},
+
+/* ── Vragenlijst /klant en startformulier /start (versie sept 2026) ───────── */
+", en": {
+"en": ", and"
+},
+"Je was al begonnen": {
+"en": "You already started"
+},
+"We hebben je antwoorden in deze browser bewaard. Ga verder waar je gebleven was, of begin opnieuw.": {
+"en": "We saved your answers in this browser. Pick up where you left off, or start over."
+},
+"Verder waar ik was": {
+"en": "Continue where I was"
+},
+"Opnieuw beginnen": {
+"en": "Start over"
+},
+"Tijd": {
+"en": "Time"
+},
+"Ongeveer 8 minuten": {
+"en": "About 8 minutes"
+},
+"Wat je terugkrijgt": {
+"en": "What you get back"
+},
+"Een campagneplan op maat": {
+"en": "A campaign plan built for you"
+},
+"We nemen je antwoorden door en je krijgt een concreet voorstel: welk segment, welke boodschap en wat je aan reacties kunt verwachten.": {
+"en": "We go through your answers and you get a concrete proposal: which segment, which message and what replies to expect."
+},
+"Blok 1 van 5 · Wat jullie verkopen": {
+"en": "Block 1 of 5 · What you sell"
+},
+"Blok 2 van 5 · Aan wie we mailen": {
+"en": "Block 2 of 5 · Who we email"
+},
+"Blok 3 van 5 · Waarom klanten kopen": {
+"en": "Block 3 of 5 · Why clients buy"
+},
+"Blok 4 van 5 · De rekensom": {
+"en": "Block 4 of 5 · The numbers"
+},
+"· Vraag 1 van 18": {
+"en": "· Question 1 of 18"
+},
+"· Vraag 2 van 18": {
+"en": "· Question 2 of 18"
+},
+"· Vraag 3 van 18": {
+"en": "· Question 3 of 18"
+},
+"· Vraag 4 van 18": {
+"en": "· Question 4 of 18"
+},
+"· Vraag 5 van 18": {
+"en": "· Question 5 of 18"
+},
+"· Vraag 6 van 18": {
+"en": "· Question 6 of 18"
+},
+"· Vraag 7 van 18": {
+"en": "· Question 7 of 18"
+},
+"· Vraag 8 van 18": {
+"en": "· Question 8 of 18"
+},
+"· Vraag 9 van 18": {
+"en": "· Question 9 of 18"
+},
+"· Vraag 10 van 18": {
+"en": "· Question 10 of 18"
+},
+"· Vraag 11 van 18": {
+"en": "· Question 11 of 18"
+},
+"· Vraag 12 van 18": {
+"en": "· Question 12 of 18"
+},
+"· Vraag 13 van 18": {
+"en": "· Question 13 of 18"
+},
+"Concreet en simpel, alsof je het uitlegt aan iemand die niets van jullie markt weet.": {
+"en": "Concrete and simple, as if you were explaining it to someone who knows nothing about your market."
+},
+"Welke klant zou je morgen tien keer willen hebben?": {
+"en": "Which client would you want ten more of tomorrow?"
+},
+"Meerdere mag. Bedrijfsgrootte is in onze campagnes de sterkste voorspeller van reacties, dus hier kiezen we scherp.": {
+"en": "Pick more than one if you like. In our campaigns company size predicts replies better than anything else, so we choose carefully here."
+},
+"1 tot 10 medewerkers": {
+"en": "1 to 10 employees"
+},
+"10 tot 50": {
+"en": "10 to 50"
+},
+"50 tot 100": {
+"en": "50 to 100"
+},
+"100 tot 250": {
+"en": "100 to 250"
+},
+"250 of meer": {
+"en": "250 or more"
+},
+"Bijv. Eigenaar, algemeen directeur, operationeel manager": {
+"en": "E.g. Owner, managing director, operations manager"
+},
+"Welke regio's willen jullie aanschrijven?": {
+"en": "Which regions do you want to email?"
+},
+"Meerdere mag.": {
+"en": "Pick more than one if you like."
+},
+"Heel Nederland": {
+"en": "All of the Netherlands"
+},
+"Vlaanderen en België": {
+"en": "Flanders and Belgium"
+},
+"Duitsland": {
+"en": "Germany"
+},
+"Rest van Europa": {
+"en": "Rest of Europe"
+},
+"Alleen bepaalde provincies of steden": {
+"en": "Only certain provinces or cities"
+},
+"Welke provincies of steden precies? (optioneel)": {
+"en": "Which provinces or cities exactly? (optional)"
+},
+"Bijv. Geen ZZP'ers, geen overheid, geen bedrijven onder 5 medewerkers…": {
+"en": "E.g. No freelancers, no government, no companies under 5 staff…"
+},
+"Niets uit te sluiten, sla deze over": {
+"en": "Nothing to exclude, skip this one"
+},
+"Welk probleem lossen jullie op, en wat kost het als de klant niets doet?": {
+"en": "Which problem do you solve, and what does it cost the client to do nothing?"
+},
+"Het pijnpunt plus de rekening van niets doen: verloren tijd of gemiste omzet. Dit wordt de kern van mail 1.": {
+"en": "The pain point plus the bill for doing nothing: lost time or missed revenue. This becomes the core of email 1."
+},
+"Bijv. Ze plannen nog met Excel, waardoor er elke week uren weglopen aan dubbel werk en ze orders missen…": {
+"en": "E.g. They still plan in Excel, so every week hours go into double work and they miss orders…"
+},
+"Wat levert een gemiddelde nieuwe klant jullie op in het eerste jaar?": {
+"en": "What does an average new client bring you in the first year?"
+},
+"Bij benadering. Hiermee rekenen we in de fitcheck door wat de campagne moet opleveren om eruit te komen.": {
+"en": "A rough figure is fine. In the fit check we use it to work out what the campaign has to bring in to pay for itself."
+},
+"Tot €2.500": {
+"en": "Up to €2,500"
+},
+"€2.500 tot €10.000": {
+"en": "€2,500 to €10,000"
+},
+"€10.000 tot €25.000": {
+"en": "€10,000 to €25,000"
+},
+"€25.000 tot €100.000": {
+"en": "€25,000 to €100,000"
+},
+"Meer dan €100.000": {
+"en": "More than €100,000"
+},
+"Dat wisselt te sterk": {
+"en": "That varies too much"
+},
+"Hoe komen jullie nu aan nieuwe klanten?": {
+"en": "How do you win new clients today?"
+},
+"Meerdere mag. Wat jullie al geprobeerd hebben, bepaalt wat wij anders aanpakken.": {
+"en": "Pick more than one if you like. What you have already tried decides what we do differently."
+},
+"Netwerk en via-via": {
+"en": "Network and word of mouth"
+},
+"Zelf bellen": {
+"en": "Cold calling ourselves"
+},
+"Advertenties": {
+"en": "Ads"
+},
+"Beurzen en events": {
+"en": "Trade fairs and events"
+},
+"Zelf al eens gemaild": {
+"en": "We have emailed ourselves before"
+},
+"Eerder een bureau of setter": {
+"en": "An agency or setter before"
+},
+"Nog niets structureel": {
+"en": "Nothing structural yet"
+},
+"Hoeveel extra gesprekken per week kan jullie team aan?": {
+"en": "How many extra calls per week can your team handle?"
+},
+"Hiermee bepalen we het dagvolume. Meer reacties dan jullie kunnen opvolgen is weggegooid geld.": {
+"en": "This sets the daily volume. More replies than you can follow up on is money thrown away."
+},
+"1 tot 3": {
+"en": "1 to 3"
+},
+"3 tot 5": {
+"en": "3 to 5"
+},
+"5 tot 10": {
+"en": "5 to 10"
+},
+"Meer dan 10": {
+"en": "More than 10"
+},
+"Wanneer wil je de eerste reacties binnen hebben?": {
+"en": "When do you want the first replies to come in?"
+},
+"Tussen een getekende overeenkomst en de eerste mail zit 14 dagen setup: domeinen en mailboxen aanmaken, opwarmen en de copy schrijven.": {
+"en": "Between a signed agreement and the first email there are 14 days of setup: buying domains and mailboxes, warming them up and writing the copy."
+},
+"Zo snel mogelijk": {
+"en": "As soon as possible"
+},
+"Binnen een maand": {
+"en": "Within a month"
+},
+"Volgend kwartaal": {
+"en": "Next quarter"
+},
+"We kijken nog rond": {
+"en": "We are still looking around"
+},
+"Laatste stap": {
+"en": "Last step"
+},
+"Je krijgt een kopie in je mail. Wij nemen ze door en komen in de fitcheck met een voorstel voor segment, boodschap en volume.": {
+"en": "You'll get a copy in your inbox. We go through them and bring a proposal for segment, message and volume to the fit check."
+},
+"Waar we in de fitcheck mee rekenen": {
+"en": "What we'll be calculating with in the fit check"
+},
+"Staat je fitcheck al in de agenda?": {
+"en": "Is your fit check already booked?"
+},
+"Dan hoef je verder niets te doen, wij komen voorbereid. Is er nog geen moment geprikt, doe dat dan nu; dat gesprek is gratis en duurt 30 minuten.": {
+"en": "Then there is nothing left to do, we'll come prepared. If no time is set yet, pick one now; the call is free and takes 30 minutes."
+},
+"Fitcheck inplannen": {
+"en": "Book the fit check"
+},
+"Verwijs iemand door naar": {
+"en": "Refer someone to"
+},
+"of stuur een appje naar Anne-Roos. Bij elke succesvolle referral krijg je €100 tot €150 korting per maand op je eigen pakket.": {
+"en": "or send Anne-Roos a message. For every successful referral you get €100 to €150 per month off your own package."
+},
+/* ── /start, het formulier na ondertekening ───────────────────────────────── */
+"Wij schrijven de mailsequentie en bouwen de leadlijst. Jij geeft akkoord op de copy en haalt uit de lijst wat er niet in hoort.": {
+"en": "We write the email sequence and build the lead list. You approve the copy and remove what doesn't belong."
+},
+"Op deze persoon stemmen we de mails af. Het telefoonnummer zetten we in de handtekening, zodat mensen ook kunnen bellen.": {
+"en": "We tune the emails to this person. The phone number goes in the signature, so people can call as well."
+},
+"Naam en functie": {
+"en": "Name and role"
+},
+"Bijv. Jan de Vries, commercieel directeur": {
+"en": "E.g. Jan de Vries, commercial director"
+},
+"Bijv. 06 12345678": {
+"en": "E.g. +31 6 12345678"
+},
+"Mailen we vanuit een persoon of vanuit het bedrijf?": {
+"en": "Do we email from a person or from the company?"
+},
+"Vanuit een persoon": {
+"en": "From a person"
+},
+"Vanuit het bedrijf": {
+"en": "From the company"
+},
+"Bijv. Jan de Vries | Commercieel directeur | jan@bedrijf.nl | 06 12345678 | bedrijf.nl": {
+"en": "E.g. Jan de Vries | Commercial director | jan@company.com | +31 6 12345678 | company.com"
+},
+"Wensen voor schrijfstijl of toon?": {
+"en": "Any wishes for writing style or tone?"
+},
+"Wij schrijven standaard kort, casual en in de je-vorm. Wil je de u-vorm, bepaalde woorden vermijden of heb je een voorbeeldmail die je goed vindt, zet het hier.": {
+"en": "By default we write short, casual and informal. If you want a formal tone, words to avoid, or you have an example email you like, put it here."
+},
+"Bijv. u-vorm aanhouden, het woord oplossing niet gebruiken, geen uitroeptekens…": {
+"en": "E.g. keep it formal, avoid the word solution, no exclamation marks…"
+},
+
+/* ── /book, de korte vragen na het boeken ─────────────────────────────────── */
+"Vier korte vragen": {
+"en": "Four short questions"
+},
+"Wat verkoop je, en aan wie?": {
+"en": "What do you sell, and to whom?"
+},
+"Bijv. ERP-software voor productiebedrijven van 20 tot 100 medewerkers": {
+"en": "E.g. ERP software for manufacturers with 20 to 100 staff"
+},
+"Wat is een nieuwe klant gemiddeld waard in het eerste jaar?": {
+"en": "What is a new client worth on average in the first year?"
+},
+/* ── Blok 5 van /klant: de praktische, optionele vragen ───────────────────── */
+"Blok 5 van 5 · Praktisch": {
+"en": "Block 5 of 5 · Practical"
+},
+"· Vraag 14 van 18": {
+"en": "· Question 14 of 18"
+},
+"· Vraag 15 van 18": {
+"en": "· Question 15 of 18"
+},
+"· Vraag 16 van 18": {
+"en": "· Question 16 of 18"
+},
+"· Vraag 17 van 18": {
+"en": "· Question 17 of 18"
+},
+"· Vraag 18 van 18": {
+"en": "· Question 18 of 18"
+},
+"Overslaan": {
+"en": "Skip"
+},
+"Bestaande klanten, lopende deals en partijen die je liever zelf benadert. Die halen wij uit de lijst voordat de eerste mail weggaat. Een lijst per mail nasturen mag ook.": {
+"en": "Existing clients, open deals and companies you prefer to approach yourself. We remove those from the list before the first email goes out. Sending a list by email afterwards is fine too."
+},
+/* ── /klant, definitieve vragenlijst 21 september 2026 ────────────────────── */
+"18 vragen, ongeveer 8 minuten. Een deel is aanklikken en de laatste vier mag je overslaan. Hoe concreter je antwoordt, hoe scherper het plan dat je terugkrijgt.": {
+"en": "18 questions, about 8 minutes. Some are just a click and the last four are yours to skip. The more concrete your answers, the sharper the plan you get back."
+},
+"18 vragen over je aanbod, je doelgroep, je bewijs en je cijfers. Hierop bouwen we de campagne.": {
+"en": "18 questions about your offer, your audience, your proof and your numbers. This is what we build the campaign on."
+},
+"18 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 8 minuten. Vul hem nu in, dan komen we in de fitcheck direct met een plan in plaats van eerst alles uit te vragen.": {
+"en": "18 questions about your offer, your audience, your proof and your numbers, about 8 minutes. Fill it in now and we come to the fit check with a plan instead of asking everything first."
+},
+"Je fitcheck staat vast. Vier korte vragen helpen ons om met een concreet plan te komen in plaats van eerst alles uit te vragen. Drie ervan zijn aanklikken, samen een minuut werk. Daarna vragen we je de volledige vragenlijst in te vullen (18 vragen, ongeveer 8 minuten, de laatste vier optioneel): dat is de basis voor de beste fitcheck.": {
+"en": "Your fit check is booked. Four short questions help us come with a concrete plan instead of asking everything first. Three of them are just a click, a minute of work in total. After that we ask you to fill in the full questionnaire (18 questions, about 8 minutes, the last four optional): that is the basis for the best fit check."
+},
+"Leg het uit in 1 of 2 zinnen. Concreet en simpel, alsof je het uitlegt aan iemand die niets van jullie markt weet.": {
+"en": "Explain it in one or two sentences. Concrete and simple, as if you were explaining it to someone who knows nothing about your market."
+},
+"Noem een bestaande klant of beschrijf het type, en waarom juist die. Staan jullie sterk in bepaalde branches, zet die er dan bij; daar beginnen we mee.": {
+"en": "Name an existing client or describe the type, and why that one. If you are strong in certain industries, add those; that is where we start."
+},
+"Bijv. Machinebouwers van 20 tot 50 medewerkers, zoals klant X. In metaal hebben we al vijf klanten…": {
+"en": "E.g. Machine builders with 20 to 50 staff, like client X. In metal we already have five clients…"
+},
+"Denk aan: eigenaar, directeur, commercieel directeur, HR-manager, inkoper.": {
+"en": "Think: owner, managing director, commercial director, HR manager, buyer."
+},
+"Sectoren, groottes of typen die niet passen. Die sluiten we uit in de targeting.": {
+"en": "Sectors, sizes or types that don't fit. We exclude those in the targeting."
+},
+"Wat de klant ermee bereikt, het einddoel. Dit is wat we beloven in de mail.": {
+"en": "What the client achieves with it, the end goal. This is what we promise in the email."
+},
+"Bijv. Wij doen als enige ook de migratie, we zitten 10 jaar in deze niche, onze implementatietijd is 2x korter…": {
+"en": "E.g. We are the only ones who also handle the migration, we have been in this niche for 10 years, our implementation takes half the time…"
+},
+"Een klantresultaat dat we mogen noemen in de mails. Liefst met echte getallen. Dit verhoogt de conversie sterk.": {
+"en": "A client result we may name in the emails. Real numbers preferred. This lifts conversion a lot."
+},
+"Bijv. Klant X bespaarde 40 uur per maand na implementatie, of: na 3 maanden 8 nieuwe klanten via ons systeem…": {
+"en": "E.g. Client X saved 40 hours a month after implementation, or: 8 new clients in 3 months through our system…"
+},
+"Vanaf hier mag je alles overslaan. Wie het wel invult, heeft de campagne een paar dagen sneller staan. Op deze persoon stemmen we de mails af, en het telefoonnummer zetten we in de handtekening zodat mensen ook kunnen bellen.": {
+"en": "From here on you can skip everything. Filling it in gets your campaign live a few days sooner. We tune the emails to this person, and the phone number goes in the signature so people can call as well."
+},
+"Vanuit een persoon levert in onze campagnes meer reacties op, dus dat is wat wij standaard doen. Sommige bedrijven versturen liever vanuit de bedrijfsnaam.": {
+"en": "In our campaigns a person gets more replies, so that is our default. Some companies prefer to send from the company name."
+},
+"Plak hier de handtekening of beschrijf wat erin hoort: naam, functie, telefoon en website.": {
+"en": "Paste the signature here or describe what belongs in it: name, role, phone and website."
 }
 };

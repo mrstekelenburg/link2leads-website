@@ -111,9 +111,20 @@ function button(href, text) {
   </td></tr></table>`;
 }
 
+// Naam, mail en bedrijf meegeven aan de vragenlijst, zodat niemand zijn
+// gegevens twee keer hoeft te typen. who = { name, email, company }.
+function klantUrl(who) {
+  const w = who || {};
+  const p = [];
+  if (w.name) p.push('naam=' + encodeURIComponent(w.name));
+  if (w.email) p.push('email=' + encodeURIComponent(w.email));
+  if (w.company) p.push('bedrijf=' + encodeURIComponent(w.company));
+  return p.length ? KLANT_URL + '?' + p.join('&') : KLANT_URL;
+}
+
 // Het blok dat in elke fitcheck-mail vraagt om /klant in te vullen.
 // Zelfde boodschap overal: vul de vragenlijst in voor de beste fitcheck.
-function prepBlock(dateStr, variant, soort) {
+function prepBlock(dateStr, variant, soort, who) {
   const g = soort || 'fitcheck';
   const wd = weekdayOf(dateStr);
   const wanneer = wd ? wd : 'in de ' + g;
@@ -127,17 +138,17 @@ function prepBlock(dateStr, variant, soort) {
     : `Vul de vragenlijst in voor de beste ${g}`;
 
   const tekst = isFull
-    ? `Je antwoorden hierboven geven me al richting. De volledige vragenlijst (15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten) maakt het beeld compleet. Zo kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`
+    ? `Je antwoorden hierboven geven me al richting. De volledige vragenlijst (18 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 8 minuten, de laatste vier optioneel) maakt het beeld compleet. Zo kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`
     : isReminder
-    ? `De vragenlijst (15 vragen, ongeveer 10 minuten) is de basis van de ${g}. Vul hem in, dan kunnen we je ${wanneer} gericht helpen. Al gedaan? Dan hoef je niets te doen.`
-    : `Vul de vragenlijst in: 15 vragen over je aanbod, doelgroep en bewijs, ongeveer 10 minuten. Dan weet ik vooraf waar je staat en kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen. Hoe concreter je antwoordt, hoe scherper de ${g}.`;
+    ? `De vragenlijst (18 vragen, ongeveer 8 minuten) is de basis van de ${g}. Vul hem in, dan kunnen we je ${wanneer} gericht helpen. Al gedaan? Dan hoef je niets te doen.`
+    : `Vul de vragenlijst in: 18 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 8 minuten. Een deel is aanklikken en de laatste vier mag je overslaan. Dan weet ik vooraf waar je staat en kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`;
 
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;background:${C.panel};border:1px solid ${C.border2};border-radius:14px;">
     <tr><td style="padding:24px 22px;">
-      ${label('Voorbereiding · 15 vragen · 10 minuten')}
+      ${label('Voorbereiding · 18 vragen · 8 minuten')}
       <div style="font-family:${FONT};font-size:17px;font-weight:700;letter-spacing:-0.3px;color:${C.text};margin:0 0 8px;">${esc(kop)}</div>
       <p style="margin:0 0 20px;font-family:${FONT};font-size:14px;line-height:1.65;color:${C.muted};">${esc(tekst)}</p>
-      ${button(KLANT_URL, 'Vul de vragenlijst in')}
+      ${button(klantUrl(who), 'Vul de vragenlijst in')}
     </td></tr>
   </table>`;
 }
@@ -238,5 +249,5 @@ function shell(o) {
 module.exports = {
   C, FONT, MONO, SITE, KLANT_URL, SIGNER,
   esc, escAttr, weekdayOf,
-  h1, p, label, detailTable, answerTable, button, prepBlock, signoff, spacer, shell
+  h1, p, label, detailTable, answerTable, button, klantUrl, prepBlock, signoff, spacer, shell
 };

@@ -295,6 +295,44 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
   html body .l2n-menu{top:80px;}
 }
 </style>
+<style id="l2l-form-extra">
+/* Aanklikopties, bloklabels en het terugkeerblok van de vragenlijst */
+.q-block{font-size:12.5px;font-weight:700;letter-spacing:.2px;color:var(--accent);display:flex;align-items:center;flex-wrap:wrap;gap:4px 8px;margin-bottom:12px;line-height:1.4;}
+.q-block::before{content:'';width:16px;height:2px;background:var(--accent);}
+.q-block .q-num{color:var(--muted2);font-weight:600;}
+
+.chips{display:flex;flex-wrap:wrap;gap:8px;}
+.chip{background:var(--card);border:1.5px solid var(--border2);color:var(--text);font-family:var(--font);font-size:14.5px;font-weight:500;
+  padding:12px 18px;border-radius:100px;cursor:pointer;transition:border-color .15s,background .15s,color .15s;text-align:left;}
+.chip:hover{border-color:rgba(47,111,237,.55);}
+.chip.on{background:rgba(47,111,237,.14);border-color:var(--accent);color:#fff;font-weight:600;}
+.chip.on::before{content:'\2713';margin-right:7px;color:var(--accent2,#7EB3FF);font-weight:700;}
+.chip:focus-visible{outline:2px solid #5B8FF5;outline-offset:2px;}
+.chips.is-error .chip{border-color:rgba(239,68,68,.55);}
+.chip-note{font-size:13px;color:var(--muted);margin-top:12px;}
+.q-extra{margin-top:12px;}
+
+.q-skip{display:inline-block;margin-top:14px;font-size:13.5px;color:var(--muted2);background:none;border:0;padding:0;cursor:pointer;
+  font-family:var(--font);text-decoration:underline;text-underline-offset:3px;}
+.q-skip:hover{color:var(--text);}
+
+.resume{background:rgba(47,111,237,.06);border:1px solid rgba(47,111,237,.2);border-radius:12px;padding:16px 18px;margin-bottom:24px;display:none;}
+.resume.show{display:block;}
+.resume-t{font-size:14px;font-weight:700;color:var(--accent);margin-bottom:4px;}
+.resume-s{font-size:14px;color:var(--muted2);line-height:1.6;margin-bottom:12px;}
+.resume-btns{display:flex;gap:8px;flex-wrap:wrap;}
+.resume-btns button{font-family:var(--font);font-size:13.5px;font-weight:600;padding:9px 16px;border-radius:8px;cursor:pointer;border:1px solid var(--border2);
+  background:var(--card2);color:var(--text);}
+.resume-btns button.pri{background:var(--accent);border-color:var(--accent);color:#fff;}
+
+.succ-next{background:var(--card);border:1px solid var(--border2);border-radius:12px;padding:20px 22px;text-align:left;margin-bottom:18px;}
+.succ-next .sn-t{font-size:15px;font-weight:700;color:var(--text);margin-bottom:6px;}
+.succ-next .sn-s{font-size:14px;color:var(--muted2);line-height:1.7;}
+.succ-next .sn-btn{display:inline-block;margin-top:14px;background:var(--accent);color:#fff;font-size:14px;font-weight:700;
+  padding:12px 22px;border-radius:9px;text-decoration:none;}
+.succ-next .sn-btn:hover{background:var(--accent2);}
+@media(max-width:600px){.chip{font-size:14px;padding:11px 16px;}.q-block{display:block;}.q-block::before{display:none;}.q-block .q-num{display:block;margin-top:2px;}}
+</style>
 </head>
 <body>
 <canvas id="bg-canvas"></canvas>
@@ -323,24 +361,38 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
 <div class="wrap">
   <div class="progress-bar"><div class="progress-fill" id="progress" style="width:0%"></div></div>
 
-  <!-- PANEL 0: WELCOME -->
+  <!-- PANEL 0: WELKOM -->
   <div class="panel active" id="panel-0">
     <h1 class="welcome-title">Vertel ons <span class="blue">wat je verkoopt</span>, en <span class="blue">aan wie</span></h1>
-    <p class="welcome-sub">15 vragen, ongeveer 10 minuten. Hoe concreter je antwoordt, hoe scherper het plan dat je terugkrijgt.</p>
+    <p class="welcome-sub">18 vragen, ongeveer 8 minuten. Een deel is aanklikken en de laatste vier mag je overslaan. Hoe concreter je antwoordt, hoe scherper het plan dat je terugkrijgt.</p>
+
+    <div class="resume" id="resume">
+      <div class="resume-t">Je was al begonnen</div>
+      <div class="resume-s">We hebben je antwoorden in deze browser bewaard. Ga verder waar je gebleven was, of begin opnieuw.</div>
+      <div class="resume-btns">
+        <button type="button" class="pri" onclick="resumeDraft()">Verder waar ik was</button>
+        <button type="button" onclick="clearDraft(true)">Opnieuw beginnen</button>
+      </div>
+    </div>
+
+    <div class="info-cards">
+      <div class="info-card"><div class="ic-label">Tijd</div><div class="ic-val">Ongeveer 8 minuten</div></div>
+      <div class="info-card"><div class="ic-label">Wat je terugkrijgt</div><div class="ic-val">Een campagneplan op maat</div></div>
+    </div>
 
     <div class="timeline">
       <div class="tl-item">
         <div class="tl-dot">1</div>
         <div class="tl-body">
-          <div class="tl-title">Deze vragenlijst invullen ← je bent hier</div>
-          <div class="tl-sub">15 vragen over je aanbod, je doelgroep en je bewijs. Dit is de basis waar alles op draait.</div>
+          <div class="tl-title">Deze vragenlijst invullen &larr; je bent hier</div>
+          <div class="tl-sub">18 vragen over je aanbod, je doelgroep, je bewijs en je cijfers. Hierop bouwen we de campagne.</div>
         </div>
       </div>
       <div class="tl-item">
         <div class="tl-dot">2</div>
         <div class="tl-body">
           <div class="tl-title">Fitcheck</div>
-          <div class="tl-sub">We nemen je antwoorden door en je krijgt een concreet voorstel: welke doelgroep, welke boodschap en wat je aan reacties kunt verwachten.</div>
+          <div class="tl-sub">We nemen je antwoorden door en je krijgt een concreet voorstel: welk segment, welke boodschap en wat je aan reacties kunt verwachten.</div>
         </div>
       </div>
       <div class="tl-item">
@@ -358,7 +410,7 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
         </div>
       </div>
       <div class="tl-item">
-        <div class="tl-dot">15</div>
+        <div class="tl-dot">5</div>
         <div class="tl-body">
           <div class="tl-title">Dag 14: Live 🚀</div>
           <div class="tl-sub">De campagne gaat live. Eerste reacties komen binnen.</div>
@@ -370,321 +422,576 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
       <span style="font-size:14px;font-weight:600;color:var(--text);display:block;margin-bottom:4px;">Wij regelen de rest.</span>
       Leads, domeinen, mailboxen, technische setup, CRM-koppeling, opwarming, copy. Alles. Jij vult deze vragenlijst in, checkt de leadlijst en keurt de copy goed.
     </div>
-    <button class="btn-start" onclick="goTo(1)">Vragenlijst invullen →</button>
+    <button class="btn-start" onclick="goTo(1)">Vragenlijst invullen &rarr;</button>
   </div>
 
-  <!-- PANELS 1–15: VRAGEN -->
-  <!-- Panel 1 -->
+  <!-- ══ BLOK 1: WAT JULLIE VERKOPEN ══ -->
+
+  <!-- Vraag 1 -->
   <div class="panel" id="panel-1">
-    <div class="q-label"><span class="q-num">Vraag 1 van 15</span></div>
-    <h2 class="q-title">Wie is jullie ideale klant?</h2>
-    <p class="q-hint">Denk aan: type bedrijf, branche, B2B of B2C. Hoe specifieker, hoe beter de targeting.</p>
-    <textarea class="q-input" id="a1" required placeholder="Bijv. IT-dienstverleners met 10–50 medewerkers in Nederland, B2B…"></textarea>
-    <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(0)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(1,2)">Volgende →</button>
-    </div>
-  </div>
-
-  <!-- Panel 2 -->
-  <div class="panel" id="panel-2">
-    <div class="q-label"><span class="q-num">Vraag 2 van 15</span></div>
-    <h2 class="q-title">Op welke bedrijfsgrootte richten jullie zich?</h2>
-    <p class="q-hint">Bijv. 5–20 medewerkers, 20–100, of 100+. Meerdere segmenten mag.</p>
-    <input class="q-input" id="a2" required placeholder="Bijv. 10–50 medewerkers">
-    <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(1)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(2,3)">Volgende →</button>
-    </div>
-  </div>
-
-  <!-- Panel 3 -->
-  <div class="panel" id="panel-3">
-    <div class="q-label"><span class="q-num">Vraag 3 van 15</span></div>
-    <h2 class="q-title">Welke functietitels van beslissers benaderen we?</h2>
-    <p class="q-hint">Denk aan: CEO, directeur, commercieel directeur, inkoper, HR-manager…</p>
-    <textarea class="q-input" id="a3" required placeholder="Bijv. Directeur, CEO, Managing Partner, Eigenaar…"></textarea>
-    <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(2)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(3,4)">Volgende →</button>
-    </div>
-  </div>
-
-  <!-- Panel 4 -->
-  <div class="panel" id="panel-4">
-    <div class="q-label"><span class="q-num">Vraag 4 van 15</span></div>
-    <h2 class="q-title">In welke regio's willen jullie targeten?</h2>
-    <p class="q-hint">Heel Nederland, specifieke provincies, of ook België/Duitsland?</p>
-    <input class="q-input" id="a4" required placeholder="Bijv. Heel Nederland, of specifiek: Noord-Holland, Utrecht…">
-    <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(3)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(4,5)">Volgende →</button>
-    </div>
-  </div>
-
-  <!-- Panel 5 -->
-  <div class="panel" id="panel-5">
-    <div class="q-label"><span class="q-num">Vraag 5 van 15</span></div>
+    <div class="q-block">Blok 1 van 5 · Wat jullie verkopen <span class="q-num">· Vraag 1 van 18</span></div>
     <h2 class="q-title">Wat verkopen jullie precies?</h2>
-    <p class="q-hint">Leg het uit in 1–2 zinnen. Concreet en simpel, alsof je het uitlegt aan iemand die niets van jullie markt weet.</p>
-    <textarea class="q-input" id="a5" required placeholder="Bijv. Wij implementeren ERP-software voor productiebedrijven en begeleiden het hele traject van selectie tot go-live…"></textarea>
+    <p class="q-hint">Leg het uit in 1 of 2 zinnen. Concreet en simpel, alsof je het uitlegt aan iemand die niets van jullie markt weet.</p>
+    <textarea class="q-input" id="a1" placeholder="Bijv. Wij implementeren ERP-software voor productiebedrijven en begeleiden het hele traject van selectie tot go-live…"></textarea>
     <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(4)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(5,6)">Volgende →</button>
+      <button class="btn btn-ghost" onclick="goTo(0)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(1)">Volgende &rarr;</button>
     </div>
   </div>
 
-  <!-- Panel 6 -->
+  <!-- Vraag 2 -->
+  <div class="panel" id="panel-2">
+    <div class="q-block">Blok 1 van 5 · Wat jullie verkopen <span class="q-num">· Vraag 2 van 18</span></div>
+    <h2 class="q-title">Welke klant zou je morgen tien keer willen hebben?</h2>
+    <p class="q-hint">Noem een bestaande klant of beschrijf het type, en waarom juist die. Staan jullie sterk in bepaalde branches, zet die er dan bij; daar beginnen we mee.</p>
+    <textarea class="q-input" id="a2" placeholder="Bijv. Machinebouwers van 20 tot 50 medewerkers, zoals klant X. In metaal hebben we al vijf klanten…"></textarea>
+    <div class="btn-row">
+      <button class="btn btn-ghost" onclick="goTo(1)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(2)">Volgende &rarr;</button>
+    </div>
+  </div>
+
+  <!-- ══ BLOK 2: AAN WIE WE MAILEN ══ -->
+
+  <!-- Vraag 3 -->
+  <div class="panel" id="panel-3">
+    <div class="q-block">Blok 2 van 5 · Aan wie we mailen <span class="q-num">· Vraag 3 van 18</span></div>
+    <h2 class="q-title">Op welke bedrijfsgrootte richten jullie zich?</h2>
+    <p class="q-hint">Meerdere mag. Bedrijfsgrootte is in onze campagnes de sterkste voorspeller van reacties, dus hier kiezen we scherp.</p>
+    <div class="chips" id="a3" data-multi="1">
+      <button type="button" class="chip" data-v="1 tot 10 medewerkers" onclick="pick(this)">1 tot 10 medewerkers</button>
+      <button type="button" class="chip" data-v="10 tot 50" onclick="pick(this)">10 tot 50</button>
+      <button type="button" class="chip" data-v="50 tot 100" onclick="pick(this)">50 tot 100</button>
+      <button type="button" class="chip" data-v="100 tot 250" onclick="pick(this)">100 tot 250</button>
+      <button type="button" class="chip" data-v="250 of meer" onclick="pick(this)">250 of meer</button>
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-ghost" onclick="goTo(2)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(3)">Volgende &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Vraag 4 -->
+  <div class="panel" id="panel-4">
+    <div class="q-block">Blok 2 van 5 · Aan wie we mailen <span class="q-num">· Vraag 4 van 18</span></div>
+    <h2 class="q-title">Welke functietitels van beslissers benaderen we?</h2>
+    <p class="q-hint">Denk aan: eigenaar, directeur, commercieel directeur, HR-manager, inkoper.</p>
+    <input class="q-input" id="a4" placeholder="Bijv. Eigenaar, algemeen directeur, operationeel manager">
+    <div class="btn-row">
+      <button class="btn btn-ghost" onclick="goTo(3)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(4)">Volgende &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Vraag 5 -->
+  <div class="panel" id="panel-5">
+    <div class="q-block">Blok 2 van 5 · Aan wie we mailen <span class="q-num">· Vraag 5 van 18</span></div>
+    <h2 class="q-title">Welke regio's willen jullie aanschrijven?</h2>
+    <p class="q-hint">Meerdere mag.</p>
+    <div class="chips" id="a5" data-multi="1">
+      <button type="button" class="chip" data-v="Heel Nederland" onclick="pick(this)">Heel Nederland</button>
+      <button type="button" class="chip" data-v="Vlaanderen en België" onclick="pick(this)">Vlaanderen en België</button>
+      <button type="button" class="chip" data-v="Duitsland" onclick="pick(this)">Duitsland</button>
+      <button type="button" class="chip" data-v="Rest van Europa" onclick="pick(this)">Rest van Europa</button>
+      <button type="button" class="chip" data-v="Alleen bepaalde provincies of steden" onclick="pick(this)">Alleen bepaalde provincies of steden</button>
+    </div>
+    <input class="q-input q-extra" id="a5x" placeholder="Welke provincies of steden precies? (optioneel)">
+    <div class="btn-row">
+      <button class="btn btn-ghost" onclick="goTo(4)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(5)">Volgende &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Vraag 6 -->
   <div class="panel" id="panel-6">
-    <div class="q-label"><span class="q-num">Vraag 6 van 15</span></div>
-    <h2 class="q-title">Wat is het belangrijkste resultaat dat klanten bij jullie kopen?</h2>
-    <p class="q-hint">Niet wat jullie doen, maar wat de klant ermee bereikt. Het einddoel.</p>
-    <textarea class="q-input" id="a6" required placeholder="Bijv. 30% minder administratietijd, meer controle over de productie, minder fouten in de rapportage…"></textarea>
+    <div class="q-block">Blok 2 van 5 · Aan wie we mailen <span class="q-num">· Vraag 6 van 18</span></div>
+    <h2 class="q-title">Welke bedrijven willen jullie juist niet als klant?</h2>
+    <p class="q-hint">Sectoren, groottes of typen die niet passen. Die sluiten we uit in de targeting.</p>
+    <textarea class="q-input" id="a6" placeholder="Bijv. Geen ZZP'ers, geen overheid, geen bedrijven onder 5 medewerkers…"></textarea>
+    <button type="button" class="q-skip" onclick="skipTo(7)">Niets uit te sluiten, sla deze over</button>
     <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(5)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(6,7)">Volgende →</button>
+      <button class="btn btn-ghost" onclick="goTo(5)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(6)">Volgende &rarr;</button>
     </div>
   </div>
 
-  <!-- Panel 7 -->
+  <!-- ══ BLOK 3: WAAROM KLANTEN KOPEN ══ -->
+
+  <!-- Vraag 7 -->
   <div class="panel" id="panel-7">
-    <div class="q-label"><span class="q-num">Vraag 7 van 15</span></div>
+    <div class="q-block">Blok 3 van 5 · Waarom klanten kopen <span class="q-num">· Vraag 7 van 18</span></div>
+    <h2 class="q-title">Welk probleem lossen jullie op, en wat kost het als de klant niets doet?</h2>
+    <p class="q-hint">Het pijnpunt plus de rekening van niets doen: verloren tijd of gemiste omzet. Dit wordt de kern van mail 1.</p>
+    <textarea class="q-input" id="a7" placeholder="Bijv. Ze plannen nog met Excel, waardoor er elke week uren weglopen aan dubbel werk en ze orders missen…"></textarea>
+    <div class="btn-row">
+      <button class="btn btn-ghost" onclick="goTo(6)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(7)">Volgende &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Vraag 8 -->
+  <div class="panel" id="panel-8">
+    <div class="q-block">Blok 3 van 5 · Waarom klanten kopen <span class="q-num">· Vraag 8 van 18</span></div>
+    <h2 class="q-title">Wat is het belangrijkste resultaat dat klanten bij jullie kopen?</h2>
+    <p class="q-hint">Wat de klant ermee bereikt, het einddoel. Dit is wat we beloven in de mail.</p>
+    <textarea class="q-input" id="a8" placeholder="Bijv. 30% minder administratietijd, meer controle over de productie, minder fouten in de rapportage…"></textarea>
+    <div class="btn-row">
+      <button class="btn btn-ghost" onclick="goTo(7)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(8)">Volgende &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Vraag 9 -->
+  <div class="panel" id="panel-9">
+    <div class="q-block">Blok 3 van 5 · Waarom klanten kopen <span class="q-num">· Vraag 9 van 18</span></div>
     <h2 class="q-title">Wat maakt jullie anders dan alternatieven?</h2>
     <p class="q-hint">Wat zeggen klanten waarom ze voor jullie kozen in plaats van een concurrent of niets doen?</p>
-    <textarea class="q-input" id="a7" required placeholder="Bijv. We werken op no cure no pay, we hebben meer dan 10 jaar ervaring in deze niche, onze implementatietijd is 2x korter…"></textarea>
+    <textarea class="q-input" id="a9" placeholder="Bijv. Wij doen als enige ook de migratie, we zitten 10 jaar in deze niche, onze implementatietijd is 2x korter…"></textarea>
     <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(6)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(7,8)">Volgende →</button>
+      <button class="btn btn-ghost" onclick="goTo(8)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(9)">Volgende &rarr;</button>
     </div>
   </div>
 
-  <!-- Panel 8 -->
-  <div class="panel" id="panel-8">
-    <div class="q-label"><span class="q-num">Vraag 8 van 15</span></div>
-    <h2 class="q-title">Hebben jullie een concrete case met cijfers?</h2>
-    <p class="q-hint">Een klantresultaat dat we mogen noemen in de e-mails. Liefst met echte getallen. Dit verhoogt de conversie sterk.</p>
-    <textarea class="q-input" id="a8" required placeholder="Bijv. Klant X bespaard 40 uur per maand na implementatie, of: Na 3 maanden 8 nieuwe klanten via ons systeem…"></textarea>
-    <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(7)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(8,9)">Volgende →</button>
-    </div>
-  </div>
-
-  <!-- Panel 9 -->
-  <div class="panel" id="panel-9">
-    <div class="q-label"><span class="q-num">Vraag 9 van 15</span></div>
-    <h2 class="q-title">Wat is het grootste probleem van jullie ideale klant dat jullie oplossen?</h2>
-    <p class="q-hint">Het pijnpunt. Wat houdt hen 's nachts wakker? Waarom zoeken ze een oplossing?</p>
-    <textarea class="q-input" id="a9" required placeholder="Bijv. Te afhankelijk van 1 grote klant, onvoorspelbare salesinkomsten, geen structurele nieuwe business…"></textarea>
-    <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(8)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(9,10)">Volgende →</button>
-    </div>
-  </div>
-
-  <!-- Panel 10 -->
+  <!-- Vraag 10 -->
   <div class="panel" id="panel-10">
-    <div class="q-label"><span class="q-num">Vraag 10 van 15</span></div>
-    <h2 class="q-title">Wat gebeurt er als ze dit probleem niet oplossen?</h2>
-    <p class="q-hint">De consequenties van niets doen. Dit gebruiken we om urgentie te creëren in de mails.</p>
-    <textarea class="q-input" id="a10" required placeholder="Bijv. Ze blijven afhankelijk van mond-tot-mondreclame, groeien niet structureel, of verliezen marktaandeel aan concurrenten…"></textarea>
+    <div class="q-block">Blok 3 van 5 · Waarom klanten kopen <span class="q-num">· Vraag 10 van 18</span></div>
+    <h2 class="q-title">Hebben jullie een concrete case met cijfers?</h2>
+    <p class="q-hint">Een klantresultaat dat we mogen noemen in de mails. Liefst met echte getallen. Dit verhoogt de conversie sterk.</p>
+    <textarea class="q-input" id="a10" placeholder="Bijv. Klant X bespaarde 40 uur per maand na implementatie, of: na 3 maanden 8 nieuwe klanten via ons systeem…"></textarea>
     <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(9)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(10,11)">Volgende →</button>
+      <button class="btn btn-ghost" onclick="goTo(9)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(10)">Volgende &rarr;</button>
     </div>
   </div>
 
-  <!-- Panel 11 -->
+  <!-- ══ BLOK 4: DE REKENSOM ══ -->
+
+  <!-- Vraag 11 -->
   <div class="panel" id="panel-11">
-    <div class="q-label"><span class="q-num">Vraag 11 van 15</span></div>
-    <h2 class="q-title">Wie voert de gesprekken na een reactie?</h2>
-    <p class="q-hint">Naam en functie van de persoon die de leads oppakt. Zodat wij de mails op de juiste persoon kunnen afstemmen.</p>
-    <input class="q-input" id="a11" required placeholder="Bijv. Jan de Vries, directeur / Anne-Roos, commercieel manager…">
+    <div class="q-block">Blok 4 van 5 · De rekensom <span class="q-num">· Vraag 11 van 18</span></div>
+    <h2 class="q-title">Wat levert een gemiddelde nieuwe klant jullie op in het eerste jaar?</h2>
+    <p class="q-hint">Bij benadering. Hiermee rekenen we in de fitcheck door wat de campagne moet opleveren om eruit te komen.</p>
+    <div class="chips" id="a11">
+      <button type="button" class="chip" data-v="Tot €2.500" onclick="pick(this)">Tot €2.500</button>
+      <button type="button" class="chip" data-v="€2.500 tot €10.000" onclick="pick(this)">€2.500 tot €10.000</button>
+      <button type="button" class="chip" data-v="€10.000 tot €25.000" onclick="pick(this)">€10.000 tot €25.000</button>
+      <button type="button" class="chip" data-v="€25.000 tot €100.000" onclick="pick(this)">€25.000 tot €100.000</button>
+      <button type="button" class="chip" data-v="Meer dan €100.000" onclick="pick(this)">Meer dan €100.000</button>
+      <button type="button" class="chip" data-v="Dat wisselt te sterk" onclick="pick(this)">Dat wisselt te sterk</button>
+    </div>
     <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(10)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(11,12)">Volgende →</button>
+      <button class="btn btn-ghost" onclick="goTo(10)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(11)">Volgende &rarr;</button>
     </div>
   </div>
 
-  <!-- Panel 12 -->
+  <!-- Vraag 12 -->
   <div class="panel" id="panel-12">
-    <div class="q-label"><span class="q-num">Vraag 12 van 15</span></div>
-    <h2 class="q-title">Welke bedrijven willen jullie juist niet als klant?</h2>
-    <p class="q-hint">Sectoren, groottes, of typen die niet passen. Zodat wij die uitsluiten in de targeting.</p>
-    <textarea class="q-input" id="a12" required placeholder="Bijv. Geen ZZP'ers, geen overheidsinstanties, geen bedrijven onder 5 medewerkers…"></textarea>
+    <div class="q-block">Blok 4 van 5 · De rekensom <span class="q-num">· Vraag 12 van 18</span></div>
+    <h2 class="q-title">Hoe komen jullie nu aan nieuwe klanten?</h2>
+    <p class="q-hint">Meerdere mag. Wat jullie al geprobeerd hebben, bepaalt wat wij anders aanpakken.</p>
+    <div class="chips" id="a12" data-multi="1">
+      <button type="button" class="chip" data-v="Netwerk en via-via" onclick="pick(this)">Netwerk en via-via</button>
+      <button type="button" class="chip" data-v="LinkedIn" onclick="pick(this)">LinkedIn</button>
+      <button type="button" class="chip" data-v="Zelf bellen" onclick="pick(this)">Zelf bellen</button>
+      <button type="button" class="chip" data-v="Advertenties" onclick="pick(this)">Advertenties</button>
+      <button type="button" class="chip" data-v="Beurzen en events" onclick="pick(this)">Beurzen en events</button>
+      <button type="button" class="chip" data-v="Zelf al eens gemaild" onclick="pick(this)">Zelf al eens gemaild</button>
+      <button type="button" class="chip" data-v="Eerder een bureau of setter" onclick="pick(this)">Eerder een bureau of setter</button>
+      <button type="button" class="chip" data-v="Nog niets structureel" onclick="pick(this)">Nog niets structureel</button>
+    </div>
     <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(11)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(12,13)">Volgende →</button>
+      <button class="btn btn-ghost" onclick="goTo(11)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(12)">Volgende &rarr;</button>
     </div>
   </div>
 
-  <!-- Panel 13 -->
+  <!-- Vraag 13 -->
   <div class="panel" id="panel-13">
-    <div class="q-label"><span class="q-num">Vraag 13 van 15</span></div>
-    <h2 class="q-title">Hebben jullie wensen voor schrijfstijl of toon?</h2>
-    <p class="q-hint">Formeel of informeel? Direct of voorzichtig? Voorbeelden van e-mails die jullie goed vinden?</p>
-    <textarea class="q-input" id="a13" required placeholder="Bijv. Informeel, geen je/jij maar u, kort en direct, geen wollige zinnen…"></textarea>
+    <div class="q-block">Blok 4 van 5 · De rekensom <span class="q-num">· Vraag 13 van 18</span></div>
+    <h2 class="q-title">Hoeveel extra gesprekken per week kan jullie team aan?</h2>
+    <p class="q-hint">Hiermee bepalen we het dagvolume. Meer reacties dan jullie kunnen opvolgen is weggegooid geld.</p>
+    <div class="chips" id="a13">
+      <button type="button" class="chip" data-v="1 tot 3" onclick="pick(this)">1 tot 3</button>
+      <button type="button" class="chip" data-v="3 tot 5" onclick="pick(this)">3 tot 5</button>
+      <button type="button" class="chip" data-v="5 tot 10" onclick="pick(this)">5 tot 10</button>
+      <button type="button" class="chip" data-v="Meer dan 10" onclick="pick(this)">Meer dan 10</button>
+    </div>
     <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(12)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(13,14)">Volgende →</button>
+      <button class="btn btn-ghost" onclick="goTo(12)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(13)">Volgende &rarr;</button>
     </div>
   </div>
 
-  <!-- Panel 14 -->
+  <!-- Vraag 14 -->
   <div class="panel" id="panel-14">
-    <div class="q-label"><span class="q-num">Vraag 14 van 15</span></div>
-    <h2 class="q-title">Hebben jullie een e-mailhandtekening die wij kunnen gebruiken?</h2>
-    <p class="q-hint">Plak hier de handtekening of beschrijf hoe die eruit moet zien. Naam, functie, telefoon, website.</p>
-    <textarea class="q-input" id="a14" required placeholder="Bijv.: Jan de Vries | Directeur | jan@bedrijf.nl | 06-12345678 | www.bedrijf.nl"></textarea>
+    <div class="q-block">Blok 4 van 5 · De rekensom <span class="q-num">· Vraag 14 van 18</span></div>
+    <h2 class="q-title">Wanneer wil je de eerste reacties binnen hebben?</h2>
+    <p class="q-hint">Tussen een getekende overeenkomst en de eerste mail zit 14 dagen setup: domeinen en mailboxen aanmaken, opwarmen en de copy schrijven.</p>
+    <div class="chips" id="a14">
+      <button type="button" class="chip" data-v="Zo snel mogelijk" onclick="pick(this)">Zo snel mogelijk</button>
+      <button type="button" class="chip" data-v="Binnen een maand" onclick="pick(this)">Binnen een maand</button>
+      <button type="button" class="chip" data-v="Volgend kwartaal" onclick="pick(this)">Volgend kwartaal</button>
+      <button type="button" class="chip" data-v="We kijken nog rond" onclick="pick(this)">We kijken nog rond</button>
+    </div>
     <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(13)">← Terug</button>
-      <button class="btn btn-primary" onclick="next(14,15)">Volgende →</button>
+      <button class="btn btn-ghost" onclick="goTo(13)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(14)">Volgende &rarr;</button>
     </div>
   </div>
 
-  <!-- Panel 15 -->
+  <!-- ══ BLOK 5: PRAKTISCH (OPTIONEEL) ══ -->
+
+  <!-- Vraag 15 -->
   <div class="panel" id="panel-15">
-    <div class="q-label"><span class="q-num">Vraag 15 van 15</span></div>
-    <h2 class="q-title">Mailen vanuit een persoon of vanuit het bedrijf?</h2>
-    <p class="q-hint">Persoonlijk (bijv. "Hi Jan, ik ben Anne-Roos van...") converteert doorgaans beter. Maar sommige bedrijven sturen liever vanuit het bedrijfsmerk.</p>
-    <textarea class="q-input" id="a15" required placeholder="Bijv. Vanuit een persoon: naam + functie opgeven / of vanuit bedrijfsnaam…"></textarea>
+    <div class="q-block">Blok 5 van 5 · Praktisch <span class="q-num">· Vraag 15 van 18</span></div>
+    <h2 class="q-title">Wie voert de gesprekken na een reactie?</h2>
+    <p class="q-hint">Vanaf hier mag je alles overslaan. Wie het wel invult, heeft de campagne een paar dagen sneller staan. Op deze persoon stemmen we de mails af, en het telefoonnummer zetten we in de handtekening zodat mensen ook kunnen bellen.</p>
+    <div class="fg"><label>Naam en functie</label><input class="q-input" id="a15" placeholder="Bijv. Jan de Vries, commercieel directeur"></div>
+    <div class="fg" style="margin-top:12px;"><label>Telefoonnummer</label><input class="q-input" id="a15x" placeholder="Bijv. 06 12345678"></div>
+    <button type="button" class="q-skip" onclick="skipTo(16)">Overslaan</button>
     <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(14)">← Terug</button>
-      <button class="btn btn-primary" onclick="goTo(16)">Bijna klaar →</button>
+      <button class="btn btn-ghost" onclick="goTo(14)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(15)">Volgende &rarr;</button>
     </div>
   </div>
 
-  <!-- PANEL 16: CONTACTGEGEVENS + VERSTUREN -->
+  <!-- Vraag 16 -->
   <div class="panel" id="panel-16">
-    <div class="q-label">Bijna klaar</div>
+    <div class="q-block">Blok 5 van 5 · Praktisch <span class="q-num">· Vraag 16 van 18</span></div>
+    <h2 class="q-title">Mailen we vanuit een persoon of vanuit het bedrijf?</h2>
+    <p class="q-hint">Vanuit een persoon levert in onze campagnes meer reacties op, dus dat is wat wij standaard doen. Sommige bedrijven versturen liever vanuit de bedrijfsnaam.</p>
+    <div class="chips" id="a16">
+      <button type="button" class="chip" data-v="Vanuit een persoon" onclick="pick(this)">Vanuit een persoon</button>
+      <button type="button" class="chip" data-v="Vanuit het bedrijf" onclick="pick(this)">Vanuit het bedrijf</button>
+    </div>
+    <button type="button" class="q-skip" onclick="skipTo(17)">Overslaan</button>
+    <div class="btn-row">
+      <button class="btn btn-ghost" onclick="goTo(15)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(16)">Volgende &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Vraag 17 -->
+  <div class="panel" id="panel-17">
+    <div class="q-block">Blok 5 van 5 · Praktisch <span class="q-num">· Vraag 17 van 18</span></div>
+    <h2 class="q-title">Hebben jullie een e-mailhandtekening die wij kunnen gebruiken?</h2>
+    <p class="q-hint">Plak hier de handtekening of beschrijf wat erin hoort: naam, functie, telefoon en website.</p>
+    <textarea class="q-input" id="a17" placeholder="Bijv. Jan de Vries | Commercieel directeur | jan@bedrijf.nl | 06 12345678 | bedrijf.nl"></textarea>
+    <button type="button" class="q-skip" onclick="skipTo(18)">Overslaan</button>
+    <div class="btn-row">
+      <button class="btn btn-ghost" onclick="goTo(16)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(17)">Volgende &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Vraag 18 -->
+  <div class="panel" id="panel-18">
+    <div class="q-block">Blok 5 van 5 · Praktisch <span class="q-num">· Vraag 18 van 18</span></div>
+    <h2 class="q-title">Wensen voor schrijfstijl of toon?</h2>
+    <p class="q-hint">Wij schrijven standaard kort, casual en in de je-vorm. Wil je de u-vorm, bepaalde woorden vermijden of heb je een voorbeeldmail die je goed vindt, zet het hier.</p>
+    <textarea class="q-input" id="a18" placeholder="Bijv. u-vorm aanhouden, het woord oplossing niet gebruiken, geen uitroeptekens…"></textarea>
+    <button type="button" class="q-skip" onclick="skipTo(19)">Overslaan</button>
+    <div class="btn-row">
+      <button class="btn btn-ghost" onclick="goTo(17)">&larr; Terug</button>
+      <button class="btn btn-primary" onclick="next(18)">Bijna klaar &rarr;</button>
+    </div>
+  </div>
+
+  <!-- PANEL 19: CONTACTGEGEVENS + VERSTUREN -->
+  <div class="panel" id="panel-19">
+    <div class="q-block">Laatste stap</div>
     <h2 class="q-title">Jouw gegevens</h2>
     <p class="q-hint">Zodat we weten van wie de antwoorden zijn en jij een kopie in je mail krijgt.</p>
 
     <div class="fg"><label>Jouw naam <span style="color:var(--accent)">*</span></label><input id="c-name" placeholder="Volledige naam" required></div>
     <div class="fg"><label>E-mailadres <span style="color:var(--accent)">*</span></label><input id="c-email" type="email" placeholder="jouw@bedrijf.nl" required></div>
     <div class="fg"><label>Bedrijfsnaam</label><input id="c-company" placeholder="Jouw bedrijf"></div>
-
-    <div class="referral-box">
-      <div class="rb-title">Ken je iemand die dit ook zou kunnen gebruiken?</div>
-      <div class="rb-text">Elk B2B bedrijf dat wil stoppen met afhankelijk zijn van via-via's kan hier baat bij hebben. Verwijs iemand door naar <strong>link2leads.nl</strong> of stuur een appje naar Anne-Roos.</div>
-      <div class="rb-discount">→ €100–€150 korting per maand op je eigen pakket bij elke succesvolle referral.</div>
-    </div>
+    <div class="fg"><label>Website</label><input id="c-site" placeholder="jouwbedrijf.nl"></div>
 
     <div class="err" id="err">Vul je naam en e-mailadres in voor we versturen.</div>
     <div class="btn-row">
-      <button class="btn btn-ghost" onclick="goTo(15)">← Terug</button>
-      <button class="btn btn-primary" id="submit-btn" onclick="submit()">Versturen ✓</button>
+      <button class="btn btn-ghost" onclick="goTo(18)">&larr; Terug</button>
+      <button class="btn btn-primary" id="submit-btn" onclick="submit()">Versturen &#10003;</button>
     </div>
   </div>
 
-  <!-- PANEL 17: SUCCESS -->
-  <div class="panel" id="panel-17">
+  <!-- PANEL 20: BEDANKT -->
+  <div class="panel" id="panel-20">
     <div class="succ">
       <div class="succ-ring">✓</div>
       <h2 class="succ-title">Antwoorden ontvangen</h2>
-      <p class="succ-sub">Je krijgt een kopie in je mail. We nemen je antwoorden door in de fitcheck.<br><br>Wij starten de setup zodra de overeenkomst getekend is en de factuur voldaan. Is dat al geregeld, dan gaan we direct aan de slag.<br><br>Vragen in de tussentijd? Bel of mail gerust.<br><br><strong>info@link2leads.nl · +31 85 080 5381</strong></p>
+      <p class="succ-sub">Je krijgt een kopie in je mail. Wij nemen ze door en komen in de fitcheck met een voorstel voor segment, boodschap en volume.</p>
+
+      <div class="succ-next">
+        <div class="sn-t">Staat je fitcheck al in de agenda?</div>
+        <div class="sn-s">Dan hoef je verder niets te doen, wij komen voorbereid. Is er nog geen moment geprikt, doe dat dan nu; dat gesprek is gratis en duurt 30 minuten.</div>
+        <a class="sn-btn" href="/book">Fitcheck inplannen</a>
+      </div>
+
+      <div class="succ-next">
+        <div class="sn-t">Ken je iemand die dit ook zou kunnen gebruiken?</div>
+        <div class="sn-s">Verwijs iemand door naar <strong>link2leads.nl</strong> of stuur een appje naar Anne-Roos. Bij elke succesvolle referral krijg je €100 tot €150 korting per maand op je eigen pakket.</div>
+      </div>
+
+      <p class="succ-sub" style="margin-bottom:24px;">Vragen in de tussentijd? Bel of mail gerust.<br><strong>info@link2leads.nl · +31 85 080 5381</strong></p>
+
       <div class="succ-ref">
         <div class="ref-lbl">Jouw referentienummer</div>
         <div class="ref-val" id="ref-val">—</div>
       </div>
-      <a href="/" style="display:inline-block;color:var(--muted2);font-size:14px;text-decoration:none;">← Terug naar <span class="l2b">Link<i>2</i>Leads</span>.nl</a>
+      <a href="/" style="display:inline-block;color:var(--muted2);font-size:14px;text-decoration:none;">&larr; Terug naar <span class="l2b">Link<i>2</i>Leads</span>.nl</a>
     </div>
   </div>
 
 </div><!-- /wrap -->
 
 <script>
-const TOTAL = 17; // panels 1–15 = vragen, 16 = contact, 17 = success
+/* ── Vragenlijst /klant ─────────────────────────────────────────────────────
+   13 vragen in 4 blokken (panel 1 t/m 13), daarna gegevens (14) en bedankt (15).
+   Open vragen staan in een textarea of input, keuzevragen in een .chips-blok.
+   Antwoorden worden tussentijds in deze browser bewaard, zodat iemand die
+   wegklikt verder kan waar hij was.                                          */
+
+const LAST_Q = 18;          // laatste vraagpanel
+const PANEL_CONTACT = 19;
+const PANEL_DONE = 20;
+const DRAFT_KEY = 'l2l_klant_draft_v2';
+// Vragen die overgeslagen mogen worden. Blok 5 (14 t/m 18) is helemaal
+// vrijwillig: wie het toch invult, neemt het serieus.
+const OPTIONAL = { 6: true, 15: true, 16: true, 17: true, 18: true };
+
 let current = 0;
+let verzonden = false;   // na het versturen niets meer bewaren
 
-const labels = [
-  '', // 0 = welcome
-  'Ideale klant',
-  'Bedrijfsgrootte',
-  'Functietitels beslissers',
-  "Regio's",
-  'Aanbod',
-  'Resultaat voor klant',
-  'Onderscheidend vermogen',
-  'Concrete case met cijfers',
-  'Grootste pijnpunt klant',
-  'Gevolg van niets doen',
-  'Wie voert gesprekken',
-  'Welke klanten niet',
-  'Schrijfstijl / toon',
-  'E-mailhandtekening',
-  'Mailen vanuit persoon of bedrijf',
-  '', // 16 = contact
-  '', // 17 = success
-];
+// Labels zoals ze in de mail en in het CRM terechtkomen.
+const labels = {
+  1:  'Aanbod',
+  2:  'Ideale klant',
+  3:  'Bedrijfsgrootte',
+  4:  'Functietitels beslissers',
+  5:  "Regio's",
+  6:  'Niet aanschrijven',
+  7:  'Probleem en kosten van niets doen',
+  8:  'Belangrijkste resultaat voor de klant',
+  9:  'Onderscheidend vermogen',
+  10: 'Case met cijfers',
+  11: 'Waarde nieuwe klant (eerste jaar)',
+  12: 'Huidige kanalen',
+  13: 'Gesprekken per week mogelijk',
+  14: 'Gewenst startmoment',
+  15: 'Wie voert de gesprekken',
+  16: 'Afzender',
+  17: 'E-mailhandtekening',
+  18: 'Schrijfstijl en toon'
+};
 
+function el(id) { return document.getElementById(id); }
+
+// ── Waarde van een vraag ophalen ──────────────────────────────────────────
+function val(n) {
+  const node = el('a' + n);
+  if (!node) return '';
+  let out;
+  if (node.classList && node.classList.contains('chips')) {
+    out = [].slice.call(node.querySelectorAll('.chip.on')).map(c => c.getAttribute('data-v') || c.textContent.trim()).join(', ');
+  } else {
+    out = node.value.trim();
+  }
+  const extra = el('a' + n + 'x');
+  if (extra && extra.value.trim()) out += (out ? ' · ' : '') + extra.value.trim();
+  return out;
+}
+
+// ── Keuzeknoppen ──────────────────────────────────────────────────────────
+function pick(btn) {
+  const box = btn.parentNode;
+  const multi = box.getAttribute('data-multi') === '1';
+  if (multi) {
+    btn.classList.toggle('on');
+  } else {
+    [].slice.call(box.querySelectorAll('.chip')).forEach(c => c.classList.remove('on'));
+    btn.classList.add('on');
+  }
+  box.classList.remove('is-error');
+  saveDraft();
+  // Bij een enkele keuze is de vraag klaar na een klik, dus schuiven we door.
+  // Staat er nog een invulveld onder de knoppen, dan blijven we staan.
+  const n = Number(box.id.replace('a', ''));
+  if (!multi && !el('a' + n + 'x')) {
+    setTimeout(() => { if (current === n) next(n); }, 260);
+  }
+}
+
+// ── Navigatie ─────────────────────────────────────────────────────────────
 function updateProgress() {
-  const pct = current === 0 ? 0 : Math.round((current / 16) * 100);
-  document.getElementById('progress').style.width = pct + '%';
+  const pct = current === 0 ? 0 : Math.round((current / PANEL_CONTACT) * 100);
+  el('progress').style.width = pct + '%';
 }
 
 function goTo(n) {
-  document.getElementById('panel-' + current).classList.remove('active');
+  const from = el('panel-' + current);
+  if (from) from.classList.remove('active');
   current = n;
-  document.getElementById('panel-' + current).classList.add('active');
+  el('panel-' + current).classList.add('active');
   updateProgress();
-  window.scrollTo({top: 0, behavior: 'smooth'});
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  saveDraft();
 }
 
-function next(from, to) {
-  const el = document.getElementById('a' + from);
-  if (el && !el.value.trim()) {
-    el.style.borderColor = 'rgba(239,68,68,.6)';
-    el.focus();
-    setTimeout(() => { el.style.borderColor = ''; }, 1500);
-    return;
+function flag(n) {
+  const node = el('a' + n);
+  if (!node) return;
+  if (node.classList.contains('chips')) {
+    node.classList.add('is-error');
+    setTimeout(() => node.classList.remove('is-error'), 1500);
+  } else {
+    node.style.borderColor = 'rgba(239,68,68,.6)';
+    node.focus();
+    setTimeout(() => { node.style.borderColor = ''; }, 1500);
   }
-  goTo(to);
 }
 
+function next(n) {
+  if (!OPTIONAL[n] && !val(n)) { flag(n); return; }
+  saveDraft();
+  goTo(n >= LAST_Q ? PANEL_CONTACT : n + 1);
+}
+
+function skipTo(n) { goTo(n); }
+
+// ── Tussentijds bewaren ───────────────────────────────────────────────────
+function collect() {
+  const d = { panel: current, a: {}, x: {}, c: {} };
+  for (let i = 1; i <= LAST_Q; i++) {
+    d.a[i] = val(i);
+    const extra = el('a' + i + 'x');
+    if (extra) d.x[i] = extra.value.trim();
+  }
+  ['c-name', 'c-email', 'c-company', 'c-site'].forEach(id => { const n = el(id); if (n) d.c[id] = n.value.trim(); });
+  return d;
+}
+
+function saveDraft() {
+  if (verzonden) return;
+  try { localStorage.setItem(DRAFT_KEY, JSON.stringify(collect())); } catch (e) {}
+}
+
+function clearDraft(hideBox) {
+  try { localStorage.removeItem(DRAFT_KEY); } catch (e) {}
+  if (hideBox) el('resume').classList.remove('show');
+}
+
+function fill(n, value, extraVal) {
+  const node = el('a' + n);
+  if (!node) return;
+  const extra = el('a' + n + 'x');
+  if (extra && extraVal) extra.value = extraVal;
+  if (!value) return;
+  const base = extraVal ? String(value).split(' · ')[0] : String(value);
+  if (node.classList.contains('chips')) {
+    const chosen = base.split(', ').map(s => s.trim());
+    [].slice.call(node.querySelectorAll('.chip')).forEach(c => {
+      if (chosen.indexOf(c.getAttribute('data-v') || c.textContent.trim()) > -1) c.classList.add('on');
+    });
+  } else {
+    node.value = base;
+  }
+}
+
+function readDraft() {
+  try { return JSON.parse(localStorage.getItem(DRAFT_KEY) || 'null'); } catch (e) { return null; }
+}
+
+function resumeDraft() {
+  const d = readDraft();
+  if (!d) { el('resume').classList.remove('show'); return; }
+  for (let i = 1; i <= LAST_Q; i++) fill(i, d.a && d.a[i], d.x && d.x[i]);
+  Object.keys(d.c || {}).forEach(id => { const n = el(id); if (n && !n.value) n.value = d.c[id]; });
+  const p = Math.min(Math.max(Number(d.panel) || 1, 1), PANEL_CONTACT);
+  goTo(p);
+}
+
+// ── Gegevens vooraf invullen vanuit de link ───────────────────────────────
+// /klant?naam=…&email=…&bedrijf=… zodat wie via de boeking of een mail komt
+// zijn gegevens niet opnieuw hoeft te typen.
+(function prefill() {
+  try {
+    const q = new URLSearchParams(location.search);
+    const map = { 'c-name': ['naam', 'name'], 'c-email': ['email', 'mail'], 'c-company': ['bedrijf', 'company'], 'c-site': ['site', 'website'] };
+    Object.keys(map).forEach(id => {
+      const node = el(id); if (!node) return;
+      for (const k of map[id]) { const v = q.get(k); if (v) { node.value = v; break; } }
+    });
+  } catch (e) {}
+})();
+
+// Openstaande versie melden zodra de pagina er staat.
+(function checkDraft() {
+  const d = readDraft();
+  if (!d) return;
+  const filled = Object.keys(d.a || {}).some(k => d.a[k]);
+  if (filled && (Number(d.panel) || 0) > 0) el('resume').classList.add('show');
+  else clearDraft();
+})();
+
+// ── Versturen ─────────────────────────────────────────────────────────────
 async function submit() {
-  const name = document.getElementById('c-name').value.trim();
-  const email = document.getElementById('c-email').value.trim();
-  const company = document.getElementById('c-company').value.trim();
-  const err = document.getElementById('err');
+  const name = el('c-name').value.trim();
+  const email = el('c-email').value.trim();
+  const company = el('c-company').value.trim();
+  const site = el('c-site').value.trim();
+  const err = el('err');
 
   if (!name || !email) { err.textContent = 'Vul je naam en e-mailadres in voor we versturen.'; err.classList.add('show'); return; }
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { err.textContent = 'Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.'; err.classList.add('show'); return; }
   err.classList.remove('show');
 
-  const btn = document.getElementById('submit-btn');
+  const btn = el('submit-btn');
   btn.disabled = true;
   btn.textContent = 'Versturen…';
 
   const answers = {};
-  for (let i = 1; i <= 15; i++) {
-    const el = document.getElementById('a' + i);
-    if (el && labels[i]) answers[labels[i]] = el.value.trim();
+  for (let i = 1; i <= LAST_Q; i++) {
+    const v = val(i);
+    if (v) answers[labels[i]] = v;
   }
 
   try {
     const res = await fetch('/api/klant', {
       method: 'POST',
-      headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({ name, email, company, answers })
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name, email, company, site, answers,
+        meta: { waarde: val(11), capaciteit: val(13), startmoment: val(14) }
+      })
     });
     const data = await res.json();
     if (data.success) {
-      document.getElementById('ref-val').textContent = data.ref || '—';
-      goTo(17);
+      el('ref-val').textContent = data.ref || '—';
+      verzonden = true;
+      clearDraft();
+      if (window.l2lTrack) l2lTrack('klant_questionnaire_completed');
+      goTo(PANEL_DONE);
     } else {
       err.textContent = data.error || 'Er ging iets mis. Probeer opnieuw.';
       err.classList.add('show');
       btn.disabled = false;
       btn.textContent = 'Versturen ✓';
     }
-  } catch(e) {
+  } catch (e) {
     err.textContent = 'Verbindingsfout. Probeer opnieuw.';
     err.classList.add('show');
     btn.disabled = false;
     btn.textContent = 'Versturen ✓';
   }
 }
+
+// Tekstvelden ook bewaren terwijl er getypt wordt.
+document.addEventListener('input', function (e) {
+  if (e.target && e.target.closest && e.target.closest('.panel')) saveDraft();
+});
 
 // Canvas background (same as book.html)
 (function(){
@@ -734,7 +1041,7 @@ async function submit() {
   requestAnimationFrame(draw);
 })();
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=28"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=31"></script>
 <script src="/assets/tracking.js"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
