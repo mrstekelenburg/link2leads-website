@@ -9626,5 +9626,34 @@ window.L2L_I18N_DATA = {
 },
 "Geen setupfee en geen aparte toolingrekening. Hyperpersonalisatie, LinkedIn en Full Service kies je erbij via": {
 "en": "No setup fee and no separate tooling bill. You add Hyperpersonalisation, LinkedIn and Full Service via"
+},
+
+/* ── Pakketkaarten: maandvolume in de badge (22 sept 2026) ── */
+"100 per dag": {
+"en": "100 per day"
+},
+"250 per dag": {
+"en": "250 per day"
+},
+"500 per dag": {
+"en": "500 per day"
+},
+"1.000 per dag": {
+"en": "1,000 per day"
+},
+", 30 verzenddagen · ± 1.000 nieuwe bedrijven": {
+"en": ", 30 sending days · approx. 1,000 new companies"
+},
+", 30 verzenddagen · ± 2.500 nieuwe bedrijven": {
+"en": ", 30 sending days · approx. 2,500 new companies"
+},
+", 30 verzenddagen · ± 5.000 nieuwe bedrijven": {
+"en": ", 30 sending days · approx. 5,000 new companies"
+},
+", 30 verzenddagen · ± 10.000 nieuwe bedrijven": {
+"en": ", 30 sending days · approx. 10,000 new companies"
+},
+"Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar. Vergelijk pakketten op mails per maand: wij versturen zeven dagen per week.": {
+"en": "One fixed amount per month, everything included. Three months minimum, then cancellable monthly. Compare packages on emails per month: we send seven days a week."
 }
 };
