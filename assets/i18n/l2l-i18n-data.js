@@ -2001,14 +2001,14 @@ window.L2L_I18N_DATA = {
 "Link2Leads (onderdeel van Link2Group) is verwerkingsverantwoordelijke voor de persoonsgegevens die via onze diensten worden verwerkt. Wij helpen bedrijven met B2B leadgeneratie via e-mailcampagnes.": {
 "en": "Link2Leads (part of Link2Group) is the data controller for the personal data processed through our services. We help companies with B2B lead generation via email campaigns."
 },
-"BTW: NL003697236B23": {
-"en": "VAT: NL003697236B23"
+"BTW: NL869359460B01": {
+"en": "VAT: NL869359460B01"
 },
 "KvK: 42025671": {
 "en": "Chamber of Commerce: 42025671"
 },
-"Link2Leads (onderdeel van Link2Group) · Frederik Hendrikstraat 59H, 1052HL Amsterdam · KvK 42025671 · BTW NL003697236B23": {
-"en": "Link2Leads (part of Link2Group) · Frederik Hendrikstraat 59H, 1052HL Amsterdam · KvK 42025671 · VAT NL003697236B23"
+"Link2Leads (onderdeel van Link2Group) · Frederik Hendrikstraat 59H, 1052HL Amsterdam · KvK 42025671 · BTW NL869359460B01": {
+"en": "Link2Leads (part of Link2Group) · Frederik Hendrikstraat 59H, 1052HL Amsterdam · KvK 42025671 · VAT NL869359460B01"
 },
 "Stap 2 van 3": {
 "en": "Step 2 of 3"
@@ -5646,8 +5646,8 @@ window.L2L_I18N_DATA = {
 "Link2Leads is een dienst van": {
 "en": "Link2Leads is a service by"
 },
-", Frederik Hendrikstraat 59H, 1052HL Amsterdam. KvK 42025671. BTW NL003697236B23.": {
-"en": ", Frederik Hendrikstraat 59H, 1052HL Amsterdam, the Netherlands. Chamber of Commerce 42025671. VAT NL003697236B23."
+", Frederik Hendrikstraat 59H, 1052HL Amsterdam. KvK 42025671. BTW NL869359460B01.": {
+"en": ", Frederik Hendrikstraat 59H, 1052HL Amsterdam, the Netherlands. Chamber of Commerce 42025671. VAT NL869359460B01."
 },
 "Persoonlijke mail namens jou": {
 "en": "Personal email on your behalf"
@@ -6579,8 +6579,8 @@ window.L2L_I18N_DATA = {
 "is een dienst van": {
 "en": "is a service of"
 },
-"BTW NL003697236B23": {
-"en": "VAT NL003697236B23"
+"BTW NL869359460B01": {
+"en": "VAT NL869359460B01"
 },
 "KvK 42025671": {
 "en": "Chamber of Commerce 42025671"
@@ -6636,8 +6636,8 @@ window.L2L_I18N_DATA = {
 "Pagina niet gevonden": {
 "en": "Page not found"
 },
-"Link2Leads (onderdeel van Link2Group) · Frederik Hendrikstraat 59H, 1052 HL Amsterdam · KvK 42025671 · BTW NL003697236B23": {
-"en": "Link2Leads (part of Link2Group) · Frederik Hendrikstraat 59H, 1052 HL Amsterdam · KvK 42025671 · VAT NL003697236B23"
+"Link2Leads (onderdeel van Link2Group) · Frederik Hendrikstraat 59H, 1052 HL Amsterdam · KvK 42025671 · BTW NL869359460B01": {
+"en": "Link2Leads (part of Link2Group) · Frederik Hendrikstraat 59H, 1052 HL Amsterdam · KvK 42025671 · VAT NL869359460B01"
 },
 "1052 HL Amsterdam": {
 "en": "1052 HL Amsterdam, the Netherlands"
@@ -6645,8 +6645,8 @@ window.L2L_I18N_DATA = {
 "Frederik Hendrikstraat 59H, 1052 HL Amsterdam": {
 "en": "Frederik Hendrikstraat 59H, 1052 HL Amsterdam, the Netherlands"
 },
-", Frederik Hendrikstraat 59H, 1052 HL Amsterdam. KvK 42025671. BTW NL003697236B23.": {
-"en": ", Frederik Hendrikstraat 59H, 1052 HL Amsterdam, the Netherlands. Chamber of Commerce 42025671. VAT NL003697236B23."
+", Frederik Hendrikstraat 59H, 1052 HL Amsterdam. KvK 42025671. BTW NL869359460B01.": {
+"en": ", Frederik Hendrikstraat 59H, 1052 HL Amsterdam, the Netherlands. Chamber of Commerce 42025671. VAT NL869359460B01."
 },
 "Vier pakketten, all-in per maand. Wat erin zit en wat het kost.": {
 "en": "Four packages, all-in per month. What is included and what it costs."
