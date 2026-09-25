@@ -1217,6 +1217,9 @@ h1 .blue, h2 .blue, h3 .blue {
 .cmp .brand{font-weight:700;color:var(--white);white-space:nowrap;}
 .cmp .brand i{font-style:italic;color:var(--accent2);}
 .cmp td.cmp-lab{width:29%;}
+.cmp .cmp-ic{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:8px;margin-bottom:9px;
+  background:rgba(47,111,237,.14);border:1px solid rgba(47,111,237,.3);color:var(--accent2);}
+.cmp .cmp-ic svg{display:block;}
 .cmp td.cmp-lab b{display:block;font-size:15px;font-weight:700;color:var(--accent2);line-height:1.35;}
 .cmp td.cmp-lab small{display:block;margin-top:4px;font-size:13px;line-height:1.5;color:var(--muted);}
 .cmp td.cmp-us{background:rgba(47,111,237,.07);color:rgba(255,255,255,.9);font-weight:500;width:38%;}
@@ -1244,7 +1247,9 @@ h1 .blue, h2 .blue, h3 .blue {
   .cmp tr{border-bottom:1px solid var(--border);padding:14px 16px 14px;}
   .cmp tbody tr:last-child{border-bottom:0;}
   .cmp td,.cmp td.cmp-lab,.cmp td.cmp-us,.cmp td.cmp-th{padding:0;border-bottom:0;width:auto;background:none;}
-  .cmp td.cmp-lab b{font-size:15.5px;margin-bottom:8px;}
+  .cmp td.cmp-lab{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+  .cmp td.cmp-lab b{font-size:15.5px;margin-bottom:0;}
+  .cmp .cmp-ic{width:28px;height:28px;margin-bottom:0;flex-shrink:0;}
   .cmp td.cmp-lab small{display:none;}
   .cmp .cmp-c{gap:9px;align-items:flex-start;}
   .cmp .cmp-c .t{display:none;}
@@ -3323,7 +3328,10 @@ Bel ons: 085 080 5381
   .cfg-opt:has(input:checked){border-color:rgba(47,111,237,.45);background:rgba(47,111,237,.08);}
   .cfg-opt.is-off{opacity:.55;cursor:not-allowed;}
   .cfg-opt input{width:18px;height:18px;margin-top:3px;accent-color:var(--accent);cursor:inherit;}
-  .cfg-opt-t{display:block;font-size:15.5px;font-weight:700;color:var(--accent2);}
+  .cfg-opt-t{display:flex;align-items:center;gap:9px;font-size:15.5px;font-weight:700;color:var(--accent2);}
+  .cfg-i{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:7px;flex-shrink:0;
+    background:rgba(47,111,237,.14);border:1px solid rgba(47,111,237,.3);color:var(--accent2);}
+  .cfg-i svg{display:block;}
   .cfg-opt-d{display:block;margin-top:4px;font-size:14px;line-height:1.55;color:rgba(255,255,255,.68);}
   .cfg-opt-x{display:block;margin-top:8px;padding-left:12px;border-left:2px solid rgba(47,111,237,.5);font-size:13.5px;line-height:1.5;color:rgba(255,255,255,.62);}
   .cfg-opt-x b{color:rgba(255,255,255,.85);font-weight:600;}
@@ -3398,7 +3406,7 @@ Bel ons: 085 080 5381
 <label class="cfg-opt">
 <input type="checkbox" class="cfg-ao" data-ao="hp">
 <span>
-<span class="cfg-opt-t">Hyperpersonalisatie</span>
+<span class="cfg-opt-t"><span class="cfg-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></span>Hyperpersonalisatie</span>
 <span class="cfg-opt-d">Elke prospect krijgt een openingszin over zijn eigen bedrijf en een eigen pagina op jouw domein. <a href="/cases/landingspagina-per-prospect" style="color:var(--accent2);">Bekijk wat het opleverde</a></span>
 <span class="cfg-opt-x"><b>Hoi Martijn, zag dat jullie net een tweede vestiging in Breda hebben geopend.</b> Met een link naar jouwdomein.nl/martijn-bakker</span>
 </span>
@@ -3407,7 +3415,7 @@ Bel ons: 085 080 5381
 <label class="cfg-opt">
 <input type="checkbox" class="cfg-ao" data-ao="li">
 <span>
-<span class="cfg-opt-t">LinkedIn erbij</span>
+<span class="cfg-opt-t"><span class="cfg-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span>LinkedIn erbij</span>
 <span class="cfg-opt-d">Dezelfde bedrijven die je mailt, krijgen ook een connectieverzoek en daarna een korte vraag vanuit jouw LinkedIn-profiel. Zo kennen ze je naam al als je mail binnenkomt.</span>
 <span class="cfg-opt-x"><b>Connectieverzoek, daarna een korte vraag.</b> Reageert iemand, dan gaat het gesprek verder in jouw eigen inbox</span>
 </span>
@@ -3416,7 +3424,7 @@ Bel ons: 085 080 5381
 <label class="cfg-opt" id="cfgFs">
 <input type="checkbox" class="cfg-ao" data-ao="fs">
 <span>
-<span class="cfg-opt-t">Full Service</span>
+<span class="cfg-opt-t"><span class="cfg-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M9 16l2 2 4-4"/></svg></span>Full Service</span>
 <span class="cfg-opt-d">Wij beantwoorden de reacties en zetten de afspraak in jouw agenda. Jij voert alleen nog het gesprek.</span>
 <span class="cfg-opt-x"><b>Klinkt interessant, kun je volgende week even bellen?</b> wordt: afspraak ingepland, donderdag 11:00</span>
 </span>
@@ -3533,6 +3541,10 @@ Bel ons: 085 080 5381
         .pa-item summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;
           gap:16px;padding:20px 24px;font-weight:600;font-size:16px;color:var(--white);}
         .pa-item summary::-webkit-details-marker{display:none;}
+        .pa-sl{display:flex;align-items:center;gap:12px;}
+        .pa-ic{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:8px;flex-shrink:0;
+          background:rgba(47,111,237,.14);border:1px solid rgba(47,111,237,.3);color:var(--accent2);}
+        .pa-ic svg{display:block;}
         .pa-item summary::after{content:'+';font-size:24px;color:var(--accent2);flex-shrink:0;transition:transform .2s;line-height:1;}
         .pa-item[open] summary::after{transform:rotate(45deg);}
         .pa-body{padding:0 24px 22px;}
@@ -3550,7 +3562,7 @@ Bel ons: 085 080 5381
         @media(max-width:760px){.pa-cols{grid-template-columns:1fr;gap:22px;}.pa-item summary{padding:18px 20px;}.pa-body{padding:0 20px 20px;}}
       </style>
 <details class="pa-item">
-<summary>Wat zit er in de prijs?</summary>
+<summary><span class="pa-sl"><span class="pa-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L2 12V2h10l8.6 8.6a2 2 0 0 1 0 2.8z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></span>Wat zit er in de prijs?</span></summary>
 <div class="pa-body">
 <div class="pa-cols">
 <div>
@@ -3578,7 +3590,7 @@ Bel ons: 085 080 5381
 </div>
 </details>
 <details class="pa-item">
-<summary>Wat noemen wij een positieve reactie?</summary>
+<summary><span class="pa-sl"><span class="pa-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M9 10l2 2 4-4"/></svg></span>Wat noemen wij een positieve reactie?</span></summary>
 <div class="pa-body">
 <div class="pa-cols">
 <div>
@@ -3605,7 +3617,7 @@ Bel ons: 085 080 5381
 </div>
 </details>
 <details class="pa-item" id="garantie">
-<summary>Garantie en contract</summary>
+<summary><span class="pa-sl"><span class="pa-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span>Garantie en contract</span></summary>
 <div class="pa-body">
 <div class="pa-stack">
 <div><div class="gt">Garantie op positieve reacties (Scale en Pro)</div><p>Voor Scale en Pro spreken we vooraf af hoeveel gekwalificeerde positieve reacties je minimaal ontvangt in drie campagnemaanden. Dat aantal staat in je contract.</p><p style="margin-top:8px;"><span>Niet gehaald? Dan draaien wij kosteloos door tot het afgesproken aantal is bereikt.</span> <span>Maximaal drie extra maanden. In die periode betaal je niets.</span> <span>Geen abonnements-, mailbox-, domein- of datakosten.</span></p><p style="margin-top:8px;">Voor de start berekenen we op basis van je doelgroep, aanbod en marktgrootte een realistisch minimum. Dat aantal spreken we samen af en leggen we vast in het contract. De garantie geldt voor gekwalificeerde positieve reacties, niet voor afspraken, omzet of betalende klanten. <a href="/algemene-voorwaarden" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">Bekijk de volledige voorwaarden</a>.</p></div>
@@ -3618,7 +3630,7 @@ Bel ons: 085 080 5381
 </div>
 </details>
 <details class="pa-item" id="verzenddagen">
-<summary>Wij versturen ook in het weekend</summary>
+<summary><span class="pa-sl"><span class="pa-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="4.9" y1="4.9" x2="6.3" y2="6.3"/><line x1="17.7" y1="17.7" x2="19.1" y2="19.1"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/><line x1="4.9" y1="19.1" x2="6.3" y2="17.7"/><line x1="17.7" y1="6.3" x2="19.1" y2="4.9"/></svg></span>Wij versturen ook in het weekend</span></summary>
 <div class="pa-body wknd">
 <style>
   .pa-body.wknd{margin:0;text-align:left;}
@@ -3681,16 +3693,16 @@ Bel ons: 085 080 5381
 <table>
 <thead><tr><th>Waar je op let</th><th class="cmp-us">Link<i>2</i>Leads</th><th>Andere bureaus</th></tr></thead>
 <tbody>
-<tr><td class="cmp-lab"><b>Volume</b><small>Hoeveel bedrijven je bereikt en of dat vastligt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">7 dagen per week, 3.000 tot 30.000 mails per maand, in je contract</span><span class="t">Zeven dagen per week, 30 verzenddagen per maand. Van 3.000 mails per maand op Starter tot 30.000 op Pro, en dat aantal staat in je contract.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Alleen werkdagen, zelden vastgelegd</span><span class="t">Meestal alleen werkdagen, lager volume op het instappakket en zelden vastgelegd.</span></span></td></tr>
-<tr><td class="cmp-lab"><b>Personalisatie per prospect</b><small>De mail gaat over het bedrijf zelf.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Eigen openingszin en eigen pagina per prospect</span><span class="t">Een openingszin op echte informatie over het bedrijf en een eigen pagina op jouw domein, per prospect. Op elk pakket erbij te nemen.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Voornaam en bedrijfsnaam invullen</span><span class="t">Voornaam en bedrijfsnaam invullen.</span></span></td></tr>
-<tr><td class="cmp-lab"><b>Koopsignalen en segmentatie</b><small>Wanneer en met welke insteek iemand gemaild wordt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Mailen op een aanleiding, per segment een eigen insteek</span><span class="t">We mailen op een aanleiding, zoals een vacature, een nieuwe vestiging of een verhuizing, en per segment met een eigen insteek.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Eén tekst voor de hele lijst</span><span class="t">Eén tekst voor de hele lijst, op een willekeurige dinsdag.</span></span></td></tr>
-<tr><td class="cmp-lab"><b>Reacties filteren</b><small>Wat er in jouw mailbox belandt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Elke reactie met de hand gelezen, alleen positieve naar jou</span><span class="t">Elke reactie wordt met de hand gelezen. Alleen wat een gesprek waard is komt bij jou, met naam, functie en contactgegevens.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Automatisch gelabeld of alles doorgestuurd</span><span class="t">Automatisch gelabeld, of alles wordt doorgestuurd.</span></span></td></tr>
-<tr><td class="cmp-lab"><b>Opvolging</b><small>Wie de positieve reactie beantwoordt en de afspraak inplant.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Zelf, of wij plannen de afspraak in je agenda. Setters en closers via <span class="brand">Link<i>2</i>Talent</span></span><span class="t">Zelf, of wij handelen de reactie af en zetten de afspraak direct in jouw agenda (Full Service). Meer opvolgcapaciteit nodig? Via ons zusterbedrijf <span class="brand">Link<i>2</i>Talent</span> zetten we remote setters en closers op jouw reacties.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Alleen doorsturen</span><span class="t">Alleen doorsturen.</span></span></td></tr>
-<tr><td class="cmp-lab"><b>LinkedIn erbij</b><small>Dezelfde bedrijven ook via LinkedIn.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Dezelfde bedrijven ook via jouw LinkedIn</span><span class="t">Connectieverzoek en eerste bericht vanuit jouw profiel, naar dezelfde bedrijven die je mailt.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Apart bureau nodig</span><span class="t">Apart bureau of apart traject.</span></span></td></tr>
-<tr><td class="cmp-lab"><b>Garantie</b><small>Wat er over het resultaat is afgesproken.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Aantal positieve reacties in je contract (Scale en Pro)</span><span class="t">Het aantal positieve reacties staat in je contract (Scale en Pro).</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Zelden, of alleen inspanning</span><span class="t">Zelden, of alleen een inspanningsverplichting.</span></span></td></tr>
-<tr><td class="cmp-lab"><b>Setup</b><small>Wat de start kost en hoe lang die duurt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Geen setupfee, binnen twee weken live</span><span class="t">Geen setupfee en geen aparte toolingrekening. Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken klaar.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Opstartkosten, vier tot zes weken</span><span class="t">Vaak opstartkosten, en vier tot zes weken tot de eerste mail.</span></span></td></tr>
-<tr><td class="cmp-lab"><b>Wat van jou blijft</b><small>Als je stopt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Teksten, contacten en reacties krijg je mee</span><span class="t">De teksten mag je blijven gebruiken. Contactgegevens en reacties uit jouw campagne krijg je mee in een gangbaar bestand.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Blijft vaak bij het bureau</span><span class="t">Vaak blijft alles bij het bureau.</span></span></td></tr>
-<tr><td class="cmp-lab"><b>Alleen de leadlijst</b><small>Als je (nog) geen campagne wilt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Los te koop vanaf 500, 10 gratis proberen</span><span class="t">Los te koop vanaf 500 leads, en eerst 10 gratis om te proberen.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Alleen met een campagne</span><span class="t">Alleen als onderdeel van een campagne.</span></span></td></tr>
+<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg></span><b>Volume</b><small>Hoeveel bedrijven je bereikt en of dat vastligt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">7 dagen per week, 3.000 tot 30.000 mails per maand, in je contract</span><span class="t">Zeven dagen per week, 30 verzenddagen per maand. Van 3.000 mails per maand op Starter tot 30.000 op Pro, en dat aantal staat in je contract.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Alleen werkdagen, zelden vastgelegd</span><span class="t">Meestal alleen werkdagen, lager volume op het instappakket en zelden vastgelegd.</span></span></td></tr>
+<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></span><b>Personalisatie per prospect</b><small>De mail gaat over het bedrijf zelf.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Eigen openingszin en eigen pagina per prospect</span><span class="t">Een openingszin op echte informatie over het bedrijf en een eigen pagina op jouw domein, per prospect. Op elk pakket erbij te nemen.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Voornaam en bedrijfsnaam invullen</span><span class="t">Voornaam en bedrijfsnaam invullen.</span></span></td></tr>
+<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span><b>Koopsignalen en segmentatie</b><small>Wanneer en met welke insteek iemand gemaild wordt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Mailen op een aanleiding, per segment een eigen insteek</span><span class="t">We mailen op een aanleiding, zoals een vacature, een nieuwe vestiging of een verhuizing, en per segment met een eigen insteek.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Eén tekst voor de hele lijst</span><span class="t">Eén tekst voor de hele lijst, op een willekeurige dinsdag.</span></span></td></tr>
+<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.5 10 19 14 21 14 12.5 22 3"/></svg></span><b>Reacties filteren</b><small>Wat er in jouw mailbox belandt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Elke reactie met de hand gelezen, alleen positieve naar jou</span><span class="t">Elke reactie wordt met de hand gelezen. Alleen wat een gesprek waard is komt bij jou, met naam, functie en contactgegevens.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Automatisch gelabeld of alles doorgestuurd</span><span class="t">Automatisch gelabeld, of alles wordt doorgestuurd.</span></span></td></tr>
+<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M9 16l2 2 4-4"/></svg></span><b>Opvolging</b><small>Wie de positieve reactie beantwoordt en de afspraak inplant.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Zelf, of wij plannen de afspraak in je agenda. Setters en closers via <span class="brand">Link<i>2</i>Talent</span></span><span class="t">Zelf, of wij handelen de reactie af en zetten de afspraak direct in jouw agenda (Full Service). Meer opvolgcapaciteit nodig? Via ons zusterbedrijf <span class="brand">Link<i>2</i>Talent</span> zetten we remote setters en closers op jouw reacties.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Alleen doorsturen</span><span class="t">Alleen doorsturen.</span></span></td></tr>
+<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span><b>LinkedIn erbij</b><small>Dezelfde bedrijven ook via LinkedIn.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Dezelfde bedrijven ook via jouw LinkedIn</span><span class="t">Connectieverzoek en eerste bericht vanuit jouw profiel, naar dezelfde bedrijven die je mailt.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Apart bureau nodig</span><span class="t">Apart bureau of apart traject.</span></span></td></tr>
+<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span><b>Garantie</b><small>Wat er over het resultaat is afgesproken.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Aantal positieve reacties in je contract (Scale en Pro)</span><span class="t">Het aantal positieve reacties staat in je contract (Scale en Pro).</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Zelden, of alleen inspanning</span><span class="t">Zelden, of alleen een inspanningsverplichting.</span></span></td></tr>
+<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.3-2 5-2 5s3.7-.5 5-2c.7-.8.7-2 0-2.8-.8-.7-2-.7-2.8 0z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.9A12.5 12.5 0 0 1 22 2c0 2.7-.9 7.6-6 11a22 22 0 0 1-4 2z"/><path d="M9 12H4s.5-3 2-4 5 0 5 0"/><path d="M12 15v5s3-.5 4-2c1-1.5 0-5 0-5"/></svg></span><b>Setup</b><small>Wat de start kost en hoe lang die duurt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Geen setupfee, binnen twee weken live</span><span class="t">Geen setupfee en geen aparte toolingrekening. Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken klaar.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Opstartkosten, vier tot zes weken</span><span class="t">Vaak opstartkosten, en vier tot zes weken tot de eerste mail.</span></span></td></tr>
+<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="M10.9 12.1L21 2"/><path d="M15 8l3 3"/><path d="M18 5l3 3"/></svg></span><b>Wat van jou blijft</b><small>Als je stopt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Teksten, contacten en reacties krijg je mee</span><span class="t">De teksten mag je blijven gebruiken. Contactgegevens en reacties uit jouw campagne krijg je mee in een gangbaar bestand.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Blijft vaak bij het bureau</span><span class="t">Vaak blijft alles bij het bureau.</span></span></td></tr>
+<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg></span><b>Alleen de leadlijst</b><small>Als je (nog) geen campagne wilt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Los te koop vanaf 500, 10 gratis proberen</span><span class="t">Los te koop vanaf 500 leads, en eerst 10 gratis om te proberen.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Alleen met een campagne</span><span class="t">Alleen als onderdeel van een campagne.</span></span></td></tr>
 </tbody>
 </table>
 </div>
@@ -3718,6 +3730,9 @@ Bel ons: 085 080 5381
   .ksig-p{margin:0 0 22px;font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.72);max-width:70ch;}
   .ksig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
   .ksig-c{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:14px;padding:18px 20px;}
+  .ksig-i{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;margin-bottom:12px;
+    background:rgba(47,111,237,.14);border:1px solid rgba(47,111,237,.3);color:var(--accent2);}
+  .ksig-i svg{display:block;}
   .ksig-c b{display:block;font-size:15.5px;font-weight:700;color:var(--accent2);margin-bottom:6px;}
   .ksig-c span{display:block;font-size:14.5px;line-height:1.55;color:rgba(255,255,255,.68);}
   .ksig-foot{margin:20px 0 0;font-size:14px;line-height:1.6;color:var(--muted);}
@@ -3731,9 +3746,9 @@ Bel ons: 085 080 5381
 <div class="ksig-wrap reveal">
   <p class="ksig-p">Wij zoeken daarom per bedrijf naar een aanleiding en verwijzen daar in de mail naar. Zo komt je bericht binnen op het moment dat het relevant is, in plaats van op een willekeurige dinsdag.</p>
   <div class="ksig-grid">
-    <div class="ksig-c"><b>Zoekt personeel</b><span>Een openstaande vacature, gecontroleerd op de site van het bedrijf zelf.</span></div>
-    <div class="ksig-c"><b>Groeit zichtbaar</b><span>Een nieuwe vestiging, een overname of een verhuizing die het bedrijf zelf heeft aangekondigd.</span></div>
-    <div class="ksig-c"><b>Investeert in klanten werven</b><span>Een bedrijf dat net is gaan adverteren, of juist een site heeft die jaren niet is bijgewerkt.</span></div>
+    <div class="ksig-c"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg></span><b>Zoekt personeel</b><span>Een openstaande vacature, gecontroleerd op de site van het bedrijf zelf.</span></div>
+    <div class="ksig-c"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></span><b>Groeit zichtbaar</b><span>Een nieuwe vestiging, een overname of een verhuizing die het bedrijf zelf heeft aangekondigd.</span></div>
+    <div class="ksig-c"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></span><b>Investeert in klanten werven</b><span>Een bedrijf dat net is gaan adverteren, of juist een site heeft die jaren niet is bijgewerkt.</span></div>
   </div>
   <p class="ksig-foot">Welke aanleiding bij jouw aanbod past, bepalen we in de onboarding. Past er geen enkel signaal bij, dan zeggen we dat en werken we met een scherper afgebakende doelgroep.</p>
 </div>
