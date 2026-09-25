@@ -1180,6 +1180,79 @@ h1 .blue, h2 .blue, h3 .blue {
 #garantie{scroll-margin-top:100px;}
 .p-features li.p-gar{color:#fff;font-weight:700;}
 .p-features li.p-gar::before{content:'\2713';color:#4ADE80;font-weight:800;}
+
+/* ═══════════ MINI REVIEWS (door de pagina heen) ═══════════ */
+.rv-mini{display:flex;align-items:center;gap:16px;max-width:680px;margin:34px auto 0;padding:16px 20px;
+  background:var(--card-bg);border:1px solid var(--border);border-radius:16px;color:inherit;text-decoration:none;
+  transition:border-color .2s,background .2s,transform .2s;text-align:left;}
+.rv-mini:hover{border-color:rgba(47,111,237,.45);background:rgba(47,111,237,.07);transform:translateY(-2px);}
+.rv-mini:focus-visible{outline:2px solid var(--accent2);outline-offset:3px;}
+.rv-av{width:42px;height:42px;border-radius:50%;object-fit:cover;flex-shrink:0;background:#fff;}
+.rv-av-ini{display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800;color:#fff;
+  background:radial-gradient(circle at 30% 25%,#4E8BFF,#1E4FC4);}
+.rv-body{flex:1;min-width:0;display:block;}
+.rv-top{display:flex;align-items:center;gap:8px;line-height:1;}
+.rv-stars{color:#FBBF24;font-size:13px;letter-spacing:2px;}
+.rv-score{font-size:12.5px;font-weight:800;color:var(--white);}
+.rv-q{display:block;margin-top:7px;font-size:15px;line-height:1.5;color:rgba(255,255,255,.86);}
+.rv-who{display:block;margin-top:5px;font-size:13px;font-weight:700;color:var(--accent2);}
+.rv-who .rv-co{font-weight:600;color:var(--muted);}
+.rv-go{flex-shrink:0;font-size:13px;font-weight:700;color:var(--muted);white-space:nowrap;transition:color .2s;}
+.rv-mini:hover .rv-go{color:var(--accent2);}
+.rv-mini.rv-in-price{margin:26px auto 0;}
+.rv-mini.rv-wide{max-width:760px;}
+@media(max-width:620px){.rv-mini{gap:12px;padding:14px 16px;margin-top:26px;}.rv-go{display:none;}.rv-q{font-size:14px;}}
+
+/* ═══════════ VERGELIJKING MET ANDERE BUREAUS ═══════════ */
+.cmp-section{padding:0 24px 100px;}
+.cmp-head{max-width:1000px;margin:0 auto 30px;text-align:center;}
+.cmp-wrap{max-width:1000px;margin:0 auto;border:1px solid var(--border);border-radius:22px;overflow:hidden;background:var(--card-bg);}
+.cmp-tw{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.cmp table{width:100%;border-collapse:collapse;font-size:15px;}
+.cmp th,.cmp td{padding:16px 20px;text-align:left;border-bottom:1px solid var(--border);vertical-align:top;}
+.cmp tbody tr:last-child td{border-bottom:0;}
+.cmp thead th{font-size:13px;font-weight:800;letter-spacing:.2px;color:var(--muted);background:rgba(255,255,255,.03);white-space:nowrap;padding-top:18px;padding-bottom:18px;}
+.cmp thead th.cmp-us{background:rgba(47,111,237,.14);color:var(--white);font-size:17px;letter-spacing:-.3px;}
+.cmp thead th.cmp-us i{font-style:italic;color:var(--accent2);}
+.cmp td.cmp-lab{width:29%;}
+.cmp td.cmp-lab b{display:block;font-size:15px;font-weight:700;color:var(--white);line-height:1.35;}
+.cmp td.cmp-lab small{display:block;margin-top:4px;font-size:13px;line-height:1.5;color:var(--muted);}
+.cmp td.cmp-us{background:rgba(47,111,237,.07);color:rgba(255,255,255,.9);font-weight:500;width:38%;}
+.cmp td.cmp-th{color:rgba(255,255,255,.55);}
+.cmp .cmp-c{display:flex;align-items:flex-start;gap:11px;}
+.cmp .cmp-c .t{flex:1;min-width:0;line-height:1.55;}
+.cmp .ck,.cmp .no,.cmp .so{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;
+  margin-top:2px;font-size:12px;font-weight:900;line-height:1;flex-shrink:0;}
+.cmp .ck{background:rgba(74,222,128,.16);color:#4ADE80;}
+.cmp .no{background:rgba(248,113,113,.14);color:#F87171;font-size:14px;}
+.cmp .so{background:rgba(251,191,36,.14);color:#FBBF24;font-size:13px;}
+.cmp tbody tr:hover td{background:rgba(255,255,255,.02);}
+.cmp tbody tr:hover td.cmp-us{background:rgba(47,111,237,.11);}
+.cmp-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 24px;padding:20px 24px;
+  border-top:1px solid var(--border);background:rgba(255,255,255,.02);}
+.cmp-foot p{margin:0;font-size:14px;line-height:1.6;color:var(--muted);max-width:60ch;}
+.cmp-foot p a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
+.cmp-legend{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;margin:0 auto 16px;font-size:13px;color:var(--muted);max-width:1000px;}
+.cmp-legend span{display:inline-flex;align-items:center;gap:7px;}
+.cmp-legend .ck,.cmp-legend .no,.cmp-legend .so{margin:0;}
+@media(max-width:760px){
+  .cmp table,.cmp thead,.cmp tbody,.cmp tr,.cmp td{display:block;}
+  .cmp thead{position:absolute;left:-9999px;}
+  .cmp tr{border-bottom:1px solid var(--border);padding:16px 18px 18px;}
+  .cmp tbody tr:last-child{border-bottom:0;}
+  .cmp td,.cmp td.cmp-lab,.cmp td.cmp-us,.cmp td.cmp-th{padding:0;border-bottom:0;width:auto;box-sizing:border-box;}
+  .cmp td.cmp-lab{margin-bottom:12px;}
+  .cmp td.cmp-us,.cmp td.cmp-th{position:relative;padding:12px 14px 12px 14px;border-radius:12px;font-size:14px;line-height:1.5;}
+  .cmp td.cmp-us{background:rgba(47,111,237,.1);border:1px solid rgba(47,111,237,.3);}
+  .cmp td.cmp-th{margin-top:8px;background:rgba(255,255,255,.025);border:1px solid var(--border);}
+  .cmp td.cmp-us::before,.cmp td.cmp-th::before{display:block;font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;margin-bottom:6px;}
+  .cmp td.cmp-us::before{content:'Link2Leads';color:var(--accent2);}
+  .cmp td.cmp-th::before{content:'Andere bureaus';color:var(--muted);}
+  .cmp tbody tr:hover td{background:inherit;}
+  .cmp tbody tr:hover td.cmp-us{background:rgba(47,111,237,.1);}
+  .cmp-foot{padding:18px;}
+}
+
 /* ═══════════ REVIEWS ═══════════ */
 .reviews-section { padding:120px 0; position:relative; }
 .reviews-section::before { display:none; }
@@ -1857,6 +1930,19 @@ footer.l2f{margin-bottom:0 !important;}
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Rafael"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Topservice. Ik ben de hele dag druk met opvolgen, en dat is precies de bedoeling van de samenwerking. Sterke copy, echt verstand van e-mailmarketing en dat zie je direct terug in de resultaten."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Marit"
           },
           "reviewRating": {
@@ -1915,7 +2001,7 @@ footer.l2f{margin-bottom:0 !important;}
           {
             "@type": "Offer",
             "name": "Starter",
-            "description": "100 mails per dag, ongeveer 3.000 per maand. All-in: setup, warmup, domeinen, mailboxen en software inbegrepen.",
+            "description": "100 mails per dag, 3.000 per maand contractueel vastgelegd. All-in: setup, warmup, domeinen, mailboxen en software inbegrepen.",
             "priceCurrency": "EUR",
             "price": "995",
             "priceSpecification": {
@@ -1941,7 +2027,7 @@ footer.l2f{margin-bottom:0 !important;}
           {
             "@type": "Offer",
             "name": "Growth",
-            "description": "250 mails per dag, ongeveer 7.500 per maand. All-in.",
+            "description": "250 mails per dag, 7.500 per maand contractueel vastgelegd. All-in.",
             "priceCurrency": "EUR",
             "price": "1295",
             "priceSpecification": {
@@ -1967,7 +2053,7 @@ footer.l2f{margin-bottom:0 !important;}
           {
             "@type": "Offer",
             "name": "Scale",
-            "description": "500 mails per dag, ongeveer 15.000 per maand. All-in, meerdere segmenten mogelijk.",
+            "description": "500 mails per dag, 15.000 per maand contractueel vastgelegd. All-in, meerdere segmenten mogelijk.",
             "priceCurrency": "EUR",
             "price": "1695",
             "priceSpecification": {
@@ -1993,7 +2079,7 @@ footer.l2f{margin-bottom:0 !important;}
           {
             "@type": "Offer",
             "name": "Pro",
-            "description": "1.000 mails per dag, met een contractueel minimum van 30.000 verzonden mails per maand en een inhaalregeling.",
+            "description": "1.000 mails per dag, contractueel 30.000 verzonden mails per maand, vastgelegd in het contract.",
             "priceCurrency": "EUR",
             "price": "1995",
             "priceSpecification": {
@@ -2156,7 +2242,7 @@ footer.l2f{margin-bottom:0 !important;}
           "name": "Welk verzendvolume garandeert Link2Leads?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Op het Pro-pakket staat een contractueel minimum van 30.000 verzonden mails per maand, zeven dagen per week, en naar rato op de andere pakketten. Volume dat door een technische oorzaak uitvalt, wordt de dagen erna ingehaald. De klant krijgt maandelijks het werkelijke aantal verzonden mails te zien."
+            "text": "Op elk pakket staat het maandvolume contractueel vast: 3.000 (Starter), 7.500 (Growth), 15.000 (Scale) of 30.000 (Pro) verzonden mails per maand, zeven dagen per week. De klant krijgt maandelijks het werkelijke aantal verzonden mails te zien."
           }
         },
         {
@@ -2447,12 +2533,12 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
 <nav aria-label="Hoofdmenu" class="l2n">
 <div class="l2n-inner">
 <a aria-label="Link2Leads, naar de homepage" class="l2n-logo" href="/"><span class="l2b">Link<i>2</i>Leads</span></a>
-<ul class="l2n-links"><li><a href="#zowerkthet">Zo werkt het</a></li><li><a href="#resultaten">Resultaten</a></li><li><a href="#pakketten">Pakketten</a></li><li><a href="/leads">Leads kopen</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li></ul>
+<ul class="l2n-links"><li><a href="#zowerkthet">Zo werkt het</a></li><li><a href="#resultaten">Resultaten</a></li><li><a href="#pakketten">Pakketten</a></li><li><a href="#vergelijk">Vergelijk</a></li><li><a href="/leads">Leads kopen</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li></ul>
 <a class="l2n-cta" href="/book">Gratis fitcheck</a>
 <button aria-controls="l2nMenu" aria-expanded="false" aria-label="Menu openen" class="l2n-burger" id="l2nBurger" type="button"><span></span><span></span><span></span></button>
 </div>
 </nav>
-<div class="l2n-menu" id="l2nMenu"><a href="#zowerkthet" onclick="l2nClose()">Zo werkt het</a><a href="#resultaten" onclick="l2nClose()">Resultaten</a><a href="#pakketten" onclick="l2nClose()">Pakketten</a><a href="/leads" onclick="l2nClose()">Leads kopen</a><a href="#reviews" onclick="l2nClose()">Reviews</a><a href="#contact" onclick="l2nClose()">Contact</a><a class="l2n-mcta" href="/book" onclick="l2nClose()">Doe de gratis fitcheck</a></div>
+<div class="l2n-menu" id="l2nMenu"><a href="#zowerkthet" onclick="l2nClose()">Zo werkt het</a><a href="#resultaten" onclick="l2nClose()">Resultaten</a><a href="#pakketten" onclick="l2nClose()">Pakketten</a><a href="#vergelijk" onclick="l2nClose()">Vergelijk</a><a href="/leads" onclick="l2nClose()">Leads kopen</a><a href="#reviews" onclick="l2nClose()">Reviews</a><a href="#contact" onclick="l2nClose()">Contact</a><a class="l2n-mcta" href="/book" onclick="l2nClose()">Doe de gratis fitcheck</a></div>
 <script>
 (function(){
   var nav=document.querySelector('nav.l2n'), b=document.getElementById('l2nBurger'), m=document.getElementById('l2nMenu');
@@ -2859,6 +2945,15 @@ Bel ons: 085 080 5381
 </div>
 </div>
 <p class="steps4-note reveal"><strong>Standaard</strong> positieve reacties in je mailbox. <strong>Met Full Service</strong> ook de afspraak in je agenda.</p>
+<a class="rv-mini reveal " href="#reviews" aria-label="Review van Micah, 5 sterren, lees alle reviews">
+<img loading="lazy" decoding="async" width="42" height="42" alt="MIJU-marketing" src="/assets/img/logos/miju-marketing-b202cb1e.jpg" class="rv-av"/>
+<span class="rv-body">
+<span class="rv-top"><span class="rv-stars" aria-hidden="true">★★★★★</span><span class="rv-score">5,0</span><svg fill="none" height="13" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg></span>
+<span class="rv-q">&ldquo;Snel opgezet. Na 15 dagen stroomden de positieve reacties al binnen.&rdquo;</span>
+<span class="rv-who">Micah<span class="rv-co"> &middot; MIJU-marketing</span></span>
+</span>
+<span class="rv-go" aria-hidden="true">Alle reviews →</span>
+</a>
 </div>
 </section>
 <!-- CASE STUDY -->
@@ -3120,7 +3215,7 @@ Bel ons: 085 080 5381
 <div class="pricing-inner">
 <div class="pricing-header reveal">
 <h2 class="big-h">Wat het kost, en<br/><span class="blue">wat je daarvoor krijgt.</span></h2>
-<p class="big-sub">Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar. Vergelijk pakketten op mails per maand: wij versturen zeven dagen per week.</p>
+<p class="big-sub">Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar. Wij versturen zeven dagen per week. <a href="#vergelijk" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">Vergelijk ons met andere bureaus →</a></p>
 </div>
 <div class="pricing-grid">
 <div class="p-card reveal">
@@ -3185,6 +3280,15 @@ Bel ons: 085 080 5381
 <a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
 </div>
+<a class="rv-mini reveal rv-in-price " href="#reviews" aria-label="Review van Dick, 5 sterren, lees alle reviews">
+<img loading="lazy" decoding="async" width="42" height="42" alt="Remorec" src="/assets/img/logos/remorec-4ad61e9f.jpg" class="rv-av"/>
+<span class="rv-body">
+<span class="rv-top"><span class="rv-stars" aria-hidden="true">★★★★★</span><span class="rv-score">5,0</span><svg fill="none" height="13" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg></span>
+<span class="rv-q">&ldquo;Bij elke call weet ik dat het een gekwalificeerde lead is. 100% aanrader.&rdquo;</span>
+<span class="rv-who">Dick<span class="rv-co"> &middot; Remorec</span></span>
+</span>
+<span class="rv-go" aria-hidden="true">Alle reviews →</span>
+</a>
 <div class="cfg reveal" id="samenstellen">
 <style>
   .cfg{margin-top:34px;text-align:left;}
@@ -3497,8 +3601,8 @@ Bel ons: 085 080 5381
 <div class="pa-body">
 <div class="pa-stack">
 <div><div class="gt">Garantie op positieve reacties (Scale en Pro)</div><p>Voor Scale en Pro spreken we vooraf af hoeveel gekwalificeerde positieve reacties je minimaal ontvangt in drie campagnemaanden. Dat aantal staat in je contract.</p><p style="margin-top:8px;"><span>Niet gehaald? Dan draaien wij kosteloos door tot het afgesproken aantal is bereikt.</span> <span>Maximaal drie extra maanden. In die periode betaal je niets.</span> <span>Geen abonnements-, mailbox-, domein- of datakosten.</span></p><p style="margin-top:8px;">Voor de start berekenen we op basis van je doelgroep, aanbod en marktgrootte een realistisch minimum. Dat aantal spreken we samen af en leggen we vast in het contract. De garantie geldt voor gekwalificeerde positieve reacties, niet voor afspraken, omzet of betalende klanten. <a href="/algemene-voorwaarden" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">Bekijk de volledige voorwaarden</a>.</p></div>
-<div><div class="gt">Volumegarantie</div><p>Minimaal 30.000 verzonden mails per maand op Pro, naar rato op de andere pakketten. Valt er een dag uit, dan halen we dat in.</p></div>
-<div><div class="gt">Setupgarantie van 14 dagen</div><p>Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken na akkoord klaar, zodat de campagne in week 3 start. Loopt het uit door iets aan onze kant, dan schuift je facturatie mee.</p></div>
+<div><div class="gt">Volumegarantie</div><p>Het maandvolume van je pakket staat in je contract: 3.000, 7.500, 15.000 of 30.000 verzonden mails. Elke maand zie je het werkelijke aantal verzonden mails.</p></div>
+<div><div class="gt">Setupgarantie van 14 dagen</div><p>Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken na akkoord klaar, zodat de campagne in week 3 start.</p></div>
 <div><div class="gt">Fitgarantie</div><p>Past je doelgroep of aanbod niet bij koude e-mail, dan zeggen we dat voordat je tekent.</p></div>
 <div><div class="gt">Wat van jou blijft als je stopt</div><p>De teksten die we voor je schreven mag je blijven gebruiken, en de contactgegevens en reacties uit jouw campagne krijg je in een gangbaar bestandsformaat mee. Alleen de verzendomgeving en onze werkwijze blijven van ons.</p></div>
 <div><div class="gt">Waarom drie maanden minimaal</div><p>De eerste twee weken zijn warmup en nieuwe copy laten we drie weken draaien voordat we bijsturen. Korter dan drie maanden beoordeel je iets dat nog niet af is.</p></div>
@@ -3540,7 +3644,7 @@ Bel ons: 085 080 5381
 </tbody>
 </table>
 </div>
-<p class="wknd-foot">De rechterkolom is hetzelfde maandbedrag, gedeeld door het aantal mails dat er bij 22 verzenddagen uitgaat. Op Pro staat het minimum van 30.000 verzonden mails per maand in je contract.</p>
+<p class="wknd-foot">De rechterkolom is hetzelfde maandbedrag, gedeeld door het aantal mails dat er bij 22 verzenddagen uitgaat. Het maandvolume van je pakket staat in je contract.</p>
 </div>
 </details>
 
@@ -3553,6 +3657,50 @@ Bel ons: 085 080 5381
   if(location.hash==='#garantie'){openGar();}
 })();
 </script>
+<!-- VERGELIJKING -->
+<section class="cmp-section cmp" id="vergelijk">
+<div class="cmp-head reveal">
+  <h2 class="big-h">Vergelijkbaar met <span class="blue">andere bureaus?</span></h2>
+  <p class="big-sub">Leg ons gerust naast een ander bureau. Dit is wat je bij ons standaard krijgt en wat je elders vaak mist of apart moet regelen.</p>
+</div>
+<div class="cmp-legend reveal">
+  <span><span class="ck">&#10003;</span> Bij ons inbegrepen of erbij te nemen</span>
+  <span><span class="so">&plusmn;</span> Elders soms, vaak beperkt of tegen meerprijs</span>
+  <span><span class="no">&times;</span> Elders meestal niet</span>
+</div>
+<div class="cmp-wrap reveal">
+<div class="cmp-tw">
+<table>
+<thead><tr><th>Waar je op let</th><th class="cmp-us">Link<i>2</i>Leads</th><th>Andere bureaus</th></tr></thead>
+<tbody>
+<tr><td class="cmp-lab"><b>Volume</b><small>Hoeveel bedrijven je bereikt en of dat vastligt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t">Zeven dagen per week, 30 verzenddagen per maand. Van 3.000 mails per maand op Starter tot 30.000 op Pro, en dat aantal staat in je contract.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t">Meestal alleen werkdagen, lager volume op het instappakket en zelden vastgelegd.</span></span></td></tr>
+<tr><td class="cmp-lab"><b>Personalisatie per prospect</b><small>De mail gaat over het bedrijf zelf.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t">Een openingszin op echte informatie over het bedrijf en een eigen pagina op jouw domein, per prospect. Op elk pakket erbij te nemen.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t">Voornaam en bedrijfsnaam invullen.</span></span></td></tr>
+<tr><td class="cmp-lab"><b>Koopsignalen en segmentatie</b><small>Wanneer en met welke insteek iemand gemaild wordt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t">We mailen op een aanleiding, zoals een vacature, een nieuwe vestiging of een verhuizing, en per segment met een eigen insteek.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t">Eén tekst voor de hele lijst, op een willekeurige dinsdag.</span></span></td></tr>
+<tr><td class="cmp-lab"><b>Reacties filteren</b><small>Wat er in jouw mailbox belandt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t">Elke reactie wordt met de hand gelezen. Alleen wat een gesprek waard is komt bij jou, met naam, functie en contactgegevens.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t">Automatisch gelabeld, of alles wordt doorgestuurd.</span></span></td></tr>
+<tr><td class="cmp-lab"><b>Opvolging</b><small>Wie de positieve reactie beantwoordt en de afspraak inplant.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t">Zelf, of wij handelen de reactie af en zetten de afspraak direct in jouw agenda (Full Service). Meer opvolgcapaciteit nodig? Via ons zusterbedrijf Link2Talent zetten we remote setters en closers op jouw reacties.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t">Alleen doorsturen.</span></span></td></tr>
+<tr><td class="cmp-lab"><b>LinkedIn erbij</b><small>Dezelfde bedrijven ook via LinkedIn.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t">Connectieverzoek en eerste bericht vanuit jouw profiel, naar dezelfde bedrijven die je mailt.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t">Apart bureau of apart traject.</span></span></td></tr>
+<tr><td class="cmp-lab"><b>Garantie</b><small>Wat er over het resultaat is afgesproken.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t">Het aantal positieve reacties staat in je contract (Scale en Pro).</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t">Zelden, of alleen een inspanningsverplichting.</span></span></td></tr>
+<tr><td class="cmp-lab"><b>Setup</b><small>Wat de start kost en hoe lang die duurt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t">Geen setupfee en geen aparte toolingrekening. Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken klaar.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t">Vaak opstartkosten, en vier tot zes weken tot de eerste mail.</span></span></td></tr>
+<tr><td class="cmp-lab"><b>Wat van jou blijft</b><small>Als je stopt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t">De teksten mag je blijven gebruiken. Contactgegevens en reacties uit jouw campagne krijg je mee in een gangbaar bestand.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t">Vaak blijft alles bij het bureau.</span></span></td></tr>
+<tr><td class="cmp-lab"><b>Alleen de leadlijst</b><small>Als je (nog) geen campagne wilt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t">Los te koop vanaf 500 leads, en eerst 10 gratis om te proberen.</span></span></td><td class="cmp-th"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t">Alleen als onderdeel van een campagne.</span></span></td></tr>
+</tbody>
+</table>
+</div>
+<div class="cmp-foot">
+  <p>Vergelijk je ons met een specifiek bureau en staat er iets niet bij? <a href="#contact">Mail het ons</a>, dan zetten we het er eerlijk naast. Past cold e-mail niet bij je markt, dan zeggen we dat ook.</p>
+  <a class="btn-solid" href="/book" target="_blank" style="display:inline-flex;white-space:nowrap;">Doe de gratis fitcheck</a>
+</div>
+</div>
+<a class="rv-mini reveal rv-wide " href="#reviews" aria-label="Review van Arnold, 5 sterren, lees alle reviews">
+<img loading="lazy" decoding="async" width="42" height="42" alt="Rollecate" src="/assets/img/logos/rollecate-054d0755.jpg" class="rv-av"/>
+<span class="rv-body">
+<span class="rv-top"><span class="rv-stars" aria-hidden="true">★★★★★</span><span class="rv-score">5,0</span><svg fill="none" height="13" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg></span>
+<span class="rv-q">&ldquo;Je weet als klant precies waar je aan toe bent. Ze schakelen snel als het nodig is.&rdquo;</span>
+<span class="rv-who">Arnold<span class="rv-co"> &middot; Rollecate</span></span>
+</span>
+<span class="rv-go" aria-hidden="true">Alle reviews →</span>
+</a>
+</section>
 <!-- KOOPSIGNALEN -->
 <section class="ksig-section" id="koopsignalen">
 <style>
@@ -3581,6 +3729,15 @@ Bel ons: 085 080 5381
   </div>
   <p class="ksig-foot">Welke aanleiding bij jouw aanbod past, bepalen we in de onboarding. Past er geen enkel signaal bij, dan zeggen we dat en werken we met een scherper afgebakende doelgroep.</p>
 </div>
+<a class="rv-mini reveal " href="#reviews" aria-label="Review van Rafael, 5 sterren, lees alle reviews">
+<img loading="lazy" decoding="async" width="42" height="42" alt="CrudenVision" src="/assets/img/logos/crudenvision-0b21aab9.jpg" class="rv-av"/>
+<span class="rv-body">
+<span class="rv-top"><span class="rv-stars" aria-hidden="true">★★★★★</span><span class="rv-score">5,0</span><svg fill="none" height="13" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg></span>
+<span class="rv-q">&ldquo;Ik ben de hele dag druk met opvolgen, en dat is precies de bedoeling.&rdquo;</span>
+<span class="rv-who">Rafael<span class="rv-co"> &middot; CrudenVision</span></span>
+</span>
+<span class="rv-go" aria-hidden="true">Alle reviews →</span>
+</a>
 </section>
 <!-- LEADS LOSAF -->
 <section class="l2leads-band" id="leadslos">
@@ -3743,6 +3900,15 @@ Bel ons: 085 080 5381
 <p>Nee, en dat is bewust. Alles wat je moet zien komt direct binnen in je eigen mailbox, waar het hoort. Standaard zijn dat alle positieve reacties, met naam, functie, organisatie en contactgegevens erbij. Wil je liever elke reactie zien, ook de afwijzingen en afwezigheidsmeldingen, dan sturen we alles live door. Daarnaast krijg je elke week een rapportage met wat er is verstuurd en wat eruit kwam. Geen inlog op een portaal van een derde partij, geen dashboard dat je moet leren lezen.</p>
 </details>
 </div>
+<a class="rv-mini reveal " href="#reviews" aria-label="Review van Marit, 5 sterren, lees alle reviews">
+<span class="rv-av rv-av-ini" aria-hidden="true">M</span>
+<span class="rv-body">
+<span class="rv-top"><span class="rv-stars" aria-hidden="true">★★★★★</span><span class="rv-score">5,0</span><svg fill="none" height="13" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg></span>
+<span class="rv-q">&ldquo;Duidelijke communicatie en eerlijke verwachtingen. Altijd goed te bereiken.&rdquo;</span>
+<span class="rv-who">Marit</span>
+</span>
+<span class="rv-go" aria-hidden="true">Alle reviews →</span>
+</a>
 <div class="reveal" style="text-align:center;margin-top:36px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
 <a class="btn-solid" href="/book" style="display:inline-flex;" target="_blank">Doe de gratis fitcheck</a>
 <a class="btn-ghost-l2l" href="#contact">Of stel je vraag per mail</a>

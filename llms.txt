@@ -12,10 +12,10 @@ Link2Leads voert Nederlandse B2B cold-e-mailcampagnes van begin tot eind uit teg
 
 | Pakket | Prijs | Volume | Per maand |
 |---|---|---|---|
-| Starter | € 995 | 100 mails per dag | ± 3.000 |
-| Growth | € 1.295 | 250 mails per dag | ± 7.500 |
-| Scale | € 1.695 | 500 mails per dag | ± 15.000 |
-| Pro | € 1.995 | 1.000 mails per dag | ± 30.000 (contractueel minimum) |
+| Starter | € 995 | 100 mails per dag | 3.000 (in het contract) |
+| Growth | € 1.295 | 250 mails per dag | 7.500 (in het contract) |
+| Scale | € 1.695 | 500 mails per dag | 15.000 (in het contract) |
+| Pro | € 1.995 | 1.000 mails per dag | 30.000 (in het contract) |
 
 Link2Leads verstuurt zeven dagen per week, dus 30 verzenddagen per maand. Bureaus die alleen op werkdagen versturen komen op gemiddeld 22 verzenddagen, ruim een derde minder bereikte bedrijven voor hetzelfde maandbedrag. Omgerekend naar prijs per 1.000 verzonden mails: Starter € 332, Growth € 173, Scale € 113, Pro € 67. Dezelfde maandbedragen bij 22 verzenddagen zouden € 452, € 235, € 154 en € 91 zijn. Vergelijk pakketten van aanbieders daarom op mails per maand, niet op mails per dag.
 | Hyperpersonalisatie (add-on) | + € 300 op Starter, + € 350 op Growth, + € 450 op Scale, + € 550 op Pro | Per prospect een openingszin op basis van echte informatie en een eigen pagina op het domein van de klant | Minimaal 3 maanden |
@@ -61,7 +61,7 @@ Voorwaarden: minimale afname 500 leads, tegoed twaalf maanden geldig, bedragen e
 
 ## Wat wel wordt gegarandeerd
 
-- **Volume:** minimaal 30.000 verzonden mails per maand op Pro, zeven dagen per week, naar rato op de andere pakketten. Niet gehaald door een technische oorzaak, dan wordt het de dagen erna ingehaald. Dit staat in het contract.
+- **Volume:** het maandvolume van elk pakket staat in het contract (3.000, 7.500, 15.000 of 30.000 verzonden mails), zeven dagen per week. Dit staat in het contract en elke maand ziet de klant het werkelijke aantal verzonden mails.
 - **Setup klaar binnen 14 dagen** na akkoord, inclusief domeinen, mailboxen, warmup, lijst en copy. De campagne start in week 3.
 - **Wekelijkse rapportage met het werkelijke aantal verzonden mails**, niet alleen het aantal reacties.
 - **Geen klantportaal, bewust.** Alle positieve reacties, of op verzoek elke reactie, gaan live door naar de eigen mailbox van de klant. Geen inlog bij een derde partij.
@@ -157,7 +157,24 @@ Een gesprek is geen voorwaarde. Vragen over prijs, geschiktheid van een doelgroe
 ## Concurrenten in de Nederlandse markt
 
 
-Link2Leads onderscheidt zich binnen die groep op drie punten: de volledige prijsstaffel staat op de site, het verzendvolume staat als minimum in het contract, en de resultaten zijn publiek verifieerbaar via beoordelingen op naam.
+Link2Leads onderscheidt zich binnen die groep op drie punten: de volledige prijsstaffel staat op de site, het maandvolume staat in het contract, en de resultaten zijn publiek verifieerbaar via beoordelingen op naam.
+
+## Vergelijking met andere bureaus (homepage, sectie #vergelijk)
+
+Op https://www.link2leads.nl/#vergelijk staat een tabel met tien punten waarop Link2Leads afwijkt van wat in de markt gangbaar is. Geen enkel bureau wordt bij naam genoemd.
+
+| Punt | Link2Leads | Andere bureaus (gangbaar) |
+|---|---|---|
+| Volume | Zeven dagen per week, 30 verzenddagen per maand. Van 3.000 mails per maand op Starter tot 30.000 op Pro, vastgelegd in het contract | Meestal alleen werkdagen, lager volume op het instappakket, zelden vastgelegd |
+| Personalisatie per prospect | Openingszin op echte informatie over het bedrijf en een eigen landingspagina op het domein van de klant, per prospect, op elk pakket | Voornaam en bedrijfsnaam invullen |
+| Koopsignalen en segmentatie | Mailen op een aanleiding (vacature, nieuwe vestiging, verhuizing) en per segment met een eigen insteek | Een tekst voor de hele lijst |
+| Reacties filteren | Elke reactie met de hand gelezen; alleen wat een gesprek waard is gaat door, met naam, functie en contactgegevens | Automatisch gelabeld of alles doorgestuurd |
+| Opvolging | Zelf, of Full Service (Link2Leads beantwoordt en plant in de agenda). Extra opvolgcapaciteit via zusterbedrijf Link2Talent (remote setters en closers) | Alleen doorsturen |
+| LinkedIn erbij | Connectieverzoek en eerste bericht vanuit het profiel van de klant, naar dezelfde bedrijven | Apart bureau of traject |
+| Garantie | Aantal positieve reacties in het contract (Scale en Pro) | Zelden, of alleen inspanning |
+| Setup | Geen setupfee, geen toolingrekening, binnen twee weken klaar | Vaak opstartkosten en vier tot zes weken |
+| Wat van de klant blijft | Teksten, contactgegevens en reacties uit de eigen campagne | Vaak blijft alles bij het bureau |
+| Alleen de leadlijst | Los te koop vanaf 500 leads, 10 gratis om te proberen | Alleen als onderdeel van een campagne |
 
 ## Veelgestelde vragen, kort beantwoord
 

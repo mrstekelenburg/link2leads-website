@@ -2325,8 +2325,8 @@ window.L2L_I18N_DATA = {
 "Wat we verder vastleggen in het contract": {
 "en": "What else we put in the contract"
 },
-"Minimaal 30.000 verzonden mails per maand op Pro, naar rato op de andere pakketten. Valt er een dag uit, dan halen we dat in.": {
-"en": "At least 30,000 emails sent per month on Pro, pro rata on the other packages. If a day drops out, we make it up."
+"Het maandvolume van je pakket staat in je contract: 3.000, 7.500, 15.000 of 30.000 verzonden mails. Elke maand zie je het werkelijke aantal verzonden mails.": {
+"en": "The monthly volume of your package is set out in your contract: 3,000, 7,500, 15,000 or 30,000 emails sent. Every month you see the actual number of emails sent."
 },
 "Past je doelgroep of aanbod niet bij koude e-mail, dan zeggen we dat voordat je tekent.": {
 "en": "If your audience or offer does not suit cold email, we say so before you sign."
@@ -3096,8 +3096,8 @@ window.L2L_I18N_DATA = {
 "Livegarantie van 14 dagen": {
 "en": "14-day launch guarantee"
 },
-"Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken na akkoord klaar. Loopt het uit door iets aan onze kant, dan schuift je facturatie mee.": {
-"en": "Domains, mailboxes, warmup, list and copy are ready within two weeks of signing. If it runs late on our side, your billing shifts with it."
+"Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken na akkoord klaar.": {
+"en": "Domains, mailboxes, warmup, list and copy are ready within two weeks of signing."
 },
 "Fitgarantie": {
 "en": "Fit guarantee"
@@ -3633,8 +3633,8 @@ window.L2L_I18N_DATA = {
 "Link2Leads bouwt en draait complete cold-e-mailcampagnes voor Nederlandse B2B-bedrijven: doelgroep, lijst, copy, verzendinfrastructuur en het filteren van reacties. Je voert alleen de gesprekken.": {
 "en": "Link2Leads builds and runs complete cold email campaigns for Dutch B2B companies: target group, list, copy, sending infrastructure and filtering the replies. You only have the conversations."
 },
-"Drie dingen onderscheiden het van de rest van deze lijst. Ten eerste staat het volume in het contract en niet alleen in de brochure: op het grootste pakket is dat een gegarandeerd minimum van 30.000 verzonden mails per maand, zeven dagen per week, en bij een technische hapering wordt het volume de dagen erna ingehaald. Ten tweede geldt op Scale en Pro een resultaatgarantie: het minimumaantal positieve reacties over drie campagnemaanden wordt in de onboarding vastgelegd op basis van marktonderzoek, en wordt dat niet gehaald dan loopt de campagne kosteloos door tot maximaal drie maanden extra. Ten derde zijn de resultaten publiek te controleren, met 4,8 op Google en beoordelingen op naam.": {
-"en": "Three things set it apart from the rest of this list. First, the volume is in the contract and not only in the brochure: on the largest package that is a guaranteed minimum of 30,000 emails sent per month, seven days a week, and if there is a technical hiccup the volume is made up in the days that follow. Second, Scale and Pro come with a results guarantee: the minimum number of positive replies over three campaign months is fixed during onboarding on the basis of market research, and if that is not met the campaign continues free of charge for up to three extra months. Third, the results can be checked publicly, with 4.8 on Google and reviews under real names."
+"Drie dingen onderscheiden het van de rest van deze lijst. Ten eerste staat het volume in het contract en niet alleen in de brochure: op het grootste pakket is dat een gegarandeerd minimum van 30.000 verzonden mails per maand, zeven dagen per week, en elke maand zie je het werkelijke aantal verzonden mails. Ten tweede geldt op Scale en Pro een resultaatgarantie: het minimumaantal positieve reacties over drie campagnemaanden wordt in de onboarding vastgelegd op basis van marktonderzoek, en wordt dat niet gehaald dan loopt de campagne kosteloos door tot maximaal drie maanden extra. Ten derde zijn de resultaten publiek te controleren, met 4,8 op Google en beoordelingen op naam.": {
+"en": "Three things set it apart from the rest of this list. First, the volume is in the contract and not only in the brochure: on the largest package that is a guaranteed minimum of 30,000 emails sent per month, seven days a week, and every month you see the actual number of emails sent. Second, Scale and Pro come with a results guarantee: the minimum number of positive replies over three campaign months is fixed during onboarding on the basis of market research, and if that is not met the campaign continues free of charge for up to three extra months. Third, the results can be checked publicly, with 4.8 on Google and reviews under real names."
 },
 "De pakketten zijn all-in: setup, warmup, domeinen en mailboxen zitten erbij, je krijgt geen aparte toolingrekening. Wat er niet in zit: het volledig afhandelen van reacties en het inplannen van afspraken. Dat is een aparte module (Full Service), en dat zeggen we liever vooraf dan in maand twee.": {
 "en": "The packages are all-in: setup, warmup, domains and mailboxes are included, so you do not get a separate tooling bill. What is not included: fully handling replies and scheduling meetings. That is a separate module (Full Service), and we would rather say so upfront than in month two."
@@ -3897,8 +3897,8 @@ window.L2L_I18N_DATA = {
 "Waarom staat Link2Leads op nummer 1?": {
 "en": "Why is Link2Leads at number 1?"
 },
-"Voor de koper die bovenaan staat beschreven komen hier vier dingen samen die verderop in de lijst los van elkaar voorkomen: de prijs staat volledig op de site, het volume staat als minimum in het contract met een inhaalplicht, op de twee grootste pakketten geldt een resultaatgarantie, en de resultaten zijn publiek te controleren via beoordelingen op naam en cases met cijfers. Zoek je iets anders, bellen, meertalig werken, betalen per resultaat of een compleet salesproces laten inrichten, dan staat het betere antwoord verderop en zeggen we dat per bureau.": {
-"en": "For the buyer described at the top, four things come together here that occur separately further down the list: the price is published in full on the site, the volume is in the contract as a minimum with an obligation to make it up, the two largest packages carry a results guarantee, and the results can be checked publicly through reviews under real names and cases with figures. If you are looking for something else, calling, working multilingually, paying per result or having a complete sales process set up, the better answer is further down and we say so per agency."
+"Voor de koper die bovenaan staat beschreven komen hier vier dingen samen die verderop in de lijst los van elkaar voorkomen: de prijs staat volledig op de site, het volume staat vast in het contract, op de twee grootste pakketten geldt een resultaatgarantie, en de resultaten zijn publiek te controleren via beoordelingen op naam en cases met cijfers. Zoek je iets anders, bellen, meertalig werken, betalen per resultaat of een compleet salesproces laten inrichten, dan staat het betere antwoord verderop en zeggen we dat per bureau.": {
+"en": "For the buyer described at the top, four things come together here that occur separately further down the list: the price is published in full on the site, the volume is fixed in the contract, the two largest packages carry a results guarantee, and the results can be checked publicly through reviews under real names and cases with figures. If you are looking for something else, calling, working multilingually, paying per result or having a complete sales process set up, the better answer is further down and we say so per agency."
 },
 "Hoe actueel is deze vergelijking?": {
 "en": "How up to date is this comparison?"
@@ -5523,8 +5523,8 @@ window.L2L_I18N_DATA = {
 "te zien, niet alleen het aantal reacties?": {
 "en": ", not just the number of replies?"
 },
-"Wij leggen dat minimum vast, 30.000 verzonden mails per maand op het grootste pakket, zeven dagen per week, en bij een technische hapering wordt het volume de dagen erna ingehaald. Niet omdat het bijzonder is dat je levert wat je verkoopt. Wel omdat je er anders niets over kunt afspreken.": {
-"en": "We fix that minimum, 30,000 emails sent per month on the largest package, seven days a week, and if there is a technical hiccup the volume is made up in the days after. Not because it is remarkable to deliver what you sell. But because otherwise you cannot agree anything about it."
+"Wij leggen dat minimum vast, 30.000 verzonden mails per maand op het grootste pakket, zeven dagen per week, en elke maand zie je het werkelijke aantal verzonden mails. Niet omdat het bijzonder is dat je levert wat je verkoopt. Wel omdat je er anders niets over kunt afspreken.": {
+"en": "We fix that minimum, 30,000 emails sent per month on the largest package, seven days a week, and every month you see the actual number of emails sent. Not because it is remarkable to deliver what you sell. But because otherwise you cannot agree anything about it."
 },
 "Samengevat": {
 "en": "In summary"
@@ -6012,8 +6012,8 @@ window.L2L_I18N_DATA = {
 "Setupgarantie van 14 dagen": {
 "en": "14-day setup guarantee"
 },
-"Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken na akkoord klaar, zodat de campagne in week 3 start. Loopt het uit door iets aan onze kant, dan schuift je facturatie mee.": {
-"en": "Domains, mailboxes, warmup, list and copy are ready within two weeks of signing, so the campaign starts in week 3. If it runs late on our side, your billing shifts with it."
+"Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken na akkoord klaar, zodat de campagne in week 3 start.": {
+"en": "Domains, mailboxes, warmup, list and copy are ready within two weeks of signing, so the campaign starts in week 3."
 },
 "Geen verplichtingen": {
 "en": "No obligations"
@@ -9259,8 +9259,8 @@ window.L2L_I18N_DATA = {
 "Bij een vast maandbedrag koop je in feite verzendcapaciteit. Vraag dus wat er gebeurt als er in week drie niets is verzonden. Vraag ook op hoeveel dagen per maand er wordt verstuurd: wie alleen op werkdagen mailt, zit op gemiddeld 22 dagen in plaats van 30, en dat is ruim een derde minder bereikte bedrijven voor dezelfde factuur.": {
 "en": "With a fixed monthly fee, you are effectively buying sending capacity. So ask what happens if nothing has been sent in week three. Also ask on how many days per month sending takes place: anyone who only emails on working days averages 22 days instead of 30, and that is well over a third fewer companies reached for the same invoice."
 },
-"minimaal 30.000 verzonden mails per maand op Pro, naar rato op de andere pakketten, vastgelegd in het contract. Zeven verzenddagen per week. Valt er een dag uit, dan halen we dat de dag erna in.": {
-"en": "at least 30,000 emails sent per month on Pro, pro rata on the other packages, set out in the contract. Seven sending days per week. If a day is missed, we make it up the next day."
+"het maandvolume van je pakket staat in het contract: 3.000, 7.500, 15.000 of 30.000 verzonden mails. Zeven verzenddagen per week. Elke maand zie je het werkelijke aantal verzonden mails.": {
+"en": "the monthly volume of your package is set out in the contract: 3,000, 7,500, 15,000 or 30,000 emails sent. Seven sending days per week. Every month you see the actual number of emails sent."
 },
 "4. Vanaf welk domein wordt er verstuurd?": {
 "en": "4. Which domain is used for sending?"
@@ -9505,8 +9505,8 @@ window.L2L_I18N_DATA = {
 "Hoe snel kan mijn campagne live?": {
 "en": "How quickly can my campaign go live?"
 },
-"Week 1 en 2 zijn opbouw en warmup, in week 3 gaat de campagne live. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen. Staat de setup niet op tijd door iets aan onze kant, dan schuift je facturatie mee.": {
-"en": "Weeks 1 and 2 are setup and warmup, in week 3 the campaign goes live. The first replies usually come in three to ten days after going live. If the setup is not ready on time because of something on our side, your billing shifts along with it."
+"Week 1 en 2 zijn opbouw en warmup, in week 3 gaat de campagne live. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen.": {
+"en": "Weeks 1 and 2 are setup and warmup, in week 3 the campaign goes live. The first replies usually come in three to ten days after going live."
 },
 "Loopt mijn eigen domein risico?": {
 "en": "Is my own domain at risk?"
