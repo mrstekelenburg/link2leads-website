@@ -831,14 +831,14 @@ const PAKKET_LABEL=(function(){
     const PK={starter:['Starter',995,'100 mails per dag'],growth:['Growth',1295,'250 mails per dag'],scale:['Scale',1695,'500 mails per dag'],pro:['Pro',1995,'1.000 mails per dag']};
     const AO={hp:['Hyperpersonalisatie',{starter:300,growth:350,scale:450,pro:550}],fs:['Full Service',{scale:600,pro:800}]};
     const pk=q.get('pakket'); if(!pk||!PK[pk])return '';
-    let tot=PK[pk][1], parts=[PK[pk][0]+' ('+PK[pk][2]+')'];
-    (q.get('addons')||'').split(',').forEach(function(k){ if(AO[k]&&AO[k][1][pk]!=null){tot+=AO[k][1][pk];parts.push(AO[k][0]);} });
+    let tot=PK[pk][1], parts=[PK[pk][0]+' (<span>'+PK[pk][2]+'</span>)'];
+    (q.get('addons')||'').split(',').forEach(function(k){ if(AO[k]&&AO[k][1][pk]!=null){tot+=AO[k][1][pk];parts.push('<span>'+AO[k][0]+'</span>');} });
     const nf=function(n){return '\u20ac'+String(n).replace(/\B(?=(\d{3})+(?!\d))/g,'.');};
-    return parts.join(' + ')+' \u00b7 '+nf(tot)+' per maand';
+    return parts.join(' + ')+' \u00b7 '+nf(tot)+' <span>per maand</span>';
   }catch(e){return '';}
 })();
 if(PAKKET_LABEL){
-  const el=document.getElementById('pvPakket'); if(el){el.textContent='Samengesteld: '+PAKKET_LABEL;el.style.display='block';}
+  const el=document.getElementById('pvPakket'); if(el){el.innerHTML='<span>Samengesteld:</span> '+PAKKET_LABEL;el.style.display='block';}
 }
 
 async function book(){
@@ -964,7 +964,7 @@ function reset(){
 
 renderCal();renderSlots();
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=31"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=33"></script>
 <script src="/assets/tracking.js"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.

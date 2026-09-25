@@ -1047,17 +1047,17 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
   function render(){
     var n=parseInt(vol.value,10)||500;
     var base=tier(n), baseTotal=n*base, extra=0, opts=[], html='';
-    html+='<li><span>Basis, '+nf(n)+' leads</span><span>'+eur(baseTotal)+'</span></li>';
+    html+='<li><span><span>Basis,</span> '+nf(n)+' <span>leads</span></span><span>'+eur(baseTotal)+'</span></li>';
     enrs.forEach(function(c){
       if(!c.checked) return;
       var p=parseFloat(c.getAttribute('data-price')), name=c.getAttribute('data-name');
       extra+=p*n; opts.push(name);
-      html+='<li><span>'+name+', '+eur2(p)+' per lead</span><span>'+eur(p*n)+'</span></li>';
+      html+='<li><span><span>'+name+'</span>, '+eur2(p)+' <span>per lead</span></span><span>'+eur(p*n)+'</span></li>';
     });
     var total=baseTotal+extra;
     out.textContent=nf(n);
     tot.textContent=eur(total);
-    per.textContent=eur2(total/n)+' per lead, exclusief btw';
+    per.innerHTML=eur2(total/n)+' <span>per lead, exclusief btw</span>';
     rows.innerHTML=html;
     var sel=document.getElementById('lzSel');
     if(sel){
@@ -1068,9 +1068,9 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     presets.forEach(function(b){ b.classList.toggle('is-on', parseInt(b.getAttribute('data-vol'),10)===n); });
     state={vol:n,total:Math.round(total),perLead:total/n,opts:opts};
     if(echo){
-      echo.innerHTML='Je selectie: <strong>'+nf(n)+' leads</strong> voor <strong>'+eur(total)+'</strong> ('+eur2(total/n)+
-        ' per lead, exclusief btw). Verrijking: <strong>'+(opts.length?opts.join(', '):'geen')+'</strong>. '+
-        'Aanpassen kan <a href="#samenstellen" style="color:#5B8FF5;text-decoration:underline;">hierboven</a>.';
+      echo.innerHTML='<span>Je selectie:</span> <strong>'+nf(n)+' <span>leads</span></strong> <span>voor</span> <strong>'+eur(total)+'</strong> ('+eur2(total/n)+
+        ' <span>per lead, exclusief btw</span>). <span>Verrijking:</span> <strong>'+(opts.length?opts.map(function(o){return '<span>'+o+'</span>';}).join(', '):'<span>geen</span>')+'</strong>. '+
+        '<span>Aanpassen kan</span> <a href="#samenstellen" style="color:#5B8FF5;text-decoration:underline;">hierboven</a>.';
     }
   }
 
@@ -1151,7 +1151,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
 })();
 </script>
 <script src="/assets/tracking.js"></script>
-<script src="/assets/i18n/l2l-i18n.js?v=28"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=33"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
    Doet niets bij tabellen die gewoon passen. */
@@ -1250,7 +1250,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     var ex=n*per; return {n:n, ex:ex, inc:ex*(1+BTW)}; }
   function render(){
     var c=calc();
-    if(incl) incl.textContent=eur(c.inc)+' inclusief btw';
+    if(incl) incl.innerHTML=eur(c.inc)+' <span>inclusief btw</span>';
     var kan = c.ex>=MIN_DIRECT && c.ex<=MAX_DIRECT;
     if(payBtn){
       payBtn.textContent = 'Reken direct af';
@@ -1258,7 +1258,7 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
       payBtn.style.opacity = kan?'1':'.5';
     }
     if(note){
-      note.textContent = c.ex<MIN_DIRECT ? ('Direct afrekenen kan vanaf '+eur(MIN_DIRECT)+' exclusief btw. Vraag hieronder een telling aan.')
+      note.innerHTML = c.ex<MIN_DIRECT ? ('<span>Direct afrekenen kan vanaf</span> '+eur(MIN_DIRECT)+' <span>exclusief btw. Vraag hieronder een telling aan.</span>')
         : c.ex>MAX_DIRECT ? 'Bij dit bedrag doen we eerst een telling en sturen we een factuur.'
         : 'Je betaalt met iDEAL. Daarna bouwen wij het bestand en leveren binnen een werkdag.';
     }
@@ -1300,7 +1300,10 @@ input[type=range]#lzVol:focus-visible{box-shadow:0 0 0 3px rgba(47,111,237,.4);}
     var b=document.createElement('div');
     b.className='lz-msg ok';
     b.style.cssText='position:fixed;left:16px;right:16px;bottom:16px;z-index:99;max-width:620px;margin:0 auto;padding:16px 18px;';
-    b.textContent='Dank je. Zodra je betaling is verwerkt krijg je een bevestiging per mail, en wij leveren je bestand binnen een werkdag. Referentie '+ref+'.';
+    b.appendChild(document.createTextNode('Dank je. Zodra je betaling is verwerkt krijg je een bevestiging per mail, en wij leveren je bestand binnen een werkdag.'));
+    b.appendChild(document.createTextNode(' '));
+    var rs=document.createElement('span'); rs.textContent='Referentie'; b.appendChild(rs);
+    b.appendChild(document.createTextNode(' '+ref+'.'));
     document.body.appendChild(b);
     if(window.l2lTrack) l2lTrack('leads_checkout_returned',{ref:ref});
   }

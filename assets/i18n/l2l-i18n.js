@@ -14,7 +14,17 @@
   // De vertaaldata is een groot bestand. Nederlandse bezoekers hebben het
   // niet nodig, dus we laden het pas zodra er daadwerkelijk naar Engels of
   // Spaans wordt geschakeld. Dat scheelt elke NL-bezoeker een halve MB.
-  var DATA_URL = "/assets/i18n/l2l-i18n-data.js?v=31";
+  // De versie van het databestand volgt de versie waarmee dit script in de
+  // pagina staat (l2l-i18n.js?v=33 laadt l2l-i18n-data.js?v=33). Zo hoeft er
+  // per wijziging maar een nummer omhoog, in de HTML, en kan de browser nooit
+  // een nieuw script combineren met een oud, gecachet databestand.
+  var DATA_VERSION = "33";
+  try {
+    var selfSrc = (document.currentScript && document.currentScript.src) || "";
+    var vm = selfSrc.match(/[?&]v=([^&#]+)/);
+    if (vm) DATA_VERSION = vm[1];
+  } catch (e) {}
+  var DATA_URL = "/assets/i18n/l2l-i18n-data.js?v=" + DATA_VERSION;
   var dataPromise = null;
   function loadData() {
     if (window.L2L_I18N_DATA) { DATA = window.L2L_I18N_DATA; NORM = null; return Promise.resolve(); }

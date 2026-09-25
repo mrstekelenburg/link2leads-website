@@ -9959,5 +9959,184 @@ window.L2L_I18N_DATA = {
 },
 "Op elk pakket staat het maandvolume in je contract: 3.000, 7.500, 15.000 of 30.000 mails. Valt er een dag uit, dan halen we dat in.": {
 "en": "On every package the monthly volume is set out in your contract: 3,000, 7,500, 15,000 or 30,000 emails."
+},
+/* ── Ontbrekende sleutels na controle van alle 25 pagina's (25 sept 2026) ── */
+"\"Snel opgezet. Na 15 dagen stroomden de positieve reacties al binnen.\"": {
+"en": "“Set up fast. After 15 days the positive replies were already coming in.”"
+},
+"\"Bij elke call weet ik dat het een gekwalificeerde lead is. 100% aanrader.\"": {
+"en": "“On every call I know it is a qualified lead. 100% recommended.”"
+},
+"\"Je weet als klant precies waar je aan toe bent. Ze schakelen snel als het nodig is.\"": {
+"en": "“As a client you know exactly where you stand. They move fast when needed.”"
+},
+"\"Ik ben de hele dag druk met opvolgen, en dat is precies de bedoeling.\"": {
+"en": "“I am busy following up all day, and that is exactly the point.”"
+},
+"\"Duidelijke communicatie en eerlijke verwachtingen. Altijd goed te bereiken.\"": {
+"en": "“Clear communication and honest expectations. Always easy to reach.”"
+},
+"en": {
+"en": "and"
+},
+"of": {
+"en": "or"
+},
+"wk 1-2": {
+"en": "wk 1-2"
+},
+"WhatsApp: 085 080 5381": {
+"en": "WhatsApp: +31 85 080 5381"
+},
+"Zeven vragen die je een leadgeneratiebureau stelt voordat je tekent": {
+"en": "Seven questions to ask a lead generation agency before you sign"
+},
+"De zeven vragen die bepalen of een offerte klopt, waarom ze ertoe doen en hoe wij ze zelf beantwoorden. Plus vier antwoorden waarop je weg moet lopen.": {
+"en": "The seven questions that decide whether a quote adds up, why they matter and how we answer them ourselves. Plus four answers that should make you walk away."
+},
+"Sales uitbesteden: welk deel geef je weg en wat kost het?": {
+"en": "Outsourcing sales: which part do you hand over and what does it cost?"
+},
+"Drie manieren om sales uit te besteden, waarom no cure no pay in B2B tegenvalt, en de rekensom tegenover een eigen salesmedewerker.": {
+"en": "Three ways to outsource sales, why no cure no pay disappoints in B2B, and the maths against hiring your own salesperson."
+},
+"Leadgeneratie Amsterdam: B2B-afspraken via koude e-mail": {
+"en": "Lead generation Amsterdam: B2B meetings through cold email"
+},
+"Cold email bureau in Amsterdam. Wij zoeken je doelgroep, mailen namens jou en leveren positieve reacties in je mailbox. Vanaf 995 euro per maand, live in week 3.": {
+"en": "Cold email agency in Amsterdam. We find your audience, email them on your behalf and deliver positive replies to your inbox. From EUR 995 per month, live in week 3."
+},
+"Koude acquisitie uitbesteden: zo werkt het en wat het kost": {
+"en": "Outsourcing cold outreach: how it works and what it costs"
+},
+"Wat je precies uitbesteedt, wat je zelf houdt, wat het per maand kost en waar een uitbesteed acquisitietraject in de praktijk op vastloopt.": {
+"en": "What exactly you outsource, what you keep yourself, what it costs per month and where an outsourced outreach programme gets stuck in practice."
+},
+"Cold calling of cold e-mail? De cijfers naast elkaar": {
+"en": "Cold calling or cold email? The numbers side by side"
+},
+"Kosten per afspraak, bereik per week, snelheid en regels voor bellen en mailen naast elkaar, met de cijfers uit onze eigen campagnes.": {
+"en": "Cost per meeting, weekly reach, speed and the rules for calling and emailing side by side, with the numbers from our own campaigns."
+},
+"Koop B2B-leads met beslisser, geverifieerd zakelijk e-mailadres en de bron per record. Mailen, bellen of benaderen via LinkedIn: jij bepaalt wat je ermee doet. Binnen een werkdag geleverd, vanaf 0,10 per lead.": {
+"en": "Buy B2B leads with the decision maker, a verified business email address and the source per record. Email, call or approach on LinkedIn: you decide what you do with them. Delivered within one working day, from 0.10 per lead."
+},
+"Geverifieerde B2B-leads op maat, met de bron per record. Bruikbaar voor e-mail, telefoon en LinkedIn. Binnen een werkdag geleverd.": {
+"en": "Verified B2B leads tailored to you, with the source per record. Usable for email, phone and LinkedIn. Delivered within one working day."
+},
+/* ── Formulier-, foutmeldingen en configuratorteksten uit scripts (25 sept 2026) ── */
+"Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.": {
+"en": "Enter a valid email address, for example name@company.com."
+},
+"Vul een geldig zakelijk e-mailadres in, bijvoorbeeld naam@bedrijf.nl.": {
+"en": "Enter a valid business email address, for example name@company.com."
+},
+"Vul je naam in.": {
+"en": "Enter your name."
+},
+"Beschrijf kort wie je ideale klant is.": {
+"en": "Briefly describe who your ideal client is."
+},
+"Beschrijf kort wie je wil bereiken.": {
+"en": "Briefly describe who you want to reach."
+},
+"Beschrijf kort wie je wil bereiken. Dat hebben we nodig om je bestand te bouwen.": {
+"en": "Briefly describe who you want to reach. We need that to build your file."
+},
+"Dank je. Je marktscan is aangevraagd en je krijgt hem binnen een werkdag in je mailbox.": {
+"en": "Thank you. Your market scan has been requested and will be in your inbox within one working day."
+},
+"Dank je. Je vraag is binnen en je hebt een bevestiging in je mailbox. Je krijgt binnen een werkdag antwoord.": {
+"en": "Thank you. Your question has arrived and a confirmation is in your inbox. You will get an answer within one working day."
+},
+"Dank je. Je krijgt binnen een werkdag de telling en de prijs. Mail je contactenlijst naar info@link2leads.nl, dan sluiten we die uit.": {
+"en": "Thank you. You will receive the count and the price within one working day. Email your contact list to info@link2leads.nl and we will exclude it."
+},
+"Dank je. Je aanvraag staat klaar. Je krijgt binnen een werkdag de telling en de prijs in je mailbox.": {
+"en": "Thank you. Your request is in. You will receive the count and the price in your inbox within one working day."
+},
+"Dank je. Je tien leads komen binnen een werkdag in je mailbox.": {
+"en": "Thank you. Your ten leads will be in your inbox within one working day."
+},
+"Dank je. Zodra je betaling is verwerkt krijg je een bevestiging per mail, en wij leveren je bestand binnen een werkdag.": {
+"en": "Thank you. As soon as your payment is processed you will get a confirmation by email, and we deliver your file within one working day."
+},
+"Referentie": {
+"en": "Reference"
+},
+"Versturen is niet gelukt. Mail ons direct op info@link2leads.nl.": {
+"en": "Sending failed. Email us directly at info@link2leads.nl."
+},
+"Afrekenen lukt nu niet. Mail info@link2leads.nl.": {
+"en": "Checkout is not working right now. Email info@link2leads.nl."
+},
+"Aangevraagd": {
+"en": "Requested"
+},
+"Verstuurd": {
+"en": "Sent"
+},
+"Betaling starten...": {
+"en": "Starting payment..."
+},
+"Vanaf Scale": {
+"en": "From Scale"
+},
+"Veeg opzij om alles te zien": {
+"en": "Swipe sideways to see everything"
+},
+"Beschikbaarheid ophalen...": {
+"en": "Loading availability..."
+},
+"Geen tijden op deze dag. Kies een andere datum.": {
+"en": "No times on this day. Pick another date."
+},
+"Dit tijdstip is net bezet geraakt. Kies een ander moment.": {
+"en": "This slot has just been taken. Pick another time."
+},
+"Samengesteld:": {
+"en": "Your configuration:"
+},
+"Basis,": {
+"en": "Base,"
+},
+"per lead": {
+"en": "per lead"
+},
+"per lead, exclusief btw": {
+"en": "per lead, excl. VAT"
+},
+"inclusief btw": {
+"en": "incl. VAT"
+},
+"Je selectie:": {
+"en": "Your selection:"
+},
+"voor": {
+"en": "for"
+},
+"Verrijking:": {
+"en": "Enrichment:"
+},
+"geen": {
+"en": "none"
+},
+"Aanpassen kan": {
+"en": "You can adjust this"
+},
+"hierboven": {
+"en": "above"
+},
+"Direct afrekenen kan vanaf": {
+"en": "Direct checkout is available from"
+},
+"exclusief btw. Vraag hieronder een telling aan.": {
+"en": "excl. VAT. Request a count below."
+},
+"Bij dit bedrag doen we eerst een telling en sturen we een factuur.": {
+"en": "At this amount we first do a count and send an invoice."
+},
+"Je betaalt met iDEAL. Daarna bouwen wij het bestand en leveren binnen een werkdag.": {
+"en": "You pay with iDEAL. We then build the file and deliver within one working day."
 }
 };
