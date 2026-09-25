@@ -1242,27 +1242,35 @@ h1 .blue, h2 .blue, h3 .blue {
 .cmp-legend span{display:inline-flex;align-items:center;gap:7px;}
 .cmp-legend .ck,.cmp-legend .no,.cmp-legend .so{margin:0;}
 @media(max-width:760px){
+  .cmp-wrap{border:0;background:none;border-radius:0;overflow:visible;}
   .cmp table,.cmp thead,.cmp tbody,.cmp tr,.cmp td{display:block;}
   .cmp thead{position:absolute;left:-9999px;}
-  .cmp tr{border-bottom:1px solid var(--border);padding:14px 16px 14px;}
-  .cmp tbody tr:last-child{border-bottom:0;}
+  .cmp tbody{display:grid;gap:10px;}
+  .cmp tr{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:16px 16px 14px;}
   .cmp td,.cmp td.cmp-lab,.cmp td.cmp-us,.cmp td.cmp-th{padding:0;border-bottom:0;width:auto;background:none;}
-  .cmp td.cmp-lab{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
-  .cmp td.cmp-lab b{font-size:15.5px;margin-bottom:0;}
-  .cmp .cmp-ic{width:28px;height:28px;margin-bottom:0;flex-shrink:0;}
+  .cmp td.cmp-lab{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+  .cmp td.cmp-lab b{font-size:16px;margin-bottom:0;}
   .cmp td.cmp-lab small{display:none;}
+  .cmp .cmp-ic{width:28px;height:28px;margin-bottom:0;flex-shrink:0;}
+  .cmp td.cmp-us,.cmp td.cmp-th{position:relative;padding:10px 12px 11px 14px;border-radius:10px;}
+  .cmp td.cmp-us{background:rgba(47,111,237,.12);border-left:3px solid var(--accent);}
+  .cmp td.cmp-th{margin-top:8px;background:rgba(255,255,255,.03);border-left:3px solid rgba(255,255,255,.18);}
+  .cmp td.cmp-us::before,.cmp td.cmp-th::before{display:block;font-size:10.5px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;margin-bottom:5px;}
+  .cmp td.cmp-us::before{content:'Bij ons';color:var(--accent2);}
+  .cmp td.cmp-th::before{content:'Andere bureaus';color:var(--muted);}
   .cmp .cmp-c{gap:9px;align-items:flex-start;}
   .cmp .cmp-c .t{display:none;}
   .cmp .t-m{display:block;flex:1;min-width:0;font-size:14px;line-height:1.45;}
   .cmp td.cmp-us .t-m{color:var(--white);font-weight:600;}
-  .cmp td.cmp-th{margin-top:6px;}
-  .cmp td.cmp-th .t-m{color:rgba(255,255,255,.5);}
+  .cmp td.cmp-th .t-m{color:rgba(255,255,255,.55);}
   .cmp .ck,.cmp .no,.cmp .so{width:18px;height:18px;font-size:11px;margin-top:1px;}
   .cmp .no{font-size:13px;}
   .cmp tbody tr:hover td,.cmp tbody tr:hover td.cmp-us{background:none;}
-  .cmp-legend{gap:6px 14px;font-size:12.5px;}
-  .cmp-foot{padding:16px;flex-direction:column;align-items:stretch;}
+  .cmp tbody tr:hover td.cmp-us{background:rgba(47,111,237,.12);}
+  .cmp-legend{display:none;}
+  .cmp-foot{margin-top:10px;padding:16px;flex-direction:column;align-items:stretch;background:var(--card-bg);border:1px solid var(--border);border-radius:16px;}
   .cmp-foot .btn-solid{justify-content:center;}
+}
 }
 }
 
@@ -3730,10 +3738,11 @@ Bel ons: 085 080 5381
   .ksig-p{margin:0 0 22px;font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.72);max-width:70ch;}
   .ksig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
   .ksig-c{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:14px;padding:18px 20px;}
-  .ksig-i{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;margin-bottom:12px;
+  .ksig-c .ksig-h{display:flex;align-items:center;gap:10px;margin:0 0 8px;font-size:0;line-height:1;}
+  .ksig-c .ksig-i{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:8px;flex-shrink:0;margin:0;
     background:rgba(47,111,237,.14);border:1px solid rgba(47,111,237,.3);color:var(--accent2);}
   .ksig-i svg{display:block;}
-  .ksig-c b{display:block;font-size:15.5px;font-weight:700;color:var(--accent2);margin-bottom:6px;}
+  .ksig-c b{display:block;font-size:15.5px;font-weight:700;color:var(--accent2);margin-bottom:0;}
   .ksig-c span{display:block;font-size:14.5px;line-height:1.55;color:rgba(255,255,255,.68);}
   .ksig-foot{margin:20px 0 0;font-size:14px;line-height:1.6;color:var(--muted);}
   @media(max-width:900px){.ksig-wrap{padding:30px 28px;}.ksig-grid{grid-template-columns:1fr;}}
@@ -3746,9 +3755,9 @@ Bel ons: 085 080 5381
 <div class="ksig-wrap reveal">
   <p class="ksig-p">Wij zoeken daarom per bedrijf naar een aanleiding en verwijzen daar in de mail naar. Zo komt je bericht binnen op het moment dat het relevant is, in plaats van op een willekeurige dinsdag.</p>
   <div class="ksig-grid">
-    <div class="ksig-c"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg></span><b>Zoekt personeel</b><span>Een openstaande vacature, gecontroleerd op de site van het bedrijf zelf.</span></div>
-    <div class="ksig-c"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></span><b>Groeit zichtbaar</b><span>Een nieuwe vestiging, een overname of een verhuizing die het bedrijf zelf heeft aangekondigd.</span></div>
-    <div class="ksig-c"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></span><b>Investeert in klanten werven</b><span>Een bedrijf dat net is gaan adverteren, of juist een site heeft die jaren niet is bijgewerkt.</span></div>
+    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg></span><b>Zoekt personeel</b></span><span>Een openstaande vacature, gecontroleerd op de site van het bedrijf zelf.</span></div>
+    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></span><b>Groeit zichtbaar</b></span><span>Een nieuwe vestiging, een overname of een verhuizing die het bedrijf zelf heeft aangekondigd.</span></div>
+    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></span><b>Investeert in klanten werven</b></span><span>Een bedrijf dat net is gaan adverteren, of juist een site heeft die jaren niet is bijgewerkt.</span></div>
   </div>
   <p class="ksig-foot">Welke aanleiding bij jouw aanbod past, bepalen we in de onboarding. Past er geen enkel signaal bij, dan zeggen we dat en werken we met een scherper afgebakende doelgroep.</p>
 </div>
