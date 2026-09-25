@@ -9655,5 +9655,309 @@ window.L2L_I18N_DATA = {
 },
 "Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar. Vergelijk pakketten op mails per maand: wij versturen zeven dagen per week.": {
 "en": "One fixed amount per month, everything included. Three months minimum, then cancellable monthly. Compare packages on emails per month: we send seven days a week."
+},
+/* ── Vergelijking, mini-reviews, iconen, contractvolume (25 sept 2026) ── */
+"Vergelijk": {
+"en": "Compare"
+},
+"Snel opgezet. Na 15 dagen stroomden de positieve reacties al binnen.": {
+"en": "Set up fast. After 15 days the positive replies were already coming in."
+},
+"Alle reviews →": {
+"en": "All reviews →"
+},
+"Lees de volledige case": {
+"en": "Read the full case"
+},
+"Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar. Wij versturen zeven dagen per week.": {
+"en": "One fixed amount per month, everything included. Three months minimum, then cancellable monthly. We send seven days a week."
+},
+"Vergelijk ons met andere bureaus →": {
+"en": "Compare us with other agencies →"
+},
+", 30 verzenddagen": {
+"en": ", 30 sending days"
+},
+"1.000 nieuwe bedrijven": {
+"en": "1,000 new companies"
+},
+"2.500 nieuwe bedrijven": {
+"en": "2,500 new companies"
+},
+"5.000 nieuwe bedrijven": {
+"en": "5,000 new companies"
+},
+"10.000 nieuwe bedrijven": {
+"en": "10,000 new companies"
+},
+"Bij elke call weet ik dat het een gekwalificeerde lead is. 100% aanrader.": {
+"en": "On every call I know it is a qualified lead. 100% recommended."
+},
+"332 per 1.000 mails": {
+"en": "332 per 1,000 emails"
+},
+"452 per 1.000 mails": {
+"en": "452 per 1,000 emails"
+},
+"173 per 1.000 mails": {
+"en": "173 per 1,000 emails"
+},
+"235 per 1.000 mails": {
+"en": "235 per 1,000 emails"
+},
+"113 per 1.000 mails": {
+"en": "113 per 1,000 emails"
+},
+"154 per 1.000 mails": {
+"en": "154 per 1,000 emails"
+},
+"67 per 1.000 mails": {
+"en": "67 per 1,000 emails"
+},
+"91 per 1.000 mails": {
+"en": "91 per 1,000 emails"
+},
+"De rechterkolom is hetzelfde maandbedrag, gedeeld door het aantal mails dat er bij 22 verzenddagen uitgaat. Het maandvolume van je pakket staat in je contract.": {
+"en": "The right-hand column is the same monthly amount divided by the number of emails sent on 22 sending days. Your package's monthly volume is set out in your contract."
+},
+"Vergelijkbaar met": {
+"en": "Comparable with"
+},
+"andere bureaus?": {
+"en": "other agencies?"
+},
+"Leg ons gerust naast een ander bureau. Dit is wat je bij ons standaard krijgt en wat je elders vaak mist of apart moet regelen.": {
+"en": "Feel free to put us next to another agency. This is what you get with us as standard and what you often miss or have to arrange separately elsewhere."
+},
+"Bij ons inbegrepen of erbij te nemen": {
+"en": "Included with us or available as an add-on"
+},
+"Elders soms, vaak beperkt of tegen meerprijs": {
+"en": "Elsewhere sometimes, often limited or at extra cost"
+},
+"Elders meestal niet": {
+"en": "Elsewhere usually not"
+},
+"Waar je op let": {
+"en": "What to look at"
+},
+"Andere bureaus": {
+"en": "Other agencies"
+},
+"Hoeveel bedrijven je bereikt en of dat vastligt.": {
+"en": "How many companies you reach and whether that is fixed."
+},
+"7 dagen per week, 3.000 tot 30.000 mails per maand, in je contract": {
+"en": "7 days a week, 3,000 to 30,000 emails per month, in your contract"
+},
+"Zeven dagen per week, 30 verzenddagen per maand. Van 3.000 mails per maand op Starter tot 30.000 op Pro, en dat aantal staat in je contract.": {
+"en": "Seven days a week, 30 sending days per month. From 3,000 emails per month on Starter to 30,000 on Pro, and that number is set out in your contract."
+},
+"Alleen werkdagen, zelden vastgelegd": {
+"en": "Working days only, rarely fixed"
+},
+"Meestal alleen werkdagen, lager volume op het instappakket en zelden vastgelegd.": {
+"en": "Usually working days only, lower volume on the entry package and rarely set out in writing."
+},
+"Personalisatie per prospect": {
+"en": "Personalisation per prospect"
+},
+"De mail gaat over het bedrijf zelf.": {
+"en": "The email is about the company itself."
+},
+"Eigen openingszin en eigen pagina per prospect": {
+"en": "Own opening line and own page per prospect"
+},
+"Een openingszin op echte informatie over het bedrijf en een eigen pagina op jouw domein, per prospect. Op elk pakket erbij te nemen.": {
+"en": "An opening line based on real information about the company and a dedicated page on your domain, per prospect. Available as an add-on on every package."
+},
+"Voornaam en bedrijfsnaam invullen": {
+"en": "First name and company name filled in"
+},
+"Voornaam en bedrijfsnaam invullen.": {
+"en": "First name and company name filled in."
+},
+"Koopsignalen en segmentatie": {
+"en": "Buying signals and segmentation"
+},
+"Wanneer en met welke insteek iemand gemaild wordt.": {
+"en": "When someone is emailed and with which angle."
+},
+"Mailen op een aanleiding, per segment een eigen insteek": {
+"en": "Emailing on a trigger, a separate angle per segment"
+},
+"We mailen op een aanleiding, zoals een vacature, een nieuwe vestiging of een verhuizing, en per segment met een eigen insteek.": {
+"en": "We email on a trigger, such as a job opening, a new location or a move, and with a separate angle per segment."
+},
+"Eén tekst voor de hele lijst": {
+"en": "One text for the whole list"
+},
+"Eén tekst voor de hele lijst, op een willekeurige dinsdag.": {
+"en": "One text for the whole list, on a random Tuesday."
+},
+"Wat er in jouw mailbox belandt.": {
+"en": "What ends up in your inbox."
+},
+"Elke reactie met de hand gelezen, alleen positieve naar jou": {
+"en": "Every reply read by hand, only positive ones go to you"
+},
+"Elke reactie wordt met de hand gelezen. Alleen wat een gesprek waard is komt bij jou, met naam, functie en contactgegevens.": {
+"en": "Every reply is read by hand. Only what is worth a conversation reaches you, with name, job title and contact details."
+},
+"Automatisch gelabeld of alles doorgestuurd": {
+"en": "Labelled automatically or everything forwarded"
+},
+"Automatisch gelabeld, of alles wordt doorgestuurd.": {
+"en": "Labelled automatically, or everything is forwarded."
+},
+"Opvolging": {
+"en": "Follow-up"
+},
+"Wie de positieve reactie beantwoordt en de afspraak inplant.": {
+"en": "Who answers the positive reply and books the meeting."
+},
+"Zelf, of wij plannen de afspraak in je agenda. Setters en closers via": {
+"en": "Yourself, or we book the meeting in your calendar. Setters and closers via"
+},
+"Zelf, of wij handelen de reactie af en zetten de afspraak direct in jouw agenda (Full Service). Meer opvolgcapaciteit nodig? Via ons zusterbedrijf": {
+"en": "Yourself, or we handle the reply and put the meeting straight into your calendar (Full Service). Need more follow-up capacity? Through our sister company"
+},
+"zetten we remote setters en closers op jouw reacties.": {
+"en": "we put remote setters and closers on your replies."
+},
+"Alleen doorsturen": {
+"en": "Forwarding only"
+},
+"Alleen doorsturen.": {
+"en": "Forwarding only."
+},
+"Dezelfde bedrijven ook via LinkedIn.": {
+"en": "The same companies via LinkedIn too."
+},
+"Dezelfde bedrijven ook via jouw LinkedIn": {
+"en": "The same companies via your LinkedIn too"
+},
+"Connectieverzoek en eerste bericht vanuit jouw profiel, naar dezelfde bedrijven die je mailt.": {
+"en": "Connection request and first message from your profile, to the same companies you email."
+},
+"Apart bureau nodig": {
+"en": "Separate agency needed"
+},
+"Apart bureau of apart traject.": {
+"en": "Separate agency or separate project."
+},
+"Wat er over het resultaat is afgesproken.": {
+"en": "What has been agreed about the result."
+},
+"Aantal positieve reacties in je contract (Scale en Pro)": {
+"en": "Number of positive replies in your contract (Scale and Pro)"
+},
+"Het aantal positieve reacties staat in je contract (Scale en Pro).": {
+"en": "The number of positive replies is set out in your contract (Scale and Pro)."
+},
+"Zelden, of alleen inspanning": {
+"en": "Rarely, or best effort only"
+},
+"Zelden, of alleen een inspanningsverplichting.": {
+"en": "Rarely, or a best-effort obligation only."
+},
+"Setup": {
+"en": "Setup"
+},
+"Wat de start kost en hoe lang die duurt.": {
+"en": "What the start costs and how long it takes."
+},
+"Geen setupfee, binnen twee weken live": {
+"en": "No setup fee, live within two weeks"
+},
+"Geen setupfee en geen aparte toolingrekening. Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken klaar.": {
+"en": "No setup fee and no separate tooling bill. Domains, mailboxes, warm-up, list and copy are ready within two weeks."
+},
+"Opstartkosten, vier tot zes weken": {
+"en": "Setup costs, four to six weeks"
+},
+"Vaak opstartkosten, en vier tot zes weken tot de eerste mail.": {
+"en": "Often setup costs, and four to six weeks until the first email."
+},
+"Wat van jou blijft": {
+"en": "What stays yours"
+},
+"Als je stopt.": {
+"en": "When you stop."
+},
+"Teksten, contacten en reacties krijg je mee": {
+"en": "You keep the copy, contacts and replies"
+},
+"De teksten mag je blijven gebruiken. Contactgegevens en reacties uit jouw campagne krijg je mee in een gangbaar bestand.": {
+"en": "You may keep using the copy. Contact details and replies from your campaign are handed over in a standard file format."
+},
+"Blijft vaak bij het bureau": {
+"en": "Often stays with the agency"
+},
+"Vaak blijft alles bij het bureau.": {
+"en": "Often everything stays with the agency."
+},
+"Alleen de leadlijst": {
+"en": "Just the lead list"
+},
+"Als je (nog) geen campagne wilt.": {
+"en": "If you don't want a campaign (yet)."
+},
+"Los te koop vanaf 500, 10 gratis proberen": {
+"en": "Available separately from 500, 10 free to try"
+},
+"Los te koop vanaf 500 leads, en eerst 10 gratis om te proberen.": {
+"en": "Available separately from 500 leads, with 10 free to try first."
+},
+"Alleen met een campagne": {
+"en": "Only with a campaign"
+},
+"Alleen als onderdeel van een campagne.": {
+"en": "Only as part of a campaign."
+},
+"Vergelijk je ons met een specifiek bureau en staat er iets niet bij?": {
+"en": "Comparing us with a specific agency and something is missing?"
+},
+"Mail het ons": {
+"en": "Email us"
+},
+", dan zetten we het er eerlijk naast. Past cold e-mail niet bij je markt, dan zeggen we dat ook.": {
+"en": ", and we will add it honestly. If cold email doesn't fit your market, we will tell you that too."
+},
+"Je weet als klant precies waar je aan toe bent. Ze schakelen snel als het nodig is.": {
+"en": "As a client you know exactly where you stand. They act fast when needed."
+},
+"Ik ben de hele dag druk met opvolgen, en dat is precies de bedoeling.": {
+"en": "I'm busy following up all day, and that is exactly the point."
+},
+"Duidelijke communicatie en eerlijke verwachtingen. Altijd goed te bereiken.": {
+"en": "Clear communication and honest expectations. Always easy to reach."
+},
+"Review van Micah, 5 sterren, lees alle reviews": {
+"en": "Review by Micah, 5 stars, read all reviews"
+},
+"Review van Dick, 5 sterren, lees alle reviews": {
+"en": "Review by Dick, 5 stars, read all reviews"
+},
+"Review van Arnold, 5 sterren, lees alle reviews": {
+"en": "Review by Arnold, 5 stars, read all reviews"
+},
+"Review van Rafael, 5 sterren, lees alle reviews": {
+"en": "Review by Rafael, 5 stars, read all reviews"
+},
+"Review van Marit, 5 sterren, lees alle reviews": {
+"en": "Review by Marit, 5 stars, read all reviews"
+},
+"Ja": {
+"en": "Yes"
+},
+"Soms": {
+"en": "Sometimes"
+},
+"Niet": {
+"en": "No"
+},
+"Op elk pakket staat het maandvolume in je contract: 3.000, 7.500, 15.000 of 30.000 mails. Valt er een dag uit, dan halen we dat in.": {
+"en": "On every package the monthly volume is set out in your contract: 3,000, 7,500, 15,000 or 30,000 emails."
 }
 };
