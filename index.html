@@ -2476,12 +2476,9 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
 .hero-chip{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.03);font-size:13.5px;color:rgba(255,255,255,.75);text-decoration:none}
 .hero-chip b{color:#fff}
 a.hero-chip:hover{border-color:#5B8FF5}
-#l2l-sticky{display:none}
 @media(max-width:760px){
 .hq{padding:14px;margin-bottom:14px}
 .hq-b{min-height:48px;font-size:14px}
-#l2l-sticky{display:flex;position:fixed;left:12px;right:84px;bottom:20px;z-index:390;min-height:56px;align-items:center;justify-content:center;border-radius:999px;background:#2F6FED;color:#fff;font-weight:800;font-size:15px;text-decoration:none;box-shadow:0 10px 28px rgba(0,0,0,.45);transform:translateY(160%);transition:transform .3s ease}
-#l2l-sticky.show{transform:none}
 }
 </style>
 <style id="l2l-polish">
@@ -2623,21 +2620,26 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
  .hstat b{font-size:17px}
  .hstat span:not(.hs-star){font-size:12px}
 }
-/* widget op mobiel: geen labels, vaste rijen, niets dat buiten de rij valt */
+/* widget op mobiel: zelfde opbouw als desktop, kloppend in de breedte */
 @media(max-width:700px){
- .inbox-pill.top{display:none !important}
- .inbox-badge{display:none}
- .inbox-bar-l{font-size:14px !important}
- .inbox-tag{display:none !important}
- .inbox-row{grid-template-columns:auto 1fr !important;grid-template-rows:auto !important;height:100px !important;padding:14px 16px !important;gap:0 13px !important;align-content:center;overflow:hidden}
- .inbox-av{grid-row:auto !important;width:36px !important;height:36px !important}
- .inbox-txt{grid-column:2}
- .inbox-who{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:3px !important}
- .inbox-msg{-webkit-line-clamp:2 !important;font-size:13.5px !important;line-height:1.45 !important}
- .inbox-list{height:300px !important}
- .inbox-wrap{padding-top:6px !important}
- .inbox-pill-row{justify-content:flex-start}
- .inbox-pill-row .fx-cal{margin:14px 0 0 !important;animation:none}
+ .inbox-wrap{padding:18px 0 0 !important}
+ .inbox-pill.top{display:inline-flex !important;margin:0 0 -13px 10px !important;position:relative;z-index:3;font-size:12.5px !important;padding:7px 12px !important}
+ .inbox-bar{padding:20px 14px 13px !important;gap:8px !important}
+ .inbox-bar-l{font-size:13px !important;gap:8px !important;white-space:nowrap;min-width:0}
+ .inbox-badge{display:inline-block !important;font-size:9.5px !important;letter-spacing:.6px !important;padding:4px 8px !important;flex-shrink:0}
+ .inbox-row{display:grid !important;grid-template-columns:36px 1fr auto !important;grid-template-rows:auto auto !important;
+   column-gap:12px !important;row-gap:5px !important;height:104px !important;padding:14px 14px !important;align-content:center;overflow:hidden}
+ .inbox-txt{display:contents !important}
+ .inbox-av{grid-column:1 !important;grid-row:1 / span 2 !important;align-self:center;width:36px !important;height:36px !important;font-size:12.5px !important}
+ .inbox-who{grid-column:2 !important;grid-row:1;align-self:center;margin:0 !important;font-size:14px !important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ .inbox-tag{display:inline-block !important;grid-column:3 !important;grid-row:1 !important;align-self:center;justify-self:end !important;font-size:10.5px !important;padding:3px 8px !important}
+ .inbox-msg{grid-column:2 / span 2 !important;grid-row:2;-webkit-line-clamp:2 !important;font-size:13px !important;line-height:1.45 !important}
+ .inbox-list{height:312px !important}
+ .inbox-foot{padding:13px 14px 30px !important;font-size:12px !important}
+ .inbox-pill-row{justify-content:flex-end !important}
+ .inbox-pill-row .fx-cal{margin:-22px 8px 0 0 !important;padding:9px 12px 9px 9px !important;animation:l2lbob 6s ease-in-out infinite}
+ .inbox-pill-row .fx-cal b{font-size:12.5px}
+ .inbox-pill-row .fx-cal small{font-size:11px}
 }
 .hcta-sub{margin-bottom:10px !important}
 .hcta-contact{display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px;margin:0 0 30px;font-size:13.5px;color:rgba(255,255,255,.5)}
@@ -2646,6 +2648,7 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 .hc-wa svg{color:#4ADE80}
 .hc-tel svg{color:#7EB3FF}
 @media(max-width:760px){.hcta-sub{margin-bottom:10px !important}.hcta-contact{justify-content:center;margin-bottom:26px;gap:6px 16px}.hcta-contact{gap:6px 14px;font-size:13px}}
+.hcta-contact{margin-top:4px}
 </style>
 </head>
 <body>
@@ -2788,7 +2791,6 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 <div class="hcta">
 <a class="hcta-main" href="/book" onclick="if(window.l2lTrack)l2lTrack('hero_fitcheck_click');"><span>Plan je gratis fitcheck</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 </div>
-<div class="hcta-sub">30 minuten, gratis en vrijblijvend. Pakketten vanaf €995 per maand.</div>
 <div class="hcta-contact"><span class="hc-q">Liever eerst een vraag?</span><a class="hc-wa" href="https://wa.me/31850805381?text=Hoi%20Link2Leads%2C%20ik%20heb%20een%20vraag%3A%20" target="_blank" rel="noopener" onclick="if(window.l2lTrack)l2lTrack('hero_whatsapp_click');"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.2.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.2z"/></svg><span>WhatsApp</span></a><a class="hc-tel" href="tel:+31850805381" onclick="if(window.l2lTrack)l2lTrack('hero_call_click');"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.8 2 2 0 0 1 3.1 1.6h2.6a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L6.8 9.2a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span>085 080 5381</span></a></div>
 <div class="hstats">
 <a class="hstat" href="#reviews"><b>4,8 <span class="hs-star" aria-hidden="true">★</span></b><span>Google Reviews</span></a>
@@ -4376,18 +4378,6 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   width:52px;height:52px;}#l2l-fab svg{width:28px;height:28px;}}
 @media (prefers-reduced-motion:reduce){#l2l-fab{transition:none;}#l2l-fab:hover{transform:none;}}
 </style>
-<a id="l2l-sticky" href="/book" onclick="if(window.l2lTrack)l2lTrack('sticky_fitcheck_click');">Plan je gratis fitcheck</a>
-<script>
-(function(){
-  var b=document.getElementById('l2l-sticky'); if(!b) return;
-  function upd(){
-    var y=window.scrollY||0, h=document.documentElement.scrollHeight-window.innerHeight;
-    var f=document.querySelector('footer'); var nearEnd=f&&f.getBoundingClientRect().top<window.innerHeight;
-    b.classList.toggle('show', y>650 && !nearEnd);
-  }
-  window.addEventListener('scroll',upd,{passive:true}); upd();
-})();
-</script>
 <a id="l2l-fab" href="https://wa.me/31850805381?text=Hoi%20Link2Leads%2C%20ik%20heb%20een%20vraag." target="_blank" rel="noopener" title="WhatsApp: 085 080 5381" aria-label="Stuur ons een WhatsApp-bericht" onclick="if(window.l2lTrack)l2lTrack('whatsapp_click');"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.79-1.67-2.09-.18-.3-.02-.47.13-.62.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.61-.93-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.45 0 1.45 1.06 2.85 1.21 3.05.15.2 2.09 3.19 5.06 4.47.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35zM12.04 21.5h-.01c-1.75 0-3.47-.47-4.98-1.36l-.36-.21-3.7.97.99-3.62-.23-.37a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.45-9.43 2.52 0 4.89.98 6.67 2.76a9.37 9.37 0 0 1 2.77 6.68c0 5.2-4.24 9.42-9.43 9.42zM20.5 3.49A11.8 11.8 0 0 0 12.04 0C5.49 0 .16 5.33.16 11.88c0 2.09.55 4.13 1.59 5.93L0 24l6.34-1.66a11.83 11.83 0 0 0 5.69 1.45h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.24-6.16-3.42-8.42z"/></svg></a>
 <script>if(location.search.indexOf('debug')>-1){var d=document.createElement('script');d.src='/assets/l2l-check.js';document.body.appendChild(d);}</script>
 </body>
