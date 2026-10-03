@@ -2718,6 +2718,18 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 .hcta-contact{flex-direction:column !important;align-items:flex-start !important;flex-wrap:nowrap !important;gap:11px !important;margin:16px 0 28px !important;font-size:14.5px !important}
 .hcta-contact a{gap:9px !important}
 @media(max-width:760px){.hcta-contact{align-items:flex-start !important}}
+/* knoppenblok: fitcheck, WhatsApp en bellen even breed, netjes onder elkaar */
+.hcta{width:340px;max-width:100%;margin:6px 0 10px !important}
+.hcta-main{width:100%;justify-content:center;box-sizing:border-box;min-height:58px;padding:0 24px !important}
+.hcta-contact{width:340px;max-width:100%;display:flex !important;flex-direction:column !important;gap:10px !important;margin:0 0 30px !important}
+.hcta-contact a{width:100%;box-sizing:border-box;min-height:52px;justify-content:center;gap:10px !important;border-radius:999px;
+  background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.14);color:#fff !important;font-size:15px !important;font-weight:700 !important;
+  transition:border-color .2s ease,background .2s ease,transform .2s ease}
+.hcta-contact a:hover{transform:translateY(-1px)}
+.hc-wa:hover{border-color:rgba(74,222,128,.55);background:rgba(34,197,94,.08)}
+.hc-tel:hover{border-color:rgba(91,143,245,.6);background:rgba(47,111,237,.10)}
+.hcta-contact a svg{width:18px;height:18px}
+@media(max-width:760px){.hcta,.hcta-contact{width:100%}}
 </style>
 </head>
 <body>
