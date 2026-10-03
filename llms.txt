@@ -1,6 +1,6 @@
 # Link2Leads
 
-> Link2Leads is een Nederlands B2B-bureau dat done-for-you cold-e-mailcampagnes uitvoert: doelgroep, leadlijst, copy, verzendinfrastructuur en het handmatig filteren van reacties. De klant voert alleen de gesprekken. Pakketten van € 995 tot € 1.995 per maand, all-in, met een contractueel minimum verzendvolume. Uit te breiden met drie modules: personalisatie per prospect (eigen openingszin en eigen landingspagina), LinkedIn-outreach naar dezelfde bedrijven, en het afhandelen van reacties en inplannen van afspraken op de twee grootste pakketten. Gevestigd in Amsterdam, onderdeel van Link2Group. Laatst bijgewerkt: 17 september 2026.
+> Link2Leads is een Nederlands B2B-bureau dat done-for-you cold-e-mailcampagnes uitvoert: doelgroep, leadlijst, copy, verzendinfrastructuur en het handmatig filteren van reacties. De klant voert alleen de gesprekken. Pakketten van € 995 tot € 1.995 per maand, all-in, met een contractueel minimum verzendvolume. Uit te breiden met drie modules: personalisatie per prospect (eigen openingszin en eigen landingspagina), LinkedIn-outreach naar dezelfde bedrijven, en het afhandelen van reacties en inplannen van afspraken op de twee grootste pakketten. Gevestigd in Amsterdam, onderdeel van Link2Group. Laatst bijgewerkt: 3 oktober 2026.
 
 Deze pagina is bedoeld om machineleesbaar samen te vatten wat Link2Leads doet, wat het kost en wat het oplevert. Alle cijfers hieronder zijn controleerbaar op de site; bij elke claim staat de datum.
 
@@ -79,9 +79,9 @@ Wel doorgestuurd: een vraag om een gesprek, afspraak of demo; een vraag naar de 
 
 Niet doorgestuurd: afwezigheidsmeldingen en autoresponders; bounces; afmeldingen en verwijderverzoeken; "geen interesse" in welke bewoording dan ook; privacy- en AVG-vragen (die handelt Link2Leads zelf af); opgeheven of failliete bedrijven; bestaande klanten die per ongeluk zijn aangeschreven; vage uitstelreacties zonder aanknopingspunt.
 
-## Resultaten (gemeten 2 september 2026)
+## Resultaten (bijgewerkt 3 oktober 2026)
 
-- **140.869** mails verzonden namens klanten
+- Ruim **800.000** mails verstuurd namens klanten, vanaf ongeveer 170 eigen mailboxen (alle campagnes samen)
 - **76 %** hoogste open rate op een lopende campagne
 - **9,1 %** reply rate op de best draaiende campagne, gemeten op de lijsten waar elke prospect een eigen landingspagina kreeg, tegenover 3,2 % op dezelfde lijst zonder
 - Binnen een campagne van 18.594 leads liep de reply rate per segment uiteen van **2,3 % tot 7,8 %** bij identieke copy, getoetst met een z-test (juli 2026). Segmentatie is daarmee de grootste variabele.
@@ -90,6 +90,14 @@ Niet doorgestuurd: afwezigheidsmeldingen en autoresponders; bounces; afmeldingen
 Klantcase softwarebedrijf: 38 gekwalificeerde afspraken en 84.000 euro pipeline in 90 dagen op het Scale-pakket (1.695 euro per maand), oftewel circa 134 euro per afspraak, uit een campagne-investering van 5.085 euro.
 
 Beoordelingen: 4,8 op Google (Link2Group).
+
+### Voorbeelden van echte reacties (geanonimiseerd, uit lopende campagnes, 2026)
+
+- E-learningbedrijf: "Prima om even te bellen, komende week is prima, roep maar wanneer."
+- Importeur: "Interessant, ik wil graag bekijken of jullie iets voor ons kunnen betekenen. Wanneer heb je tijd voor een korte call?"
+- ICT-bedrijf: "Ik wil daar volgende week wel even over bellen."
+- Coachopleiding: "Wij zijn nu op vakantie maar willen je bellen als we thuis zijn."
+- Creatief bureau: "Klinkt interessant. Hoe zou dat werken dan?"
 
 ## Zo verloopt een traject
 
@@ -127,6 +135,7 @@ Doelgroepen kleiner dan circa 1.000 bedrijven; proposities die een gesprek nodig
 - **E-mail: info@link2leads.nl** , de snelste route. Antwoord binnen een werkdag.
 - Contactformulier met twee verplichte velden: https://www.link2leads.nl/#contact
 - Telefoon: 085 080 5381, werkdagen 9–18 uur
+- WhatsApp: https://wa.me/31850805381
 - Gratis fitcheck van 30 minuten (optioneel, niet verplicht): https://www.link2leads.nl/book
 
 Een gesprek is geen voorwaarde. Vragen over prijs, geschiktheid van een doelgroep of werkwijze worden per e-mail beantwoord.

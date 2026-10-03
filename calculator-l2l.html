@@ -888,9 +888,9 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
           Het verschil per niche is groot. Onze sterkste campagne haalde 5,6 positieve reacties per 1.000 mails, de zwaarste markt 0,7. Waar jouw doelgroep in die band valt, hangt af van je aanbod, je markt en hoe snel je opvolgt.
         </p>
         <p class="spread-text">
-          Dat is precies wat we in de gratis scan uitzoeken: we kijken naar jouw niche, doelgroep en aanbod en zeggen je welke aantallen realistisch zijn. Past het niet, dan hoor je dat ook.
+          Dat is precies wat we in de gratis fitcheck uitzoeken: we kijken naar jouw niche, doelgroep en aanbod en zeggen je welke aantallen realistisch zijn. Past het niet, dan hoor je dat ook.
         </p>
-        <a href="/book" class="spread-link" target="_blank">Plan je gratis scan →</a>
+        <a href="/book" class="spread-link" target="_blank">Plan je gratis fitcheck →</a>
       </div>
       <p class="source-note">
         Gebaseerd op ruim 55.000 e-mails uit onze eigen campagnes.
@@ -1139,11 +1139,15 @@ document.querySelectorAll('input[type="range"]').forEach(el => {
 });
 
 drawPkgs();
+// Klantwaarde meegegeven vanaf de homepage (?deal=...): invullen en direct naar de uitkomst.
+var _deal = parseInt(new URLSearchParams(location.search).get('deal'), 10);
+if (_deal > 0) { document.getElementById('dealValue').value = Math.min(500000, Math.max(500, _deal)); }
 calc();
+if (_deal > 0) { setTimeout(function(){ var rc=document.getElementById('resultCard'); if(rc) rc.scrollIntoView({behavior:'smooth', block:'start'}); }, 350); }
 
 document.addEventListener('l2l:langchange', function(){ try { drawPkgs(); calc(); } catch(e){} });
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=33"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=38"></script>
 <script src="/assets/tracking.js"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.

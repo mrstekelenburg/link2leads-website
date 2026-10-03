@@ -8315,8 +8315,14 @@ window.L2L_I18N_DATA = {
 "Tussen een getekende overeenkomst en de eerste mail zit 14 dagen setup: domeinen en mailboxen aanmaken, opwarmen en de copy schrijven.": {
 "en": "Between a signed agreement and the first email there are 14 days of setup: buying domains and mailboxes, warming them up and writing the copy."
 },
+"30 minuten, gratis en zonder verplichtingen. Je kiest zelf een moment.": {
+"en": "30 minutes, free and with no obligations. You pick the time."
+},
+"Cold email bureau voor B2B in Nederland": {
+"en": "B2B cold email agency in the Netherlands"
+},
 "Zo snel mogelijk": {
-"en": "As soon as possible"
+"en": "As soon as we can"
 },
 "Binnen een maand": {
 "en": "Within a month"
@@ -8325,7 +8331,7 @@ window.L2L_I18N_DATA = {
 "en": "Next quarter"
 },
 "We kijken nog rond": {
-"en": "We are still looking around"
+"en": "Still looking around"
 },
 "Laatste stap": {
 "en": "Last step"
@@ -10138,5 +10144,107 @@ window.L2L_I18N_DATA = {
 },
 "Je betaalt met iDEAL. Daarna bouwen wij het bestand en leveren binnen een werkdag.": {
 "en": "You pay with iDEAL. We then build the file and deliver within one working day."
+},
+"Salesafspraken in je agenda": {
+"en": "Sales meetings in your calendar"
+},
+"zonder zelf acquisitie te doen": {
+"en": "without doing the prospecting yourself"
+},
+"Wat is een nieuwe klant je waard in het eerste jaar?": {
+"en": "What is a new client worth to you in the first year?"
+},
+"Meer dan €25.000": {
+"en": "More than €25,000"
+},
+"Klik je antwoord en zie direct wat een campagne jou per maand oplevert. Geen gegevens nodig.": {
+"en": "Click your answer and instantly see what a campaign brings you per month. No details needed."
+},
+"Liever direct je gratis fitcheck plannen": {
+"en": "Rather book your free fit check right away"
+},
+"mails verstuurd namens klanten": {
+"en": "emails sent on behalf of clients"
+},
+"op positieve reacties in je contract": {
+"en": "on positive replies in your contract"
+},
+"Echte reacties uit onze campagnes": {
+"en": "Real replies from our campaigns"
+},
+"Geanonimiseerd": {
+"en": "Anonymised"
+},
+"E-learningbedrijf": {
+"en": "E-learning company"
+},
+"Creatief bureau": {
+"en": "Creative agency"
+},
+"Importeur": {
+"en": "Importer"
+},
+"Coachopleiding": {
+"en": "Coaching school"
+},
+"Technologiebedrijf": {
+"en": "Technology company"
+},
+"ICT-bedrijf": {
+"en": "IT company"
+},
+"Adviesbureau": {
+"en": "Consultancy"
+},
+"Prima om even te bellen, komende week is prima, roep maar wanneer.": {
+"en": "Happy to have a quick call, next week works, just say when."
+},
+"Klinkt interessant. Hoe zou dat werken dan?": {
+"en": "Sounds interesting. How would that work?"
+},
+"Interessant, ik wil graag bekijken of jullie iets voor ons kunnen betekenen. Wanneer heb je tijd voor een korte call?": {
+"en": "Interesting, I would like to see whether you can do something for us. When do you have time for a short call?"
+},
+"Wij zijn nu op vakantie maar willen je bellen als we thuis zijn. Wat is jouw 06 nummer?": {
+"en": "We are on holiday now but would like to call you when we are back. What is your mobile number?"
+},
+"Zeker interessant om naar de mogelijkheden te kijken.": {
+"en": "Definitely interesting to look at the options."
+},
+"Ik wil daar volgende week wel even over bellen.": {
+"en": "I would be happy to call about that next week."
+},
+"Ben benieuwd of je kunt besparen voor me.": {
+"en": "Curious whether you can save me money."
+},
+"Echte reacties, geanonimiseerd. Alleen wat een gesprek waard is gaat naar jouw mailbox.": {
+"en": "Real replies, anonymised. Only what is worth a conversation goes to your inbox."
+},
+"Plan je gratis fitcheck": {
+"en": "Book your free fit check"
+},
+"Plan je gratis fitcheck →": {
+"en": "Book your free fit check →"
+},
+"Dat is precies wat we in de gratis fitcheck uitzoeken: we kijken naar jouw niche, doelgroep en aanbod en zeggen je welke aantallen realistisch zijn. Past het niet, dan hoor je dat ook.": {
+"en": "That's exactly what we sort out in the free fit check: we look at your niche, audience and offer and tell you which numbers are realistic. If it's not a fit, you'll hear that too."
+},
+"800.000+": {
+"en": "800,000+"
+},
+"Afspraak ingepland": {
+"en": "Meeting booked"
+},
+"Donderdag 11:00 · Teams": {
+"en": "Thursday 11:00 · Teams"
+},
+"Nieuwe positieve reactie": {
+"en": "New positive reply"
+},
+"Doorgestuurd naar je mailbox": {
+"en": "Forwarded to your inbox"
+},
+"Kies je antwoord en plan direct je gratis fitcheck van 30 minuten. Geen verplichtingen.": {
+"en": "Pick your answer and book your free 30-minute fit check right away. No obligations."
 }
 };
