@@ -8321,6 +8321,18 @@ window.L2L_I18N_DATA = {
 "Cold email bureau voor B2B in Nederland": {
 "en": "B2B cold email agency in the Netherlands"
 },
+"30 minuten, gratis en vrijblijvend. Pakketten vanaf €995 per maand.": {
+"en": "30 minutes, free and without obligation. Packages from EUR 995 per month."
+},
+"mails verstuurd": {
+"en": "emails sent"
+},
+"op positieve reacties": {
+"en": "on positive replies"
+},
+"Liever eerst een vraag?": {
+"en": "Questions first?"
+},
 "Zo snel mogelijk": {
 "en": "As soon as we can"
 },

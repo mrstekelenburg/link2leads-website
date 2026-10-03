@@ -2605,9 +2605,47 @@ a.hero-fact:hover span{text-decoration:underline;text-underline-offset:3px;text-
 .hcta-alt:hover span{color:#fff;text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(255,255,255,.3)}
 .hcta-sub{font-size:13px;color:rgba(255,255,255,.5);margin:0 0 18px}
 @media(max-width:760px){.hcta{gap:14px}.hcta-main{width:100%;justify-content:center;padding:17px 20px}.hcta-alt{width:100%;justify-content:center}.hcta-sub{text-align:center}}
-.hero-eyebrow{display:inline-flex;align-items:center;gap:9px;margin:0 0 18px;padding:7px 14px;border-radius:999px;font-size:13px;font-weight:700;letter-spacing:.2px;color:#BFD4FF;background:rgba(47,111,237,.10);border:1px solid rgba(91,143,245,.28)}
-.he-dot{width:7px;height:7px;border-radius:50%;background:#4ADE80;box-shadow:0 0 0 4px rgba(74,222,128,.15)}
-@media(max-width:760px){.hero-eyebrow{font-size:12px;margin-bottom:14px}}
+/* rustige regel onder de knop */
+.hcta{margin:6px 0 12px !important}
+.hcta-sub{font-size:13.5px !important;color:rgba(255,255,255,.5) !important;margin:0 0 30px !important;text-align:left !important}
+.hstats{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;max-width:520px;border-top:1px solid rgba(255,255,255,.08);padding-top:20px}
+.hstat{display:flex;flex-direction:column;gap:3px;padding:0 26px;border-left:1px solid rgba(255,255,255,.08);text-decoration:none}
+.hstat:first-child{padding-left:0;border-left:0}
+.hstat b{font-size:19px;font-weight:800;color:#fff;letter-spacing:-.3px;line-height:1.15}
+.hs-star{color:#F5B301;font-size:16px}
+.hstat span:not(.hs-star){font-size:12.5px;color:rgba(255,255,255,.5);line-height:1.3}
+a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
+@media(max-width:760px){
+ .hcta-sub{text-align:center !important;margin-bottom:26px !important}
+ .hstats{grid-template-columns:repeat(3,1fr);max-width:none;padding-top:18px}
+ .hstat{padding:0 10px;align-items:center;text-align:center}
+ .hstat:first-child{padding-left:0}
+ .hstat b{font-size:17px}
+ .hstat span:not(.hs-star){font-size:12px}
+}
+/* widget op mobiel: geen labels, vaste rijen, niets dat buiten de rij valt */
+@media(max-width:700px){
+ .inbox-pill.top{display:none !important}
+ .inbox-badge{display:none}
+ .inbox-bar-l{font-size:14px !important}
+ .inbox-tag{display:none !important}
+ .inbox-row{grid-template-columns:auto 1fr !important;grid-template-rows:auto !important;height:100px !important;padding:14px 16px !important;gap:0 13px !important;align-content:center;overflow:hidden}
+ .inbox-av{grid-row:auto !important;width:36px !important;height:36px !important}
+ .inbox-txt{grid-column:2}
+ .inbox-who{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:3px !important}
+ .inbox-msg{-webkit-line-clamp:2 !important;font-size:13.5px !important;line-height:1.45 !important}
+ .inbox-list{height:300px !important}
+ .inbox-wrap{padding-top:6px !important}
+ .inbox-pill-row{justify-content:flex-start}
+ .inbox-pill-row .fx-cal{margin:14px 0 0 !important;animation:none}
+}
+.hcta-sub{margin-bottom:10px !important}
+.hcta-contact{display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px;margin:0 0 30px;font-size:13.5px;color:rgba(255,255,255,.5)}
+.hcta-contact a{display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,.85);font-weight:600;text-decoration:none;transition:color .2s ease}
+.hcta-contact a:hover{color:#fff}
+.hc-wa svg{color:#4ADE80}
+.hc-tel svg{color:#7EB3FF}
+@media(max-width:760px){.hcta-sub{margin-bottom:10px !important}.hcta-contact{justify-content:center;margin-bottom:26px;gap:6px 16px}.hcta-contact{gap:6px 14px;font-size:13px}}
 </style>
 </head>
 <body>
@@ -2741,7 +2779,6 @@ a.hero-fact:hover span{text-decoration:underline;text-underline-offset:3px;text-
 <div class="hero-wrap">
 <div class="hero">
 <div>
-<p class="hero-eyebrow"><span class="he-dot" aria-hidden="true"></span>Cold email bureau voor B2B in Nederland</p>
 <h1 class="hero-h">
 <span class="blue">Salesafspraken in je agenda</span> zonder zelf acquisitie te doen
       </h1>
@@ -2750,24 +2787,15 @@ a.hero-fact:hover span{text-decoration:underline;text-underline-offset:3px;text-
       </p>
 <div class="hcta">
 <a class="hcta-main" href="/book" onclick="if(window.l2lTrack)l2lTrack('hero_fitcheck_click');"><span>Plan je gratis fitcheck</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-<a class="hcta-alt" href="https://wa.me/31850805381?text=Hoi%20Link2Leads%2C%20ik%20heb%20een%20vraag%3A%20" target="_blank" rel="noopener" onclick="if(window.l2lTrack)l2lTrack('hero_whatsapp_click');"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.2.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.2z"/></svg><span>Liever eerst een vraag stellen?</span></a>
 </div>
-<div class="hcta-sub">30 minuten, gratis en zonder verplichtingen. Je kiest zelf een moment.</div>
-<p class="hero-note">Vanaf €995 per maand, all-in en zonder setupfee.</p>
-<div class="hero-proof">
-<a aria-label="4,8 sterren op Google Reviews, bekijk de reviews" class="hero-google-badge" href="#reviews">
-<svg fill="none" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg>
-<span class="hgb-rating">4,8</span>
-<span aria-hidden="true" class="hgb-stars"><span class="hgb-stars-fill" style="width:94%">★★★★★</span>★★★★★</span>
-<span class="hgb-label">Google Reviews</span>
-</a>
-<span class="hero-fact"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span><b>800.000+</b> mails verstuurd namens klanten</span></span>
-<a class="hero-fact" href="#garantie"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg><span><b>Garantie</b> op positieve reacties in je contract</span></a>
-<a class="hero-call" href="tel:+31850805381">
-<svg aria-hidden="true" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17"><path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.8 2 2 0 0 1 3.1 1.6h2.6a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L6.8 9.3a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"></path></svg>
-Bel ons: 085 080 5381
-</a>
+<div class="hcta-sub">30 minuten, gratis en vrijblijvend. Pakketten vanaf €995 per maand.</div>
+<div class="hcta-contact"><span class="hc-q">Liever eerst een vraag?</span><a class="hc-wa" href="https://wa.me/31850805381?text=Hoi%20Link2Leads%2C%20ik%20heb%20een%20vraag%3A%20" target="_blank" rel="noopener" onclick="if(window.l2lTrack)l2lTrack('hero_whatsapp_click');"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.2.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.2z"/></svg><span>WhatsApp</span></a><a class="hc-tel" href="tel:+31850805381" onclick="if(window.l2lTrack)l2lTrack('hero_call_click');"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.8 2 2 0 0 1 3.1 1.6h2.6a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L6.8 9.2a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span>085 080 5381</span></a></div>
+<div class="hstats">
+<a class="hstat" href="#reviews"><b>4,8 <span class="hs-star" aria-hidden="true">★</span></b><span>Google Reviews</span></a>
+<div class="hstat"><b>800.000+</b><span>mails verstuurd</span></div>
+<a class="hstat" href="#garantie"><b>Garantie</b><span>op positieve reacties</span></a>
 </div>
+
 </div>
 <div class="hero-right reveal">
 <div class="inbox-wrap">
@@ -4307,7 +4335,7 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=38"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=40"></script>
 <script src="/assets/tracking.js"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
