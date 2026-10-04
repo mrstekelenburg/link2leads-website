@@ -258,6 +258,7 @@ module.exports = async (req, res) => {
     const now = Date.now();
 
     for (const ev of events) {
+      if (/fit check with Link2Leads/i.test(String(ev.bodyPreview || ''))) continue; // internationale boeking (link2leads.co) heeft eigen herinneringen
       const minutes = (ev.startUtc.getTime() - now) / 60000;
       const p = prospectOf(ev);
       const wie = `${p.name || '?'} ${ev.startUtc.toISOString().slice(0, 16)}`;
