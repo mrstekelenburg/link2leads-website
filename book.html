@@ -866,7 +866,8 @@ async function book(){
         time:selSlot,
         dateKey:selD.getFullYear()+'-'+String(selD.getMonth()+1).padStart(2,'0')+'-'+String(selD.getDate()).padStart(2,'0'),
         dateObj:selD.toISOString(),
-        pakket:PAKKET_LABEL
+        pakket:PAKKET_LABEL,
+        partner:(window.l2lRef?window.l2lRef():'')
       })
     });
     const data=await res.json();

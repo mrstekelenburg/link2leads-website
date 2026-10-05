@@ -1,5 +1,6 @@
 const nodemailer = require('nodemailer');
 const graph = require('./_graph');
+const { partnerFor } = require('./_partners');
 
 const M = require('./_mail');
 const { esc, weekdayOf, KLANT_URL, SIGNER } = M;
@@ -209,11 +210,15 @@ module.exports = async (req, res) => {
     const icsAttach = ics ? [{ filename: 'fitcheck-link2leads.ics', content: ics, contentType: 'text/calendar; charset=utf-8; method=REQUEST' }] : [];
     const icsAlt = ics ? [{ contentType: 'text/calendar; charset=utf-8; method=REQUEST', content: ics }] : [];
 
+    // Partner die deze boeking heeft aangebracht (?ref=... op de site)
+    const partner = partnerFor(b.partner);
+    const partnerLabel = partner ? (partner.bekend ? `${partner.naam} (${partner.commissie})` : `onbekende partnercode: ${partner.code}`) : '';
+
     // Naar Demi
     await t.sendMail({
       from, to: notify, replyTo: b.email,
       attachments: icsAttach,
-      subject: `Nieuwe boeking — ${b.name}${b.companyName ? ' (' + b.companyName + ')' : ''} · ${b.date} ${b.time}${b.pakket ? ' · ' + String(b.pakket).split(' (')[0] : ''}`,
+      subject: `Nieuwe boeking — ${b.name}${b.companyName ? ' (' + b.companyName + ')' : ''} · ${b.date} ${b.time}${b.pakket ? ' · ' + String(b.pakket).split(' (')[0] : ''}${partner ? ' · via partner ' + partner.naam : ''}`,
       html: M.shell({
         title: 'Nieuwe fitcheck geboekt',
         badge: 'Intern',
@@ -229,7 +234,8 @@ module.exports = async (req, res) => {
             ['Telefoon', b.phone],
             ['Datum', b.date],
             ['Tijd', `${b.time} (Nederlandse tijd) · 30 minuten`],
-            ['Pakket', b.pakket ? String(b.pakket).slice(0, 200) : '']
+            ['Pakket', b.pakket ? String(b.pakket).slice(0, 200) : ''],
+            ['Partner', partnerLabel]
           ]),
           M.spacer(20),
           calendar

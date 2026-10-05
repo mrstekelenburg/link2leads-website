@@ -37,3 +37,27 @@
     }
   };
 })();
+
+/* Partnercode (?ref=...) onthouden, 90 dagen, laatste klik telt.
+   Wordt bij een boeking meegestuurd zodat de partner de klant toegeschreven krijgt. */
+(function () {
+  var KEY = 'l2l_ref', DAYS = 90;
+  try {
+    var r = new URLSearchParams(location.search).get('ref');
+    r = r ? String(r).toLowerCase().trim() : '';
+    if (/^[a-z0-9-]{1,40}$/.test(r)) {
+      localStorage.setItem(KEY, JSON.stringify({ code: r, t: Date.now() }));
+      if (window.l2lTrack) window.l2lTrack('partner_ref', { partner: r });
+    }
+  } catch (e) {}
+  window.l2lRef = function () {
+    try {
+      var r = new URLSearchParams(location.search).get('ref');
+      r = r ? String(r).toLowerCase().trim() : '';
+      if (/^[a-z0-9-]{1,40}$/.test(r)) return r;
+      var v = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (v && v.code && Date.now() - v.t < DAYS * 864e5) return v.code;
+    } catch (e) {}
+    return '';
+  };
+})();
