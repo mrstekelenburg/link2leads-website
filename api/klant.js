@@ -94,10 +94,13 @@ module.exports = async (req, res) => {
     // inbox ziet wie je het eerst moet bellen.
     const m = meta || {};
     const kort = [m.startmoment, m.waarde].filter(Boolean).join(' · ');
+    // Add-ons zijn het haakje voor de upsell in de fitcheck, dus die staan
+    // ook in de onderwerpregel. "Alleen e-mail" hoort daar niet bij.
+    const addons = String(m.addons || '').split(', ').filter(a => a && !/^Voor nu alleen e-mail$/i.test(a)).join(', ');
 
     await t.sendMail({
       from, to: notify, replyTo: email,
-      subject: `Vragenlijst ingevuld — ${name}${company ? ' (' + company + ')' : ''}${kort ? ' · ' + kort : ''} · ${ref}`,
+      subject: `Vragenlijst ingevuld — ${name}${company ? ' (' + company + ')' : ''}${kort ? ' · ' + kort : ''}${addons ? ' · Add-ons: ' + addons : ''} · ${ref}`,
       html: M.shell({
         title: 'Volledige vragenlijst ingevuld',
         badge: 'Intern',
@@ -118,7 +121,8 @@ module.exports = async (req, res) => {
           M.detailTable([
             ['Startmoment', m.startmoment],
             ['Klantwaarde', m.waarde],
-            ['Capaciteit', m.capaciteit ? m.capaciteit + ' gesprekken per week' : '']
+            ['Capaciteit', m.capaciteit ? m.capaciteit + ' gesprekken per week' : ''],
+            ['Add-ons', m.addons ? m.addons + ' · haakje voor de fitcheck' : '']
           ]),
           `<div style="height:26px;line-height:26px;font-size:0;">&nbsp;</div>`,
           M.label('Antwoorden'),

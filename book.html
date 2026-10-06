@@ -594,7 +594,7 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
             <div class="sp-time">De bevestiging staat in je mail. Boekingsnr. <strong id="qRef">-</strong></div>
           </div>
         </div>
-        <p style="font-size:14px;color:var(--muted,#9aa3b2);line-height:1.6;margin:0 0 8px;">Je fitcheck staat vast. Vier korte vragen helpen ons om met een concreet plan te komen in plaats van eerst alles uit te vragen. Drie ervan zijn aanklikken, samen een minuut werk. Daarna vragen we je de volledige vragenlijst in te vullen (18 vragen, ongeveer 8 minuten, de laatste vier optioneel): dat is de basis voor de beste fitcheck.</p>
+        <p style="font-size:14px;color:var(--muted,#9aa3b2);line-height:1.6;margin:0 0 8px;">Je fitcheck staat vast. Vier korte vragen helpen ons om met een concreet plan te komen in plaats van eerst alles uit te vragen. Drie ervan zijn aanklikken, samen een minuut werk. Daarna vragen we je de volledige vragenlijst in te vullen (13 vragen, ongeveer 6 minuten, de laatste twee optioneel): dat is de basis voor de beste fitcheck.</p>
         <p style="font-size:13.5px;line-height:1.6;margin:0 0 18px;"><a href="#" onclick="skipAnswers();return false;" style="color:var(--accent2,#5B8DEF);text-decoration:underline;text-underline-offset:3px;">Liever niet nu, ik vertel het in de call</a></p>
 
         <div class="fg"><label>Wat verkoop je, en aan wie?</label><textarea id="q1" placeholder="Bijv. ERP-software voor productiebedrijven van 20 tot 100 medewerkers"></textarea></div>
@@ -645,7 +645,7 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
           <div class="slot-preview" style="border-color:rgba(47,111,237,0.35);margin-top:18px;text-align:left;">
             <div class="sp-info">
               <div class="sp-date" style="color:var(--accent2,#5B8DEF);">Nog een stap: de vragenlijst</div>
-              <div class="sp-time">18 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 8 minuten. Vul hem nu in, dan komen we in de fitcheck direct met een plan in plaats van eerst alles uit te vragen.</div>
+              <div class="sp-time">13 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 6 minuten. Vul hem nu in, dan komen we in de fitcheck direct met een plan in plaats van eerst alles uit te vragen.</div>
               <a class="btn btn-primary" id="klantLink" href="/klant" style="text-decoration:none;margin-top:12px;">Vul de vragenlijst in</a>
             </div>
           </div>
@@ -829,7 +829,7 @@ const PAKKET_LABEL=(function(){
   try{
     const q=new URLSearchParams(location.search);
     const PK={starter:['Starter',995,'100 mails per dag'],growth:['Growth',1295,'250 mails per dag'],scale:['Scale',1695,'500 mails per dag'],pro:['Pro',1995,'1.000 mails per dag']};
-    const AO={hp:['Hyperpersonalisatie',{starter:300,growth:350,scale:450,pro:550}],fs:['Full Service',{scale:600,pro:800}]};
+    const AO={hp:['Hyperpersonalisatie',{starter:300,growth:350,scale:450,pro:550}],li:['LinkedIn erbij',{starter:350,growth:350,scale:350,pro:350}],fs:['Full Service',{scale:600,pro:800}]};
     const pk=q.get('pakket'); if(!pk||!PK[pk])return '';
     let tot=PK[pk][1], parts=[PK[pk][0]+' (<span>'+PK[pk][2]+'</span>)'];
     (q.get('addons')||'').split(',').forEach(function(k){ if(AO[k]&&AO[k][1][pk]!=null){tot+=AO[k][1][pk];parts.push('<span>'+AO[k][0]+'</span>');} });
@@ -955,6 +955,8 @@ function setKlantLink(){
   if(bookingName) q.set('naam',bookingName);
   if(bookingEmail) q.set('email',bookingEmail);
   const c=document.getElementById('fCompany').value.trim(); if(c) q.set('bedrijf',c);
+  // Add-ons uit de samensteller op de homepage staan in de vragenlijst dan al aan.
+  try{const ao=new URLSearchParams(location.search).get('addons'); if(ao) q.set('addons',ao);}catch(e){}
   a.href='/klant'+(q.toString()?'?'+q.toString():'');
 }
 
@@ -970,7 +972,7 @@ function reset(){
 
 renderCal();renderSlots();
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=41"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=42"></script>
 <script src="/assets/tracking.js"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
