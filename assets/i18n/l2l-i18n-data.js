@@ -10258,5 +10258,323 @@ window.L2L_I18N_DATA = {
 },
 "Kies je antwoord en plan direct je gratis fitcheck van 30 minuten. Geen verplichtingen.": {
 "en": "Pick your answer and book your free 30-minute fit check right away. No obligations."
+},
+"Is koude e-mail opdringerig? Waar de grens ligt | Link2Leads": {
+"en": "Is cold email pushy? Where the line is | Link2Leads"
+},
+"Wanneer een koude mail opdringerig wordt, wat ontvangers in de praktijk terugschrijven en hoe je voorkomt dat je naam eronder lijdt.": {
+"en": "When a cold email becomes pushy, what recipients actually write back and how to keep your name from suffering for it."
+},
+"Is koude e-mail opdringerig? Waar de grens ligt": {
+"en": "Is cold email pushy? Where the line is"
+},
+"Is koude e-mail": {
+"en": "Is cold email"
+},
+"opdringerig?": {
+"en": "pushy?"
+},
+"Wat vinden de mensen die jouw mail krijgen ervan, en wat doet het met je naam als iemand kortaf terugschrijft? Waar de grens ligt en hoe wij ervoor zorgen dat je aan de goede kant blijft.": {
+"en": "What do the people who receive your email think of it, and what does it do to your name when someone writes back curtly? Where the line is and how we make sure you stay on the right side of it."
+},
+"6 oktober 2026": {
+"en": "6 October 2026"
+},
+"Leestijd 6 minuten": {
+"en": "Reading time 6 minutes"
+},
+"Waar de grens ligt": {
+"en": "Where the line is"
+},
+"Wat ontvangers terugschrijven": {
+"en": "What recipients write back"
+},
+"Hoe wij het inrichten": {
+"en": "How we set it up"
+},
+"Je domein en je naam": {
+"en": "Your domain and your name"
+},
+"Wie overweegt om bedrijven koud te mailen, denkt meestal eerst aan de ontvanger. Terecht. Je mailt namens je eigen bedrijf, met je eigen naam eronder, naar mensen die er niet om gevraagd hebben. Die vraag komt in fitchecks dan ook vaak op tafel.": {
+"en": "Anyone considering cold emailing companies usually thinks of the recipient first. Rightly so. You email on behalf of your own company, with your own name underneath, to people who did not ask for it. So the question comes up often in fit checks."
+},
+"Een koude mail wordt opdringerig als hij niets met de ontvanger te maken heeft, of als hij blijft komen nadat iemand nee heeft gezegd. Een korte mail van een herkenbare afzender, die over het bedrijf van de ontvanger gaat en stopt zodra iemand dat vraagt, is gewone zakelijke post. Wie geen interesse heeft, laat hem liggen of zegt nee. Daar houdt het op.": {
+"en": "A cold email becomes pushy when it has nothing to do with the recipient, or when it keeps coming after someone has said no. A short email from a recognisable sender, about the recipient's company, that stops as soon as someone asks, is ordinary business mail. Anyone who is not interested ignores it or says no. That is where it ends."
+},
+"Een deel van de ontvangers reageert altijd kortaf. Dat hoort erbij. Het zegt weinig over hoe jouw bedrijf in de markt staat.": {
+"en": "Some recipients will always reply curtly. That comes with it. It says little about how your company is seen in the market."
+},
+"Bijna iedereen die een bedrijf runt, krijgt elke week mail van partijen die hij niet kent. Het meeste daarvan verdwijnt ongelezen in het archief, en daar maakt niemand zich druk om.": {
+"en": "Almost everyone who runs a business gets email every week from parties they do not know. Most of it disappears unread into the archive, and nobody worries about that."
+},
+"Irritatie ontstaat op een paar vaste plekken. De mail is zichtbaar naar een hele lijst tegelijk gestuurd, met een aanbod dat niets te maken heeft met wat de ontvanger doet. Of er komt na een duidelijk nee gewoon de volgende mail.": {
+"en": "Irritation arises in a few familiar places. The email has obviously been sent to a whole list at once, with an offer that has nothing to do with what the recipient does. Or after a clear no, the next email simply arrives."
+},
+"En dan zijn er de trucjes. Een onderwerpregel die begint met \"Re:\" terwijl er nooit eerder contact was. Een vage vraag over een factuur die niet bestaat. Wie zo binnenkomt, heeft het gesprek verloren voordat het begint, en de ontvanger onthoudt de afzender.": {
+"en": "And then there are the tricks. A subject line starting with \"Re:\" when there was never any previous contact. A vague question about an invoice that does not exist. Whoever comes in like that has lost the conversation before it starts, and the recipient remembers the sender."
+},
+"Het verschil zit dus in de uitvoering. Een mail die laat zien dat je weet wat het bedrijf doet, en die een vraag stelt waar de ontvanger in een zin op kan antwoorden, wordt zelden als opdringerig ervaren. Ook niet door wie nee zegt.": {
+"en": "So the difference lies in the execution. An email that shows you know what the company does, and asks a question the recipient can answer in one sentence, is rarely experienced as pushy. Not even by those who say no."
+},
+"Wie koud mailt, krijgt alle soorten reacties terug. Uit onze eigen campagnes, ook de campagnes waarin we Link2Leads zelf onder de aandacht brengen, komen antwoorden als \"Nee, geen belangstelling\" en \"Graag geen mails meer\". Soms schrijft iemand dat hij niet zit te wachten op indringende acquisitie. Een ander zegt dat hij er in november naar kijkt.": {
+"en": "Anyone who sends cold email gets every kind of reply back. Our own campaigns, including the ones in which we promote Link2Leads itself, bring in answers like \"No, not interested\" and \"Please no more emails\". Sometimes someone writes that they are not waiting for intrusive sales outreach. Another says they will look at it in November."
+},
+"Zo'n reactie voelt de eerste keer persoonlijk. Dat is hij zelden. Iemand heeft het druk, krijgt je mail op een slecht moment en tikt een paar woorden terug. Een dag later is hij het vergeten.": {
+"en": "A reply like that feels personal the first time. It rarely is. Someone is busy, gets your email at a bad moment and types a few words back. A day later they have forgotten it."
+},
+"Wat wel blijft hangen, is wat er daarna gebeurt. Wie vraagt om te stoppen en toch nog een mail krijgt, heeft een reden om boos te worden. Wie daarna niets meer hoort, heeft die reden niet.": {
+"en": "What does stick is what happens next. Someone who asks you to stop and still gets another email has a reason to get angry. Someone who hears nothing more afterwards does not."
+},
+"Die nee-reacties krijg je bij ons overigens niet te zien. Wij lezen elke reactie met de hand. Afmeldingen en \"geen interesse\" handelen wij af, en alleen wat een gesprek waard is gaat door naar jouw mailbox.": {
+"en": "By the way, with us you never see those no replies. We read every reply by hand. We handle unsubscribes and \"not interested\" ourselves, and only what is worth a conversation is passed on to your inbox."
+},
+"Een paar keuzes maken het verschil tussen een mail die gelezen wordt en een mail die ergert. Deze staan bij ons vast, voor elke klant.": {
+"en": "A few choices make the difference between an email that gets read and an email that annoys. With us these are fixed, for every client."
+},
+"Een aanleiding per bedrijf.": {
+"en": "A reason per company."
+},
+"We zoeken per bedrijf naar een reden om nu te mailen, zoals een openstaande vacature of een nieuwe vestiging. De mail verwijst daarnaar, zodat de eerste zin over de ontvanger gaat.": {
+"en": "For each company we look for a reason to email now, such as an open vacancy or a new location. The email refers to it, so the first sentence is about the recipient."
+},
+"Hooguit drie mails per bedrijf.": {
+"en": "At most three emails per company."
+},
+"Een eerste mail en twee opvolgmails. Daarna houdt het op, ook als er geen antwoord komt.": {
+"en": "A first email and two follow-ups. After that it stops, even if no answer comes."
+},
+"Een herkenbare afzender.": {
+"en": "A recognisable sender."
+},
+"Een echte naam boven de mail, van een bedrijf dat je kunt opzoeken op een domein dat naar een echte site leidt.": {
+"en": "A real name on the email, from a company you can look up, on a domain that leads to a real website."
+},
+"Nee is nee, overal.": {
+"en": "No means no, everywhere."
+},
+"Wie zich afmeldt, komt op een suppressielijst die over al onze campagnes heen werkt. Die afmeldingen bewaren we ook nadat een samenwerking is gestopt.": {
+"en": "Anyone who unsubscribes goes on a suppression list that works across all our campaigns. We keep those unsubscribes even after a collaboration has ended."
+},
+"Korte teksten die jij goedkeurt.": {
+"en": "Short copy that you approve."
+},
+"Een mail die je op je telefoon in een keer leest. Je keurt de teksten goed voordat ze de deur uit gaan.": {
+"en": "An email you can read on your phone in one go. You approve the copy before it goes out."
+},
+"Wat er wettelijk in je mail moet staan en wanneer je iemand zakelijk mag mailen, staat apart uitgewerkt in": {
+"en": "What your email legally has to contain and when you may email someone for business is covered separately in"
+},
+"Twee zorgen horen we in fitchecks steeds terug. De eerste gaat over je domein. Wij versturen nooit vanaf het hoofddomein van je bedrijf. Alles loopt via aparte verzenddomeinen die wij opzetten en beheren, zodat je gewone mail er niets van merkt. Hoe dat technisch in elkaar zit, lees je in": {
+"en": "We hear two concerns again and again in fit checks. The first is about your domain. We never send from your company's main domain. Everything runs through separate sending domains that we set up and manage, so your regular email notices nothing. How that works technically is explained in"
+},
+"De tweede gaat over je naam in de markt. Daar helpt eigenlijk maar een ding: een mail versturen waar je zelf achter staat. Klinkt een zin als iets wat jij nooit tegen een klant zou zeggen, dan gaat hij eruit voordat de campagne live gaat.": {
+"en": "The second is about your name in the market. Really only one thing helps there: sending an email you stand behind yourself. If a sentence sounds like something you would never say to a client, it comes out before the campaign goes live."
+},
+"Is je markt zo klein dat iedereen elkaar kent, dan zeggen we dat in de fitcheck. Onder ongeveer 1.000 bedrijven raden we koude e-mail af.": {
+"en": "If your market is so small that everyone knows each other, we will say so in the fit check. Below roughly 1,000 companies we advise against cold email."
+},
+"Vinden ontvangers koude e-mail vervelend?": {
+"en": "Do recipients find cold email annoying?"
+},
+"Sommigen wel, en die laten dat weten. Wie een korte mail krijgt die over zijn eigen bedrijf gaat, reageert of laat hem liggen. Irritatie ontstaat vooral bij mails die niets met de ontvanger te maken hebben en bij mails die doorgaan nadat iemand nee heeft gezegd.": {
+"en": "Some do, and they let you know. Someone who gets a short email about their own company replies or leaves it. Irritation mainly arises with emails that have nothing to do with the recipient and with emails that keep coming after someone has said no."
+},
+"Hoeveel mails krijgt een bedrijf van jullie?": {
+"en": "How many emails does a company get from you?"
+},
+"Hooguit drie: een eerste mail en twee opvolgmails. Daarna houdt het op, ook als er geen antwoord komt.": {
+"en": "At most three: a first email and two follow-ups. After that it stops, even if no answer comes."
+},
+"Wat gebeurt er als iemand zich afmeldt?": {
+"en": "What happens when someone unsubscribes?"
+},
+"Het adres gaat op een suppressielijst die over al onze campagnes heen werkt. Die afmelding blijft staan, ook nadat jouw campagne is gestopt.": {
+"en": "The address goes on a suppression list that works across all our campaigns. That unsubscribe stays in place, even after your campaign has ended."
+},
+"Krijg ik de boze reacties te zien?": {
+"en": "Will I see the angry replies?"
+},
+"Nee. Wij lezen elke reactie met de hand en handelen afmeldingen en \"geen interesse\" zelf af. Naar jouw mailbox gaat alleen wat een gesprek waard is.": {
+"en": "No. We read every reply by hand and handle unsubscribes and \"not interested\" ourselves. Only what is worth a conversation goes to your inbox."
+},
+"Nee. Wij versturen alleen vanaf aparte verzenddomeinen die wij opzetten en beheren. Je hoofddomein en je gewone mail blijven daarbuiten.": {
+"en": "No. We only send from separate sending domains that we set up and manage. Your main domain and your regular email stay out of it."
+},
+"Twijfel je hoe jouw mail zou overkomen?": {
+"en": "Unsure how your email would come across?"
+},
+"In de gratis fitcheck van 30 minuten kijken we samen naar je doelgroep en je aanbod, en zeggen we eerlijk of koude e-mail bij jouw markt past. Past het niet, dan hoor je dat ook.": {
+"en": "In the free 30-minute fit check we look at your target audience and your offer together, and tell you plainly whether cold email suits your market. If it does not, you will hear that too."
+},
+"Lees eerst de regels": {
+"en": "Read the rules first"
+},
+"Acquisitie terwijl je agenda vol zit: waarom nu beginnen? | Link2Leads": {
+"en": "Prospecting while your calendar is full: why start now? | Link2Leads"
+},
+"Waarom een drukke periode een goed moment is om met acquisitie te beginnen, hoe lang het duurt voordat er gesprekken komen en wanneer wachten verstandig is.": {
+"en": "Why a busy period is a good moment to start prospecting, how long it takes before conversations come in and when waiting is sensible."
+},
+"Acquisitie terwijl je agenda vol zit: waarom nu beginnen?": {
+"en": "Prospecting while your calendar is full: why start now?"
+},
+"Acquisitie terwijl": {
+"en": "Prospecting while"
+},
+"je agenda vol zit?": {
+"en": "your calendar is full?"
+},
+"We zitten vol, kijk er over een paar maanden nog eens naar. Een begrijpelijke reactie. Waarom juist een drukke periode een goed startmoment kan zijn, en wanneer wachten wel verstandig is.": {
+"en": "We are fully booked, look at it again in a few months. An understandable reaction. Why a busy period in particular can be a good moment to start, and when waiting is the sensible choice."
+},
+"De vertraging die je niet ziet": {
+"en": "The delay you do not see"
+},
+"Wat een volle agenda je oplevert": {
+"en": "What a full calendar gives you"
+},
+"Geen tijd voor de gesprekken": {
+"en": "No time for the conversations"
+},
+"Wanneer wachten verstandig is": {
+"en": "When waiting is sensible"
+},
+"Als je agenda vol zit, voelt acquisitie als iets voor later. Het werk is er en een extra gesprek past deze maand gewoon niet. Toch zit er tijd tussen het moment dat je begint en het moment dat er gesprekken uit komen. Wie pas start als het stil wordt, merkt die tijd precies op het verkeerde moment.": {
+"en": "When your calendar is full, prospecting feels like something for later. The work is there and an extra conversation simply does not fit this month. Yet there is time between the moment you start and the moment conversations come out of it. If you only start when things go quiet, you notice that time at exactly the wrong moment."
+},
+"Een campagne levert pas na een paar weken gesprekken op. Bij ons staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste reacties doorgaans 3 tot 10 dagen daarna. Vanaf de tweede maand weet je welke segmenten reageren.": {
+"en": "A campaign only produces conversations after a few weeks. With us the setup is ready within 14 days, the campaign goes live in week 3 and the first replies usually come in 3 to 10 days after that. From the second month you know which segments respond."
+},
+"Begin je pas als je agenda leeg is, dan zit je dus een flinke periode zonder nieuwe gesprekken. Begin je nu, dan liggen die gesprekken klaar op het moment dat er ruimte komt. En met een volle agenda kun je kiezen met wie je verder praat.": {
+"en": "So if you only start when your calendar is empty, you face a long stretch without new conversations. If you start now, those conversations are ready the moment space opens up. And with a full calendar you can choose who you continue talking to."
+},
+"Heb je structureel meer werk dan je aankunt en wil je ook niet groeien? Dan heb je dit niet nodig. Dat zeggen we in de fitcheck dan ook gewoon.": {
+"en": "Do you structurally have more work than you can handle and no wish to grow? Then you do not need this. We will simply tell you so in the fit check."
+},
+"Klantwerk heeft bijna altijd een einddatum. Een project wordt opgeleverd, of een vaste klant besteedt een jaar minder uit. Veel ondernemers kennen die golf: een paar maanden te druk, daarna ineens ruimte in de agenda.": {
+"en": "Client work almost always has an end date. A project is delivered, or a regular client outsources less for a year. Many business owners know that wave: a few months too busy, then suddenly space in the calendar."
+},
+"Acquisitie loopt achter die golf aan. Je begint pas als het rustig wordt. De eerste mails gaan een paar weken later de deur uit, en tegen de tijd dat de gesprekken komen, is de rustige periode al een tijd bezig.": {
+"en": "Prospecting runs behind that wave. You only start when things get quiet. The first emails go out a few weeks later, and by the time the conversations come in, the quiet period has been going on for a while."
+},
+"Zo ziet de opstart er bij ons uit:": {
+"en": "This is what the start looks like with us:"
+},
+"Wanneer": {
+"en": "When"
+},
+"Doelgroep bepalen, lijst opbouwen, verzenddomeinen en mailboxen opzetten en warmdraaien, teksten schrijven": {
+"en": "Defining the target audience, building the list, setting up and warming up sending domains and mailboxes, writing the copy"
+},
+"Live, startend op een derde van het volume": {
+"en": "Live, starting at a third of the volume"
+},
+"Week 3 tot 5": {
+"en": "Week 3 to 5"
+},
+"Eerste reacties in jouw mailbox": {
+"en": "First replies in your inbox"
+},
+"Vanaf maand 2": {
+"en": "From month 2"
+},
+"Volume schuift naar de segmenten die reageren": {
+"en": "Volume shifts to the segments that respond"
+},
+"Nieuwe teksten laten we bovendien drie weken draaien voordat we ze beoordelen. Wat de eerste maand je leert, gebruik je in de tweede. Die leertijd zit er altijd in. Je kunt hem wel eerder laten beginnen.": {
+"en": "On top of that, we let new copy run for three weeks before we judge it. What the first month teaches you, you use in the second. That learning time is always there. You can make it start earlier, though."
+},
+"Wie dringend gesprekken nodig heeft, neemt elke klant aan die ja zegt. Wie vol zit, kan nee zeggen. Dat is een sterke positie om acquisitie vanuit te doen.": {
+"en": "If you urgently need conversations, you take on every client who says yes. If you are fully booked, you can say no. That is a strong position to prospect from."
+},
+"Je kunt de campagne daar ook op inrichten. Mail alleen het segment waar je het liefst meer van wilt hebben, bijvoorbeeld bedrijven van een bepaalde omvang of in de regio waar je al werkt. Een scherp afgebakende doelgroep levert minder reacties op. Die reacties komen wel van de bedrijven die je wilt.": {
+"en": "You can set up the campaign for that too. Only email the segment you would most like more of, for example companies of a certain size or in the region where you already work. A sharply defined audience produces fewer replies. Those replies do come from the companies you want."
+},
+"Je hoeft ook niet meteen te bellen. Een positieve reactie van nu kan prima een gesprek over een paar weken worden. Zeg dat gewoon in je antwoord. De reactie staat in je eigen mailbox, dus jij bepaalt wanneer je hem oppakt.": {
+"en": "You also do not have to call right away. A positive reply today can easily become a conversation in a few weeks. Just say so in your answer. The reply is in your own inbox, so you decide when to pick it up."
+},
+"Geen tijd voor de gesprekken?": {
+"en": "No time for the conversations?"
+},
+"Meestal is dat het eigenlijke bezwaar. De mails kunnen best de deur uit, maar wie gaat er opvolgen als iedereen al vol zit?": {
+"en": "That is usually the real objection. The emails can go out just fine, but who will follow up when everyone is already fully booked?"
+},
+"Begin dan klein. Starter verstuurt 3.000 mails per maand voor € 995, zeven dagen per week. Dat geeft een volume dat naast een volle werkweek past, en je bouwt alvast de lijst en de teksten op die je later nodig hebt.": {
+"en": "Then start small. Starter sends 3,000 emails per month for EUR 995, seven days a week. That gives a volume that fits alongside a full working week, and you already build up the list and the copy you will need later."
+},
+"Wil je het opvolgen helemaal uit handen geven, dan kan dat op Scale en Pro met de Full Service-module. Wij beantwoorden dan de reacties en zetten de afspraak direct in je agenda. Is er bij jou structureel niemand voor de opvolging, dan kan zusterbedrijf": {
+"en": "If you want to hand over follow-up completely, that is possible on Scale and Pro with the Full Service module. We then answer the replies and put the meeting straight into your calendar. If there is structurally nobody on your side to follow up, sister company"
+},
+"er een setter op zetten.": {
+"en": "can put a setter on it."
+},
+"Er zijn goede redenen om het uit te stellen. Je hebt geen ruimte om nieuwe klanten te bedienen, ook niet over drie maanden. Of je aanbod gaat binnenkort veranderen en je wilt niet mailen over iets wat er straks anders uitziet.": {
+"en": "There are good reasons to postpone. You have no room to serve new clients, not even in three months. Or your offer is about to change and you do not want to email about something that will soon look different."
+},
+"Houd ook rekening met de looptijd. De eerste termijn is drie maanden, omdat de eerste twee weken warmup zijn en nieuwe teksten drie weken moeten draaien voordat je iets kunt beoordelen. Daarna loopt het maandelijks door. Begin dus op een moment dat je die eerste drie maanden kunt benutten.": {
+"en": "Also keep the term in mind. The first term is three months, because the first two weeks are warmup and new copy has to run for three weeks before you can judge anything. After that it continues monthly. So start at a moment when you can make use of those first three months."
+},
+"gratis marktscan": {
+"en": "free market scan"
+},
+"Waarom met acquisitie beginnen als ik het al druk heb?": {
+"en": "Why start prospecting when I am already busy?"
+},
+"Omdat er weken zitten tussen de start en de eerste gesprekken. Bij ons staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste reacties doorgaans 3 tot 10 dagen later. Wie nu begint, heeft gesprekken klaarliggen als er ruimte komt.": {
+"en": "Because there are weeks between the start and the first conversations. With us the setup is ready within 14 days, the campaign goes live in week 3 and the first replies usually come in 3 to 10 days later. If you start now, you have conversations ready when space opens up."
+},
+"Kan ik een positieve reactie ook later opvolgen?": {
+"en": "Can I follow up on a positive reply later?"
+},
+"Ja. Je kunt een geïnteresseerde reactie beantwoorden met een voorstel voor een gesprek over een paar weken. De reactie staat in je eigen mailbox, dus je bepaalt zelf wanneer je hem oppakt.": {
+"en": "Yes. You can answer an interested reply with a proposal for a conversation in a few weeks. The reply is in your own inbox, so you decide when to pick it up."
+},
+"Wat is het kleinste pakket?": {
+"en": "What is the smallest package?"
+},
+"Starter: 3.000 mails per maand voor € 995, all-in. De eerste termijn is drie maanden, daarna is het maandelijks opzegbaar.": {
+"en": "Starter: 3,000 emails per month for EUR 995, all-in. The first term is three months, after that you can cancel monthly."
+},
+"Kunnen jullie de afspraken voor mij inplannen?": {
+"en": "Can you schedule the meetings for me?"
+},
+"Op Scale en Pro wel, met de Full Service-module. Wij beantwoorden dan de reacties en zetten de afspraak direct in je agenda.": {
+"en": "On Scale and Pro, yes, with the Full Service module. We then answer the replies and put the meeting straight into your calendar."
+},
+"Is dit voor jou een goed moment om te beginnen?": {
+"en": "Is this a good moment for you to start?"
+},
+"In de gratis fitcheck van 30 minuten kijken we naar je doelgroep en je opvolgcapaciteit, en zeggen we of nu een goed moment is om te starten. Is het dat niet, dan hoor je dat ook.": {
+"en": "In the free 30-minute fit check we look at your target audience and your follow-up capacity, and tell you whether now is a good moment to start. If it is not, you will hear that too."
+},
+"Werkwijze · 6 min": {
+"en": "How we work · 6 min"
+},
+"Is koude e-mail opdringerig?": {
+"en": "Is cold email pushy?"
+},
+"Wanneer een koude mail ergert, wat ontvangers in de praktijk terugschrijven en hoe je voorkomt dat je naam eronder lijdt.": {
+"en": "When a cold email annoys, what recipients actually write back and how to keep your name from suffering for it."
+},
+"Timing · 6 min": {
+"en": "Timing · 6 min"
+},
+"Acquisitie terwijl je agenda vol zit?": {
+"en": "Prospecting while your calendar is full?"
+},
+"Waarom een drukke periode een goed startmoment is, hoe lang het duurt voordat er gesprekken komen en wanneer je beter kunt wachten.": {
+"en": "Why a busy period is a good moment to start, how long it takes before conversations come in and when you are better off waiting."
+},
+"Waar de grens ligt voor de ontvanger": {
+"en": "Where the line is for the recipient"
+},
+"Waarom een drukke periode een goed startmoment is": {
+"en": "Why a busy period is a good moment to start"
+},
+"Twijfel je nog, dan is de": {
+"en": "Still in doubt? Then the"
+},
+"een goede eerste stap. Je hoort binnen een werkdag hoeveel bedrijven er in je doelgroep passen en welk maandvolume realistisch is, zonder verplichting.": {
+"en": "is a good first step. Within one working day you will hear how many companies fit your target audience and which monthly volume is realistic, without obligation."
 }
 };
