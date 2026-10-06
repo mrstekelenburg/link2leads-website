@@ -1,6 +1,6 @@
 # Link2Leads, volledige tekst van alle kennispagina's
 
-Laatst bijgewerkt: 25 september 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
+Laatst bijgewerkt: 6 oktober 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
 Alle cijfers komen uit campagnes die Link2Leads namens klanten draait, gemeten op 2 september 2026.
 
 
@@ -1401,6 +1401,172 @@ Een minimumaantal verzonden mails per maand, plus wat er gebeurt als een dag uit
 
 **Hoe lang zit ik vast?**
 In deze markt is drie maanden gebruikelijk, en dat is terecht: de eerste twee weken zijn warmup en nieuwe teksten moeten drie weken draaien voordat je iets kunt beoordelen. Vraag wat er daarna geldt. Bij ons loopt het na drie maanden maandelijks door.
+
+
+==============================================================================
+# Is koude e-mail opdringerig?
+Bron: https://www.link2leads.nl/kennis/is-koude-email-opdringerig
+==============================================================================
+
+Wat vinden de mensen die jouw mail krijgen ervan, en wat doet het met je naam als iemand kortaf terugschrijft? Waar de grens ligt en hoe wij ervoor zorgen dat je aan de goede kant blijft.
+
+Wie overweegt om bedrijven koud te mailen, denkt meestal eerst aan de ontvanger. Terecht. Je mailt namens je eigen bedrijf, met je eigen naam eronder, naar mensen die er niet om gevraagd hebben. Die vraag komt in fitchecks dan ook vaak op tafel.
+
+
+## Het korte antwoord
+
+Een koude mail wordt opdringerig als hij niets met de ontvanger te maken heeft, of als hij blijft komen nadat iemand nee heeft gezegd. Een korte mail van een herkenbare afzender, die over het bedrijf van de ontvanger gaat en stopt zodra iemand dat vraagt, is gewone zakelijke post. Wie geen interesse heeft, laat hem liggen of zegt nee. Daar houdt het op.
+
+Een deel van de ontvangers reageert altijd kortaf. Dat hoort erbij. Het zegt weinig over hoe jouw bedrijf in de markt staat.
+
+
+## Waar de grens ligt
+
+Bijna iedereen die een bedrijf runt, krijgt elke week mail van partijen die hij niet kent. Het meeste daarvan verdwijnt ongelezen in het archief, en daar maakt niemand zich druk om.
+
+Irritatie ontstaat op een paar vaste plekken. De mail is zichtbaar naar een hele lijst tegelijk gestuurd, met een aanbod dat niets te maken heeft met wat de ontvanger doet. Of er komt na een duidelijk nee gewoon de volgende mail.
+
+En dan zijn er de trucjes. Een onderwerpregel die begint met “Re:” terwijl er nooit eerder contact was. Een vage vraag over een factuur die niet bestaat. Wie zo binnenkomt, heeft het gesprek verloren voordat het begint, en de ontvanger onthoudt de afzender.
+
+Het verschil zit dus in de uitvoering. Een mail die laat zien dat je weet wat het bedrijf doet, en die een vraag stelt waar de ontvanger in een zin op kan antwoorden, wordt zelden als opdringerig ervaren. Ook niet door wie nee zegt.
+
+
+## Wat ontvangers terugschrijven
+
+Wie koud mailt, krijgt alle soorten reacties terug. Uit onze eigen campagnes, ook de campagnes waarin we Link2Leads zelf onder de aandacht brengen, komen antwoorden als “Nee, geen belangstelling” en “Graag geen mails meer”. Soms schrijft iemand dat hij niet zit te wachten op indringende acquisitie. Een ander zegt dat hij er in november naar kijkt.
+
+Zo’n reactie voelt de eerste keer persoonlijk. Dat is hij zelden. Iemand heeft het druk, krijgt je mail op een slecht moment en tikt een paar woorden terug. Een dag later is hij het vergeten.
+
+Wat wel blijft hangen, is wat er daarna gebeurt. Wie vraagt om te stoppen en toch nog een mail krijgt, heeft een reden om boos te worden. Wie daarna niets meer hoort, heeft die reden niet.
+
+Die nee-reacties krijg je bij ons overigens niet te zien. Wij lezen elke reactie met de hand. Afmeldingen en “geen interesse” handelen wij af, en alleen wat een gesprek waard is gaat door naar jouw mailbox.
+
+
+## Hoe wij het inrichten
+
+Een paar keuzes maken het verschil tussen een mail die gelezen wordt en een mail die ergert. Deze staan bij ons vast, voor elke klant.
+
+- Een aanleiding per bedrijf. We zoeken per bedrijf naar een reden om nu te mailen, zoals een openstaande vacature of een nieuwe vestiging. De mail verwijst daarnaar, zodat de eerste zin over de ontvanger gaat.
+- Hooguit drie mails per bedrijf. Een eerste mail en twee opvolgmails. Daarna houdt het op, ook als er geen antwoord komt.
+- Een herkenbare afzender. Een echte naam boven de mail, van een bedrijf dat je kunt opzoeken op een domein dat naar een echte site leidt.
+- Nee is nee, overal. Wie zich afmeldt, komt op een suppressielijst die over al onze campagnes heen werkt. Die afmeldingen bewaren we ook nadat een samenwerking is gestopt.
+- Korte teksten die jij goedkeurt. Een mail die je op je telefoon in een keer leest. Je keurt de teksten goed voordat ze de deur uit gaan.
+
+Wat er wettelijk in je mail moet staan en wanneer je iemand zakelijk mag mailen, staat apart uitgewerkt in mag koude e-mail in Nederland.
+
+
+## Je domein en je naam
+
+Twee zorgen horen we in fitchecks steeds terug. De eerste gaat over je domein. Wij versturen nooit vanaf het hoofddomein van je bedrijf. Alles loopt via aparte verzenddomeinen die wij opzetten en beheren, zodat je gewone mail er niets van merkt. Hoe dat technisch in elkaar zit, lees je in waarom komen je koude mails niet aan.
+
+De tweede gaat over je naam in de markt. Daar helpt eigenlijk maar een ding: een mail versturen waar je zelf achter staat. Klinkt een zin als iets wat jij nooit tegen een klant zou zeggen, dan gaat hij eruit voordat de campagne live gaat.
+
+Is je markt zo klein dat iedereen elkaar kent, dan zeggen we dat in de fitcheck. Onder ongeveer 1.000 bedrijven raden we koude e-mail af.
+
+
+## Veelgestelde vragen
+
+
+**Vinden ontvangers koude e-mail vervelend?**
+Sommigen wel, en die laten dat weten. Wie een korte mail krijgt die over zijn eigen bedrijf gaat, reageert of laat hem liggen. Irritatie ontstaat vooral bij mails die niets met de ontvanger te maken hebben en bij mails die doorgaan nadat iemand nee heeft gezegd.
+
+
+**Hoeveel mails krijgt een bedrijf van jullie?**
+Hooguit drie: een eerste mail en twee opvolgmails. Daarna houdt het op, ook als er geen antwoord komt.
+
+
+**Wat gebeurt er als iemand zich afmeldt?**
+Het adres gaat op een suppressielijst die over al onze campagnes heen werkt. Die afmelding blijft staan, ook nadat jouw campagne is gestopt.
+
+
+**Krijg ik de boze reacties te zien?**
+Nee. Wij lezen elke reactie met de hand en handelen afmeldingen en “geen interesse” zelf af. Naar jouw mailbox gaat alleen wat een gesprek waard is.
+
+
+**Loopt mijn eigen domein risico?**
+Nee. Wij versturen alleen vanaf aparte verzenddomeinen die wij opzetten en beheren. Je hoofddomein en je gewone mail blijven daarbuiten.
+
+
+==============================================================================
+# Acquisitie terwijl je agenda vol zit?
+Bron: https://www.link2leads.nl/kennis/acquisitie-als-je-agenda-vol-zit
+==============================================================================
+
+We zitten vol, kijk er over een paar maanden nog eens naar. Een begrijpelijke reactie. Waarom juist een drukke periode een goed startmoment kan zijn, en wanneer wachten wel verstandig is.
+
+Als je agenda vol zit, voelt acquisitie als iets voor later. Het werk is er en een extra gesprek past deze maand gewoon niet. Toch zit er tijd tussen het moment dat je begint en het moment dat er gesprekken uit komen. Wie pas start als het stil wordt, merkt die tijd precies op het verkeerde moment.
+
+
+## Het korte antwoord
+
+Een campagne levert pas na een paar weken gesprekken op. Bij ons staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste reacties doorgaans 3 tot 10 dagen daarna. Vanaf de tweede maand weet je welke segmenten reageren.
+
+Begin je pas als je agenda leeg is, dan zit je dus een flinke periode zonder nieuwe gesprekken. Begin je nu, dan liggen die gesprekken klaar op het moment dat er ruimte komt. En met een volle agenda kun je kiezen met wie je verder praat.
+
+Heb je structureel meer werk dan je aankunt en wil je ook niet groeien? Dan heb je dit niet nodig. Dat zeggen we in de fitcheck dan ook gewoon.
+
+
+## De vertraging die je niet ziet
+
+Klantwerk heeft bijna altijd een einddatum. Een project wordt opgeleverd, of een vaste klant besteedt een jaar minder uit. Veel ondernemers kennen die golf: een paar maanden te druk, daarna ineens ruimte in de agenda.
+
+Acquisitie loopt achter die golf aan. Je begint pas als het rustig wordt. De eerste mails gaan een paar weken later de deur uit, en tegen de tijd dat de gesprekken komen, is de rustige periode al een tijd bezig.
+
+Zo ziet de opstart er bij ons uit:
+
+Wanneer	Wat er gebeurt
+Week 1 en 2	Doelgroep bepalen, lijst opbouwen, verzenddomeinen en mailboxen opzetten en warmdraaien, teksten schrijven
+Week 3	Live, startend op een derde van het volume
+Week 3 tot 5	Eerste reacties in jouw mailbox
+Vanaf maand 2	Volume schuift naar de segmenten die reageren
+
+Nieuwe teksten laten we bovendien drie weken draaien voordat we ze beoordelen. Wat de eerste maand je leert, gebruik je in de tweede. Die leertijd zit er altijd in. Je kunt hem wel eerder laten beginnen.
+
+
+## Wat een volle agenda je oplevert
+
+Wie dringend gesprekken nodig heeft, neemt elke klant aan die ja zegt. Wie vol zit, kan nee zeggen. Dat is een sterke positie om acquisitie vanuit te doen.
+
+Je kunt de campagne daar ook op inrichten. Mail alleen het segment waar je het liefst meer van wilt hebben, bijvoorbeeld bedrijven van een bepaalde omvang of in de regio waar je al werkt. Een scherp afgebakende doelgroep levert minder reacties op. Die reacties komen wel van de bedrijven die je wilt.
+
+Je hoeft ook niet meteen te bellen. Een positieve reactie van nu kan prima een gesprek over een paar weken worden. Zeg dat gewoon in je antwoord. De reactie staat in je eigen mailbox, dus jij bepaalt wanneer je hem oppakt.
+
+
+## Geen tijd voor de gesprekken?
+
+Meestal is dat het eigenlijke bezwaar. De mails kunnen best de deur uit, maar wie gaat er opvolgen als iedereen al vol zit?
+
+Begin dan klein. Starter verstuurt 3.000 mails per maand voor € 995, zeven dagen per week. Dat geeft een volume dat naast een volle werkweek past, en je bouwt alvast de lijst en de teksten op die je later nodig hebt.
+
+Wil je het opvolgen helemaal uit handen geven, dan kan dat op Scale en Pro met de Full Service-module. Wij beantwoorden dan de reacties en zetten de afspraak direct in je agenda. Is er bij jou structureel niemand voor de opvolging, dan kan zusterbedrijf Link2Talent er een setter op zetten.
+
+
+## Wanneer wachten verstandig is
+
+Er zijn goede redenen om het uit te stellen. Je hebt geen ruimte om nieuwe klanten te bedienen, ook niet over drie maanden. Of je aanbod gaat binnenkort veranderen en je wilt niet mailen over iets wat er straks anders uitziet.
+
+Houd ook rekening met de looptijd. De eerste termijn is drie maanden, omdat de eerste twee weken warmup zijn en nieuwe teksten drie weken moeten draaien voordat je iets kunt beoordelen. Daarna loopt het maandelijks door. Begin dus op een moment dat je die eerste drie maanden kunt benutten.
+
+Twijfel je nog, dan is de gratis marktscan een goede eerste stap. Je hoort binnen een werkdag hoeveel bedrijven er in je doelgroep passen en welk maandvolume realistisch is, zonder verplichting.
+
+
+## Veelgestelde vragen
+
+
+**Waarom met acquisitie beginnen als ik het al druk heb?**
+Omdat er weken zitten tussen de start en de eerste gesprekken. Bij ons staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste reacties doorgaans 3 tot 10 dagen later. Wie nu begint, heeft gesprekken klaarliggen als er ruimte komt.
+
+
+**Kan ik een positieve reactie ook later opvolgen?**
+Ja. Je kunt een geïnteresseerde reactie beantwoorden met een voorstel voor een gesprek over een paar weken. De reactie staat in je eigen mailbox, dus je bepaalt zelf wanneer je hem oppakt.
+
+
+**Wat is het kleinste pakket?**
+Starter: 3.000 mails per maand voor € 995, all-in. De eerste termijn is drie maanden, daarna is het maandelijks opzegbaar.
+
+
+**Kunnen jullie de afspraken voor mij inplannen?**
+Op Scale en Pro wel, met de Full Service-module. Wij beantwoorden dan de reacties en zetten de afspraak direct in je agenda.
 
 
 ==============================================================================
