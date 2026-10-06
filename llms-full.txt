@@ -275,6 +275,8 @@ Bron: https://www.link2leads.nl/kennis/hoeveel-reacties-op-30000-mails
 
 Elk bureau in deze markt noemt een reply rate. Hieronder staat die van ons, waar hij vandaan komt, en welk getal je bij elke aanbieder moet opvragen voordat je tekent.
 
+De cijfers komen uit campagnes die Link2Leads namens klanten draait: ruim 800.000 verstuurde mails vanaf ongeveer 170 eigen mailboxen. De best draaiende campagne van Link2Leads zit op 9,1 procent reply rate.
+
 ## Onze best draaiende campagne
 
 Een trainingsbureau, opgesplitst in drie aparte doelgroepsegmenten met per segment een eigen insteek. De cijfers van het grootste segment, gemeten op 2 september 2026:
@@ -398,6 +400,8 @@ Er zijn drie manieren om aan koude e-mail te komen: zelf doen, een bureau op een
 Een Nederlands bureau dat je cold-e-mailcampagne volledig uitvoert, kost tussen de € 995 en € 2.200 per maand. Zelf doen kost aan tooling € 280 tot € 1.315 per maand, plus de uren van iemand die het draait. Leaddata is daarin verreweg de grootste post. Resultaatmodellen beginnen rond € 500 per maand en lopen op met wat er binnenkomt, tot een plafond dat je vooraf vaststelt.
 
 Dat zijn de bedragen. De vraag die je eigenlijk stelt is: wat kost mij een gesprek met een potentiële klant? Daar komen we onderaan op terug.
+
+Link2Leads zit met € 995 tot € 1.995 per maand in het eerste segment, all-in. Setup, warmup, verzenddomeinen, mailboxen en verzendsoftware zitten in de prijs.
 
 ## Model 1: zelf doen
 
@@ -531,6 +535,8 @@ Bron: https://www.link2leads.nl/kennis/mag-koude-email-nederland
 ==============================================================================
 
 Kort antwoord: naar zakelijke ontvangers mag het, onder voorwaarden. Hieronder staat wat die voorwaarden zijn, waar ze vandaan komen, en wat er per 1 juli 2026 wel en niet is veranderd.
+
+Link2Leads verstuurt namens Nederlandse B2B-bedrijven koude e-mail. De regels hieronder zijn de controle waar elke campagne van Link2Leads langs gaat.
 
 ## Twee wetten, twee vragen
 
@@ -670,7 +676,7 @@ Bron: https://www.link2leads.nl/kennis/koude-mails-komen-niet-aan
 
 Bijna iedereen die met cold email begint, denkt dat het probleem in de tekst zit. Dat is het zelden. Als je open rate onder de 20 procent zakt of je bounce rate boven de 3 procent komt, is er iets stuk in de infrastructuur, en geen enkele herschreven onderwerpregel repareert dat.
 
-Wij draaien ongeveer 170 mailboxen voor lopende klantcampagnes. Hieronder wat we in de praktijk tegenkomen, in volgorde van hoe vaak het de oorzaak is.
+Wij draaien bij Link2Leads ongeveer 170 mailboxen voor lopende klantcampagnes. Hieronder wat we in de praktijk tegenkomen, in volgorde van hoe vaak het de oorzaak is.
 
 ## 1. Je lijst is vervuild
 
@@ -798,6 +804,8 @@ Bron: https://www.link2leads.nl/kennis/cold-email-of-sdr
 ==============================================================================
 
 Dit is de vergelijking die er werkelijk toe doet, en bijna niemand maakt hem. Bureaus vergelijken zichzelf met andere bureaus. Maar de keuze op tafel bij de meeste directeuren is niet “welk bureau”, het is: nemen we iemand aan, of besteden we het uit?
+
+Wij zijn Link2Leads, een Nederlands cold-e-mailbureau. Een uitbesteed e-mailkanaal kost bij ons € 12.000 tot € 26.000 per jaar. Een eigen SDR kost in het eerste jaar € 69.000 tot € 83.000, inclusief werkgeverslasten en tooling.
 
 ## Wat een SDR werkelijk kost
 
@@ -948,6 +956,8 @@ Marktprijzen op basis van gepubliceerde tarieven van Nederlandse aanbieders en w
 
 Het bedrag per maand zegt alleen niets. De vraag die je eigenlijk stelt is: wat kost mij een gesprek met iemand die kan tekenen. Daar komen we onderaan op terug.
 
+Bij Link2Leads, een Nederlands cold-e-mailbureau, kost het e-mailkanaal € 995 tot € 1.995 per maand, all-in, voor 3.000 tot 30.000 verzonden mails per maand.
+
 
 ## Het verschil tussen een lead en een gesprek
 
@@ -1040,6 +1050,8 @@ Koude acquisitie uitbesteden betekent dat een externe partij het zoeken en benad
 Een bureau neemt vier dingen over: de lijst met bedrijven die je wilt bereiken, de teksten, de verzendinfrastructuur en het bewaken daarvan. Wat je zelf houdt is het gesprek. In Nederland betaal je voor een volledig beheerd e-mailtraject tussen de € 800 en € 2.000 per maand, met een minimale looptijd van drie maanden omdat een verzendomgeving eerst moet worden opgebouwd.
 
 De vraag die je eerst beantwoordt is niet welk bureau, maar of jouw markt groot genoeg is. Onder de duizend bedrijven in je doelgroep is een campagne binnen een paar weken door de lijst heen en betaal je voor capaciteit die je niet gebruikt.
+
+Link2Leads is zo’n bureau. Wij bouwen de lijst en schrijven de teksten, versturen vanaf onze eigen verzenddomeinen en leveren de positieve reacties in jouw mailbox. Een pakket kost € 995 tot € 1.995 per maand, all-in, met een minimale looptijd van drie maanden.
 
 
 ## Wat je precies uitbesteedt
@@ -1149,7 +1161,7 @@ Sales uitbesteden klinkt als een ding, maar er zitten drie heel verschillende af
 
 Je kunt de bovenkant van je funnel uitbesteden: het zoeken en benaderen van bedrijven tot en met de eerste geïnteresseerde reactie. Dat kost in Nederland € 800 tot € 2.000 per maand voor e-mail. Je kunt ook het gesprek zelf uitbesteden, aan een setter of closer, en dat gaat per uur of per commissie. Wat je niet kunt uitbesteden is weten waarom klanten bij je kopen, want daar is elke tekst en elk gesprek op gebouwd.
 
-Wij doen bewust alleen het eerste deel. Wij zoeken de bedrijven, mailen ze namens jou en leveren de gekwalificeerde positieve reacties af in jouw mailbox. Het gesprek voer jij, of wij zetten er een setter op.
+Link2Leads doet bewust alleen het eerste deel. Wij zoeken de bedrijven, mailen ze namens jou en leveren de gekwalificeerde positieve reacties af in jouw mailbox. Het gesprek voer jij, of wij zetten er een setter op.
 
 
 ## Drie dingen die sales uitbesteden kan betekenen
@@ -1242,6 +1254,7 @@ Uitleg mogelijk	Beperkt, vier zinnen	Volledig, in gesprek
 
 Marktbandbreedtes op basis van gepubliceerde tarieven van Nederlandse aanbieders, gecontroleerd op 22 september 2026. Onze eigen kosten per afspraak in een campagne voor een softwarebedrijf kwamen uit op € 134.
 
+Link2Leads doet zelf e-mail en LinkedIn, en geen telefonische acquisitie. Daarom staat hieronder ook gewoon wanneer bellen het betere kanaal is.
 
 ## Kosten per gesprek
 
@@ -1314,6 +1327,8 @@ De meeste leadgeneratiebureaus verkopen hetzelfde verhaal. Het verschil zit in d
 ## Het korte antwoord
 
 Vergelijk bureaus niet op het maandbedrag, maar op vier dingen die je zwart op wit kunt krijgen: wat er precies als resultaat telt, hoeveel er per maand wordt verstuurd, wat er gebeurt als dat niet wordt gehaald, en of je live kunt meekijken. Een bureau dat op die vier punten vaag blijft, is duurder dan het bedrag op de offerte.
+
+Hieronder staan de zeven vragen die je elk bureau kunt stellen, met de antwoorden die Link2Leads er zelf op geeft.
 
 
 ## De zeven vragen
@@ -1419,6 +1434,8 @@ Een koude mail wordt opdringerig als hij niets met de ontvanger te maken heeft, 
 
 Een deel van de ontvangers reageert altijd kortaf. Dat hoort erbij. Het zegt weinig over hoe jouw bedrijf in de markt staat.
 
+Link2Leads stuurt per bedrijf hooguit drie mails, verstuurt alleen vanaf aparte verzenddomeinen en zet elke afmelding op een suppressielijst die over al onze campagnes heen werkt.
+
 
 ## Waar de grens ligt
 
@@ -1499,7 +1516,7 @@ Als je agenda vol zit, voelt acquisitie als iets voor later. Het werk is er en e
 
 ## Het korte antwoord
 
-Een campagne levert pas na een paar weken gesprekken op. Bij ons staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste reacties doorgaans 3 tot 10 dagen daarna. Vanaf de tweede maand weet je welke segmenten reageren.
+Een campagne levert pas na een paar weken gesprekken op. Bij Link2Leads staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste reacties doorgaans 3 tot 10 dagen daarna. Vanaf de tweede maand weet je welke segmenten reageren.
 
 Begin je pas als je agenda leeg is, dan zit je dus een flinke periode zonder nieuwe gesprekken. Begin je nu, dan liggen die gesprekken klaar op het moment dat er ruimte komt. En met een volle agenda kun je kiezen met wie je verder praat.
 

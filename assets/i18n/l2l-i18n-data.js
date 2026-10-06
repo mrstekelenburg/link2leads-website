@@ -10727,5 +10727,65 @@ window.L2L_I18N_DATA = {
 },
 "Ongeveer 6 minuten": {
 "en": "About 6 minutes"
+},
+"Link2Leads zoekt bedrijven die passen bij jouw ideale klant en mailt ze persoonlijk namens jou. Reacties komen binnen in je eigen mailbox. Jij voert het gesprek.": {
+"en": "Link2Leads finds companies that match your ideal client and emails them personally on your behalf. Replies arrive in your own inbox. You have the conversation."
+},
+"4,8 van 5 sterren op Google Reviews": {
+"en": "4.8 out of 5 stars on Google Reviews"
+},
+"Wat koude acquisitie in Nederland werkelijk mag, werkelijk oplevert en werkelijk kost. Met de bronnen, de bedragen en de cijfers uit de lopende campagnes van Link2Leads erbij.": {
+"en": "What cold outreach in the Netherlands is really allowed to do, really delivers and really costs. With the sources, the amounts and the figures from Link2Leads' live campaigns."
+},
+"Jij vertelt Link2Leads wie je zoekt, wij tellen eerst hoeveel geschikte bedrijven er zijn. Daarna bouwen we de lijst: bedrijf, beslisser en een geverifieerd zakelijk e-mailadres, met de bron per record. Telefoonnummer en LinkedIn-profiel kun je erbij aanvinken. Wat je ermee doet bepaal je zelf. Binnen een werkdag in je mailbox als Excel of CSV.": {
+"en": "You tell Link2Leads who you are looking for, and we first count how many suitable companies there are. Then we build the list: company, decision-maker and a verified business email address, with the source per record. You can tick phone number and LinkedIn profile as extras. What you do with it is up to you. In your inbox within one working day as Excel or CSV."
+},
+"Geen gemiddelden en geen benchmarks van iemand anders. Dit zijn campagnes die Link2Leads zelf heeft gedraaid, met de investering, de cijfers en de aanpak erbij. Klik door voor de volledige case.": {
+"en": "No averages and no benchmarks from someone else. These are campaigns Link2Leads ran itself, with the investment, the numbers and the approach included. Click through for the full case."
+},
+"Bij Link2Leads staken we veel werk in het persoonlijk maken van de mail, en stuurden vervolgens iedereen die klikte naar dezelfde pagina. Precies op het moment dat iemand besluit of hij reageert, hield de personalisatie op. Dat hebben we opgelost met een eigen pagina per prospect.": {
+"en": "At Link2Leads we put a lot of work into personalising the email, and then sent everyone who clicked to the same page. Exactly at the moment someone decides whether to reply, the personalisation stopped. We solved that with a dedicated page per prospect."
+},
+"Drie heel verschillende koperstypes zaten in dezelfde doelgroep. Een campagne die alle drie tegelijk aansprak, sprak niemand echt aan. Dus heeft Link2Leads er drie campagnes van gemaakt.": {
+"en": "Three very different buyer types sat in the same target audience. A campaign that addressed all three at once really addressed nobody. So Link2Leads turned it into three campaigns."
+},
+"Een softwarebedrijf dat nieuwe klanten altijd via-via binnenkreeg, zonder structurele acquisitie. Negentig dagen na de start van de campagne van Link2Leads stonden er 38 gekwalificeerde afspraken in de agenda.": {
+"en": "A software company that always won new clients through word of mouth, without structured prospecting. Ninety days after the start of the Link2Leads campaign, there were 38 qualified meetings in the calendar."
+},
+"Een campagne levert pas na een paar weken gesprekken op. Bij Link2Leads staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste reacties doorgaans 3 tot 10 dagen daarna. Vanaf de tweede maand weet je welke segmenten reageren.": {
+"en": "A campaign only produces conversations after a few weeks. At Link2Leads the setup is ready within 14 days, the campaign goes live in week 3 and the first replies usually come in 3 to 10 days after that. From the second month you know which segments respond."
+},
+"Link2Leads is zo'n bureau. Wij bouwen de lijst en schrijven de teksten, versturen vanaf onze eigen verzenddomeinen en leveren de positieve reacties in jouw mailbox. Een pakket kost € 995 tot € 1.995 per maand, all-in, met een minimale looptijd van drie maanden.": {
+"en": "Link2Leads is such an agency. We build the list and write the copy, send from our own sending domains and deliver the positive replies to your inbox. A package costs EUR 995 to EUR 1,995 per month, all-in, with a minimum term of three months."
+},
+"Link2Leads doet zelf e-mail en LinkedIn, en geen telefonische acquisitie. Daarom staat hieronder ook gewoon wanneer bellen het betere kanaal is.": {
+"en": "Link2Leads itself does email and LinkedIn, and no phone prospecting. That is why below we also simply say when calling is the better channel."
+},
+"Wij zijn Link2Leads, een Nederlands cold-e-mailbureau. Een uitbesteed e-mailkanaal kost bij ons € 12.000 tot € 26.000 per jaar. Een eigen SDR kost in het eerste jaar € 69.000 tot € 83.000, inclusief werkgeverslasten en tooling.": {
+"en": "We are Link2Leads, a Dutch cold email agency. An outsourced email channel costs EUR 12,000 to EUR 26,000 per year with us. An in-house SDR costs EUR 69,000 to EUR 83,000 in the first year, including employer costs and tooling."
+},
+"De cijfers komen uit campagnes die Link2Leads namens klanten draait: ruim 800.000 verstuurde mails vanaf ongeveer 170 eigen mailboxen. De best draaiende campagne van Link2Leads zit op 9,1 procent reply rate.": {
+"en": "The numbers come from campaigns Link2Leads runs on behalf of clients: more than 800,000 emails sent from about 170 of our own mailboxes. Link2Leads' best performing campaign is at a 9.1 percent reply rate."
+},
+"Link2Leads stuurt per bedrijf hooguit drie mails, verstuurt alleen vanaf aparte verzenddomeinen en zet elke afmelding op een suppressielijst die over al onze campagnes heen werkt.": {
+"en": "Link2Leads sends at most three emails per company, only sends from separate sending domains and puts every unsubscribe on a suppression list that works across all our campaigns."
+},
+"Wij draaien bij Link2Leads ongeveer 170 mailboxen voor lopende klantcampagnes. Hieronder wat we in de praktijk tegenkomen, in volgorde van hoe vaak het de oorzaak is.": {
+"en": "At Link2Leads we run about 170 mailboxes for live client campaigns. Below is what we run into in practice, in order of how often it is the cause."
+},
+"Hieronder staan de zeven vragen die je elk bureau kunt stellen, met de antwoorden die Link2Leads er zelf op geeft.": {
+"en": "Below are the seven questions you can ask any agency, with the answers Link2Leads gives to them itself."
+},
+"Link2Leads verstuurt namens Nederlandse B2B-bedrijven koude e-mail. De regels hieronder zijn de controle waar elke campagne van Link2Leads langs gaat.": {
+"en": "Link2Leads sends cold email on behalf of Dutch B2B companies. The rules below are the check every Link2Leads campaign goes through."
+},
+"Link2Leads doet bewust alleen het eerste deel. Wij zoeken de bedrijven, mailen ze namens jou en leveren de gekwalificeerde positieve reacties af in jouw mailbox. Het gesprek voer jij, of wij zetten er een setter op.": {
+"en": "Link2Leads deliberately only does the first part. We find the companies, email them on your behalf and deliver the qualified positive replies to your inbox. You have the conversation, or we put a setter on it."
+},
+"Bij Link2Leads, een Nederlands cold-e-mailbureau, kost het e-mailkanaal € 995 tot € 1.995 per maand, all-in, voor 3.000 tot 30.000 verzonden mails per maand.": {
+"en": "At Link2Leads, a Dutch cold email agency, the email channel costs EUR 995 to EUR 1,995 per month, all-in, for 3,000 to 30,000 sent emails per month."
+},
+"Link2Leads zit met € 995 tot € 1.995 per maand in het eerste segment, all-in. Setup, warmup, verzenddomeinen, mailboxen en verzendsoftware zitten in de prijs.": {
+"en": "At EUR 995 to EUR 1,995 per month, Link2Leads sits in the first segment, all-in. Setup, warmup, sending domains, mailboxes and sending software are included in the price."
 }
 };
