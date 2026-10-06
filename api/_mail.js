@@ -138,14 +138,14 @@ function prepBlock(dateStr, variant, soort, who) {
     : `Vul de vragenlijst in voor de beste ${g}`;
 
   const tekst = isFull
-    ? `Je antwoorden hierboven geven me al richting. De volledige vragenlijst (18 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 8 minuten, de laatste vier optioneel) maakt het beeld compleet. Zo kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`
+    ? `Je antwoorden hierboven geven me al richting. De volledige vragenlijst (13 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 6 minuten, de laatste twee optioneel) maakt het beeld compleet. Zo kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`
     : isReminder
-    ? `De vragenlijst (18 vragen, ongeveer 8 minuten) is de basis van de ${g}. Vul hem in, dan kunnen we je ${wanneer} gericht helpen. Al gedaan? Dan hoef je niets te doen.`
-    : `Vul de vragenlijst in: 18 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 8 minuten. Een deel is aanklikken en de laatste vier mag je overslaan. Dan weet ik vooraf waar je staat en kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`;
+    ? `De vragenlijst (13 vragen, ongeveer 6 minuten) is de basis van de ${g}. Vul hem in, dan kunnen we je ${wanneer} gericht helpen. Al gedaan? Dan hoef je niets te doen.`
+    : `Vul de vragenlijst in: 13 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 6 minuten. Een deel is aanklikken en de laatste twee mag je overslaan. Dan weet ik vooraf waar je staat en kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`;
 
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;background:${C.panel};border:1px solid ${C.border2};border-radius:14px;">
     <tr><td style="padding:24px 22px;">
-      ${label('Voorbereiding · 18 vragen · 8 minuten')}
+      ${label('Voorbereiding · 13 vragen · 6 minuten')}
       <div style="font-family:${FONT};font-size:17px;font-weight:700;letter-spacing:-0.3px;color:${C.text};margin:0 0 8px;">${esc(kop)}</div>
       <p style="margin:0 0 20px;font-family:${FONT};font-size:14px;line-height:1.65;color:${C.muted};">${esc(tekst)}</p>
       ${button(klantUrl(who), 'Vul de vragenlijst in')}

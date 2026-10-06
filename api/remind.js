@@ -111,7 +111,7 @@ async function sendDag(t, ev, p, from, notify) {
       `Morgen om ${tijd} (Nederlandse tijd) staat je ${g} met Link2Leads. ${duur} via Microsoft Teams.`,
       ev.joinUrl ? `Deelnemen: ${ev.joinUrl}` : `De deelnamelink staat in je agenda-uitnodiging.`,
       ``,
-      `Vragenlijst nog niet ingevuld? Doe het nu op ${M.klantUrl({ name: p.name, email: p.email, company: p.company })} (18 vragen, ongeveer 8 minuten), dan kunnen we je in de ${g} gericht helpen. Al gedaan? Dan hoef je niets te doen.`,
+      `Vragenlijst nog niet ingevuld? Doe het nu op ${M.klantUrl({ name: p.name, email: p.email, company: p.company })} (13 vragen, ongeveer 6 minuten), dan kunnen we je in de ${g} gericht helpen. Al gedaan? Dan hoef je niets te doen.`,
       ``,
       `Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`,
       ``,

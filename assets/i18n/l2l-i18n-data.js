@@ -10576,5 +10576,156 @@ window.L2L_I18N_DATA = {
 },
 "een goede eerste stap. Je hoort binnen een werkdag hoeveel bedrijven er in je doelgroep passen en welk maandvolume realistisch is, zonder verplichting.": {
 "en": "is a good first step. Within one working day you will hear how many companies fit your target audience and which monthly volume is realistic, without obligation."
+},
+/* Vragenlijst 13 vragen + add-ons, 6 oktober 2026 */
+"· Vraag 1 van 13": {
+"en": "· Question 1 of 13"
+},
+"· Vraag 2 van 13": {
+"en": "· Question 2 of 13"
+},
+"· Vraag 3 van 13": {
+"en": "· Question 3 of 13"
+},
+"· Vraag 4 van 13": {
+"en": "· Question 4 of 13"
+},
+"· Vraag 5 van 13": {
+"en": "· Question 5 of 13"
+},
+"· Vraag 6 van 13": {
+"en": "· Question 6 of 13"
+},
+"· Vraag 7 van 13": {
+"en": "· Question 7 of 13"
+},
+"· Vraag 8 van 13": {
+"en": "· Question 8 of 13"
+},
+"· Vraag 9 van 13": {
+"en": "· Question 9 of 13"
+},
+"· Vraag 10 van 13": {
+"en": "· Question 10 of 13"
+},
+"· Vraag 11 van 13": {
+"en": "· Question 11 of 13"
+},
+"· Vraag 12 van 13": {
+"en": "· Question 12 of 13"
+},
+"· Vraag 13 van 13": {
+"en": "· Question 13 of 13"
+},
+"Wie benaderen we?": {
+"en": "Who do we approach?"
+},
+"Bedrijfsgrootte is in onze campagnes de sterkste voorspeller van reacties, dus hier kiezen we scherp.": {
+"en": "In our campaigns company size predicts replies better than anything else, so we choose carefully here."
+},
+"Bedrijfsgrootte": {
+"en": "Company size"
+},
+"Functietitels van beslissers": {
+"en": "Job titles of decision-makers"
+},
+"Waar mailen we, en wie juist niet?": {
+"en": "Where do we email, and who don't we?"
+},
+"Hiermee bakenen we de leadlijst af.": {
+"en": "This is how we draw the lines around the lead list."
+},
+"Regio's": {
+"en": "Regions"
+},
+"Sectoren, groottes of typen die niet passen. Die sluiten we uit in de targeting. Niets uit te sluiten? Laat dit leeg.": {
+"en": "Sectors, sizes or types that don't fit. We exclude those in the targeting. Nothing to exclude? Leave this empty."
+},
+"Waarom kiezen klanten voor jullie, en kun je dat laten zien?": {
+"en": "Why do clients choose you, and can you show it?"
+},
+"Het onderscheid en het bewijs horen bij elkaar. Samen maken ze de mail geloofwaardig.": {
+"en": "What sets you apart and the proof belong together. Together they make the email believable."
+},
+"Een concrete case met cijfers": {
+"en": "A concrete case with numbers"
+},
+"Een klantresultaat dat we mogen noemen in de mails, liefst met echte getallen. Dit verhoogt de conversie sterk.": {
+"en": "A client result we may name in the emails, real numbers preferred. This lifts conversion a lot."
+},
+"Hoeveel gesprekken kunnen jullie aan, en wanneer wil je starten?": {
+"en": "How many calls can you handle, and when do you want to start?"
+},
+"Hiermee bepalen we het dagvolume en de planning.": {
+"en": "This sets the daily volume and the planning."
+},
+"Meer reacties dan jullie kunnen opvolgen is weggegooid geld.": {
+"en": "More replies than you can follow up on is money thrown away."
+},
+"Over add-ons gesproken: zou een van deze extra's iets voor jullie zijn?": {
+"en": "Speaking of add-ons: could one of these extras work for you?"
+},
+"Naast de mails doen we nog drie dingen. In onze campagnes zien we dat ze de resultaten duidelijk verbeteren. Vink aan wat je interessant lijkt, dan nemen we het mee in de fitcheck.": {
+"en": "Next to the emails we do three more things. In our campaigns we see them clearly improve results. Tick what sounds interesting and we will include it in the fit check."
+},
+"Persoonlijke opening en eigen pagina": {
+"en": "Personal opener and own page"
+},
+"Elke mail opent met een zin over dat bedrijf en linkt naar een pagina met hun naam erop.": {
+"en": "Every email opens with a line about that company and links to a page with their name on it."
+},
+"Dezelfde beslissers krijgen ook een connectieverzoek en een bericht op LinkedIn.": {
+"en": "The same decision-makers also get a connection request and a message on LinkedIn."
+},
+"Opvolging door ons (Full Service)": {
+"en": "Follow-up by us (Full Service)"
+},
+"Wij reageren op de reacties en zetten de afspraak in jullie agenda. Op het Scale- en Pro-pakket.": {
+"en": "We answer the replies and put the meeting in your calendar. On the Scale and Pro packages."
+},
+"Persoonlijke opening en pagina": {
+"en": "Personal opener and page"
+},
+"Opvolging door ons": {
+"en": "Follow-up by us"
+},
+"Vertel me er in de fitcheck meer over": {
+"en": "Tell me more in the fit check"
+},
+"Voor nu alleen e-mail": {
+"en": "Email only for now"
+},
+"Wie voert de gesprekken, en welke handtekening gebruiken we?": {
+"en": "Who runs the conversations, and which signature do we use?"
+},
+"E-mailhandtekening": {
+"en": "Email signature"
+},
+"Plak hier de handtekening, of laat leeg als naam, functie en telefoon hierboven genoeg zijn.": {
+"en": "Paste the signature here, or leave it empty if the name, role and phone above are enough."
+},
+"Vanuit wie mailen we, en in welke toon?": {
+"en": "Who do we email from, and in what tone?"
+},
+"Vanuit een persoon of vanuit het bedrijf?": {
+"en": "From a person or from the company?"
+},
+"Wensen voor schrijfstijl of toon": {
+"en": "Wishes for writing style or tone"
+},
+"13 vragen, ongeveer 6 minuten. Een deel is aanklikken en de laatste twee mag je overslaan. Hoe concreter je antwoordt, hoe scherper het plan dat je terugkrijgt.": {
+"en": "13 questions, about 6 minutes. Some are just a click and the last two are yours to skip. The more concrete your answers, the sharper the plan you get back."
+},
+"13 vragen over je aanbod, je doelgroep, je bewijs en je cijfers. Hierop bouwen we de campagne.": {
+"en": "13 questions about your offer, your audience, your proof and your numbers. This is what we build the campaign on."
+},
+"13 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 6 minuten. Vul hem nu in, dan komen we in de fitcheck direct met een plan in plaats van eerst alles uit te vragen.": {
+"en": "13 questions about your offer, your audience, your proof and your numbers, about 6 minutes. Fill it in now and we come to the fit check with a plan instead of asking everything first."
+},
+"Je fitcheck staat vast. Vier korte vragen helpen ons om met een concreet plan te komen in plaats van eerst alles uit te vragen. Drie ervan zijn aanklikken, samen een minuut werk. Daarna vragen we je de volledige vragenlijst in te vullen (13 vragen, ongeveer 6 minuten, de laatste twee optioneel): dat is de basis voor de beste fitcheck.": {
+"en": "Your fit check is booked. Four short questions help us come with a concrete plan instead of asking everything first. Three of them are just a click, a minute of work in total. After that we ask you to fill in the full questionnaire (13 questions, about 6 minutes, the last two optional): that is the basis for the best fit check."
+},
+"Ongeveer 6 minuten": {
+"en": "About 6 minutes"
 }
 };
