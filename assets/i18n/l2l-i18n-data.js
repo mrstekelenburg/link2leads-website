@@ -10662,8 +10662,8 @@ window.L2L_I18N_DATA = {
 "Meer reacties dan jullie kunnen opvolgen is weggegooid geld.": {
 "en": "More replies than you can follow up on is money thrown away."
 },
-"Over add-ons gesproken: zou een van deze extra's iets voor jullie zijn?": {
-"en": "Speaking of add-ons: could one of these extras work for you?"
+"Zou een van deze extra's iets voor jullie zijn?": {
+"en": "Could one of these extras work for you?"
 },
 "Naast de mails doen we nog drie dingen. In onze campagnes zien we dat ze de resultaten duidelijk verbeteren. Vink aan wat je interessant lijkt, dan nemen we het mee in de fitcheck.": {
 "en": "Next to the emails we do three more things. In our campaigns we see them clearly improve results. Tick what sounds interesting and we will include it in the fit check."
