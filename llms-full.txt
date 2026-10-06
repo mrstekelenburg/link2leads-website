@@ -1,6 +1,6 @@
 # Link2Leads, volledige tekst van alle kennispagina's
 
-Laatst bijgewerkt: 25 september 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
+Laatst bijgewerkt: 6 oktober 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
 Alle cijfers komen uit campagnes die Link2Leads namens klanten draait, gemeten op 2 september 2026.
 
 
@@ -1401,6 +1401,186 @@ Een minimumaantal verzonden mails per maand, plus wat er gebeurt als een dag uit
 
 **Hoe lang zit ik vast?**
 In deze markt is drie maanden gebruikelijk, en dat is terecht: de eerste twee weken zijn warmup en nieuwe teksten moeten drie weken draaien voordat je iets kunt beoordelen. Vraag wat er daarna geldt. Bij ons loopt het na drie maanden maandelijks door.
+
+
+==============================================================================
+# Al tientallen koude mails per week? Waarom je er een wel leest
+Bron: https://www.link2leads.nl/kennis/koude-mail-die-wel-gelezen-wordt
+==============================================================================
+
+Wie beslist in een bedrijf, krijgt elke week koude mails. De meeste verdwijnen ongelezen. Wat de mails die wel antwoord krijgen anders doen, met cijfers uit onze eigen campagnes.
+
+Het is een van de eerste antwoorden die we zelf terugkrijgen als we koude mails versturen. Iemand schrijft kort terug dat hij dagelijks tientallen van dit soort berichten krijgt, of dat hij geen behoefte heeft aan opdringerige acquisitie. Hij heeft gelijk. De inbox van een gemiddelde directeur in het MKB staat vol met mails waarin alleen de voornaam is ingevuld en die daarna naar duizenden adressen zijn gegaan. Overweeg je zelf koude e-mail, dan is de vraag dus terecht: waarom zou jouw mail wel gelezen worden?
+
+
+## Het korte antwoord
+
+Een koude mail wordt gelezen als de ontvanger in de eerste regel ziet dat het over hem gaat. Dat lukt alleen als de lijst scherp genoeg is afgebakend om per groep een eigen boodschap te schrijven, en als er per bedrijf een aanleiding is om nu te mailen.
+
+In onze campagnes is dat verschil goed te meten. Binnen een campagne van 18.594 leads liep de reply rate per segment uiteen van 2,3 tot 7,8 procent, met precies dezelfde tekst. Op de lijsten waar elke prospect een eigen landingspagina kreeg, kwamen we op 9,1 procent. Dezelfde lijst zonder die pagina deed 3,2 procent.
+
+Hoeveel mails er in totaal de deur uitgaan, zegt daarom weinig over hoe ze ontvangen worden. Wat telt is of de ontvanger zich herkent in wat hij leest.
+
+
+## Hoe de stapel ontstaat
+
+De mails die je dagelijks wegklikt zijn bijna altijd op dezelfde manier gemaakt. Een lijst uit een database, gefilterd op branche en bedrijfsgrootte, en een tekst waarin alleen je naam en je bedrijfsnaam veranderen. Zo'n mail kost de afzender bijna niets per stuk, dus voor hem loont het om er heel veel te sturen.
+
+Als ontvanger herken je hem binnen een paar seconden. De opening gaat over de afzender en de rest had net zo goed naar je concurrent kunnen gaan. Wie dan zegt dat bureaus de markt platmailen, heeft het over dit soort campagnes.
+
+Dat bezwaar nemen we serieus, ook omdat het over de naam van onze klant gaat. Een mail namens jou die als massamail wordt herkend, zegt iets over jou.
+
+
+## Afbakenen voordat er een mail de deur uit gaat
+
+Het meeste werk gebeurt voordat er iets verstuurd wordt. In de onboarding kijken we naar wie nu al bij je koopt. Vanuit die klanten bepalen we welke bedrijven erop lijken, wie daar beslist en wat je tegen die persoon zegt.
+
+Die lijst delen we op in segmenten. Een segment is een groep bedrijven die iets gemeen heeft wat in de mail terug kan komen, zoals dezelfde branche of hetzelfde vraagstuk. Elk segment krijgt een eigen insteek.
+
+Waarom dat zo zwaar weegt, zie je terug in de cijfers. In de campagne van 18.594 leads antwoordde het beste segment ruim drie keer zo vaak als het zwakste. De tekst was in alle segmenten gelijk. We hebben het verschil met een z-test getoetst, dus toeval is het niet. Het verschil zat in hoe goed de mail aansloot bij de mensen die hem lazen.
+
+Om die reden raden we een campagne af voor doelgroepen kleiner dan ongeveer duizend bedrijven. Met minder bedrijven wordt het lastig om segmenten te maken die groot genoeg zijn om er iets van te leren.
+
+
+## De eerste zin gaat over de ontvanger
+
+Op de eerste regel beslist iemand of hij verder leest. Bij ons gaat die regel over zijn bedrijf. Vaak is dat een koopsignaal: een openstaande vacature, een nieuwe vestiging of overname, een bedrijf dat net is gaan adverteren of juist een site die jaren niet is bijgewerkt. De mail verwijst naar dat signaal, zodat de ontvanger begrijpt waarom hij hem nu krijgt. Welk signaal bij jouw aanbod past, bepalen we samen in de onboarding.
+
+Met de module Hyperpersonalisatie gaan we nog een stap verder. Dan schrijven we per prospect een openingszin op basis van echte informatie over dat ene bedrijf. Dat is per mail meer werk, en daarom is het een add-on die je op elk pakket kunt kiezen.
+
+Wat je in die eerste zin wilt vermijden, is een compliment dat over iedereen had kunnen gaan. Een zin als "ik zag dat jullie een mooi bedrijf hebben opgebouwd" herkent een beslisser net zo snel als een ingevuld naamveld.
+
+
+## Een pagina over hun eigen bedrijf
+
+Het grootste verschil dat we hebben gemeten, zat buiten de mail zelf. Voor onze eigen campagne kreeg elke prospect een landingspagina over zijn eigen bedrijf. Dat waren 1.240 pagina's. 34 procent van de prospects opende zijn pagina, en in acht weken stonden er 27 afspraken in de agenda.
+
+Een pagina met je eigen bedrijfsnaam erop laat zien dat iemand moeite voor je heeft gedaan, en dat is het onderdeel dat in een massamail ontbreekt. Je krijgt bovendien terug wie zijn pagina heeft bekeken. Dat is een warmer signaal dan een geopende mail.
+
+Hoe we dat hebben opgezet en wat het per stap opleverde, staat in de case over een landingspagina per prospect.
+
+
+## Hoe vaak we iemand mailen
+
+Opdringerig wordt het vooral als iemand blijft mailen. Wij sturen elk bedrijf drie mails: een eerste mail en twee opvolgmails. Wie niet reageert, laten we daarna met rust, en dat staat ook in de laatste mail.
+
+Vraagt iemand om te stoppen, dan stoppen we direct. Die afmelding gaat op een suppressielijst die over al onze campagnes heen werkt. Zo krijgt diegene ook vanuit een andere campagne geen mail meer. Wat de wet vraagt rond afmelden en bezwaar, lees je in mag koude e-mail in Nederland.
+
+Elke reactie lezen we met de hand. Een "geen interesse" sturen we niet door en volgen we niet op. Naar jouw mailbox gaat alleen wat een gesprek waard is, met naam, functie en contactgegevens erbij.
+
+Krijg je zelf elke week tientallen koude mails, kijk dan eens welke je de afgelopen maand wel hebt beantwoord. Grote kans dat de eerste zin van die mail over jou ging.
+
+
+## Veelgestelde vragen
+
+
+**Hoe vaak mailt Link2Leads hetzelfde bedrijf?**
+Drie keer: een eerste mail en twee opvolgmails. Wie niet reageert, krijgt daarna niets meer. Wie vraagt om te stoppen, gaat direct op een suppressielijst die over al onze campagnes heen werkt.
+
+
+**Is personalisatie niet gewoon een slim ingevuld veld?**
+Een ingevuld veld is je naam of je bedrijfsnaam. Een openingszin op basis van echte informatie over een bedrijf, of een verwijzing naar een vacature of nieuwe vestiging, maak je niet met een veld. Daar zit het verschil in hoe vaak mensen antwoorden.
+
+
+**Hoeveel reacties levert een goed afgebakende campagne op?**
+Onze best draaiende campagne zit op 9,1 procent reply rate. Binnen een campagne van 18.594 leads liep het per segment uiteen van 2,3 tot 7,8 procent bij dezelfde tekst. Wat realistisch is voor jouw doelgroep, rekenen we door in de gratis fitcheck.
+
+
+**Kost personalisatie per prospect extra?**
+De module Hyperpersonalisatie, met een eigen openingszin en een eigen pagina per prospect, kost € 300 per maand op Starter, € 350 op Growth, € 450 op Scale en € 550 op Pro. Segmentatie en het mailen op een koopsignaal zitten in elk pakket.
+
+
+
+==============================================================================
+# Nu geen goed moment? Zo lang duurt het tot de eerste reacties
+Bron: https://www.link2leads.nl/kennis/wanneer-beginnen-met-koude-email
+==============================================================================
+
+Ik kijk er over een paar maanden naar. Het is een van de meest gehoorde antwoorden op een koude mail, ook op de onze. Prima, maar reken dan wel even terug, want tussen akkoord en de eerste reacties zitten een paar weken.
+
+Op bijna elke campagne die we draaien komt dit antwoord terug. Iemand vindt het idee interessant, maar het is nu druk, het kwartaal loopt af of er moet eerst iets anders af. Hij kijkt er in november nog eens naar. Dat is een redelijk antwoord, alleen gaat het uit van een start op de dag dat je ja zegt. Bij koude e-mail werkt het anders. Er zit een opbouw van een paar weken tussen je akkoord en de eerste reacties, en die weken tellen mee in je planning.
+
+
+## Het korte antwoord
+
+Reken vanaf je akkoord op ongeveer drie weken tot de campagne live staat. De eerste reacties komen daarna doorgaans binnen drie tot tien dagen. Wil je in een bepaalde maand gesprekken voeren met nieuwe klanten, dan zet je de handtekening dus zo'n maand eerder.
+
+Een helder beeld van wat een campagne oplevert heb je na een paar maanden. Nieuwe teksten laten we minimaal drie weken draaien voordat we iets aanpassen, en vanaf de tweede maand gaat het volume naar de segmenten die het best reageren. Daarom is de eerste termijn drie maanden.
+
+
+## Van akkoord tot eerste reactie
+
+Zo ziet de opstart er bij ons uit, week voor week.
+
+Wanneer	Wat er gebeurt	Wat jij doet
+Week 1	Je ideale klant bepalen: aanbod, doelgroep, regio en beslissers. Daarna de markt bouwen, bedrijven en contactpersonen zoeken en elk adres verifiëren.	De onboardingsessie
+Week 1 en 2	Aparte verzenddomeinen en mailboxen opzetten en warmdraaien.	Niets
+Week 2	De mails schrijven, per segment een eigen boodschap inclusief opvolging.	De lijst en de teksten goedkeuren
+Week 3	Live op een derde van het volume, in twee weken naar het volledige pakket.	Niets
+Week 3 tot 5	De eerste reacties komen binnen in jouw mailbox.	De gesprekken voeren
+
+De setup staat binnen 14 dagen na akkoord. Wat er van jou nodig is in die weken, valt mee: een sessie aan het begin en een akkoord op de lijst en de teksten aan het eind van week 2.
+
+
+## Waarom het niet sneller kan
+
+De vraag waarom we niet gewoon morgen beginnen, krijgen we ook van klanten die al getekend hebben. Het antwoord zit in de mailboxen.
+
+We versturen nooit vanaf je eigen domein. Voor elke campagne zetten we nieuwe verzenddomeinen en mailboxen op, en die hebben bij mailproviders nog geen geschiedenis. Ga je daar direct honderden koude mails per dag mee versturen, dan belandt een groot deel in de spam. Daarom start de warmup twee weken voor de livedatum. De mailboxen wisselen dan elke dag een klein aantal mails uit om reputatie op te bouwen, en die warmup loopt tijdens de campagne gewoon door.
+
+Om dezelfde reden starten we op een derde van het volume en bouwen we in twee weken op naar het volledige pakket. Een mailbox die van de ene op de andere dag veel meer verstuurt, valt op. Wat we verder aan instellingen aanhouden, staat in waarom komen je koude mails niet aan.
+
+Je zou die weken kunnen overslaan door vanaf je gewone domein te mailen. Dat gaat sneller, en het zet de bezorging van al je andere mail op het spel. Daar beginnen we niet aan.
+
+
+## Wat er na de eerste reacties gebeurt
+
+De eerste reacties vertellen je dat de campagne loopt. Wat ze nog niet vertellen, is welke segmenten het meeste opleveren. Daarvoor moet er eerst genoeg verstuurd zijn. Daarom laten we nieuwe teksten minimaal drie weken draaien voordat we iets veranderen.
+
+Vanaf de tweede maand verschuift het volume naar de segmenten die reageren. Daar wordt de campagne beter van, en daarom sturen we op het aantal positieve reacties per duizend verzonden mails.
+
+De eerste termijn is drie maanden, daarna is het maandelijks opzegbaar. Op Scale en Pro leggen we in de onboarding ook vast hoeveel gekwalificeerde positieve reacties je in drie volledige campagnemaanden minimaal ontvangt, berekend op je doelgroep, aanbod en marktgrootte. Die garantie gaat over positieve reacties. Afspraken en omzet hangen af van de gesprekken die jij voert en vallen erbuiten.
+
+
+## Terugrekenen vanaf je doel
+
+De handigste manier om naar timing te kijken, is beginnen bij het moment waarop je gesprekken wilt voeren. Stel dat je in februari ruimte hebt voor nieuwe klanten. Dan wil je dat de campagne begin februari al een paar weken loopt. Reken je terug, dan teken je in de eerste helft van januari.
+
+Andersom werkt het net zo. Wie in november besluit, voert de eerste gesprekken doorgaans in december.
+
+Wat wel een goede reden is om te schuiven: je aanbod verandert nog. De teksten die we in week 2 schrijven gaan uit van wat je nu verkoopt, voor de prijs die je nu vraagt. Gaat dat over een maand anders worden, begin dan daarna.
+
+Kijk daarnaast naar je eigen opvolgcapaciteit. Een positieve reactie wil je binnen een werkdag oppakken. Is er in de weken na livegang niemand die dat kan, dan is dat een reden om de start te verplaatsen. Op Scale en Pro kun je het beantwoorden van reacties en het inplannen van afspraken ook bij ons laten, met de Full Service-module.
+
+
+## Wat je nu al kunt doen zonder te tekenen
+
+Twijfel je over het moment, dan kun je de rekensom alvast maken. De gratis marktscan laat binnen een werkdag zien hoeveel bedrijven er in je doelgroep passen, hoeveel beslissers bereikbaar zijn en welk maandvolume daarbij realistisch is. Je zit daarna nergens aan vast.
+
+In de gratis fitcheck van 30 minuten rekenen we samen door wat een campagne in jouw markt kan opleveren en wanneer je dan zou moeten beginnen om op tijd gesprekken te hebben. Past cold email niet bij je aanbod of is je doelgroep te klein, dan hoor je dat ook.
+
+
+## Veelgestelde vragen
+
+
+**Hoe snel is een campagne live?**
+De setup staat binnen 14 dagen na akkoord en de campagne start in week 3. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen.
+
+
+**Waarom kunnen jullie niet direct beginnen met mailen?**
+Omdat we nooit vanaf je eigen domein versturen. De nieuwe verzenddomeinen en mailboxen moeten eerst reputatie opbouwen bij de mailproviders, anders komen je mails in de spam. De warmup start daarom twee weken voor de livedatum.
+
+
+**Wanneer kan ik beoordelen of het werkt?**
+Nieuwe teksten draaien minimaal drie weken voordat we iets aanpassen, en vanaf de tweede maand gaat het volume naar de segmenten die het best reageren. Na drie maanden heb je een betrouwbaar beeld. Daarom is dat de eerste termijn.
+
+
+**Wat moet ik zelf doen in de opstartweken?**
+Een onboardingsessie in week 1 en het goedkeuren van de lijst en de teksten in week 2. Daarna voer je de gesprekken met wie reageert.
+
+
+**Wanneer betaal ik?**
+De eerste factuur volgt bij akkoord, de tweede twee weken na livegang en daarna maandelijks. Er is geen setupfee en geen aparte toolingrekening.
 
 
 ==============================================================================

@@ -10258,5 +10258,332 @@ window.L2L_I18N_DATA = {
 },
 "Kies je antwoord en plan direct je gratis fitcheck van 30 minuten. Geen verplichtingen.": {
 "en": "Pick your answer and book your free 30-minute fit check right away. No obligations."
+},
+"Al tientallen koude mails per week? Waarom je er een wel leest | Link2Leads": {
+"en": "Dozens of cold emails a week? Why you do read one of them | Link2Leads"
+},
+"Wat een koude mail onderscheidt van de stapel die je dagelijks wegklikt: een scherp afgebakende doelgroep, een eerste zin over jouw bedrijf en een reden om nu te mailen. Met cijfers uit onze eigen campagnes.": {
+"en": "What sets a cold email apart from the pile you click away every day: a sharply defined audience, a first sentence about your company and a reason to email now. With numbers from our own campaigns."
+},
+"Al tientallen koude mails per week? Waarom je er een wel leest": {
+"en": "Dozens of cold emails a week? Why you do read one of them"
+},
+"Al tientallen koude mails per week?": {
+"en": "Dozens of cold emails a week?"
+},
+"Waarom je er een wel leest": {
+"en": "Why you do read one of them"
+},
+"Wie beslist in een bedrijf, krijgt elke week koude mails. De meeste verdwijnen ongelezen. Wat de mails die wel antwoord krijgen anders doen, met cijfers uit onze eigen campagnes.": {
+"en": "Anyone who makes decisions in a company gets cold emails every week. Most of them disappear unread. What the emails that do get a reply do differently, with numbers from our own campaigns."
+},
+"6 oktober 2026": {
+"en": "6 October 2026"
+},
+"Hoe de stapel ontstaat": {
+"en": "How the pile builds up"
+},
+"Afbakenen voor de eerste mail": {
+"en": "Defining before the first email"
+},
+"De eerste zin": {
+"en": "The first sentence"
+},
+"Een pagina over hun bedrijf": {
+"en": "A page about their company"
+},
+"Hoe vaak we iemand mailen": {
+"en": "How often we email someone"
+},
+"Het is een van de eerste antwoorden die we zelf terugkrijgen als we koude mails versturen. Iemand schrijft kort terug dat hij dagelijks tientallen van dit soort berichten krijgt, of dat hij geen behoefte heeft aan opdringerige acquisitie. Hij heeft gelijk. De inbox van een gemiddelde directeur in het MKB staat vol met mails waarin alleen de voornaam is ingevuld en die daarna naar duizenden adressen zijn gegaan. Overweeg je zelf koude e-mail, dan is de vraag dus terecht: waarom zou jouw mail wel gelezen worden?": {
+"en": "It is one of the first replies we get back ourselves when we send cold emails. Someone writes back briefly that he gets dozens of messages like this every day, or that he has no need for pushy prospecting. He is right. The inbox of an average SME director is full of emails where only the first name was filled in and that then went out to thousands of addresses. If you are considering cold email yourself, the question is a fair one: why would your email be read?"
+},
+"Een koude mail wordt gelezen als de ontvanger in de eerste regel ziet dat het over hem gaat. Dat lukt alleen als de lijst scherp genoeg is afgebakend om per groep een eigen boodschap te schrijven, en als er per bedrijf een aanleiding is om nu te mailen.": {
+"en": "A cold email gets read when the recipient sees in the first line that it is about him. That only works if the list is defined sharply enough to write a separate message per group, and if there is a reason per company to email now."
+},
+"In onze campagnes is dat verschil goed te meten. Binnen een campagne van 18.594 leads liep de reply rate per segment uiteen van 2,3 tot 7,8 procent, met precies dezelfde tekst. Op de lijsten waar elke prospect een eigen landingspagina kreeg, kwamen we op 9,1 procent. Dezelfde lijst zonder die pagina deed 3,2 procent.": {
+"en": "In our campaigns that difference is easy to measure. Within a campaign of 18,594 leads, the reply rate per segment ranged from 2.3 to 7.8 percent, with exactly the same text. On the lists where every prospect got their own landing page, we reached 9.1 percent. The same list without that page did 3.2 percent."
+},
+"Hoeveel mails er in totaal de deur uitgaan, zegt daarom weinig over hoe ze ontvangen worden. Wat telt is of de ontvanger zich herkent in wat hij leest.": {
+"en": "How many emails go out in total therefore says little about how they are received. What counts is whether the recipient recognises himself in what he reads."
+},
+"De mails die je dagelijks wegklikt zijn bijna altijd op dezelfde manier gemaakt. Een lijst uit een database, gefilterd op branche en bedrijfsgrootte, en een tekst waarin alleen je naam en je bedrijfsnaam veranderen. Zo'n mail kost de afzender bijna niets per stuk, dus voor hem loont het om er heel veel te sturen.": {
+"en": "The emails you click away every day are nearly always made the same way. A list from a database, filtered by industry and company size, and a text in which only your name and your company name change. Such an email costs the sender almost nothing per piece, so it pays for him to send a great many of them."
+},
+"Als ontvanger herken je hem binnen een paar seconden. De opening gaat over de afzender en de rest had net zo goed naar je concurrent kunnen gaan. Wie dan zegt dat bureaus de markt platmailen, heeft het over dit soort campagnes.": {
+"en": "As a recipient you recognise it within a few seconds. The opening is about the sender and the rest could just as well have gone to your competitor. When someone says agencies flood the market with email, this is the kind of campaign they mean."
+},
+"Dat bezwaar nemen we serieus, ook omdat het over de naam van onze klant gaat. Een mail namens jou die als massamail wordt herkend, zegt iets over jou.": {
+"en": "We take that objection seriously, also because it concerns our client's name. An email on your behalf that is recognised as a mass mailing says something about you."
+},
+"Afbakenen voordat er een mail de deur uit gaat": {
+"en": "Defining the audience before an email goes out"
+},
+"Het meeste werk gebeurt voordat er iets verstuurd wordt. In de onboarding kijken we naar wie nu al bij je koopt. Vanuit die klanten bepalen we welke bedrijven erop lijken, wie daar beslist en wat je tegen die persoon zegt.": {
+"en": "Most of the work happens before anything is sent. In the onboarding we look at who already buys from you. From those clients we work out which companies resemble them, who decides there and what to say to that person."
+},
+"Die lijst delen we op in segmenten. Een segment is een groep bedrijven die iets gemeen heeft wat in de mail terug kan komen, zoals dezelfde branche of hetzelfde vraagstuk. Elk segment krijgt een eigen insteek.": {
+"en": "We split that list into segments. A segment is a group of companies that shares something that can come back in the email, such as the same industry or the same challenge. Each segment gets its own angle."
+},
+"Waarom dat zo zwaar weegt, zie je terug in de cijfers. In de campagne van 18.594 leads antwoordde het beste segment ruim drie keer zo vaak als het zwakste. De tekst was in alle segmenten gelijk. We hebben het verschil met een z-test getoetst, dus toeval is het niet. Het verschil zat in hoe goed de mail aansloot bij de mensen die hem lazen.": {
+"en": "Why that matters so much shows in the numbers. In the campaign of 18,594 leads, the best segment replied more than three times as often as the weakest. The text was identical in all segments. We tested the difference with a z-test, so it is not chance. The difference lay in how well the email fitted the people who read it."
+},
+"Om die reden raden we een campagne af voor doelgroepen kleiner dan ongeveer duizend bedrijven. Met minder bedrijven wordt het lastig om segmenten te maken die groot genoeg zijn om er iets van te leren.": {
+"en": "For that reason we advise against a campaign for audiences smaller than about a thousand companies. With fewer companies it becomes hard to build segments large enough to learn anything from."
+},
+"De eerste zin gaat over de ontvanger": {
+"en": "The first sentence is about the recipient"
+},
+"Op de eerste regel beslist iemand of hij verder leest. Bij ons gaat die regel over zijn bedrijf. Vaak is dat een koopsignaal: een openstaande vacature, een nieuwe vestiging of overname, een bedrijf dat net is gaan adverteren of juist een site die jaren niet is bijgewerkt. De mail verwijst naar dat signaal, zodat de ontvanger begrijpt waarom hij hem nu krijgt. Welk signaal bij jouw aanbod past, bepalen we samen in de onboarding.": {
+"en": "In the first line someone decides whether to read on. With us, that line is about his company. Often that is a buying signal: an open vacancy, a new location or acquisition, a company that has just started advertising or, on the contrary, a website that has not been updated in years. The email refers to that signal, so the recipient understands why he is getting it now. Which signal fits your offer, we decide together in the onboarding."
+},
+"Met de module Hyperpersonalisatie gaan we nog een stap verder. Dan schrijven we per prospect een openingszin op basis van echte informatie over dat ene bedrijf. Dat is per mail meer werk, en daarom is het een add-on die je op elk pakket kunt kiezen.": {
+"en": "With the Hyperpersonalisation module we go one step further. We then write an opening line per prospect based on real information about that one company. That is more work per email, which is why it is an add-on you can choose on any package."
+},
+"Wat je in die eerste zin wilt vermijden, is een compliment dat over iedereen had kunnen gaan. Een zin als \"ik zag dat jullie een mooi bedrijf hebben opgebouwd\" herkent een beslisser net zo snel als een ingevuld naamveld.": {
+"en": "What you want to avoid in that first sentence is a compliment that could have been about anyone. A sentence like \"I saw you have built a great company\" is recognised by a decision-maker just as quickly as a filled-in name field."
+},
+"Een pagina over hun eigen bedrijf": {
+"en": "A page about their own company"
+},
+"Het grootste verschil dat we hebben gemeten, zat buiten de mail zelf. Voor onze eigen campagne kreeg elke prospect een landingspagina over zijn eigen bedrijf. Dat waren 1.240 pagina's. 34 procent van de prospects opende zijn pagina, en in acht weken stonden er 27 afspraken in de agenda.": {
+"en": "The biggest difference we measured came from outside the email itself. For our own campaign, every prospect got a landing page about their own company. That came to 1,240 pages. 34 percent of prospects opened their page, and within eight weeks there were 27 meetings in the calendar."
+},
+"Een pagina met je eigen bedrijfsnaam erop laat zien dat iemand moeite voor je heeft gedaan, en dat is het onderdeel dat in een massamail ontbreekt. Je krijgt bovendien terug wie zijn pagina heeft bekeken. Dat is een warmer signaal dan een geopende mail.": {
+"en": "A page with your own company name on it shows that someone made an effort for you, and that is the part a mass mailing lacks. You also get back who viewed their page. That is a warmer signal than an opened email."
+},
+"Hoe we dat hebben opgezet en wat het per stap opleverde, staat in de": {
+"en": "How we set that up and what each step delivered is described in the"
+},
+"case over een landingspagina per prospect": {
+"en": "case about a landing page per prospect"
+},
+"Opdringerig wordt het vooral als iemand blijft mailen. Wij sturen elk bedrijf drie mails: een eerste mail en twee opvolgmails. Wie niet reageert, laten we daarna met rust, en dat staat ook in de laatste mail.": {
+"en": "It mostly becomes pushy when someone keeps emailing. We send each company three emails: a first email and two follow-ups. Anyone who does not reply is left alone after that, and the last email says so too."
+},
+"Vraagt iemand om te stoppen, dan stoppen we direct. Die afmelding gaat op een suppressielijst die over al onze campagnes heen werkt. Zo krijgt diegene ook vanuit een andere campagne geen mail meer. Wat de wet vraagt rond afmelden en bezwaar, lees je in": {
+"en": "If someone asks us to stop, we stop immediately. That opt-out goes onto a suppression list that works across all our campaigns. That way the person no longer gets email from another campaign either. What the law requires around opting out and objections, you can read in"
+},
+"Elke reactie lezen we met de hand. Een \"geen interesse\" sturen we niet door en volgen we niet op. Naar jouw mailbox gaat alleen wat een gesprek waard is, met naam, functie en contactgegevens erbij.": {
+"en": "We read every reply by hand. A \"not interested\" is not forwarded and not followed up. Only what is worth a conversation goes to your inbox, with name, role and contact details attached."
+},
+"Krijg je zelf elke week tientallen koude mails, kijk dan eens welke je de afgelopen maand wel hebt beantwoord. Grote kans dat de eerste zin van die mail over jou ging.": {
+"en": "If you get dozens of cold emails every week yourself, take a look at which ones you did answer last month. Chances are the first sentence of that email was about you."
+},
+"Hoe vaak mailt Link2Leads hetzelfde bedrijf?": {
+"en": "How often does Link2Leads email the same company?"
+},
+"Drie keer: een eerste mail en twee opvolgmails. Wie niet reageert, krijgt daarna niets meer. Wie vraagt om te stoppen, gaat direct op een suppressielijst die over al onze campagnes heen werkt.": {
+"en": "Three times: a first email and two follow-ups. Anyone who does not reply gets nothing more after that. Anyone who asks us to stop goes straight onto a suppression list that works across all our campaigns."
+},
+"Is personalisatie niet gewoon een slim ingevuld veld?": {
+"en": "Isn't personalisation just a cleverly filled-in field?"
+},
+"Een ingevuld veld is je naam of je bedrijfsnaam. Een openingszin op basis van echte informatie over een bedrijf, of een verwijzing naar een vacature of nieuwe vestiging, maak je niet met een veld. Daar zit het verschil in hoe vaak mensen antwoorden.": {
+"en": "A filled-in field is your name or your company name. An opening line based on real information about a company, or a reference to a vacancy or new location, cannot be made with a field. That is where the difference in how often people reply comes from."
+},
+"Hoeveel reacties levert een goed afgebakende campagne op?": {
+"en": "How many replies does a well-defined campaign deliver?"
+},
+"Onze best draaiende campagne zit op 9,1 procent reply rate. Binnen een campagne van 18.594 leads liep het per segment uiteen van 2,3 tot 7,8 procent bij dezelfde tekst. Wat realistisch is voor jouw doelgroep, rekenen we door in de gratis fitcheck.": {
+"en": "Our best-performing campaign is at a 9.1 percent reply rate. Within a campaign of 18,594 leads it ranged per segment from 2.3 to 7.8 percent with the same text. What is realistic for your audience, we work out in the free fit check."
+},
+"Kost personalisatie per prospect extra?": {
+"en": "Does personalisation per prospect cost extra?"
+},
+"De module Hyperpersonalisatie, met een eigen openingszin en een eigen pagina per prospect, kost € 300 per maand op Starter, € 350 op Growth, € 450 op Scale en € 550 op Pro. Segmentatie en het mailen op een koopsignaal zitten in elk pakket.": {
+"en": "The Hyperpersonalisation module, with its own opening line and its own page per prospect, costs € 300 per month on Starter, € 350 on Growth, € 450 on Scale and € 550 on Pro. Segmentation and emailing on a buying signal are included in every package."
+},
+"Benieuwd hoe jouw doelgroep eruitziet in segmenten?": {
+"en": "Curious what your audience looks like in segments?"
+},
+"In de gratis fitcheck van 30 minuten kijken we naar je klanten en je markt, en laten we zien hoe we jouw doelgroep zouden opdelen en met welke aanleiding we ze zouden mailen.": {
+"en": "In the free 30-minute fit check we look at your clients and your market, and show how we would split your audience and what trigger we would email them on."
+},
+"Bekijk de cases": {
+"en": "View the cases"
+},
+"Nu geen goed moment? Zo lang duurt het tot de eerste reacties | Link2Leads": {
+"en": "Not a good moment right now? This is how long it takes until the first replies | Link2Leads"
+},
+"Tussen akkoord en de eerste positieve reacties zitten bij koude e-mail een paar weken opbouw. Wat er in die weken gebeurt, waarom het niet sneller kan en hoe je terugrekent vanaf het moment dat je gesprekken wilt voeren.": {
+"en": "Between sign-off and the first positive replies, cold email has a few weeks of build-up. What happens in those weeks, why it cannot go faster and how to count back from the moment you want to have conversations."
+},
+"Nu geen goed moment? Zo lang duurt het tot de eerste reacties": {
+"en": "Not a good moment right now? This is how long it takes until the first replies"
+},
+"Nu geen goed moment?": {
+"en": "Not a good moment right now?"
+},
+"Zo lang duurt het tot de eerste reacties": {
+"en": "This is how long it takes until the first replies"
+},
+"Ik kijk er over een paar maanden naar. Het is een van de meest gehoorde antwoorden op een koude mail, ook op de onze. Prima, maar reken dan wel even terug, want tussen akkoord en de eerste reacties zitten een paar weken.": {
+"en": "I will look at it in a few months. It is one of the most common replies to a cold email, ours included. Fine, but do count back, because there are a few weeks between sign-off and the first replies."
+},
+"Van akkoord tot eerste reactie": {
+"en": "From sign-off to first reply"
+},
+"Waarom het niet sneller kan": {
+"en": "Why it cannot go faster"
+},
+"Na de eerste reacties": {
+"en": "After the first replies"
+},
+"Terugrekenen vanaf je doel": {
+"en": "Counting back from your goal"
+},
+"Wat je nu al kunt doen": {
+"en": "What you can already do now"
+},
+"Op bijna elke campagne die we draaien komt dit antwoord terug. Iemand vindt het idee interessant, maar het is nu druk, het kwartaal loopt af of er moet eerst iets anders af. Hij kijkt er in november nog eens naar. Dat is een redelijk antwoord, alleen gaat het uit van een start op de dag dat je ja zegt. Bij koude e-mail werkt het anders. Er zit een opbouw van een paar weken tussen je akkoord en de eerste reacties, en die weken tellen mee in je planning.": {
+"en": "This reply comes back on almost every campaign we run. Someone finds the idea interesting, but it is busy right now, the quarter is ending or something else has to be finished first. He will look at it again in November. That is a reasonable reply, except that it assumes a start on the day you say yes. Cold email works differently. There is a build-up of a few weeks between your sign-off and the first replies, and those weeks count in your planning."
+},
+"Reken vanaf je akkoord op ongeveer drie weken tot de campagne live staat. De eerste reacties komen daarna doorgaans binnen drie tot tien dagen. Wil je in een bepaalde maand gesprekken voeren met nieuwe klanten, dan zet je de handtekening dus zo'n maand eerder.": {
+"en": "Count on roughly three weeks from your sign-off until the campaign is live. The first replies then usually arrive within three to ten days. If you want to have conversations with new clients in a particular month, you sign about a month earlier."
+},
+"Een helder beeld van wat een campagne oplevert heb je na een paar maanden. Nieuwe teksten laten we minimaal drie weken draaien voordat we iets aanpassen, en vanaf de tweede maand gaat het volume naar de segmenten die het best reageren. Daarom is de eerste termijn drie maanden.": {
+"en": "You get a clear picture of what a campaign delivers after a few months. We let new texts run for at least three weeks before changing anything, and from the second month the volume moves to the segments that respond best. That is why the first term is three months."
+},
+"Zo ziet de opstart er bij ons uit, week voor week.": {
+"en": "This is what the start-up looks like with us, week by week."
+},
+"Wanneer": {
+"en": "When"
+},
+"Wat jij doet": {
+"en": "What you do"
+},
+"Je ideale klant bepalen: aanbod, doelgroep, regio en beslissers. Daarna de markt bouwen, bedrijven en contactpersonen zoeken en elk adres verifiëren.": {
+"en": "Defining your ideal client: offer, audience, region and decision-makers. Then building the market, finding companies and contacts and verifying every address."
+},
+"De onboardingsessie": {
+"en": "The onboarding session"
+},
+"Aparte verzenddomeinen en mailboxen opzetten en warmdraaien.": {
+"en": "Setting up and warming up separate sending domains and mailboxes."
+},
+"Niets": {
+"en": "Nothing"
+},
+"De mails schrijven, per segment een eigen boodschap inclusief opvolging.": {
+"en": "Writing the emails, a separate message per segment including follow-ups."
+},
+"De lijst en de teksten goedkeuren": {
+"en": "Approving the list and the texts"
+},
+"Live op een derde van het volume, in twee weken naar het volledige pakket.": {
+"en": "Live at a third of the volume, up to the full package within two weeks."
+},
+"Week 3 tot 5": {
+"en": "Week 3 to 5"
+},
+"De eerste reacties komen binnen in jouw mailbox.": {
+"en": "The first replies arrive in your inbox."
+},
+"De gesprekken voeren": {
+"en": "Having the conversations"
+},
+"De setup staat binnen 14 dagen na akkoord. Wat er van jou nodig is in die weken, valt mee: een sessie aan het begin en een akkoord op de lijst en de teksten aan het eind van week 2.": {
+"en": "The setup is ready within 14 days of sign-off. What is needed from you in those weeks is limited: one session at the start and an approval of the list and the texts at the end of week 2."
+},
+"De vraag waarom we niet gewoon morgen beginnen, krijgen we ook van klanten die al getekend hebben. Het antwoord zit in de mailboxen.": {
+"en": "The question of why we do not simply start tomorrow also comes from clients who have already signed. The answer lies in the mailboxes."
+},
+"We versturen nooit vanaf je eigen domein. Voor elke campagne zetten we nieuwe verzenddomeinen en mailboxen op, en die hebben bij mailproviders nog geen geschiedenis. Ga je daar direct honderden koude mails per dag mee versturen, dan belandt een groot deel in de spam. Daarom start de warmup twee weken voor de livedatum. De mailboxen wisselen dan elke dag een klein aantal mails uit om reputatie op te bouwen, en die warmup loopt tijdens de campagne gewoon door.": {
+"en": "We never send from your own domain. For every campaign we set up new sending domains and mailboxes, and those have no history with email providers yet. If you start sending hundreds of cold emails a day from them straight away, a large share ends up in spam. That is why the warm-up starts two weeks before the go-live date. The mailboxes then exchange a small number of emails every day to build reputation, and that warm-up simply continues during the campaign."
+},
+"Om dezelfde reden starten we op een derde van het volume en bouwen we in twee weken op naar het volledige pakket. Een mailbox die van de ene op de andere dag veel meer verstuurt, valt op. Wat we verder aan instellingen aanhouden, staat in": {
+"en": "For the same reason we start at a third of the volume and build up to the full package within two weeks. A mailbox that suddenly sends much more from one day to the next stands out. Which other settings we keep to is described in"
+},
+"Je zou die weken kunnen overslaan door vanaf je gewone domein te mailen. Dat gaat sneller, en het zet de bezorging van al je andere mail op het spel. Daar beginnen we niet aan.": {
+"en": "You could skip those weeks by emailing from your regular domain. That is faster, and it puts the delivery of all your other email at risk. We do not do that."
+},
+"Wat er na de eerste reacties gebeurt": {
+"en": "What happens after the first replies"
+},
+"De eerste reacties vertellen je dat de campagne loopt. Wat ze nog niet vertellen, is welke segmenten het meeste opleveren. Daarvoor moet er eerst genoeg verstuurd zijn. Daarom laten we nieuwe teksten minimaal drie weken draaien voordat we iets veranderen.": {
+"en": "The first replies tell you that the campaign is running. What they do not tell you yet is which segments deliver the most. For that, enough has to have been sent first. That is why we let new texts run for at least three weeks before changing anything."
+},
+"Vanaf de tweede maand verschuift het volume naar de segmenten die reageren. Daar wordt de campagne beter van, en daarom sturen we op het aantal positieve reacties per duizend verzonden mails.": {
+"en": "From the second month the volume shifts to the segments that respond. That makes the campaign better, and it is why we steer on the number of positive replies per thousand emails sent."
+},
+"De eerste termijn is drie maanden, daarna is het maandelijks opzegbaar. Op Scale en Pro leggen we in de onboarding ook vast hoeveel gekwalificeerde positieve reacties je in drie volledige campagnemaanden minimaal ontvangt, berekend op je doelgroep, aanbod en marktgrootte. Die garantie gaat over positieve reacties. Afspraken en omzet hangen af van de gesprekken die jij voert en vallen erbuiten.": {
+"en": "The first term is three months, after which you can cancel monthly. On Scale and Pro we also set down in the onboarding how many qualified positive replies you will receive at minimum in three full campaign months, calculated on your audience, offer and market size. That guarantee covers positive replies. Meetings and revenue depend on the conversations you have and fall outside it."
+},
+"De handigste manier om naar timing te kijken, is beginnen bij het moment waarop je gesprekken wilt voeren. Stel dat je in februari ruimte hebt voor nieuwe klanten. Dan wil je dat de campagne begin februari al een paar weken loopt. Reken je terug, dan teken je in de eerste helft van januari.": {
+"en": "The handiest way to look at timing is to start from the moment you want to have conversations. Say you have room for new clients in February. Then you want the campaign to have been running for a few weeks by early February. Counting back, you sign in the first half of January."
+},
+"Andersom werkt het net zo. Wie in november besluit, voert de eerste gesprekken doorgaans in december.": {
+"en": "It works the same the other way round. Whoever decides in November usually has the first conversations in December."
+},
+"Wat wel een goede reden is om te schuiven: je aanbod verandert nog. De teksten die we in week 2 schrijven gaan uit van wat je nu verkoopt, voor de prijs die je nu vraagt. Gaat dat over een maand anders worden, begin dan daarna.": {
+"en": "What is a good reason to postpone: your offer is still changing. The texts we write in week 2 are based on what you sell now, at the price you ask now. If that is going to be different in a month, start after that."
+},
+"Kijk daarnaast naar je eigen opvolgcapaciteit. Een positieve reactie wil je binnen een werkdag oppakken. Is er in de weken na livegang niemand die dat kan, dan is dat een reden om de start te verplaatsen. Op Scale en Pro kun je het beantwoorden van reacties en het inplannen van afspraken ook bij ons laten, met de Full Service-module.": {
+"en": "Also look at your own follow-up capacity. You want to pick up a positive reply within one working day. If nobody can do that in the weeks after go-live, that is a reason to move the start. On Scale and Pro you can also leave replying and booking meetings to us, with the Full Service module."
+},
+"Wat je nu al kunt doen zonder te tekenen": {
+"en": "What you can already do now without signing"
+},
+"Twijfel je over het moment, dan kun je de rekensom alvast maken. De": {
+"en": "In doubt about the timing? Then you can already do the maths. The"
+},
+"gratis marktscan": {
+"en": "free market scan"
+},
+"laat binnen een werkdag zien hoeveel bedrijven er in je doelgroep passen, hoeveel beslissers bereikbaar zijn en welk maandvolume daarbij realistisch is. Je zit daarna nergens aan vast.": {
+"en": "shows within one working day how many companies fit your audience, how many decision-makers can be reached and what monthly volume is realistic for that. You are not tied to anything afterwards."
+},
+"In de gratis fitcheck van 30 minuten rekenen we samen door wat een campagne in jouw markt kan opleveren en wanneer je dan zou moeten beginnen om op tijd gesprekken te hebben. Past cold email niet bij je aanbod of is je doelgroep te klein, dan hoor je dat ook.": {
+"en": "In the free 30-minute fit check we work out together what a campaign could deliver in your market and when you would need to start to have conversations in time. If cold email does not fit your offer or your audience is too small, you will hear that too."
+},
+"Hoe snel is een campagne live?": {
+"en": "How quickly is a campaign live?"
+},
+"De setup staat binnen 14 dagen na akkoord en de campagne start in week 3. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen.": {
+"en": "The setup is ready within 14 days of sign-off and the campaign starts in week 3. The first replies usually arrive three to ten days after go-live."
+},
+"Waarom kunnen jullie niet direct beginnen met mailen?": {
+"en": "Why can't you start emailing straight away?"
+},
+"Omdat we nooit vanaf je eigen domein versturen. De nieuwe verzenddomeinen en mailboxen moeten eerst reputatie opbouwen bij de mailproviders, anders komen je mails in de spam. De warmup start daarom twee weken voor de livedatum.": {
+"en": "Because we never send from your own domain. The new sending domains and mailboxes first have to build a reputation with email providers, otherwise your emails end up in spam. That is why the warm-up starts two weeks before the go-live date."
+},
+"Wanneer kan ik beoordelen of het werkt?": {
+"en": "When can I judge whether it works?"
+},
+"Nieuwe teksten draaien minimaal drie weken voordat we iets aanpassen, en vanaf de tweede maand gaat het volume naar de segmenten die het best reageren. Na drie maanden heb je een betrouwbaar beeld. Daarom is dat de eerste termijn.": {
+"en": "New texts run for at least three weeks before we change anything, and from the second month the volume moves to the segments that respond best. After three months you have a reliable picture. That is why that is the first term."
+},
+"Wat moet ik zelf doen in de opstartweken?": {
+"en": "What do I need to do myself in the start-up weeks?"
+},
+"Een onboardingsessie in week 1 en het goedkeuren van de lijst en de teksten in week 2. Daarna voer je de gesprekken met wie reageert.": {
+"en": "An onboarding session in week 1 and approving the list and the texts in week 2. After that you have the conversations with whoever replies."
+},
+"Wanneer betaal ik?": {
+"en": "When do I pay?"
+},
+"De eerste factuur volgt bij akkoord, de tweede twee weken na livegang en daarna maandelijks. Er is geen setupfee en geen aparte toolingrekening.": {
+"en": "The first invoice follows at sign-off, the second two weeks after go-live and monthly after that. There is no setup fee and no separate tooling bill."
+},
+"Wanneer zou jij moeten beginnen?": {
+"en": "When should you start?"
+},
+"In de gratis fitcheck van 30 minuten kijken we naar je doelgroep en je planning, en rekenen we terug vanaf het moment waarop je gesprekken wilt voeren.": {
+"en": "In the free 30-minute fit check we look at your audience and your planning, and count back from the moment you want to have conversations."
+},
+"Bezwaren · 8 min": {
+"en": "Objections · 8 min"
+},
+"Waarom de meeste koude mails ongelezen verdwijnen en wat de mails die wel antwoord krijgen anders doen, met cijfers per segment.": {
+"en": "Why most cold emails disappear unread and what the emails that do get a reply do differently, with numbers per segment."
+},
+"Planning · 7 min": {
+"en": "Planning · 7 min"
+},
+"Wat er gebeurt tussen akkoord en de eerste reacties, waarom het niet sneller kan en hoe je terugrekent vanaf het moment dat je gesprekken wilt.": {
+"en": "What happens between sign-off and the first replies, why it cannot go faster and how to count back from the moment you want conversations."
 }
 };

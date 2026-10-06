@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://www.link2leads.nl/kennis</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -137,5 +137,17 @@
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.link2leads.nl/kennis/koude-mail-die-wel-gelezen-wordt</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.link2leads.nl/kennis/wanneer-beginnen-met-koude-email</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
