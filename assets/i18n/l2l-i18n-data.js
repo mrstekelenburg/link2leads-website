@@ -10727,5 +10727,8 @@ window.L2L_I18N_DATA = {
 },
 "Ongeveer 6 minuten": {
 "en": "About 6 minutes"
+},
+"Versturen is niet gelukt. Probeer het zo nog een keer, of bel ons op 085 080 5381.": {
+"en": "Sending didn't work. Please try again in a moment, or call us on +31 85 080 5381."
 }
 };

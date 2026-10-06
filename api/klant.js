@@ -134,6 +134,6 @@ module.exports = async (req, res) => {
     return res.status(200).json({ success: true, ref });
   } catch (err) {
     console.error('Mail error:', err.message);
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: "Versturen is niet gelukt. Probeer het zo nog een keer, of bel ons op 085 080 5381." });
   }
 };
