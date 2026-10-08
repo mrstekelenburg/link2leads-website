@@ -10787,5 +10787,8 @@ window.L2L_I18N_DATA = {
 },
 "Link2Leads zit met € 995 tot € 1.995 per maand in het eerste segment, all-in. Setup, warmup, verzenddomeinen, mailboxen en verzendsoftware zitten in de prijs.": {
 "en": "At EUR 995 to EUR 1,995 per month, Link2Leads sits in the first segment, all-in. Setup, warmup, sending domains, mailboxes and sending software are included in the price."
+},
+"Versturen is niet gelukt. Probeer het zo nog een keer, of bel ons op 085 080 5381.": {
+"en": "Sending didn't work. Please try again in a moment, or call us on +31 85 080 5381."
 }
 };

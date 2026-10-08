@@ -276,7 +276,17 @@ module.exports = async (req, res) => {
       }
     }
 
-    return res.status(200).json({ ok: true, gecontroleerd: events.length, verstuurd: log });
+    // Elke Teams-vergadering die wij organiseren automatisch laten opnemen en
+    // transcriberen. Een fout hier mag de herinneringen nooit tegenhouden.
+    let transcriptie = [];
+    try {
+      transcriptie = await graph.transcribeUpcoming(7);
+    } catch (err) {
+      transcriptie = ['mislukt: ' + err.message];
+      console.error('Transcriptie:', err.message);
+    }
+
+    return res.status(200).json({ ok: true, gecontroleerd: events.length, verstuurd: log, transcriptie });
   } catch (err) {
     console.error('remind.js', err);
     return res.status(500).json({ ok: false, error: err.message, verstuurd: log });

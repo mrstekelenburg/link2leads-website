@@ -1,3 +1,16 @@
+**Aanvulling 8 oktober 2026: transcriptie werkt ook met de nieuwe korte Teams-links**
+- Teams maakt nu deelnamelinks als `teams.microsoft.com/meet/<nummer>?p=...`. Daar staat het object-ID van de organisator niet in, en Graph wil dat ID (een mailadres werkt niet). Gevolg: bij de TEST-afspraak van 9 oktober werd niets aangezet.
+- `api/_graph.js` haalt het ID nu uit MS_TRANSCRIBE_USERS, in de vorm `mail=object-id` (komma-gescheiden). Oude lange links blijven werken via "Oid".
+- Vindt Graph de vergadering niet op de deelnamelink, dan zoekt hij op het vergadering-ID (de cijfers na `/meet/`).
+- Ontbreekt het ID, dan meldt het endpoint dat per afspraak onder `transcriptie`.
+
+**Aanpassing 8 oktober 2026: fitchecks automatisch opnemen en transcriberen**
+- Na het aanmaken van de agenda-afspraak zoekt `api/_graph.js` de bijbehorende Teams-vergadering op (organisator-id uit de deelnamelink) en zet daar automatisch opnemen en transcriberen aan (`recordAutomatically`, `allowTranscription`). De dagtaak leest het transcript na afloop via de Microsoft-koppeling.
+- In de uitnodiging staat een zin dat het gesprek wordt opgenomen en uitgeschreven, en dat de prospect het aan het begin kan laten uitzetten. Zelfde wijziging op link2leads.co (Engelse tekst).
+- Mislukt het aanzetten, dan gaat de boeking gewoon door. In de interne boekingsmail staat dan een regel met de reden.
+- Ook alle andere Teams-vergaderingen die wij organiseren worden automatisch opgenomen en uitgeschreven: `api/remind.js` (elk kwartier) loopt de komende 7 dagen in de agenda's van MS_TRANSCRIBE_USERS (anders MS_CHECK_CALENDARS, anders MS_CALENDAR_USER) na en zet het aan. Afspraken die al aanstaan krijgen de Outlook-categorie "L2L transcriptie aan". Vergaderingen die iemand anders organiseert vallen erbuiten. Het antwoord van het endpoint toont per afspraak de uitkomst onder `transcriptie`.
+- Nodig voordat dit werkt (eenmalig, beheerder): in Entra bij de app-registratie van de site de toepassingsmachtiging OnlineMeetings.ReadWrite.All met beheerderstoestemming, en in Teams een application access policy voor die app op demi@link2leads.nl.
+
 **Aanpassing 6 oktober 2026: Link2Leads vaker bij naam, voor ChatGPT en Google**
 - Taalmodellen citeren losse alinea's. Stond daar "wij" of "bij ons", dan was niet te zien over welk bedrijf het ging. In elk kennisartikel staat nu in of direct na "Het korte antwoord" een zin met Link2Leads bij naam en een feit van de site (prijs, volume, werkwijze). Hetzelfde in de intro van de vier casepagina's, `/leads`, `/kennis` en de hero-subtekst van de homepage ("Link2Leads zoekt bedrijven...").
 - Schema.org: in zeven pagina's stond HTML (`<span class="blue">`) in de headline en de breadcrumbnaam van het Article. Dat is eruit. Elk Article heeft nu een `image` (og-image) en het Organization-blok op elke leespagina heeft dezelfde beschrijving, `sameAs` (LinkedIn) en moederorganisatie als op de homepage, zodat Link2Leads overal als hetzelfde bedrijf wordt herkend.
