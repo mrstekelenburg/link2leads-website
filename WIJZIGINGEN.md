@@ -1,3 +1,9 @@
+**Aanvulling 8 oktober 2026: transcriptie werkt ook met de nieuwe korte Teams-links**
+- Teams maakt nu deelnamelinks als `teams.microsoft.com/meet/<nummer>?p=...`. Daar staat het object-ID van de organisator niet in, en Graph wil dat ID (een mailadres werkt niet). Gevolg: bij de TEST-afspraak van 9 oktober werd niets aangezet.
+- `api/_graph.js` haalt het ID nu uit MS_TRANSCRIBE_USERS, in de vorm `mail=object-id` (komma-gescheiden). Oude lange links blijven werken via "Oid".
+- Vindt Graph de vergadering niet op de deelnamelink, dan zoekt hij op het vergadering-ID (de cijfers na `/meet/`).
+- Ontbreekt het ID, dan meldt het endpoint dat per afspraak onder `transcriptie`.
+
 **Aanpassing 8 oktober 2026: fitchecks automatisch opnemen en transcriberen**
 - Na het aanmaken van de agenda-afspraak zoekt `api/_graph.js` de bijbehorende Teams-vergadering op (organisator-id uit de deelnamelink) en zet daar automatisch opnemen en transcriberen aan (`recordAutomatically`, `allowTranscription`). De dagtaak leest het transcript na afloop via de Microsoft-koppeling.
 - In de uitnodiging staat een zin dat het gesprek wordt opgenomen en uitgeschreven, en dat de prospect het aan het begin kan laten uitzetten. Zelfde wijziging op link2leads.co (Engelse tekst).
