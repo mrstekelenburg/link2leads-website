@@ -233,7 +233,7 @@ module.exports = async (req, res) => {
           ]),
           M.spacer(20),
           calendar
-            ? M.p(`De afspraak staat in de agenda en de uitnodiging is vanuit Outlook verstuurd. Jullie krijgen allebei een dag en een uur van tevoren een herinnering.${calendar.joinUrl ? ` <a href="${M.escAttr(calendar.joinUrl)}" style="color:${M.C.accent2};">Teams-link</a>` : ''}`, { color: M.C.green, gap: 0 })
+            ? M.p(`De afspraak staat in de agenda en de uitnodiging is vanuit Outlook verstuurd. Jullie krijgen allebei een dag en een uur van tevoren een herinnering.${calendar.joinUrl ? ` <a href="${M.escAttr(calendar.joinUrl)}" style="color:${M.C.accent2};">Teams-link</a>` : ''}${calendar.transcriptie && calendar.transcriptie !== 'aan' ? ` Let op: opnemen en transcriberen staat niet automatisch aan (${esc(calendar.transcriptie)}); zet het in de vergaderopties aan.` : ''}`, { color: M.C.green, gap: 0 })
             : M.p(`Let op: de afspraak kon niet in de agenda gezet worden${calendarError ? ' (' + esc(calendarError) + ')' : ''}. Zet hem handmatig in je agenda en stuur zelf de Teams-link; de automatische herinneringen werken alleen voor afspraken die in de agenda staan.`, { color: M.C.amber, gap: 0 })
         ].join('')
       })

@@ -99,7 +99,8 @@ async function createEvent(opts) {
         `<p>Gratis fitcheck van ${opts.minutes || 30} minuten met Link2Leads.</p>` +
         (opts.companyName ? `<p>Bedrijf: ${opts.companyName}</p>` : '') +
         (opts.phone ? `<p>Telefoon: ${opts.phone}</p>` : '') +
-        `<p>Boekingsnummer: ${opts.ref || '-'}</p>`
+        `<p>Boekingsnummer: ${opts.ref || '-'}</p>` +
+        `<p>Het gesprek wordt opgenomen en uitgeschreven, zodat we na afloop niets hoeven over te typen. Liever niet? Zeg het aan het begin, dan zetten we het uit.</p>`
     },
     start: { dateTime: w.start, timeZone: 'W. Europe Standard Time' },
     end: { dateTime: w.end, timeZone: 'W. Europe Standard Time' },
@@ -127,11 +128,62 @@ async function createEvent(opts) {
   }
 
   const ev = await res.json();
+  const joinUrl = (ev.onlineMeeting && ev.onlineMeeting.joinUrl) || null;
+
+  // Fitcheck automatisch laten opnemen en transcriberen, zodat de dagtaak
+  // het transcript na afloop kan lezen. Mislukt dit, dan gaat de boeking
+  // gewoon door; de fout staat in de Vercel-logs.
+  let transcriptie = 'niet geprobeerd';
+  if (joinUrl) {
+    try {
+      transcriptie = await enableAutoTranscription(joinUrl);
+    } catch (err) {
+      transcriptie = 'mislukt: ' + err.message;
+      console.error('Transcriptie:', err.message);
+    }
+  }
+
   return {
     id: ev.id,
     webLink: ev.webLink,
-    joinUrl: (ev.onlineMeeting && ev.onlineMeeting.joinUrl) || null
+    joinUrl,
+    transcriptie
   };
+}
+
+/* Zet bij de Teams-vergadering achter een agenda-afspraak "automatisch opnemen
+   en transcriberen" aan. Werkt alleen als de app-registratie de toepassings-
+   machtiging OnlineMeetings.ReadWrite.All heeft (met beheerderstoestemming) en
+   er in Teams een application access policy voor deze app en het postvak staat.
+   De organisator-id staat in de deelnamelink ("Oid"), dus er is geen extra
+   machtiging nodig om de gebruiker op te zoeken. */
+async function enableAutoTranscription(joinUrl) {
+  const m = decodeURIComponent(joinUrl).match(/"Oid":"([0-9a-f-]{36})"/i);
+  if (!m) return 'geen organisator-id in de deelnamelink';
+  const organizerId = m[1];
+  const tok = await token();
+
+  const zoek = `${GRAPH}/users/${organizerId}/onlineMeetings` +
+    `?$filter=JoinWebUrl%20eq%20'${encodeURIComponent(joinUrl)}'`;
+  const res = await fetch(zoek, { headers: { Authorization: 'Bearer ' + tok } });
+  if (!res.ok) {
+    const txt = await res.text();
+    throw new Error('Vergadering zoeken mislukt (' + res.status + '): ' + txt.slice(0, 250));
+  }
+  const data = await res.json();
+  const meeting = (data.value || [])[0];
+  if (!meeting) return 'vergadering niet gevonden';
+
+  const patch = await fetch(`${GRAPH}/users/${organizerId}/onlineMeetings/${encodeURIComponent(meeting.id)}`, {
+    method: 'PATCH',
+    headers: { Authorization: 'Bearer ' + tok, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ allowRecording: true, allowTranscription: true, recordAutomatically: true })
+  });
+  if (!patch.ok) {
+    const txt = await patch.text();
+    throw new Error('Opname aanzetten mislukt (' + patch.status + '): ' + txt.slice(0, 250));
+  }
+  return 'aan';
 }
 
 /* Zet een tijdstip in wereldtijd om naar Amsterdamse datum en minuten.
@@ -315,4 +367,4 @@ async function isFree(dateKey, time, minutes) {
   return !overlaps(busy, start, start + (minutes || 30));
 }
 
-module.exports = { configured, createEvent, getBusy, overlaps, isFree, listUpcoming, addCategory, EVENT_PREFIX, CAT_AAN, CAT_UIT };
+module.exports = { configured, createEvent, enableAutoTranscription, getBusy, overlaps, isFree, listUpcoming, addCategory, EVENT_PREFIX, CAT_AAN, CAT_UIT };
