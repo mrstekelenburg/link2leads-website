@@ -2,6 +2,7 @@
 - Na het aanmaken van de agenda-afspraak zoekt `api/_graph.js` de bijbehorende Teams-vergadering op (organisator-id uit de deelnamelink) en zet daar automatisch opnemen en transcriberen aan (`recordAutomatically`, `allowTranscription`). De dagtaak leest het transcript na afloop via de Microsoft-koppeling.
 - In de uitnodiging staat een zin dat het gesprek wordt opgenomen en uitgeschreven, en dat de prospect het aan het begin kan laten uitzetten. Zelfde wijziging op link2leads.co (Engelse tekst).
 - Mislukt het aanzetten, dan gaat de boeking gewoon door. In de interne boekingsmail staat dan een regel met de reden.
+- Ook alle andere Teams-vergaderingen die wij organiseren worden automatisch opgenomen en uitgeschreven: `api/remind.js` (elk kwartier) loopt de komende 7 dagen in de agenda's van MS_TRANSCRIBE_USERS (anders MS_CHECK_CALENDARS, anders MS_CALENDAR_USER) na en zet het aan. Afspraken die al aanstaan krijgen de Outlook-categorie "L2L transcriptie aan". Vergaderingen die iemand anders organiseert vallen erbuiten. Het antwoord van het endpoint toont per afspraak de uitkomst onder `transcriptie`.
 - Nodig voordat dit werkt (eenmalig, beheerder): in Entra bij de app-registratie van de site de toepassingsmachtiging OnlineMeetings.ReadWrite.All met beheerderstoestemming, en in Teams een application access policy voor die app op demi@link2leads.nl.
 
 **Aanpassing 6 oktober 2026: vragenlijst van 18 naar 13 vragen, met add-onvraag**

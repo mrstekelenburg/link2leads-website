@@ -332,12 +332,57 @@ async function listUpcoming(hoursAhead) {
     }));
 }
 
+/* Zet bij ELKE Teams-vergadering die iemand van ons organiseert (komende
+   `days` dagen) automatisch opnemen en transcriberen aan, niet alleen bij
+   fitchecks. Agenda's: MS_TRANSCRIBE_USERS (komma-gescheiden), anders
+   MS_CHECK_CALENDARS, anders MS_CALENDAR_USER. Een afspraak die al is
+   aangezet krijgt de categorie CAT_TRANS, zodat hij maar een keer wordt
+   behandeld. Afspraken die iemand buiten ons organiseert, kunnen we niet
+   aanzetten; die slaan we over. Wordt aangeroepen vanuit api/remind.js. */
+const CAT_TRANS = 'L2L transcriptie aan';
+
+async function transcribeUpcoming(days) {
+  if (!configured()) return [];
+  const users = (process.env.MS_TRANSCRIBE_USERS || process.env.MS_CHECK_CALENDARS || process.env.MS_CALENDAR_USER)
+    .split(',').map(s => s.trim()).filter(Boolean);
+  const from = new Date(Date.now() - 30 * 60 * 1000).toISOString();
+  const to = new Date(Date.now() + (days || 7) * 24 * 60 * 60 * 1000).toISOString();
+  const tok = await token();
+  const log = [];
+
+  for (const u of users) {
+    const url = `${GRAPH}/users/${encodeURIComponent(u)}/calendarView` +
+      `?startDateTime=${encodeURIComponent(from)}&endDateTime=${encodeURIComponent(to)}` +
+      `&$select=id,subject,isCancelled,isOrganizer,isOnlineMeeting,onlineMeeting,categories&$top=200`;
+    const res = await fetch(url, { headers: { Authorization: 'Bearer ' + tok } });
+    if (!res.ok) {
+      log.push(`${u}: agenda niet leesbaar (${res.status})`);
+      continue;
+    }
+    const data = await res.json();
+    for (const ev of (data.value || [])) {
+      const joinUrl = ev.onlineMeeting && ev.onlineMeeting.joinUrl;
+      if (ev.isCancelled || !ev.isOrganizer || !joinUrl) continue;
+      if ((ev.categories || []).includes(CAT_TRANS)) continue;
+      try {
+        const r = await enableAutoTranscription(joinUrl);
+        if (r === 'aan') await addCategory(ev.id, CAT_TRANS, u);
+        log.push(`${u}: ${ev.subject || '(geen onderwerp)'}: ${r}`);
+      } catch (err) {
+        log.push(`${u}: ${ev.subject || '(geen onderwerp)'}: mislukt: ${err.message}`);
+      }
+    }
+  }
+  return log;
+}
+
 /* Zet een categorie op de afspraak. Categorieen zijn alleen zichtbaar voor de
    eigenaar van de agenda, dus de deelnemers krijgen hier geen update-mail van.
-   Zo weet api/remind.js welke herinnering al verstuurd is. */
-async function addCategory(eventId, category) {
+   Zo weet api/remind.js welke herinnering al verstuurd is. Zonder `owner`
+   gaat het om de agenda van MS_CALENDAR_USER. */
+async function addCategory(eventId, category, owner) {
   if (!configured()) return;
-  const user = encodeURIComponent(process.env.MS_CALENDAR_USER);
+  const user = encodeURIComponent(owner || process.env.MS_CALENDAR_USER);
   const getRes = await fetch(`${GRAPH}/users/${user}/events/${encodeURIComponent(eventId)}?$select=categories`, {
     headers: { Authorization: 'Bearer ' + (await token()) }
   });
@@ -367,4 +412,4 @@ async function isFree(dateKey, time, minutes) {
   return !overlaps(busy, start, start + (minutes || 30));
 }
 
-module.exports = { configured, createEvent, enableAutoTranscription, getBusy, overlaps, isFree, listUpcoming, addCategory, EVENT_PREFIX, CAT_AAN, CAT_UIT };
+module.exports = { configured, createEvent, enableAutoTranscription, transcribeUpcoming, CAT_TRANS, getBusy, overlaps, isFree, listUpcoming, addCategory, EVENT_PREFIX, CAT_AAN, CAT_UIT };
