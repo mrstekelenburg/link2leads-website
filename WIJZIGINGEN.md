@@ -1,3 +1,8 @@
+**16 oktober 2026: Crisp-chat vervangt de GHL-chatwidget**
+- Nieuw bestand `assets/chat.js` laadt Crisp (website-ID c4126310-...). Het staat op elke pagina vlak voor `</body>`. Dezelfde Crisp-inbox draait op link2leads.nl, link2leads.co, link2talent.nl en wieisdeware.nl; elk gesprek krijgt de site als segment mee, zodat in Crisp te zien is waar het vandaan komt.
+- Taal van de chat volgt het `lang`-attribuut van de pagina (nl of en).
+- Antwoorden gaat via de Crisp-app. De GHL-widget zelf staat uit in GHL.
+
 **Aanvulling 8 oktober 2026: transcriptie werkt ook met de nieuwe korte Teams-links**
 - Teams maakt nu deelnamelinks als `teams.microsoft.com/meet/<nummer>?p=...`. Daar staat het object-ID van de organisator niet in, en Graph wil dat ID (een mailadres werkt niet). Gevolg: bij de TEST-afspraak van 9 oktober werd niets aangezet.
 - `api/_graph.js` haalt het ID nu uit MS_TRANSCRIBE_USERS, in de vorm `mail=object-id` (komma-gescheiden). Oude lange links blijven werken via "Oid".
