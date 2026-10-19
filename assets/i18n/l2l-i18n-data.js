@@ -10790,5 +10790,95 @@ window.L2L_I18N_DATA = {
 },
 "Versturen is niet gelukt. Probeer het zo nog een keer, of bel ons op 085 080 5381.": {
 "en": "Sending didn't work. Please try again in a moment, or call us on +31 85 080 5381."
+},
+"WhatsApp van een klant": {
+"en": "WhatsApp from a client"
+},
+"Mail van een klant": {
+"en": "Email from a client"
+},
+"\"Zojuist de investeerder binnen via jullie outreach\"": {
+"en": "“Just closed the investor through your outreach”"
+},
+"\"We zijn heel blij met alle reacties en hebben ze zeker opvolging gegeven!\"": {
+"en": "“We're very happy with all the replies and have definitely followed them up!”"
+},
+"\"Zou jij nog een voorstel kunnen maken voor nog een keer 10.000 adressen?\"": {
+"en": "“Could you put together another proposal for another 10,000 addresses?”"
+},
+"Investeringsplatform": {
+"en": "Investment platform"
+},
+"· 9.600 euro geïnvesteerd": {
+"en": "· €9,600 invested"
+},
+"Trainingsbureau": {
+"en": "Training company"
+},
+"· ruim een week na de start": {
+"en": "· just over a week after launch"
+},
+"HR-bureau": {
+"en": "HR consultancy"
+},
+"· tweede bestelling": {
+"en": "· second order"
+},
+"Bekijk het bericht →": {
+"en": "See the message →"
+},
+"Echt bericht van een klant, bekijk alle berichten": {
+"en": "Real message from a client, see all messages"
+},
+"Ongefilterd uit onze inbox": {
+"en": "Unfiltered, straight from our inbox"
+},
+"Appjes en mails die klanten ons uit zichzelf stuurden. Alleen de namen hebben we weggehaald.": {
+"en": "Texts and emails clients sent us unprompted (in Dutch). We only removed the names."
+},
+"Mail": {
+"en": "Email"
+},
+"Investeringsplatform, investeerder binnen via de campagne": {
+"en": "Investment platform, investor closed through the campaign"
+},
+"Trainingsbureau, ruim een week na de start": {
+"en": "Training company, just over a week after launch"
+},
+"Webbureau, reactie op een doorgestuurde lead": {
+"en": "Web agency, reacting to a forwarded lead"
+},
+"HR-bureau, eerste verkopen uit de leadlijst": {
+"en": "HR consultancy, first sales from the lead list"
+},
+"Investeringsplatform, weer een investeerder binnen": {
+"en": "Investment platform, another investor closed"
+},
+"IT-dienstverlener, na de eerste afspraak": {
+"en": "IT provider, after the first meeting"
+},
+"HR-bureau, tweede bestelling": {
+"en": "HR consultancy, second order"
+},
+"WhatsApp van een klant: zojuist de investeerder binnen via jullie outreach, 9.600 euro geïnvesteerd": {
+"en": "WhatsApp from a client: just closed the investor through your outreach, €9,600 invested"
+},
+"Mail van een klant: we zijn heel blij met alle reacties en hebben ze zeker opvolging gegeven": {
+"en": "Email from a client: we're very happy with all the replies and have definitely followed them up"
+},
+"WhatsApp-groep met een klant: doorgestuurde positieve reactie van een lead en de reactie van de klant": {
+"en": "WhatsApp group with a client: a forwarded positive reply from a lead and the client's reaction"
+},
+"Mail van een klant: het gaat goed, de eersten hebben al iets gekocht, we zijn tot nu toe heel tevreden": {
+"en": "Email from a client: it's going well, the first ones have already bought something, we're very happy so far"
+},
+"WhatsApp van een klant: net weer een investeerder binnen, 9.6K, vanuit de eerste mailing": {
+"en": "WhatsApp from a client: another investor closed, 9.6K, from the very first mailing"
+},
+"Mail van een klant: dat ziet er veelbelovend uit, duidelijk verhaal en concrete afspraken gemaakt": {
+"en": "Email from a client: that looks promising, clear story and concrete next steps agreed"
+},
+"Mail van een klant: zou jij nog een voorstel kunnen maken voor nog een keer 10.000 adressen": {
+"en": "Email from a client: could you put together another proposal for another 10,000 addresses"
 }
 };

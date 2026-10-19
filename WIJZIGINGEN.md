@@ -1,3 +1,9 @@
+**19 oktober 2026: echte berichten van klanten op de homepage**
+- Nieuwe galerij "Ongefilterd uit onze inbox" (`#inbox`) onder de Google-reviews: 3 WhatsApp-screenshots en 4 mails van klanten, geanonimiseerd (namen, profielfoto's, bedrijfsnamen en datums weg). Bestanden in `assets/img/inbox/`.
+- Drie losse kaarten op twijfelplekken, in dezelfde vorm als de mini-reviews maar zonder sterren (het zijn geen beoordelingen): bij de cases (investeerder binnen, 9.600 euro), bij de pakketten onder de review van Dick (trainingsbureau, heel blij met de reacties) en onderaan de FAQ (HR-bureau, tweede bestelling van 10.000 adressen). Elke kaart linkt naar `#inbox`.
+- Screenshots van Link2Talent-klanten staan hier bewust niet in.
+- 30 EN-sleutels in `l2l-i18n-data.js`, alle 27 pagina's naar `l2l-i18n.js?v=46`.
+
 **16 oktober 2026: Crisp-chat vervangt de GHL-chatwidget**
 - Nieuw bestand `assets/chat.js` laadt Crisp (website-ID 6efa6396-...). Het staat op elke pagina vlak voor `</body>`. Dezelfde Crisp-inbox draait op link2leads.nl, link2leads.co, link2talent.nl en wieisdeware.nl; elk gesprek krijgt de site als segment mee, zodat in Crisp te zien is waar het vandaan komt.
 - Taal van de chat volgt het `lang`-attribuut van de pagina (nl of en).
