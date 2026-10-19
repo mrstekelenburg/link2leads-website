@@ -10834,7 +10834,7 @@ window.L2L_I18N_DATA = {
 "en": "Unfiltered, straight from our inbox"
 },
 "Appjes en mails die klanten ons uit zichzelf stuurden. Alleen de namen hebben we weggehaald.": {
-"en": "Texts and emails clients sent us unprompted (in Dutch). We only removed the names."
+"en": "Texts and emails clients sent us unprompted, translated from Dutch. We only removed the names."
 },
 "Mail": {
 "en": "Email"
@@ -10880,5 +10880,11 @@ window.L2L_I18N_DATA = {
 },
 "Mail van een klant: zou jij nog een voorstel kunnen maken voor nog een keer 10.000 adressen": {
 "en": "Email from a client: could you put together another proposal for another 10,000 addresses"
+},
+"Uit onze inbox": {
+"en": "From our inbox"
+},
+"WhatsApp van een klant (investeringsplatform)": {
+"en": "WhatsApp from a client (investment platform)"
 }
 };
