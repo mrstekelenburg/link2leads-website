@@ -1,4 +1,8 @@
 **19 oktober 2026: echte berichten van klanten op de homepage**
+- Reviews en de inbox-galerij staan nu boven de vergelijking met andere bureaus (`#vergelijk`).
+- Elke screenshot heeft een Engelse versie (`assets/img/inbox/en-*`). Een klein script wisselt `src` naar `data-src-en` zodra de pagina op Engels staat (event `l2l:langchange`) en terug bij Nederlands.
+- `/book`: blok "Uit onze inbox" in de zijbalk boven "Praktisch" met het appje "Net weer een investeerder binnen (9.6K)", ook in het Engels.
+- i18n naar `v=47`.
 - Nieuwe galerij "Ongefilterd uit onze inbox" (`#inbox`) onder de Google-reviews: 3 WhatsApp-screenshots en 4 mails van klanten, geanonimiseerd (namen, profielfoto's, bedrijfsnamen en datums weg). Bestanden in `assets/img/inbox/`.
 - Drie losse kaarten op twijfelplekken, in dezelfde vorm als de mini-reviews maar zonder sterren (het zijn geen beoordelingen): bij de cases (investeerder binnen, 9.600 euro), bij de pakketten onder de review van Dick (trainingsbureau, heel blij met de reacties) en onderaan de FAQ (HR-bureau, tweede bestelling van 10.000 adressen). Elke kaart linkt naar `#inbox`.
 - Screenshots van Link2Talent-klanten staan hier bewust niet in.

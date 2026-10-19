@@ -86,6 +86,9 @@ nav{
 .kicker{font-family:var(--font);font-size:14px;font-weight:800;letter-spacing:.2px;color:#5B8FF5;margin-bottom:14px;}
 .bk-head h1{font-size:clamp(28px,3.4vw,38px);font-weight:800;line-height:1.1;letter-spacing:-1.3px;margin-bottom:14px;}
 .bk-head .sub{font-size:19px;color:rgba(240,239,237,0.72);line-height:1.65;margin-bottom:6px;max-width:640px;}
+.bk-proof{display:block;margin-bottom:22px;text-decoration:none;color:inherit;}
+.bk-proof img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--border);}
+.bk-proof span{display:block;margin-top:8px;font-size:13px;line-height:1.45;color:rgba(240,239,237,0.55);}
 .side-title{font-family:var(--font);font-size:12.5px;font-weight:800;letter-spacing:.2px;color:rgba(240,239,237,0.4);margin-bottom:12px;}
 .meta{display:grid;grid-template-columns:1fr;gap:10px;}
 .meta-row{display:flex;align-items:center;gap:12px;padding:14px 15px;background:var(--card);
@@ -663,6 +666,11 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
       <img src="/assets/img/demi-book.jpg" alt="Demi Stekelenburg van Link2Leads" width="800" height="1000" loading="lazy">
       <div class="sh-t"><b>Demi Stekelenburg</b><span>Je spreekt Demi of Anne-Roos, geen accountmanager. Wij draaien de campagnes zelf.</span></div>
     </div>
+    <div class="side-title">Uit onze inbox</div>
+    <a class="bk-proof" href="/#inbox" target="_blank" rel="noopener">
+      <img src="/assets/img/inbox/wa-investeerder-kort.jpg" data-src-en="/assets/img/inbox/en-wa-investeerder-kort.jpg" alt="WhatsApp van een klant: net weer een investeerder binnen, 9.6K, vanuit de eerste mailing" width="600" height="208" loading="lazy">
+      <span>WhatsApp van een klant (investeringsplatform)</span>
+    </a>
     <div class="side-title">Praktisch</div>
 <div class="meta">
       <div class="meta-row">
@@ -984,7 +992,7 @@ function reset(){
 
 renderCal();renderSlots();
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=46"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=47"></script>
 <script src="/assets/tracking.js"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
@@ -1028,5 +1036,6 @@ renderCal();renderSlots();
 <a id="l2l-fab" href="https://wa.me/31850805381?text=Hoi%20Link2Leads%2C%20ik%20heb%20een%20vraag." target="_blank" rel="noopener" title="WhatsApp: 085 080 5381" aria-label="Stuur ons een WhatsApp-bericht" onclick="if(window.l2lTrack)l2lTrack('whatsapp_click');"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.79-1.67-2.09-.18-.3-.02-.47.13-.62.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.61-.93-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.45 0 1.45 1.06 2.85 1.21 3.05.15.2 2.09 3.19 5.06 4.47.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35zM12.04 21.5h-.01c-1.75 0-3.47-.47-4.98-1.36l-.36-.21-3.7.97.99-3.62-.23-.37a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.45-9.43 2.52 0 4.89.98 6.67 2.76a9.37 9.37 0 0 1 2.77 6.68c0 5.2-4.24 9.42-9.43 9.42zM20.5 3.49A11.8 11.8 0 0 0 12.04 0C5.49 0 .16 5.33.16 11.88c0 2.09.55 4.13 1.59 5.93L0 24l6.34-1.66a11.83 11.83 0 0 0 5.69 1.45h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.24-6.16-3.42-8.42z"/></svg></a>
 <script>if(location.search.indexOf('debug')>-1){var d=document.createElement('script');d.src='/assets/l2l-check.js';document.body.appendChild(d);}</script>
 <script src="/assets/chat.js" defer></script>
+<script>(function(){function sw(){var en=(document.documentElement.getAttribute("lang")||"nl").slice(0,2)==="en";document.querySelectorAll("img[data-src-en]").forEach(function(i){if(!i.getAttribute("data-src-nl"))i.setAttribute("data-src-nl",i.getAttribute("src"));var t=en?i.getAttribute("data-src-en"):i.getAttribute("data-src-nl");if(i.getAttribute("src")!==t)i.setAttribute("src",t);var a=i.closest("a");if(a&&/\/assets\/img\/inbox\//.test(a.getAttribute("href")||""))a.setAttribute("href",t);});}document.addEventListener("l2l:langchange",sw);if(document.readyState!=="loading")sw();else document.addEventListener("DOMContentLoaded",sw);})();</script>
 </body>
 </html>
