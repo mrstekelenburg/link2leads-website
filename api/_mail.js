@@ -134,13 +134,13 @@ function prepBlock(dateStr, variant, soort, who) {
   const kop = isFull
     ? 'Vul nu de volledige vragenlijst in'
     : isReminder
-    ? 'Vragenlijst nog niet ingevuld? Doe het nu'
+    ? 'Een ding vooraf: de vragenlijst'
     : `Vul de vragenlijst in voor de beste ${g}`;
 
   const tekst = isFull
     ? `Je antwoorden hierboven geven me al richting. De volledige vragenlijst (13 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 6 minuten, de laatste twee optioneel) maakt het beeld compleet. Zo kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`
     : isReminder
-    ? `De vragenlijst (13 vragen, ongeveer 6 minuten) is de basis van de ${g}. Vul hem in, dan kunnen we je ${wanneer} gericht helpen. Al gedaan? Dan hoef je niets te doen.`
+    ? `Je antwoorden op de vragenlijst hebben we nog niet binnen. Met die antwoorden kom ik ${wanneer} met een concreet plan voor jouw doelgroep. Zonder besteden we de tijd vooral aan uitvragen, en dat is zonde van je half uur. Het zijn 13 vragen, ongeveer 6 minuten.`
     : `Vul de vragenlijst in: 13 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 6 minuten. Een deel is aanklikken en de laatste twee mag je overslaan. Dan weet ik vooraf waar je staat en kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`;
 
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;background:${C.panel};border:1px solid ${C.border2};border-radius:14px;">

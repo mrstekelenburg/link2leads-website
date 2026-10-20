@@ -1,6 +1,7 @@
 const nodemailer = require('nodemailer');
 
 const M = require('./_mail');
+const graph = require('./_graph');
 const { esc, SIGNER } = M;
 
 const BOOK_URL = 'https://link2leads.nl/book';
@@ -130,6 +131,10 @@ module.exports = async (req, res) => {
         ].join('')
       })
     });
+
+    // Afspraak in de agenda markeren, zodat de herinneringen weten dat de
+    // vragenlijst binnen is. Een fout hier mag de inzending nooit laten mislukken.
+    try { await graph.markVragenlijst(email); } catch (e) { console.error('Vragenlijst markeren:', e.message); }
 
     return res.status(200).json({ success: true, ref });
   } catch (err) {

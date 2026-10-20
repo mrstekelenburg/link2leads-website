@@ -66,6 +66,29 @@ function window_(dateKey, time, minutes) {
   };
 }
 
+/* Persoonlijke link naar /klant met naam, e-mail en bedrijf alvast ingevuld.
+   _mail wordt hier pas opgehaald om een kringverwijzing te voorkomen. */
+function klantLink(opts) {
+  return require('./_mail').klantUrl({ name: opts.name, email: opts.email, company: opts.companyName })
+    .replace(/&/g, '&amp;');
+}
+
+/* Zoekt de komende afspraak met dit e-mailadres als deelnemer en zet er de
+   categorie "L2L vragenlijst binnen" op. Geeft het aantal gemarkeerde afspraken terug. */
+async function markVragenlijst(email) {
+  if (!configured() || !email) return 0;
+  const want = String(email).trim().toLowerCase();
+  const events = await listUpcoming(24 * 21);
+  let n = 0;
+  for (const ev of events || []) {
+    if (ev.attendees.some(a => a.email.toLowerCase() === want)) {
+      await addCategory(ev.id, CAT_VL);
+      n++;
+    }
+  }
+  return n;
+}
+
 /* Maakt de afspraak aan. Geeft { joinUrl, webLink, id } terug bij succes,
    of null als er geen configuratie is. Gooit een fout als Graph weigert. */
 async function createEvent(opts) {
@@ -97,6 +120,8 @@ async function createEvent(opts) {
       contentType: 'HTML',
       content:
         `<p>Gratis fitcheck van ${opts.minutes || 30} minuten met Link2Leads.</p>` +
+        `<p><b>Een ding vooraf:</b> vul de vragenlijst in (13 vragen, ongeveer 6 minuten). Met je antwoorden kom ik in de fitcheck met een concreet plan, zonder besteden we de tijd aan uitvragen.<br>` +
+        `<a href="${klantLink(opts)}">Vul de vragenlijst in</a></p>` +
         (opts.companyName ? `<p>Bedrijf: ${opts.companyName}</p>` : '') +
         (opts.phone ? `<p>Telefoon: ${opts.phone}</p>` : '') +
         `<p>Boekingsnummer: ${opts.ref || '-'}</p>` +
@@ -321,6 +346,8 @@ async function getBusy(dateKey) {
    Tijden komen in wereldtijd terug (ISO met Z), inclusief deelnemers,
    categorieen en de Teams-link. Voor api/remind.js. */
 const CAT_AAN = 'L2L herinnering aan';
+// Gezet door api/klant.js zodra de prospect de vragenlijst op /klant heeft ingestuurd.
+const CAT_VL = 'L2L vragenlijst binnen';
 const CAT_UIT = 'L2L geen herinnering';
 
 async function listUpcoming(hoursAhead) {
@@ -442,4 +469,4 @@ async function isFree(dateKey, time, minutes) {
   return !overlaps(busy, start, start + (minutes || 30));
 }
 
-module.exports = { configured, createEvent, enableAutoTranscription, transcribeUpcoming, CAT_TRANS, getBusy, overlaps, isFree, listUpcoming, addCategory, EVENT_PREFIX, CAT_AAN, CAT_UIT };
+module.exports = { configured, createEvent, enableAutoTranscription, transcribeUpcoming, CAT_TRANS, getBusy, overlaps, isFree, listUpcoming, addCategory, EVENT_PREFIX, CAT_AAN, CAT_UIT, CAT_VL, markVragenlijst };
