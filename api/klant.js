@@ -1,6 +1,7 @@
 const nodemailer = require('nodemailer');
 
 const M = require('./_mail');
+const graph = require('./_graph');
 const { esc, SIGNER } = M;
 
 const BOOK_URL = 'https://link2leads.nl/book';
@@ -20,7 +21,7 @@ function nextBlock() {
     <tr><td style="padding:24px 22px;">
       ${M.label('Wat er nu gebeurt')}
       <p style="margin:0 0 20px;font-family:${M.FONT};font-size:14px;line-height:1.65;color:${M.C.muted};">
-        Staat je fitcheck al in de agenda? Dan hoef je verder niets te doen, ik kom voorbereid met een voorstel voor de aanpak.
+        Staat je fitcheck al in de agenda? Dan hoef je verder niets te doen, ik neem je antwoorden vooraf door.
         Is er nog geen moment geprikt, plan de gratis fitcheck dan hieronder.
         <br><br>
         Daarna volgen de overeenkomst en de factuur. Wij starten met domeinen, mailboxen en opwarming zodra die getekend en voldaan zijn, en binnen veertien dagen daarna draait je campagne. Is dat al geregeld, dan gaan we direct aan de slag.
@@ -130,6 +131,10 @@ module.exports = async (req, res) => {
         ].join('')
       })
     });
+
+    // Afspraak in de agenda markeren, zodat de herinneringen weten dat de
+    // vragenlijst binnen is. Een fout hier mag de inzending nooit laten mislukken.
+    try { await graph.markVragenlijst(email); } catch (e) { console.error('Vragenlijst markeren:', e.message); }
 
     return res.status(200).json({ success: true, ref });
   } catch (err) {

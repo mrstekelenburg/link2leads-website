@@ -8357,8 +8357,8 @@ window.L2L_I18N_DATA = {
 "Staat je fitcheck al in de agenda?": {
 "en": "Is your fit check already booked?"
 },
-"Dan hoef je verder niets te doen, wij komen voorbereid. Is er nog geen moment geprikt, doe dat dan nu; dat gesprek is gratis en duurt 30 minuten.": {
-"en": "Then there is nothing left to do, we'll come prepared. If no time is set yet, pick one now; the call is free and takes 30 minutes."
+"Dan hoef je verder niets te doen, wij nemen je antwoorden vooraf door. Is er nog geen moment geprikt, doe dat dan nu; dat gesprek is gratis en duurt 30 minuten.": {
+"en": "Then there is nothing left to do, we'll go through your answers beforehand. If no time is set yet, pick one now; the call is free and takes 30 minutes."
 },
 "Fitcheck inplannen": {
 "en": "Book the fit check"
