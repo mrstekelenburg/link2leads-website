@@ -120,7 +120,7 @@ async function createEvent(opts) {
       contentType: 'HTML',
       content:
         `<p>Gratis fitcheck van ${opts.minutes || 30} minuten met Link2Leads.</p>` +
-        `<p><b>Een ding vooraf:</b> vul de vragenlijst in (13 vragen, ongeveer 6 minuten). Met je antwoorden kom ik in de fitcheck met een concreet plan, zonder besteden we de tijd aan uitvragen.<br>` +
+        `<p><b>Handig om vooraf te doen:</b> de vragenlijst invullen (13 vragen, ongeveer 6 minuten). Dan kunnen we in de fitcheck gerichter kijken naar wat voor jou werkt.<br>` +
         `<a href="${klantLink(opts)}">Vul de vragenlijst in</a></p>` +
         (opts.companyName ? `<p>Bedrijf: ${opts.companyName}</p>` : '') +
         (opts.phone ? `<p>Telefoon: ${opts.phone}</p>` : '') +

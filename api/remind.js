@@ -3,8 +3,13 @@
    Wordt elk kwartier aangeroepen (zie WIJZIGINGEN.md voor de twee manieren) en
    kijkt in de Outlook-agenda naar fitchecks die binnenkort beginnen:
 
-     - tussen 23 en 25 uur van tevoren  -> herinnering "morgen" (klant + intern)
-     - tussen 45 en 75 minuten van tevoren -> herinnering "over een uur" (klant + intern)
+     - 24 uur van tevoren -> herinnering "morgen" (klant + intern)
+     - 1 uur van tevoren  -> herinnering "over een uur" (klant + intern)
+
+   Omdat dit elk kwartier draait, telt alles tussen 14 minuten na en 1 minuut
+   voor het doelmoment mee. Bij een afspraak op het hele of halve uur gaat de
+   mail dus precies 24 uur of 1 uur van tevoren uit (eerder stond het venster
+   op 45 tot 75 minuten, waardoor de uur-herinnering 1u15 van tevoren kwam).
 
    Welke herinnering al verstuurd is, staat als categorie op de afspraak in
    Outlook ("L2L herinnering dag verstuurd" / "L2L herinnering uur verstuurd").
@@ -107,9 +112,7 @@ async function sendDag(t, ev, p, from, notify) {
   // Klant
   await t.sendMail({
     from, to: p.email,
-    subject: vlBinnen
-      ? `Morgen om ${tijd}: je ${g} met Link2Leads`
-      : `Morgen om ${tijd}: je ${g}, graag vandaag nog de vragenlijst`,
+    subject: `Morgen om ${tijd}: je ${g} met Link2Leads`,
     text: [
       `Hoi ${firstName},`,
       ``,
@@ -117,8 +120,8 @@ async function sendDag(t, ev, p, from, notify) {
       ev.joinUrl ? `Deelnemen: ${ev.joinUrl}` : `De deelnamelink staat in je agenda-uitnodiging.`,
       ``,
       vlBinnen
-        ? `Je antwoorden op de vragenlijst zijn binnen, ik kom voorbereid.`
-        : `Een ding vooraf: je antwoorden op de vragenlijst hebben we nog niet binnen. Vul hem vandaag nog in op ${kUrl} (13 vragen, ongeveer 6 minuten). Dan kom ik morgen met een concreet plan, in plaats van dat we de tijd aan uitvragen besteden.`,
+        ? `Je antwoorden op de vragenlijst hebben we ontvangen, dank je wel. Dan kunnen we morgen direct de diepte in.`
+        : `Heb je de vragenlijst nog niet ingevuld? Dat kan op ${kUrl} (13 vragen, ongeveer 6 minuten). Dan kunnen we morgen gerichter kijken naar wat voor jou werkt.`,
       ``,
       `Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`,
       ``,
@@ -132,14 +135,12 @@ async function sendDag(t, ev, p, from, notify) {
       title: `Morgen: je ${g}`,
       badge: 'Herinnering',
       footerNote: `Je ontvangt deze mail omdat je een ${g} met Link2Leads hebt gepland.`,
-      preheader: vlBinnen
-        ? `Morgen ${datum.toLowerCase()} om ${tijd} · ${duur} via Microsoft Teams`
-        : `Morgen om ${tijd}. Vul vandaag nog de vragenlijst in, 6 minuten`,
+      preheader: `Morgen ${datum.toLowerCase()} om ${tijd} · ${duur} via Microsoft Teams`,
       ref: p.ref,
       body: [
         M.h1(`Morgen om ${esc(tijd)}: je ${g}, ${esc(firstName)}`),
         vlBinnen
-          ? M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Je antwoorden op de vragenlijst zijn binnen, dus ik kom voorbereid. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 })
+          ? M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Je antwoorden op de vragenlijst hebben we ontvangen, dank je wel. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 })
           : M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 }),
         vlBinnen ? '' : M.prepBlock('', 'reminder', g, { name: p.name, email: p.email, company: p.company }),
         vlBinnen ? '' : M.spacer(),
@@ -168,7 +169,7 @@ async function sendDag(t, ev, p, from, notify) {
         M.h1(`Morgen om ${esc(tijd)}: ${g} met ${esc(p.name)}`),
         M.p(vlBinnen
           ? `De klant heeft de herinnering gekregen. De vragenlijst is binnen.`
-          : `De klant heeft de herinnering gekregen, met als eerste vraag om vandaag nog de vragenlijst in te vullen. Volgens de agenda is die nog niet binnen (ander e-mailadres gebruikt? Check dan de inbox).`, { gap: 24 }),
+          : `De klant heeft de herinnering gekregen, met bovenaan de vraag om de vragenlijst in te vullen. Volgens de agenda is die nog niet binnen (ander e-mailadres gebruikt? Check dan de inbox).`, { gap: 24 }),
         M.detailTable([
           ['Vragenlijst', vlBinnen ? 'Binnen' : 'Nog niet binnen'],
           ['Naam', p.name],
@@ -281,11 +282,11 @@ module.exports = async (req, res) => {
 
       if (!p.email) { log.push(`overgeslagen (geen deelnemer): ${wie}`); continue; }
 
-      if (minutes > 23 * 60 && minutes <= 25 * 60 && !ev.categories.includes(CAT_DAG)) {
+      if (minutes > 24 * 60 - 14 && minutes <= 24 * 60 + 1 && !ev.categories.includes(CAT_DAG)) {
         await sendDag(t, ev, p, from, notify);
         await graph.addCategory(ev.id, CAT_DAG);
         log.push(`dag-herinnering: ${wie}`);
-      } else if (minutes > 45 && minutes <= 75 && !ev.categories.includes(CAT_UUR)) {
+      } else if (minutes > 60 - 14 && minutes <= 60 + 1 && !ev.categories.includes(CAT_UUR)) {
         await sendUur(t, ev, p, from, notify);
         await graph.addCategory(ev.id, CAT_UUR);
         log.push(`uur-herinnering: ${wie}`);
