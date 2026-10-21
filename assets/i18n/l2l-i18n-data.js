@@ -11045,5 +11045,191 @@ window.L2L_I18N_DATA = {
 },
 "Waarom doorverwijzingen vaak je beste klanten opleveren, waar het netwerk ophoudt en hoe een campagne daar voorspelbaar naast draait.": {
 "en": "Why referrals often bring your best clients, where the network stops and how a campaign runs predictably alongside it."
+},
+"Leadgeneratie voor energie- en installatiebedrijven | Link2Leads": {
+"en": "Lead generation for energy and installation companies | Link2Leads"
+},
+"Leadgeneratie voor": {
+"en": "Lead generation for"
+},
+"energie en installatie": {
+"en": "energy and installation"
+},
+"Je verkoopt zonnepanelen, warmtepompen, isolatie of installatietechniek aan bedrijven. Wij zoeken de beslissers die daarover gaan en sturen hun reacties door naar jouw mailbox.": {
+"en": "You sell solar panels, heat pumps, insulation or installation technology to businesses. We find the decision makers who handle it and forward their replies to your inbox."
+},
+"Leestijd 5 minuten": {
+"en": "Reading time 5 minutes"
+},
+"Op deze pagina": {
+"en": "On this page"
+},
+"Wie we voor je benaderen": {
+"en": "Who we reach out to for you"
+},
+"Waarom e-mail hier werkt": {
+"en": "Why email works here"
+},
+"Deze pagina is voor bedrijven in zonne-energie, warmtepompen, isolatie, laadpalen, energieopslag en installatietechniek die aan andere bedrijven verkopen. Hieronder wie we voor je benaderen, wat het bij een energiebedrijf opleverde en wat het kost.": {
+"en": "This page is for companies in solar energy, heat pumps, insulation, charging points, energy storage and installation technology that sell to other businesses. Below: who we reach out to for you, what it delivered for an energy company and what it costs."
+},
+"Link2Leads draait koude e-mailcampagnes voor energie- en installatiebedrijven. We bouwen een lijst van bedrijven die passen bij je beste klanten, mailen de eigenaar of beslisser persoonlijk namens jou en sturen elke positieve reactie door naar je eigen mailbox. Jij belt en plant de afspraak. Vaste prijs vanaf € 995 per maand, live in week 3.": {
+"en": "Link2Leads runs cold email campaigns for energy and installation companies. We build a list of companies that match your best clients, email the owner or decision maker personally on your behalf and forward every positive reply to your own inbox. You call and book the meeting. Fixed price from € 995 per month, live in week 3."
+},
+"Een order is in deze branche al snel duizenden euro's waard. Een handvol goede gesprekken per maand weegt dan zwaar, en dat maakt energie een van de branches waar dit kanaal het best rendeert.": {
+"en": "In this industry an order is quickly worth thousands of euros. A handful of good conversations per month carries a lot of weight, which makes energy one of the industries where this channel pays off best."
+},
+"Elke campagne begint bij jouw beste klanten. Daar leiden we de doelgroep van af, en die knippen we op in segmenten met elk een eigen insteek in de mail. Voor energie- en installatiebedrijven zijn dat vaak:": {
+"en": "Every campaign starts with your best clients. We derive the target group from them and split it into segments, each with its own angle in the email. For energy and installation companies these are often:"
+},
+"MKB-bedrijven met een eigen pand of een groot dak, waar de eigenaar zelf beslist.": {
+"en": "SMEs with their own building or a large roof, where the owner decides."
+},
+"Agrarische bedrijven, logistiek en productie met een hoog energieverbruik.": {
+"en": "Agricultural businesses, logistics and manufacturing with high energy use."
+},
+"Bouwbedrijven, aannemers en projectontwikkelaars die installatiewerk uitbesteden.": {
+"en": "Construction companies, contractors and property developers that outsource installation work."
+},
+"Facilitair managers en technisch managers bij grotere organisaties.": {
+"en": "Facility managers and technical managers at larger organisations."
+},
+"Wil je juist installateurs of groothandels bereiken die jouw product doorverkopen, dan bouwen we de lijst daarop.": {
+"en": "Want to reach installers or wholesalers who resell your product instead? Then we build the list around them."
+},
+"De beslisser bij jouw klant is vaak de eigenaar zelf. Die neemt een onbekend nummer zelden op. Zijn mail leest hij wel, vaak 's avonds of in het weekend, en daarom versturen wij zeven dagen per week.": {
+"en": "The decision maker at your client is often the owner. They rarely pick up an unknown number. They do read their email, often in the evening or at the weekend, which is why we send seven days a week."
+},
+"Een persoonlijke eerste zin werkt hier goed, bijvoorbeeld over de vestiging, de sector of de groei van het bedrijf. Met de module Hyperpersonalisatie krijgt elk bedrijf daarnaast een eigen landingspagina, zodat je prospect leest wat jouw aanbod voor zijn eigen situatie betekent.": {
+"en": "A personal first line works well here, for example about the location, the sector or the company's growth. With the Hyperpersonalisation module each company also gets its own landing page, so your prospect reads what your offer means for their own situation."
+},
+"Wat het bij een energiebedrijf opleverde": {
+"en": "What it delivered for an energy company"
+},
+"Een energiebedrijf dat drie maanden met ons draaide, kreeg in de eerste twee maanden 218 positieve reacties uit bijna 28.000 verstuurde mails. Dat zijn bijna acht positieve reacties per duizend mails.": {
+"en": "An energy company that ran with us for three months received 218 positive replies from almost 28,000 emails sent in the first two months. That is almost eight positive replies per thousand emails."
+},
+"Hoeveel het bij jou wordt, hangt af van je aanbod en hoe groot je markt is. Dat rekenen we in de fitcheck voor je door. Meer campagnes met cijfers staan op": {
+"en": "What it will be for you depends on your offer and how big your market is. We calculate that for you in the fit check. More campaigns with numbers are on"
+},
+"Week 1 is de intake en het opzetten van aparte verzenddomeinen en mailboxen. In week 2 draaien die warm en schrijven we de eerste mail en twee opvolgmails, die jij goedkeurt. In week 3 gaat de campagne live. Je eigen domein gebruiken we nooit, dus je normale mailverkeer blijft buiten de campagne.": {
+"en": "Week 1 is the intake and setting up separate sending domains and mailboxes. In week 2 they warm up and we write the first email and two follow-ups, which you approve. In week 3 the campaign goes live. We never use your own domain, so your normal email stays out of the campaign."
+},
+"Elke reactie wordt met de hand gelezen. Wat een gesprek waard is, gaat door naar jouw mailbox met naam, functie, bedrijf en telefoonnummer, klaar om te bellen. Elke week krijg je een overzicht van wat er is verstuurd en wat eruit kwam.": {
+"en": "Every reply is read by hand. Anything worth a conversation goes to your inbox with name, role, company and phone number, ready to call. Every week you get an overview of what was sent and what came out of it."
+},
+"Werken jullie ook voor installateurs die aan particulieren verkopen?": {
+"en": "Do you also work for installers who sell to consumers?"
+},
+"Koude e-mail zetten we alleen in richting bedrijven. Verkoop je vooral aan huishoudens, dan past dit kanaal niet en zeggen we dat in de fitcheck.": {
+"en": "We only use cold email towards businesses. If you mainly sell to households, this channel is not a fit and we will tell you so in the fit check."
+},
+"Kunnen jullie mijn werkgebied afbakenen?": {
+"en": "Can you limit the campaign to my region?"
+},
+"Ja. Werk je alleen in een paar provincies of binnen een straal rond je vestiging, dan bouwen we de lijst daarop. De doelgroep moet dan wel groot genoeg blijven, minstens duizend bedrijven. Dat checken we in de fitcheck.": {
+"en": "Yes. If you only work in a few provinces or within a radius around your location, we build the list around that. The target group does need to stay large enough, at least a thousand companies. We check that in the fit check."
+},
+". Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers op deze pagina komen uit die campagnes.": {
+"en": ". Runs cold email campaigns for Dutch B2B companies every day from about 170 own mailboxes. The numbers on this page come from those campaigns."
+},
+"Hoeveel bedrijven passen bij jouw aanbod?": {
+"en": "How many companies match your offer?"
+},
+"Hoeveel reacties levert het op?": {
+"en": "How many replies does it bring?"
+},
+"Leadgeneratie voor de industrie": {
+"en": "Lead generation for industry"
+},
+"Voor machinebouwers en toeleveranciers": {
+"en": "For machine builders and suppliers"
+},
+"Link2Leads zoekt zakelijke klanten voor bedrijven in zonne-energie, warmtepompen, isolatie en installatietechniek. Wij mailen de beslissers namens jou, jij voert het gesprek. Live in week 3.": {
+"en": "Link2Leads finds business clients for companies in solar energy, heat pumps, insulation and installation technology. We email the decision makers on your behalf, you have the conversation. Live in week 3."
+},
+"Leadgeneratie voor energie- en installatiebedrijven": {
+"en": "Lead generation for energy and installation companies"
+},
+"Leadgeneratie voor industrie en technische toelevering | Link2Leads": {
+"en": "Lead generation for industry and technical suppliers | Link2Leads"
+},
+"industrie en toelevering": {
+"en": "industry and suppliers"
+},
+"Je levert machines, onderdelen, filters, kunststof of technische diensten aan andere bedrijven. Wij zoeken de technisch beslissers en inkopers die daarover gaan en sturen hun reacties door naar jouw mailbox.": {
+"en": "You supply machines, parts, filters, plastics or technical services to other businesses. We find the technical decision makers and buyers who handle it and forward their replies to your inbox."
+},
+"Een voorbeeld": {
+"en": "An example"
+},
+"Deze pagina is voor machinebouwers, toeleveranciers, metaal- en kunststofbedrijven, kozijnenbouwers, zeilmakers, verhuurders van materieel en technische dienstverleners die aan andere bedrijven leveren. Hieronder wie we voor je benaderen, hoe we dat aanpakken en wat het kost.": {
+"en": "This page is for machine builders, suppliers, metal and plastics companies, window frame builders, sailmakers, equipment rental companies and technical service providers that supply other businesses. Below: who we reach out to for you, how we approach it and what it costs."
+},
+"Link2Leads draait koude e-mailcampagnes voor industriële bedrijven. We bouwen per segment een lijst van bedrijven die passen bij je beste klanten, mailen de juiste persoon namens jou en sturen elke positieve reactie door naar je eigen mailbox. Jij voert het technische gesprek. Vaste prijs vanaf € 995 per maand, live in week 3.": {
+"en": "Link2Leads runs cold email campaigns for industrial companies. Per segment we build a list of companies that match your best clients, email the right person on your behalf and forward every positive reply to your own inbox. You have the technical conversation. Fixed price from € 995 per month, live in week 3."
+},
+"In de industrie is een nieuwe klant vaak jaren waard. Na de eerste order volgen onderhoud, onderdelen en vervanging. Een paar goede gesprekken per maand maken dan al het verschil.": {
+"en": "In industry a new client is often worth years of business. The first order is followed by maintenance, parts and replacements. A few good conversations per month make all the difference."
+},
+"Wie de beslissing neemt, verschilt per bedrijf. Dat bepaalt wie we mailen:": {
+"en": "Who makes the decision differs per company. That determines who we email:"
+},
+"Bij kleinere productiebedrijven de eigenaar of directeur.": {
+"en": "At smaller manufacturers, the owner or managing director."
+},
+"Bij grotere bedrijven de technisch directeur, de onderhoudsmanager of de inkoper.": {
+"en": "At larger companies, the technical director, the maintenance manager or the buyer."
+},
+"In de scheepvaart en het transport de superintendent of de vlootbeheerder.": {
+"en": "In shipping and transport, the superintendent or the fleet manager."
+},
+"Bij aannemers en verhuurbedrijven de bedrijfsleider of de materieelman.": {
+"en": "At contractors and rental companies, the operations manager or the equipment manager."
+},
+"Elke sector krijgt een eigen segment met een eigen mail. Een schipper leest anders dan een inkoper bij een voedingsmiddelenfabriek, dus schrijven we ook anders.": {
+"en": "Every sector gets its own segment with its own email. A skipper reads differently from a buyer at a food factory, so we write differently too."
+},
+"Technische beslissers staan vaak op de vloer of zijn onderweg. Een koud telefoontje komt zelden gelegen, een korte mail lezen ze wanneer het hen uitkomt. Ligt het bij een collega, dan sturen ze hem door, en ook die doorverwijzing krijg jij van ons.": {
+"en": "Technical decision makers are often on the shop floor or on the road. A cold call rarely comes at a good time, a short email they read when it suits them. If it belongs with a colleague, they forward it, and you get that referral from us too."
+},
+"Wat het best werkt, is een concreet voordeel in hun eigen termen: minder stilstand, lagere onderhoudskosten of een kortere levertijd. Is je prijs scherper dan wat ze nu betalen, dan zetten we dat gewoon in de mail.": {
+"en": "What works best is a concrete benefit in their own terms: less downtime, lower maintenance costs or a shorter lead time. If your price is sharper than what they pay now, we simply put that in the email."
+},
+"Voor een leverancier van filtersystemen aan de scheepvaart en de industrie draaien we een campagne met aparte segmenten voor binnenvaart, rederijen en bedrijven met noodstroom. Elk segment heeft een eigen toon: kort en technisch voor schippers, formeler en met een rekensom voor superintendents.": {
+"en": "For a supplier of filter systems to shipping and industry we run a campaign with separate segments for inland shipping, shipping companies and businesses with backup power. Each segment has its own tone: short and technical for skippers, more formal and with a cost calculation for superintendents."
+},
+"Meer campagnes met cijfers staan op": {
+"en": "More campaigns with numbers are on"
+},
+"Kunnen jullie ook in België mailen?": {
+"en": "Can you also email in Belgium?"
+},
+"Vlaanderen doen we standaard. Daarbuiten bekijken we per opdracht of we de doelgroep kunnen opbouwen en of het kanaal daar past.": {
+"en": "Flanders is standard. Beyond that we check per assignment whether we can build the target group and whether the channel fits there."
+},
+"Mijn markt is klein. Werkt dit dan?": {
+"en": "My market is small. Does this still work?"
+},
+"Je doelgroep moet minstens duizend bedrijven tellen. Is dat krap, dan kiezen we een kleiner pakket en een scherpere aanpak per segment. In de fitcheck rekenen we uit hoeveel bedrijven er in jouw markt zitten.": {
+"en": "Your target group needs at least a thousand companies. If that is tight, we choose a smaller package and a sharper approach per segment. In the fit check we calculate how many companies are in your market."
+},
+"Bellen of mailen?": {
+"en": "Call or email?"
+},
+"Wat beter werkt bij technische beslissers": {
+"en": "What works better with technical decision makers"
+},
+"Leadgeneratie voor energie en installatie": {
+"en": "Lead generation for energy and installation"
+},
+"Voor zonne-energie, warmtepompen en isolatie": {
+"en": "For solar energy, heat pumps and insulation"
+},
+"Link2Leads zoekt zakelijke klanten voor machinebouwers, toeleveranciers en technische dienstverleners. Wij mailen namens jou de technisch beslissers en inkopers, jij voert het gesprek.": {
+"en": "Link2Leads finds business clients for machine builders, suppliers and technical service providers. We email the technical decision makers and buyers on your behalf, you have the conversation."
+},
+"Leadgeneratie voor industrie en technische toelevering": {
+"en": "Lead generation for industry and technical suppliers"
 }
 };

@@ -1,3 +1,11 @@
+**21 oktober 2026: branchepagina's /energie en /industrie**
+- Nieuw: `/energie` (energie- en installatiebedrijven) en `/industrie` (machinebouw, toelevering, kozijnenbouw, zeilmakers, technische dienstverlening). Gebouwd op het sjabloon van `/leadgeneratie-amsterdam`: zelfde menu, footer, prijstabel, FAQ en fitcheck-CTA.
+- Eén pagina per branche, geen personalisatie per prospect. De Neuropage-knop in de branchecampagnes kan naar deze pagina's wijzen, net als bevestigingsmail en voorstel.
+- `/energie` noemt het energiebedrijf uit de pitches geanonimiseerd: 218 positieve reacties uit bijna 28.000 mails in twee maanden. `/industrie` noemt de filterleverancier geanonimiseerd zonder cijfers.
+- Schema.org per pagina: WebPage, Service (met prijsrange), Organization, BreadcrumbList en FAQPage.
+- `sitemap.xml` en `llms.txt`: beide pagina's erbij.
+- Engelse vertalingen van alle nieuwe teksten in `assets/i18n/l2l-i18n-data.js`, beide pagina's op `l2l-i18n.js?v=49`. Nog niet op link2leads.co.
+
 **21 oktober 2026: nieuw kennisartikel**
 - Nieuw: `/kennis/netwerk-en-doorverwijzingen` (Genoeg aan je netwerk en doorverwijzingen?). Gebouwd op het sjabloon van de bestaande kennisartikelen: Article, Organization, BreadcrumbList en FAQPage in schema.org, "Het korte antwoord" met Link2Leads bij naam, auteursblok, fitcheck-CTA en "Verder lezen".
 - Onderwerp gekozen uit replies van de afgelopen week in de eigen Link2Leads-campagnes ("acquisitie gaat bij ons via het netwerk"). Alleen cijfers en werkwijze die al op de site staan.
