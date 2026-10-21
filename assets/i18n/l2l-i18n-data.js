@@ -10886,5 +10886,164 @@ window.L2L_I18N_DATA = {
 },
 "WhatsApp van een klant (investeringsplatform)": {
 "en": "WhatsApp from a client (investment platform)"
+},
+"21 oktober 2026": {
+"en": "21 October 2026"
+},
+"Genoeg aan je netwerk en": {
+"en": "Are your network and"
+},
+"doorverwijzingen?": {
+"en": "referrals enough?"
+},
+"Je klanten komen via via, en dat gaat goed. Waarom dat vaak je beste klanten zijn, waar het netwerk ophoudt en hoe een campagne daar naast kan draaien.": {
+"en": "Your clients come through word of mouth, and that is going well. Why those are often your best clients, where the network stops and how a campaign can run alongside it."
+},
+"Waarom het netwerk zo goed werkt": {
+"en": "Why the network works so well"
+},
+"Waar het netwerk ophoudt": {
+"en": "Where the network stops"
+},
+"Wat koude e-mail daarnaast doet": {
+"en": "What cold email adds"
+},
+"Hoe je ze laat samenwerken": {
+"en": "How to make them work together"
+},
+"Wat een campagne van jou vraagt": {
+"en": "What a campaign asks of you"
+},
+"Wanneer je netwerk wel genoeg is": {
+"en": "When your network is enough"
+},
+"“Onze klanten komen via het netwerk.” Dat horen we vaak, van adviseurs, bureaus en technische dienstverleners. Het klopt meestal ook. Een doorverwijzing van een tevreden klant is de warmste introductie die er bestaat. De vraag is wat je doet in de maanden dat er even geen doorverwijzing binnenkomt.": {
+"en": "“Our clients come through our network.” We hear that a lot, from advisers, agencies and technical service providers. It is usually true. A referral from a happy client is the warmest introduction there is. The question is what you do in the months when no referral comes in."
+},
+"Je netwerk levert vaak je beste klanten op. Alleen bepaal jij niet wanneer er iemand belt, en ook niet wie. Koude e-mail vult dat gat. Je kiest zelf welke bedrijven je benadert, het volume staat vast en je kunt het opschalen of terugschroeven.": {
+"en": "Your network often brings your best clients. But you do not decide when someone calls, or who. Cold email fills that gap. You choose which companies you approach, the volume is fixed and you can scale it up or down."
+},
+"Het een vervangt het ander ook niet. Wie via het netwerk komt, blijft via het netwerk komen. Een campagne zorgt ervoor dat je daarnaast gesprekken voert met bedrijven die je anders nooit had gesproken.": {
+"en": "One does not replace the other. Whoever comes through your network keeps coming through your network. A campaign makes sure that alongside it you talk to companies you would otherwise never have spoken to."
+},
+"Bij Link2Leads begint dat met 3.000 mails per maand op Starter voor € 995. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen.": {
+"en": "At Link2Leads that starts with 3,000 emails per month on Starter for € 995. The first replies usually come in three to ten days after going live."
+},
+"Een doorverwijzing komt binnen met vertrouwen dat iemand anders al voor je heeft opgebouwd. De nieuwe klant heeft van een bekende gehoord dat je goed werk levert. Over je prijs wordt minder onderhandeld en het eerste gesprek gaat sneller over de inhoud.": {
+"en": "A referral comes in with trust that someone else already built for you. The new client heard from someone they know that you do good work. There is less haggling over your price and the first conversation gets to the substance faster."
+},
+"Daar valt weinig tegen in te brengen, en dat proberen we ook niet. Bedrijven die we spreken en die al jaren groeien op aanbevelingen, hebben meestal een sterk product en tevreden klanten. Dat is precies de basis waarop een koude campagne ook werkt.": {
+"en": "There is little to say against that, and we do not try. Companies we talk to that have grown on recommendations for years usually have a strong product and happy clients. That is exactly the basis a cold campaign works on too."
+},
+"Het eerste punt is timing. Een doorverwijzing komt als iemand in jouw netwerk toevallig een bedrijf spreekt dat jou nodig heeft. Dat kan deze week zijn, of over vier maanden. Je kunt er niet op sturen.": {
+"en": "The first point is timing. A referral comes when someone in your network happens to talk to a company that needs you. That can be this week, or in four months. You cannot steer it."
+},
+"Dan de kring zelf. Een netwerk brengt je vooral klanten die lijken op de klanten die je al hebt, in de regio waar je al werkt. Wil je een nieuwe branche in, of grotere bedrijven dan je gewend bent, dan helpt het netwerk je daar maar beperkt.": {
+"en": "Then the circle itself. A network mainly brings you clients who resemble the clients you already have, in the region where you already work. If you want to enter a new industry, or work with bigger companies than you are used to, the network only helps you so far."
+},
+"En een netwerk groeit niet mee met je ambitie. Wil je volgend jaar twee mensen extra aannemen, dan moet er ook twee keer zoveel werk binnenkomen. Je kunt je klanten moeilijk vragen om twee keer zo vaak over je te vertellen.": {
+"en": "And a network does not grow with your ambition. If you want to hire two more people next year, twice as much work has to come in. You can hardly ask your clients to talk about you twice as often."
+},
+"Veel ondernemers merken dat pas als het een keer stil valt. Een grote klant stopt, een project loopt af, en het netwerk levert die maand toevallig niets op. Dan moet er in korte tijd iets gebeuren.": {
+"en": "Many business owners only notice this when things go quiet. A big client stops, a project ends, and that month the network happens to bring nothing. Then something has to happen quickly."
+},
+"Bij een campagne draai je die verhouding om. Jij bepaalt welke bedrijven je wilt spreken. In de onboarding leggen we vast welke branche, regio, bedrijfsgrootte en functie we zoeken, vaak op basis van je beste bestaande klanten. Daar zoeken we bedrijven bij die daarop lijken.": {
+"en": "With a campaign you turn that around. You decide which companies you want to talk to. During onboarding we agree which industry, region, company size and role we are looking for, often based on your best existing clients. We find companies that resemble them."
+},
+"Het volume ligt vast. Elk pakket heeft een maandvolume dat in je contract staat, van 3.000 tot 30.000 mails, zeven dagen per week verstuurd. Daardoor weet je ook ongeveer wat je kunt verwachten. Vanaf de tweede maand zie je welke segmenten reageren en schuift het volume daarheen.": {
+"en": "The volume is fixed. Every package has a monthly volume that is in your contract, from 3,000 to 30,000 emails, sent seven days a week. That also gives you a rough idea of what to expect. From the second month you see which segments respond and the volume shifts there."
+},
+"Wat de campagne levert, zijn gesprekken met mensen die nog nooit van je hebben gehoord. Dat is anders dan een doorverwijzing. De mail opent het gesprek. Het vertrouwen bouw jij daarna zelf op, op dezelfde manier als je dat bij een doorverwezen klant doet: door een goed gesprek te voeren en te laten zien wat je voor anderen hebt gedaan.": {
+"en": "What the campaign delivers are conversations with people who have never heard of you. That is different from a referral. The email opens the conversation. You then build the trust yourself, the same way you do with a referred client: by having a good conversation and showing what you have done for others."
+},
+"Een leuke bijvangst: ook in een koude campagne komen doorverwijzingen binnen. “Dit gaat niet over mij, mail even met mijn collega.” Zo’n reactie sturen wij door met de naam en het adres van die collega erbij. Dat is dan toch weer een warme introductie, alleen heb je hem zelf in gang gezet.": {
+"en": "A nice side effect: referrals come in from cold campaigns too. “This isn’t for me, email my colleague.” We forward that kind of reply with the name and address of that colleague. That is a warm introduction after all, only this time you set it in motion yourself."
+},
+"Het netwerk en de campagne zitten elkaar niet in de weg, als je een paar dingen goed regelt.": {
+"en": "Your network and the campaign do not get in each other’s way, as long as you arrange a few things well."
+},
+"Begin met wie er niet in hoort. Voordat de eerste mail uitgaat, krijg je de lijst te zien. Jij haalt eruit wat er niet in hoort: bestaande klanten, lopende trajecten en partijen die je liever zelf benadert. Zo krijgt niemand uit je netwerk een koude mail van je.": {
+"en": "Start with who does not belong. Before the first email goes out, you get to see the list. You take out what does not belong: existing clients, ongoing deals and parties you would rather approach yourself. That way nobody in your network gets a cold email from you."
+},
+"Gebruik daarna je doorverwijzingen in de mail zelf. Werk je al voor een paar bekende namen in een branche, dan is dat een sterke regel in een mail aan hun branchegenoten. Het is het netwerkeffect, op schaal.": {
+"en": "Then use your referrals in the email itself. If you already work for a few well-known names in an industry, that is a strong line in an email to their peers. It is the network effect, at scale."
+},
+"Wil je dat je naam al bekend is als de mail binnenkomt, dan kan LinkedIn erbij. Dezelfde bedrijven krijgen dan ook een connectieverzoek en een eerste bericht vanuit jouw eigen profiel. Dat kost € 350 per maand op elk pakket.": {
+"en": "If you want your name to be familiar when the email arrives, you can add LinkedIn. The same companies then also get a connection request and a first message from your own profile. That costs € 350 per month on every package."
+},
+"En zorg dat iemand de reacties oppakt. Een positieve reactie verdient binnen een werkdag antwoord. Heb je daar zelf geen tijd voor, dan kunnen wij op Scale en Pro met de Full Service-module de reacties beantwoorden en de afspraak direct in je agenda zetten.": {
+"en": "And make sure someone picks up the replies. A positive reply deserves an answer within one working day. If you do not have time for that yourself, on Scale and Pro we can answer the replies with the Full Service module and put the meeting straight into your calendar."
+},
+"Een netwerk kost tijd op een manier die je niet ziet: borrels en lunches, even bellen met een oud-collega die iemand kent. Een campagne vraagt ook tijd, alleen op andere momenten.": {
+"en": "A network costs time in a way you do not notice: drinks and lunches, a quick call with a former colleague who knows someone. A campaign takes time too, just at different moments."
+},
+"In de eerste twee weken vul je de vragenlijst in, zit je bij de onboarding en keur je de teksten goed. Je kijkt de lijst door en haalt eruit wie je liever zelf benadert. Daarna doen wij het werk: domeinen en mailboxen opzetten, de lijst opbouwen, versturen en elke reactie met de hand lezen.": {
+"en": "In the first two weeks you fill in the questionnaire, join the onboarding and approve the copy. You go through the list and take out who you would rather approach yourself. After that we do the work: setting up domains and mailboxes, building the list, sending and reading every reply by hand."
+},
+"Wat bij jou terugkomt, zijn de reacties die een gesprek waard zijn. Iemand die wil bellen, of iemand die je doorverwijst naar de collega die erover gaat. Die reacties staan in je eigen mailbox, met naam, functie en contactgegevens erbij. Elke week krijg je daarnaast een rapportage met wat er is verstuurd en wat eruit kwam.": {
+"en": "What comes back to you are the replies worth a conversation. Someone who wants to call, or someone who refers you to the colleague in charge. Those replies land in your own mailbox, with name, role and contact details. Every week you also get a report with what was sent and what came out of it."
+},
+"Het gesprek zelf voer je zoals je dat altijd doet. Je hebt alleen meer gesprekken, met bedrijven die je zelf hebt uitgekozen.": {
+"en": "You have the conversation itself the way you always do. You just have more conversations, with companies you chose yourself."
+},
+"Soms is het eerlijke antwoord dat je dit niet nodig hebt. Komt er structureel meer werk binnen dan je aankunt en wil je ook niet groeien, dan heeft een campagne weinig zin. Daar schreven we eerder een stuk over:": {
+"en": "Sometimes the honest answer is that you do not need this. If more work comes in than you can handle and you do not want to grow either, a campaign makes little sense. We wrote about that earlier:"
+},
+"acquisitie terwijl je agenda vol zit": {
+"en": "prospecting while your calendar is full"
+},
+"Ook als je markt heel klein is, ligt het anders. Onder ongeveer 1.000 bedrijven raden we koude e-mail af. In zo’n markt kent iedereen elkaar al en heeft het netwerk zijn werk meestal gedaan.": {
+"en": "If your market is very small, things are different too. Below roughly 1,000 companies we advise against cold email. In such a market everyone already knows each other and the network has usually done its job."
+},
+"Voor iedereen daartussen is de vraag eigenlijk simpel. Wil je zelf kunnen bepalen hoeveel nieuwe gesprekken je volgende maand voert? Dan is een campagne de aanvulling die je netwerk mist.": {
+"en": "For everyone in between the question is quite simple. Do you want to decide yourself how many new conversations you have next month? Then a campaign is the addition your network is missing."
+},
+"Werkt koude e-mail als mijn klanten vooral via doorverwijzingen komen?": {
+"en": "Does cold email work if my clients mainly come through referrals?"
+},
+"Ja, als aanvulling. Je netwerk blijft doen wat het doet. Een campagne levert daarnaast gesprekken op met bedrijven die je zelf kiest, op een volume dat in je contract staat.": {
+"en": "Yes, as an addition. Your network keeps doing what it does. A campaign also brings conversations with companies you choose, at a volume that is in your contract."
+},
+"Krijgen mensen uit mijn netwerk dan ook een koude mail?": {
+"en": "Will people in my network get a cold email too?"
+},
+"Nee. Je ziet de lijst voordat er iets uitgaat en haalt er bestaande klanten, lopende trajecten en partijen uit die je liever zelf benadert.": {
+"en": "No. You see the list before anything goes out and take out existing clients, ongoing deals and parties you would rather approach yourself."
+},
+"Hoe snel komen de eerste gesprekken?": {
+"en": "How soon do the first conversations come?"
+},
+"De setup staat binnen 14 dagen, de campagne gaat in week 3 live en de eerste reacties komen doorgaans drie tot tien dagen daarna binnen.": {
+"en": "The setup is ready within 14 days, the campaign goes live in week 3 and the first replies usually come in three to ten days later."
+},
+"Kan ik LinkedIn erbij nemen?": {
+"en": "Can I add LinkedIn?"
+},
+"Ja, op elk pakket voor € 350 per maand. Dezelfde bedrijven krijgen dan ook een connectieverzoek en een eerste bericht vanuit je eigen LinkedIn-profiel.": {
+"en": "Yes, on every package for € 350 per month. The same companies then also get a connection request and a first message from your own LinkedIn profile."
+},
+"Benieuwd wat een campagne naast je netwerk oplevert?": {
+"en": "Curious what a campaign adds to your network?"
+},
+"In de gratis fitcheck van 30 minuten kijken we naar je doelgroep en je huidige instroom, en rekenen we door wat een campagne daarnaast realistisch oplevert. Is je markt te klein, dan hoor je dat ook.": {
+"en": "In the free 30-minute fit check we look at your target group and your current inflow, and calculate what a campaign can realistically add. If your market is too small, we tell you that too."
+},
+"Genoeg aan je netwerk en doorverwijzingen? Koude e-mail als aanvulling | Link2Leads": {
+"en": "Are your network and referrals enough? Cold email as an addition | Link2Leads"
+},
+"Waarom doorverwijzingen vaak je beste klanten opleveren, waar het netwerk ophoudt en hoe koude e-mail daarnaast voorspelbaar extra gesprekken levert.": {
+"en": "Why referrals often bring your best clients, where the network stops and how cold email adds predictable extra conversations alongside it."
+},
+"Genoeg aan je netwerk en doorverwijzingen? Koude e-mail als aanvulling": {
+"en": "Are your network and referrals enough? Cold email as an addition"
+},
+"Kanalen · 7 min": {
+"en": "Channels · 7 min"
+},
+"Genoeg aan je netwerk en doorverwijzingen?": {
+"en": "Are your network and referrals enough?"
+},
+"Waarom doorverwijzingen vaak je beste klanten opleveren, waar het netwerk ophoudt en hoe een campagne daar voorspelbaar naast draait.": {
+"en": "Why referrals often bring your best clients, where the network stops and how a campaign runs predictably alongside it."
 }
 };

@@ -1,3 +1,11 @@
+**21 oktober 2026: nieuw kennisartikel**
+- Nieuw: `/kennis/netwerk-en-doorverwijzingen` (Genoeg aan je netwerk en doorverwijzingen?). Gebouwd op het sjabloon van de bestaande kennisartikelen: Article, Organization, BreadcrumbList en FAQPage in schema.org, "Het korte antwoord" met Link2Leads bij naam, auteursblok, fitcheck-CTA en "Verder lezen".
+- Onderwerp gekozen uit replies van de afgelopen week in de eigen Link2Leads-campagnes ("acquisitie gaat bij ons via het netwerk"). Alleen cijfers en werkwijze die al op de site staan.
+- `kennis.html`: kaart vooraan (Kanalen 7 min) en een item in het ItemList-schema.
+- `sitemap.xml`: url erbij, lastmod 21 oktober voor `/kennis`.
+- `llms.txt`: regel in de lijst met pagina's, datum naar 21 oktober. `llms-full.txt`: volledige tekst van het artikel, datum in de kop naar 21 oktober.
+- Engelse vertalingen van alle nieuwe teksten in `assets/i18n/l2l-i18n-data.js`. `kennis.html` en het nieuwe artikel op `l2l-i18n.js?v=48`. Gecontroleerd met `?lang=en`: geen Nederlandse tekst meer, alleen namen.
+
 **19 oktober 2026: echte berichten van klanten op de homepage**
 - Reviews en de inbox-galerij staan nu boven de vergelijking met andere bureaus (`#vergelijk`).
 - Elke screenshot heeft een Engelse versie (`assets/img/inbox/en-*`). Een klein script wisselt `src` naar `data-src-en` zodra de pagina op Engels staat (event `l2l:langchange`) en terug bij Nederlands.
