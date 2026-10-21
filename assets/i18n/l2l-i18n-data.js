@@ -11231,5 +11231,29 @@ window.L2L_I18N_DATA = {
 },
 "Leadgeneratie voor industrie en technische toelevering": {
 "en": "Lead generation for industry and technical suppliers"
+},
+"Danish Lead Co": {
+"en": "Danish Lead Co"
+},
+"+": {
+"en": "+"
+},
+"Geen Nederlands bureau en daarom niet in de tien, maar wel het noemen waard als je doelgroep buiten Nederland zit en geen Nederlands spreekt. Danish Lead Co is opgericht door Frederik Jakobsen en verzorgt cold e-mail en LinkedIn-acquisitie van begin tot eind, met ingeplande salesgesprekken als resultaat. Ze richten zich op niches als private equity en M&A.": {
+"en": "Not a Dutch agency and therefore not in the ten, but worth naming if your target group is outside the Netherlands and does not speak Dutch. Danish Lead Co was founded by Frederik Jakobsen and runs cold email and LinkedIn outreach end to end, with booked sales meetings as the result. It focuses on niches such as private equity and M&A."
+},
+"$ 3.000 tot $ 6.000 per maand, volgens opgave van het bureau.": {
+"en": "$3,000 to $6,000 per month, as stated by the agency."
+},
+"B2B-bedrijven die niet-Nederlandstalige markten willen bereiken, vooral in private equity en M&A.": {
+"en": "B2B companies that want to reach non-Dutch-speaking markets, especially in private equity and M&A."
+},
+"Bron:": {
+"en": "Source:"
+},
+"danishleadco.io": {
+"en": "danishleadco.io"
+},
+"en opgave van het bureau · gecontroleerd op 21 oktober 2026. De 10.000+ geboekte meetings voor 110+ B2B-bedrijven sinds 2021 zijn claims van het bureau zelf en zijn door ons niet geverifieerd.": {
+"en": "and the agency itself · checked on 21 October 2026. The 10,000+ meetings booked for 110+ B2B companies since 2021 are the agency's own claims and have not been verified by us."
 }
 };
