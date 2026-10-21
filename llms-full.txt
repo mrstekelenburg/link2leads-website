@@ -1,6 +1,6 @@
 # Link2Leads, volledige tekst van alle kennispagina's
 
-Laatst bijgewerkt: 6 oktober 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
+Laatst bijgewerkt: 21 oktober 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
 Alle cijfers komen uit campagnes die Link2Leads namens klanten draait, gemeten op 2 september 2026.
 
 
@@ -1584,6 +1584,219 @@ Starter: 3.000 mails per maand voor € 995, all-in. De eerste termijn is drie m
 
 **Kunnen jullie de afspraken voor mij inplannen?**
 Op Scale en Pro wel, met de Full Service-module. Wij beantwoorden dan de reacties en zetten de afspraak direct in je agenda.
+
+
+==============================================================================
+# Hoe komen jullie aan mijn e-mailadres?
+Bron: https://www.link2leads.nl/kennis/hoe-komen-jullie-aan-mijn-emailadres
+==============================================================================
+
+De vraag die iedereen krijgt die koud mailt. Waar zakelijke adressen vandaan komen, hoe je de bron per adres vastlegt en wat je antwoordt als iemand ernaar vraagt.
+
+“Hoe kom jij eigenlijk aan mijn mailadres?” Die vraag krijgt iedereen die koud mailt. Soms nieuwsgierig, soms geprikkeld. Ook als je met ons in gesprek bent over een campagne komt hij op tafel, want jij wilt weten wat je antwoordt als een ontvanger hem aan jou stelt.
+
+
+## Het korte antwoord
+
+Zakelijke e-mailadressen in een B2B-campagne komen uit openbare bronnen: de website van het bedrijf zelf en openbare zakelijke profielen. Daar wordt per adres een eigen controle op gedaan, zodat er alleen adressen overblijven die bestaan en bij het juiste bedrijf horen. Per adres leg je vast waar het vandaan komt en wanneer het is gecontroleerd. Vraagt iemand ernaar, dan kun je het laten zien.
+
+Link2Leads bouwt elke leadlijst zo op. Bronnen zijn openbare bedrijfswebsites, openbare zakelijke profielen en eigen verificatie. Het Handelsregister gebruiken we niet als bron, en adressen van mensen die eerder bezwaar hebben gemaakt filteren we er vooraf uit.
+
+
+## Waarom mensen het vragen
+
+De vraag komt bijna altijd van iemand die zich de afzender niet kan herinneren. Dat klopt ook: er was geen eerder contact. De ontvanger zoekt dus naar een verklaring en denkt al snel aan een gelekt bestand of een lijst die ergens is gekocht.
+
+Uit onze eigen campagnes kennen we de varianten. “Ik kan me niet herinneren dat ik mijn adres hiervoor heb gegeven.” Of iemand schrijft dat de combinatie van zijn naam en het bedrijf niet klopt. Een enkeling stuurt een formeel verzoek en wil precies weten uit welke bron zijn gegevens komen.
+
+Het is een redelijke vraag en de ontvanger heeft er ook recht op. Wie persoonsgegevens gebruikt die hij niet bij de persoon zelf heeft opgehaald, moet volgens artikel 14 van de AVG kunnen vertellen waar ze vandaan komen. Hoe dat precies zit, staat in mag koude e-mail in Nederland. Hier gaat het om de praktijk: waar komt zo’n adres vandaan, en hoe laat je dat zien?
+
+
+## Waar zakelijke adressen vandaan komen
+
+Een bedrijf dat gevonden wil worden, zet veel over zichzelf online. Een contactpagina, een teampagina met namen en functies, een vacature met de naam van de leidinggevende erbij. Daarnaast hebben de meeste beslissers een openbaar zakelijk profiel met hun functie en werkgever.
+
+Uit die openbare informatie stel je per bedrijf vast wie de beslisser is. Het adres van die persoon wordt daarna gecontroleerd: bestaat het domein en neemt de mailbox mail aan? Pas als dat klopt, komt het in de lijst.
+
+Het Handelsregister laten we bewust liggen. Dat gebruiken we niet als bron en we verkopen er ook niets uit door. Privéadressen nemen we evenmin op. Een campagne gaat naar zakelijke adressen bij bedrijven.
+
+
+## Hoe een adres in een lijst komt
+
+Het begint bij de doelgroep. In de onboarding leggen we vast welke branche, welke bedrijfsgrootte, welke regio en welke functie we zoeken. Vaak kijken we daarbij naar je beste bestaande klanten en zoeken we bedrijven die daarop lijken.
+
+Dan komt de lijst. Per bedrijf zoeken we de beslisser die bij jouw aanbod past. Elk adres wordt geverifieerd voordat er iets uitgaat, en bij elk record staan de bron en de datum van de controle. Wie een losse leadlijst bij ons koopt, krijgt die bron en controledatum per record ook gewoon mee in het bestand.
+
+Daarna krijg jij de lijst te zien. Jij haalt eruit wat er niet in hoort: bestaande klanten, lopende trajecten en partijen die je liever zelf benadert. Pas daarna gaat de eerste mail de deur uit.
+
+Die controle merk je ook in je resultaat. Een lijst met dode of verkeerde adressen levert bounces op, en met te veel bounces belanden je mails sneller in de spamfolder.
+
+
+## De bron laten zien als iemand ernaar vraagt
+
+Vraagt een ontvanger hoe je aan zijn adres komt, dan wil je binnen een dag antwoord kunnen geven. Dat lukt alleen als je de herkomst hebt vastgelegd op het moment dat het adres in je lijst kwam. Achteraf terugzoeken waar een adres ooit vandaan kwam, gaat meestal mis.
+
+Een goed antwoord is kort en feitelijk. Zeg waar het adres is gevonden en wanneer, waarom je deze persoon hebt gemaild, en dat je hem verder met rust laat als hij dat wil. Geen juridische discussie, gewoon antwoord op wat er gevraagd wordt.
+
+Wil iemand niets meer ontvangen, dan gaat zijn adres op een suppressielijst die over al onze campagnes heen werkt. Verwijderen uit een enkele campagne is te weinig. Zonder zo’n lijst duikt hetzelfde adres bij de volgende lijst gewoon weer op, en dan heb je pas echt een boze ontvanger.
+
+Als klant hoef je dit zelf niet te doen. Privacy- en AVG-vragen tellen bij ons niet als reactie die naar jou gaat. Die handelen wij af, en wij laten jou weten dat het is gebeurd.
+
+
+## Als een adres niet meer klopt
+
+Bedrijfsgegevens verouderen. Mensen wisselen van baan, een bedrijf wordt overgenomen of houdt op te bestaan. Daarom controleren we adressen kort voordat ze gebruikt worden en niet maanden eerder.
+
+Toch komt het voor dat iemand terugschrijft dat hij al jaren niet meer bij dat bedrijf werkt, of dat zijn naam aan het verkeerde bedrijf is gekoppeld. Zo’n reactie lezen we met de hand. Het adres gaat eruit, de koppeling wordt aangepast en als de ontvanger een collega noemt die er wel over gaat, krijg jij die naam erbij.
+
+Een opgeheven bedrijf of een vertrokken contactpersoon telt bij ons ook niet als positieve reactie. Zo’n bericht komt dus niet in jouw inbox terecht en telt niet mee in de resultaten die we rapporteren.
+
+
+## Wat in de mail zelf helpt
+
+Hoe vaak de vraag komt, hangt ook af van de mail. Een ontvanger die meteen ziet waarom hij is gemaild, vraagt minder snel hoe je aan zijn adres komt.
+
+Daarom zoeken we per bedrijf naar een aanleiding om nu te mailen. Een openstaande vacature bijvoorbeeld, of een nieuwe vestiging. De eerste zin van de mail verwijst daarnaar. De ontvanger leest dan dat je naar zijn bedrijf hebt gekeken, en dat beantwoordt de helft van zijn vraag al.
+
+De afzender moet ook kloppen. Een echte naam, een bedrijfsnaam die je kunt opzoeken en een domein dat naar een echte site leidt. Wie wil weten wie hem mailt, vindt dat binnen een minuut.
+
+En de ontvanger moet makkelijk kunnen stoppen. Antwoorden dat hij niets meer wil ontvangen is genoeg. Wij verwerken dat elke dag, en daarna hoort hij niets meer van je, ook niet uit een volgende campagne.
+
+
+## Waarom een gekocht bestand een risico is
+
+Je kunt een bedrijvenbestand kopen. Dat is niet verboden. Het probleem zit in de vraag waar dit artikel mee begon. Bij een gekocht bestand weet je vaak niet waar een adres vandaan komt, wanneer het is verzameld en of de persoon er nog werkt.
+
+Krijg je dan een verzoek van een ontvanger, dan kun je de bron niet laten zien. En een bestand dat al een tijd rondgaat, levert meer bounces op dan een lijst die net is gecontroleerd.
+
+Koop je toch een bestand, vraag dan voordat je betaalt of er per record een bron en een controledatum bij zit. Komt daar geen helder antwoord op, dan weet je genoeg.
+
+
+## Veelgestelde vragen
+
+
+**Waar halen jullie e-mailadressen vandaan?**
+Uit openbare bedrijfswebsites en openbare zakelijke profielen, met een eigen controle per adres. Het Handelsregister gebruiken we niet als bron. Per record leggen we de bron en de datum van de controle vast.
+
+
+**Mailen jullie ook naar privéadressen?**
+Nee. Een campagne gaat alleen naar zakelijke adressen bij bedrijven, van de persoon die over jouw onderwerp beslist.
+
+
+**Wat zeg ik als een ontvanger vraagt hoe we aan zijn adres komen?**
+Dat hoef je niet zelf te doen. Privacyvragen handelen wij af: we noemen de bron en de datum, en wie niets meer wil ontvangen gaat op een suppressielijst die over al onze campagnes heen werkt.
+
+
+**Kan ik zelf bestaande klanten uit de lijst halen?**
+Ja. Je krijgt de lijst te zien voordat er iets uitgaat en haalt eruit wat er niet in hoort, zoals bestaande klanten, lopende trajecten en partijen die je liever zelf benadert.
+
+
+**Is een gekochte lijst bruikbaar voor koude e-mail?**
+Het is niet verboden, wel riskant. Vaak kun je bij een gekocht bestand niet aantonen waar een adres vandaan komt, en oudere bestanden leveren meer bounces op. Vraag vooraf of er per record een bron en een controledatum bij zit.
+
+
+==============================================================================
+# Genoeg aan je netwerk en doorverwijzingen?
+Bron: https://www.link2leads.nl/kennis/netwerk-en-doorverwijzingen
+==============================================================================
+
+Je klanten komen via via, en dat gaat goed. Waarom dat vaak je beste klanten zijn, waar het netwerk ophoudt en hoe een campagne daar naast kan draaien.
+
+“Onze klanten komen via het netwerk.” Dat horen we vaak, van adviseurs, bureaus en technische dienstverleners. Het klopt meestal ook. Een doorverwijzing van een tevreden klant is de warmste introductie die er bestaat. De vraag is wat je doet in de maanden dat er even geen doorverwijzing binnenkomt.
+
+
+## Het korte antwoord
+
+Je netwerk levert vaak je beste klanten op. Alleen bepaal jij niet wanneer er iemand belt, en ook niet wie. Koude e-mail vult dat gat. Je kiest zelf welke bedrijven je benadert, het volume staat vast en je kunt het opschalen of terugschroeven.
+
+Het een vervangt het ander ook niet. Wie via het netwerk komt, blijft via het netwerk komen. Een campagne zorgt ervoor dat je daarnaast gesprekken voert met bedrijven die je anders nooit had gesproken.
+
+Bij Link2Leads begint dat met 3.000 mails per maand op Starter voor € 995. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen.
+
+
+## Waarom het netwerk zo goed werkt
+
+Een doorverwijzing komt binnen met vertrouwen dat iemand anders al voor je heeft opgebouwd. De nieuwe klant heeft van een bekende gehoord dat je goed werk levert. Over je prijs wordt minder onderhandeld en het eerste gesprek gaat sneller over de inhoud.
+
+Daar valt weinig tegen in te brengen, en dat proberen we ook niet. Bedrijven die we spreken en die al jaren groeien op aanbevelingen, hebben meestal een sterk product en tevreden klanten. Dat is precies de basis waarop een koude campagne ook werkt.
+
+
+## Waar het netwerk ophoudt
+
+Het eerste punt is timing. Een doorverwijzing komt als iemand in jouw netwerk toevallig een bedrijf spreekt dat jou nodig heeft. Dat kan deze week zijn, of over vier maanden. Je kunt er niet op sturen.
+
+Dan de kring zelf. Een netwerk brengt je vooral klanten die lijken op de klanten die je al hebt, in de regio waar je al werkt. Wil je een nieuwe branche in, of grotere bedrijven dan je gewend bent, dan helpt het netwerk je daar maar beperkt.
+
+En een netwerk groeit niet mee met je ambitie. Wil je volgend jaar twee mensen extra aannemen, dan moet er ook twee keer zoveel werk binnenkomen. Je kunt je klanten moeilijk vragen om twee keer zo vaak over je te vertellen.
+
+Veel ondernemers merken dat pas als het een keer stil valt. Een grote klant stopt, een project loopt af, en het netwerk levert die maand toevallig niets op. Dan moet er in korte tijd iets gebeuren.
+
+
+## Wat koude e-mail daarnaast doet
+
+Bij een campagne draai je die verhouding om. Jij bepaalt welke bedrijven je wilt spreken. In de onboarding leggen we vast welke branche, regio, bedrijfsgrootte en functie we zoeken, vaak op basis van je beste bestaande klanten. Daar zoeken we bedrijven bij die daarop lijken.
+
+Het volume ligt vast. Elk pakket heeft een maandvolume dat in je contract staat, van 3.000 tot 30.000 mails, zeven dagen per week verstuurd. Daardoor weet je ook ongeveer wat je kunt verwachten. Vanaf de tweede maand zie je welke segmenten reageren en schuift het volume daarheen.
+
+Wat de campagne levert, zijn gesprekken met mensen die nog nooit van je hebben gehoord. Dat is anders dan een doorverwijzing. De mail opent het gesprek. Het vertrouwen bouw jij daarna zelf op, op dezelfde manier als je dat bij een doorverwezen klant doet: door een goed gesprek te voeren en te laten zien wat je voor anderen hebt gedaan.
+
+Een leuke bijvangst: ook in een koude campagne komen doorverwijzingen binnen. “Dit gaat niet over mij, mail even met mijn collega.” Zo’n reactie sturen wij door met de naam en het adres van die collega erbij. Dat is dan toch weer een warme introductie, alleen heb je hem zelf in gang gezet.
+
+
+## Hoe je ze laat samenwerken
+
+Het netwerk en de campagne zitten elkaar niet in de weg, als je een paar dingen goed regelt.
+
+Begin met wie er niet in hoort. Voordat de eerste mail uitgaat, krijg je de lijst te zien. Jij haalt eruit wat er niet in hoort: bestaande klanten, lopende trajecten en partijen die je liever zelf benadert. Zo krijgt niemand uit je netwerk een koude mail van je.
+
+Gebruik daarna je doorverwijzingen in de mail zelf. Werk je al voor een paar bekende namen in een branche, dan is dat een sterke regel in een mail aan hun branchegenoten. Het is het netwerkeffect, op schaal.
+
+Wil je dat je naam al bekend is als de mail binnenkomt, dan kan LinkedIn erbij. Dezelfde bedrijven krijgen dan ook een connectieverzoek en een eerste bericht vanuit jouw eigen profiel. Dat kost € 350 per maand op elk pakket.
+
+En zorg dat iemand de reacties oppakt. Een positieve reactie verdient binnen een werkdag antwoord. Heb je daar zelf geen tijd voor, dan kunnen wij op Scale en Pro met de Full Service-module de reacties beantwoorden en de afspraak direct in je agenda zetten.
+
+
+## Wat een campagne van jou vraagt
+
+Een netwerk kost tijd op een manier die je niet ziet: borrels en lunches, even bellen met een oud-collega die iemand kent. Een campagne vraagt ook tijd, alleen op andere momenten.
+
+In de eerste twee weken vul je de vragenlijst in, zit je bij de onboarding en keur je de teksten goed. Je kijkt de lijst door en haalt eruit wie je liever zelf benadert. Daarna doen wij het werk: domeinen en mailboxen opzetten, de lijst opbouwen, versturen en elke reactie met de hand lezen.
+
+Wat bij jou terugkomt, zijn de reacties die een gesprek waard zijn. Iemand die wil bellen, of iemand die je doorverwijst naar de collega die erover gaat. Die reacties staan in je eigen mailbox, met naam, functie en contactgegevens erbij. Elke week krijg je daarnaast een rapportage met wat er is verstuurd en wat eruit kwam.
+
+Het gesprek zelf voer je zoals je dat altijd doet. Je hebt alleen meer gesprekken, met bedrijven die je zelf hebt uitgekozen.
+
+
+## Wanneer je netwerk wel genoeg is
+
+Soms is het eerlijke antwoord dat je dit niet nodig hebt. Komt er structureel meer werk binnen dan je aankunt en wil je ook niet groeien, dan heeft een campagne weinig zin. Daar schreven we eerder een stuk over: acquisitie terwijl je agenda vol zit.
+
+Ook als je markt heel klein is, ligt het anders. Onder ongeveer 1.000 bedrijven raden we koude e-mail af. In zo’n markt kent iedereen elkaar al en heeft het netwerk zijn werk meestal gedaan.
+
+Voor iedereen daartussen is de vraag eigenlijk simpel. Wil je zelf kunnen bepalen hoeveel nieuwe gesprekken je volgende maand voert? Dan is een campagne de aanvulling die je netwerk mist.
+
+
+## Veelgestelde vragen
+
+
+**Werkt koude e-mail als mijn klanten vooral via doorverwijzingen komen?**
+Ja, als aanvulling. Je netwerk blijft doen wat het doet. Een campagne levert daarnaast gesprekken op met bedrijven die je zelf kiest, op een volume dat in je contract staat.
+
+
+**Krijgen mensen uit mijn netwerk dan ook een koude mail?**
+Nee. Je ziet de lijst voordat er iets uitgaat en haalt er bestaande klanten, lopende trajecten en partijen uit die je liever zelf benadert.
+
+
+**Hoe snel komen de eerste gesprekken?**
+De setup staat binnen 14 dagen, de campagne gaat in week 3 live en de eerste reacties komen doorgaans drie tot tien dagen daarna binnen.
+
+
+**Wat is het kleinste pakket?**
+Starter: 3.000 mails per maand voor € 995, all-in. De eerste termijn is drie maanden, daarna is het maandelijks opzegbaar.
+
+
+**Kan ik LinkedIn erbij nemen?**
+Ja, op elk pakket voor € 350 per maand. Dezelfde bedrijven krijgen dan ook een connectieverzoek en een eerste bericht vanuit je eigen LinkedIn-profiel.
 
 
 ==============================================================================

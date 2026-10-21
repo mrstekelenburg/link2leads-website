@@ -10886,5 +10886,329 @@ window.L2L_I18N_DATA = {
 },
 "WhatsApp van een klant (investeringsplatform)": {
 "en": "WhatsApp from a client (investment platform)"
+},
+"Hoe komen jullie aan": {
+"en": "How do you get"
+},
+"mijn e-mailadres?": {
+"en": "my email address?"
+},
+"De vraag die iedereen krijgt die koud mailt. Waar zakelijke adressen vandaan komen, hoe je de bron per adres vastlegt en wat je antwoordt als iemand ernaar vraagt.": {
+"en": "The question everyone who sends cold email gets. Where business addresses come from, how you record the source for each address and what you reply when someone asks."
+},
+"21 oktober 2026": {
+"en": "21 October 2026"
+},
+"Waarom mensen het vragen": {
+"en": "Why people ask"
+},
+"Waar zakelijke adressen vandaan komen": {
+"en": "Where business addresses come from"
+},
+"Hoe een adres in een lijst komt": {
+"en": "How an address ends up on a list"
+},
+"De bron laten zien als iemand ernaar vraagt": {
+"en": "Showing the source when someone asks"
+},
+"Als een adres niet meer klopt": {
+"en": "When an address is no longer correct"
+},
+"Wat in de mail zelf helpt": {
+"en": "What helps in the email itself"
+},
+"Waarom een gekocht bestand een risico is": {
+"en": "Why a purchased file is a risk"
+},
+"“Hoe kom jij eigenlijk aan mijn mailadres?” Die vraag krijgt iedereen die koud mailt. Soms nieuwsgierig, soms geprikkeld. Ook als je met ons in gesprek bent over een campagne komt hij op tafel, want jij wilt weten wat je antwoordt als een ontvanger hem aan jou stelt.": {
+"en": "“How did you actually get my email address?” Everyone who sends cold email gets that question. Sometimes out of curiosity, sometimes with some irritation. It also comes up when you talk to us about a campaign, because you want to know what to say when a recipient asks you."
+},
+"Zakelijke e-mailadressen in een B2B-campagne komen uit openbare bronnen: de website van het bedrijf zelf en openbare zakelijke profielen. Daar wordt per adres een eigen controle op gedaan, zodat er alleen adressen overblijven die bestaan en bij het juiste bedrijf horen. Per adres leg je vast waar het vandaan komt en wanneer het is gecontroleerd. Vraagt iemand ernaar, dan kun je het laten zien.": {
+"en": "Business email addresses in a B2B campaign come from public sources: the company’s own website and public business profiles. Each address then gets its own check, so only addresses that exist and belong to the right company remain. For each address you record where it came from and when it was checked. If someone asks, you can show it."
+},
+"Link2Leads bouwt elke leadlijst zo op. Bronnen zijn openbare bedrijfswebsites, openbare zakelijke profielen en eigen verificatie. Het Handelsregister gebruiken we niet als bron, en adressen van mensen die eerder bezwaar hebben gemaakt filteren we er vooraf uit.": {
+"en": "Link2Leads builds every lead list this way. Sources are public company websites, public business profiles and our own verification. We do not use the Dutch Chamber of Commerce register as a source, and we filter out addresses of people who objected before."
+},
+"De vraag komt bijna altijd van iemand die zich de afzender niet kan herinneren. Dat klopt ook: er was geen eerder contact. De ontvanger zoekt dus naar een verklaring en denkt al snel aan een gelekt bestand of een lijst die ergens is gekocht.": {
+"en": "The question almost always comes from someone who cannot remember the sender. That is right: there was no earlier contact. So the recipient looks for an explanation and quickly thinks of a leaked file or a list bought somewhere."
+},
+"Uit onze eigen campagnes kennen we de varianten. “Ik kan me niet herinneren dat ik mijn adres hiervoor heb gegeven.” Of iemand schrijft dat de combinatie van zijn naam en het bedrijf niet klopt. Een enkeling stuurt een formeel verzoek en wil precies weten uit welke bron zijn gegevens komen.": {
+"en": "We know the variations from our own campaigns. “I can’t remember giving you my address for this.” Or someone writes that the combination of their name and the company is wrong. Now and then someone sends a formal request and wants to know exactly which source their data came from."
+},
+"Het is een redelijke vraag en de ontvanger heeft er ook recht op. Wie persoonsgegevens gebruikt die hij niet bij de persoon zelf heeft opgehaald, moet volgens artikel 14 van de AVG kunnen vertellen waar ze vandaan komen. Hoe dat precies zit, staat in": {
+"en": "It is a reasonable question and the recipient is entitled to an answer. Anyone who uses personal data they did not collect from the person themselves must, under Article 14 of the GDPR, be able to say where it came from. How that works exactly is explained in"
+},
+". Hier gaat het om de praktijk: waar komt zo’n adres vandaan, en hoe laat je dat zien?": {
+"en": ". Here it is about practice: where does such an address come from, and how do you show it?"
+},
+"Een bedrijf dat gevonden wil worden, zet veel over zichzelf online. Een contactpagina, een teampagina met namen en functies, een vacature met de naam van de leidinggevende erbij. Daarnaast hebben de meeste beslissers een openbaar zakelijk profiel met hun functie en werkgever.": {
+"en": "A company that wants to be found puts a lot about itself online. A contact page, a team page with names and roles, a vacancy with the name of the manager. On top of that, most decision makers have a public business profile with their role and employer."
+},
+"Uit die openbare informatie stel je per bedrijf vast wie de beslisser is. Het adres van die persoon wordt daarna gecontroleerd: bestaat het domein en neemt de mailbox mail aan? Pas als dat klopt, komt het in de lijst.": {
+"en": "From that public information you determine who the decision maker is at each company. That person’s address is then checked: does the domain exist and does the mailbox accept mail? Only if it does, it goes on the list."
+},
+"Het Handelsregister laten we bewust liggen. Dat gebruiken we niet als bron en we verkopen er ook niets uit door. Privéadressen nemen we evenmin op. Een campagne gaat naar zakelijke adressen bij bedrijven.": {
+"en": "We deliberately leave the Chamber of Commerce register alone. We do not use it as a source and we do not resell anything from it. We do not include private addresses either. A campaign goes to business addresses at companies."
+},
+"Het begint bij de doelgroep. In de onboarding leggen we vast welke branche, welke bedrijfsgrootte, welke regio en welke functie we zoeken. Vaak kijken we daarbij naar je beste bestaande klanten en zoeken we bedrijven die daarop lijken.": {
+"en": "It starts with the target group. During onboarding we agree which industry, which company size, which region and which role we are looking for. We often look at your best existing clients and find companies that resemble them."
+},
+"Dan komt de lijst. Per bedrijf zoeken we de beslisser die bij jouw aanbod past. Elk adres wordt geverifieerd voordat er iets uitgaat, en bij elk record staan de bron en de datum van de controle. Wie een losse leadlijst bij ons koopt, krijgt die bron en controledatum per record ook gewoon mee in het bestand.": {
+"en": "Then comes the list. For each company we find the decision maker who fits your offer. Every address is verified before anything goes out, and every record shows the source and the date of the check. If you buy a separate lead list from us, you get that source and check date per record in the file as well."
+},
+"Daarna krijg jij de lijst te zien. Jij haalt eruit wat er niet in hoort: bestaande klanten, lopende trajecten en partijen die je liever zelf benadert. Pas daarna gaat de eerste mail de deur uit.": {
+"en": "Then you get to see the list. You take out what does not belong: existing clients, ongoing deals and parties you would rather approach yourself. Only then does the first email go out."
+},
+"Die controle merk je ook in je resultaat. Een lijst met dode of verkeerde adressen levert bounces op, en met te veel bounces belanden je mails sneller in de spamfolder.": {
+"en": "You also notice that check in your results. A list with dead or wrong addresses produces bounces, and with too many bounces your emails end up in spam sooner."
+},
+"Vraagt een ontvanger hoe je aan zijn adres komt, dan wil je binnen een dag antwoord kunnen geven. Dat lukt alleen als je de herkomst hebt vastgelegd op het moment dat het adres in je lijst kwam. Achteraf terugzoeken waar een adres ooit vandaan kwam, gaat meestal mis.": {
+"en": "If a recipient asks how you got their address, you want to be able to answer within a day. That only works if you recorded the origin the moment the address went on your list. Tracing afterwards where an address once came from usually goes wrong."
+},
+"Een goed antwoord is kort en feitelijk. Zeg waar het adres is gevonden en wanneer, waarom je deze persoon hebt gemaild, en dat je hem verder met rust laat als hij dat wil. Geen juridische discussie, gewoon antwoord op wat er gevraagd wordt.": {
+"en": "A good answer is short and factual. Say where the address was found and when, why you emailed this person, and that you will leave them alone if they want. No legal debate, just an answer to what was asked."
+},
+"Wil iemand niets meer ontvangen, dan gaat zijn adres op een suppressielijst die over al onze campagnes heen werkt. Verwijderen uit een enkele campagne is te weinig. Zonder zo’n lijst duikt hetzelfde adres bij de volgende lijst gewoon weer op, en dan heb je pas echt een boze ontvanger.": {
+"en": "If someone does not want to receive anything else, their address goes on a suppression list that works across all our campaigns. Removing it from a single campaign is not enough. Without such a list the same address simply turns up again in the next list, and then you really do have an angry recipient."
+},
+"Als klant hoef je dit zelf niet te doen. Privacy- en AVG-vragen tellen bij ons niet als reactie die naar jou gaat. Die handelen wij af, en wij laten jou weten dat het is gebeurd.": {
+"en": "As a client you do not have to do this yourself. Privacy and GDPR questions are not replies we forward to you. We handle them, and we let you know it has been done."
+},
+"Bedrijfsgegevens verouderen. Mensen wisselen van baan, een bedrijf wordt overgenomen of houdt op te bestaan. Daarom controleren we adressen kort voordat ze gebruikt worden en niet maanden eerder.": {
+"en": "Company data gets outdated. People change jobs, a company is taken over or closes down. That is why we check addresses shortly before they are used, not months earlier."
+},
+"Toch komt het voor dat iemand terugschrijft dat hij al jaren niet meer bij dat bedrijf werkt, of dat zijn naam aan het verkeerde bedrijf is gekoppeld. Zo’n reactie lezen we met de hand. Het adres gaat eruit, de koppeling wordt aangepast en als de ontvanger een collega noemt die er wel over gaat, krijg jij die naam erbij.": {
+"en": "Still, someone sometimes writes back that they left that company years ago, or that their name is linked to the wrong company. We read that kind of reply by hand. The address is removed, the link is corrected, and if the recipient mentions a colleague who does handle it, you get that name."
+},
+"Een opgeheven bedrijf of een vertrokken contactpersoon telt bij ons ook niet als positieve reactie. Zo’n bericht komt dus niet in jouw inbox terecht en telt niet mee in de resultaten die we rapporteren.": {
+"en": "A closed company or a contact who has left does not count as a positive reply with us either. So that message does not end up in your inbox and does not count towards the results we report."
+},
+"Hoe vaak de vraag komt, hangt ook af van de mail. Een ontvanger die meteen ziet waarom hij is gemaild, vraagt minder snel hoe je aan zijn adres komt.": {
+"en": "How often the question comes up also depends on the email. A recipient who immediately sees why they were emailed is less likely to ask how you got their address."
+},
+"Daarom zoeken we per bedrijf naar een aanleiding om nu te mailen. Een openstaande vacature bijvoorbeeld, of een nieuwe vestiging. De eerste zin van de mail verwijst daarnaar. De ontvanger leest dan dat je naar zijn bedrijf hebt gekeken, en dat beantwoordt de helft van zijn vraag al.": {
+"en": "That is why we look for a reason to email each company now. An open vacancy for example, or a new office. The first sentence of the email refers to it. The recipient then reads that you looked at their company, and that answers half of their question already."
+},
+"De afzender moet ook kloppen. Een echte naam, een bedrijfsnaam die je kunt opzoeken en een domein dat naar een echte site leidt. Wie wil weten wie hem mailt, vindt dat binnen een minuut.": {
+"en": "The sender has to be right too. A real name, a company name you can look up and a domain that leads to a real website. Anyone who wants to know who is emailing them finds out within a minute."
+},
+"En de ontvanger moet makkelijk kunnen stoppen. Antwoorden dat hij niets meer wil ontvangen is genoeg. Wij verwerken dat elke dag, en daarna hoort hij niets meer van je, ook niet uit een volgende campagne.": {
+"en": "And the recipient must be able to stop easily. Replying that they do not want anything else is enough. We process that every day, and after that they never hear from you again, not from a later campaign either."
+},
+"Je kunt een bedrijvenbestand kopen. Dat is niet verboden. Het probleem zit in de vraag waar dit artikel mee begon. Bij een gekocht bestand weet je vaak niet waar een adres vandaan komt, wanneer het is verzameld en of de persoon er nog werkt.": {
+"en": "You can buy a company database. That is not prohibited. The problem lies in the question this article started with. With a purchased file you often do not know where an address came from, when it was collected and whether the person still works there."
+},
+"Krijg je dan een verzoek van een ontvanger, dan kun je de bron niet laten zien. En een bestand dat al een tijd rondgaat, levert meer bounces op dan een lijst die net is gecontroleerd.": {
+"en": "If a recipient then sends a request, you cannot show the source. And a file that has been circulating for a while produces more bounces than a list that was just checked."
+},
+"Koop je toch een bestand, vraag dan voordat je betaalt of er per record een bron en een controledatum bij zit. Komt daar geen helder antwoord op, dan weet je genoeg.": {
+"en": "If you do buy a file, ask before you pay whether every record comes with a source and a check date. If there is no clear answer, you know enough."
+},
+"Waar halen jullie e-mailadressen vandaan?": {
+"en": "Where do you get email addresses from?"
+},
+"Uit openbare bedrijfswebsites en openbare zakelijke profielen, met een eigen controle per adres. Het Handelsregister gebruiken we niet als bron. Per record leggen we de bron en de datum van de controle vast.": {
+"en": "From public company websites and public business profiles, with our own check per address. We do not use the Chamber of Commerce register as a source. For each record we record the source and the date of the check."
+},
+"Mailen jullie ook naar privéadressen?": {
+"en": "Do you also email private addresses?"
+},
+"Nee. Een campagne gaat alleen naar zakelijke adressen bij bedrijven, van de persoon die over jouw onderwerp beslist.": {
+"en": "No. A campaign only goes to business addresses at companies, to the person who decides on your topic."
+},
+"Wat zeg ik als een ontvanger vraagt hoe we aan zijn adres komen?": {
+"en": "What do I say when a recipient asks how we got their address?"
+},
+"Dat hoef je niet zelf te doen. Privacyvragen handelen wij af: we noemen de bron en de datum, en wie niets meer wil ontvangen gaat op een suppressielijst die over al onze campagnes heen werkt.": {
+"en": "You do not have to do that yourself. We handle privacy questions: we state the source and the date, and anyone who does not want to receive anything else goes on a suppression list that works across all our campaigns."
+},
+"Kan ik zelf bestaande klanten uit de lijst halen?": {
+"en": "Can I remove existing clients from the list myself?"
+},
+"Ja. Je krijgt de lijst te zien voordat er iets uitgaat en haalt eruit wat er niet in hoort, zoals bestaande klanten, lopende trajecten en partijen die je liever zelf benadert.": {
+"en": "Yes. You see the list before anything goes out and take out what does not belong, such as existing clients, ongoing deals and parties you would rather approach yourself."
+},
+"Is een gekochte lijst bruikbaar voor koude e-mail?": {
+"en": "Is a purchased list usable for cold email?"
+},
+"Het is niet verboden, wel riskant. Vaak kun je bij een gekocht bestand niet aantonen waar een adres vandaan komt, en oudere bestanden leveren meer bounces op. Vraag vooraf of er per record een bron en een controledatum bij zit.": {
+"en": "It is not prohibited, but it is risky. With a purchased file you often cannot show where an address came from, and older files produce more bounces. Ask beforehand whether every record comes with a source and a check date."
+},
+"Wil je weten hoe jouw lijst eruit zou zien?": {
+"en": "Want to know what your list would look like?"
+},
+"In de gratis fitcheck van 30 minuten kijken we samen naar je doelgroep en laten we zien hoe we de lijst opbouwen en waar de adressen vandaan komen. Past koude e-mail niet bij je markt, dan zeggen we dat ook.": {
+"en": "In the free 30-minute fit check we look at your target group together and show how we build the list and where the addresses come from. If cold email does not suit your market, we tell you that too."
+},
+"Hoe komen jullie aan mijn e-mailadres? Waar B2B-leaddata vandaan komt | Link2Leads": {
+"en": "How do you get my email address? Where B2B lead data comes from | Link2Leads"
+},
+"Waar zakelijke e-mailadressen in een B2B-campagne vandaan komen, hoe je de bron per adres vastlegt en wat je antwoordt als een ontvanger ernaar vraagt.": {
+"en": "Where business email addresses in a B2B campaign come from, how you record the source per address and what you reply when a recipient asks."
+},
+"Hoe komen jullie aan mijn e-mailadres? Waar B2B-leaddata vandaan komt": {
+"en": "How do you get my email address? Where B2B lead data comes from"
+},
+"Genoeg aan je netwerk en": {
+"en": "Are your network and"
+},
+"doorverwijzingen?": {
+"en": "referrals enough?"
+},
+"Je klanten komen via via, en dat gaat goed. Waarom dat vaak je beste klanten zijn, waar het netwerk ophoudt en hoe een campagne daar naast kan draaien.": {
+"en": "Your clients come through word of mouth, and that is going well. Why those are often your best clients, where the network stops and how a campaign can run alongside it."
+},
+"Waarom het netwerk zo goed werkt": {
+"en": "Why the network works so well"
+},
+"Waar het netwerk ophoudt": {
+"en": "Where the network stops"
+},
+"Wat koude e-mail daarnaast doet": {
+"en": "What cold email adds"
+},
+"Hoe je ze laat samenwerken": {
+"en": "How to make them work together"
+},
+"Wat een campagne van jou vraagt": {
+"en": "What a campaign asks of you"
+},
+"Wanneer je netwerk wel genoeg is": {
+"en": "When your network is enough"
+},
+"“Onze klanten komen via het netwerk.” Dat horen we vaak, van adviseurs, bureaus en technische dienstverleners. Het klopt meestal ook. Een doorverwijzing van een tevreden klant is de warmste introductie die er bestaat. De vraag is wat je doet in de maanden dat er even geen doorverwijzing binnenkomt.": {
+"en": "“Our clients come through our network.” We hear that a lot, from advisers, agencies and technical service providers. It is usually true. A referral from a happy client is the warmest introduction there is. The question is what you do in the months when no referral comes in."
+},
+"Je netwerk levert vaak je beste klanten op. Alleen bepaal jij niet wanneer er iemand belt, en ook niet wie. Koude e-mail vult dat gat. Je kiest zelf welke bedrijven je benadert, het volume staat vast en je kunt het opschalen of terugschroeven.": {
+"en": "Your network often brings your best clients. But you do not decide when someone calls, or who. Cold email fills that gap. You choose which companies you approach, the volume is fixed and you can scale it up or down."
+},
+"Het een vervangt het ander ook niet. Wie via het netwerk komt, blijft via het netwerk komen. Een campagne zorgt ervoor dat je daarnaast gesprekken voert met bedrijven die je anders nooit had gesproken.": {
+"en": "One does not replace the other. Whoever comes through your network keeps coming through your network. A campaign makes sure that alongside it you talk to companies you would otherwise never have spoken to."
+},
+"Bij Link2Leads begint dat met 3.000 mails per maand op Starter voor € 995. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen.": {
+"en": "At Link2Leads that starts with 3,000 emails per month on Starter for € 995. The first replies usually come in three to ten days after going live."
+},
+"Een doorverwijzing komt binnen met vertrouwen dat iemand anders al voor je heeft opgebouwd. De nieuwe klant heeft van een bekende gehoord dat je goed werk levert. Over je prijs wordt minder onderhandeld en het eerste gesprek gaat sneller over de inhoud.": {
+"en": "A referral comes in with trust that someone else already built for you. The new client heard from someone they know that you do good work. There is less haggling over your price and the first conversation gets to the substance faster."
+},
+"Daar valt weinig tegen in te brengen, en dat proberen we ook niet. Bedrijven die we spreken en die al jaren groeien op aanbevelingen, hebben meestal een sterk product en tevreden klanten. Dat is precies de basis waarop een koude campagne ook werkt.": {
+"en": "There is little to say against that, and we do not try. Companies we talk to that have grown on recommendations for years usually have a strong product and happy clients. That is exactly the basis a cold campaign works on too."
+},
+"Het eerste punt is timing. Een doorverwijzing komt als iemand in jouw netwerk toevallig een bedrijf spreekt dat jou nodig heeft. Dat kan deze week zijn, of over vier maanden. Je kunt er niet op sturen.": {
+"en": "The first point is timing. A referral comes when someone in your network happens to talk to a company that needs you. That can be this week, or in four months. You cannot steer it."
+},
+"Dan de kring zelf. Een netwerk brengt je vooral klanten die lijken op de klanten die je al hebt, in de regio waar je al werkt. Wil je een nieuwe branche in, of grotere bedrijven dan je gewend bent, dan helpt het netwerk je daar maar beperkt.": {
+"en": "Then the circle itself. A network mainly brings you clients who resemble the clients you already have, in the region where you already work. If you want to enter a new industry, or work with bigger companies than you are used to, the network only helps you so far."
+},
+"En een netwerk groeit niet mee met je ambitie. Wil je volgend jaar twee mensen extra aannemen, dan moet er ook twee keer zoveel werk binnenkomen. Je kunt je klanten moeilijk vragen om twee keer zo vaak over je te vertellen.": {
+"en": "And a network does not grow with your ambition. If you want to hire two more people next year, twice as much work has to come in. You can hardly ask your clients to talk about you twice as often."
+},
+"Veel ondernemers merken dat pas als het een keer stil valt. Een grote klant stopt, een project loopt af, en het netwerk levert die maand toevallig niets op. Dan moet er in korte tijd iets gebeuren.": {
+"en": "Many business owners only notice this when things go quiet. A big client stops, a project ends, and that month the network happens to bring nothing. Then something has to happen quickly."
+},
+"Bij een campagne draai je die verhouding om. Jij bepaalt welke bedrijven je wilt spreken. In de onboarding leggen we vast welke branche, regio, bedrijfsgrootte en functie we zoeken, vaak op basis van je beste bestaande klanten. Daar zoeken we bedrijven bij die daarop lijken.": {
+"en": "With a campaign you turn that around. You decide which companies you want to talk to. During onboarding we agree which industry, region, company size and role we are looking for, often based on your best existing clients. We find companies that resemble them."
+},
+"Het volume ligt vast. Elk pakket heeft een maandvolume dat in je contract staat, van 3.000 tot 30.000 mails, zeven dagen per week verstuurd. Daardoor weet je ook ongeveer wat je kunt verwachten. Vanaf de tweede maand zie je welke segmenten reageren en schuift het volume daarheen.": {
+"en": "The volume is fixed. Every package has a monthly volume that is in your contract, from 3,000 to 30,000 emails, sent seven days a week. That also gives you a rough idea of what to expect. From the second month you see which segments respond and the volume shifts there."
+},
+"Wat de campagne levert, zijn gesprekken met mensen die nog nooit van je hebben gehoord. Dat is anders dan een doorverwijzing. De mail opent het gesprek. Het vertrouwen bouw jij daarna zelf op, op dezelfde manier als je dat bij een doorverwezen klant doet: door een goed gesprek te voeren en te laten zien wat je voor anderen hebt gedaan.": {
+"en": "What the campaign delivers are conversations with people who have never heard of you. That is different from a referral. The email opens the conversation. You then build the trust yourself, the same way you do with a referred client: by having a good conversation and showing what you have done for others."
+},
+"Een leuke bijvangst: ook in een koude campagne komen doorverwijzingen binnen. “Dit gaat niet over mij, mail even met mijn collega.” Zo’n reactie sturen wij door met de naam en het adres van die collega erbij. Dat is dan toch weer een warme introductie, alleen heb je hem zelf in gang gezet.": {
+"en": "A nice side effect: referrals come in from cold campaigns too. “This isn’t for me, email my colleague.” We forward that kind of reply with the name and address of that colleague. That is a warm introduction after all, only this time you set it in motion yourself."
+},
+"Het netwerk en de campagne zitten elkaar niet in de weg, als je een paar dingen goed regelt.": {
+"en": "Your network and the campaign do not get in each other’s way, as long as you arrange a few things well."
+},
+"Begin met wie er niet in hoort. Voordat de eerste mail uitgaat, krijg je de lijst te zien. Jij haalt eruit wat er niet in hoort: bestaande klanten, lopende trajecten en partijen die je liever zelf benadert. Zo krijgt niemand uit je netwerk een koude mail van je.": {
+"en": "Start with who does not belong. Before the first email goes out, you get to see the list. You take out what does not belong: existing clients, ongoing deals and parties you would rather approach yourself. That way nobody in your network gets a cold email from you."
+},
+"Gebruik daarna je doorverwijzingen in de mail zelf. Werk je al voor een paar bekende namen in een branche, dan is dat een sterke regel in een mail aan hun branchegenoten. Het is het netwerkeffect, op schaal.": {
+"en": "Then use your referrals in the email itself. If you already work for a few well-known names in an industry, that is a strong line in an email to their peers. It is the network effect, at scale."
+},
+"Wil je dat je naam al bekend is als de mail binnenkomt, dan kan LinkedIn erbij. Dezelfde bedrijven krijgen dan ook een connectieverzoek en een eerste bericht vanuit jouw eigen profiel. Dat kost € 350 per maand op elk pakket.": {
+"en": "If you want your name to be familiar when the email arrives, you can add LinkedIn. The same companies then also get a connection request and a first message from your own profile. That costs € 350 per month on every package."
+},
+"En zorg dat iemand de reacties oppakt. Een positieve reactie verdient binnen een werkdag antwoord. Heb je daar zelf geen tijd voor, dan kunnen wij op Scale en Pro met de Full Service-module de reacties beantwoorden en de afspraak direct in je agenda zetten.": {
+"en": "And make sure someone picks up the replies. A positive reply deserves an answer within one working day. If you do not have time for that yourself, on Scale and Pro we can answer the replies with the Full Service module and put the meeting straight into your calendar."
+},
+"Een netwerk kost tijd op een manier die je niet ziet: borrels en lunches, even bellen met een oud-collega die iemand kent. Een campagne vraagt ook tijd, alleen op andere momenten.": {
+"en": "A network costs time in a way you do not notice: drinks and lunches, a quick call with a former colleague who knows someone. A campaign takes time too, just at different moments."
+},
+"In de eerste twee weken vul je de vragenlijst in, zit je bij de onboarding en keur je de teksten goed. Je kijkt de lijst door en haalt eruit wie je liever zelf benadert. Daarna doen wij het werk: domeinen en mailboxen opzetten, de lijst opbouwen, versturen en elke reactie met de hand lezen.": {
+"en": "In the first two weeks you fill in the questionnaire, join the onboarding and approve the copy. You go through the list and take out who you would rather approach yourself. After that we do the work: setting up domains and mailboxes, building the list, sending and reading every reply by hand."
+},
+"Wat bij jou terugkomt, zijn de reacties die een gesprek waard zijn. Iemand die wil bellen, of iemand die je doorverwijst naar de collega die erover gaat. Die reacties staan in je eigen mailbox, met naam, functie en contactgegevens erbij. Elke week krijg je daarnaast een rapportage met wat er is verstuurd en wat eruit kwam.": {
+"en": "What comes back to you are the replies worth a conversation. Someone who wants to call, or someone who refers you to the colleague in charge. Those replies land in your own mailbox, with name, role and contact details. Every week you also get a report with what was sent and what came out of it."
+},
+"Het gesprek zelf voer je zoals je dat altijd doet. Je hebt alleen meer gesprekken, met bedrijven die je zelf hebt uitgekozen.": {
+"en": "You have the conversation itself the way you always do. You just have more conversations, with companies you chose yourself."
+},
+"Soms is het eerlijke antwoord dat je dit niet nodig hebt. Komt er structureel meer werk binnen dan je aankunt en wil je ook niet groeien, dan heeft een campagne weinig zin. Daar schreven we eerder een stuk over:": {
+"en": "Sometimes the honest answer is that you do not need this. If more work comes in than you can handle and you do not want to grow either, a campaign makes little sense. We wrote about that earlier:"
+},
+"acquisitie terwijl je agenda vol zit": {
+"en": "prospecting while your calendar is full"
+},
+"Ook als je markt heel klein is, ligt het anders. Onder ongeveer 1.000 bedrijven raden we koude e-mail af. In zo’n markt kent iedereen elkaar al en heeft het netwerk zijn werk meestal gedaan.": {
+"en": "If your market is very small, things are different too. Below roughly 1,000 companies we advise against cold email. In such a market everyone already knows each other and the network has usually done its job."
+},
+"Voor iedereen daartussen is de vraag eigenlijk simpel. Wil je zelf kunnen bepalen hoeveel nieuwe gesprekken je volgende maand voert? Dan is een campagne de aanvulling die je netwerk mist.": {
+"en": "For everyone in between the question is quite simple. Do you want to decide yourself how many new conversations you have next month? Then a campaign is the addition your network is missing."
+},
+"Werkt koude e-mail als mijn klanten vooral via doorverwijzingen komen?": {
+"en": "Does cold email work if my clients mainly come through referrals?"
+},
+"Ja, als aanvulling. Je netwerk blijft doen wat het doet. Een campagne levert daarnaast gesprekken op met bedrijven die je zelf kiest, op een volume dat in je contract staat.": {
+"en": "Yes, as an addition. Your network keeps doing what it does. A campaign also brings conversations with companies you choose, at a volume that is in your contract."
+},
+"Krijgen mensen uit mijn netwerk dan ook een koude mail?": {
+"en": "Will people in my network get a cold email too?"
+},
+"Nee. Je ziet de lijst voordat er iets uitgaat en haalt er bestaande klanten, lopende trajecten en partijen uit die je liever zelf benadert.": {
+"en": "No. You see the list before anything goes out and take out existing clients, ongoing deals and parties you would rather approach yourself."
+},
+"Hoe snel komen de eerste gesprekken?": {
+"en": "How soon do the first conversations come?"
+},
+"De setup staat binnen 14 dagen, de campagne gaat in week 3 live en de eerste reacties komen doorgaans drie tot tien dagen daarna binnen.": {
+"en": "The setup is ready within 14 days, the campaign goes live in week 3 and the first replies usually come in three to ten days later."
+},
+"Kan ik LinkedIn erbij nemen?": {
+"en": "Can I add LinkedIn?"
+},
+"Ja, op elk pakket voor € 350 per maand. Dezelfde bedrijven krijgen dan ook een connectieverzoek en een eerste bericht vanuit je eigen LinkedIn-profiel.": {
+"en": "Yes, on every package for € 350 per month. The same companies then also get a connection request and a first message from your own LinkedIn profile."
+},
+"Benieuwd wat een campagne naast je netwerk oplevert?": {
+"en": "Curious what a campaign adds to your network?"
+},
+"In de gratis fitcheck van 30 minuten kijken we naar je doelgroep en je huidige instroom, en rekenen we door wat een campagne daarnaast realistisch oplevert. Is je markt te klein, dan hoor je dat ook.": {
+"en": "In the free 30-minute fit check we look at your target group and your current inflow, and calculate what a campaign can realistically add. If your market is too small, we tell you that too."
+},
+"Genoeg aan je netwerk en doorverwijzingen? Koude e-mail als aanvulling | Link2Leads": {
+"en": "Are your network and referrals enough? Cold email as an addition | Link2Leads"
+},
+"Waarom doorverwijzingen vaak je beste klanten opleveren, waar het netwerk ophoudt en hoe koude e-mail daarnaast voorspelbaar extra gesprekken levert.": {
+"en": "Why referrals often bring your best clients, where the network stops and how cold email adds predictable extra conversations alongside it."
+},
+"Genoeg aan je netwerk en doorverwijzingen? Koude e-mail als aanvulling": {
+"en": "Are your network and referrals enough? Cold email as an addition"
+},
+"Hoe komen jullie aan mijn e-mailadres?": {
+"en": "How do you get my email address?"
+},
+"Waar zakelijke adressen in een campagne vandaan komen, hoe je de bron per adres vastlegt en wat je antwoordt als een ontvanger ernaar vraagt.": {
+"en": "Where business addresses in a campaign come from, how you record the source per address and what you reply when a recipient asks."
+},
+"Kanalen · 7 min": {
+"en": "Channels · 7 min"
+},
+"Genoeg aan je netwerk en doorverwijzingen?": {
+"en": "Are your network and referrals enough?"
+},
+"Waarom doorverwijzingen vaak je beste klanten opleveren, waar het netwerk ophoudt en hoe een campagne daar voorspelbaar naast draait.": {
+"en": "Why referrals often bring your best clients, where the network stops and how a campaign runs predictably alongside it."
 }
 };
