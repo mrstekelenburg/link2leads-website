@@ -8342,6 +8342,15 @@ window.L2L_I18N_DATA = {
 "Volgend kwartaal": {
 "en": "Next quarter"
 },
+"Wanneer wil je live?": {
+"en": "When do you want to go live?"
+},
+"Over 2 weken, zo snel als het kan": {
+"en": "In 2 weeks, as soon as possible"
+},
+"Binnen drie maanden": {
+"en": "Within three months"
+},
 "We kijken nog rond": {
 "en": "Still looking around"
 },
