@@ -85,7 +85,7 @@ Niet doorgestuurd: afwezigheidsmeldingen en autoresponders; bounces; afmeldingen
 
 ## Resultaten (bijgewerkt 3 oktober 2026)
 
-- Ruim **1,5 miljoen** mails verstuurd namens klanten, vanaf ongeveer 170 eigen mailboxen (alle campagnes samen)
+- Ruim **1.500.000** mails verstuurd namens klanten, vanaf ongeveer 170 eigen mailboxen (alle campagnes samen)
 - **76 %** hoogste open rate op een lopende campagne
 - **9,1 %** reply rate op de best draaiende campagne, gemeten op de lijsten waar elke prospect een eigen landingspagina kreeg, tegenover 3,2 % op dezelfde lijst zonder
 - Binnen een campagne van 18.594 leads liep de reply rate per segment uiteen van **2,3 % tot 7,8 %** bij identieke copy, getoetst met een z-test (juli 2026). Segmentatie is daarmee de grootste variabele.
