@@ -6705,6 +6705,12 @@ window.L2L_I18N_DATA = {
 "Losse leads kopen": {
 "en": "Buy leads separately"
 },
+"Energie en installatie": {
+"en": "Energy and installation"
+},
+"Industrie en toelevering": {
+"en": "Industry and supply"
+},
 "Bekijk al onze reviews": {
 "en": "See all our reviews"
 },
