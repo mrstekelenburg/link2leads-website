@@ -85,7 +85,7 @@ Niet doorgestuurd: afwezigheidsmeldingen en autoresponders; bounces; afmeldingen
 
 ## Resultaten (bijgewerkt 3 oktober 2026)
 
-- Ruim **1.500.000** mails verstuurd namens klanten, vanaf ongeveer 170 eigen mailboxen (alle campagnes samen)
+- Ruim **1.500.000** mails verstuurd namens klanten, vanaf ruim 300 eigen mailboxen (alle campagnes samen)
 - **76 %** hoogste open rate op een lopende campagne
 - **9,1 %** reply rate op de best draaiende campagne, gemeten op de lijsten waar elke prospect een eigen landingspagina kreeg, tegenover 3,2 % op dezelfde lijst zonder
 - Binnen een campagne van 18.594 leads liep de reply rate per segment uiteen van **2,3 % tot 7,8 %** bij identieke copy, getoetst met een z-test (juli 2026). Segmentatie is daarmee de grootste variabele.
@@ -118,7 +118,7 @@ Een eigen SDR kost in het eerste jaar circa 69.000 tot 83.000 euro inclusief wer
 
 ## Infrastructuur en werkwijze
 
-- Ongeveer 170 actieve mailboxen, maximaal 25 mails per mailbox per dag
+- Ruim 300 actieve mailboxen, maximaal 25 mails per mailbox per dag
 - Permanente warmup (circa 25 mails per dag per box), ook tijdens de campagne; warmup start twee weken vóór de livedatum
 - Aparte verzenddomeinen met SPF, DKIM en DMARC; nooit vanaf het hoofddomein van de klant
 - Persoonlijke afzenderadressen in plaats van rolaccounts

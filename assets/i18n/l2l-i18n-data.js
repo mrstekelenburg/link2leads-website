@@ -3327,8 +3327,8 @@ window.L2L_I18N_DATA = {
 "Waarom komen je koude mails niet aan?": {
 "en": "Why do your cold emails not arrive?"
 },
-"Zes oorzaken op volgorde van hoe vaak ze het werkelijk zijn, met de instellingen die wij over ongeveer 170 mailboxen aanhouden.": {
-"en": "Six causes ranked by how often they are the real one, with the settings we run across roughly 170 mailboxes."
+"Zes oorzaken op volgorde van hoe vaak ze het werkelijk zijn, met de instellingen die wij over ruim 300 mailboxen aanhouden.": {
+"en": "Six causes ranked by how often they are the real one, with the settings we run across more than 300 mailboxes."
 },
 "Businesscase · 7 min": {
 "en": "Business case · 7 min"
@@ -3924,8 +3924,8 @@ window.L2L_I18N_DATA = {
 "De regels met de wetsartikelen erbij": {
 "en": "The rules with the legal articles alongside"
 },
-"Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.": {
-"en": "Co-founder of Link2Leads. Runs cold email campaigns daily for Dutch B2B companies from around 170 in-house mailboxes. The figures in our articles come from those campaigns."
+"Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ruim 300 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.": {
+"en": "Co-founder of Link2Leads. Runs cold email campaigns daily for Dutch B2B companies from more than 300 in-house mailboxes. The figures in our articles come from those campaigns."
 },
 "✉ info@link2leads.nl": {
 "en": "✉ info@link2leads.nl"
@@ -4497,8 +4497,8 @@ window.L2L_I18N_DATA = {
 "Bijna iedereen die met cold email begint, denkt dat het probleem in de tekst zit. Dat is het zelden. Als je open rate onder de 20 procent zakt of je bounce rate boven de 3 procent komt, is er iets stuk in de infrastructuur, en geen enkele herschreven onderwerpregel repareert dat.": {
 "en": "Almost everyone starting with cold email thinks the problem is in the copy. It rarely is. If your open rate drops below 20 per cent or your bounce rate climbs above 3 per cent, something is broken in the infrastructure, and no rewritten subject line repairs that."
 },
-"Wij draaien ongeveer 170 mailboxen voor lopende klantcampagnes. Hieronder wat we in de praktijk tegenkomen, in volgorde van hoe vaak het de oorzaak is.": {
-"en": "We run around 170 mailboxes for ongoing client campaigns. Below is what we encounter in practice, in order of how often it is the cause."
+"Wij draaien ruim 300 mailboxen voor lopende klantcampagnes. Hieronder wat we in de praktijk tegenkomen, in volgorde van hoe vaak het de oorzaak is.": {
+"en": "We run more than 300 mailboxes for ongoing client campaigns. Below is what we encounter in practice, in order of how often it is the cause."
 },
 "1. Je lijst is vervuild": {
 "en": "1. Your list is contaminated"
@@ -4758,8 +4758,8 @@ window.L2L_I18N_DATA = {
 "Hoeveel mails per mailbox per dag kan ik veilig versturen?": {
 "en": "How many emails per mailbox per day can I safely send?"
 },
-"Maximaal 25. Dat is de standaard die wij over ongeveer 170 mailboxen aanhouden. Wil je 1.000 mails per dag versturen, dan heb je dus 40 tot 80 mailboxen nodig. Volume komt uit het aantal mailboxen, niet uit hardere instellingen op een enkele box.": {
-"en": "A maximum of 25. That is the standard we maintain across around 170 mailboxes. If you want to send 1,000 emails a day, you therefore need 40 to 80 mailboxes. Volume comes from the number of mailboxes, not from harder settings on a single box."
+"Maximaal 25. Dat is de standaard die wij over ruim 300 mailboxen aanhouden. Wil je 1.000 mails per dag versturen, dan heb je dus 40 tot 80 mailboxen nodig. Volume komt uit het aantal mailboxen, niet uit hardere instellingen op een enkele box.": {
+"en": "A maximum of 25. That is the standard we maintain across more than 300 mailboxes. If you want to send 1,000 emails a day, you therefore need 40 to 80 mailboxes. Volume comes from the number of mailboxes, not from harder settings on a single box."
 },
 "Moet ik open tracking aanzetten bij cold email?": {
 "en": "Should I switch on open tracking for cold email?"
@@ -6534,8 +6534,8 @@ window.L2L_I18N_DATA = {
 "Mede-oprichter van": {
 "en": "Co-founder of"
 },
-". Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.": {
-"en": ". Runs cold email campaigns daily for Dutch B2B companies from around 170 in-house mailboxes. The figures in our articles come from those campaigns."
+". Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ruim 300 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.": {
+"en": ". Runs cold email campaigns daily for Dutch B2B companies from more than 300 in-house mailboxes. The figures in our articles come from those campaigns."
 },
 "bouwt en beheert e-mailcampagnes voor B2B bedrijven. Dit omvat:": {
 "en": "builds and manages email campaigns for B2B companies. This includes:"
@@ -7182,8 +7182,8 @@ window.L2L_I18N_DATA = {
 "Gemeten over de campagnes waarin een persoonlijke pagina werd meegestuurd, tegenover dezelfde lijst zonder.": {
 "en": "Measured across the campaigns in which a personal page was included, against the same list without one."
 },
-"De instellingen die wij over ongeveer 170 mailboxen aanhouden": {
-"en": "The settings we keep across roughly 170 mailboxes"
+"De instellingen die wij over ruim 300 mailboxen aanhouden": {
+"en": "The settings we keep across more than 300 mailboxes"
 },
 "Hoe we de personalisatie doortrekken na de klik": {
 "en": "How we carry personalisation through past the click"
@@ -9520,8 +9520,8 @@ window.L2L_I18N_DATA = {
 "cases en resultaten": {
 "en": "cases and results"
 },
-". In totaal hebben we ruim 1.500.000 mails namens onze klanten verstuurd, vanaf ongeveer 170 eigen mailboxen.": {
-"en": ". In total we have sent over 1,500,000 emails on behalf of our clients, from around 170 of our own mailboxes."
+". In totaal hebben we ruim 1.500.000 mails namens onze klanten verstuurd, vanaf ruim 300 eigen mailboxen.": {
+"en": ". In total we have sent over 1,500,000 emails on behalf of our clients, from more than 300 of our own mailboxes."
 },
 ", Frederik Hendrikstraat 59H, 1052 HL Amsterdam, KvK 42025671. Bereikbaar op": {
 "en": ", Frederik Hendrikstraat 59H, 1052 HL Amsterdam, KvK 42025671. Reachable at"
@@ -10791,14 +10791,14 @@ window.L2L_I18N_DATA = {
 "Wij zijn Link2Leads, een Nederlands cold-e-mailbureau. Een uitbesteed e-mailkanaal kost bij ons € 12.000 tot € 26.000 per jaar. Een eigen SDR kost in het eerste jaar € 69.000 tot € 83.000, inclusief werkgeverslasten en tooling.": {
 "en": "We are Link2Leads, a Dutch cold email agency. An outsourced email channel costs EUR 12,000 to EUR 26,000 per year with us. An in-house SDR costs EUR 69,000 to EUR 83,000 in the first year, including employer costs and tooling."
 },
-"De cijfers komen uit campagnes die Link2Leads namens klanten draait: ruim 1.500.000 verstuurde mails vanaf ongeveer 170 eigen mailboxen. De best draaiende campagne van Link2Leads zit op 9,1 procent reply rate.": {
-"en": "The numbers come from campaigns Link2Leads runs on behalf of clients: more than 1,500,000 emails sent from about 170 of our own mailboxes. Link2Leads' best performing campaign is at a 9.1 percent reply rate."
+"De cijfers komen uit campagnes die Link2Leads namens klanten draait: ruim 1.500.000 verstuurde mails vanaf ruim 300 eigen mailboxen. De best draaiende campagne van Link2Leads zit op 9,1 procent reply rate.": {
+"en": "The numbers come from campaigns Link2Leads runs on behalf of clients: more than 1,500,000 emails sent from more than 300 of our own mailboxes. Link2Leads' best performing campaign is at a 9.1 percent reply rate."
 },
 "Link2Leads stuurt per bedrijf hooguit drie mails, verstuurt alleen vanaf aparte verzenddomeinen en zet elke afmelding op een suppressielijst die over al onze campagnes heen werkt.": {
 "en": "Link2Leads sends at most three emails per company, only sends from separate sending domains and puts every unsubscribe on a suppression list that works across all our campaigns."
 },
-"Wij draaien bij Link2Leads ongeveer 170 mailboxen voor lopende klantcampagnes. Hieronder wat we in de praktijk tegenkomen, in volgorde van hoe vaak het de oorzaak is.": {
-"en": "At Link2Leads we run about 170 mailboxes for live client campaigns. Below is what we run into in practice, in order of how often it is the cause."
+"Wij draaien bij Link2Leads ruim 300 mailboxen voor lopende klantcampagnes. Hieronder wat we in de praktijk tegenkomen, in volgorde van hoe vaak het de oorzaak is.": {
+"en": "At Link2Leads we run more than 300 mailboxes for live client campaigns. Below is what we run into in practice, in order of how often it is the cause."
 },
 "Hieronder staan de zeven vragen die je elk bureau kunt stellen, met de antwoorden die Link2Leads er zelf op geeft.": {
 "en": "Below are the seven questions you can ask any agency, with the answers Link2Leads gives to them itself."
@@ -11157,8 +11157,8 @@ window.L2L_I18N_DATA = {
 "Ja. Werk je alleen in een paar provincies of binnen een straal rond je vestiging, dan bouwen we de lijst daarop. De doelgroep moet dan wel groot genoeg blijven, minstens duizend bedrijven. Dat checken we in de fitcheck.": {
 "en": "Yes. If you only work in a few provinces or within a radius around your location, we build the list around that. The target group does need to stay large enough, at least a thousand companies. We check that in the fit check."
 },
-". Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ongeveer 170 eigen mailboxen. De cijfers op deze pagina komen uit die campagnes.": {
-"en": ". Runs cold email campaigns for Dutch B2B companies every day from about 170 own mailboxes. The numbers on this page come from those campaigns."
+". Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ruim 300 eigen mailboxen. De cijfers op deze pagina komen uit die campagnes.": {
+"en": ". Runs cold email campaigns for Dutch B2B companies every day from more than 300 own mailboxes. The numbers on this page come from those campaigns."
 },
 "Hoeveel bedrijven passen bij jouw aanbod?": {
 "en": "How many companies match your offer?"

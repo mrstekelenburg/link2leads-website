@@ -1,3 +1,6 @@
+**24 oktober 2026: mailboxen naar ruim 300**
+- "ongeveer 170 (eigen) mailboxen" overal vervangen door "ruim 300": auteursblok onder alle kennisartikelen, /energie, /industrie, /leadgeneratie-amsterdam, de bureauvergelijking, /kennis, de landingspagina-case, `llms.txt` en `llms-full.txt`. Op link2leads.co "more than 300". Engelse vertalingen meegenomen, gewijzigde pagina's op `l2l-i18n.js?v=53`.
+
 **24 oktober 2026: mailtotaal naar 1.500.000**
 - Overal 800.000 vervangen door het nieuwe totaal: "1.500.000+" in de stats en stickers (homepage, /cases), "ruim 1.500.000" in de lopende tekst (/kennis/hoeveel-reacties-op-30000-mails, /leadgeneratie-amsterdam), plus `llms.txt` en `llms-full.txt`. Zelfde wijziging op link2leads.co ("1,500,000+", "over 1,500,000").
 - Engelse vertalingen bijgewerkt in `assets/i18n/l2l-i18n-data.js`, gewijzigde pagina's op `l2l-i18n.js?v=52`.
