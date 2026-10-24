@@ -1,3 +1,7 @@
+**24 oktober 2026: mailtotaal naar 1,5 miljoen**
+- Overal 800.000 vervangen door het nieuwe totaal: "1,5 mln+" in de stats en stickers (homepage, /cases), "ruim 1,5 miljoen" in de lopende tekst (/kennis/hoeveel-reacties-op-30000-mails, /leadgeneratie-amsterdam), plus `llms.txt` en `llms-full.txt`. Zelfde wijziging op link2leads.co ("1.5M+", "over 1.5 million").
+- Engelse vertalingen bijgewerkt in `assets/i18n/l2l-i18n-data.js`, gewijzigde pagina's op `l2l-i18n.js?v=51`.
+
 **21 oktober 2026: branchepagina's /energie en /industrie**
 - Nieuw: `/energie` (energie- en installatiebedrijven) en `/industrie` (machinebouw, toelevering, kozijnenbouw, zeilmakers, technische dienstverlening). Gebouwd op het sjabloon van `/leadgeneratie-amsterdam`: zelfde menu, footer, prijstabel, FAQ en fitcheck-CTA.
 - Eén pagina per branche, geen personalisatie per prospect. De Neuropage-knop in de branchecampagnes kan naar deze pagina's wijzen, net als bevestigingsmail en voorstel.

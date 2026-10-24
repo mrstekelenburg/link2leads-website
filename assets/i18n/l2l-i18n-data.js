@@ -2679,8 +2679,8 @@ window.L2L_I18N_DATA = {
 "Afspraak staat in jouw agenda": {
 "en": "The meeting is in your calendar"
 },
-"Ruim 800.000 mails namens klanten verstuurd.": {
-"en": "Over 800,000 emails sent on behalf of clients."
+"Ruim 1,5 miljoen mails namens klanten verstuurd.": {
+"en": "Over 1.5 million emails sent on behalf of clients."
 },
 "Onze werkwijze is gebaseerd op wat we in echte campagnes zien werken, niet alleen op theorie.": {
 "en": "Our approach is based on what we see working in real campaigns, not only on theory."
@@ -5976,8 +5976,8 @@ window.L2L_I18N_DATA = {
 "Elk pakket is all-in: setup, leadlijsten, copy, verzending en wekelijkse bijsturing. Geen setupfee en geen aparte toolingrekening. Alle pakketten hebben een minimale looptijd van drie maanden, daarna maandelijks opzegbaar.": {
 "en": "Every package is all-in: setup, lead lists, copy, sending and weekly adjustment. No setup fee and no separate tooling bill. All packages have a minimum term of three months, cancellable monthly after that."
 },
-"800.000+ mails": {
-"en": "800,000+ emails"
+"1,5 mln+ mails": {
+"en": "1.5M+ emails"
 },
 "verstuurd namens onze klanten": {
 "en": "sent on behalf of our clients"
@@ -9520,8 +9520,8 @@ window.L2L_I18N_DATA = {
 "cases en resultaten": {
 "en": "cases and results"
 },
-". In totaal hebben we ruim 800.000 mails namens onze klanten verstuurd, vanaf ongeveer 170 eigen mailboxen.": {
-"en": ". In total we have sent over 800,000 emails on behalf of our clients, from around 170 of our own mailboxes."
+". In totaal hebben we ruim 1,5 miljoen mails namens onze klanten verstuurd, vanaf ongeveer 170 eigen mailboxen.": {
+"en": ". In total we have sent over 1.5 million emails on behalf of our clients, from around 170 of our own mailboxes."
 },
 ", Frederik Hendrikstraat 59H, 1052 HL Amsterdam, KvK 42025671. Bereikbaar op": {
 "en": ", Frederik Hendrikstraat 59H, 1052 HL Amsterdam, KvK 42025671. Reachable at"
@@ -10268,8 +10268,8 @@ window.L2L_I18N_DATA = {
 "Dat is precies wat we in de gratis fitcheck uitzoeken: we kijken naar jouw niche, doelgroep en aanbod en zeggen je welke aantallen realistisch zijn. Past het niet, dan hoor je dat ook.": {
 "en": "That's exactly what we sort out in the free fit check: we look at your niche, audience and offer and tell you which numbers are realistic. If it's not a fit, you'll hear that too."
 },
-"800.000+": {
-"en": "800,000+"
+"1,5 mln+": {
+"en": "1.5M+"
 },
 "Afspraak ingepland": {
 "en": "Meeting booked"
@@ -10791,8 +10791,8 @@ window.L2L_I18N_DATA = {
 "Wij zijn Link2Leads, een Nederlands cold-e-mailbureau. Een uitbesteed e-mailkanaal kost bij ons € 12.000 tot € 26.000 per jaar. Een eigen SDR kost in het eerste jaar € 69.000 tot € 83.000, inclusief werkgeverslasten en tooling.": {
 "en": "We are Link2Leads, a Dutch cold email agency. An outsourced email channel costs EUR 12,000 to EUR 26,000 per year with us. An in-house SDR costs EUR 69,000 to EUR 83,000 in the first year, including employer costs and tooling."
 },
-"De cijfers komen uit campagnes die Link2Leads namens klanten draait: ruim 800.000 verstuurde mails vanaf ongeveer 170 eigen mailboxen. De best draaiende campagne van Link2Leads zit op 9,1 procent reply rate.": {
-"en": "The numbers come from campaigns Link2Leads runs on behalf of clients: more than 800,000 emails sent from about 170 of our own mailboxes. Link2Leads' best performing campaign is at a 9.1 percent reply rate."
+"De cijfers komen uit campagnes die Link2Leads namens klanten draait: ruim 1,5 miljoen verstuurde mails vanaf ongeveer 170 eigen mailboxen. De best draaiende campagne van Link2Leads zit op 9,1 procent reply rate.": {
+"en": "The numbers come from campaigns Link2Leads runs on behalf of clients: more than 1.5 million emails sent from about 170 of our own mailboxes. Link2Leads' best performing campaign is at a 9.1 percent reply rate."
 },
 "Link2Leads stuurt per bedrijf hooguit drie mails, verstuurt alleen vanaf aparte verzenddomeinen en zet elke afmelding op een suppressielijst die over al onze campagnes heen werkt.": {
 "en": "Link2Leads sends at most three emails per company, only sends from separate sending domains and puts every unsubscribe on a suppression list that works across all our campaigns."
