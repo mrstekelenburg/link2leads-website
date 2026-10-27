@@ -2888,7 +2888,9 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 <style>
 /* HERO MET FILM (okt 2026) */
 .hero-film{max-width:1100px;margin:0 auto;text-align:center;padding:112px 0 64px}
-.hero-film .hero-h{max-width:900px;margin-left:auto;margin-right:auto;text-wrap:balance}
+.hero-film .hero-h{max-width:none;margin-left:auto;margin-right:auto;text-wrap:balance}
+.hero-film .hero-h .blue{display:block}
+@media(min-width:900px){.hero-film .hero-h{font-size:min(clamp(34px,3.15vw,47px),calc((100vw - 140px) / 19))!important;white-space:nowrap}}
 .hv-video{position:relative;width:min(1080px,100%,max(480px,calc((100svh - 372px) * 16 / 9)));margin:24px auto 0;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.06);box-shadow:0 18px 50px rgba(0,0,0,.35)}
 .hv-video video{display:block;width:100%;aspect-ratio:16/9;background:#08090C}
 .hv-video video{cursor:pointer}
