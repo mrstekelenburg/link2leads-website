@@ -1,3 +1,6 @@
+**27 oktober 2026 (later): herofilm groter**
+- Maximale breedte van de film van 900 naar 1080 px (20% groter). Op lagere schermen blijft de breedte meeschalen met de schermhoogte, zodat de fitcheck-knop altijd zichtbaar blijft. Op link2leads.co iets meer ruimte boven de film aangehouden omdat die kop hoger is.
+
 **27 oktober 2026 (later): herofilm sneller, logobalk hersteld**
 - Logobalk liep niet meer over de volle breedte: de hero-wrap werd niet afgesloten, waardoor de logo's binnen de smalle hero vielen. Hersteld.
 - Films opnieuw gecodeerd op 1280x720: van 5,3 MB naar 1,8 MB (NL) en van 4,2 naar 1,8 MB (EN).
