@@ -1324,7 +1324,9 @@ h1 .blue, h2 .blue, h3 .blue {
   border-radius:18px; padding:26px 24px; text-decoration:none;
   transition:border-color .2s, background .2s, transform .2s;
 }
-.review-more:hover { border-color:rgba(47,111,237,.75);
+.review-more-static{cursor:default}
+.review-more-static:hover{transform:none!important}
+.review-more:not(.review-more-static):hover { border-color:rgba(47,111,237,.75);
   background:linear-gradient(160deg, rgba(47,111,237,.2), rgba(21,27,46,.92));
   transform:translateY(-2px); }
 .review-more svg { margin-bottom:14px; }
@@ -2939,7 +2941,7 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 .hs-v b{color:#F0EFED;font-weight:600}.hs-v .l2l{font-weight:700}.hs-v .l2l i{color:#2F6FED;font-style:italic}
 .hs-v .hs-end{display:block;margin-top:10px;font-size:20px;font-weight:700;letter-spacing:-.3px;background:linear-gradient(135deg,#2F6FED,#7EB3FF);-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero-film .hstats{margin:0 auto;max-width:760px;grid-template-columns:repeat(3,auto)!important;justify-content:center;gap:0 34px}
-@media(max-width:760px){.hero-film{padding-top:96px}.hv-video{margin-top:20px;border-radius:12px}.hs-v{font-size:17px}.hs-v .hs-end{font-size:19px}.hero-film .hcta{width:100%}.hero-film .hstats{grid-template-columns:repeat(3,1fr)!important;gap:0}}
+@media(max-width:760px){.hero-film{padding-top:96px}.hv-video{margin-top:20px;border-radius:0;border-left:0;border-right:0;width:100vw!important;max-width:100vw!important;margin-left:calc(50% - 50vw)!important;margin-right:calc(50% - 50vw)!important}.hs-v{font-size:17px}.hs-v .hs-end{font-size:19px}.hero-film .hcta{width:100%}.hero-film .hstats{grid-template-columns:repeat(3,1fr)!important;gap:0}}
 </style>
 <div class="hero-film">
 <h1 class="hero-h">
@@ -2979,7 +2981,7 @@ v.addEventListener('play',ui);v.addEventListener('pause',ui);v.addEventListener(
 v.addEventListener('timeupdate',prog);v.addEventListener('loadedmetadata',prog);
 seek.addEventListener('input',function(){drag=true;if(v.duration){v.currentTime=seek.value/1000*v.duration;}seek.style.setProperty('--p',(seek.value/10)+'%');time.textContent=f(v.currentTime)+' / '+f(v.duration);});
 seek.addEventListener('change',function(){drag=false;});
-function unmute(){v.muted=false;if(un){un.remove();un=null;}v.currentTime=0;v.play();}
+function unmute(){v.muted=false;if(un){un.remove();un=null;}if(v.paused)v.play();}
 mute.addEventListener('click',function(){if(v.muted){unmute();}else{v.muted=true;}});
 un.addEventListener('click',unmute);
 fs.addEventListener('click',function(){var el=w;try{if(document.fullscreenElement){document.exitFullscreen();}else if(el.requestFullscreen){el.requestFullscreen();}else if(v.webkitEnterFullscreen){v.webkitEnterFullscreen();}}catch(e){}});
@@ -4114,12 +4116,11 @@ if(document.readyState==='complete')swap();else window.addEventListener('load',s
 </div>
 </div>
 <div class="reviews-col">
-<a class="review-more" href="https://www.google.com/search?sa=X&amp;sca_esv=9e14c540528a302f&amp;rlz=1C5CHFA_enNL1094NL1094&amp;sxsrf=APpeQnuYDL1f-tpWgptG02erCMqeFHNXkA:1782832892362&amp;q=Link2Group+Reviews&amp;rflfq=1&amp;num=20&amp;stick=H4sIAAAAAAAAAONgkxIxNDEzNLEwNTIyNjM3NTAwMrGwNN3AyPiKUcgnMy_byL0ov7RAISi1LDO1vHgRKxZBAIlob41FAAAA&amp;rldimm=14614852236750024895&amp;tbm=lcl&amp;hl=nl-NL&amp;ved=2ahUKEwiPr_iJoq-VAxUs_rsIHVIXBo4Q9fQKegQIRxAG&amp;biw=840&amp;bih=811&amp;dpr=2#lkt=LocalPoiReviews" rel="noopener noreferrer" target="_blank">
+<div class="review-more review-more-static">
 <svg fill="none" height="26" viewbox="0 0 24 24" width="26" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg>
 <span class="rm-plus">En nog veel meer</span>
-<span class="rm-sub">4,8 gemiddeld op Google. Bekijk alle reviews.</span>
-<span class="rm-go">Naar Google Reviews →</span>
-</a>
+<span class="rm-sub">4,8 gemiddeld op Google.</span>
+</div>
 </div>
 </div>
 <div class="inbox-wall" id="inbox">

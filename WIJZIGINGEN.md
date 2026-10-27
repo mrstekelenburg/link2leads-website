@@ -1,3 +1,9 @@
+**27 oktober 2026 (avond): film sneller en groter, geen links meer naar Google**
+- Herofilm 20% sneller (nu 42 sec) en de inhoud in de film 15% groter binnen dezelfde speler; titels bleven op hun plek. Zelfde voor de Engelse film.
+- Op mobiel loopt de film over de volle schermbreedte.
+- Geluid aan zet de film niet meer terug naar het begin.
+- De link naar de Google-reviews ("Naar Google Reviews", tegel "En nog veel meer") is weggehaald; de tegel is nu geen link meer. Alle review-verwijzingen op de site gaan alleen nog naar het eigen reviewblok (#reviews). Zelfde op link2leads.co.
+
 **27 oktober 2026 (later): herofilm groter**
 - Maximale breedte van de film van 900 naar 1080 px (20% groter). Op lagere schermen blijft de breedte meeschalen met de schermhoogte, zodat de fitcheck-knop altijd zichtbaar blijft. Op link2leads.co iets meer ruimte boven de film aangehouden omdat die kop hoger is.
 - Kop altijd op twee regels (ook in het Engels): blauwe zin op regel 1, rest op regel 2, lettergrootte schaalt mee met de schermbreedte zodat hij past. Telefoon blijft vrij afbreken.

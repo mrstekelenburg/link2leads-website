@@ -11312,5 +11312,8 @@ window.L2L_I18N_DATA = {
 },
 "Volledig scherm": {
 "en": "Full screen"
+},
+"4,8 gemiddeld op Google.": {
+"en": "4.8 average on Google."
 }
 };
