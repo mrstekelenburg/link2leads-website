@@ -1,3 +1,12 @@
+**27 oktober 2026: herofilm bovenaan de homepage**
+- Hero opnieuw opgebouwd: titel in het midden, daaronder de herofilm (`assets/video/herofilm.mp4`, 50 sec, 30 fps, met muziek en geluidseffecten), dan alleen de knop "Plan je gratis fitcheck", een korte regel tekst en de drie cijfers naast elkaar.
+- De film speelt stil en in een loop. Eigen bediening: pauze/afspelen, tijdlijn om door te schuiven, tijd, geluid aan/uit, volledig scherm, plus een knop "Geluid aan" rechtsboven. Klik op de video pauzeert.
+- De breedte van de film schaalt mee met de schermhoogte, zodat de fitcheck-knop op elk scherm direct zichtbaar is (getest op 1280x720 t/m 2560x1440, tablet en telefoon).
+- WhatsApp- en belknop onder de CTA weggehaald; de zwevende WhatsApp-knop blijft.
+- De inboxkaart ("Echte reacties uit onze campagnes") staat niet meer in de hero. De code staat bewaard in `<template id="inbox-widget">` direct onder de hero, zodat hij later terug kan, bijvoorbeeld onder "Van lijst naar gesprek, in vier stappen".
+- Engelse versie van de film (`herofilm-en.mp4`) wisselt automatisch mee als de pagina op Engels staat (event `l2l:langchange`). Nieuwe EN-sleutels in `l2l-i18n-data.js`, homepage op `l2l-i18n.js?v=54`.
+- Zelfde hero op link2leads.co, met de Engelse film en Engelse tekst.
+
 **24 oktober 2026: mailboxen naar ruim 300**
 - "ongeveer 170 (eigen) mailboxen" overal vervangen door "ruim 300": auteursblok onder alle kennisartikelen, /energie, /industrie, /leadgeneratie-amsterdam, de bureauvergelijking, /kennis, de landingspagina-case, `llms.txt` en `llms-full.txt`. Op link2leads.co "more than 300". Engelse vertalingen meegenomen, gewijzigde pagina's op `l2l-i18n.js?v=53`.
 

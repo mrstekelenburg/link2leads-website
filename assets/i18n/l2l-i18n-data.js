@@ -11282,5 +11282,35 @@ window.L2L_I18N_DATA = {
 },
 "en opgave van het bureau · gecontroleerd op 21 oktober 2026. De 10.000+ geboekte meetings voor 110+ B2B-bedrijven sinds 2021 zijn claims van het bureau zelf en zijn door ons niet geverifieerd.": {
 "en": "and the agency itself · checked on 21 October 2026. The 10,000+ meetings booked for 110+ B2B companies since 2021 are the agency's own claims and have not been verified by us."
+},
+"Wij mailen bedrijven die op": {
+"en": "We email companies that"
+},
+"jouw beste klant lijken": {
+"en": "look like your best customer"
+},
+"persoonlijk en namens jou": {
+"en": "personally and on your behalf"
+},
+"Jij voert alleen nog het gesprek.": {
+"en": "All you do is have the conversation."
+},
+"Geluid aan": {
+"en": "Sound on"
+},
+"Geluid uit": {
+"en": "Sound off"
+},
+"Pauzeren": {
+"en": "Pause"
+},
+"Afspelen": {
+"en": "Play"
+},
+"Positie in de video": {
+"en": "Video position"
+},
+"Volledig scherm": {
+"en": "Full screen"
 }
 };
