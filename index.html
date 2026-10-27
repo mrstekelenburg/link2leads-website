@@ -2944,7 +2944,7 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 <span class="blue">Salesafspraken in je agenda</span> zonder zelf acquisitie te doen
       </h1>
 <div class="hv-video" id="hvVideo">
-<video src="/assets/video/herofilm.mp4" poster="/assets/video/herofilm-poster.jpg" data-src-en="/assets/video/herofilm-en.mp4" data-poster-en="/assets/video/herofilm-en-poster.jpg" autoplay muted loop playsinline preload="metadata"></video>
+<video data-src="/assets/video/herofilm.mp4" poster="/assets/video/herofilm-poster.jpg" data-src-en="/assets/video/herofilm-en.mp4" data-poster-en="/assets/video/herofilm-en-poster.jpg" autoplay muted loop playsinline preload="none"></video>
 <button class="hv-unmute" type="button">
 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg><span>Geluid aan</span></button>
 <div class="hv-bar">
@@ -2965,8 +2965,8 @@ var L={nl:{play:'Afspelen',pause:'Pauzeren',on:'Geluid aan',off:'Geluid uit'},en
 function lang(){return (document.documentElement.getAttribute('lang')||'nl').slice(0,2)==='en'?'en':'nl';}
 function ui(){var t=L[lang()];w.classList.toggle('is-paused',v.paused);w.classList.toggle('is-muted',v.muted);
   play.setAttribute('aria-label',v.paused?t.play:t.pause);mute.setAttribute('aria-label',v.muted?t.on:t.off);}
-var srcNl=v.getAttribute('src'),posterNl=v.getAttribute('poster');
-function swap(){var en=lang()==='en',want=en?v.getAttribute('data-src-en'):srcNl;if(v.getAttribute('src')!==want){var wasPaused=v.paused;v.setAttribute('poster',en?v.getAttribute('data-poster-en'):posterNl);v.setAttribute('src',want);v.load();if(!wasPaused){var pr=v.play();if(pr&&pr.catch)pr.catch(function(){});}}ui();}
+var srcNl=v.getAttribute('data-src'),posterNl=v.getAttribute('poster');
+function swap(){var en=lang()==='en',want=en?v.getAttribute('data-src-en'):srcNl;if(v.getAttribute('src')!==want){var wasPaused=v.paused&&v.hasAttribute('src');v.setAttribute('poster',en?v.getAttribute('data-poster-en'):posterNl);v.setAttribute('src',want);v.load();if(!wasPaused){var pr=v.play();if(pr&&pr.catch)pr.catch(function(){});}}ui();}
 document.addEventListener('l2l:langchange',swap);
 function prog(){if(!v.duration)return;if(!drag)seek.value=Math.round(v.currentTime/v.duration*1000);
   seek.style.setProperty('--p',(seek.value/10)+'%');time.textContent=f(v.currentTime)+' / '+f(v.duration);}
@@ -2982,7 +2982,8 @@ mute.addEventListener('click',function(){if(v.muted){unmute();}else{v.muted=true
 un.addEventListener('click',unmute);
 fs.addEventListener('click',function(){var el=w;try{if(document.fullscreenElement){document.exitFullscreen();}else if(el.requestFullscreen){el.requestFullscreen();}else if(v.webkitEnterFullscreen){v.webkitEnterFullscreen();}}catch(e){}});
 w.addEventListener('keydown',function(e){if(e.target===seek)return;if(e.code==='Space'||e.key==='k'){e.preventDefault();toggle();}});
-swap();
+/* film pas laden als de rest van de pagina er staat */
+if(document.readyState==='complete')swap();else window.addEventListener('load',swap);
 })();
 </script>
 <div class="hcta">
@@ -3041,8 +3042,8 @@ swap();
 <div class="inbox-pill-row"><div class="fx-card fx-cal" aria-hidden="true"><span class="fx-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="M9 16l2 2 4-4"/></svg></span><span><b>Afspraak ingepland</b><small>Donderdag 11:00 · Teams</small></span></div></div>
 </div>
 </div>
-</div>
 </template>
+</div><!-- /hero-wrap -->
 <script>
 (function(){
   var list = document.querySelector('.hero-right .inbox-list');

@@ -1,3 +1,9 @@
+**27 oktober 2026 (later): herofilm sneller, logobalk hersteld**
+- Logobalk liep niet meer over de volle breedte: de hero-wrap werd niet afgesloten, waardoor de logo's binnen de smalle hero vielen. Hersteld.
+- Films opnieuw gecodeerd op 1280x720: van 5,3 MB naar 1,8 MB (NL) en van 4,2 naar 1,8 MB (EN).
+- De film laadt pas nadat de rest van de pagina er staat (`data-src`, `preload="none"`); tot die tijd staat het stilstaande beeld er.
+- Zelfde op link2leads.co.
+
 **27 oktober 2026: herofilm bovenaan de homepage**
 - Hero opnieuw opgebouwd: titel in het midden, daaronder de herofilm (`assets/video/herofilm.mp4`, 50 sec, 30 fps, met muziek en geluidseffecten), dan alleen de knop "Plan je gratis fitcheck", een korte regel tekst en de drie cijfers naast elkaar.
 - De film speelt stil en in een loop. Eigen bediening: pauze/afspelen, tijdlijn om door te schuiven, tijd, geluid aan/uit, volledig scherm, plus een knop "Geluid aan" rechtsboven. Klik op de video pauzeert.
