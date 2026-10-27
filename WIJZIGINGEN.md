@@ -3,6 +3,7 @@
 - Op mobiel loopt de film over de volle schermbreedte.
 - Geluid aan zet de film niet meer terug naar het begin.
 - De link naar de Google-reviews ("Naar Google Reviews", tegel "En nog veel meer") is weggehaald; de tegel is nu geen link meer. Alle review-verwijzingen op de site gaan alleen nog naar het eigen reviewblok (#reviews). Zelfde op link2leads.co.
+- Filmbestanden hernoemd naar `herofilm-v3*` omdat /assets 7 dagen in de browser gecachet wordt; bij een nieuwe film altijd een nieuwe bestandsnaam gebruiken. Homepage op `l2l-i18n.js?v=55`.
 
 **27 oktober 2026 (later): herofilm groter**
 - Maximale breedte van de film van 900 naar 1080 px (20% groter). Op lagere schermen blijft de breedte meeschalen met de schermhoogte, zodat de fitcheck-knop altijd zichtbaar blijft. Op link2leads.co iets meer ruimte boven de film aangehouden omdat die kop hoger is.
