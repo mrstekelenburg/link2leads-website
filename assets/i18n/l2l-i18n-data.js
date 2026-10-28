@@ -11315,5 +11315,347 @@ window.L2L_I18N_DATA = {
 },
 "4,8 gemiddeld op Google.": {
 "en": "4.8 average on Google."
+},
+"We vinden jouw ideale klanten": {
+"en": "We find your ideal clients"
+},
+"We zoeken bedrijven die passen bij jouw doelgroep. Jij keurt de contactlijst goed voordat we starten.": {
+"en": "We look for companies that fit your target audience. You approve the contact list before we start."
+},
+"We benaderen ze namens jou": {
+"en": "We approach them on your behalf"
+},
+"We sturen persoonlijke e-mails naar de juiste contactpersonen. Volledig namens jouw bedrijf, zonder dat je er zelf iets voor hoeft te doen.": {
+"en": "We send personal emails to the right contacts. Fully on behalf of your company, without you having to do anything yourself."
+},
+"We verwerken alle reacties": {
+"en": "We handle all replies"
+},
+"We lezen en beoordelen iedere reactie. Geïnteresseerde prospects sturen we direct door naar jouw mailbox.": {
+"en": "We read and assess every reply. Interested prospects go straight to your inbox."
+},
+"Jij ontvangt de geïnteresseerde prospects en pakt het contact op. Met Full Service plannen wij de afspraken ook voor je in.": {
+"en": "You receive the interested prospects and take it from there. With Full Service we also book the meetings for you."
+},
+"Wij regelen de volledige e-mailcampagne. Van doelgroep tot geïnteresseerde prospect.": {
+"en": "We handle the entire email campaign. From target audience to interested prospect."
+},
+"Doelgroep bepalen en contactpersonen vinden": {
+"en": "Defining the target audience and finding contacts"
+},
+"Persoonlijke e-mails schrijven en optimaliseren": {
+"en": "Writing and optimizing personal emails"
+},
+"Domeinen, mailboxen en verzendsoftware": {
+"en": "Domains, mailboxes and sending software"
+},
+"Technische inrichting en opwarming": {
+"en": "Technical setup and warmup"
+},
+"Alle reacties persoonlijk beoordelen": {
+"en": "Reviewing every reply personally"
+},
+"Wekelijkse rapportage met resultaten": {
+"en": "Weekly reporting on results"
+},
+"Geen opstartkosten of verborgen kosten.": {
+"en": "No setup fees or hidden costs."
+},
+"Wil je ook afspraken laten inplannen? Kies dan voor Full Service. Hyperpersonalisatie en LinkedIn zijn optioneel toe te voegen.": {
+"en": "Want us to book meetings too? Choose Full Service. Hyperpersonalisation and LinkedIn can be added as options."
+},
+"Een reactie waar een commerciële kans uit kan ontstaan.": {
+"en": "A reply that can lead to a commercial opportunity."
+},
+"Telt wel mee": {
+"en": "Counts"
+},
+"Interesse in een gesprek of demo": {
+"en": "Interest in a call or demo"
+},
+"Een vraag over prijzen of mogelijkheden": {
+"en": "A question about pricing or options"
+},
+"Een inhoudelijke vraag over je dienstverlening": {
+"en": "A substantive question about your services"
+},
+"Een doorverwijzing naar de juiste contactpersoon": {
+"en": "A referral to the right contact"
+},
+"Afwijzingen of afmeldingen": {
+"en": "Rejections or unsubscribes"
+},
+"Automatische antwoorden": {
+"en": "Automatic replies"
+},
+"Privacyvragen of foutieve adressen": {
+"en": "Privacy questions or invalid addresses"
+},
+"Iedere reactie wordt persoonlijk beoordeeld. Geïnteresseerde prospects ontvang je rechtstreeks in je mailbox, inclusief contactgegevens.": {
+"en": "Every reply is reviewed personally. Interested prospects land directly in your inbox, including contact details."
+},
+"Met Scale en Pro weet je vooraf hoeveel positieve reacties we minimaal nastreven en garanderen.": {
+"en": "With Scale and Pro you know in advance the minimum number of positive replies we aim for and guarantee."
+},
+"We spreken samen een realistisch minimum af op basis van jouw doelgroep en aanbod. Dit leggen we vast in je contract.": {
+"en": "Together we agree on a realistic minimum based on your target audience and offer. We put it in your contract."
+},
+"Halen we het afgesproken aantal niet binnen drie maanden?": {
+"en": "We don't reach the agreed number within three months?"
+},
+"Dan werken we maximaal drie maanden kosteloos door om het afgesproken aantal alsnog te behalen.": {
+"en": "Then we keep going free of charge for up to three months to still reach the agreed number."
+},
+"Geen extra kosten voor domeinen of mailboxen": {
+"en": "No extra costs for domains or mailboxes"
+},
+"Geen kosten voor software of data": {
+"en": "No costs for software or data"
+},
+"De garantie geldt voor gekwalificeerde positieve reacties, niet voor afspraken of omzet.": {
+"en": "The guarantee covers qualified positive replies, not meetings or revenue."
+},
+"Bekijk de garantievoorwaarden →": {
+"en": "View the guarantee terms →"
+},
+"Binnen 14 dagen klaar voor de start": {
+"en": "Ready to start within 14 days"
+},
+"We richten je campagne binnen twee weken in. In de derde week starten we met verzenden.": {
+"en": "We set up your campaign within two weeks. In week three we start sending."
+},
+"Drie maanden minimale looptijd": {
+"en": "Three-month minimum term"
+},
+"Een campagne heeft tijd nodig om resultaten op te bouwen en te optimaliseren. Daarna is je abonnement maandelijks opzegbaar.": {
+"en": "A campaign needs time to build results and optimize. After that your subscription can be cancelled monthly."
+},
+"Transparant verzendvolume": {
+"en": "Transparent sending volume"
+},
+"Je pakket bepaalt hoeveel e-mails we dagelijks versturen. Je ontvangt wekelijks inzicht in de resultaten.": {
+"en": "Your package determines how many emails we send each day. You get weekly insight into the results."
+},
+"Jouw gegevens blijven van jou": {
+"en": "Your data stays yours"
+},
+"Stop je met de campagne? Dan ontvang je de contactgegevens, reacties en geschreven teksten. Onze verzendomgeving blijft van ons.": {
+"en": "Stop the campaign? Then you receive the contact details, replies and written copy. Our sending environment stays ours."
+},
+"3.000 mails": {
+"en": "3,000 emails"
+},
+"7.500 mails": {
+"en": "7,500 emails"
+},
+"15.000 mails": {
+"en": "15,000 emails"
+},
+"Wij versturen 7 dagen per week. Niet alleen op werkdagen.": {
+"en": "We send 7 days a week. Not just on weekdays."
+},
+"Daardoor bereiken we bij hetzelfde dagelijkse verzendvolume ongeveer 36% meer contacten dan bij 22 verzenddagen.": {
+"en": "That way, at the same daily sending volume, we reach about 36% more contacts than with 22 sending days."
+},
+"Meer verzenddagen. Meer bereik. Geen extra kosten.": {
+"en": "More sending days. More reach. No extra cost."
+},
+"Wat is een positieve reactie?": {
+"en": "What is a positive reply?"
+},
+"Onze garantie": {
+"en": "Our guarantee"
+},
+"Duidelijke afspraken, geen verrassingen": {
+"en": "Clear agreements, no surprises"
+},
+"Meer bereik voor hetzelfde maandbedrag": {
+"en": "More reach for the same monthly fee"
+},
+"Meer bereik": {
+"en": "More reach"
+},
+"Tot 30.000 mails per maand, 7 dagen per week.": {
+"en": "Up to 30,000 emails per month, 7 days a week."
+},
+"Hoeveel mails worden er daadwerkelijk verstuurd?": {
+"en": "How many emails are actually sent?"
+},
+"Persoonlijke benadering": {
+"en": "Personal approach"
+},
+"E-mails per doelgroep, met optioneel een persoonlijke openingszin en landingspagina per prospect.": {
+"en": "Emails per audience, with an optional personal opening line and landing page per prospect."
+},
+"Hoe persoonlijk zijn de berichten echt?": {
+"en": "How personal are the messages really?"
+},
+"Slimme targeting": {
+"en": "Smart targeting"
+},
+"We selecteren op doelgroep en relevante signalen, zoals vacatures of bedrijfsontwikkelingen.": {
+"en": "We select on audience and relevant signals, such as job openings or company developments."
+},
+"Hoe worden de juiste prospects geselecteerd?": {
+"en": "How are the right prospects selected?"
+},
+"Handmatige opvolging": {
+"en": "Manual follow-up"
+},
+"We lezen iedere reactie en sturen geïnteresseerde prospects direct door.": {
+"en": "We read every reply and forward interested prospects right away."
+},
+"Wie beoordeelt de reacties?": {
+"en": "Who reviews the replies?"
+},
+"Alles geregeld": {
+"en": "Everything handled"
+},
+"Inclusief domeinen, mailboxen, software en wekelijkse rapportages. Geen opstartkosten.": {
+"en": "Including domains, mailboxes, software and weekly reports. No setup fees."
+},
+"Welke extra kosten komen erbij?": {
+"en": "What extra costs come on top?"
+},
+"Resultaatgarantie": {
+"en": "Results guarantee"
+},
+"Bij Scale en Pro spreken we vooraf een minimumaantal positieve reacties af.": {
+"en": "On Scale and Pro we agree on a minimum number of positive replies in advance."
+},
+"Welke resultaten worden contractueel vastgelegd?": {
+"en": "Which results are put in the contract?"
+},
+"Een persoonlijke openingszin en landingspagina voor iedere prospect.": {
+"en": "A personal opening line and landing page for every prospect."
+},
+"Bereik dezelfde prospects ook via LinkedIn.": {
+"en": "Reach the same prospects on LinkedIn too."
+},
+"Wij beantwoorden geïnteresseerde prospects en plannen afspraken direct in je agenda.": {
+"en": "We reply to interested prospects and book meetings straight into your calendar."
+},
+"Waar je op kunt letten": {
+"en": "What to look for"
+},
+"Wat maakt": {
+"en": "What makes"
+},
+"anders?": {
+"en": "different?"
+},
+"Niet zomaar e-mails versturen. Wij regelen het complete traject, van de juiste doelgroep tot geïnteresseerde prospects in je mailbox.": {
+"en": "More than just sending emails. We handle the entire process, from the right target audience to interested prospects in your inbox."
+},
+"Vergelijk ons gerust met andere bureaus. Dit is wat je bij ons krijgt.": {
+"en": "Feel free to compare us with other agencies. This is what you get with us."
+},
+"Meer nodig? Dat regelen we ook.": {
+"en": "Need more? We handle that too."
+},
+"Eerst weten of het werkt voor jouw bedrijf?": {
+"en": "Want to know first whether it works for your business?"
+},
+"We kijken naar je doelgroep, aanbod en marktpotentieel. Past koude e-mail niet bij jouw bedrijf? Dan zeggen we dat ook.": {
+"en": "We look at your audience, offer and market potential. If cold email doesn't fit your business, we'll tell you."
+},
+"Personeel gezocht": {
+"en": "Hiring"
+},
+"We signaleren relevante vacatures en gebruiken die als aanleiding voor een persoonlijk bericht.": {
+"en": "We spot relevant job openings and use them as the reason for a personal message."
+},
+"Bedrijf in beweging": {
+"en": "Company on the move"
+},
+"Nieuwe vestigingen, verhuizingen of uitbreidingen kunnen interessante commerciële kansen bieden.": {
+"en": "New locations, relocations or expansions can open up interesting commercial opportunities."
+},
+"Commerciële ontwikkelingen": {
+"en": "Commercial developments"
+},
+"We kijken naar signalen zoals nieuwe advertentiecampagnes of veranderingen in de online aanwezigheid.": {
+"en": "We look at signals such as new ad campaigns or changes in online presence."
+},
+"De juiste bedrijven.": {
+"en": "The right companies."
+},
+"Op het juiste moment.": {
+"en": "At the right moment."
+},
+"Een goede doelgroep is belangrijk. Maar weten wanneer een bedrijf mogelijk behoefte heeft aan jouw dienst, maakt je benadering nog relevanter.": {
+"en": "A good target audience matters. But knowing when a company may need your service makes your approach even more relevant."
+},
+"Daarom kijken we niet alleen naar wie je wilt bereiken, maar ook naar wat er bij die bedrijven speelt.": {
+"en": "That's why we look not only at who you want to reach, but also at what's going on at those companies."
+},
+"Geen relevant signaal? Dan richten we ons op een zorgvuldig geselecteerde doelgroep met een boodschap die aansluit bij hun situatie.": {
+"en": "No relevant signal? Then we focus on a carefully selected audience with a message that fits their situation."
+},
+"Welke aanpak het beste past, bepalen we samen tijdens de onboarding.": {
+"en": "We decide together during onboarding which approach fits best."
+},
+"Zakelijke acquisitie per e-mail is in Nederland aan regels gebonden. De AVG en regels voor ongevraagde elektronische communicatie kunnen allebei van toepassing zijn.": {
+"en": "Business email outreach in the Netherlands is subject to rules. The GDPR and rules on unsolicited electronic communication can both apply."
+},
+"De eerste twee weken richten we je campagne in. In week 3 starten we met verzenden. De eerste reacties komen doorgaans binnen 3 tot 10 dagen na de start. Daarna blijven we de campagne optimaliseren.": {
+"en": "We set up your campaign in the first two weeks. In week 3 we start sending. The first replies usually come in within 3 to 10 days after launch. After that we keep optimizing the campaign."
+},
+"Wat moet ik zelf doen?": {
+"en": "What do I need to do myself?"
+},
+"Je vertelt ons wie je ideale klanten zijn en keurt de doelgroep en e-mails goed. Wij regelen de rest: van contactlijsten en verzending tot het beoordelen van reacties. Jij voert alleen de gesprekken.": {
+"en": "You tell us who your ideal clients are and approve the audience and emails. We handle the rest: from contact lists and sending to reviewing replies. You only have the conversations."
+},
+"Met Full Service plannen we ook de afspraken voor je in.": {
+"en": "With Full Service we also book the meetings for you."
+},
+"Dat hangt af van je doelgroep, aanbod en markt. Tijdens de gratis fitcheck maken we een realistische inschatting.": {
+"en": "That depends on your audience, offer and market. During the free fit check we make a realistic estimate."
+},
+"Met Scale en Pro spreken we vooraf een minimumaantal gekwalificeerde positieve reacties af, inclusief garantie.": {
+"en": "With Scale and Pro we agree on a minimum number of qualified positive replies in advance, guaranteed."
+},
+"Hoe persoonlijk zijn de e-mails?": {
+"en": "How personal are the emails?"
+},
+"We schrijven berichten die aansluiten bij jouw doelgroep en gebruiken waar mogelijk relevante bedrijfsinformatie of koopsignalen.": {
+"en": "We write messages that fit your audience and use relevant company information or buying signals where possible."
+},
+"Met hyperpersonalisatie krijgt iedere prospect ook een persoonlijke openingszin en een eigen landingspagina.": {
+"en": "With hyperpersonalisation every prospect also gets a personal opening line and their own landing page."
+},
+"Is mijn eigen e-maildomein veilig?": {
+"en": "Is my own email domain safe?"
+},
+"We versturen via aparte domeinen, zodat je dagelijkse zakelijke e-mail niet wordt gebruikt voor koude acquisitie. Deze domeinen worden opgewarmd en continu gecontroleerd om risico's te beperken.": {
+"en": "We send from separate domains, so your everyday business email is never used for cold outreach. These domains are warmed up and monitored continuously to limit risk."
+},
+"Wat gebeurt er als iemand interesse toont?": {
+"en": "What happens when someone shows interest?"
+},
+"Wij lezen iedere reactie en sturen geïnteresseerde prospects direct naar jouw mailbox, inclusief contactgegevens.": {
+"en": "We read every reply and send interested prospects straight to your inbox, including contact details."
+},
+"Met Full Service beantwoorden wij de reacties en plannen we afspraken rechtstreeks in je agenda.": {
+"en": "With Full Service we answer the replies and book meetings directly into your calendar."
+},
+"Kan ik ook alleen een contactlijst kopen?": {
+"en": "Can I buy just a contact list?"
+},
+"Ja. Je kunt vanaf 500 geverifieerde zakelijke contacten afnemen, zonder campagne. Je ontvangt de gegevens en verzorgt zelf de benadering.": {
+"en": "Yes. You can buy from 500 verified business contacts, without a campaign. You receive the data and handle the outreach yourself."
+},
+"Bekijk onze leadlijsten →": {
+"en": "View our lead lists →"
+},
+"Is cold e-mail toegestaan?": {
+"en": "Is cold email allowed?"
+},
+"We houden rekening met relevante wetgeving, gebruiken zakelijke contactgegevens en verwerken afmeldingen direct.": {
+"en": "We take relevant legislation into account, use business contact details and process unsubscribes immediately."
+},
+"Lees meer over de wetgeving →": {
+"en": "Read more about the law →"
 }
 };
