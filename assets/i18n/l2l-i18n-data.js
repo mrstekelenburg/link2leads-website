@@ -11657,5 +11657,14 @@ window.L2L_I18N_DATA = {
 },
 "Lees meer over de wetgeving →": {
 "en": "Read more about the law →"
+},
+"Meestal alleen werkdagen, zelden vastgelegd.": {
+"en": "Usually weekdays only, rarely fixed in a contract."
+},
+"Een tekst voor de hele lijst.": {
+"en": "One message for the whole list."
+},
+"Vaak opstartkosten en aparte toolingkosten.": {
+"en": "Often setup fees and separate tooling costs."
 }
 };
