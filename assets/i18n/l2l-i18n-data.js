@@ -6162,8 +6162,8 @@ window.L2L_I18N_DATA = {
 "Case study · Onze eigen campagnes": {
 "en": "Case study · Our own campaigns"
 },
-"Wie op een link in onze mail klikt, komt op een pagina die alleen over zijn bedrijf gaat. Wij maken die pagina automatisch en de link staat vanzelf in de mail. Prospects gingen reageren om te zeggen hoe persoonlijk het was.": {
-"en": "Anyone who clicks a link in our email lands on a page that is only about their company. We build that page automatically and the link goes into the email by itself. Prospects started replying just to say how personal it felt."
+"Wie op een link in onze mail klikt, komt op een pagina die alleen over zijn bedrijf gaat. Wij maken die pagina automatisch en de link staat vanzelf in de mail. Sommige prospects mailden zelfs terug om te zeggen hoe persoonlijk ze het vonden.": {
+"en": "Anyone who clicks a link in our email lands on a page that is only about their company. We build that page automatically and the link goes into the email by itself. Some prospects even replied just to say how personal it felt."
 },
 "Starter € 995 p/m (100 mails per dag), Growth € 1.295 (250), Scale € 1.695 (500), Pro € 1.995 (1.000). Daarbovenop zijn twee add-ons: Hyperpersonalisatie op elk pakket (€ 300 tot € 550 p/m) en Full Service op Scale en Pro (€ 600 en € 800 p/m). Eerste termijn drie maanden, vooruit gefactureerd. Op Scale en Pro geldt een resultaatgarantie op het aantal positieve reacties.": {
 "en": "Starter EUR 995 per month (100 emails per day), Growth EUR 1,295 (250), Scale EUR 1,695 (500), Pro EUR 1,995 (1,000). On top of that there are two add-ons: Hyper-personalisation on every package (EUR 300 to EUR 550 per month) and Full Service on Scale and Pro (EUR 600 and EUR 800 per month). First term three months, invoiced in advance. Scale and Pro carry a results guarantee on the number of positive replies."
@@ -7161,8 +7161,8 @@ window.L2L_I18N_DATA = {
 "op retainer": {
 "en": "on retainer"
 },
-"Het opvallendste zat niet in de cijfers. Prospects gingen reageren om te zeggen dat de benadering echt onderzocht aanvoelde. Dat gebeurt bij koude e-mail vrijwel nooit.": {
-"en": "The most striking part was not in the figures. Prospects started replying to say the approach genuinely felt researched. With cold email that almost never happens."
+"Het opvallendste zat niet in de cijfers. Sommige prospects mailden zelfs terug om te zeggen dat ze zagen dat we echt onderzoek hadden gedaan. Dat gebeurt bij koude e-mail vrijwel nooit.": {
+"en": "The most striking part was not in the figures. Some prospects even replied to say they could tell we had done our research. With cold email that almost never happens."
 },
 "\"Mensen reageerden om te zeggen hoe persoonlijk het was. Dat gebeurt normaal nooit bij koude e-mail.\"": {
 "en": "\"People replied just to say how personal it was. That normally never happens with cold email.\""
