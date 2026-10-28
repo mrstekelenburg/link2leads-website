@@ -1,6 +1,6 @@
 # Link2Leads, volledige tekst van alle kennispagina's
 
-Laatst bijgewerkt: 27 oktober 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
+Laatst bijgewerkt: 28 oktober 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
 Alle cijfers komen uit campagnes die Link2Leads namens klanten draait, gemeten op 2 september 2026.
 
 
@@ -101,29 +101,21 @@ Neuropage
 
 ## Van lijst naar gesprek, in vier stappen
 
-### Wij vinden je beste prospects
+### We vinden jouw ideale klanten
 
-- We bouwen het profiel vanuit je eigen beste klanten
-- Geen gekochte branchelijst
-- Elk adres wordt geverifieerd en jij keurt de lijst goed
+We zoeken bedrijven die passen bij jouw doelgroep. Jij keurt de contactlijst goed voordat we starten.
 
-### Wij benaderen ze namens jou
+### We benaderen ze namens jou
 
-- Persoonlijke mails, geschreven voor jouw doelgroep
-- Verstuurd vanaf aparte domeinen met eigen SPF, DKIM en DMARC
-- Wij bewaken de aankomst, jouw eigen domein loopt geen risico
+We sturen persoonlijke e-mails naar de juiste contactpersonen. Volledig namens jouw bedrijf, zonder dat je er zelf iets voor hoeft te doen.
 
-### Wij filteren de reacties
+### We verwerken alle reacties
 
-- Iemand leest elke reactie, geen scoringsmodel
-- Alleen wat een gesprek waard is komt bij jou terecht
-- Met naam, functie, organisatie en contactgegevens
+We lezen en beoordelen iedere reactie. Geïnteresseerde prospects sturen we direct door naar jouw mailbox.
 
 ### Jij voert de gesprekken
 
-- Jij keurt alleen de lijst en de mails goed
-- Alle positieve reacties, of op verzoek elke reactie, direct in je eigen mailbox. Geen portaal, geen inlog
-- Met Full Service zetten wij de afspraak ook in je agenda
+Jij ontvangt de geïnteresseerde prospects en pakt het contact op. Met Full Service plannen wij de afspraken ook voor je in.
 
 Standaard positieve reacties in je mailbox. Met Full Service ook de afspraak in je agenda.
 
@@ -291,7 +283,7 @@ per maand, volledig beheerd
 
 Doe de gratis fitcheck
 
-5,0 “Bij elke call weet ik dat het een gekwalificeerde lead is. 100% aanrader.” Dick · Remorec Mail van een klant “We zijn heel blij met alle reacties en hebben ze zeker opvolging gegeven!” Trainingsbureau · ruim een week na de start
+5,0 “Bij elke call weet ik dat het een gekwalificeerde lead is. 100% aanrader.” Dick · Remorec
 
 ### Stel je campagne zelf samen
 
@@ -319,92 +311,84 @@ In de fitcheck rekenen we door of dit pakket bij je markt past. Geen setupfee, g
 
 Meer volume nodig? Mail info@link2leads.nl
 
-Op Scale en Pro
-
-### Het afgesproken aantal staat in je contract
-
-Niet gehaald? Dan draaien wij kosteloos door tot het afgesproken aantal is bereikt. Maximaal drie extra maanden. In die periode betaal je niets. Hoe werkt de garantie?
-
 Wat zit er in de prijs?
 
-#### Inbegrepen
+Wij regelen de volledige e-mailcampagne. Van doelgroep tot geïnteresseerde prospect.
 
-- Doelgroep en contactlijst
-- Copy schrijven en bijsturen
-- Domeinen en mailboxen
-- Warmup en deliverability
-- Verzendsoftware
-- Elke reactie handmatig gefilterd
-- Wekelijkse rapportage
+- Doelgroep bepalen en contactpersonen vinden
+- Persoonlijke e-mails schrijven en optimaliseren
+- Domeinen, mailboxen en verzendsoftware
+- Technische inrichting en opwarming
+- Alle reacties persoonlijk beoordelen
+- Wekelijkse rapportage met resultaten
 
-#### Niet inbegrepen
+Geen opstartkosten of verborgen kosten.
+Wil je ook afspraken laten inplannen? Kies dan voor Full Service. Hyperpersonalisatie en LinkedIn zijn optioneel toe te voegen.
 
-- Replies afhandelen en afspraken plannen, tenzij je Full Service erbij neemt (Scale en Pro)
-- Telefonische acquisitie
-- Afspraken, omzet of betalende klanten
+Wat is een positieve reactie?
 
-Geen setupfee en geen aparte toolingrekening. Hyperpersonalisatie, LinkedIn en Full Service kies je erbij via Stel je campagne samen. Vergelijk met zelf doen →
+Een reactie waar een commerciële kans uit kan ontstaan.
 
-Wat noemen wij een positieve reactie?
+#### Telt wel mee
 
-#### Telt mee
-
-- Vraag om een gesprek of demo
-- Vraag naar de prijs
-- Inhoudelijke vraag over je aanbod
-- Doorverwijzing naar de juiste collega
+- Interesse in een gesprek of demo
+- Een vraag over prijzen of mogelijkheden
+- Een inhoudelijke vraag over je dienstverlening
+- Een doorverwijzing naar de juiste contactpersoon
 
 #### Telt niet mee
 
-- Afwezigheidsmeldingen
-- Bounces en afmeldingen
-- Geen interesse
-- Privacyvragen
-- Opgeheven bedrijven
+- Afwijzingen of afmeldingen
+- Automatische antwoorden
+- Privacyvragen of foutieve adressen
 
-Wij lezen elke reactie met de hand. Je krijgt een naam, een functie, een organisatie en contactgegevens, klaar om te bellen.
+Iedere reactie wordt persoonlijk beoordeeld. Geïnteresseerde prospects ontvang je rechtstreeks in je mailbox, inclusief contactgegevens.
 
-Garantie en contract
+Onze garantie
 
-Garantie op positieve reacties (Scale en Pro)
+Met Scale en Pro weet je vooraf hoeveel positieve reacties we minimaal nastreven en garanderen.
 
-Voor Scale en Pro spreken we vooraf af hoeveel gekwalificeerde positieve reacties je minimaal ontvangt in drie campagnemaanden. Dat aantal staat in je contract.
+We spreken samen een realistisch minimum af op basis van jouw doelgroep en aanbod. Dit leggen we vast in je contract.
 
-Niet gehaald? Dan draaien wij kosteloos door tot het afgesproken aantal is bereikt. Maximaal drie extra maanden. In die periode betaal je niets. Geen abonnements-, mailbox-, domein- of datakosten.
+Halen we het afgesproken aantal niet binnen drie maanden?
+Dan werken we maximaal drie maanden kosteloos door om het afgesproken aantal alsnog te behalen.
 
-Voor de start berekenen we op basis van je doelgroep, aanbod en marktgrootte een realistisch minimum. Dat aantal spreken we samen af en leggen we vast in het contract. De garantie geldt voor gekwalificeerde positieve reacties, niet voor afspraken, omzet of betalende klanten. Bekijk de volledige voorwaarden.
+- Geen abonnementskosten
+- Geen extra kosten voor domeinen of mailboxen
+- Geen kosten voor software of data
 
-Volumegarantie
+De garantie geldt voor gekwalificeerde positieve reacties, niet voor afspraken of omzet. Bekijk de garantievoorwaarden →
 
-Het maandvolume van je pakket staat in je contract: 3.000, 7.500, 15.000 of 30.000 verzonden mails. Elke maand zie je het werkelijke aantal verzonden mails.
+Duidelijke afspraken, geen verrassingen
 
-Setupgarantie van 14 dagen
+Binnen 14 dagen klaar voor de start
 
-Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken na akkoord klaar, zodat de campagne in week 3 start.
+We richten je campagne binnen twee weken in. In de derde week starten we met verzenden.
 
-Fitgarantie
+Drie maanden minimale looptijd
 
-Past je doelgroep of aanbod niet bij koude e-mail, dan zeggen we dat voordat je tekent.
+Een campagne heeft tijd nodig om resultaten op te bouwen en te optimaliseren. Daarna is je abonnement maandelijks opzegbaar.
 
-Wat van jou blijft als je stopt
+Transparant verzendvolume
 
-De teksten die we voor je schreven mag je blijven gebruiken, en de contactgegevens en reacties uit jouw campagne krijg je in een gangbaar bestandsformaat mee. Alleen de verzendomgeving en onze werkwijze blijven van ons.
+Je pakket bepaalt hoeveel e-mails we dagelijks versturen. Je ontvangt wekelijks inzicht in de resultaten.
 
-Waarom drie maanden minimaal
+Jouw gegevens blijven van jou
 
-De eerste twee weken zijn warmup en nieuwe copy laten we drie weken draaien voordat we bijsturen. Korter dan drie maanden beoordeel je iets dat nog niet af is.
+Stop je met de campagne? Dan ontvang je de contactgegevens, reacties en geschreven teksten. Onze verzendomgeving blijft van ons.
 
-Wij versturen ook in het weekend
+Meer bereik voor hetzelfde maandbedrag
 
-De meeste bureaus mailen alleen op werkdagen, gemiddeld 22 dagen per maand. Wij versturen zeven dagen per week, dus 30 dagen per maand. Bij hetzelfde dagvolume bereik je daardoor ruim een derde meer bedrijven voor hetzelfde maandbedrag.
+Wij versturen 7 dagen per week. Niet alleen op werkdagen.
+Daardoor bereiken we bij hetzelfde dagelijkse verzendvolume ongeveer 36% meer contacten dan bij 22 verzenddagen.
 
-Pakket	Per dag	Bij ons, 30 verzenddagen	Bij 22 verzenddagen
-Starter	100 mails	€ 332 per 1.000 mails	€ 452 per 1.000 mails
-Growth	250 mails	€ 173 per 1.000 mails	€ 235 per 1.000 mails
-Scale	500 mails	€ 113 per 1.000 mails	€ 154 per 1.000 mails
-Pro	1.000 mails	€ 67 per 1.000 mails	€ 91 per 1.000 mails
+Pakket	Per dag	Per maand
+Starter	100 mails	3.000 mails
+Growth	250 mails	7.500 mails
+Scale	500 mails	15.000 mails
+Pro	1.000 mails	30.000 mails
 
-De rechterkolom is hetzelfde maandbedrag, gedeeld door het aantal mails dat er bij 22 verzenddagen uitgaat. Het maandvolume van je pakket staat in je contract.
+Meer verzenddagen. Meer bereik. Geen extra kosten.
 
 ## Wat klanten zeggen over hun campagne
 
@@ -460,92 +444,99 @@ MailIT-dienstverlener, na de eerste afspraak
 
 MailHR-bureau, tweede bestelling
 
-## Vergelijkbaar met andere bureaus?
+## Wat maakt Link2Leads anders?
 
-Leg ons gerust naast een ander bureau. Dit is wat je bij ons standaard krijgt en wat je elders vaak mist of apart moet regelen.
+Niet zomaar e-mails versturen. Wij regelen het complete traject, van de juiste doelgroep tot geïnteresseerde prospects in je mailbox.
 
-✓ Bij ons inbegrepen of erbij te nemen ± Elders soms, vaak beperkt of tegen meerprijs × Elders meestal niet
+Vergelijk ons gerust met andere bureaus. Dit is wat je bij ons krijgt.
 
-Waar je op let	Link2Leads	Andere bureaus
-VolumeHoeveel bedrijven je bereikt en of dat vastligt.	✓7 dagen per week, 3.000 tot 30.000 mails per maand, in je contractZeven dagen per week, 30 verzenddagen per maand. Van 3.000 mails per maand op Starter tot 30.000 op Pro, en dat aantal staat in je contract.	±Alleen werkdagen, zelden vastgelegdMeestal alleen werkdagen, lager volume op het instappakket en zelden vastgelegd.
-Personalisatie per prospectDe mail gaat over het bedrijf zelf.	✓Eigen openingszin en eigen pagina per prospectEen openingszin op echte informatie over het bedrijf en een eigen pagina op jouw domein, per prospect. Op elk pakket erbij te nemen.	±Voornaam en bedrijfsnaam invullenVoornaam en bedrijfsnaam invullen.
-Koopsignalen en segmentatieWanneer en met welke insteek iemand gemaild wordt.	✓Mailen op een aanleiding, per segment een eigen insteekWe mailen op een aanleiding, zoals een vacature, een nieuwe vestiging of een verhuizing, en per segment met een eigen insteek.	×Eén tekst voor de hele lijstEén tekst voor de hele lijst, op een willekeurige dinsdag.
-Reacties filterenWat er in jouw mailbox belandt.	✓Elke reactie met de hand gelezen, alleen positieve naar jouElke reactie wordt met de hand gelezen. Alleen wat een gesprek waard is komt bij jou, met naam, functie en contactgegevens.	±Automatisch gelabeld of alles doorgestuurdAutomatisch gelabeld, of alles wordt doorgestuurd.
-OpvolgingWie de positieve reactie beantwoordt en de afspraak inplant.	✓Zelf, of wij plannen de afspraak in je agenda. Setters en closers via Link2TalentZelf, of wij handelen de reactie af en zetten de afspraak direct in jouw agenda (Full Service). Meer opvolgcapaciteit nodig? Via ons zusterbedrijf Link2Talent zetten we remote setters en closers op jouw reacties.	×Alleen doorsturenAlleen doorsturen.
-LinkedIn erbijDezelfde bedrijven ook via LinkedIn.	✓Dezelfde bedrijven ook via jouw LinkedInConnectieverzoek en eerste bericht vanuit jouw profiel, naar dezelfde bedrijven die je mailt.	×Apart bureau nodigApart bureau of apart traject.
-GarantieWat er over het resultaat is afgesproken.	✓Aantal positieve reacties in je contract (Scale en Pro)Het aantal positieve reacties staat in je contract (Scale en Pro).	±Zelden, of alleen inspanningZelden, of alleen een inspanningsverplichting.
-SetupWat de start kost en hoe lang die duurt.	✓Geen setupfee, binnen twee weken liveGeen setupfee en geen aparte toolingrekening. Domeinen, mailboxen, warmup, lijst en copy staan binnen twee weken klaar.	±Opstartkosten, vier tot zes wekenVaak opstartkosten, en vier tot zes weken tot de eerste mail.
-Wat van jou blijftAls je stopt.	✓Teksten, contacten en reacties krijg je meeDe teksten mag je blijven gebruiken. Contactgegevens en reacties uit jouw campagne krijg je mee in een gangbaar bestand.	±Blijft vaak bij het bureauVaak blijft alles bij het bureau.
-Alleen de leadlijstAls je (nog) geen campagne wilt.	✓Los te koop vanaf 500, 10 gratis proberenLos te koop vanaf 500 leads, en eerst 10 gratis om te proberen.	×Alleen met een campagneAlleen als onderdeel van een campagne.
+Link2Leads	Waar je op kunt letten
+Meer bereik	Tot 30.000 mails per maand, 7 dagen per week.Tot 30.000 mails per maand, 7 dagen per week.	Hoeveel mails worden er daadwerkelijk verstuurd?Hoeveel mails worden er daadwerkelijk verstuurd?
+Persoonlijke benadering	E-mails per doelgroep, met optioneel een persoonlijke openingszin en landingspagina per prospect.E-mails per doelgroep, met optioneel een persoonlijke openingszin en landingspagina per prospect.	Hoe persoonlijk zijn de berichten echt?Hoe persoonlijk zijn de berichten echt?
+Slimme targeting	We selecteren op doelgroep en relevante signalen, zoals vacatures of bedrijfsontwikkelingen.We selecteren op doelgroep en relevante signalen, zoals vacatures of bedrijfsontwikkelingen.	Hoe worden de juiste prospects geselecteerd?Hoe worden de juiste prospects geselecteerd?
+Handmatige opvolging	We lezen iedere reactie en sturen geïnteresseerde prospects direct door.We lezen iedere reactie en sturen geïnteresseerde prospects direct door.	Wie beoordeelt de reacties?Wie beoordeelt de reacties?
+Alles geregeld	Inclusief domeinen, mailboxen, software en wekelijkse rapportages. Geen opstartkosten.Inclusief domeinen, mailboxen, software en wekelijkse rapportages. Geen opstartkosten.	Welke extra kosten komen erbij?Welke extra kosten komen erbij?
+Resultaatgarantie	Bij Scale en Pro spreken we vooraf een minimumaantal positieve reacties af.Bij Scale en Pro spreken we vooraf een minimumaantal positieve reacties af.	Welke resultaten worden contractueel vastgelegd?Welke resultaten worden contractueel vastgelegd?
 
-Vergelijk je ons met een specifiek bureau en staat er iets niet bij? Mail het ons, dan zetten we het er eerlijk naast. Past cold e-mail niet bij je markt, dan zeggen we dat ook.
+### Meer nodig? Dat regelen we ook.
+
+HyperpersonalisatieEen persoonlijke openingszin en landingspagina voor iedere prospect.
+
+LinkedInBereik dezelfde prospects ook via LinkedIn.
+
+Full ServiceWij beantwoorden geïnteresseerde prospects en plannen afspraken direct in je agenda.
+
+Eerst weten of het werkt voor jouw bedrijf?We kijken naar je doelgroep, aanbod en marktpotentieel. Past koude e-mail niet bij jouw bedrijf? Dan zeggen we dat ook.
 
 Doe de gratis fitcheck
 
 5,0 “Je weet als klant precies waar je aan toe bent. Ze schakelen snel als het nodig is.” Arnold · Rollecate
 
-## We mailen op het moment
-dat er iets verandert
+## De juiste bedrijven.
+Op het juiste moment.
 
-Een lijst zegt wie een bedrijf is, niet of het nu iets nodig heeft.
+Een goede doelgroep is belangrijk. Maar weten wanneer een bedrijf mogelijk behoefte heeft aan jouw dienst, maakt je benadering nog relevanter.
 
-Wij zoeken daarom per bedrijf naar een aanleiding en verwijzen daar in de mail naar. Zo komt je bericht binnen op het moment dat het relevant is, in plaats van op een willekeurige dinsdag.
+Daarom kijken we niet alleen naar wie je wilt bereiken, maar ook naar wat er bij die bedrijven speelt.
 
-Zoekt personeelEen openstaande vacature, gecontroleerd op de site van het bedrijf zelf.
+Personeel gezochtWe signaleren relevante vacatures en gebruiken die als aanleiding voor een persoonlijk bericht.
 
-Groeit zichtbaarEen nieuwe vestiging, een overname of een verhuizing die het bedrijf zelf heeft aangekondigd.
+Bedrijf in bewegingNieuwe vestigingen, verhuizingen of uitbreidingen kunnen interessante commerciële kansen bieden.
 
-Investeert in klanten wervenEen bedrijf dat net is gaan adverteren, of juist een site heeft die jaren niet is bijgewerkt.
+Commerciële ontwikkelingenWe kijken naar signalen zoals nieuwe advertentiecampagnes of veranderingen in de online aanwezigheid.
 
-Welke aanleiding bij jouw aanbod past, bepalen we in de onboarding. Past er geen enkel signaal bij, dan zeggen we dat en werken we met een scherper afgebakende doelgroep.
+Geen relevant signaal? Dan richten we ons op een zorgvuldig geselecteerde doelgroep met een boodschap die aansluit bij hun situatie.
+Welke aanpak het beste past, bepalen we samen tijdens de onboarding.
 
 5,0 “Ik ben de hele dag druk met opvolgen, en dat is precies de bedoeling.” Rafael · CrudenVision
 
-## Vragen die we vaak krijgen
+## Veelgestelde vragen
 
 Hoe snel zie ik resultaat?
 
-Week 1 en 2 zijn setup en warmup, in week 3 ga je live. De eerste reacties komen doorgaans binnen drie tot tien dagen na livegang, in enkele campagnes al op dag 1. Vanaf maand 2 sturen we bij op de segmenten die reageren.
+De eerste twee weken richten we je campagne in. In week 3 starten we met verzenden. De eerste reacties komen doorgaans binnen 3 tot 10 dagen na de start. Daarna blijven we de campagne optimaliseren.
 
-Wat gebeurt er in de eerste weken?
+Wat moet ik zelf doen?
 
-Twee weken bouwen, in week 3 gaat de eerste mail eruit. Week 1 is de intake: aanbod, beslissers en de lijst. Daarnaast zetten we de verzendomgeving op met aparte domeinen en mailboxen. Week 2 draaien die warm om reputatie op te bouwen, schrijven we de eerste mail en twee opvolgmails, en keur jij de lijst en de teksten goed. In week 3 gaat de campagne live op een derde van je volume en groeit die naar honderd procent. De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen.
+Je vertelt ons wie je ideale klanten zijn en keurt de doelgroep en e-mails goed. Wij regelen de rest: van contactlijsten en verzending tot het beoordelen van reacties. Jij voert alleen de gesprekken.
 
-Kan ik ook alleen de leads afnemen?
-
-Ja. Zoek je alleen een lijst, dan verkopen we die los vanaf 500 leads, met een geverifieerd zakelijk e-mailadres en de bron per record. Telefoonnummer en LinkedIn-profiel zijn aan te vinken, dus je kunt dezelfde lijst ook bellen of via LinkedIn benaderen. Het benaderen en opvolgen doe je dan zelf, en dat is in de praktijk het meeste werk. Kijk op leads kopen wat het kost.
-
-Loopt mijn eigen domein of merk risico?
-
-Nee. We versturen nooit vanaf je hoofddomein. We zetten aparte verzenddomeinen op die we volledig opwarmen en monitoren. Je website, e-mail en merkreputatie blijven 100% buiten schot.
-
-Is cold e-mail toegestaan onder de AVG?
-
-Onder bepaalde voorwaarden kan B2B cold e-mail in Nederland rechtmatig zijn. Welke regels gelden, hangt onder meer af van het type ontvanger en het type bericht. Wij richten campagnes zakelijk en relevant in, gebruiken een duidelijke afmeldmogelijkheid en verwerken afmeldingen direct. Voor advies over jouw specifieke situatie raden we juridisch advies aan. De wetsartikelen op een rij →
-
-Werkt dit ook in een kleine of specifieke niche?
-
-Vaak juist beter: hoe scherper de doelgroep, hoe relevanter de boodschap. We werken dan met lager volume en diepere segmentatie. Past jouw markt echt niet bij cold e-mail, dan zeggen we dat eerlijk in de fitcheck.
-
-Wat moet ik er zelf voor doen?
-
-Een onboardingsessie waarin we jouw ideale klant en propositie scherpstellen. Daarna draait alles via ons: lijsten, copy, verzending en optimalisatie. Jij volgt de positieve reacties op en voert de gesprekken. Met Full Service handelen wij die reacties af en plannen we de afspraak direct in jouw agenda.
-
-Hoe controleren jullie de contacten?
-
-We bouwen de lijst op basis van jouw ideale klantprofiel en verifieren elk adres voordat er iets uitgaat. Elke binnenkomende reactie wordt met de hand gelezen, niet door een scoringsmodel. Je krijgt naam, functie, organisatie en contactgegevens.
+Met Full Service plannen we ook de afspraken voor je in.
 
 Hoeveel reacties kan ik verwachten?
 
-Dat hangt af van hoe scherp je doelgroep is afgebakend. Onze best draaiende campagne zit op 9,1% reply rate; binnen een campagne van 18.594 contactpersonen liep dat per segment uiteen van 2,3% tot 7,8% bij dezelfde copy. In de fitcheck rekenen we het door op jouw doelgroep. De cijfers →
+Dat hangt af van je doelgroep, aanbod en markt. Tijdens de gratis fitcheck maken we een realistische inschatting.
 
-Wat gebeurt er nadat iemand positief reageert?
+Met Scale en Pro spreken we vooraf een minimumaantal gekwalificeerde positieve reacties af, inclusief garantie.
 
-Standaard sturen we de reactie door naar jouw mailbox, met naam, functie, organisatie en contactgegevens erbij. Jij neemt het daarna over en plant het gesprek in, het liefst binnen een werkdag. Kies je Full Service op Scale of Pro, dan beantwoorden wij de reactie en zetten we de afspraak direct in jouw agenda.
+Hoe persoonlijk zijn de e-mails?
 
-Krijg ik een portaal of een inlog?
+We schrijven berichten die aansluiten bij jouw doelgroep en gebruiken waar mogelijk relevante bedrijfsinformatie of koopsignalen.
 
-Nee, en dat is bewust. Alles wat je moet zien komt direct binnen in je eigen mailbox, waar het hoort. Standaard zijn dat alle positieve reacties, met naam, functie, organisatie en contactgegevens erbij. Wil je liever elke reactie zien, ook de afwijzingen en afwezigheidsmeldingen, dan sturen we alles live door. Daarnaast krijg je elke week een rapportage met wat er is verstuurd en wat eruit kwam. Geen inlog op een portaal van een derde partij, geen dashboard dat je moet leren lezen.
+Met hyperpersonalisatie krijgt iedere prospect ook een persoonlijke openingszin en een eigen landingspagina.
+
+Is mijn eigen e-maildomein veilig?
+
+We versturen via aparte domeinen, zodat je dagelijkse zakelijke e-mail niet wordt gebruikt voor koude acquisitie. Deze domeinen worden opgewarmd en continu gecontroleerd om risico's te beperken.
+
+Wat gebeurt er als iemand interesse toont?
+
+Wij lezen iedere reactie en sturen geïnteresseerde prospects direct naar jouw mailbox, inclusief contactgegevens.
+
+Met Full Service beantwoorden wij de reacties en plannen we afspraken rechtstreeks in je agenda.
+
+Kan ik ook alleen een contactlijst kopen?
+
+Ja. Je kunt vanaf 500 geverifieerde zakelijke contacten afnemen, zonder campagne. Je ontvangt de gegevens en verzorgt zelf de benadering.
+
+Bekijk onze leadlijsten →
+
+Is cold e-mail toegestaan?
+
+Zakelijke acquisitie per e-mail is in Nederland aan regels gebonden. De AVG en regels voor ongevraagde elektronische communicatie kunnen allebei van toepassing zijn.
+
+We houden rekening met relevante wetgeving, gebruiken zakelijke contactgegevens en verwerken afmeldingen direct.
+
+Lees meer over de wetgeving →
 
 5,0 “Duidelijke communicatie en eerlijke verwachtingen. Altijd goed te bereiken.” Marit Mail van een klant “Zou jij nog een voorstel kunnen maken voor nog een keer 10.000 adressen?” HR-bureau · tweede bestelling
 
