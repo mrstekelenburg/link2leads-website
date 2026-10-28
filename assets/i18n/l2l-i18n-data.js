@@ -5346,8 +5346,8 @@ window.L2L_I18N_DATA = {
 "€ 3 tot € 7 per mailbox per maand": {
 "en": "EUR 3 to EUR 7 per mailbox per month"
 },
-"Instantly, Lemlist of vergelijkbaar": {
-"en": "Instantly, Lemlist or similar"
+"Smartlead, Instantly of vergelijkbaar": {
+"en": "Smartlead, Instantly or similar"
 },
 "Leaddata en verrijking": {
 "en": "Lead data and enrichment"
@@ -7722,8 +7722,8 @@ window.L2L_I18N_DATA = {
 "E-mail": {
 "en": "Email"
 },
-"Importeer het bestand in je eigen mailtool. Het adres is kort voor levering gecontroleerd, dus je begint niet met bounces.": {
-"en": "Import the file into your own email tool. The address is checked shortly before delivery, so you do not start out with bounces."
+"Importeer het bestand in Smartlead, Instantly of je eigen mailtool. Het adres is kort voor levering gecontroleerd, dus je begint niet met bounces.": {
+"en": "Import the file into Smartlead, Instantly or your own email tool. The address is checked shortly before delivery, so you do not start out with bounces."
 },
 "Bellen": {
 "en": "Calling"
@@ -7857,8 +7857,8 @@ window.L2L_I18N_DATA = {
 "Kan ik het bestand in mijn eigen tool gebruiken?": {
 "en": "Can I use the file in my own tool?"
 },
-"Ja. Excel of CSV met vaste kolomnamen, klaar voor Instantly, Apollo, Lemlist, HubSpot, Pipedrive of je beltool. Wil je een andere kolomindeling, geef het door bij je bestelling.": {
-"en": "Yes. Excel or CSV with fixed column names, ready for Instantly, Apollo, Lemlist, HubSpot, Pipedrive or your dialler. Want a different column layout, let us know with your order."
+"Ja. Excel of CSV met vaste kolomnamen, klaar voor Smartlead, Instantly, Apollo, Lemlist, HubSpot, Pipedrive of je beltool. Wil je een andere kolomindeling, geef het door bij je bestelling.": {
+"en": "Yes. Excel or CSV with fixed column names, ready for Smartlead, Instantly, Apollo, Lemlist, HubSpot, Pipedrive or your dialler. Want a different column layout, let us know with your order."
 },
 "Begin bij de vraag": {
 "en": "Start with the question"

@@ -2286,7 +2286,7 @@ Wat je minimaal nodig hebt om fatsoenlijk te kunnen mailen zonder je hoofddomein
 Post	Kosten per maand	Waar dat vandaan komt
 Extra verzenddomeinen (5 à 10)	€ 5 – € 15	Registratie plus DNS
 Mailboxen (20 – 80 stuks)	€ 60 – € 500	€ 3 tot € 7 per mailbox per maand
-Verzendsoftware	€ 40 – € 100	Instantly, Lemlist of vergelijkbaar
+Verzendsoftware	€ 40 – € 100	Smartlead, Instantly of vergelijkbaar
 Leaddata en verrijking	€ 150 – € 600	De grootste post. Reken op € 0,02 tot € 0,05 per verrijkte lead
 E-mailvalidatie	€ 25 – € 100	Circa € 2 tot € 4 per 1.000 adressen
 Toolingtotaal	€ 280 – € 1.315
@@ -3012,7 +3012,7 @@ Het is een prospectlijst, geen mailbestand. Dezelfde regels zijn bruikbaar in el
 
 ### E-mail
 
-Importeer het bestand in je eigen mailtool. Het adres is kort voor levering gecontroleerd, dus je begint niet met bounces.
+Importeer het bestand in Smartlead, Instantly of je eigen mailtool. Het adres is kort voor levering gecontroleerd, dus je begint niet met bounces.
 
 ### Bellen
 
@@ -3136,7 +3136,7 @@ Niet standaard. We houden per klant bij welke bedrijven we al hebben geleverd, d
 
 Kan ik het bestand in mijn eigen tool gebruiken?
 
-Ja. Excel of CSV met vaste kolomnamen, klaar voor Instantly, Apollo, Lemlist, HubSpot, Pipedrive of je beltool. Wil je een andere kolomindeling, geef het door bij je bestelling.
+Ja. Excel of CSV met vaste kolomnamen, klaar voor Smartlead, Instantly, Apollo, Lemlist, HubSpot, Pipedrive of je beltool. Wil je een andere kolomindeling, geef het door bij je bestelling.
 
 ## Begin bij de vraag hoeveel er zijn
 
