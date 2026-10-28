@@ -186,8 +186,8 @@ window.L2L_I18N_DATA = {
 "per prospect": {
 "en": "per prospect"
 },
-"Onze eigen campagnes · met Neuropage en Smartlead · 8 weken": {
-"en": "Our own campaigns · with Neuropage and Smartlead · 8 weeks"
+"Onze eigen campagnes · 8 weken": {
+"en": "Our own campaigns · 8 weeks"
 },
 "Prospects met een eigen pagina": {
 "en": "Prospects with their own page"
@@ -5346,8 +5346,8 @@ window.L2L_I18N_DATA = {
 "€ 3 tot € 7 per mailbox per maand": {
 "en": "EUR 3 to EUR 7 per mailbox per month"
 },
-"Smartlead, Instantly of vergelijkbaar": {
-"en": "Smartlead, Instantly or similar"
+"Instantly, Lemlist of vergelijkbaar": {
+"en": "Instantly, Lemlist or similar"
 },
 "Leaddata en verrijking": {
 "en": "Lead data and enrichment"
@@ -6162,8 +6162,8 @@ window.L2L_I18N_DATA = {
 "Case study · Onze eigen campagnes": {
 "en": "Case study · Our own campaigns"
 },
-"Wie op een link in onze mail klikt, komt op een pagina die alleen over zijn bedrijf gaat. Wij maken die pagina automatisch en Smartlead zet de link in de mail. Prospects gingen reageren om te zeggen hoe persoonlijk het was.": {
-"en": "Anyone who clicks a link in our email lands on a page that is only about their company. We build that page automatically and Smartlead puts the link in the email. Prospects started replying just to say how personal it felt."
+"Wie op een link in onze mail klikt, komt op een pagina die alleen over zijn bedrijf gaat. Wij maken die pagina automatisch en de link staat vanzelf in de mail. Prospects gingen reageren om te zeggen hoe persoonlijk het was.": {
+"en": "Anyone who clicks a link in our email lands on a page that is only about their company. We build that page automatically and the link goes into the email by itself. Prospects started replying just to say how personal it felt."
 },
 "Starter € 995 p/m (100 mails per dag), Growth € 1.295 (250), Scale € 1.695 (500), Pro € 1.995 (1.000). Daarbovenop zijn twee add-ons: Hyperpersonalisatie op elk pakket (€ 300 tot € 550 p/m) en Full Service op Scale en Pro (€ 600 en € 800 p/m). Eerste termijn drie maanden, vooruit gefactureerd. Op Scale en Pro geldt een resultaatgarantie op het aantal positieve reacties.": {
 "en": "Starter EUR 995 per month (100 emails per day), Growth EUR 1,295 (250), Scale EUR 1,695 (500), Pro EUR 1,995 (1,000). On top of that there are two add-ons: Hyper-personalisation on every package (EUR 300 to EUR 550 per month) and Full Service on Scale and Pro (EUR 600 and EUR 800 per month). First term three months, invoiced in advance. Scale and Pro carry a results guarantee on the number of positive replies."
@@ -7101,8 +7101,8 @@ window.L2L_I18N_DATA = {
 "Plan een gesprek →": {
 "en": "Book a call →"
 },
-"We bouwen per prospect een eigen pagina, Smartlead zet de bijbehorende link in de mail. Van de 1.240 prospects opende 34 procent zijn eigen pagina.": {
-"en": "We build a dedicated page per prospect and Smartlead drops the matching link into the email. Of the 1,240 prospects, 34 percent opened their own page."
+"We bouwen per prospect een eigen pagina en zetten de bijbehorende link in de mail. Van de 1.240 prospects opende 34 procent zijn eigen pagina.": {
+"en": "We build a dedicated page per prospect and put the matching link in the email. Of the 1,240 prospects, 34 percent opened their own page."
 },
 "Een goede koude mail kost onderzoek. Je zoekt uit wat een bedrijf doet, waar het mee bezig is en waarom jouw aanbod daar iets mee te maken heeft. Dat onderzoek zit in de eerste zin van de mail en daarna nergens meer. Wie doorklikt, komt op een homepage die net zo goed voor duizend andere bedrijven bedoeld had kunnen zijn.": {
 "en": "A good cold email takes research. You work out what a company does, what it is busy with and why your offer has anything to do with that. That research sits in the first line of the email and nowhere after it. Whoever clicks through lands on a homepage that could just as easily have been meant for a thousand other companies."
@@ -7122,8 +7122,8 @@ window.L2L_I18N_DATA = {
 "De link staat in de mail.": {
 "en": "The link sits in the email."
 },
-"De koppeling met Smartlead zet de persoonlijke URL vanzelf in de juiste mail van de reeks, zonder handwerk per contact.": {
-"en": "The Smartlead connection drops the personal URL into the right email in the sequence by itself, with no manual work per contact."
+"De persoonlijke URL komt vanzelf in de juiste mail van de reeks, zonder handwerk per contact.": {
+"en": "The personal URL goes into the right email in the sequence by itself, with no manual work per contact."
 },
 "We zien wie er kijkt.": {
 "en": "We can see who is looking."
@@ -7368,8 +7368,8 @@ window.L2L_I18N_DATA = {
 "Verschil in reacties tussen het sterkste en het zwakste segment binnen dezelfde campagne": {
 "en": "Difference in replies between the strongest and the weakest segment inside the same campaign"
 },
-"Uitgelezen uit Smartlead op 2 september 2026, over alle campagnes die op dat moment liepen.": {
-"en": "Read out of Smartlead on 2 September 2026, across all campaigns running at that moment."
+"Uitgelezen uit onze verzendsoftware op 2 september 2026, over alle campagnes die op dat moment liepen.": {
+"en": "Read out of our sending software on 2 September 2026, across all campaigns running at that moment."
 },
 "De uitsplitsing per segment, met de toets erbij": {
 "en": "The breakdown per segment, including the test"
@@ -7722,8 +7722,8 @@ window.L2L_I18N_DATA = {
 "E-mail": {
 "en": "Email"
 },
-"Importeer het bestand in Smartlead, Instantly of je eigen mailtool. Het adres is kort voor levering gecontroleerd, dus je begint niet met bounces.": {
-"en": "Import the file into Smartlead, Instantly or your own email tool. The address is checked shortly before delivery, so you do not start out with bounces."
+"Importeer het bestand in je eigen mailtool. Het adres is kort voor levering gecontroleerd, dus je begint niet met bounces.": {
+"en": "Import the file into your own email tool. The address is checked shortly before delivery, so you do not start out with bounces."
 },
 "Bellen": {
 "en": "Calling"
@@ -7857,8 +7857,8 @@ window.L2L_I18N_DATA = {
 "Kan ik het bestand in mijn eigen tool gebruiken?": {
 "en": "Can I use the file in my own tool?"
 },
-"Ja. Excel of CSV met vaste kolomnamen, klaar voor Smartlead, Instantly, Apollo, Lemlist, HubSpot, Pipedrive of je beltool. Wil je een andere kolomindeling, geef het door bij je bestelling.": {
-"en": "Yes. Excel or CSV with fixed column names, ready for Smartlead, Instantly, Apollo, Lemlist, HubSpot, Pipedrive or your dialler. Want a different column layout, let us know with your order."
+"Ja. Excel of CSV met vaste kolomnamen, klaar voor Instantly, Apollo, Lemlist, HubSpot, Pipedrive of je beltool. Wil je een andere kolomindeling, geef het door bij je bestelling.": {
+"en": "Yes. Excel or CSV with fixed column names, ready for Instantly, Apollo, Lemlist, HubSpot, Pipedrive or your dialler. Want a different column layout, let us know with your order."
 },
 "Begin bij de vraag": {
 "en": "Start with the question"

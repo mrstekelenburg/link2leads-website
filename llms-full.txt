@@ -159,7 +159,7 @@ Case study · Onze eigen campagnes
 
 ### Een eigen landingspagina per prospect
 
-Wie op een link in onze mail klikt, komt op een pagina die alleen over zijn bedrijf gaat. Wij maken die pagina automatisch en Smartlead zet de link in de mail. Prospects gingen reageren om te zeggen hoe persoonlijk het was.
+Wie op een link in onze mail klikt, komt op een pagina die alleen over zijn bedrijf gaat. Wij maken die pagina automatisch en de link staat vanzelf in de mail. Prospects gingen reageren om te zeggen hoe persoonlijk het was.
 
 1.240 Prospects met een eigen pagina
 
@@ -2286,7 +2286,7 @@ Wat je minimaal nodig hebt om fatsoenlijk te kunnen mailen zonder je hoofddomein
 Post	Kosten per maand	Waar dat vandaan komt
 Extra verzenddomeinen (5 à 10)	€ 5 – € 15	Registratie plus DNS
 Mailboxen (20 – 80 stuks)	€ 60 – € 500	€ 3 tot € 7 per mailbox per maand
-Verzendsoftware	€ 40 – € 100	Smartlead, Instantly of vergelijkbaar
+Verzendsoftware	€ 40 – € 100	Instantly, Lemlist of vergelijkbaar
 Leaddata en verrijking	€ 150 – € 600	De grootste post. Reken op € 0,02 tot € 0,05 per verrijkte lead
 E-mailvalidatie	€ 25 – € 100	Circa € 2 tot € 4 per 1.000 adressen
 Toolingtotaal	€ 280 – € 1.315
@@ -2412,7 +2412,7 @@ Bron: https://www.link2leads.nl/cases/landingspagina-per-prospect
 
 Bij Link2Leads staken we veel werk in het persoonlijk maken van de mail, en stuurden vervolgens iedereen die klikte naar dezelfde pagina. Precies op het moment dat iemand besluit of hij reageert, hield de personalisatie op. Dat hebben we opgelost met een eigen pagina per prospect.
 
-Onze eigen campagnes· Met Smartlead· Gemeten over 8 weken
+Onze eigen campagnes· Gemeten over 8 weken
 
 Deze campagne draaiden we voor onszelf, dus alle keuzes erin zijn onze eigen.
 
@@ -2432,7 +2432,7 @@ De pagina noemt het bedrijf, de branche en de aanleiding uit de mail. Wie klikt,
 
 Plan een gesprek →
 
-We bouwen per prospect een eigen pagina, Smartlead zet de bijbehorende link in de mail. Van de 1.240 prospects opende 34 procent zijn eigen pagina.
+We bouwen per prospect een eigen pagina en zetten de bijbehorende link in de mail. Van de 1.240 prospects opende 34 procent zijn eigen pagina.
 
 ## Het probleem
 
@@ -2443,7 +2443,7 @@ Daar komt bij dat de standaard AI-openingszin inmiddels herkenbaar is geworden. 
 ## Wat we nu doen
 
 - Per prospect een pagina. We maken automatisch een landingspagina die alleen over dat ene bedrijf gaat, op basis van het onderzoek dat we al deden.
-- De link staat in de mail. De koppeling met Smartlead zet de persoonlijke URL vanzelf in de juiste mail van de reeks, zonder handwerk per contact.
+- De link staat in de mail. De persoonlijke URL komt vanzelf in de juiste mail van de reeks, zonder handwerk per contact.
 - We zien wie er kijkt. Per pagina is zichtbaar wie hem opende en hoe lang. Dat zegt vaak meer dan een open van de mail.
 - Opvolgen op wat we zien. Wie zijn pagina bekeek maar niet reageerde, volgen we gerichter op, ook via LinkedIn.
 
@@ -3012,7 +3012,7 @@ Het is een prospectlijst, geen mailbestand. Dezelfde regels zijn bruikbaar in el
 
 ### E-mail
 
-Importeer het bestand in Smartlead, Instantly of je eigen mailtool. Het adres is kort voor levering gecontroleerd, dus je begint niet met bounces.
+Importeer het bestand in je eigen mailtool. Het adres is kort voor levering gecontroleerd, dus je begint niet met bounces.
 
 ### Bellen
 
@@ -3136,7 +3136,7 @@ Niet standaard. We houden per klant bij welke bedrijven we al hebben geleverd, d
 
 Kan ik het bestand in mijn eigen tool gebruiken?
 
-Ja. Excel of CSV met vaste kolomnamen, klaar voor Smartlead, Instantly, Apollo, Lemlist, HubSpot, Pipedrive of je beltool. Wil je een andere kolomindeling, geef het door bij je bestelling.
+Ja. Excel of CSV met vaste kolomnamen, klaar voor Instantly, Apollo, Lemlist, HubSpot, Pipedrive of je beltool. Wil je een andere kolomindeling, geef het door bij je bestelling.
 
 ## Begin bij de vraag hoeveel er zijn
 
