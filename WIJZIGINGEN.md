@@ -1,3 +1,10 @@
+**4 november 2026: bezoeker bij naam en confetti na boeken**
+- Nieuw script `assets/welkom.js` op alle pagina's.
+- Link met `?voor=Bedrijfsnaam` (in Smartlead: `https://link2leads.nl/?voor={{company_name}}`) zet boven de kop op de homepage een klein label "Hoi Bedrijfsnaam, fijn dat je even kijkt" met zwaaiend handje. In het Engels "Hi Bedrijfsnaam, good to see you here", wisselt mee met de taal. B.V., Holding en dergelijke vallen weg; een niet ingevulde merge tag toont niets.
+- De naam blijft 30 dagen bewaard in de browser en vult op /book alvast de bedrijfsnaam in.
+- Na een bevestigde fitcheck op /book komt er een keer confetti vanaf beide kanten. Staat stil bij "minder beweging" op het apparaat.
+- Zelfde op link2leads.co.
+
 **4 november 2026: feestdagthema's**
 - Nieuw script `assets/feestdagen.js` op alle pagina's. Kiest op datum (tijd Amsterdam) een subtiel thema: Halloween 25-10 t/m 31-10 (pompoen, af en toe vleermuisjes), Sinterklaas 28-11 t/m 5-12 (mijter, vallende pepernoten), Kerst 6-12 t/m 26-12 (lichte sneeuw, lampjes bovenaan, boompje, af en toe de kerstman met rendieren), Oud en nieuw 27-12 t/m 2-1 (vuurwerk bij het laden, oliebol), Pasen van woensdag voor tot en met tweede paasdag (haasje dat om de hoek gluurt, drie verstopte eitjes die je kunt aanklikken), Koningsdag 24-4 t/m 27-4 (oranje vlaggetjes).
 - Bij overlap telt de volgorde Koningsdag, Pasen, Halloween, Sinterklaas, Kerst, Oud en nieuw.
