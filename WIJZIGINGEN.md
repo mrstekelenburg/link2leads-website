@@ -1,3 +1,6 @@
+**5 november 2026 (later): film start weer vanzelf op iPhone**
+- De film start altijd gedempt (dat is wat iPhone en andere browsers toestaan) en het geluid gaat direct aan als de browser dat toelaat. Anders gaat het geluid aan bij de eerste klik of tik op de pagina.
+
 **5 november 2026: herofilm met geluid, geen loop**
 - De film start direct met geluid. Blokkeert de browser dat, dan start hij gedempt en gaat het geluid aan bij de eerste klik of toets op de pagina. Klik op de film pauzeert, dempen via de knop.
 - Geen loop meer: aan het eind staat een knop "Opnieuw afspelen". Homepage op `l2l-i18n.js?v=62`.
