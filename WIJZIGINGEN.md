@@ -15,7 +15,7 @@
 - Nieuw script `assets/welkom.js` op alle pagina's.
 - Link met `?voor=Bedrijfsnaam` (in Smartlead: `https://link2leads.nl/?voor={{company_name}}`) zet boven de kop op de homepage een klein label "Hoi Bedrijfsnaam, fijn dat je even kijkt" met zwaaiend handje. In het Engels "Hi Bedrijfsnaam, good to see you here", wisselt mee met de taal. B.V., Holding en dergelijke vallen weg; een niet ingevulde merge tag toont niets.
 - De naam blijft 30 dagen bewaard in de browser en vult op /book alvast de bedrijfsnaam in.
-- Na een bevestigde fitcheck op /book komt er een keer confetti vanaf beide kanten. Staat stil bij "minder beweging" op het apparaat.
+- Direct na een bevestigde fitcheck op /book komt er een keer confetti vanaf beide kanten, al voordat de korte vragen verschijnen. Staat stil bij "minder beweging" op het apparaat.
 - Zelfde op link2leads.co.
 
 **4 november 2026: feestdagthema's**

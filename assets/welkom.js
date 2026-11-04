@@ -2,7 +2,7 @@
    1. Komt iemand binnen via een link met ?voor=Bedrijfsnaam (bijv. uit een campagnemail:
       https://link2leads.nl/?voor={{company_name}}), dan staat boven de kop "Hoi Bedrijfsnaam, ...".
       De naam wordt 30 dagen onthouden in deze browser en vult op /book alvast de bedrijfsnaam in.
-   2. Na een bevestigde fitcheck op /book valt er een keer confetti.
+   2. Direct na een bevestigde fitcheck op /book valt er een keer confetti (nog voor de korte vragen).
    De tekst staat in een data-attribuut, zodat het vertaalscript er niet aan komt; bij wisselen
    van taal zetten we hem zelf om. Zelfde bestand op link2leads.co. */
 (function () {
@@ -99,13 +99,18 @@
     })(performance.now());
   }
 
+  // Confetti zodra de fitcheck bevestigd is: dat is het moment dat de vragenstap (sq)
+  // in beeld komt. s3 blijft als vangnet voor het geval de vragen worden overgeslagen.
   function wachtOpBevestiging() {
-    var s3 = document.getElementById('s3');
-    if (!s3 || !window.MutationObserver) return;
+    if (!window.MutationObserver) return;
     var klaar = false;
-    new MutationObserver(function () {
-      if (!klaar && s3.classList.contains('active')) { klaar = true; confetti(); }
-    }).observe(s3, { attributes: true, attributeFilter: ['class'] });
+    ['sq', 's3'].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (!el) return;
+      new MutationObserver(function () {
+        if (!klaar && el.classList.contains('active')) { klaar = true; confetti(); }
+      }).observe(el, { attributes: true, attributeFilter: ['class'] });
+    });
   }
 
   function start() {
