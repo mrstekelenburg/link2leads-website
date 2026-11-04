@@ -2847,6 +2847,9 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 .hv-video video{display:block;width:100%;aspect-ratio:16/9;background:#08090C}
 .hv-video video{cursor:pointer}
 .hv-unmute{position:absolute;right:14px;top:14px;display:inline-flex;align-items:center;gap:8px;font:inherit;font-size:13.5px;font-weight:600;color:#fff;background:rgba(8,9,12,.72);border:1px solid rgba(255,255,255,.2);border-radius:99px;padding:8px 15px;cursor:pointer;backdrop-filter:blur(6px)}
+.hv-replay{position:absolute;left:50%;top:76%;transform:translate(-50%,-50%);display:none;align-items:center;gap:10px;font:inherit;font-size:15px;font-weight:700;color:#fff;padding:11px 20px;border-radius:999px;border:1px solid rgba(255,255,255,.28);cursor:pointer;background:rgba(255,255,255,.1);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);z-index:3}
+.hv-replay:hover{background:rgba(255,255,255,.18)}
+.hv-video.is-ended .hv-replay{display:inline-flex}
 .hv-unmute:hover{background:rgba(47,111,237,.85);border-color:transparent}
 .hv-bar{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;gap:12px;padding:28px 14px 12px;background:linear-gradient(transparent,rgba(5,6,10,.85));opacity:0;transition:opacity .25s ease}
 .hv-video:hover .hv-bar,.hv-video:focus-within .hv-bar,.hv-video.is-paused .hv-bar{opacity:1}
@@ -2884,7 +2887,7 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 .hero-film .hcta-contact{flex-direction:row!important;justify-content:center!important;gap:12px!important;margin:12px auto 0!important}
 .hero-film .hcta-contact svg{width:18px!important;height:18px!important;flex:none!important}
 .hs-v{margin-top:24px!important}
-@media(max-width:560px){.hv-unmute span{display:none}.hv-unmute{padding:8px!important}}
+@media(max-width:560px){.hv-replay{top:80%;font-size:13.5px;padding:8px 14px}.hv-unmute span{display:none}.hv-unmute{padding:8px!important}}
 .hero-film .hcta,.hero-film .hcta-contact{justify-content:center!important;margin-left:auto!important;margin-right:auto!important;width:fit-content;max-width:100%}
 .hero-film .hcta{margin-top:26px!important}
 .hs-v{font-size:18.5px;line-height:1.6;margin:8px auto 30px;color:rgba(240,239,237,.68);max-width:720px;letter-spacing:-.1px;text-wrap:pretty}
@@ -2898,9 +2901,10 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 <span class="blue">Salesafspraken in je agenda</span> zonder zelf acquisitie te doen
       </h1>
 <div class="hv-video" id="hvVideo">
-<video data-src="/assets/video/herofilm-v4.mp4" poster="/assets/video/herofilm-v4-poster.jpg" data-src-en="/assets/video/herofilm-v4-en.mp4" data-poster-en="/assets/video/herofilm-v4-en-poster.jpg" autoplay muted loop playsinline preload="none"></video>
+<video data-src="/assets/video/herofilm-v4.mp4" poster="/assets/video/herofilm-v4-poster.jpg" data-src-en="/assets/video/herofilm-v4-en.mp4" data-poster-en="/assets/video/herofilm-v4-en-poster.jpg" playsinline preload="none"></video>
 <button class="hv-unmute" type="button">
 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg><span>Geluid aan</span></button>
+<button class="hv-replay" type="button"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg><span>Opnieuw afspelen</span></button>
 <div class="hv-bar">
 <button class="hv-btn hv-play" type="button" aria-label="Pauzeren"><svg class="i-pause" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg><svg class="i-play" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></svg></button>
 <input class="hv-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Positie in de video">
@@ -2913,31 +2917,37 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 (function(){
 var w=document.getElementById('hvVideo');if(!w)return;
 var v=w.querySelector('video'),play=w.querySelector('.hv-play'),seek=w.querySelector('.hv-seek'),time=w.querySelector('.hv-time'),
-    mute=w.querySelector('.hv-mute'),un=w.querySelector('.hv-unmute'),fs=w.querySelector('.hv-fs'),drag=false;
+    mute=w.querySelector('.hv-mute'),un=w.querySelector('.hv-unmute'),fs=w.querySelector('.hv-fs'),rp=w.querySelector('.hv-replay'),drag=false,autoMuted=false,userMuted=false;
 function f(t){t=Math.max(0,Math.floor(t||0));return Math.floor(t/60)+':'+String(t%60).padStart(2,'0');}
-var L={nl:{play:'Afspelen',pause:'Pauzeren',on:'Geluid aan',off:'Geluid uit'},en:{play:'Play',pause:'Pause',on:'Sound on',off:'Sound off'}};
+var L={nl:{play:'Afspelen',pause:'Pauzeren',on:'Geluid aan',off:'Geluid uit',replay:'Opnieuw afspelen'},en:{play:'Play',pause:'Pause',on:'Sound on',off:'Sound off',replay:'Replay'}};
 function lang(){return (document.documentElement.getAttribute('lang')||'nl').slice(0,2)==='en'?'en':'nl';}
 function ui(){var t=L[lang()];w.classList.toggle('is-paused',v.paused);w.classList.toggle('is-muted',v.muted);
-  play.setAttribute('aria-label',v.paused?t.play:t.pause);mute.setAttribute('aria-label',v.muted?t.on:t.off);}
+  play.setAttribute('aria-label',v.paused?t.play:t.pause);mute.setAttribute('aria-label',v.muted?t.on:t.off);if(rp)rp.querySelector('span').textContent=t.replay;}
 var srcNl=v.getAttribute('data-src'),posterNl=v.getAttribute('poster');
 function swap(){var en=lang()==='en',want=en?v.getAttribute('data-src-en'):srcNl;if(v.getAttribute('src')!==want){var wasPaused=v.paused&&v.hasAttribute('src');v.setAttribute('poster',en?v.getAttribute('data-poster-en'):posterNl);v.setAttribute('src',want);v.load();if(!wasPaused){var pr=v.play();if(pr&&pr.catch)pr.catch(function(){});}}ui();}
 document.addEventListener('l2l:langchange',swap);
 function prog(){if(!v.duration)return;if(!drag)seek.value=Math.round(v.currentTime/v.duration*1000);
   seek.style.setProperty('--p',(seek.value/10)+'%');time.textContent=f(v.currentTime)+' / '+f(v.duration);}
-function toggle(){if(v.paused)v.play();else v.pause();}
+function replay(){w.classList.remove('is-ended');v.currentTime=0;var pr=v.play();if(pr&&pr.catch)pr.catch(function(){});}
+function toggle(){if(v.ended||w.classList.contains('is-ended')){replay();return;}if(autoMuted&&!v.paused){unmute();return;}if(v.paused)v.play();else v.pause();}
 play.addEventListener('click',toggle);
 v.addEventListener('click',toggle);
 v.addEventListener('play',ui);v.addEventListener('pause',ui);v.addEventListener('volumechange',ui);
 v.addEventListener('timeupdate',prog);v.addEventListener('loadedmetadata',prog);
 seek.addEventListener('input',function(){drag=true;if(v.duration){v.currentTime=seek.value/1000*v.duration;}seek.style.setProperty('--p',(seek.value/10)+'%');time.textContent=f(v.currentTime)+' / '+f(v.duration);});
 seek.addEventListener('change',function(){drag=false;});
-function unmute(){v.muted=false;if(un){un.remove();un=null;}if(v.paused)v.play();}
-mute.addEventListener('click',function(){if(v.muted){unmute();}else{v.muted=true;}});
+function unmute(){autoMuted=false;userMuted=false;v.muted=false;if(un){un.remove();un=null;}if(v.paused&&!w.classList.contains('is-ended'))v.play();ui();}
+mute.addEventListener('click',function(){if(v.muted){unmute();}else{v.muted=true;userMuted=true;}});
 un.addEventListener('click',unmute);
 fs.addEventListener('click',function(){var el=w;try{if(document.fullscreenElement){document.exitFullscreen();}else if(el.requestFullscreen){el.requestFullscreen();}else if(v.webkitEnterFullscreen){v.webkitEnterFullscreen();}}catch(e){}});
 w.addEventListener('keydown',function(e){if(e.target===seek)return;if(e.code==='Space'||e.key==='k'){e.preventDefault();toggle();}});
 /* film pas laden als de rest van de pagina er staat */
-if(document.readyState==='complete')swap();else window.addEventListener('load',swap);
+rp.addEventListener('click',replay);
+v.addEventListener('ended',function(){w.classList.add('is-ended');ui();});
+/* direct afspelen met geluid; blokkeert de browser dat, dan gedempt starten en het geluid aanzetten bij de eerste klik of toets */
+function arm(){var ev=['pointerdown','keydown','touchend'];function go(e){if(w.contains(e.target))return;ev.forEach(function(n){document.removeEventListener(n,go,true);});if(autoMuted&&!userMuted){autoMuted=false;v.muted=false;if(un){un.remove();un=null;}ui();}}ev.forEach(function(n){document.addEventListener(n,go,true);});}
+function begin(){swap();v.muted=false;var pr=v.play();if(pr&&pr.then){pr.then(function(){if(un){un.remove();un=null;}ui();},function(){autoMuted=true;v.muted=true;var p2=v.play();if(p2&&p2.catch)p2.catch(function(){});arm();ui();});}}
+if(document.readyState==='complete')begin();else window.addEventListener('load',begin);
 })();
 </script>
 <div class="hcta">
@@ -4462,7 +4472,7 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=59"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=62"></script>
 <script src="/assets/tracking.js?v=2"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
