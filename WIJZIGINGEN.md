@@ -1,3 +1,9 @@
+**4 november 2026: snelboeken op /book**
+- Staan naam en een geldig e-mailadres al in de link (`/book?naam=&email=&bedrijf=`), dan slaat /book de stap met gegevens over. Boven de agenda staat "Hoi Jan, kies een moment" en "Stap 1 van 2", de knop heet "Fitcheck bevestigen" en boekt direct. Onder de knop: "Je boekt als Jan Jansen (jan@bedrijf.nl). Gegevens aanpassen", waarmee je alsnog de gewone route neemt.
+- Zonder die gegevens in de link verandert er niets.
+- Bedoeld voor de knop op de persoonlijke pagina's. Zet daar `&utm_source=persoonlijke-pagina` achter, dan staat bij elke boeking "Bron: persoonlijke-pagina" in de boekingsmail en zie je de bezoekers terug in Vercel Analytics en Google Analytics. Gebeurtenis `book_snelboeken` telt hoe vaak de snelle route getoond is, `booking_confirmed` hoe vaak er geboekt is.
+- Engels meegenomen in de pagina zelf. Zelfde op link2leads.co.
+
 **4 november 2026: gastartikel Neuropage**
 - Nieuw: `/kennis/cold-email-werkwijze-neuropage` (Zo verhogen wij de reply rate met Neuropage). Gebaseerd op de gastblog van Jimmy (Neuropage), die vanuit zijn eigen blog naar deze url linkt. Zelfde sjabloon als de andere kennisartikelen.
 - Aangepast ten opzichte van zijn versie: geen Smartlead bij naam, de losse tool-aanbeveling en de FAQ "Wat is Neuropage?" eruit, in plaats daarvan een verwijzing naar de add-on Hyperpersonalisatie. Cijfers gelijk aan de eigen case `/cases/landingspagina-per-prospect`.

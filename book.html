@@ -818,10 +818,11 @@ function setStep(n){
   document.getElementById('s'+n).classList.add('active');
 }
 
-function goS1(){if(window.l2lTrack)l2lTrack('book_step_1_datum');setStep(1);document.getElementById('wTitle').textContent='Selecteer een datum';document.getElementById('wStep').textContent='Stap 1 van 3';}
+function goS1(){if(window.l2lTrack)l2lTrack('book_step_1_datum');setStep(1);document.getElementById('wTitle').textContent='Selecteer een datum';document.getElementById('wStep').textContent='Stap 1 van 3';if(SNEL)snelTeksten();}
 
 function goS2(){
   if(!selD||!selSlot)return;
+  if(SNEL){book();return;}
   const ds=selD.toLocaleDateString('nl-NL',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
   document.getElementById('pvDate').textContent=ds.charAt(0).toUpperCase()+ds.slice(1);
   document.getElementById('pvTime').textContent=selSlot+' · 30 minuten · Midden-Europese tijd';
@@ -856,7 +857,7 @@ async function book(){
   if(!name||!email){err.textContent='Vul je naam en e-mailadres in.';err.classList.add('show');return;}
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){err.textContent='Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.';err.classList.add('show');return;}
   err.classList.remove('show');
-  const btn=document.getElementById('btnBook');
+  const btn=document.getElementById(SNEL?'btnNext':'btnBook');
   btn.disabled=true;btn.textContent='Bevestigen...';
   const ds=selD.toLocaleDateString('nl-NL',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
   bookingDateStr=ds.charAt(0).toUpperCase()+ds.slice(1);
@@ -887,17 +888,17 @@ async function book(){
       document.querySelectorAll('.step-panel').forEach(p=>p.classList.remove('active'));
       document.getElementById('sq').classList.add('active');
       document.getElementById('wTitle').textContent='Vier korte vragen';
-      document.getElementById('wStep').textContent='Stap 3 van 3 · optioneel';
+      document.getElementById('wStep').textContent=SNEL?(L2L_EN?'Step 2 of 2 · optional':'Stap 2 van 2 · optioneel'):'Stap 3 van 3 · optioneel';
       setKlantLink();
     }else if(res.status===409||data.reason==='slot_taken'){
       if(window.l2lTrack)l2lTrack('booking_slot_taken');
       alert('Dit tijdstip is net bezet geraakt. Kies een ander moment.');
       delete slotCache[dateKeyOf(selD)];delete takenCache[dateKeyOf(selD)];
       selSlot=null;
-      btn.disabled=false;btn.textContent='Afspraak bevestigen ';
+      btn.disabled=false;btn.textContent=SNEL?snelKnop():'Afspraak bevestigen ';
       goS1();loadSlots(selD).then(renderSlots);
-    }else{if(window.l2lTrack)l2lTrack('booking_failed');alert(data.error||'Er ging iets mis. Probeer opnieuw.');btn.disabled=false;btn.textContent='Afspraak bevestigen ';}
-  }catch(e){if(window.l2lTrack)l2lTrack('booking_error');alert('Verbindingsfout. Probeer opnieuw.');btn.disabled=false;btn.textContent='Afspraak bevestigen ';}
+    }else{if(window.l2lTrack)l2lTrack('booking_failed');alert(data.error||'Er ging iets mis. Probeer opnieuw.');btn.disabled=false;btn.textContent=SNEL?snelKnop():'Afspraak bevestigen ';}
+  }catch(e){if(window.l2lTrack)l2lTrack('booking_error');alert('Verbindingsfout. Probeer opnieuw.');btn.disabled=false;btn.textContent=SNEL?snelKnop():'Afspraak bevestigen ';}
 }
 
 // Aanklikopties bij de korte vragen. Bij een enkele keuze vervalt de vorige.
@@ -918,6 +919,38 @@ document.addEventListener('DOMContentLoaded',function(){
       for(var i=0;i<map[id].length;i++){var v=q.get(map[id][i]); if(v){el.value=v.trim().slice(0,200);break;}}
     });
   }catch(e){}
+});
+// Snelboeken: staan naam en een geldig e-mailadres al in de link (persoonlijke pagina,
+// campagnemail), dan slaat de bezoeker stap 2 over. Tijd kiezen en bevestigen is genoeg.
+// Via "Gegevens aanpassen" kan hij alsnog de gewone route nemen.
+var SNEL=false;
+function snelKnop(){return (L2L_EN?'Confirm fitcheck':'Fitcheck bevestigen');}
+function snelTeksten(){
+  if(!SNEL)return;
+  var n=document.getElementById('fName').value.trim().split(/\s+/)[0];
+  document.getElementById('wTitle').textContent=(L2L_EN?('Hi '+n+', pick a time'):('Hoi '+n+', kies een moment'));
+  document.getElementById('wStep').textContent=(L2L_EN?'Step 1 of 2':'Stap 1 van 2');
+  document.getElementById('btnNext').textContent=snelKnop();
+}
+document.addEventListener('DOMContentLoaded',function(){
+  try{
+    var n=document.getElementById('fName').value.trim(), e=document.getElementById('fEmail').value.trim();
+    if(!n||!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(e))return;
+    SNEL=true;
+    var b=document.getElementById('btnNext');
+    var p=document.createElement('p');
+    p.id='snelInfo';
+    p.style.cssText='font-size:13.5px;color:rgba(240,239,237,0.55);text-align:center;margin:12px 0 0;line-height:1.5;';
+    p.textContent=(L2L_EN?'You are booking as ':'Je boekt als ')+n+' ('+e+'). ';
+    var a=document.createElement('a');
+    a.href='#';a.style.cssText='color:var(--accent2,#4E8BFF);';
+    a.textContent=(L2L_EN?'Change details':'Gegevens aanpassen');
+    a.onclick=function(ev){ev.preventDefault();SNEL=false;p.remove();b.textContent=(L2L_EN?'Continue →':'Doorgaan →');goS1();};
+    p.appendChild(a);
+    b.parentNode.insertBefore(p,b.nextSibling);
+    snelTeksten();
+    if(window.l2lTrack)l2lTrack('book_snelboeken');
+  }catch(x){}
 });
 function bPick(btn){
   const box=btn.parentNode;
