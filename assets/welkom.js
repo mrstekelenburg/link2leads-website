@@ -1,6 +1,6 @@
 /* Welkom bij naam + confetti na boeken.
    1. Komt iemand binnen via een link met ?voor=Bedrijfsnaam (bijv. uit een campagnemail:
-      https://link2leads.nl/?voor={{company_name}}), dan staat boven de kop "Hoi Bedrijfsnaam, ...".
+      https://link2leads.nl/?voor={{company_name}}), dan onthouden we de bedrijfsnaam (de begroeting boven de kop staat uit sinds 4 nov 2026).
       De naam wordt 30 dagen onthouden in deze browser en vult op /book alvast de bedrijfsnaam in.
    2. Direct na een bevestigde fitcheck op /book valt er een keer confetti (nog voor de korte vragen).
    De tekst staat in een data-attribuut, zodat het vertaalscript er niet aan komt; bij wisselen
@@ -115,7 +115,6 @@
 
   function start() {
     var st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
-    groet();
     vulBoeking();
     wachtOpBevestiging();
   }
