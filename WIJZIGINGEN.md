@@ -1,3 +1,10 @@
+**4 november 2026: twee nieuwe kennisartikelen**
+- Nieuw: `/kennis/positieve-reactie-opvolgen` (Er komt een positieve reactie binnen. Wat doe je nu?) en `/kennis/hoe-lang-tot-resultaat` (Hoe lang duurt het voordat koude e-mail iets oplevert?). Gebouwd op het sjabloon van de bestaande kennisartikelen: Article, Organization, BreadcrumbList en FAQPage in schema.org, "Het korte antwoord", auteursblok, fitcheck-CTA en "Verder lezen".
+- Onderwerpen gekozen uit fitchecks en salescalls van de afgelopen twee weken: vragen over wat de klant zelf moet doen bij een reactie (werklast, snelheid van opvolgen) en over de doorlooptijd van 15 dagen en de eerste termijn van drie maanden. Alleen cijfers en werkwijze die al op de site staan.
+- `kennis.html`: beide kaarten vooraan en twee items in het ItemList-schema.
+- `sitemap.xml`: beide url's erbij. `llms.txt`: twee regels erbij, datum naar 4 november. `llms-full.txt` opnieuw opgebouwd met `scripts/llms-full.py`.
+- Engelse vertalingen van alle nieuwe teksten in `assets/i18n/l2l-i18n-data.js`. `kennis.html` en de twee nieuwe artikelen op `l2l-i18n.js?v=60`.
+
 **4 november 2026: bezoeker bij naam en confetti na boeken**
 - Nieuw script `assets/welkom.js` op alle pagina's.
 - Link met `?voor=Bedrijfsnaam` (in Smartlead: `https://link2leads.nl/?voor={{company_name}}`) zet boven de kop op de homepage een klein label "Hoi Bedrijfsnaam, fijn dat je even kijkt" met zwaaiend handje. In het Engels "Hi Bedrijfsnaam, good to see you here", wisselt mee met de taal. B.V., Holding en dergelijke vallen weg; een niet ingevulde merge tag toont niets.

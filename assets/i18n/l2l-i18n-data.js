@@ -11666,5 +11666,317 @@ window.L2L_I18N_DATA = {
 },
 "Vaak opstartkosten en aparte toolingkosten.": {
 "en": "Often setup fees and separate tooling costs."
+},
+"Positieve reactie op je koude mail: zo volg je hem op | Link2Leads": {
+"en": "A positive reply to your cold email: how to follow it up | Link2Leads"
+},
+"Wat er na een positieve reactie in je mailbox komt, hoe snel je antwoordt, wat je terugschrijft en hoe het eerste gesprek loopt. Plus wat je kunt uitbesteden.": {
+"en": "What lands in your mailbox after a positive reply, how fast you answer, what you write back and how the first conversation goes. Plus what you can outsource."
+},
+"Er komt een positieve reactie binnen. Wat doe je nu?": {
+"en": "A positive reply comes in. What do you do now?"
+},
+"Er komt een positieve reactie binnen.": {
+"en": "A positive reply comes in."
+},
+"Wat doe je nu?": {
+"en": "What do you do now?"
+},
+"Wat er in je mailbox komt als iemand reageert, hoe snel je terugschrijft, wat je terugschrijft en hoe het eerste gesprek loopt.": {
+"en": "What lands in your mailbox when someone replies, how fast you write back, what you write back and how the first conversation goes."
+},
+"4 november 2026": {
+"en": "4 November 2026"
+},
+"Wat er bij jou binnenkomt": {
+"en": "What lands in your mailbox"
+},
+"Hoe snel je antwoordt": {
+"en": "How fast you answer"
+},
+"Wat je terugschrijft": {
+"en": "What you write back"
+},
+"Het eerste gesprek": {
+"en": "The first conversation"
+},
+"Geen tijd om op te volgen?": {
+"en": "No time to follow up?"
+},
+"“En als er dan iemand reageert, wat moet ik dan doen?” Die vraag krijgen we in bijna elke fitcheck. Soms klinkt er een zorg achter. Krijg ik straks honderden mails om door te lezen? Wat als ik een week op de bouwplaats sta of bij een klant zit? Hieronder staat hoe het in de praktijk gaat.": {
+"en": "“So when someone replies, what do I have to do?” We get that question in almost every fitcheck. Sometimes there is a worry behind it. Will I suddenly have hundreds of emails to read? What if I spend a week on a building site or at a client? Below is how it works in practice."
+},
+"Je krijgt alleen de reacties die een gesprek waard zijn. Bij Link2Leads lezen we elke reactie met de hand en sturen we de geïnteresseerde prospects door naar je eigen mailbox, met naam, functie en contactgegevens erbij.": {
+"en": "You only get the replies that are worth a conversation. At Link2Leads we read every reply by hand and pass the interested prospects on to your own mailbox, with name, job title and contact details included."
+},
+"Jouw deel begint daar. Antwoord binnen een werkdag, stel een kort gesprek voor en voer dat gesprek zoals je elk ander verkoopgesprek voert. Lukt dat niet, dan kunnen wij op Scale en Pro de reacties beantwoorden en de afspraak direct in je agenda zetten.": {
+"en": "That is where your part begins. Answer within one working day, suggest a short call and have that conversation the way you have any other sales conversation. If that does not work for you, we can answer the replies on Scale and Pro and put the meeting straight into your calendar."
+},
+"Op een campagne komen allerlei reacties binnen. Veel daarvan zijn afwezigheidsmeldingen of afmeldingen. Die handelen wij af. Wie zich afmeldt, krijgt nooit meer een mail van je, ook niet uit een andere campagne.": {
+"en": "A campaign brings in all kinds of replies. Many of them are out-of-office messages or unsubscribes. We handle those. Anyone who unsubscribes never gets an email from you again, not from another campaign either."
+},
+"Wat we doorsturen, noemen we een positieve reactie. Dat is iemand die om een gesprek, afspraak of demo vraagt, naar de prijs vraagt, een inhoudelijke vraag stelt over je aanbod, of je doorverwijst naar de collega die erover gaat. Bij een doorverwijzing zetten we de naam en het adres van die collega erbij.": {
+"en": "What we pass on, we call a positive reply. That is someone who asks for a call, meeting or demo, asks about the price, asks a question about your offer, or refers you to the colleague who is responsible. With a referral we add that colleague’s name and address."
+},
+"Je hoeft dus geen inbox vol mails te beoordelen. De reacties die bij jou terechtkomen, kun je allemaal oppakken. Daarnaast krijg je elke week een rapportage met wat er is verstuurd en wat eruit kwam, zodat je ook ziet wat er niet bij je is aangekomen.": {
+"en": "So you do not have to work through an inbox full of emails. You can pick up every reply that reaches you. On top of that you get a weekly report of what was sent and what came out of it, so you also see what did not reach you."
+},
+"Iemand die reageert, had op dat moment tijd en aandacht voor je. Die aandacht neemt met de dagen af. Een week later moet hij zich eerst weer herinneren wie je was en waarom hij terugschreef.": {
+"en": "Someone who replies had time and attention for you at that moment. That attention fades by the day. A week later they first have to remember who you were and why they wrote back."
+},
+"Wij vragen klanten daarom om nieuwe reacties binnen een werkdag op te volgen. Dat is een van de dingen die we in de fitcheck nagaan: is er iemand die dat kan doen?": {
+"en": "That is why we ask clients to follow up new replies within one working day. It is one of the things we check in the fitcheck: is there someone who can do that?"
+},
+"Snel antwoorden betekent overigens niet dat het gesprek ook deze week moet plaatsvinden. Zit je agenda vol, schrijf dan meteen terug en stel een moment over een paar weken voor. De reactie staat in je eigen mailbox, dus jij bepaalt wanneer je hem oppakt. Waar het om gaat, is dat de ander snel iets van je hoort.": {
+"en": "Answering quickly does not mean the conversation has to happen this week. If your calendar is full, write back straight away and suggest a moment a few weeks out. The reply sits in your own mailbox, so you decide when to pick it up. What matters is that the other person hears from you quickly."
+},
+"Een klant schreef ons ooit: “Ik ben de hele dag druk met opvolgen, en dat is precies de bedoeling.” Zo hoort het ook te voelen. Opvolgen is het werk dat geld oplevert, dus het verdient een vaste plek in je dag.": {
+"en": "A client once wrote to us: “I am busy following up all day, and that is exactly the point.” That is how it should feel. Following up is the work that brings in money, so it deserves a fixed place in your day."
+},
+"Houd je antwoord kort. De ander heeft op een korte mail gereageerd en verwacht geen lange brochure terug. Hoe je antwoord eruitziet, hangt af van wat er gevraagd wordt.": {
+"en": "Keep your answer short. The other person replied to a short email and does not expect a long brochure back. What your answer looks like depends on what is being asked."
+},
+"Iemand wil bellen of afspreken.": {
+"en": "Someone wants to call or meet."
+},
+"Bedank kort en stel twee concrete momenten voor, of stuur een link naar je agenda. Vraag of er nog iemand anders aanschuift. Hoe sneller er een datum staat, hoe kleiner de kans dat het verwatert.": {
+"en": "Say thanks briefly and suggest two concrete times, or send a link to your calendar. Ask whether anyone else will join. The sooner there is a date, the smaller the chance it fizzles out."
+},
+"Iemand vraagt wat het kost.": {
+"en": "Someone asks what it costs."
+},
+"Dit is een goed teken, ook als het kritisch klinkt. Geef eerlijk een indicatie of een bandbreedte, en leg uit waar het van afhangt. Stel daarna voor om dat in een kwartier samen uit te zoeken. Wie alleen een prijs krijgt, gaat vergelijken. Wie een gesprek krijgt, leert je kennen.": {
+"en": "This is a good sign, even when it sounds critical. Give an honest indication or a range, and explain what it depends on. Then suggest working it out together in fifteen minutes. Someone who only gets a price starts comparing. Someone who gets a conversation gets to know you."
+},
+"Iemand stelt een inhoudelijke vraag.": {
+"en": "Someone asks a question about the content."
+},
+"Beantwoord de vraag in een paar zinnen. Probeer niet alles in de mail op te lossen. Een vraag als “werkt dat ook voor bedrijven zoals wij?” is meestal een uitnodiging voor een gesprek.": {
+"en": "Answer the question in a few sentences. Do not try to solve everything in the email. A question like “does that also work for companies like ours?” is usually an invitation to talk."
+},
+"Iemand verwijst je door.": {
+"en": "Someone refers you on."
+},
+"Mail de collega en noem in de eerste zin wie je naar hem verwees. Dat is een warme introductie, en zo behandel je hem ook. Laat de eerste contactpersoon even weten dat je contact hebt gelegd, dat wordt bijna altijd gewaardeerd.": {
+"en": "Email the colleague and mention in the first sentence who referred you to them. That is a warm introduction, and you treat it as one. Let the first contact know that you have been in touch, that is almost always appreciated."
+},
+"Schrijf in je eigen woorden en vanuit je eigen naam. De mails die wij versturen, gaan ook op jouw naam uit, dus voor de ontvanger loopt het gesprek gewoon door.": {
+"en": "Write in your own words and under your own name. The emails we send also go out in your name, so for the recipient the conversation simply continues."
+},
+"Bedenk dat de ander je nog nauwelijks kent. Hij weet wat er in drie korte mails stond, en misschien heeft hij even op je website gekeken. Bij een doorverwezen klant heeft iemand anders het vertrouwen al voor je opgebouwd. Hier doe je dat zelf, in het gesprek.": {
+"en": "Keep in mind that the other person barely knows you yet. They know what was in three short emails, and perhaps they had a quick look at your website. With a referred client someone else has already built the trust for you. Here you do that yourself, in the conversation."
+},
+"Begin daarom met vragen. Hoe pakt hij het nu aan, en waar loopt hij tegenaan? Een prospect die het gevoel heeft dat je zijn situatie begrijpt, wil daarna vanzelf weten hoe je zou helpen.": {
+"en": "So start with questions. How do they handle it now, and where do they run into trouble? A prospect who feels you understand their situation will want to know how you would help."
+},
+"Laat het eerste gesprek kort zijn. Een half uur is meestal genoeg. Sluit af met een concrete volgende stap, zoals een voorstel of een tweede gesprek met degene die beslist. Zet die afspraak meteen in de agenda.": {
+"en": "Keep the first conversation short. Half an hour is usually enough. End with a concrete next step, such as a proposal or a second meeting with the person who decides. Put that appointment in the calendar right away."
+},
+"Niet elk gesprek wordt een klant, en dat hoeft ook niet. Soms is het antwoord dat het pas volgend jaar speelt. Noteer dat en neem op dat moment weer contact op. Zo’n gesprek is dan niet verloren.": {
+"en": "Not every conversation becomes a client, and that is fine. Sometimes the answer is that it will only be relevant next year. Note it down and get back in touch at that moment. Then that conversation is not wasted."
+},
+"Wil je dat de prospect je naam al kent voordat het gesprek begint, dan helpt LinkedIn. Met de LinkedIn-module krijgen dezelfde bedrijven ook een connectieverzoek en een eerste bericht vanuit je eigen profiel. Dat kan op elk pakket voor € 350 per maand.": {
+"en": "If you want the prospect to know your name before the conversation starts, LinkedIn helps. With the LinkedIn module the same companies also get a connection request and a first message from your own profile. That is available on every package for € 350 per month."
+},
+"Dat is een eerlijk bezwaar, en beter om vooraf uit te spreken dan halverwege. Er zijn een paar manieren om het op te lossen.": {
+"en": "That is a fair objection, and better to raise beforehand than halfway through. There are a few ways to solve it."
+},
+"Je kunt klein beginnen. Starter verstuurt 3.000 mails per maand voor € 995. Dat geeft een aantal reacties dat naast een volle werkweek past. In het stuk over": {
+"en": "You can start small. Starter sends 3,000 emails per month for € 995. That gives a number of replies that fits next to a full working week. The article on"
+},
+"staat hoe je dat aanpakt.": {
+"en": "explains how to approach that."
+},
+"Op Scale en Pro kun je de opvolging aan ons geven met de Full Service-module. Wij beantwoorden dan de reacties en zetten de afspraak direct in je agenda. Dat kost € 600 per maand op Scale en € 800 op Pro. Jij schuift aan bij het gesprek.": {
+"en": "On Scale and Pro you can hand the follow-up to us with the Full Service module. We then answer the replies and put the meeting straight into your calendar. That costs € 600 per month on Scale and € 800 on Pro. You join the conversation."
+},
+"Is er bij jou structureel niemand die de opvolging kan doen, dan kan ons zusterbedrijf Link2Talent er een setter op zetten. Dat bespreken we in de fitcheck, als het speelt.": {
+"en": "If there is structurally nobody on your side who can do the follow-up, our sister company Link2Talent can put a setter on it. We discuss that in the fitcheck, if it applies."
+},
+"Moet ik zelf alle reacties doorlezen?": {
+"en": "Do I have to read all the replies myself?"
+},
+"Nee. Wij lezen elke reactie met de hand en sturen alleen de geïnteresseerde prospects door naar je eigen mailbox, met naam, functie en contactgegevens. Afwezigheidsmeldingen en afmeldingen handelen wij af.": {
+"en": "No. We read every reply by hand and only pass the interested prospects on to your own mailbox, with name, job title and contact details. We handle out-of-office messages and unsubscribes."
+},
+"Een vraag om een gesprek, afspraak of demo, een vraag naar de prijs, een inhoudelijke vraag over je aanbod, of een doorverwijzing naar de collega die erover gaat, met contactgegevens erbij.": {
+"en": "A request for a call, meeting or demo, a question about the price, a question about your offer, or a referral to the colleague who is responsible, with contact details included."
+},
+"Hoe snel moet ik reageren?": {
+"en": "How fast should I respond?"
+},
+"Binnen een werkdag. Het gesprek zelf mag later plaatsvinden. Stel gerust een moment over een paar weken voor, zolang de ander maar snel iets van je hoort.": {
+"en": "Within one working day. The conversation itself can happen later. Feel free to suggest a moment a few weeks out, as long as the other person hears from you quickly."
+},
+"Uit wiens naam komen de reacties?": {
+"en": "Whose name do the replies come from?"
+},
+"Uit jouw naam. De mails gaan op jouw naam uit en de positieve reacties komen in je eigen mailbox binnen, zodat het gesprek voor de ontvanger gewoon doorloopt.": {
+"en": "From your name. The emails go out in your name and the positive replies arrive in your own mailbox, so for the recipient the conversation simply continues."
+},
+"Wil je weten wat er bij jouw doelgroep binnenkomt?": {
+"en": "Want to know what comes in from your target group?"
+},
+"In de gratis fitcheck van 30 minuten kijken we naar je doelgroep en je aanbod, en rekenen we door hoeveel reacties je realistisch kunt verwachten. Ook bespreken we wie bij jou de opvolging doet.": {
+"en": "In the free 30-minute fitcheck we look at your target group and your offer, and work out how many replies you can realistically expect. We also discuss who on your side handles the follow-up."
+},
+"Wat je uitbesteedt en wat je zelf houdt": {
+"en": "What you outsource and what you keep"
+},
+"Hoe lang duurt het voordat koude e-mail iets oplevert? | Link2Leads": {
+"en": "How long does it take before cold email delivers anything? | Link2Leads"
+},
+"Van akkoord tot eerste reacties, week voor week. Waarom de opbouw twee weken duurt en wanneer je de eerste gesprekken voert.": {
+"en": "From sign-off to first replies, week by week. Why the build takes two weeks and when you have your first conversations."
+},
+"Hoe lang duurt het voordat koude e-mail iets oplevert?": {
+"en": "How long does it take before cold email delivers anything?"
+},
+"Hoe lang duurt het voordat koude e-mail": {
+"en": "How long does it take before cold email"
+},
+"iets oplevert?": {
+"en": "delivers anything?"
+},
+"Van akkoord tot de eerste reacties, week voor week. Waarom de opbouw twee weken duurt en waarom de eerste termijn drie maanden is.": {
+"en": "From sign-off to the first replies, week by week. Why the build takes two weeks and why the first term is three months."
+},
+"Week 1 en 2: de opbouw": {
+"en": "Weeks 1 and 2: the build"
+},
+"Waarom die twee weken nodig zijn": {
+"en": "Why those two weeks are needed"
+},
+"Week 3: live": {
+"en": "Week 3: live"
+},
+"Waarom de teksten drie weken blijven staan": {
+"en": "Why the copy stays unchanged for three weeks"
+},
+"Maand twee en drie": {
+"en": "Months two and three"
+},
+"Waarom de eerste termijn drie maanden is": {
+"en": "Why the first term is three months"
+},
+"Wat dat zegt over wanneer je begint": {
+"en": "What that means for when you start"
+},
+"“Vijftien dagen pas?” Die reactie horen we geregeld als we in een fitcheck de planning doorlopen. Meestal gevolgd door de vraag hoeveel maanden je eraan vastzit. Begrijpelijk. Wie besluit om met acquisitie te beginnen, wil liefst volgende week gesprekken. Hieronder staat wat er in die eerste weken gebeurt en waarom het zo lang duurt als het duurt.": {
+"en": "“Fifteen days?” We regularly hear that reaction when we go through the planning in a fitcheck. Usually followed by the question of how many months you are tied in. Understandable. Anyone who decides to start prospecting would rather have conversations next week. Below is what happens in those first weeks and why it takes as long as it does."
+},
+"Bij Link2Leads staat de setup binnen 14 dagen na akkoord. In week 3 gaat de campagne live. De eerste reacties komen doorgaans drie tot tien dagen daarna binnen, in sommige campagnes al op de eerste dag.": {
+"en": "At Link2Leads the setup is ready within 14 days of sign-off. In week 3 the campaign goes live. The first replies usually come in three to ten days after that, in some campaigns on the very first day."
+},
+"Een betrouwbaar beeld van wat het kanaal voor jou doet, heb je na drie maanden. Daarom is de eerste termijn drie maanden. Daarna is het maandelijks opzegbaar.": {
+"en": "You have a reliable picture of what the channel does for you after three months. That is why the first term is three months. After that it can be cancelled monthly."
+},
+"De eerste twee weken lijken van buitenaf stil. Er gaat nog geen mail naar een prospect. Achter de schermen gebeurt er juist veel.": {
+"en": "From the outside the first two weeks look quiet. No email goes to a prospect yet. Behind the scenes a lot is happening."
+},
+"Jij vult de vragenlijst in en we hebben de onboarding. Daarin leggen we vast wie je ideale klant is: branche, regio, bedrijfsgrootte en functie, vaak op basis van je beste bestaande klanten. Op basis daarvan bouwen we de lijst. Die krijg je te zien voordat er iets uitgaat, zodat je bestaande klanten, lopende trajecten en bedrijven die je liever zelf benadert eruit kunt halen.": {
+"en": "You fill in the questionnaire and we do the onboarding. In it we pin down who your ideal client is: industry, region, company size and job title, often based on your best existing clients. From that we build the list. You see it before anything goes out, so you can remove existing clients, ongoing deals and companies you would rather approach yourself."
+},
+"Ondertussen schrijven we de teksten: een eerste mail en twee opvolgmails, geschreven voor jouw doelgroep. Jij keurt ze goed. Er gaat niets de deur uit zonder jouw akkoord.": {
+"en": "In the meantime we write the copy: a first email and two follow-ups, written for your target group. You approve them. Nothing goes out without your approval."
+},
+"En we zetten de verzendomgeving op. Dat is het deel dat de meeste tijd kost, en ook het deel waar mensen het minst van zien.": {
+"en": "And we set up the sending environment. That is the part that takes the most time, and also the part people see the least of."
+},
+"We versturen vanaf aparte domeinen en mailboxen, met eigen SPF, DKIM en DMARC. Zo blijven je eigen domein en je gewone e-mail buiten de campagne. Een nieuw domein heeft alleen nog geen reputatie. Mailproviders kennen het niet, en een onbekende afzender die ineens honderden mails per dag verstuurt, belandt in de spam.": {
+"en": "We send from separate domains and mailboxes, with their own SPF, DKIM and DMARC. That keeps your own domain and your regular email outside the campaign. A new domain has no reputation yet, though. Mail providers do not know it, and an unknown sender that suddenly sends hundreds of emails a day ends up in spam."
+},
+"Daarom laten we de mailboxen eerst warmdraaien. Ze versturen en ontvangen dan kleine aantallen mails, zodat providers zien dat er een normale afzender achter zit. Twee weken is daarvoor het minimum. We houden de warmup ook aan terwijl de campagne loopt.": {
+"en": "That is why we warm up the mailboxes first. They send and receive small numbers of emails, so providers see that a normal sender is behind them. Two weeks is the minimum for that. We also keep the warmup running while the campaign is live."
+},
+"Je zou die stap kunnen overslaan. Dan gaat de eerste mail een week eerder uit, en komt hij bij een groot deel van je lijst niet aan. Dat is geen tijdwinst. Hoe dat precies werkt, staat in het stuk over": {
+"en": "You could skip that step. Then the first email goes out a week earlier, and it does not arrive for a large part of your list. That is no time saved. How that works exactly is explained in the article on"
+},
+"waarom koude mails niet aankomen": {
+"en": "why cold emails do not arrive"
+},
+"Wil je later starten, bijvoorbeeld na een drukke periode, dan zetten we de warmup standaard twee weken voor de afgesproken livedatum aan. Zo ligt alles klaar op de dag dat je wilt beginnen.": {
+"en": "If you want to start later, for example after a busy period, we switch the warmup on two weeks before the agreed go-live date as standard. That way everything is ready on the day you want to begin."
+},
+"In week 3 gaan de eerste mails uit. We beginnen op een derde van het volume en bouwen dat in twee weken op naar het volume uit je pakket. Ook dat heeft met reputatie te maken: een mailbox die geleidelijk meer verstuurt, blijft in de inbox landen.": {
+"en": "In week 3 the first emails go out. We start at a third of the volume and build that up over two weeks to the volume in your package. That also has to do with reputation: a mailbox that gradually sends more keeps landing in the inbox."
+},
+"De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen. Bij sommige campagnes gaat het sneller. Bij een softwarebedrijf waarvoor we campagnes draaien, stond de eerste afspraak op dag 1 na livegang. Een andere klant schreef in zijn review: “Na 15 dagen stroomden de positieve reacties al binnen.”": {
+"en": "The first replies usually come in three to ten days after going live. In some campaigns it goes faster. For a software company we run campaigns for, the first meeting was booked on day 1 after going live. Another client wrote in their review: “After 15 days the positive replies were already pouring in.”"
+},
+"Elke reactie lezen we met de hand. Wat een gesprek waard is, komt in je eigen mailbox terecht. Elke week krijg je een rapportage met wat er is verstuurd en wat eruit kwam.": {
+"en": "We read every reply by hand. Whatever is worth a conversation ends up in your own mailbox. Every week you get a report of what was sent and what came out of it."
+},
+"Na een week of twee is de verleiding groot om te gaan schuiven. Een andere onderwerpregel, of toch een andere branche. Wij doen dat bewust niet.": {
+"en": "After a week or two the temptation to start changing things is strong. A different subject line, or a different industry after all. We deliberately do not do that."
+},
+"Een stabiel beeld heb je pas na drie weken. Daarvoor zijn de aantallen te klein en schommelen ze te veel per dag. Wie na twee weken concludeert dat de teksten niet werken en alles omgooit, weet daarna nooit meer wat wel werkte. Een campagne met nieuwe teksten laten we daarom minstens drie weken ongewijzigd draaien.": {
+"en": "You only have a stable picture after three weeks. Before that the numbers are too small and fluctuate too much from day to day. Anyone who concludes after two weeks that the copy does not work and changes everything will never know what did work. That is why we let a campaign with new copy run unchanged for at least three weeks."
+},
+"Vanaf de tweede maand zie je welke segmenten reageren. Misschien doen installateurs het beter dan groothandels, of reageert de directeur vaker dan de inkoper. Het volume schuift dan naar wat werkt, en de teksten worden aangescherpt op wat we in de reacties terugzien.": {
+"en": "From the second month you see which segments respond. Maybe installers do better than wholesalers, or the managing director replies more often than the buyer. The volume then shifts to what works, and the copy is sharpened based on what we see in the replies."
+},
+"In de derde maand draait de campagne op wat de eerste twee maanden hebben geleerd. Dan pas weet je wat het kanaal voor jouw bedrijf doet. Op Scale en Pro leggen we vooraf een minimumaantal gekwalificeerde positieve reacties vast in het contract, gerekend over drie campagnemaanden. Die garantie gaat over positieve reacties. Afspraken en omzet vallen erbuiten.": {
+"en": "In the third month the campaign runs on what the first two months taught us. Only then do you know what the channel does for your business. On Scale and Pro we agree a minimum number of qualified positive replies in the contract upfront, counted over three campaign months. That guarantee is about positive replies. Meetings and revenue fall outside it."
+},
+"Tel de stappen hierboven op en je ziet waarom. Twee weken opbouw, twee weken om naar het volle volume te groeien, drie weken voordat de cijfers iets zeggen. Wie na een maand stopt, stopt op het moment dat de campagne op stoom komt.": {
+"en": "Add up the steps above and you see why. Two weeks of build, two weeks to grow to full volume, three weeks before the numbers mean anything. Anyone who stops after one month stops just as the campaign gets going."
+},
+"Na die drie maanden loopt het maandelijks door en kun je per maand opzeggen. Voor de betaling geldt: de eerste factuur volgt bij akkoord, de tweede twee weken na livegang en daarna maandelijks. Er zijn geen opstartkosten.": {
+"en": "After those three months it continues monthly and you can cancel per month. For payment: the first invoice follows at sign-off, the second two weeks after going live and monthly after that. There are no setup fees."
+},
+"Reken terug vanaf het moment waarop je gesprekken wilt voeren. Wil je in een bepaalde week de eerste afspraken hebben, dan ligt het akkoord ongeveer drie tot vier weken daarvoor.": {
+"en": "Count back from the moment you want to be having conversations. If you want the first meetings in a particular week, the sign-off is roughly three to four weeks before that."
+},
+"Daarom is “ik denk erover na” vaak duurder dan het lijkt. Elke week dat je wacht, schuiven de eerste gesprekken een week op. Overhaast tekenen hoeft ook niet. Laat de beslissing alleen niet liggen tot het moment dat je de klanten al nodig hebt.": {
+"en": "That is why “I am thinking about it” is often more expensive than it seems. Every week you wait, the first conversations move a week later. There is no need to sign in a hurry. Just do not leave the decision until the moment you already need the clients."
+},
+"Ben je nu druk en wil je pas later gesprekken, dan kun je ook nu de opbouw doen en de livedatum later zetten. Daar schreven we eerder over in": {
+"en": "If you are busy now and only want conversations later, you can do the build now and set the go-live date later. We wrote about that earlier in"
+},
+"Hoe snel komen de eerste reacties?": {
+"en": "How fast do the first replies come?"
+},
+"De setup staat binnen 14 dagen, de campagne gaat in week 3 live en de eerste reacties komen doorgaans drie tot tien dagen daarna binnen. In sommige campagnes al op de eerste dag.": {
+"en": "The setup is ready within 14 days, the campaign goes live in week 3 and the first replies usually come in three to ten days after that. In some campaigns on the very first day."
+},
+"Waarom kan de campagne niet meteen live?": {
+"en": "Why can the campaign not go live straight away?"
+},
+"Omdat we vanaf nieuwe domeinen en mailboxen versturen, zodat je eigen domein buiten de campagne blijft. Die hebben nog geen reputatie en moeten eerst twee weken warmdraaien. Zonder warmup belandt een groot deel van de mails in de spam.": {
+"en": "Because we send from new domains and mailboxes, so your own domain stays outside the campaign. They have no reputation yet and first need two weeks of warmup. Without warmup a large part of the emails ends up in spam."
+},
+"Hoe lang zit ik eraan vast?": {
+"en": "How long am I tied in?"
+},
+"De eerste termijn is drie maanden. Daarna loopt het maandelijks door en kun je per maand opzeggen.": {
+"en": "The first term is three months. After that it continues monthly and you can cancel per month."
+},
+"Wanneer weet ik of het werkt?": {
+"en": "When will I know whether it works?"
+},
+"Een stabiel beeld van een campagne heb je na drie weken. Vanaf de tweede maand zie je welke segmenten reageren. Een betrouwbaar beeld van het kanaal heb je na drie maanden.": {
+"en": "You have a stable picture of a campaign after three weeks. From the second month you see which segments respond. You have a reliable picture of the channel after three months."
+},
+"Kan ik nu tekenen en later live gaan?": {
+"en": "Can I sign now and go live later?"
+},
+"Ja. We zetten de warmup standaard twee weken voor de afgesproken livedatum aan, ook als die later ligt. Zo ligt alles klaar op de dag dat je wilt beginnen.": {
+"en": "Yes. We switch the warmup on two weeks before the agreed go-live date as standard, even if that date is later. That way everything is ready on the day you want to begin."
+},
+"Wil je weten wanneer jouw eerste gesprekken kunnen staan?": {
+"en": "Want to know when your first conversations can be booked?"
+},
+"In de gratis fitcheck van 30 minuten kijken we naar je doelgroep en je planning, en rekenen we terug wanneer je het beste kunt starten. Past koude e-mail niet bij je markt, dan hoor je dat ook.": {
+"en": "In the free 30-minute fitcheck we look at your target group and your planning, and count back to when you should best start. If cold email does not suit your market, you will hear that too."
+},
+"Werkwijze · 7 min": {
+"en": "How we work · 7 min"
+},
+"Wat er in je mailbox komt als iemand reageert, hoe snel je antwoordt, wat je terugschrijft en hoe het eerste gesprek loopt.": {
+"en": "What lands in your mailbox when someone replies, how fast you answer, what you write back and how the first conversation goes."
+},
+"Timing · 7 min": {
+"en": "Timing · 7 min"
 }
 };

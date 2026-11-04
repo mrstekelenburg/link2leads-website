@@ -1,6 +1,6 @@
 # Link2Leads, volledige tekst van alle kennispagina's
 
-Laatst bijgewerkt: 28 oktober 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
+Laatst bijgewerkt: 4 november 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
 Alle cijfers komen uit campagnes die Link2Leads namens klanten draait, gemeten op 2 september 2026.
 
 
@@ -1319,6 +1319,118 @@ Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederl
 
 
 ==============================================================================
+# Hoe lang duurt het voordat koude e-mail iets oplevert?
+Bron: https://www.link2leads.nl/kennis/hoe-lang-tot-resultaat
+==============================================================================
+
+Van akkoord tot de eerste reacties, week voor week. Waarom de opbouw twee weken duurt en waarom de eerste termijn drie maanden is.
+
+Bijgewerkt 4 november 2026 · Demi Stekelenburg · Leestijd 7 minuten
+
+“Vijftien dagen pas?” Die reactie horen we geregeld als we in een fitcheck de planning doorlopen. Meestal gevolgd door de vraag hoeveel maanden je eraan vastzit. Begrijpelijk. Wie besluit om met acquisitie te beginnen, wil liefst volgende week gesprekken. Hieronder staat wat er in die eerste weken gebeurt en waarom het zo lang duurt als het duurt.
+
+## Het korte antwoord
+
+Bij Link2Leads staat de setup binnen 14 dagen na akkoord. In week 3 gaat de campagne live. De eerste reacties komen doorgaans drie tot tien dagen daarna binnen, in sommige campagnes al op de eerste dag.
+
+Een betrouwbaar beeld van wat het kanaal voor jou doet, heb je na drie maanden. Daarom is de eerste termijn drie maanden. Daarna is het maandelijks opzegbaar.
+
+## Week 1 en 2: de opbouw
+
+De eerste twee weken lijken van buitenaf stil. Er gaat nog geen mail naar een prospect. Achter de schermen gebeurt er juist veel.
+
+Jij vult de vragenlijst in en we hebben de onboarding. Daarin leggen we vast wie je ideale klant is: branche, regio, bedrijfsgrootte en functie, vaak op basis van je beste bestaande klanten. Op basis daarvan bouwen we de lijst. Die krijg je te zien voordat er iets uitgaat, zodat je bestaande klanten, lopende trajecten en bedrijven die je liever zelf benadert eruit kunt halen.
+
+Ondertussen schrijven we de teksten: een eerste mail en twee opvolgmails, geschreven voor jouw doelgroep. Jij keurt ze goed. Er gaat niets de deur uit zonder jouw akkoord.
+
+En we zetten de verzendomgeving op. Dat is het deel dat de meeste tijd kost, en ook het deel waar mensen het minst van zien.
+
+## Waarom die twee weken nodig zijn
+
+We versturen vanaf aparte domeinen en mailboxen, met eigen SPF, DKIM en DMARC. Zo blijven je eigen domein en je gewone e-mail buiten de campagne. Een nieuw domein heeft alleen nog geen reputatie. Mailproviders kennen het niet, en een onbekende afzender die ineens honderden mails per dag verstuurt, belandt in de spam.
+
+Daarom laten we de mailboxen eerst warmdraaien. Ze versturen en ontvangen dan kleine aantallen mails, zodat providers zien dat er een normale afzender achter zit. Twee weken is daarvoor het minimum. We houden de warmup ook aan terwijl de campagne loopt.
+
+Je zou die stap kunnen overslaan. Dan gaat de eerste mail een week eerder uit, en komt hij bij een groot deel van je lijst niet aan. Dat is geen tijdwinst. Hoe dat precies werkt, staat in het stuk over waarom koude mails niet aankomen.
+
+Wil je later starten, bijvoorbeeld na een drukke periode, dan zetten we de warmup standaard twee weken voor de afgesproken livedatum aan. Zo ligt alles klaar op de dag dat je wilt beginnen.
+
+## Week 3: live
+
+In week 3 gaan de eerste mails uit. We beginnen op een derde van het volume en bouwen dat in twee weken op naar het volume uit je pakket. Ook dat heeft met reputatie te maken: een mailbox die geleidelijk meer verstuurt, blijft in de inbox landen.
+
+De eerste reacties komen doorgaans drie tot tien dagen na livegang binnen. Bij sommige campagnes gaat het sneller. Bij een softwarebedrijf waarvoor we campagnes draaien, stond de eerste afspraak op dag 1 na livegang. Een andere klant schreef in zijn review: “Na 15 dagen stroomden de positieve reacties al binnen.”
+
+Elke reactie lezen we met de hand. Wat een gesprek waard is, komt in je eigen mailbox terecht. Elke week krijg je een rapportage met wat er is verstuurd en wat eruit kwam.
+
+## Waarom de teksten drie weken blijven staan
+
+Na een week of twee is de verleiding groot om te gaan schuiven. Een andere onderwerpregel, of toch een andere branche. Wij doen dat bewust niet.
+
+Een stabiel beeld heb je pas na drie weken. Daarvoor zijn de aantallen te klein en schommelen ze te veel per dag. Wie na twee weken concludeert dat de teksten niet werken en alles omgooit, weet daarna nooit meer wat wel werkte. Een campagne met nieuwe teksten laten we daarom minstens drie weken ongewijzigd draaien.
+
+## Maand twee en drie
+
+Vanaf de tweede maand zie je welke segmenten reageren. Misschien doen installateurs het beter dan groothandels, of reageert de directeur vaker dan de inkoper. Het volume schuift dan naar wat werkt, en de teksten worden aangescherpt op wat we in de reacties terugzien.
+
+In de derde maand draait de campagne op wat de eerste twee maanden hebben geleerd. Dan pas weet je wat het kanaal voor jouw bedrijf doet. Op Scale en Pro leggen we vooraf een minimumaantal gekwalificeerde positieve reacties vast in het contract, gerekend over drie campagnemaanden. Die garantie gaat over positieve reacties. Afspraken en omzet vallen erbuiten.
+
+## Waarom de eerste termijn drie maanden is
+
+Tel de stappen hierboven op en je ziet waarom. Twee weken opbouw, twee weken om naar het volle volume te groeien, drie weken voordat de cijfers iets zeggen. Wie na een maand stopt, stopt op het moment dat de campagne op stoom komt.
+
+Na die drie maanden loopt het maandelijks door en kun je per maand opzeggen. Voor de betaling geldt: de eerste factuur volgt bij akkoord, de tweede twee weken na livegang en daarna maandelijks. Er zijn geen opstartkosten.
+
+## Wat dat zegt over wanneer je begint
+
+Reken terug vanaf het moment waarop je gesprekken wilt voeren. Wil je in een bepaalde week de eerste afspraken hebben, dan ligt het akkoord ongeveer drie tot vier weken daarvoor.
+
+Daarom is “ik denk erover na” vaak duurder dan het lijkt. Elke week dat je wacht, schuiven de eerste gesprekken een week op. Overhaast tekenen hoeft ook niet. Laat de beslissing alleen niet liggen tot het moment dat je de klanten al nodig hebt.
+
+Ben je nu druk en wil je pas later gesprekken, dan kun je ook nu de opbouw doen en de livedatum later zetten. Daar schreven we eerder over in acquisitie terwijl je agenda vol zit.
+
+## Veelgestelde vragen
+
+Hoe snel komen de eerste reacties?
+
+De setup staat binnen 14 dagen, de campagne gaat in week 3 live en de eerste reacties komen doorgaans drie tot tien dagen daarna binnen. In sommige campagnes al op de eerste dag.
+
+Waarom kan de campagne niet meteen live?
+
+Omdat we vanaf nieuwe domeinen en mailboxen versturen, zodat je eigen domein buiten de campagne blijft. Die hebben nog geen reputatie en moeten eerst twee weken warmdraaien. Zonder warmup belandt een groot deel van de mails in de spam.
+
+Hoe lang zit ik eraan vast?
+
+De eerste termijn is drie maanden. Daarna loopt het maandelijks door en kun je per maand opzeggen.
+
+Wanneer weet ik of het werkt?
+
+Een stabiel beeld van een campagne heb je na drie weken. Vanaf de tweede maand zie je welke segmenten reageren. Een betrouwbaar beeld van het kanaal heb je na drie maanden.
+
+Kan ik nu tekenen en later live gaan?
+
+Ja. We zetten de warmup standaard twee weken voor de afgesproken livedatum aan, ook als die later ligt. Zo ligt alles klaar op de dag dat je wilt beginnen.
+
+Demi Stekelenburg
+
+Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ruim 300 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.
+
+## Wil je weten wanneer jouw eerste gesprekken kunnen staan?
+
+In de gratis fitcheck van 30 minuten kijken we naar je doelgroep en je planning, en rekenen we terug wanneer je het beste kunt starten. Past koude e-mail niet bij je markt, dan hoor je dat ook.
+
+Doe de gratis fitcheck Bekijk de pakketten
+
+Liever eerst even mailen? Dat kan ook: info@link2leads.nl
+
+## Verder lezen
+
+- Acquisitie terwijl je agenda vol zit?Waarom een drukke periode een goed startmoment is
+- Waarom komen je koude mails niet aan?Deliverability zonder marketingpraat
+- Wat kost cold email uitbesteden?Drie prijsmodellen met echte bedragen
+
+
+==============================================================================
 # Hoeveel reacties krijg je op 30.000 mails?
 Bron: https://www.link2leads.nl/kennis/hoeveel-reacties-op-30000-mails
 ==============================================================================
@@ -2040,6 +2152,118 @@ Liever eerst even mailen? Dat kan ook: info@link2leads.nl
 - Acquisitie terwijl je agenda vol zit?Waarom een drukke periode een goed startmoment is
 - Hoeveel reacties krijg je op 30.000 mails?Benchmarks uit onze eigen campagnes
 - Koude acquisitie uitbestedenWat je weggeeft en wat je zelf houdt
+
+
+==============================================================================
+# Er komt een positieve reactie binnen. Wat doe je nu?
+Bron: https://www.link2leads.nl/kennis/positieve-reactie-opvolgen
+==============================================================================
+
+Wat er in je mailbox komt als iemand reageert, hoe snel je terugschrijft, wat je terugschrijft en hoe het eerste gesprek loopt.
+
+Bijgewerkt 4 november 2026 · Demi Stekelenburg · Leestijd 7 minuten
+
+“En als er dan iemand reageert, wat moet ik dan doen?” Die vraag krijgen we in bijna elke fitcheck. Soms klinkt er een zorg achter. Krijg ik straks honderden mails om door te lezen? Wat als ik een week op de bouwplaats sta of bij een klant zit? Hieronder staat hoe het in de praktijk gaat.
+
+## Het korte antwoord
+
+Je krijgt alleen de reacties die een gesprek waard zijn. Bij Link2Leads lezen we elke reactie met de hand en sturen we de geïnteresseerde prospects door naar je eigen mailbox, met naam, functie en contactgegevens erbij.
+
+Jouw deel begint daar. Antwoord binnen een werkdag, stel een kort gesprek voor en voer dat gesprek zoals je elk ander verkoopgesprek voert. Lukt dat niet, dan kunnen wij op Scale en Pro de reacties beantwoorden en de afspraak direct in je agenda zetten.
+
+## Wat er bij jou binnenkomt
+
+Op een campagne komen allerlei reacties binnen. Veel daarvan zijn afwezigheidsmeldingen of afmeldingen. Die handelen wij af. Wie zich afmeldt, krijgt nooit meer een mail van je, ook niet uit een andere campagne.
+
+Wat we doorsturen, noemen we een positieve reactie. Dat is iemand die om een gesprek, afspraak of demo vraagt, naar de prijs vraagt, een inhoudelijke vraag stelt over je aanbod, of je doorverwijst naar de collega die erover gaat. Bij een doorverwijzing zetten we de naam en het adres van die collega erbij.
+
+Je hoeft dus geen inbox vol mails te beoordelen. De reacties die bij jou terechtkomen, kun je allemaal oppakken. Daarnaast krijg je elke week een rapportage met wat er is verstuurd en wat eruit kwam, zodat je ook ziet wat er niet bij je is aangekomen.
+
+## Hoe snel je antwoordt
+
+Iemand die reageert, had op dat moment tijd en aandacht voor je. Die aandacht neemt met de dagen af. Een week later moet hij zich eerst weer herinneren wie je was en waarom hij terugschreef.
+
+Wij vragen klanten daarom om nieuwe reacties binnen een werkdag op te volgen. Dat is een van de dingen die we in de fitcheck nagaan: is er iemand die dat kan doen?
+
+Snel antwoorden betekent overigens niet dat het gesprek ook deze week moet plaatsvinden. Zit je agenda vol, schrijf dan meteen terug en stel een moment over een paar weken voor. De reactie staat in je eigen mailbox, dus jij bepaalt wanneer je hem oppakt. Waar het om gaat, is dat de ander snel iets van je hoort.
+
+Een klant schreef ons ooit: “Ik ben de hele dag druk met opvolgen, en dat is precies de bedoeling.” Zo hoort het ook te voelen. Opvolgen is het werk dat geld oplevert, dus het verdient een vaste plek in je dag.
+
+## Wat je terugschrijft
+
+Houd je antwoord kort. De ander heeft op een korte mail gereageerd en verwacht geen lange brochure terug. Hoe je antwoord eruitziet, hangt af van wat er gevraagd wordt.
+
+Iemand wil bellen of afspreken. Bedank kort en stel twee concrete momenten voor, of stuur een link naar je agenda. Vraag of er nog iemand anders aanschuift. Hoe sneller er een datum staat, hoe kleiner de kans dat het verwatert.
+
+Iemand vraagt wat het kost. Dit is een goed teken, ook als het kritisch klinkt. Geef eerlijk een indicatie of een bandbreedte, en leg uit waar het van afhangt. Stel daarna voor om dat in een kwartier samen uit te zoeken. Wie alleen een prijs krijgt, gaat vergelijken. Wie een gesprek krijgt, leert je kennen.
+
+Iemand stelt een inhoudelijke vraag. Beantwoord de vraag in een paar zinnen. Probeer niet alles in de mail op te lossen. Een vraag als “werkt dat ook voor bedrijven zoals wij?” is meestal een uitnodiging voor een gesprek.
+
+Iemand verwijst je door. Mail de collega en noem in de eerste zin wie je naar hem verwees. Dat is een warme introductie, en zo behandel je hem ook. Laat de eerste contactpersoon even weten dat je contact hebt gelegd, dat wordt bijna altijd gewaardeerd.
+
+Schrijf in je eigen woorden en vanuit je eigen naam. De mails die wij versturen, gaan ook op jouw naam uit, dus voor de ontvanger loopt het gesprek gewoon door.
+
+## Het eerste gesprek
+
+Bedenk dat de ander je nog nauwelijks kent. Hij weet wat er in drie korte mails stond, en misschien heeft hij even op je website gekeken. Bij een doorverwezen klant heeft iemand anders het vertrouwen al voor je opgebouwd. Hier doe je dat zelf, in het gesprek.
+
+Begin daarom met vragen. Hoe pakt hij het nu aan, en waar loopt hij tegenaan? Een prospect die het gevoel heeft dat je zijn situatie begrijpt, wil daarna vanzelf weten hoe je zou helpen.
+
+Laat het eerste gesprek kort zijn. Een half uur is meestal genoeg. Sluit af met een concrete volgende stap, zoals een voorstel of een tweede gesprek met degene die beslist. Zet die afspraak meteen in de agenda.
+
+Niet elk gesprek wordt een klant, en dat hoeft ook niet. Soms is het antwoord dat het pas volgend jaar speelt. Noteer dat en neem op dat moment weer contact op. Zo’n gesprek is dan niet verloren.
+
+Wil je dat de prospect je naam al kent voordat het gesprek begint, dan helpt LinkedIn. Met de LinkedIn-module krijgen dezelfde bedrijven ook een connectieverzoek en een eerste bericht vanuit je eigen profiel. Dat kan op elk pakket voor € 350 per maand.
+
+## Geen tijd om op te volgen?
+
+Dat is een eerlijk bezwaar, en beter om vooraf uit te spreken dan halverwege. Er zijn een paar manieren om het op te lossen.
+
+Je kunt klein beginnen. Starter verstuurt 3.000 mails per maand voor € 995. Dat geeft een aantal reacties dat naast een volle werkweek past. In het stuk over acquisitie terwijl je agenda vol zit staat hoe je dat aanpakt.
+
+Op Scale en Pro kun je de opvolging aan ons geven met de Full Service-module. Wij beantwoorden dan de reacties en zetten de afspraak direct in je agenda. Dat kost € 600 per maand op Scale en € 800 op Pro. Jij schuift aan bij het gesprek.
+
+Is er bij jou structureel niemand die de opvolging kan doen, dan kan ons zusterbedrijf Link2Talent er een setter op zetten. Dat bespreken we in de fitcheck, als het speelt.
+
+## Veelgestelde vragen
+
+Moet ik zelf alle reacties doorlezen?
+
+Nee. Wij lezen elke reactie met de hand en sturen alleen de geïnteresseerde prospects door naar je eigen mailbox, met naam, functie en contactgegevens. Afwezigheidsmeldingen en afmeldingen handelen wij af.
+
+Wat telt als een positieve reactie?
+
+Een vraag om een gesprek, afspraak of demo, een vraag naar de prijs, een inhoudelijke vraag over je aanbod, of een doorverwijzing naar de collega die erover gaat, met contactgegevens erbij.
+
+Hoe snel moet ik reageren?
+
+Binnen een werkdag. Het gesprek zelf mag later plaatsvinden. Stel gerust een moment over een paar weken voor, zolang de ander maar snel iets van je hoort.
+
+Kunnen jullie de afspraken voor mij inplannen?
+
+Op Scale en Pro wel, met de Full Service-module. Wij beantwoorden dan de reacties en zetten de afspraak direct in je agenda.
+
+Uit wiens naam komen de reacties?
+
+Uit jouw naam. De mails gaan op jouw naam uit en de positieve reacties komen in je eigen mailbox binnen, zodat het gesprek voor de ontvanger gewoon doorloopt.
+
+Demi Stekelenburg
+
+Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ruim 300 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.
+
+## Wil je weten wat er bij jouw doelgroep binnenkomt?
+
+In de gratis fitcheck van 30 minuten kijken we naar je doelgroep en je aanbod, en rekenen we door hoeveel reacties je realistisch kunt verwachten. Ook bespreken we wie bij jou de opvolging doet.
+
+Doe de gratis fitcheck Bekijk de pakketten
+
+Liever eerst even mailen? Dat kan ook: info@link2leads.nl
+
+## Verder lezen
+
+- Hoeveel reacties krijg je op 30.000 mails?Benchmarks uit onze eigen campagnes
+- Acquisitie terwijl je agenda vol zit?Waarom een drukke periode een goed startmoment is
+- Sales uitbesteden: welk deel geef je weg?Wat je uitbesteedt en wat je zelf houdt
 
 
 ==============================================================================
