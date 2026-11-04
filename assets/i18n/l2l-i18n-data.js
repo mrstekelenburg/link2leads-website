@@ -12251,5 +12251,8 @@ window.L2L_I18N_DATA = {
 },
 "Onze werkwijze stap voor stap, van lijst tot afspraak, met een persoonlijke pagina per prospect als laatste stap.": {
 "en": "Our process step by step, from list to meeting, with a personal page per prospect as the final step."
+},
+"Opnieuw afspelen": {
+"en": "Replay"
 }
 };

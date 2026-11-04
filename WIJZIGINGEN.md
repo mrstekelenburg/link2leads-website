@@ -1,3 +1,7 @@
+**5 november 2026: herofilm met geluid, geen loop**
+- De film start direct met geluid. Blokkeert de browser dat, dan start hij gedempt en gaat het geluid aan bij de eerste klik of toets op de pagina. Klik op de film pauzeert, dempen via de knop.
+- Geen loop meer: aan het eind staat een knop "Opnieuw afspelen". Homepage op `l2l-i18n.js?v=62`.
+
 **4 november 2026: snelboeken op /book**
 - Staan naam en een geldig e-mailadres al in de link (`/book?naam=&email=&bedrijf=`), dan slaat /book de stap met gegevens over. Boven de agenda staat "Hoi Jan, kies een moment" en "Stap 1 van 2", de knop heet "Fitcheck bevestigen" en boekt direct. Onder de knop: "Je boekt als Jan Jansen (jan@bedrijf.nl). Gegevens aanpassen", waarmee je alsnog de gewone route neemt.
 - Zonder die gegevens in de link verandert er niets.
