@@ -1,3 +1,9 @@
+**4 november 2026: gastartikel Neuropage**
+- Nieuw: `/kennis/cold-email-werkwijze-neuropage` (Zo verhogen wij de reply rate met Neuropage). Gebaseerd op de gastblog van Jimmy (Neuropage), die vanuit zijn eigen blog naar deze url linkt. Zelfde sjabloon als de andere kennisartikelen.
+- Aangepast ten opzichte van zijn versie: geen Smartlead bij naam, de losse tool-aanbeveling en de FAQ "Wat is Neuropage?" eruit, in plaats daarvan een verwijzing naar de add-on Hyperpersonalisatie. Cijfers gelijk aan de eigen case `/cases/landingspagina-per-prospect`.
+- `kennis.html` (kaart vooraan, ItemList-schema, `l2l-i18n.js?v=61`), `sitemap.xml`, `llms.txt`, `llms-full.txt`. Engelse vertalingen in `assets/i18n/l2l-i18n-data.js`; het artikel staat op `l2l-i18n.js?v=61`.
+- Engelse versie op link2leads.co: `/resources/cold-email-process-neuropage`.
+
 **4 november 2026: twee nieuwe kennisartikelen**
 - Nieuw: `/kennis/positieve-reactie-opvolgen` (Er komt een positieve reactie binnen. Wat doe je nu?) en `/kennis/hoe-lang-tot-resultaat` (Hoe lang duurt het voordat koude e-mail iets oplevert?). Gebouwd op het sjabloon van de bestaande kennisartikelen: Article, Organization, BreadcrumbList en FAQPage in schema.org, "Het korte antwoord", auteursblok, fitcheck-CTA en "Verder lezen".
 - Onderwerpen gekozen uit fitchecks en salescalls van de afgelopen twee weken: vragen over wat de klant zelf moet doen bij een reactie (werklast, snelheid van opvolgen) en over de doorlooptijd van 15 dagen en de eerste termijn van drie maanden. Alleen cijfers en werkwijze die al op de site staan.

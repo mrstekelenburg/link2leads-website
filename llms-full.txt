@@ -1319,6 +1319,141 @@ Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederl
 
 
 ==============================================================================
+# Zo verhogen wij de reply rate met Neuropage
+Bron: https://www.link2leads.nl/kennis/cold-email-werkwijze-neuropage
+==============================================================================
+
+Onze cold email werkwijze stap voor stap, van lijst tot afspraak. Met een persoonlijke pagina per prospect als laatste stap.
+
+Bijgewerkt 4 november 2026 · Demi Stekelenburg · Leestijd 7 minuten
+
+Bij Link2Leads combineren we klassiek cold email vakwerk met Neuropage. Daarmee krijgt elke prospect een eigen landingspagina. In onze beste campagne haalden we zo een reply rate van 9,1 procent, tegenover 3,2 procent op dezelfde lijst zonder pagina. Hieronder lees je hoe we werken, van lijst tot afspraak.
+
+## In het kort
+
+- Cold email werkt nog steeds, als de basis klopt: een strakke doelgroep, goede deliverability en een bericht dat over de ontvanger gaat.
+- We bouwen elke campagne in zes stappen: lijst, persona's, berichten per persona, versturen, deliverability bewaken en replies afhandelen.
+- Daar komt Neuropage bovenop. Elke prospect krijgt een eigen pagina op het domein van onze klant, die verdergaat waar de mail stopt.
+- In onze eigen campagne maakten we 1.240 persoonlijke pagina's. 34 procent van de ontvangers opende zijn pagina en we boekten 27 afspraken in acht weken.
+
+## Waarom werkt standaard cold email niet meer?
+
+Omdat iedereen hetzelfde doet. AI-tools hebben de eerste regel van elke mail “persoonlijk” gemaakt, en prospects herkennen dat direct. De mail is beter geworden. Wat erna komt is gebleven zoals het was.
+
+Een prospect met interesse klikt door naar een algemene homepage. Daar staat niets over zijn bedrijf, zijn rol of zijn probleem. Precies op het moment dat hij het meest betrokken is, raakt hij de draad kwijt.
+
+Daarom kijken we naar de hele route, van de lijst tot de pagina waar iemand op landt. Elke stap moet over de ontvanger gaan.
+
+## Stap 1: hoe bouwen we een gerichte lijst?
+
+Een goede campagne begint met een kleine, scherpe lijst. We starten altijd met het ideale klantprofiel van onze klant. Welke bedrijven kopen al? Welke branche, welke omvang, welke regio? Pas als dat helder is, zoeken we bedrijven die er precies op lijken.
+
+Daarna kiezen we per bedrijf de juiste functies. Onze klant keurt de lijst goed voordat er ook maar een mail de deur uit gaat. Is de doelgroep te klein, dan zeggen we dat eerlijk. Liever geen campagne dan een campagne die niets oplevert.
+
+Elk e-mailadres wordt geverifieerd. Ongeldige adressen zorgen voor bounces, en bounces kosten je deliverability.
+
+## Stap 2: hoe leren we de persona's echt kennen?
+
+Binnen een bedrijf zitten meerdere mensen die elk iets anders belangrijk vinden. Een directeur denkt aan groei en risico. Een salesmanager denkt aan zijn pipeline en zijn team. Een marketeer denkt aan leads en budget. Wie die drie dezelfde mail stuurt, bereikt er hooguit een.
+
+Daarom brengen we per campagne de persona's in kaart:
+
+- Wat is hun grootste zorg in deze rol?
+- Waar worden ze op afgerekend?
+- Welk bewijs overtuigt hen: cijfers, een vergelijkbare klant of een concreet voorbeeld?
+- Wat is voor hen een kleine, logische volgende stap?
+
+Dit doen we samen met onze klant. Zij kennen hun klanten, wij vertalen dat naar de mails.
+
+## Stap 3: hoe schrijven we berichten per persona?
+
+Elke persona krijgt een eigen invalshoek, een eigen aanleiding en een eigen openingszin. We schrijven dus meerdere varianten naast elkaar, elk met een eigen lijst. Zo zien we per segment wat werkt en kunnen we volume verschuiven naar de beste invalshoek.
+
+Onze mails zijn kort. Een onderwerp, een vraag, geen bijlagen. In de tweede of derde mail komt de link naar de persoonlijke pagina van de prospect. Daarover verderop meer.
+
+## Stap 4: hoe versturen we?
+
+We versturen vanaf eigen mailboxen die we centraal beheren. Inmiddels verstuurden we meer dan 1,5 miljoen mails vanaf ruim 300 mailboxen. Dat kan alleen als het verzenden strak georganiseerd is.
+
+Elke reeks draait per segment, met afzenders op naam in plaats van een algemeen info-adres. We versturen zeven dagen per week, verdeeld over de dag, zodat geen enkele mailbox opvalt. De link naar de persoonlijke pagina staat als variabele in de juiste mail van de reeks. Daar hoeft niemand per contact iets voor te doen.
+
+## Stap 5: hoe zorgen we dat de mails aankomen?
+
+Deliverability is dagelijks onderhoud. De beste mail ter wereld levert niets op als hij in de spam belandt. Dit zijn onze vaste regels:
+
+Onderdeel	Wat wij doen	Waarom
+Aparte verzenddomeinen	We mailen nooit vanaf het hoofddomein van de klant	Het hoofddomein blijft altijd veilig
+Mailbox-rotatie	Elke campagne verdeelt het volume over veel mailboxen	Geen enkele mailbox stuurt te veel
+Warm-up	Nieuwe mailboxen warmen eerst op voordat ze mogen versturen	Providers vertrouwen een nieuwe afzender niet meteen
+Back-up	Er staan altijd opgewarmde reservemailboxen klaar	Valt er een uit, dan loopt de campagne gewoon door
+Volume	Genoeg volume voor betrouwbare cijfers, nooit meer dan de mailboxen aankunnen	Zo meet je wat werkt zonder je reputatie te verbranden
+Monitoring	We controleren bounces en plaatsing continu	Problemen zie je voordat de klant ze merkt
+
+De back-up is het onderdeel dat de meeste bureaus overslaan. Een mailbox die geblokkeerd raakt, mag een campagne niet stilleggen. Bij ons staat de vervanging al klaar.
+
+## Stap 6: hoe gaan we om met replies?
+
+Elke reply wordt gelezen en beoordeeld. Een reply rate zegt weinig als de helft bestaat uit afwezigheidsmeldingen of afmeldingen. Daarom sorteren we elke reactie: interesse, vraag, niet nu of afmelden.
+
+Wie “nu niet” zegt, krijgt later een rustige follow-up. Wie zich afmeldt, komt op de blokkeerlijst. Wie interesse toont, wordt meteen doorgezet naar de inbox van onze klant, met naam en gegevens erbij. Met onze Full Service plannen we de afspraak direct in de agenda.
+
+## Waar komt Neuropage in onze werkwijze?
+
+Neuropage is de stap na de klik. Voor elke prospect maakt Neuropage een eigen landingspagina. De pagina staat op het domein van onze klant, in hun huisstijl, en is geschreven voor die ene persoon: zijn bedrijf, zijn rol en waarom dit voor hem relevant is.
+
+Dat sluit aan op stap 2. De persona's die we in kaart brengen, komen terug op de pagina. Een directeur leest over groei en risico, een salesmanager over zijn pipeline. De mail opent het gesprek en de pagina maakt het af.
+
+We krijgen er ook data bij die een mail niet geeft. We zien wie zijn pagina opende, hoe ver hij scrolde en wat hij aanklikte. Opens en kliks in een mailtool zeggen weinig over wie echt warm is. Een prospect die twee keer zijn eigen pagina leest, is dat wel.
+
+Het resultaat in onze eigen campagne:
+
+- 1.240 prospects onderzocht, elk met een eigen pagina
+- 34 procent van de ontvangers opende zijn pagina
+- Een reply rate van 9,1 procent, tegenover 3,2 procent op dezelfde lijst zonder pagina
+- 27 afspraken in acht weken
+
+Wat ons het meest verraste: prospects reageerden om te zeggen hoe persoonlijk het was. Dat gebeurt normaal nooit bij cold email. Het hele verhaal lees je in de case study van Neuropage over Link2Leads en in onze eigen case.
+
+Bij ons zit dit in de add-on Hyperpersonalisatie, die je op elk pakket kunt toevoegen. Je hoeft er zelf niets voor in te richten. Wij maken de pagina's, zetten de links in de mails en laten je weten wie zijn pagina bekeek.
+
+## Veelgestelde vragen
+
+Wat is een goede reply rate voor cold email?
+
+Wij rekenen met een reply rate van 2 tot 5 procent, en 6 procent of meer bij een heel scherpe doelgroep. Belangrijker dan het totaal is het aandeel positieve reacties. Met persoonlijke landingspagina's van Neuropage haalden we in onze beste campagne 9,1 procent, tegenover 3,2 procent op dezelfde lijst zonder pagina.
+
+Waarom is mailbox-rotatie belangrijk?
+
+Mailbox-rotatie verdeelt het verzendvolume over veel mailboxen, zodat geen enkele afzender te veel mails verstuurt. Dat houdt je afzenderreputatie gezond en je mails in de inbox. Combineer het altijd met warm-up, aparte verzenddomeinen en opgewarmde reservemailboxen, zodat een campagne doorloopt als er een mailbox uitvalt.
+
+Waar plaats je de link naar een persoonlijke landingspagina?
+
+Meestal in de tweede of derde mail. De eerste mail opent het gesprek zonder link, wat beter is voor deliverability. In de follow-up is de persoonlijke pagina een logische reden om verder te lezen. Sommige prospects reageren al op de eerste mail, en dat is prima.
+
+Kan ik een persoonlijke pagina per prospect bij elk pakket krijgen?
+
+Ja. Je voegt de add-on Hyperpersonalisatie toe aan je pakket. Wij regelen de pagina's, de links in de mails en de melding als iemand zijn pagina bekijkt.
+
+Demi Stekelenburg
+
+Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ruim 300 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.
+
+## Wil je dit voor jouw bedrijf?
+
+Cold email werkt nog steeds, zolang elke stap over de ontvanger gaat. Benieuwd of jouw doelgroep groot genoeg is? In de gratis fitcheck van 30 minuten rekenen we het met je door. Is het geen match, dan zeggen we dat.
+
+Doe de gratis fitcheck Bekijk de pakketten
+
+Liever eerst even mailen? Dat kan ook: info@link2leads.nl
+
+## Verder lezen
+
+- Waarom komen je koude mails niet aan?De instellingen die wij over ruim 300 mailboxen aanhouden
+- Hoeveel reacties krijg je op 30.000 mails?Benchmarks uit onze eigen campagnes
+- Een eigen landingspagina per prospectHoe we de personalisatie doortrekken na de klik
+
+
+==============================================================================
 # Hoe lang duurt het voordat koude e-mail iets oplevert?
 Bron: https://www.link2leads.nl/kennis/hoe-lang-tot-resultaat
 ==============================================================================

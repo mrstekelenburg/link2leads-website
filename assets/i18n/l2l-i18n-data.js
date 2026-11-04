@@ -11978,5 +11978,278 @@ window.L2L_I18N_DATA = {
 },
 "Timing · 7 min": {
 "en": "Timing · 7 min"
+},
+"Zo verhogen wij de reply rate met Neuropage | Link2Leads": {
+"en": "How we raise the reply rate with Neuropage | Link2Leads"
+},
+"Onze cold email werkwijze stap voor stap: lijst, persona's, versturen, deliverability, replies en een persoonlijke Neuropage-pagina per prospect.": {
+"en": "Our cold email process step by step: list, personas, sending, deliverability, replies and a personal Neuropage page per prospect."
+},
+"Zo verhogen wij de reply rate met Neuropage": {
+"en": "How we raise the reply rate with Neuropage"
+},
+"Zo verhogen wij de reply rate": {
+"en": "How we raise the reply rate"
+},
+"met Neuropage": {
+"en": "with Neuropage"
+},
+"Onze cold email werkwijze stap voor stap, van lijst tot afspraak. Met een persoonlijke pagina per prospect als laatste stap.": {
+"en": "Our cold email process step by step, from list to meeting. With a personal page per prospect as the final step."
+},
+"Waarom standaard cold email niet meer werkt": {
+"en": "Why standard cold email no longer works"
+},
+"Stap 1: een gerichte lijst": {
+"en": "Step 1: a targeted list"
+},
+"Stap 2: de persona's": {
+"en": "Step 2: the personas"
+},
+"Stap 3: berichten per persona": {
+"en": "Step 3: messages per persona"
+},
+"Stap 4: versturen": {
+"en": "Step 4: sending"
+},
+"Stap 5: deliverability": {
+"en": "Step 5: deliverability"
+},
+"Stap 6: replies": {
+"en": "Step 6: replies"
+},
+"Waar Neuropage in onze werkwijze komt": {
+"en": "Where Neuropage fits into our process"
+},
+"Bij Link2Leads combineren we klassiek cold email vakwerk met Neuropage. Daarmee krijgt elke prospect een eigen landingspagina. In onze beste campagne haalden we zo een reply rate van 9,1 procent, tegenover 3,2 procent op dezelfde lijst zonder pagina. Hieronder lees je hoe we werken, van lijst tot afspraak.": {
+"en": "At Link2Leads we combine classic cold email craft with Neuropage, which gives every prospect their own landing page. In our best campaign that brought a reply rate of 9.1 percent, against 3.2 percent on the same list without a page. Below you can read how we work, from list to meeting."
+},
+"Cold email werkt nog steeds, als de basis klopt: een strakke doelgroep, goede deliverability en een bericht dat over de ontvanger gaat.": {
+"en": "Cold email still works, as long as the basics are right: a tight target audience, good deliverability and a message that is about the recipient."
+},
+"We bouwen elke campagne in zes stappen: lijst, persona's, berichten per persona, versturen, deliverability bewaken en replies afhandelen.": {
+"en": "We build every campaign in six steps: list, personas, messages per persona, sending, monitoring deliverability and handling replies."
+},
+"Daar komt Neuropage bovenop. Elke prospect krijgt een eigen pagina op het domein van onze klant, die verdergaat waar de mail stopt.": {
+"en": "On top of that comes Neuropage. Every prospect gets their own page on our client's domain, which picks up where the email stops."
+},
+"In onze eigen campagne maakten we 1.240 persoonlijke pagina's. 34 procent van de ontvangers opende zijn pagina en we boekten 27 afspraken in acht weken.": {
+"en": "In our own campaign we created 1,240 personal pages. 34 percent of recipients opened their page and we booked 27 meetings in eight weeks."
+},
+"Waarom werkt standaard cold email niet meer?": {
+"en": "Why does standard cold email no longer work?"
+},
+"Omdat iedereen hetzelfde doet. AI-tools hebben de eerste regel van elke mail “persoonlijk” gemaakt, en prospects herkennen dat direct. De mail is beter geworden. Wat erna komt is gebleven zoals het was.": {
+"en": "Because everyone does the same thing. AI tools have made the first line of every email “personal”, and prospects spot it right away. The email has improved. What comes after it has stayed the same."
+},
+"Een prospect met interesse klikt door naar een algemene homepage. Daar staat niets over zijn bedrijf, zijn rol of zijn probleem. Precies op het moment dat hij het meest betrokken is, raakt hij de draad kwijt.": {
+"en": "An interested prospect clicks through to a generic homepage. Nothing there is about their company, their role or their problem. At the very moment they are most engaged, they lose the thread."
+},
+"Daarom kijken we naar de hele route, van de lijst tot de pagina waar iemand op landt. Elke stap moet over de ontvanger gaan.": {
+"en": "That is why we look at the whole route, from the list to the page someone lands on. Every step has to be about the recipient."
+},
+"Stap 1: hoe bouwen we een gerichte lijst?": {
+"en": "Step 1: how do we build a targeted list?"
+},
+"Een goede campagne begint met een kleine, scherpe lijst. We starten altijd met het ideale klantprofiel van onze klant. Welke bedrijven kopen al? Welke branche, welke omvang, welke regio? Pas als dat helder is, zoeken we bedrijven die er precies op lijken.": {
+"en": "A good campaign starts with a small, sharp list. We always start from our client's ideal customer profile. Which companies already buy? Which industry, which size, which region? Only once that is clear do we look for companies that match it exactly."
+},
+"Daarna kiezen we per bedrijf de juiste functies. Onze klant keurt de lijst goed voordat er ook maar een mail de deur uit gaat. Is de doelgroep te klein, dan zeggen we dat eerlijk. Liever geen campagne dan een campagne die niets oplevert.": {
+"en": "Then we pick the right job titles per company. Our client approves the list before a single email goes out. If the target audience is too small, we say so honestly. Better no campaign than a campaign that delivers nothing."
+},
+"Elk e-mailadres wordt geverifieerd. Ongeldige adressen zorgen voor bounces, en bounces kosten je deliverability.": {
+"en": "Every email address is verified. Invalid addresses cause bounces, and bounces cost you deliverability."
+},
+"Stap 2: hoe leren we de persona's echt kennen?": {
+"en": "Step 2: how do we really get to know the personas?"
+},
+"Binnen een bedrijf zitten meerdere mensen die elk iets anders belangrijk vinden. Een directeur denkt aan groei en risico. Een salesmanager denkt aan zijn pipeline en zijn team. Een marketeer denkt aan leads en budget. Wie die drie dezelfde mail stuurt, bereikt er hooguit een.": {
+"en": "Within one company there are several people who each care about something different. A managing director thinks about growth and risk. A sales manager thinks about their pipeline and their team. A marketer thinks about leads and budget. Send all three the same email and you reach one of them at most."
+},
+"Daarom brengen we per campagne de persona's in kaart:": {
+"en": "That is why we map out the personas for every campaign:"
+},
+"Wat is hun grootste zorg in deze rol?": {
+"en": "What is their biggest concern in this role?"
+},
+"Waar worden ze op afgerekend?": {
+"en": "What are they judged on?"
+},
+"Welk bewijs overtuigt hen: cijfers, een vergelijkbare klant of een concreet voorbeeld?": {
+"en": "What kind of proof convinces them: numbers, a comparable client or a concrete example?"
+},
+"Wat is voor hen een kleine, logische volgende stap?": {
+"en": "What is a small, logical next step for them?"
+},
+"Dit doen we samen met onze klant. Zij kennen hun klanten, wij vertalen dat naar de mails.": {
+"en": "We do this together with our client. They know their customers, we translate that into the emails."
+},
+"Stap 3: hoe schrijven we berichten per persona?": {
+"en": "Step 3: how do we write messages per persona?"
+},
+"Elke persona krijgt een eigen invalshoek, een eigen aanleiding en een eigen openingszin. We schrijven dus meerdere varianten naast elkaar, elk met een eigen lijst. Zo zien we per segment wat werkt en kunnen we volume verschuiven naar de beste invalshoek.": {
+"en": "Every persona gets its own angle, its own reason to reach out and its own opening line. So we write several variants side by side, each with its own list. That way we see per segment what works and can shift volume to the best angle."
+},
+"Onze mails zijn kort. Een onderwerp, een vraag, geen bijlagen. In de tweede of derde mail komt de link naar de persoonlijke pagina van de prospect. Daarover verderop meer.": {
+"en": "Our emails are short. One subject, one question, no attachments. The link to the prospect's personal page goes in the second or third email. More on that below."
+},
+"Stap 4: hoe versturen we?": {
+"en": "Step 4: how do we send?"
+},
+"We versturen vanaf eigen mailboxen die we centraal beheren. Inmiddels verstuurden we meer dan 1,5 miljoen mails vanaf ruim 300 mailboxen. Dat kan alleen als het verzenden strak georganiseerd is.": {
+"en": "We send from our own mailboxes, which we manage centrally. By now we have sent more than 1.5 million emails from over 300 mailboxes. That only works when sending is tightly organised."
+},
+"Elke reeks draait per segment, met afzenders op naam in plaats van een algemeen info-adres. We versturen zeven dagen per week, verdeeld over de dag, zodat geen enkele mailbox opvalt. De link naar de persoonlijke pagina staat als variabele in de juiste mail van de reeks. Daar hoeft niemand per contact iets voor te doen.": {
+"en": "Every sequence runs per segment, with named senders instead of a generic info address. We send seven days a week, spread across the day, so no single mailbox stands out. The link to the personal page sits as a variable in the right email of the sequence. Nobody has to do anything for it per contact."
+},
+"Stap 5: hoe zorgen we dat de mails aankomen?": {
+"en": "Step 5: how do we make sure the emails arrive?"
+},
+"Deliverability is dagelijks onderhoud. De beste mail ter wereld levert niets op als hij in de spam belandt. Dit zijn onze vaste regels:": {
+"en": "Deliverability is daily maintenance. The best email in the world achieves nothing if it lands in spam. These are our fixed rules:"
+},
+"Onderdeel": {
+"en": "Component"
+},
+"Waarom": {
+"en": "Why"
+},
+"Aparte verzenddomeinen": {
+"en": "Separate sending domains"
+},
+"We mailen nooit vanaf het hoofddomein van de klant": {
+"en": "We never send from the client's main domain"
+},
+"Het hoofddomein blijft altijd veilig": {
+"en": "The main domain always stays safe"
+},
+"Mailbox-rotatie": {
+"en": "Mailbox rotation"
+},
+"Elke campagne verdeelt het volume over veel mailboxen": {
+"en": "Every campaign spreads the volume across many mailboxes"
+},
+"Geen enkele mailbox stuurt te veel": {
+"en": "No single mailbox sends too much"
+},
+"Warm-up": {
+"en": "Warm-up"
+},
+"Nieuwe mailboxen warmen eerst op voordat ze mogen versturen": {
+"en": "New mailboxes warm up first before they are allowed to send"
+},
+"Providers vertrouwen een nieuwe afzender niet meteen": {
+"en": "Providers don't trust a new sender straight away"
+},
+"Back-up": {
+"en": "Backup"
+},
+"Er staan altijd opgewarmde reservemailboxen klaar": {
+"en": "Warmed-up spare mailboxes are always ready"
+},
+"Valt er een uit, dan loopt de campagne gewoon door": {
+"en": "If one drops out, the campaign simply keeps running"
+},
+"Genoeg volume voor betrouwbare cijfers, nooit meer dan de mailboxen aankunnen": {
+"en": "Enough volume for reliable numbers, never more than the mailboxes can handle"
+},
+"Zo meet je wat werkt zonder je reputatie te verbranden": {
+"en": "That way you measure what works without burning your reputation"
+},
+"Monitoring": {
+"en": "Monitoring"
+},
+"We controleren bounces en plaatsing continu": {
+"en": "We check bounces and placement continuously"
+},
+"Problemen zie je voordat de klant ze merkt": {
+"en": "You see problems before the client notices them"
+},
+"De back-up is het onderdeel dat de meeste bureaus overslaan. Een mailbox die geblokkeerd raakt, mag een campagne niet stilleggen. Bij ons staat de vervanging al klaar.": {
+"en": "The backup is the part most agencies skip. A mailbox that gets blocked should never stop a campaign. With us, the replacement is already waiting."
+},
+"Stap 6: hoe gaan we om met replies?": {
+"en": "Step 6: how do we handle replies?"
+},
+"Elke reply wordt gelezen en beoordeeld. Een reply rate zegt weinig als de helft bestaat uit afwezigheidsmeldingen of afmeldingen. Daarom sorteren we elke reactie: interesse, vraag, niet nu of afmelden.": {
+"en": "Every reply is read and assessed. A reply rate says little if half of it is out-of-office messages or unsubscribes. That is why we sort every reply: interest, question, not now or unsubscribe."
+},
+"Wie “nu niet” zegt, krijgt later een rustige follow-up. Wie zich afmeldt, komt op de blokkeerlijst. Wie interesse toont, wordt meteen doorgezet naar de inbox van onze klant, met naam en gegevens erbij. Met onze Full Service plannen we de afspraak direct in de agenda.": {
+"en": "Anyone who says “not now” gets a calm follow-up later. Anyone who unsubscribes goes on the block list. Anyone who shows interest is passed straight to our client's inbox, with name and details included. With our Full Service we book the meeting straight into the calendar."
+},
+"Waar komt Neuropage in onze werkwijze?": {
+"en": "Where does Neuropage fit into our process?"
+},
+"Neuropage is de stap na de klik. Voor elke prospect maakt Neuropage een eigen landingspagina. De pagina staat op het domein van onze klant, in hun huisstijl, en is geschreven voor die ene persoon: zijn bedrijf, zijn rol en waarom dit voor hem relevant is.": {
+"en": "Neuropage is the step after the click. For every prospect, Neuropage creates their own landing page. The page sits on our client's domain, in their branding, and is written for that one person: their company, their role and why this is relevant to them."
+},
+"Dat sluit aan op stap 2. De persona's die we in kaart brengen, komen terug op de pagina. Een directeur leest over groei en risico, een salesmanager over zijn pipeline. De mail opent het gesprek en de pagina maakt het af.": {
+"en": "That ties in with step 2. The personas we map out come back on the page. A managing director reads about growth and risk, a sales manager about their pipeline. The email opens the conversation and the page completes it."
+},
+"We krijgen er ook data bij die een mail niet geeft. We zien wie zijn pagina opende, hoe ver hij scrolde en wat hij aanklikte. Opens en kliks in een mailtool zeggen weinig over wie echt warm is. Een prospect die twee keer zijn eigen pagina leest, is dat wel.": {
+"en": "We also get data an email doesn't give. We see who opened their page, how far they scrolled and what they clicked. Opens and clicks in an email tool say little about who is really warm. A prospect who reads their own page twice is."
+},
+"Het resultaat in onze eigen campagne:": {
+"en": "The result in our own campaign:"
+},
+"1.240 prospects onderzocht, elk met een eigen pagina": {
+"en": "1,240 prospects researched, each with their own page"
+},
+"34 procent van de ontvangers opende zijn pagina": {
+"en": "34 percent of recipients opened their page"
+},
+"Een reply rate van 9,1 procent, tegenover 3,2 procent op dezelfde lijst zonder pagina": {
+"en": "A reply rate of 9.1 percent, against 3.2 percent on the same list without a page"
+},
+"27 afspraken in acht weken": {
+"en": "27 meetings in eight weeks"
+},
+"Wat ons het meest verraste: prospects reageerden om te zeggen hoe persoonlijk het was. Dat gebeurt normaal nooit bij cold email. Het hele verhaal lees je in de": {
+"en": "What surprised us most: prospects replied to say how personal it was. That normally never happens in cold email. You can read the full story in the"
+},
+"case study van Neuropage over Link2Leads": {
+"en": "Neuropage case study on Link2Leads"
+},
+"en in": {
+"en": "and in"
+},
+"onze eigen case": {
+"en": "our own case"
+},
+"Bij ons zit dit in de add-on Hyperpersonalisatie, die je op elk pakket kunt toevoegen. Je hoeft er zelf niets voor in te richten. Wij maken de pagina's, zetten de links in de mails en laten je weten wie zijn pagina bekeek.": {
+"en": "With us this is part of the Hyperpersonalisation add-on, which you can add to any package. You don't have to set anything up yourself. We create the pages, put the links in the emails and let you know who viewed their page."
+},
+"Wat is een goede reply rate voor cold email?": {
+"en": "What is a good reply rate for cold email?"
+},
+"Wij rekenen met een reply rate van 2 tot 5 procent, en 6 procent of meer bij een heel scherpe doelgroep. Belangrijker dan het totaal is het aandeel positieve reacties. Met persoonlijke landingspagina's van Neuropage haalden we in onze beste campagne 9,1 procent, tegenover 3,2 procent op dezelfde lijst zonder pagina.": {
+"en": "We work with a reply rate of 2 to 5 percent, and 6 percent or more with a very sharp target audience. More important than the total is the share of positive replies. With personal landing pages from Neuropage we reached 9.1 percent in our best campaign, against 3.2 percent on the same list without a page."
+},
+"Waarom is mailbox-rotatie belangrijk?": {
+"en": "Why is mailbox rotation important?"
+},
+"Mailbox-rotatie verdeelt het verzendvolume over veel mailboxen, zodat geen enkele afzender te veel mails verstuurt. Dat houdt je afzenderreputatie gezond en je mails in de inbox. Combineer het altijd met warm-up, aparte verzenddomeinen en opgewarmde reservemailboxen, zodat een campagne doorloopt als er een mailbox uitvalt.": {
+"en": "Mailbox rotation spreads the sending volume across many mailboxes, so no single sender sends too many emails. That keeps your sender reputation healthy and your emails in the inbox. Always combine it with warm-up, separate sending domains and warmed-up spare mailboxes, so a campaign keeps running if a mailbox drops out."
+},
+"Waar plaats je de link naar een persoonlijke landingspagina?": {
+"en": "Where do you place the link to a personal landing page?"
+},
+"Meestal in de tweede of derde mail. De eerste mail opent het gesprek zonder link, wat beter is voor deliverability. In de follow-up is de persoonlijke pagina een logische reden om verder te lezen. Sommige prospects reageren al op de eerste mail, en dat is prima.": {
+"en": "Usually in the second or third email. The first email opens the conversation without a link, which is better for deliverability. In the follow-up, the personal page is a logical reason to keep reading. Some prospects already reply to the first email, and that is fine."
+},
+"Kan ik een persoonlijke pagina per prospect bij elk pakket krijgen?": {
+"en": "Can I get a personal page per prospect with any package?"
+},
+"Ja. Je voegt de add-on Hyperpersonalisatie toe aan je pakket. Wij regelen de pagina's, de links in de mails en de melding als iemand zijn pagina bekijkt.": {
+"en": "Yes. You add the Hyperpersonalisation add-on to your package. We take care of the pages, the links in the emails and the notification when someone views their page."
+},
+"Wil je dit voor jouw bedrijf?": {
+"en": "Want this for your business?"
+},
+"Cold email werkt nog steeds, zolang elke stap over de ontvanger gaat. Benieuwd of jouw doelgroep groot genoeg is? In de gratis fitcheck van 30 minuten rekenen we het met je door. Is het geen match, dan zeggen we dat.": {
+"en": "Cold email still works, as long as every step is about the recipient. Curious whether your target audience is big enough? In the free 30-minute fit check we work it out with you. If it's not a match, we'll tell you."
+},
+"Onze werkwijze stap voor stap, van lijst tot afspraak, met een persoonlijke pagina per prospect als laatste stap.": {
+"en": "Our process step by step, from list to meeting, with a personal page per prospect as the final step."
 }
 };
