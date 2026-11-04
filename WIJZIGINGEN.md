@@ -900,3 +900,6 @@ Cachebusters: `l2l-visuals.css?v=5`, `l2l-page.css?v=5`, `l2l-i18n.js?v=9` en `l
 - llms.txt en llms-full.txt: sectie over losse leads toegevoegd.
 - privacy.html: nieuwe secties "Waar de gegevens vandaan komen" en "Leadbestanden die wij leveren", rechtsgrond aangevuld met artikel 6 lid 1 sub f en de informatieplicht uit artikel 14, bezwaarrecht en blokkeerlijst uitgeschreven, bewaartermijn voor leaddata toegevoegd, secties hernummerd.
 - algemene-voorwaarden.html: nieuw artikel 07 "Losse leadbestanden" met levering, prijs, garanties en de verplichtingen van de opdrachtgever; overige artikelen hernummerd.
+
+**4 november 2026 (avond): begroeting bij naam uitgezet**
+- Het label "Hoi Bedrijfsnaam, fijn dat je even kijkt" boven de kop op de homepage verschijnt niet meer, op .nl en .co. Bedrijfsnaam alvast invullen op /book en de confetti na boeken blijven werken.
