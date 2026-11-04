@@ -1,3 +1,10 @@
+**4 november 2026: feestdagthema's**
+- Nieuw script `assets/feestdagen.js` op alle pagina's. Kiest op datum (tijd Amsterdam) een subtiel thema: Halloween 25-10 t/m 31-10 (pompoen, af en toe vleermuisjes), Sinterklaas 28-11 t/m 5-12 (mijter, vallende pepernoten), Kerst 6-12 t/m 26-12 (lichte sneeuw, lampjes bovenaan, boompje, af en toe de kerstman met rendieren), Oud en nieuw 27-12 t/m 2-1 (vuurwerk bij het laden, oliebol), Pasen van woensdag voor tot en met tweede paasdag (haasje dat om de hoek gluurt, drie verstopte eitjes die je kunt aanklikken), Koningsdag 24-4 t/m 27-4 (oranje vlaggetjes).
+- Bij overlap telt de volgorde Koningsdag, Pasen, Halloween, Sinterklaas, Kerst, Oud en nieuw.
+- Bekijken buiten de periode: zet `?thema=kerst` (of halloween, sinterklaas, oudnieuw, pasen, koningsdag) achter de url.
+- Start pas als de pagina geladen is, ligt niet over knoppen heen en staat stil bij "minder beweging" op het apparaat. Geen tekst, dus geen vertalingen nodig.
+- Op link2leads.co hetzelfde, zonder Sinterklaas en Koningsdag; daar loopt Kerst van 1-12 t/m 26-12.
+
 **27 oktober 2026 (avond): film sneller en groter, geen links meer naar Google**
 - Herofilm 20% sneller (nu 42 sec) en de inhoud in de film 15% groter binnen dezelfde speler; titels bleven op hun plek. Zelfde voor de Engelse film.
 - Op mobiel loopt de film over de volle schermbreedte.
