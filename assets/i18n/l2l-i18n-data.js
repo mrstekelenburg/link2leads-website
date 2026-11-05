@@ -12254,5 +12254,53 @@ window.L2L_I18N_DATA = {
 },
 "Opnieuw afspelen": {
 "en": "Replay"
+},
+"Leadgeneratie voor energie en installatie | Link2Leads": {
+"en": "Lead generation for energy and installation | Link2Leads"
+},
+"Zakelijke klanten voor zonne-energie, warmtepompen, isolatie en installatie. Wij mailen de beslissers namens jou, jij voert het gesprek. Live in week 3.": {
+"en": "Business clients for solar, heat pumps, insulation and installation. We email the decision makers on your behalf, you have the conversation. Live in week 3."
+},
+"Leadgeneratie Amsterdam via koude e-mail | Link2Leads": {
+"en": "Lead generation Amsterdam via cold email | Link2Leads"
+},
+"Cold email bureau in Amsterdam. Wij zoeken je doelgroep, mailen namens jou en leveren positieve reacties in je mailbox. Vanaf 995 euro per maand.": {
+"en": "Cold email agency in Amsterdam. We find your target group, email them on your behalf and deliver positive replies to your inbox. From 995 euros a month."
+},
+"Leadgeneratie voor industrie en toelevering | Link2Leads": {
+"en": "Lead generation for industry and suppliers | Link2Leads"
+},
+"Zakelijke klanten voor machinebouwers, toeleveranciers en technische dienstverleners. Wij mailen inkopers en technisch beslissers namens jou.": {
+"en": "Business clients for machine builders, suppliers and technical service providers. We email buyers and technical decision makers on your behalf."
+},
+"Koop B2B-leads met beslisser, geverifieerd zakelijk e-mailadres en bron per record. Binnen een werkdag geleverd, vanaf 0,10 per lead.": {
+"en": "Buy B2B leads with the decision maker, a verified business email and the source per record. Delivered within one working day, from 0.10 per lead."
+},
+"Hoe snel levert koude e-mail iets op? | Link2Leads": {
+"en": "How fast does cold email deliver results? | Link2Leads"
+},
+"Positieve reactie op je koude mail opvolgen | Link2Leads": {
+"en": "Following up a positive reply to your cold email | Link2Leads"
+},
+"Leadgeneratiebureau kiezen: 7 vragen vooraf | Link2Leads": {
+"en": "Choosing a lead generation agency: 7 questions | Link2Leads"
+},
+"De drie prijsmodellen naast elkaar met echte bedragen: zelf doen, vast maandbedrag of per resultaat. Plus de post die in bijna elke offerte ontbreekt.": {
+"en": "The three pricing models side by side with real amounts: doing it yourself, a fixed monthly fee or per result. Plus the item missing from almost every quote."
+},
+"Acquisitie terwijl je agenda vol zit | Link2Leads": {
+"en": "Prospecting while your calendar is full | Link2Leads"
+},
+"Sales uitbesteden: wat geef je uit handen? | Link2Leads": {
+"en": "Outsourcing sales: what to hand over and the cost | Link2Leads"
+},
+"Cold calling of cold e-mail? De cijfers (2026) | Link2Leads": {
+"en": "Cold calling or cold email? The numbers (2026) | Link2Leads"
+},
+"Netwerk en doorverwijzingen aanvullen met e-mail | Link2Leads": {
+"en": "Adding cold email to your network and referrals | Link2Leads"
+},
+"Koude acquisitie uitbesteden: werking en kosten | Link2Leads": {
+"en": "Outsourcing cold prospecting: how it works | Link2Leads"
 }
 };
