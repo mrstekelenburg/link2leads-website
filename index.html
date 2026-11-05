@@ -2847,9 +2847,10 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 .hv-video video{display:block;width:100%;aspect-ratio:16/9;background:#08090C}
 .hv-video video{cursor:pointer}
 .hv-unmute{position:absolute;right:14px;top:14px;display:inline-flex;align-items:center;gap:8px;font:inherit;font-size:13.5px;font-weight:600;color:#fff;background:rgba(8,9,12,.72);border:1px solid rgba(255,255,255,.2);border-radius:99px;padding:8px 15px;cursor:pointer;backdrop-filter:blur(6px)}
-.hv-replay{position:absolute;left:50%;top:76%;transform:translate(-50%,-50%);display:none;align-items:center;gap:10px;font:inherit;font-size:15px;font-weight:700;color:#fff;padding:11px 20px;border-radius:999px;border:1px solid rgba(255,255,255,.28);cursor:pointer;background:rgba(255,255,255,.1);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);z-index:3}
+.hv-replay{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:none;align-items:center;gap:10px;font:inherit;font-size:15px;font-weight:700;color:#fff;padding:11px 20px;border-radius:999px;border:1px solid rgba(255,255,255,.28);cursor:pointer;background:rgba(255,255,255,.1);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);z-index:3}
 .hv-replay:hover{background:rgba(255,255,255,.18)}
 .hv-video.is-ended .hv-replay{display:inline-flex}
+.hv-video.is-ended video{filter:brightness(.35)}
 .hv-unmute:hover{background:rgba(47,111,237,.85);border-color:transparent}
 .hv-bar{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;gap:12px;padding:28px 14px 12px;background:linear-gradient(transparent,rgba(5,6,10,.85));opacity:0;transition:opacity .25s ease}
 .hv-video:hover .hv-bar,.hv-video:focus-within .hv-bar,.hv-video.is-paused .hv-bar{opacity:1}
@@ -2887,7 +2888,7 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 .hero-film .hcta-contact{flex-direction:row!important;justify-content:center!important;gap:12px!important;margin:12px auto 0!important}
 .hero-film .hcta-contact svg{width:18px!important;height:18px!important;flex:none!important}
 .hs-v{margin-top:24px!important}
-@media(max-width:560px){.hv-replay{top:80%;font-size:13.5px;padding:8px 14px}.hv-unmute span{display:none}.hv-unmute{padding:8px!important}}
+@media(max-width:560px){.hv-replay{font-size:14px;padding:10px 16px}.hv-unmute span{display:none}.hv-unmute{padding:8px!important}}
 .hero-film .hcta,.hero-film .hcta-contact{justify-content:center!important;margin-left:auto!important;margin-right:auto!important;width:fit-content;max-width:100%}
 .hero-film .hcta{margin-top:26px!important}
 .hs-v{font-size:18.5px;line-height:1.6;margin:8px auto 30px;color:rgba(240,239,237,.68);max-width:720px;letter-spacing:-.1px;text-wrap:pretty}
@@ -2943,7 +2944,7 @@ fs.addEventListener('click',function(){var el=w;try{if(document.fullscreenElemen
 w.addEventListener('keydown',function(e){if(e.target===seek)return;if(e.code==='Space'||e.key==='k'){e.preventDefault();toggle();}});
 /* film pas laden als de rest van de pagina er staat */
 rp.addEventListener('click',replay);
-v.addEventListener('ended',function(){w.classList.add('is-ended');ui();});
+v.addEventListener('ended',function(){w.classList.add('is-ended');try{if(v.duration)v.currentTime=Math.max(0,v.duration-0.05);}catch(e){}seek.value=1000;seek.style.setProperty('--p','100%');ui();});
 /* direct afspelen met geluid; blokkeert de browser dat, dan gedempt starten en het geluid aanzetten bij de eerste klik of toets */
 function arm(){var ev=['pointerdown','keydown','touchend'];function go(e){if(w.contains(e.target))return;ev.forEach(function(n){document.removeEventListener(n,go,true);});if(autoMuted&&!userMuted){autoMuted=false;v.muted=false;if(un){un.remove();un=null;}if(v.paused&&!w.classList.contains('is-ended')){var p4=v.play();if(p4&&p4.catch)p4.catch(function(){});}ui();}}ev.forEach(function(n){document.addEventListener(n,go,true);});}
 function soundOk(){try{var C=window.AudioContext||window.webkitAudioContext;if(!C)return false;var ac=new C();var ok=ac.state==='running';if(ac.close)ac.close();return ok;}catch(e){return false;}}
