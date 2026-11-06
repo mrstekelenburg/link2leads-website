@@ -360,8 +360,8 @@ window.L2L_I18N_DATA = {
 "Leads, domeinen, mailboxen, technische setup, CRM-koppeling, opwarming, copy. Alles. Jij vult deze vragenlijst in, checkt de leadlijst en keurt de copy goed.": {
 "en": "Leads, domains, mailboxes, technical setup, CRM integration, warmup, copy. Everything. You fill in this questionnaire, check the lead list and approve the copy."
 },
-"Dag 14: Live 🚀": {
-"en": "Day 14: Live 🚀"
+"Dag 14: live 🚀": {
+"en": "Day 14: live 🚀"
 },
 "Vragenlijst | Link2Leads": {
 "en": "Questionnaire | Link2Leads"
@@ -408,14 +408,14 @@ window.L2L_I18N_DATA = {
 "We nemen je antwoorden door en je krijgt een concreet voorstel: welke doelgroep, welke boodschap en wat je aan reacties kunt verwachten.": {
 "en": "We go through your answers and you get a concrete proposal: which audience, which message and what replies to expect."
 },
-"Overeenkomst tekenen & factuur voldoen": {
-"en": "Sign agreement & pay invoice"
+"Overeenkomst en factuur": {
+"en": "Agreement and invoice"
 },
-"Copy review & leadlijst check": {
-"en": "Copy review & lead list check"
+"Copy en leadlijst checken": {
+"en": "Review copy and lead list"
 },
-"Wij schrijven de mailsequentie en bouwen de leadlijst. Jij geeft akkoord op de copy en haalt uit de lijst wat er niet in hoort: bestaande klanten, lopende trajecten en partijen die je liever zelf benadert.": {
-"en": "We write the email sequence and build the lead list. You approve the copy and remove what doesn't belong: existing clients, ongoing deals and companies you prefer to approach yourself."
+"Wij schrijven de mails en bouwen de lijst. Jij keurt de copy goed en haalt eruit wie je zelf benadert.": {
+"en": "We write the emails and build the list. You approve the copy and remove anyone you'd rather approach yourself."
 },
 "Leads, domeinen, mailboxen, technische setup, CRM-koppeling, opwarming, copy. Alles. Jij vult deze vragenlijst in en keurt straks de copy goed.": {
 "en": "Leads, domains, mailboxes, technical setup, CRM integration, warmup, copy. Everything. You fill in this questionnaire and approve the copy later."
@@ -477,8 +477,8 @@ window.L2L_I18N_DATA = {
 "Hun transparantie, heldere communicatie en eerlijke adviezen zorgen ervoor dat je als klant precies weet waar je aan toe bent. Ze denken actief mee, zijn flexibel en schakelen snel wanneer dat nodig is.": {
 "en": "Their transparency, clear communication and honest advice mean that as a client you know exactly where you stand. They actively think along, are flexible and move fast when needed."
 },
-"Al getekend en betaald? Dan niks gezegd 😉. Nog niet? Zorg dat dat zo snel mogelijk gedaan is. Wij kunnen pas starten met de technische setup zodra we een krabbeltje hebben en de betaling binnen is.": {
-"en": "Already signed and paid? Then forget we said anything 😉. Not yet? Make sure it's done as soon as possible. We can only start the technical setup once we have a signature and the payment is in."
+"Na je handtekening en betaling starten we met de technische setup.": {
+"en": "Once signed and paid, we start the technical setup."
 },
 "Alle campagnes, teksten en systemen die wij ontwikkelen blijven eigendom van Link2Leads, tenzij schriftelijk anders overeengekomen. Gebruik of kopiëren zonder toestemming is niet toegestaan.": {
 "en": "All campaigns, copy and systems we develop remain the property of Link2Leads, unless agreed otherwise in writing. Use or copying without permission is not allowed."
@@ -855,8 +855,8 @@ window.L2L_I18N_DATA = {
 "Wanneer wil je starten met nieuwe gesprekken / leads?": {
 "en": "When do you want to start with new conversations / leads?"
 },
-"De campagne gaat live. Eerste reacties komen binnen.": {
-"en": "The campaign goes live. First replies come in."
+"De eerste reacties komen binnen.": {
+"en": "The first replies come in."
 },
 "Je een bewezen aanbod hebt waar klanten voor betalen": {
 "en": "You have a proven offer that customers pay for"
@@ -1063,7 +1063,7 @@ window.L2L_I18N_DATA = {
 "en": "Limited access on a need-to-know basis"
 },
 "Overeenkomst tekenen & Factuur voldoen": {
-"en": "Sign agreement & pay invoice"
+"en": "Agreement and invoice"
 },
 "Uitgebreidere targeting en segmentatie": {
 "en": "More extensive targeting and segmentation"
@@ -8261,8 +8261,8 @@ window.L2L_I18N_DATA = {
 "Een campagneplan op maat": {
 "en": "A campaign plan built for you"
 },
-"We nemen je antwoorden door en je krijgt een concreet voorstel: welk segment, welke boodschap en wat je aan reacties kunt verwachten.": {
-"en": "We go through your answers and you get a concrete proposal: which segment, which message and what replies to expect."
+"Je krijgt een voorstel: welk segment, welke boodschap en hoeveel reacties je kunt verwachten.": {
+"en": "You get a proposal: which segment, which message and how many replies to expect."
 },
 "Blok 1 van 5 · Wat jullie verkopen": {
 "en": "Block 1 of 5 · What you sell"
@@ -10878,8 +10878,8 @@ window.L2L_I18N_DATA = {
 "13 vragen, ongeveer 6 minuten. Een deel is aanklikken en de laatste twee mag je overslaan. Hoe concreter je antwoordt, hoe scherper het plan dat je terugkrijgt.": {
 "en": "13 questions, about 6 minutes. Some are just a click and the last two are yours to skip. The more concrete your answers, the sharper the plan you get back."
 },
-"13 vragen over je aanbod, je doelgroep, je bewijs en je cijfers. Hierop bouwen we de campagne.": {
-"en": "13 questions about your offer, your audience, your proof and your numbers. This is what we build the campaign on."
+"13 vragen over je aanbod, doelgroep en cijfers. Hier bouwen we de campagne op.": {
+"en": "13 questions about your offer, audience and numbers. We build the campaign on this."
 },
 "13 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 6 minuten. Vul hem nu in, dan komen we in de fitcheck direct met een plan in plaats van eerst alles uit te vragen.": {
 "en": "13 questions about your offer, your audience, your proof and your numbers, about 6 minutes. Fill it in now and we come to the fit check with a plan instead of asking everything first."
