@@ -2320,13 +2320,12 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 <style id="hero-mobiel">
 .hb-mob{display:none}
 @media(max-width:900px){
-.hb-mob{order:1;display:flex;align-items:center;justify-content:center;gap:10px;margin:14px auto -6px;color:#7EB3FF;text-decoration:none;font-family:'Caveat',cursive;font-size:23px;line-height:1}
-.hb-faces{display:flex}
-.hb-faces img{width:42px;height:42px;border-radius:50%;border:2px solid #2F6FED;background:#0E1018;display:block}
-.hb-faces img+img{margin-left:-12px}
+.hb-mob{order:1;display:flex;align-items:center;justify-content:center;gap:8px;box-sizing:border-box;width:100%;max-width:100%;padding:0 16px;margin:14px auto -4px;color:#7EB3FF;text-decoration:none;font-family:'Caveat',cursive;font-size:min(21px,calc((100vw - 120px) / 14));line-height:1.05}
+.hb-faces{display:flex;flex-shrink:0}
+.hb-faces img{width:36px;height:36px;border-radius:50%;border:2px solid #2F6FED;background:#0E1018;display:block}
+.hb-faces img+img{margin-left:-10px}
 .hb-hi{transform:rotate(-3deg);white-space:nowrap}
-@media(max-width:380px){.hb-mob{font-size:20px;gap:7px}.hb-faces img{width:36px;height:36px}}
-.hb-mob svg{margin-top:16px;animation:hbBob 1.6s ease-in-out infinite}
+.hb-mob svg{flex-shrink:0;width:20px;height:24px;margin-top:14px;animation:hbBob 1.6s ease-in-out infinite}
 }
 </style>
 </head>
