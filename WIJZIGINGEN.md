@@ -1,3 +1,6 @@
+**6 november 2026: herofilm standaard zonder geluid**
+- De film start altijd gedempt. Het geluid gaat alleen aan met de knop "Geluid aan" of een klik op de film, niet meer vanzelf bij de eerste klik ergens op de pagina. Zelfde op link2leads.co.
+
 **6 november 2026: Starter laat zien wat iedereen krijgt**
 - Starter: vaste campagnemanager, wij schrijven de mails, een afgebakende doelgroep, garantie op genoeg leads, garantie op je verzendvolume. Growth, Scale en Pro beginnen met "Alles uit Starter" en daarna alleen wat erbij komt. `l2l-i18n.js?v=65`. Zelfde op link2leads.co.
 
