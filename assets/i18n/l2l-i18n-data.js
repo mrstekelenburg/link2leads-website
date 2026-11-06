@@ -1,5 +1,17 @@
 /* Link2Leads i18n data — NL is the source language. Keys = exact Dutch text. */
 window.L2L_I18N_DATA = {
+"Je spreekt Anne-Roos of Demi, geen accountmanager": {
+"en": "You'll speak to Anne-Roos or Demi, not an account manager"
+},
+"Anne-Roos en Demi lezen je antwoorden zelf": {
+"en": "Anne-Roos and Demi read your answers themselves"
+},
+"Fitcheck met Anne-Roos of Demi": {
+"en": "Fit check with Anne-Roos or Demi"
+},
+"Je antwoorden komen direct bij Anne-Roos en Demi binnen": {
+"en": "Your answers go straight to Anne-Roos and Demi"
+},
 "Je spreekt Anne-Roos of Demi": {
 "en": "You'll speak to Anne-Roos or Demi"
 },
