@@ -1,3 +1,8 @@
+**6 november 2026: /book en /klant persoonlijker**
+- /book: onder de intro de gezichtjes van Anne-Roos en Demi met "Je spreekt Anne-Roos of Demi, geen accountmanager". Het fotoblok van Demi in de zijkolom is weg.
+- /klant: onder de intro "Anne-Roos en Demi lezen je antwoorden zelf", stap 2 heet "Fitcheck met Anne-Roos of Demi" met gezichtjes, en onder de startknop en onder Versturen "Je antwoorden komen direct bij Anne-Roos en Demi binnen".
+- Engels in `assets/i18n/l2l-i18n-data.js`, beide pagina's op `l2l-i18n.js?v=71`. Previews weg. Zelfde op link2leads.co (/book en /intake).
+
 **6 november 2026: persoonlijker op de homepage**
 - Op alle vier pakketkaarten staat bovenaan "Anne-Roos of Demi als vaste campagnemanager" met de twee gezichtjes. "Alles uit Starter" is weg: elke kaart toont zelf de volledige inhoud, zodat Starter niet de rijkste kaart lijkt. Zelfde tekst bij "Altijd inbegrepen" en in "Wat zit er in de prijs?".
 - Gezichtjes met "Je spreekt Anne-Roos of Demi" onder de fitcheck-knop in de samensteller, onder de vergelijkingstabel en onder de reviews; bij de marktscan "Je marktscan komt van Anne-Roos of Demi".
