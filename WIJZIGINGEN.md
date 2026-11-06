@@ -1,3 +1,6 @@
+**6 november 2026: cijfers in de hero tellen op**
+- 4,8 en 1.500.000+ onder de herofilm tellen vanaf 0 op zodra ze in beeld komen (1,6 seconde). Bij "verminderde beweging" in de systeeminstellingen blijven ze stilstaan. Zelfde op link2leads.co.
+
 **6 november 2026: reactie bij de case persoonlijke pagina**
 - Onder de derde case staat nu een reactie met vijf sterren van iemand die een persoonlijke pagina kreeg (doorgegeven door Demi). Zonder "op Google", omdat het geen Google-review is. `l2l-i18n.js?v=67`. Zelfde op link2leads.co.
 

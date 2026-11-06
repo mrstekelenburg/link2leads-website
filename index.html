@@ -2542,6 +2542,20 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <div class="hstat hstat-i"><span class="hs-ic hs-ic-mail" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4z"/><path d="M22 2 11 13"/></svg></span><span class="hs-body"><b>1.500.000+</b><span class="hs-lab">mails verstuurd</span></span></div>
 <a class="hstat hstat-i" href="#garantie"><span class="hs-ic hs-ic-shield" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><span class="hs-body"><b>Garantie</b><span class="hs-lab">op positieve reacties</span></span></a>
 </div>
+<script id="l2l-teller">(function(){var D=',',T='.';
+var els=document.querySelectorAll('.hstats .hstat b');if(!els.length||!window.IntersectionObserver)return;
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+function run(b){var el=b.firstChild;if(!el||el.nodeType!==3)return;var raw=el.nodeValue;var esc=function(c){return c.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');};
+var m=raw.match(new RegExp('^([^0-9]*)([0-9'+esc(T)+']+(?:'+esc(D)+'[0-9]+)?)(.*)$'));if(!m)return;
+var n=m[2],dp=n.indexOf(D)>-1?n.split(D)[1].length:0,target=parseFloat(n.split(T).join('').replace(D,'.'));if(!target)return;
+var big=n.indexOf(T)>-1,t0=null,dur=1600;
+function fmt(v){var s=v.toFixed(dp).split('.');if(big)s[0]=s[0].replace(/\B(?=(\d{3})+(?!\d))/g,T);return m[1]+s.join(D)+m[3];}
+b.style.fontVariantNumeric='tabular-nums';el.nodeValue=fmt(0);
+function step(ts){if(!t0)t0=ts;var k=Math.min(1,(ts-t0)/dur),e=1-Math.pow(1-k,3);el.nodeValue=fmt(target*e);if(k<1)requestAnimationFrame(step);else el.nodeValue=raw;}
+requestAnimationFrame(step);}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){run(e.target);io.unobserve(e.target);}});},{threshold:.5});
+Array.prototype.forEach.call(els,function(el){if(/[0-9]/.test(el.textContent))io.observe(el);});})();</script>
+
 </div>
 <!-- INBOX-WIDGET (bewaard voor later gebruik, wordt niet getoond). Terugzetten: inhoud van deze template weer in de pagina plaatsen. -->
 <template id="inbox-widget">
