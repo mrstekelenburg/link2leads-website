@@ -1,5 +1,11 @@
 /* Link2Leads i18n data — NL is the source language. Keys = exact Dutch text. */
 window.L2L_I18N_DATA = {
+"Anne-Roos of Demi als vaste campagnemanager": {
+"en": "Anne-Roos or Demi as your dedicated campaign manager"
+},
+"Meer echte reacties uit onze campagnes zie je op de LinkedIn van Demi": {
+"en": "See more real replies from our campaigns on Demi's LinkedIn"
+},
 "Gekwalificeerde afspraken per twee weken": {
 "en": "Qualified meetings per two weeks"
 },
