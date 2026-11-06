@@ -6342,6 +6342,72 @@ window.L2L_I18N_DATA = {
 "Vaste campagnemanager": {
 "en": "Dedicated campaign manager"
 },
+"Nafite · Softwarebedrijf": {
+"en": "Nafite · Software company"
+},
+"in 90 dagen": {
+"en": "in 90 days"
+},
+"Scale-pakket · 3 maanden × €1.695 = €5.085": {
+"en": "Scale package · 3 months × EUR 1,695 = EUR 5,085"
+},
+"Situatie": {
+"en": "Situation"
+},
+"Nieuwe klanten kwamen alleen via-via binnen. Er was geen vaste acquisitie.": {
+"en": "New clients only came in through referrals. There was no structured outreach."
+},
+"Doelgroep bepaald, de campagne geschreven en die stap voor stap uitgerold naar beslissers bij vergelijkbare bedrijven. De eerste afspraak stond op dag 1 na livegang.": {
+"en": "We defined the target audience, wrote the campaign and rolled it out step by step to decision makers at similar companies. The first meeting was booked on day 1 after launch."
+},
+"Pipeline ten opzichte van wat het kostte": {
+"en": "Pipeline compared to what it cost"
+},
+"5,0 op Google": {
+"en": "5.0 on Google"
+},
+"Lodewijk, oprichter Nafite": {
+"en": "Lodewijk, founder of Nafite"
+},
+"MIJU-marketing · E-mailmarketingbureau": {
+"en": "MIJU-marketing · Email marketing agency"
+},
+"in 14 dagen": {
+"en": "in 14 days"
+},
+"Growth-pakket · €1.295 per maand": {
+"en": "Growth package · EUR 1,295 per month"
+},
+"Hun doelgroep bestaat uit drie soorten kopers. Een campagne voor iedereen sprak niemand echt aan.": {
+"en": "Their audience consists of three types of buyers. One campaign for everyone didn't really speak to anyone."
+},
+"Drie aparte campagnes gemaakt, elk met een eigen lijst en een eigen boodschap.": {
+"en": "We built three separate campaigns, each with its own list and its own message."
+},
+"Doelgroepen met een eigen boodschap": {
+"en": "Audiences with their own message"
+},
+"“Snel opgezet, ze denken goed mee en begrijpen precies onze USP's en ideale ICP. Na 15 dagen stroomden de positieve reacties al binnen en die waren zeer makkelijk op te volgen.”": {
+"en": "“Set up quickly, they think along and understand our USPs and ideal ICP exactly. After 15 days the positive replies were already coming in, and they were very easy to follow up.”"
+},
+"Link2Leads · Onze eigen campagne": {
+"en": "Link2Leads · Our own campaign"
+},
+"27 afspraken": {
+"en": "27 meetings"
+},
+"Met hyperpersonalisatie: een eigen pagina per prospect": {
+"en": "With hyperpersonalisation: a page for every prospect"
+},
+"We wilden weten of een pagina over het bedrijf van de prospect zelf meer gesprekken oplevert.": {
+"en": "We wanted to know whether a page about the prospect's own company leads to more conversations."
+},
+"Iedere prospect kreeg in de mail een link naar een pagina die alleen over zijn eigen bedrijf gaat. Sommigen mailden terug om te zeggen hoe persoonlijk ze het vonden.": {
+"en": "Every prospect got a link in the email to a page that is only about their own company. Some replied just to say how personal they found it."
+},
+"Bekeek zijn eigen pagina": {
+"en": "Viewed their own page"
+},
 "Een doelgroep": {
 "en": "One target audience"
 },
