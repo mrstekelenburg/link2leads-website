@@ -1,3 +1,6 @@
+**6 november 2026: chat eruit**
+- De chatknop rechtsonder (Crisp) is van alle pagina's gehaald. WhatsApp blijft. Zelfde op link2leads.co.
+
 **6 november 2026: dunne voortgangsbalk bovenin**
 - Op de homepage loopt bovenin een blauwe balk van 2px mee met het scrollen. Verder niets aan de homepage veranderd. De previewpagina's van vandaag zijn weer weggehaald.
 - Zelfde op link2leads.co.
