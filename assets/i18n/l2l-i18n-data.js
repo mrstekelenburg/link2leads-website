@@ -1,5 +1,11 @@
 /* Link2Leads i18n data — NL is the source language. Keys = exact Dutch text. */
 window.L2L_I18N_DATA = {
+"Je spreekt Anne-Roos of Demi": {
+"en": "You'll speak to Anne-Roos or Demi"
+},
+"Je marktscan komt van Anne-Roos of Demi": {
+"en": "Your market scan comes from Anne-Roos or Demi"
+},
 "Anne-Roos of Demi als vaste campagnemanager": {
 "en": "Anne-Roos or Demi as your dedicated campaign manager"
 },
