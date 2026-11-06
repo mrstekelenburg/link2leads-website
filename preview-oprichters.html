@@ -2529,10 +2529,8 @@ v.addEventListener('ended',function(){w.classList.add('is-ended');try{if(v.durat
 /* direct afspelen met geluid; blokkeert de browser dat, dan gedempt starten en het geluid aanzetten bij de eerste klik of toets */
 function arm(){var ev=['pointerdown','keydown','touchend'];function go(e){if(w.contains(e.target))return;ev.forEach(function(n){document.removeEventListener(n,go,true);});if(autoMuted&&!userMuted){autoMuted=false;v.muted=false;if(un){un.remove();un=null;}if(v.paused&&!w.classList.contains('is-ended')){var p4=v.play();if(p4&&p4.catch)p4.catch(function(){});}ui();}}ev.forEach(function(n){document.addEventListener(n,go,true);});}
 function soundOk(){try{var C=window.AudioContext||window.webkitAudioContext;if(!C)return false;var ac=new C();var ok=ac.state==='running';if(ac.close)ac.close();return ok;}catch(e){return false;}}
-function begin(){swap();v.muted=true;var pr=v.play();if(pr&&pr.catch)pr.catch(function(){});
-  /* geluid direct aan als de browser dat toestaat; anders gedempt laten lopen en aanzetten bij de eerste klik of tik */
-  if(soundOk()){v.muted=false;if(un){un.remove();un=null;}setTimeout(function(){if(v.paused&&!w.classList.contains('is-ended')){v.muted=true;autoMuted=true;var p3=v.play();if(p3&&p3.catch)p3.catch(function(){});arm();ui();}},400);}
-  else{autoMuted=true;arm();}ui();}
+function begin(){swap();v.muted=true;autoMuted=true;var pr=v.play();if(pr&&pr.catch)pr.catch(function(){});ui();}
+/* geluid staat standaard uit; aan via de knop Geluid aan of een klik op de film */
 if(document.readyState==='complete')begin();else window.addEventListener('load',begin);
 })();
 </script>
@@ -2545,6 +2543,20 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <div class="hstat hstat-i"><span class="hs-ic hs-ic-mail" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4z"/><path d="M22 2 11 13"/></svg></span><span class="hs-body"><b>1.500.000+</b><span class="hs-lab">mails verstuurd</span></span></div>
 <a class="hstat hstat-i" href="#garantie"><span class="hs-ic hs-ic-shield" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><span class="hs-body"><b>Garantie</b><span class="hs-lab">op positieve reacties</span></span></a>
 </div>
+<script id="l2l-teller">(function(){var D=',',T='.';
+var els=document.querySelectorAll('.hstats .hstat b');if(!els.length||!window.IntersectionObserver)return;
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+function run(b){var el=b.firstChild;if(!el||el.nodeType!==3)return;var raw=el.nodeValue;var esc=function(c){return c.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');};
+var m=raw.match(new RegExp('^([^0-9]*)([0-9'+esc(T)+']+(?:'+esc(D)+'[0-9]+)?)(.*)$'));if(!m)return;
+var n=m[2],dp=n.indexOf(D)>-1?n.split(D)[1].length:0,target=parseFloat(n.split(T).join('').replace(D,'.'));if(!target)return;
+var big=n.indexOf(T)>-1,t0=null,dur=1600;
+function fmt(v){var s=v.toFixed(dp).split('.');if(big)s[0]=s[0].replace(/\B(?=(\d{3})+(?!\d))/g,T);return m[1]+s.join(D)+m[3];}
+b.style.fontVariantNumeric='tabular-nums';el.nodeValue=fmt(0);
+function step(ts){if(!t0)t0=ts;var k=Math.min(1,(ts-t0)/dur),e=1-Math.pow(1-k,3);el.nodeValue=fmt(target*e);if(k<1)requestAnimationFrame(step);else el.nodeValue=raw;}
+requestAnimationFrame(step);}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){run(e.target);io.unobserve(e.target);}});},{threshold:.5});
+Array.prototype.forEach.call(els,function(el){if(/[0-9]/.test(el.textContent))io.observe(el);});})();</script>
+
 </div>
 <!-- INBOX-WIDGET (bewaard voor later gebruik, wordt niet getoond). Terugzetten: inhoud van deze template weer in de pagina plaatsen. -->
 <template id="inbox-widget">
@@ -2831,7 +2843,6 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 </div>
 </div>
 </section>
-
 <!-- IN VIER STAPPEN -->
 <section class="steps4-section" id="zowerkthet">
 <style>
@@ -2945,6 +2956,14 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
       color:var(--accent2);font-weight:800;font-size:15px;}
     .cs-card h3{font-size:clamp(24px,3vw,32px);line-height:1.18;letter-spacing:-1px;font-weight:800;
       color:var(--white);margin:0 0 16px;}
+.cs-meta{margin:6px 0 18px;font-size:14.5px;font-weight:700;color:rgba(255,255,255,.55)}
+.cs-sit{margin:0 0 10px;font-size:16px;line-height:1.6;color:rgba(255,255,255,.72)}
+.cs-sit b{display:block;font-size:13px;font-weight:800;letter-spacing:.3px;color:var(--white);margin-bottom:2px}
+.cs-rev{margin:24px 0 0;padding:18px 20px;border-left:3px solid #F5B301;background:rgba(245,179,1,.06);border-radius:0 12px 12px 0}
+.cs-stars{color:#F5B301;font-size:16px;letter-spacing:2px;margin-right:8px}
+.cs-rscore{font-size:13px;font-weight:700;color:rgba(255,255,255,.6)}
+.cs-rev blockquote{margin:8px 0 6px;font-size:16px;line-height:1.6;color:var(--white);font-style:italic}
+.cs-rev figcaption{font-size:14px;font-weight:700;color:var(--accent2)}
     .cs-sum{margin:0;font-size:16.5px;line-height:1.62;color:rgba(255,255,255,.66);}
     .cs-stats{display:flex;flex-wrap:wrap;gap:18px 42px;border:0;border-top:1px solid var(--border);
       margin-top:26px;padding-top:24px;}
@@ -2981,40 +3000,55 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <div aria-label="Klantcases" aria-roledescription="carousel" class="cs-track" id="csTrack" role="group" tabindex="0">
 <div aria-label="Case 1 van 3" aria-roledescription="slide" class="cs-card" role="group">
 <div class="cs-body">
-<div class="cs-kicker"><img loading="lazy" decoding="async" decoding="async" alt="Nafite" class="cs-logo" height="42" width="42" src="/assets/img/logos/nafite-6cc191e7.jpg"/><span>Case study &middot; Softwarebedrijf &middot; Scale-pakket</span></div>
-<h3><span class="blue">€84.000 pipeline</span> uit €5.085 campagne-investering</h3>
-<p class="cs-sum">Nieuwe klanten kwamen hier via-via binnen, zonder structurele acquisitie. In 90 dagen stonden er 38 gekwalificeerde afspraken, waarvan de eerste op dag 1 na livegang.</p>
+<div class="cs-kicker"><img loading="lazy" decoding="async" alt="Nafite" class="cs-logo" height="42" width="42" src="/assets/img/logos/nafite-6cc191e7.jpg"/><span>Nafite &middot; Softwarebedrijf</span></div>
+<h3><span class="blue">€84.000 pipeline</span> in 90 dagen</h3>
+<p class="cs-meta">Scale-pakket &middot; 3 maanden &times; €1.695 = €5.085</p>
+<p class="cs-sit"><b>Situatie</b>Nieuwe klanten kwamen alleen via-via binnen. Er was geen vaste acquisitie.</p>
+<p class="cs-sit"><b>Wat we deden</b>Doelgroep bepaald, de campagne geschreven en die stap voor stap uitgerold naar beslissers bij vergelijkbare bedrijven. De eerste afspraak stond op dag 1 na livegang.</p>
 <div class="cs-stats">
 <div><b>38</b><span>Gekwalificeerde afspraken</span></div>
 <div><b>€134</b><span>Kosten per afspraak</span><small class="cs-note">Telemarketing kost in Nederland doorgaans €150 tot €400 per geplande afspraak. <a href="/kennis/cold-calling-vs-cold-email">De vergelijking →</a></small></div>
-<div><b>16,5x</b><span>Pipeline ten opzichte van de investering</span></div>
+<div><b>16,5x</b><span>Pipeline ten opzichte van wat het kostte</span></div>
 </div>
+<figure class="cs-rev"><span class="cs-stars" aria-hidden="true">★★★★★</span><span class="cs-rscore">5,0 op Google</span>
+<blockquote>&ldquo;Ik had nooit verwacht dat e-mail tegenwoordig nog zoveel impact kon hebben. Demi en Anne-Roos weten waar ze het over hebben en zorgen voor een sterk resultaat.&rdquo;</blockquote>
+<figcaption>Lodewijk, oprichter Nafite</figcaption></figure>
 <a class="cs-more" href="/cases/softwarebedrijf">Lees de volledige case &rarr;</a>
 </div>
 </div>
 <div aria-label="Case 2 van 3" aria-roledescription="slide" class="cs-card" role="group">
 <div class="cs-body">
-<div class="cs-kicker"><img loading="lazy" decoding="async" decoding="async" alt="MIJU-marketing" class="cs-logo" height="42" width="42" src="/assets/img/logos/miju-marketing-b202cb1e.jpg"/><span>Case study &middot; MIJU-marketing &middot; Growth-pakket</span></div>
-<h3><span class="blue">15 positieve reacties</span> in de eerste twee weken</h3>
-<p class="cs-sum">Drie verschillende koperstypes in dezelfde doelgroep, met een campagne die niemand echt aansprak. Opgesplitst in drie aparte campagnes met een eigen lijst en een eigen insteek.</p>
+<div class="cs-kicker"><img loading="lazy" decoding="async" alt="MIJU-marketing" class="cs-logo" height="42" width="42" src="/assets/img/logos/miju-marketing-b202cb1e.jpg"/><span>MIJU-marketing &middot; E-mailmarketingbureau</span></div>
+<h3><span class="blue">15 positieve reacties</span> in 14 dagen</h3>
+<p class="cs-meta">Growth-pakket &middot; €1.295 per maand</p>
+<p class="cs-sit"><b>Situatie</b>Hun doelgroep bestaat uit drie soorten kopers. Een campagne voor iedereen sprak niemand echt aan.</p>
+<p class="cs-sit"><b>Wat we deden</b>Drie aparte campagnes gemaakt, elk met een eigen lijst en een eigen boodschap.</p>
 <div class="cs-stats">
 <div><b>15</b><span>Positieve reacties</span></div>
 <div><b>14</b><span>Dagen tot de vijftiende reactie</span></div>
-<div><b>3</b><span>Segmenten met een eigen boodschap</span></div>
+<div><b>3</b><span>Doelgroepen met een eigen boodschap</span></div>
 </div>
+<figure class="cs-rev"><span class="cs-stars" aria-hidden="true">★★★★★</span><span class="cs-rscore">5,0 op Google</span>
+<blockquote>&ldquo;Snel opgezet, ze denken goed mee en begrijpen precies onze USP's en ideale ICP. Na 15 dagen stroomden de positieve reacties al binnen en die waren zeer makkelijk op te volgen.&rdquo;</blockquote>
+<figcaption>Micah, MIJU-marketing</figcaption></figure>
 <a class="cs-more" href="/cases/miju-marketing">Lees de volledige case &rarr;</a>
 </div>
 </div>
 <div aria-label="Case 3 van 3" aria-roledescription="slide" class="cs-card" role="group">
 <div class="cs-body">
-<div class="cs-kicker"><span class="cs-logo-np" aria-hidden="true">L2L</span><span>Case study &middot; Onze eigen campagnes</span></div>
-<h3>Een eigen landingspagina <span class="blue">per prospect</span></h3>
-<p class="cs-sum">Wie op een link in onze mail klikt, komt op een pagina die alleen over zijn bedrijf gaat. Wij maken die pagina automatisch en de link staat vanzelf in de mail. Sommige prospects mailden zelfs terug om te zeggen hoe persoonlijk ze het vonden.</p>
+<div class="cs-kicker"><span class="cs-logo-np" aria-hidden="true">L2L</span><span>Link2Leads &middot; Onze eigen campagne</span></div>
+<h3><span class="blue">27 afspraken</span> in acht weken</h3>
+<p class="cs-meta">Met hyperpersonalisatie: een eigen pagina per prospect</p>
+<p class="cs-sit"><b>Situatie</b>We wilden weten of een pagina over het bedrijf van de prospect zelf meer gesprekken oplevert.</p>
+<p class="cs-sit"><b>Wat we deden</b>Iedere prospect kreeg in de mail een link naar een pagina die alleen over zijn eigen bedrijf gaat. Sommigen mailden terug om te zeggen hoe persoonlijk ze het vonden.</p>
 <div class="cs-stats">
 <div><b>1.240</b><span>Prospects met een eigen pagina</span></div>
-<div><b>34%</b><span>Opende zijn eigen pagina</span></div>
+<div><b>34%</b><span>Bekeek zijn eigen pagina</span></div>
 <div><b>27</b><span>Afspraken in acht weken</span></div>
 </div>
+<figure class="cs-rev"><span class="cs-stars" aria-hidden="true">★★★★★</span>
+<blockquote>&ldquo;Ik wil even laten weten dat ik het heel erg waardeer om een persoonlijke pagina te krijgen. Normaal krijg ik alleen maar ongepersonaliseerde mails. Dit was echt verfrissend.&rdquo;</blockquote>
+<figcaption>Ontvanger van een persoonlijke pagina</figcaption></figure>
 <a class="cs-more" href="/cases/landingspagina-per-prospect">Lees de volledige case &rarr;</a>
 </div>
 </div>
@@ -3085,19 +3119,19 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <div class="who-card yes reveal">
 <div class="who-head">Dit is voor jou als...</div>
 <ul class="who-list">
-<li><span>✓</span>Je aanbod is bewezen bij betalende klanten</li>
-<li><span>✓</span>Je weet wie je ideale klant is</li>
-<li><span>✓</span>Je doelgroep telt minstens 1.000 bedrijven</li>
-<li><span>✓</span>Je hebt iemand die nieuwe reacties binnen een werkdag opvolgt</li>
+<li><span style="color:#22C55E">✓</span>Je aanbod is bewezen bij betalende klanten</li>
+<li><span style="color:#22C55E">✓</span>Je weet wie je ideale klant is</li>
+<li><span style="color:#22C55E">✓</span>Je doelgroep telt minstens 1.000 bedrijven</li>
+<li><span style="color:#22C55E">✓</span>Je hebt iemand die nieuwe reacties binnen een werkdag opvolgt</li>
 </ul>
 </div>
 <div class="who-card no reveal">
 <div class="who-head">Dit is te vroeg als...</div>
 <ul class="who-list">
-<li><span>✗</span>Je aanbod is nog niet verkocht aan een betalende klant</li>
-<li><span>✗</span>Je doelgroep is kleiner dan 1.000 bedrijven</li>
-<li><span>✗</span>Je hebt geen tijd om reacties op te volgen</li>
-<li><span>✗</span>Je zoekt een snelle hack</li>
+<li><span style="color:#EF4444">✗</span>Je aanbod is nog niet verkocht aan een betalende klant</li>
+<li><span style="color:#EF4444">✗</span>Je doelgroep is kleiner dan 1.000 bedrijven</li>
+<li><span style="color:#EF4444">✗</span>Je hebt geen tijd om reacties op te volgen</li>
+<li><span style="color:#EF4444">✗</span>Je zoekt een snelle hack</li>
 </ul>
 </div>
 </div>
@@ -3190,9 +3224,11 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <div class="p-volume-sub"><b>100 per dag</b>, 30 verzenddagen &middot;&nbsp;±&nbsp;1.000 nieuwe bedrijven</div>
 <div class="p-line"></div>
 <ul class="p-features">
-<li>Volledig ingerichte campagne</li>
-<li>Alleen gekwalificeerde reacties</li>
-<li>Wekelijkse rapportage</li>
+<li>Vaste campagnemanager</li>
+<li>Wij schrijven de mails</li>
+<li>Eén afgebakende doelgroep</li>
+<li>Garantie op genoeg leads</li>
+<li>Garantie op je verzendvolume</li>
 </ul>
 <a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
@@ -3206,8 +3242,7 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <div class="p-line"></div>
 <ul class="p-features">
 <li>Alles uit Starter</li>
-<li>Segmentatie in je doelgroep</li>
-<li>Wekelijks bijsturen</li>
+<li>Twee doelgroepen tegelijk</li>
 </ul>
 <a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
@@ -3222,8 +3257,9 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <div class="p-line"></div>
 <ul class="p-features">
 <li class="p-gar">Contractuele garantie op positieve reacties</li>
-<li>Alles uit Growth</li>
-<li>Meerdere segmenten tegelijk</li>
+<li>Alles uit Starter</li>
+<li>Drie doelgroepen tegelijk</li>
+<li>Full Service mogelijk</li>
 </ul>
 <a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
@@ -3237,8 +3273,9 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <div class="p-line"></div>
 <ul class="p-features">
 <li class="p-gar">Contractuele garantie op positieve reacties</li>
-<li>Alles uit Scale</li>
-<li>Vaste campagnemanager</li>
+<li>Alles uit Starter</li>
+<li>Vijf doelgroepen tegelijk</li>
+<li>Full Service mogelijk</li>
 </ul>
 <a class="p-btn solid" href="/book" target="_blank">Doe de gratis fitcheck</a>
 </div>
@@ -3401,6 +3438,7 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <li>Domeinen, mailboxen en warmup</li>
 <li>Elke reactie handmatig gefilterd</li>
 <li>Wekelijkse rapportage</li>
+<li>Vaste campagnemanager</li>
 </ul>
 </div>
 <div class="cfg-sum-bot">
@@ -3490,6 +3528,7 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <li>Technische inrichting en opwarming</li>
 <li>Alle reacties persoonlijk beoordelen</li>
 <li>Wekelijkse rapportage met resultaten</li>
+<li>Een vaste campagnemanager</li>
 </ul>
 <p class="pa-foot"><strong>Geen opstartkosten of verborgen kosten.</strong><br/>Wil je ook afspraken laten inplannen? Kies dan voor Full Service. Hyperpersonalisatie en LinkedIn zijn optioneel toe te voegen.</p>
 </div>
@@ -4082,7 +4121,7 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=66"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=67"></script>
 <script src="/assets/tracking.js?v=2"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
