@@ -2285,19 +2285,25 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 </style>
 <link rel="alternate" type="text/plain" href="/llms.txt" title="Samenvatting voor taalmodellen">
 <style id="l2l-progress-css">html body #l2l-progress{position:fixed!important;top:0!important;left:0!important;right:0!important;height:2px!important;z-index:2147483000!important;margin:0!important;background:#2F6FED;transform:scaleX(0);transform-origin:0 50%;pointer-events:none}html body #l2l-progress{background:#5B8FF5!important;box-shadow:0 0 8px rgba(91,143,245,.6)}</style>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet"/>
 <style id="preview-hero">
-.hb-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:end;gap:24px;max-width:1180px;margin:0 auto;text-align:left}
-.hb-left{padding-bottom:56px}
+.hb-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:24px;max-width:1180px;margin:0 auto;text-align:left}
+.hb-left{padding-bottom:0}
 .hero-film .hb-left .hero-h{text-align:left!important;white-space:normal!important;font-size:clamp(40px,4.6vw,62px)!important;line-height:1.02!important;letter-spacing:-.035em!important;margin:0 0 6px!important;max-width:none}
 .hero-film .hb-left .hs-v{margin:14px 0 0!important;text-align:left;max-width:560px}
 .hero-film .hb-left .hcta{justify-content:flex-start!important;margin:26px 0 0!important}
 .hero-film .hb-left .hstats{justify-content:flex-start!important;margin:34px 0 0!important}
-.hb-right{position:relative;align-self:end;display:flex;justify-content:center}
+.hb-right{position:relative;align-self:start;display:flex;flex-direction:column;align-items:center;margin-top:-10px}
 .hb-right::before{content:"";position:absolute;left:8%;right:8%;bottom:0;top:12%;background:radial-gradient(60% 60% at 50% 55%,rgba(47,111,237,.55),rgba(47,111,237,0) 70%);filter:blur(10px);z-index:0}
 .hb-right img{position:relative;z-index:1;display:block;width:100%;max-width:470px;height:auto;-webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent);mask-image:linear-gradient(to bottom,#000 82%,transparent)}
 .hb-name{position:absolute;z-index:2;right:4%;bottom:22%;background:rgba(8,9,12,.82);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:9px 14px;font-size:14px;font-weight:700;color:#F0EFED;line-height:1.25}
 .hb-name small{display:block;font-size:12px;font-weight:600;color:#8A919E}
-.hb-film{max-width:960px;margin:40px auto 0}
+.hb-film{max-width:960px;margin:28px auto 0}
+.hb-note{position:relative;z-index:2;display:flex;align-items:flex-start;gap:6px;margin:-6px 0 0 60px;color:#7EB3FF;text-decoration:none;font-family:'Caveat',cursive;font-size:27px;line-height:1.05;transform:rotate(-4deg)}
+.hb-note span{max-width:210px}
+.hb-note svg{margin-top:14px;flex-shrink:0;animation:hbBob 1.6s ease-in-out infinite}
+@keyframes hbBob{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
+@media(prefers-reduced-motion:reduce){.hb-note svg{animation:none}}
 @media(max-width:900px){.hb-right{display:none!important}.hb-grid{grid-template-columns:1fr;gap:0}.hb-left{padding-bottom:10px}.hero-film .hb-left .hero-h{font-size:clamp(34px,9vw,46px)!important}.hb-right img{max-width:340px}.hb-name{bottom:16%;right:2%}.hb-film{margin-top:20px}}
 </style>
 </head>
@@ -2519,7 +2525,7 @@ function step(ts){if(!t0)t0=ts;var k=Math.min(1,(ts-t0)/dur),e=1-Math.pow(1-k,3)
 requestAnimationFrame(step);}
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){run(e.target);io.unobserve(e.target);}});},{threshold:.5});
 Array.prototype.forEach.call(els,function(el){if(/[0-9]/.test(el.textContent))io.observe(el);});})();</script>
-</div><div class="hb-right"><picture><source srcset="/assets/img/oprichters-hero.webp" type="image/webp"/><img src="/assets/img/oprichters-hero.png" width="625" height="714" alt="Anne-Roos en Demi, de oprichters van Link2Leads" fetchpriority="high"/></picture><span class="hb-name">Anne-Roos &amp; Demi<small>oprichters Link2Leads</small></span></div></div>
+</div><div class="hb-right"><picture><source srcset="/assets/img/oprichters-hero.webp" type="image/webp"/><img src="/assets/img/oprichters-hero.png" width="625" height="714" alt="Anne-Roos en Demi, de oprichters van Link2Leads" fetchpriority="high"/></picture><span class="hb-name">Anne-Roos &amp; Demi<small>oprichters Link2Leads</small></span><a class="hb-note" href="#hvVideo"><span>Kijk eerst even de video hieronder</span><svg viewBox="0 0 60 70" width="46" height="54" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4c22 6 34 22 26 42-3 8-9 14-15 18"/><path d="M14 52l11 12 3-15"/></svg></a></div></div>
 <div class="hb-film"><div class="hv-video" id="hvVideo">
 <video data-src="/assets/video/herofilm-v5.mp4" poster="/assets/video/herofilm-v5-poster.jpg" data-src-en="/assets/video/herofilm-v5-en.mp4" data-poster-en="/assets/video/herofilm-v5-en-poster.jpg" autoplay muted playsinline preload="none"></video>
 <button class="hv-unmute" type="button">
