@@ -8495,8 +8495,8 @@ window.L2L_I18N_DATA = {
 "Je krijgt een concreet plan voor je eerste campagne, met volume, boodschap en de datum waarop je live kunt.": {
 "en": "You get a concrete plan for your first campaign: volume, message and the date you can go live."
 },
-"In dertig minuten kijken we naar je doelgroep en je aanbod, en rekenen we door wat koude e-mail bij jou realistisch oplevert. Je krijgt een concreet plan mee voor je eerste campagne, met volume, boodschap en de datum waarop je live kunt.": {
-"en": "In thirty minutes we look at your target group and your offer, and work out what cold email realistically produces in your case. You leave with a concrete plan for your first campaign: volume, message and the date you can go live."
+"In 30 minuten rekenen we samen door wat koude e-mail jou oplevert. Je gaat weg met een plan voor je eerste campagne en een startdatum.": {
+"en": "In 30 minutes we work out together what cold email can bring you. You leave with a plan for your first campaign and a start date."
 },
 "In een gesprek van 30 minuten kijken we welk pakket bij jouw aanbod en doelgroep past en wanneer je live kunt.": {
 "en": "In a 30-minute call we look at which package suits your offer and audience, and when you can go live."
