@@ -2283,8 +2283,12 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 .hcta-contact a svg{width:16px !important;height:16px !important}
 </style>
 <link rel="alternate" type="text/plain" href="/llms.txt" title="Samenvatting voor taalmodellen">
+<style id="l2l-progress-css">#l2l-progress{position:fixed;top:0;left:0;right:0;height:2px;z-index:9999;background:#2F6FED;transform:scaleX(0);transform-origin:0 50%;pointer-events:none}</style>
 </head>
 <body>
+<div id="l2l-progress" aria-hidden="true"></div>
+<script>(function(){var b=document.getElementById('l2l-progress');var t=false;function u(){var h=document.documentElement;var m=h.scrollHeight-h.clientHeight;b.style.transform='scaleX('+(m>0?Math.min(1,h.scrollTop/m):0)+')';t=false;}addEventListener('scroll',function(){if(!t){t=true;requestAnimationFrame(u);}},{passive:true});addEventListener('resize',u);u();})();</script>
+
 <canvas id="bg-canvas"></canvas>
 <script>
 (function(){

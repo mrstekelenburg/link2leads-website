@@ -1,3 +1,7 @@
+**6 november 2026: dunne voortgangsbalk bovenin**
+- Op de homepage loopt bovenin een blauwe balk van 2px mee met het scrollen. Verder niets aan de homepage veranderd. De previewpagina's van vandaag zijn weer weggehaald.
+- Zelfde op link2leads.co.
+
 **5 november 2026 (later): schuine 2 in de herofilm**
 - In de film staat de 2 nu schuin, net als in het logo (in het rondje en in het eindbeeld, NL en EN). Nieuwe bestandsnamen zodat browsers de oude film niet blijven tonen.
 
