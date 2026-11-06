@@ -1,3 +1,6 @@
+**6 november 2026: Starter laat zien wat iedereen krijgt**
+- Starter: vaste campagnemanager, wij schrijven de mails, een afgebakende doelgroep, garantie op genoeg leads, garantie op je verzendvolume. Growth, Scale en Pro beginnen met "Alles uit Starter" en daarna alleen wat erbij komt. `l2l-i18n.js?v=65`. Zelfde op link2leads.co.
+
 **6 november 2026: cases helderder, vinkjes groen en rood**
 - Elke case op de homepage heeft nu: klant en branche, resultaat als kop, pakket en kosten (Nafite: 3 maanden x €1.695 = €5.085), Situatie en Wat we deden, de cijfers en de Google-review met vijf sterren van de klant (Lodewijk bij Nafite, Micah bij MIJU-marketing). De eigen case heeft geen review omdat er geen klant achter zit.
 - Bij "Dit is voor jou als" zijn de vinkjes groen en de kruisjes rood.

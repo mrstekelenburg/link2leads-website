@@ -6342,6 +6342,18 @@ window.L2L_I18N_DATA = {
 "Vaste campagnemanager": {
 "en": "Dedicated campaign manager"
 },
+"Wij schrijven de mails": {
+"en": "We write the emails"
+},
+"Een afgebakende doelgroep": {
+"en": "One clearly defined target audience"
+},
+"Garantie op genoeg leads": {
+"en": "Guaranteed enough leads"
+},
+"Garantie op je verzendvolume": {
+"en": "Guaranteed sending volume"
+},
 "Nafite · Softwarebedrijf": {
 "en": "Nafite · Software company"
 },
