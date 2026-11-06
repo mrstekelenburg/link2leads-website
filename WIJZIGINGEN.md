@@ -1,3 +1,9 @@
+**6 november 2026: persoonlijker op de homepage**
+- Op alle vier pakketkaarten staat bovenaan "Anne-Roos of Demi als vaste campagnemanager" met de twee gezichtjes. "Alles uit Starter" is weg: elke kaart toont zelf de volledige inhoud, zodat Starter niet de rijkste kaart lijkt. Zelfde tekst bij "Altijd inbegrepen" en in "Wat zit er in de prijs?".
+- Gezichtjes met "Je spreekt Anne-Roos of Demi" onder de fitcheck-knop in de samensteller, onder de vergelijkingstabel en onder de reviews; bij de marktscan "Je marktscan komt van Anne-Roos of Demi".
+- Onder "Ongefilterd uit onze inbox" een link naar de LinkedIn van Demi voor meer echte reacties.
+- Engels in `assets/i18n/l2l-i18n-data.js`, homepage op `l2l-i18n.js?v=70`. Preview weggehaald. Zelfde op link2leads.co.
+
 **6 november 2026: gezichtjes op mobiel**
 - Op mobiel staan tussen de kop en de film twee rondjes met de gezichten van Anne-Roos en Demi en de handgeschreven tekst "Check even de korte video hieronder" met pijltje. Kost één regel, de film blijft direct in beeld. Tik springt naar de film. `l2l-i18n.js?v=69`. Zelfde op link2leads.co.
 
