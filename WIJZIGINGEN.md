@@ -1,3 +1,6 @@
+**6 november 2026: accenten en trema's waar de spelling ze vraagt**
+- Overal recht gezet: tweeën, ideeën, reëel/reële, coördineert, categorieën, geïnteresseerde, en één waar het om het getal gaat ("Eén afgebakende doelgroep", "één van ons tweeën"). Geen nadrukaccenten. Sleutels in `assets/i18n/l2l-i18n-data.js` mee aangepast, betrokken pagina's op `l2l-i18n.js?v=66`.
+
 **6 november 2026: herofilm standaard zonder geluid**
 - De film start altijd gedempt. Het geluid gaat alleen aan met de knop "Geluid aan" of een klik op de film, niet meer vanzelf bij de eerste klik ergens op de pagina. Zelfde op link2leads.co.
 

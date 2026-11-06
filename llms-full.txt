@@ -247,7 +247,7 @@ per maand, volledig beheerd
 
 - Vaste campagnemanager
 - Wij schrijven de mails
-- Een afgebakende doelgroep
+- Eén afgebakende doelgroep
 - Garantie op genoeg leads
 - Garantie op je verzendvolume
 
@@ -581,7 +581,7 @@ In de gratis fitcheck van 30 minuten kijken we naar je doelgroep, je aanbod en w
 
 Doe de gratis fitcheck
 
-Anne-Roos en Demi. Je krijgt een van ons tweeen aan de lijn.
+Anne-Roos en Demi. Je krijgt één van ons tweeën aan de lijn.
 
 ### Liever eerst een vraag stellen?
 
@@ -690,7 +690,7 @@ Bron: abalott.nl · gecontroleerd op 2 september 2026
 
 ### Match-Day
 
-Match-Day is geen mailbureau maar een salesbureau. Naast outbound doen ze HubSpot-implementatie en salestraining. Voor een organisatie waar niet alleen de leadstroom maar ook het opvolgproces rammelt, lost dat twee problemen tegelijk op, en dat is een reeel argument, want een bureau dat afspraken levert aan een team dat ze niet omzet, lost niets op.
+Match-Day is geen mailbureau maar een salesbureau. Naast outbound doen ze HubSpot-implementatie en salestraining. Voor een organisatie waar niet alleen de leadstroom maar ook het opvolgproces rammelt, lost dat twee problemen tegelijk op, en dat is een reëel argument, want een bureau dat afspraken levert aan een team dat ze niet omzet, lost niets op.
 
 Ze garanderen minimaal vijf gekwalificeerde meetings per maand en hebben veruit de diepste kennisbank van deze lijst: een blog met tientallen artikelen, een academy met video’s en een wiki met salesterminologie.
 
@@ -744,7 +744,7 @@ Bron: asphia.consulting · gecontroleerd op 2 september 2026. Het percentage is 
 
 ### Outventure
 
-Outventure is het enige bureau op deze lijst dat outbound, inbound en retentie onder een dak aanbiedt: cold e-mail en LinkedIn naast SEO, Google Ads en retargeting. Als je liever een partij aanspreekt voor de hele funnel dan drie leveranciers coordineert, is dat het argument. Ze werken met aparte landingspagina’s per sector. SaaS, logistiek, maakindustrie, startups, en publiceren per case een kostprijs per signup of per lead.
+Outventure is het enige bureau op deze lijst dat outbound, inbound en retentie onder een dak aanbiedt: cold e-mail en LinkedIn naast SEO, Google Ads en retargeting. Als je liever een partij aanspreekt voor de hele funnel dan drie leveranciers coördineert, is dat het argument. Ze werken met aparte landingspagina’s per sector. SaaS, logistiek, maakindustrie, startups, en publiceren per case een kostprijs per signup of per lead.
 
 Prijs
 
@@ -758,7 +758,7 @@ Bron: outventure.io · gecontroleerd op 2 september 2026
 
 ### Provite
 
-Provite verkoopt uitdrukkelijk het tegenovergestelde van volume. Geen callcenter, maar senior professionals, oud-ondernemers en salesdirecteuren, die het gesprek op niveau voeren. In markten waar de eerste vijf minuten aan de telefoon bepalen of je serieus wordt genomen, is dat een reeel voordeel boven een goedkopere beller.
+Provite verkoopt uitdrukkelijk het tegenovergestelde van volume. Geen callcenter, maar senior professionals, oud-ondernemers en salesdirecteuren, die het gesprek op niveau voeren. In markten waar de eerste vijf minuten aan de telefoon bepalen of je serieus wordt genomen, is dat een reëel voordeel boven een goedkopere beller.
 
 Prijs
 
@@ -1291,7 +1291,7 @@ Risico bij tegenvallen	Volledig bij jou, vast	Beperkt tot looptijd
 
 ## Waar het omslaat
 
-Er is een reeel punt waarop een eigen SDR de betere keuze is. Vier signalen dat je daar bent:
+Er is een reëel punt waarop een eigen SDR de betere keuze is. Vier signalen dat je daar bent:
 
 - Je verkoopcyclus vraagt om gesprekken, niet om afspraken. Als het tussen eerste contact en handtekening zes gesprekken duurt, is de e-mail het minst waardevolle deel van het traject.
 - Je hebt genoeg volume voor een fulltime rol. Onder de vijftien afspraken per maand heeft een SDR te weinig te doen en ga je hem taken geven die niets met acquisitie te maken hebben, het klassieke begin van het einde.
@@ -2681,7 +2681,7 @@ Toolingtotaal	€ 280 – € 1.315
 
 Die bandbreedte hangt vooral aan je volume. Wil je 1.000 mails per dag versturen, dan heb je 40 tot 80 mailboxen nodig en verbruik je ongeveer 10.000 verse leads per maand. Dan zit je aan de bovenkant, niet aan de onderkant. Leadaanbieders rekenen per credit, en een lead met een geverifieerd adres en een gecontroleerde functie kost meer dan een regel uit een gekocht bestand.
 
-Daar komt de belangrijkste post bij, en die staat nooit in een blog: iemand moet het draaien. Reken op een tot twee uur per werkdag voor lijstwerk, copy, deliverability-monitoring en het uitzoeken van binnenkomende reacties. Dat is 20 tot 40 uur per maand. Zet daar een intern uurtarief tegenover en je zit op € 1.500 tot € 3.500 per maand aan tijd. Bij een marketeer die dit erbij doet, is de reele kostenpost niet het salaris maar het werk dat blijft liggen.
+Daar komt de belangrijkste post bij, en die staat nooit in een blog: iemand moet het draaien. Reken op een tot twee uur per werkdag voor lijstwerk, copy, deliverability-monitoring en het uitzoeken van binnenkomende reacties. Dat is 20 tot 40 uur per maand. Zet daar een intern uurtarief tegenover en je zit op € 1.500 tot € 3.500 per maand aan tijd. Bij een marketeer die dit erbij doet, is de reële kostenpost niet het salaris maar het werk dat blijft liggen.
 
 En dan de leercurve. Een verzendinfrastructuur die je zelf opzet, is de eerste twee tot drie maanden bezig met warmup en het opbouwen van reputatie. Fouten in die fase, te snel opschalen, een vervuilde lijst, een verkeerd DNS-record, kosten je domeinen die je daarna kunt weggooien.
 

@@ -42,7 +42,7 @@ window.L2L_I18N_DATA = {
 ", in vier stappen": {
 "en": ", in four steps"
 },
-"Demi en Anne-Roos. Je krijgt een van ons tweeen aan de lijn.": {
+"Demi en Anne-Roos. Je krijgt één van ons tweeën aan de lijn.": {
 "en": "Demi and Anne-Roos. You get one of the two of us on the line."
 },
 "Demi en Anne-Roos. Deze campagnes hebben wij zelf gedraaid, dus de cijfers hieronder komen uit onze eigen rapportage.": {
@@ -96,7 +96,7 @@ window.L2L_I18N_DATA = {
 "krijgt": {
 "en": "on the line"
 },
-". Wij tweeen draaien de campagnes, er zit geen accountmanager tussen.": {
+". Wij tweeën draaien de campagnes, er zit geen accountmanager tussen.": {
 "en": ". The two of us run the campaigns, there is no account manager in between."
 },
 "Bouwt de campagnes. Doelgroep, lijsten, verzendomeinen en de mails die eruit gaan.": {
@@ -2184,7 +2184,7 @@ window.L2L_I18N_DATA = {
 "Jij ontvangt de reacties": {
 "en": "You receive the replies"
 },
-"Geinteresseerde bedrijven komen direct in je eigen mailbox, met naam, functie en contactgegevens. Vanaf maand 2 verschuiven wij volume naar de segmenten die reageren.": {
+"Geïnteresseerde bedrijven komen direct in je eigen mailbox, met naam, functie en contactgegevens. Vanaf maand 2 verschuiven wij volume naar de segmenten die reageren.": {
 "en": "Interested companies land straight in your own inbox, with name, role and contact details. From month 2 we shift volume towards the segments that reply."
 },
 "ONBOARDING": {
@@ -2652,7 +2652,7 @@ window.L2L_I18N_DATA = {
 "Vanuit die klanten bepalen we welke bedrijven vergelijkbaar zijn, wie daar beslist en welke boodschap relevant is. Geen software die je zelf moet bedienen, geen leadlijst die je zelf moet mailen.": {
 "en": "From those clients we work out which companies are comparable, who decides there and which message is relevant. No software you have to operate, no lead list you have to email yourself."
 },
-"Jij houdt alleen de geinteresseerde reacties over": {
+"Jij houdt alleen de geïnteresseerde reacties over": {
 "en": "All that is left for you are the interested replies"
 },
 "Standaard: wat er na een reactie gebeurt": {
@@ -3690,7 +3690,7 @@ window.L2L_I18N_DATA = {
 "Bron: abalott.nl · gecontroleerd op 2 september 2026": {
 "en": "Source: abalott.nl · checked on 2 September 2026"
 },
-"Match-Day is geen mailbureau maar een salesbureau. Naast outbound doen ze HubSpot-implementatie en salestraining. Voor een organisatie waar niet alleen de leadstroom maar ook het opvolgproces rammelt, lost dat twee problemen tegelijk op, en dat is een reeel argument, want een bureau dat afspraken levert aan een team dat ze niet omzet, lost niets op.": {
+"Match-Day is geen mailbureau maar een salesbureau. Naast outbound doen ze HubSpot-implementatie en salestraining. Voor een organisatie waar niet alleen de leadstroom maar ook het opvolgproces rammelt, lost dat twee problemen tegelijk op, en dat is een reëel argument, want een bureau dat afspraken levert aan een team dat ze niet omzet, lost niets op.": {
 "en": "Match-Day is not an email agency but a sales agency. Alongside outbound they do HubSpot implementation and sales training. For an organisation where not only the lead flow but also the follow-up process is shaky, that solves two problems at once, and that is a real argument, because an agency that delivers meetings to a team that does not convert them solves nothing."
 },
 "Ze garanderen minimaal vijf gekwalificeerde meetings per maand en hebben veruit de diepste kennisbank van deze lijst: een blog met tientallen artikelen, een academy met video’s en een wiki met salesterminologie.": {
@@ -3735,7 +3735,7 @@ window.L2L_I18N_DATA = {
 "Bron: asphia.consulting · gecontroleerd op 2 september 2026. Het percentage is een claim van het bureau zelf en is door ons niet nagerekend.": {
 "en": "Source: asphia.consulting · checked on 2 September 2026. The percentage is a claim by the agency itself and has not been recalculated by us."
 },
-"Outventure is het enige bureau op deze lijst dat outbound, inbound en retentie onder een dak aanbiedt: cold e-mail en LinkedIn naast SEO, Google Ads en retargeting. Als je liever een partij aanspreekt voor de hele funnel dan drie leveranciers coordineert, is dat het argument. Ze werken met aparte landingspagina’s per sector. SaaS, logistiek, maakindustrie, startups, en publiceren per case een kostprijs per signup of per lead.": {
+"Outventure is het enige bureau op deze lijst dat outbound, inbound en retentie onder een dak aanbiedt: cold e-mail en LinkedIn naast SEO, Google Ads en retargeting. Als je liever een partij aanspreekt voor de hele funnel dan drie leveranciers coördineert, is dat het argument. Ze werken met aparte landingspagina’s per sector. SaaS, logistiek, maakindustrie, startups, en publiceren per case een kostprijs per signup of per lead.": {
 "en": "Outventure is the only agency on this list that offers outbound, inbound and retention under one roof: cold email and LinkedIn alongside SEO, Google Ads and retargeting. If you would rather deal with one party for the whole funnel than coordinate three suppliers, that is the argument. They work with separate landing pages per sector. SaaS, logistics, manufacturing, startups, and they publish a cost per signup or per lead for each case."
 },
 "Niet gepubliceerd. In cases worden bedragen als $ 2 per signup en $ 100 per lead genoemd, maar er is geen prijspagina.": {
@@ -3747,7 +3747,7 @@ window.L2L_I18N_DATA = {
 "Bron: outventure.io · gecontroleerd op 2 september 2026": {
 "en": "Source: outventure.io · checked on 2 September 2026"
 },
-"Provite verkoopt uitdrukkelijk het tegenovergestelde van volume. Geen callcenter, maar senior professionals, oud-ondernemers en salesdirecteuren, die het gesprek op niveau voeren. In markten waar de eerste vijf minuten aan de telefoon bepalen of je serieus wordt genomen, is dat een reeel voordeel boven een goedkopere beller.": {
+"Provite verkoopt uitdrukkelijk het tegenovergestelde van volume. Geen callcenter, maar senior professionals, oud-ondernemers en salesdirecteuren, die het gesprek op niveau voeren. In markten waar de eerste vijf minuten aan de telefoon bepalen of je serieus wordt genomen, is dat een reëel voordeel boven een goedkopere beller.": {
 "en": "Provite explicitly sells the opposite of volume. Not a call centre, but senior professionals, former entrepreneurs and sales directors, who hold the conversation at that level. In markets where the first five minutes on the phone determine whether you are taken seriously, that is a real advantage over a cheaper caller."
 },
 "Dit is bellen, geen e-mail.": {
@@ -4131,7 +4131,7 @@ window.L2L_I18N_DATA = {
 "Beperkt tot looptijd": {
 "en": "Limited to the contract term"
 },
-"Er is een reeel punt waarop een eigen SDR de betere keuze is. Vier signalen dat je daar bent:": {
+"Er is een reëel punt waarop een eigen SDR de betere keuze is. Vier signalen dat je daar bent:": {
 "en": "There is a real point at which your own SDR is the better choice. Four signals that you are there:"
 },
 "Je verkoopcyclus vraagt om gesprekken, niet om afspraken.": {
@@ -5367,7 +5367,7 @@ window.L2L_I18N_DATA = {
 "Die bandbreedte hangt vooral aan je volume. Wil je 1.000 mails per dag versturen, dan heb je 40 tot 80 mailboxen nodig en verbruik je ongeveer 10.000 verse leads per maand. Dan zit je aan de bovenkant, niet aan de onderkant. Leadaanbieders rekenen per credit, en een lead met een geverifieerd adres en een gecontroleerde functie kost meer dan een regel uit een gekocht bestand.": {
 "en": "That range depends mainly on your volume. If you want to send 1,000 emails a day, you need 40 to 80 mailboxes and use around 10,000 fresh leads per month. That puts you at the top of the range, not the bottom. Lead providers charge per credit, and a lead with a verified address and a checked job title costs more than a row from a bought list."
 },
-"Daar komt de belangrijkste post bij, en die staat nooit in een blog: iemand moet het draaien. Reken op een tot twee uur per werkdag voor lijstwerk, copy, deliverability-monitoring en het uitzoeken van binnenkomende reacties. Dat is 20 tot 40 uur per maand. Zet daar een intern uurtarief tegenover en je zit op € 1.500 tot € 3.500 per maand aan tijd. Bij een marketeer die dit erbij doet, is de reele kostenpost niet het salaris maar het werk dat blijft liggen.": {
+"Daar komt de belangrijkste post bij, en die staat nooit in een blog: iemand moet het draaien. Reken op een tot twee uur per werkdag voor lijstwerk, copy, deliverability-monitoring en het uitzoeken van binnenkomende reacties. Dat is 20 tot 40 uur per maand. Zet daar een intern uurtarief tegenover en je zit op € 1.500 tot € 3.500 per maand aan tijd. Bij een marketeer die dit erbij doet, is de reële kostenpost niet het salaris maar het werk dat blijft liggen.": {
 "en": "On top of that comes the most important item, and it never appears in a blog: someone has to run it. Count on one to two hours per working day for list work, copy, deliverability monitoring and sorting through incoming replies. That is 20 to 40 hours per month. Put an internal hourly rate against that and you are at EUR 1,500 to EUR 3,500 per month in time. For a marketer who does this on top of another job, the real cost is not the salary but the work that goes undone."
 },
 "En dan de leercurve. Een verzendinfrastructuur die je zelf opzet, is de eerste twee tot drie maanden bezig met warmup en het opbouwen van reputatie. Fouten in die fase, te snel opschalen, een vervuilde lijst, een verkeerd DNS-record, kosten je domeinen die je daarna kunt weggooien.": {
@@ -6345,7 +6345,7 @@ window.L2L_I18N_DATA = {
 "Wij schrijven de mails": {
 "en": "We write the emails"
 },
-"Een afgebakende doelgroep": {
+"Eén afgebakende doelgroep": {
 "en": "One clearly defined target audience"
 },
 "Garantie op genoeg leads": {
@@ -6696,7 +6696,7 @@ window.L2L_I18N_DATA = {
 "en Demi": {
 "en": "and Demi"
 },
-". Je krijgt een van ons tweeen aan de lijn.": {
+". Je krijgt één van ons tweeën aan de lijn.": {
 "en": ". You get one of the two of us on the line."
 },
 "Anne-Roos en Demi, de twee oprichters van Link2Leads, aan het werk": {
@@ -8088,7 +8088,7 @@ window.L2L_I18N_DATA = {
 "Wij verkopen geen gegevens uit het Handelsregister door en gebruiken het Handelsregister niet als bron voor de leadbestanden die wij leveren": {
 "en": "We do not resell data from the Dutch Chamber of Commerce register and do not use that register as a source for the lead files we deliver"
 },
-"Wij verwerken geen bijzondere categorieen van persoonsgegevens": {
+"Wij verwerken geen bijzondere categorieën van persoonsgegevens": {
 "en": "We do not process special categories of personal data"
 },
 "Wij verzamelen geen gegevens die alleen achter een inlog of betaalmuur beschikbaar zijn": {
@@ -8136,7 +8136,7 @@ window.L2L_I18N_DATA = {
 "Wij leggen in onze algemene voorwaarden vast dat de opdrachtgever de gegevens uitsluitend gebruikt voor zakelijke benadering van het betreffende bedrijf, binnen de AVG en de Telecommunicatiewet, en dat hij bezwaren zelf afhandelt en de gegevens niet doorverkoopt.": {
 "en": "Our terms and conditions state that the client uses the data solely to approach the company concerned in a business capacity, within the GDPR and the Dutch Telecommunications Act, and that they handle objections themselves and do not resell the data."
 },
-"De categorieen ontvangers zijn Nederlandse en Europese zakelijke opdrachtgevers die zelf zakelijke contacten benaderen. Vraag je ons aan wie een gegeven over jou is verstrekt, dan vertellen wij dat.": {
+"De categorieën ontvangers zijn Nederlandse en Europese zakelijke opdrachtgevers die zelf zakelijke contacten benaderen. Vraag je ons aan wie een gegeven over jou is verstrekt, dan vertellen wij dat.": {
 "en": "The categories of recipients are Dutch and European business clients who approach business contacts themselves. If you ask us to whom a data point about you has been disclosed, we will tell you."
 },
 "Wat wij niet leveren": {

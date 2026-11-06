@@ -344,7 +344,7 @@ async function getBusy(dateKey) {
    uitnodigingen heten bijv. "Kennismaking Link2Leads x Bedrijf") of de
    categorie CAT_AAN. Categorie CAT_UIT sluit een afspraak uit.
    Tijden komen in wereldtijd terug (ISO met Z), inclusief deelnemers,
-   categorieen en de Teams-link. Voor api/remind.js. */
+   categorieën en de Teams-link. Voor api/remind.js. */
 const CAT_AAN = 'L2L herinnering aan';
 // Gezet door api/klant.js zodra de prospect de vragenlijst op /klant heeft ingestuurd.
 const CAT_VL = 'L2L vragenlijst binnen';
@@ -433,7 +433,7 @@ async function transcribeUpcoming(days) {
   return log;
 }
 
-/* Zet een categorie op de afspraak. Categorieen zijn alleen zichtbaar voor de
+/* Zet een categorie op de afspraak. Categorieën zijn alleen zichtbaar voor de
    eigenaar van de agenda, dus de deelnemers krijgen hier geen update-mail van.
    Zo weet api/remind.js welke herinnering al verstuurd is. Zonder `owner`
    gaat het om de agenda van MS_CALENDAR_USER. */
