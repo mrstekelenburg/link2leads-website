@@ -2301,8 +2301,8 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 .hb-film{max-width:960px;margin:28px auto 0}
 .hb-note{position:relative;z-index:2;display:flex;align-items:flex-end;gap:4px;margin:-4px 0 0 -60px;color:#7EB3FF;text-decoration:none;font-family:'Caveat',cursive;font-size:27px;line-height:1.05;transform:rotate(-4deg)}
 .hb-note span{max-width:210px}
-.hb-note svg{flex-shrink:0;margin-bottom:-22px;animation:hbBob 1.6s ease-in-out infinite}
-@keyframes hbBob{0%,100%{transform:translate(0,0)}50%{transform:translate(-5px,5px)}}
+.hb-note svg{flex-shrink:0;margin-bottom:-34px;animation:hbBob 1.6s ease-in-out infinite}
+@keyframes hbBob{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
 @media(prefers-reduced-motion:reduce){.hb-note svg{animation:none}}
 @media(max-width:900px){.hb-right{display:none!important}.hb-grid{grid-template-columns:1fr;gap:0}.hb-left{padding-bottom:10px}.hero-film .hb-left .hero-h{font-size:clamp(34px,9vw,46px)!important}.hb-right img{max-width:340px}.hb-name{bottom:16%;right:2%}.hb-film{margin-top:20px}}
 </style>
@@ -2525,7 +2525,7 @@ function step(ts){if(!t0)t0=ts;var k=Math.min(1,(ts-t0)/dur),e=1-Math.pow(1-k,3)
 requestAnimationFrame(step);}
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){run(e.target);io.unobserve(e.target);}});},{threshold:.5});
 Array.prototype.forEach.call(els,function(el){if(/[0-9]/.test(el.textContent))io.observe(el);});})();</script>
-</div><div class="hb-right"><picture><source srcset="/assets/img/oprichters-hero.webp" type="image/webp"/><img src="/assets/img/oprichters-hero.png" width="625" height="714" alt="Anne-Roos en Demi, de oprichters van Link2Leads" fetchpriority="high"/></picture><span class="hb-name">Anne-Roos &amp; Demi<small>oprichters Link2Leads</small></span><a class="hb-note" href="#hvVideo"><svg viewBox="0 0 70 60" width="58" height="50" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M64 6C58 30 40 46 10 52"/><path d="M21 43L9 52l13 6"/></svg><span>In 40 seconden zie je hoe het werkt</span></a></div></div>
+</div><div class="hb-right"><picture><source srcset="/assets/img/oprichters-hero.webp" type="image/webp"/><img src="/assets/img/oprichters-hero.png" width="625" height="714" alt="Anne-Roos en Demi, de oprichters van Link2Leads" fetchpriority="high"/></picture><span class="hb-name">Anne-Roos &amp; Demi<small>oprichters Link2Leads</small></span><a class="hb-note" href="#hvVideo"><svg viewBox="0 0 70 60" width="58" height="50" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M62 8C40 4 32 24 32 56"/><path d="M23 46l9 11 9-11"/></svg><span>In 40 seconden zie je hoe het werkt</span></a></div></div>
 <div class="hb-film"><div class="hv-video" id="hvVideo">
 <video data-src="/assets/video/herofilm-v5.mp4" poster="/assets/video/herofilm-v5-poster.jpg" data-src-en="/assets/video/herofilm-v5-en.mp4" data-poster-en="/assets/video/herofilm-v5-en-poster.jpg" autoplay muted playsinline preload="none"></video>
 <button class="hv-unmute" type="button">
