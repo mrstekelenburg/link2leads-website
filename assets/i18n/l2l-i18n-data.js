@@ -6342,6 +6342,12 @@ window.L2L_I18N_DATA = {
 "Vaste campagnemanager": {
 "en": "Dedicated campaign manager"
 },
+"“Ik wil even laten weten dat ik het heel erg waardeer om een persoonlijke pagina te krijgen. Normaal krijg ik alleen maar ongepersonaliseerde mails. Dit was echt verfrissend.”": {
+"en": "“I just wanted to let you know that I really appreciate getting a personal page. Normally I only get generic emails. This was genuinely refreshing.”"
+},
+"Ontvanger van een persoonlijke pagina": {
+"en": "Recipient of a personal page"
+},
 "Wij schrijven de mails": {
 "en": "We write the emails"
 },

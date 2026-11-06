@@ -1,3 +1,6 @@
+**6 november 2026: reactie bij de case persoonlijke pagina**
+- Onder de derde case staat nu een reactie met vijf sterren van iemand die een persoonlijke pagina kreeg (doorgegeven door Demi). Zonder "op Google", omdat het geen Google-review is. `l2l-i18n.js?v=67`. Zelfde op link2leads.co.
+
 **6 november 2026: accenten en trema's waar de spelling ze vraagt**
 - Overal recht gezet: tweeën, ideeën, reëel/reële, coördineert, categorieën, geïnteresseerde, en één waar het om het getal gaat ("Eén afgebakende doelgroep", "één van ons tweeën"). Geen nadrukaccenten. Sleutels in `assets/i18n/l2l-i18n-data.js` mee aangepast, betrokken pagina's op `l2l-i18n.js?v=66`.
 
