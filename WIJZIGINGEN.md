@@ -1,3 +1,6 @@
+**6 november 2026: gezichtjes op mobiel**
+- Op mobiel staan tussen de kop en de film twee rondjes met de gezichten van Anne-Roos en Demi en de handgeschreven tekst "Check even de korte video hieronder" met pijltje. Kost één regel, de film blijft direct in beeld. Tik springt naar de film. `l2l-i18n.js?v=69`. Zelfde op link2leads.co.
+
 **6 november 2026: foto van Anne-Roos en Demi in de hero (alleen desktop)**
 - Op desktop staat de kop links met knop, tekst en cijfers, en rechts een uitgeknipte foto van Anne-Roos en Demi met een label en een handgeschreven verwijzing "In 40 seconden zie je hoe het werkt" met pijltje naar de film. De film staat daaronder.
 - Op mobiel is alles exact zoals het was: kop, film, knop, tekst, cijfers, geen foto.

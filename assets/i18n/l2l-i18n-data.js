@@ -6342,6 +6342,9 @@ window.L2L_I18N_DATA = {
 "Vaste campagnemanager": {
 "en": "Dedicated campaign manager"
 },
+"Check even de korte video hieronder": {
+"en": "Take a look at the short video below"
+},
 "oprichters Link2Leads": {
 "en": "founders of Link2Leads"
 },
