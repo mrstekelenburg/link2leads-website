@@ -1,3 +1,8 @@
+**6 november 2026: foto van Anne-Roos en Demi in de hero (alleen desktop)**
+- Op desktop staat de kop links met knop, tekst en cijfers, en rechts een uitgeknipte foto van Anne-Roos en Demi met een label en een handgeschreven verwijzing "In 40 seconden zie je hoe het werkt" met pijltje naar de film. De film staat daaronder.
+- Op mobiel is alles exact zoals het was: kop, film, knop, tekst, cijfers, geen foto.
+- Foto in `assets/img/oprichters-hero.webp/.png`. Previewpagina's van vandaag weggehaald. `l2l-i18n.js?v=68`. Zelfde op link2leads.co.
+
 **6 november 2026: cijfers in de hero tellen op**
 - 4,8 en 1.500.000+ onder de herofilm tellen vanaf 0 op zodra ze in beeld komen (1,6 seconde). Bij "verminderde beweging" in de systeeminstellingen blijven ze stilstaan. Zelfde op link2leads.co.
 

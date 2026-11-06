@@ -6342,6 +6342,12 @@ window.L2L_I18N_DATA = {
 "Vaste campagnemanager": {
 "en": "Dedicated campaign manager"
 },
+"oprichters Link2Leads": {
+"en": "founders of Link2Leads"
+},
+"In 40 seconden zie je hoe het werkt": {
+"en": "See how it works in 40 seconds"
+},
 "“Ik wil even laten weten dat ik het heel erg waardeer om een persoonlijke pagina te krijgen. Normaal krijg ik alleen maar ongepersonaliseerde mails. Dit was echt verfrissend.”": {
 "en": "“I just wanted to let you know that I really appreciate getting a personal page. Normally I only get generic emails. This was genuinely refreshing.”"
 },
