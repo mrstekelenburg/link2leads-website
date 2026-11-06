@@ -1,3 +1,8 @@
+**6 november 2026: pakketkaarten tonen alleen nog echte verschillen**
+- Onder de pakketten staat alleen wat per pakket verschilt: Starter een doelgroep, Growth twee doelgroepen tegelijk, Scale drie doelgroepen tegelijk plus garantie en Full Service mogelijk, Pro vijf doelgroepen tegelijk plus garantie en Full Service mogelijk. Afgestemd met Anne-Roos.
+- Vaste campagnemanager staat niet meer alleen bij Pro maar bij "Altijd inbegrepen" en in "Wat zit er in de prijs?".
+- Engels in `assets/i18n/l2l-i18n-data.js`, homepage op `l2l-i18n.js?v=63`. `llms-full.txt` opnieuw opgebouwd. Zelfde op link2leads.co.
+
 **6 november 2026: chat eruit**
 - De chatknop rechtsonder (Crisp) is van alle pagina's gehaald. WhatsApp blijft. Zelfde op link2leads.co.
 

@@ -6342,6 +6342,24 @@ window.L2L_I18N_DATA = {
 "Vaste campagnemanager": {
 "en": "Dedicated campaign manager"
 },
+"Een doelgroep": {
+"en": "One target audience"
+},
+"Twee doelgroepen tegelijk": {
+"en": "Two target audiences at once"
+},
+"Drie doelgroepen tegelijk": {
+"en": "Three target audiences at once"
+},
+"Vijf doelgroepen tegelijk": {
+"en": "Five target audiences at once"
+},
+"Full Service mogelijk": {
+"en": "Full Service available"
+},
+"Een vaste campagnemanager": {
+"en": "A dedicated campaign manager"
+},
 "100 mails per dag": {
 "en": "100 emails per day"
 },
