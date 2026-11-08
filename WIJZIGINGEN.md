@@ -1,3 +1,10 @@
+**8 november 2026: twee nieuwe kennisartikelen**
+- Nieuw: `/kennis/eerst-resultaat-zien` (Eerst resultaat zien voordat je tekent?) en `/kennis/domein-en-merk-veilig` (Beschadigt koude e-mail je domein of je merk?). Zelfde sjabloon als de andere kennisartikelen: Article, Organization, BreadcrumbList en FAQPage in schema.org, "Het korte antwoord", auteursblok, fitcheck-CTA en "Verder lezen".
+- Onderwerpen uit fitchecks en salescalls van de afgelopen twee weken: vragen over zekerheid vooraf ("wat als we na zes weken niks hebben?", vorig bureau viel tegen) en over het domein en de afzendernaam ("onder wiens naam?", "kan het vanaf ons eigen domein?"). Alleen cijfers en werkwijze die al op de site staan, geen klantnamen.
+- `kennis.html`: beide kaarten vooraan en twee items in het ItemList-schema.
+- `sitemap.xml`: beide url's erbij, lastmod van /kennis naar 8 november. `llms.txt`: twee regels erbij, datum naar 8 november. `llms-full.txt` opnieuw opgebouwd met `scripts/llms-full.py`.
+- Engelse vertalingen van alle nieuwe teksten in `assets/i18n/l2l-i18n-data.js`. `kennis.html` en de twee nieuwe artikelen op `l2l-i18n.js?v=72`.
+
 **6 november 2026: /book en /klant persoonlijker**
 - /book: onder de intro de gezichtjes van Anne-Roos en Demi met "Je spreekt Anne-Roos of Demi, geen accountmanager". Het fotoblok van Demi in de zijkolom is weg.
 - /klant: onder de intro "Anne-Roos en Demi lezen je antwoorden zelf", stap 2 heet "Fitcheck met Anne-Roos of Demi" met gezichtjes, en onder de startknop en onder Versturen "Je antwoorden komen direct bij Anne-Roos en Demi binnen".

@@ -1,6 +1,6 @@
 # Link2Leads, volledige tekst van alle kennispagina's
 
-Laatst bijgewerkt: 7 november 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
+Laatst bijgewerkt: 8 november 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
 Alle cijfers komen uit campagnes die Link2Leads namens klanten draait, gemeten op 2 september 2026.
 
 
@@ -1505,6 +1505,224 @@ Liever eerst even mailen? Dat kan ook: info@link2leads.nl
 - Waarom komen je koude mails niet aan?De instellingen die wij over ruim 300 mailboxen aanhouden
 - Hoeveel reacties krijg je op 30.000 mails?Benchmarks uit onze eigen campagnes
 - Een eigen landingspagina per prospectHoe we de personalisatie doortrekken na de klik
+
+
+==============================================================================
+# Beschadigt koude e-mail je domein of je merk?
+Bron: https://www.link2leads.nl/kennis/domein-en-merk-veilig
+==============================================================================
+
+Waarom je eigen domein buiten de campagne blijft, onder wiens naam de mails uitgaan en waar het risico voor je naam wel zit.
+
+Bijgewerkt 8 november 2026 · Demi Stekelenburg · Leestijd 7 minuten
+
+“Onder wiens naam gaat dat eigenlijk?” En meteen daarna: “Kunnen we niet gewoon ons eigen domein gebruiken?” Die twee vragen kwamen in de salesgesprekken van de afgelopen weken steeds terug. Daarachter zit meestal dezelfde zorg: dat een campagne iets beschadigt wat je in jaren hebt opgebouwd.
+
+Die zorg is terecht, want met een slordige inrichting kan dat gebeuren. Hieronder staat wat er met je domein gebeurt, wat ontvangers van je zien en waar het risico voor je naam echt zit.
+
+## Het korte antwoord
+
+Bij Link2Leads wordt je eigen domein nooit gebruikt. We versturen vanaf aparte verzenddomeinen die op je bedrijfsnaam lijken, met eigen mailboxen en eigen SPF, DKIM en DMARC. Je gewone mail, je offertes en je facturen hebben daar niets mee te maken.
+
+De mails gaan uit onder de naam van iemand uit je bedrijf. Positieve reacties komen in je eigen mailbox en je antwoordt vanaf je eigen adres. Het risico voor je merk zit in wat er in de mail staat en wie hem krijgt. Daarom keur je de lijst en de teksten zelf goed.
+
+## Waarom je hoofddomein erbuiten blijft
+
+Mailproviders houden per domein bij hoe de mail die ervandaan komt wordt ontvangen. Hoeveel adressen er niet bestaan en hoe vaak iemand op spam klikt, bijvoorbeeld. Op basis daarvan bepalen ze of de volgende mail in de inbox komt.
+
+Je hoofddomein draagt al je gewone mail. Een campagne die duizenden mails per maand naar onbekenden stuurt, gedraagt zich anders dan dat verkeer. Delen ze hetzelfde domein, dan delen ze ook de reputatie. Dat risico wil je voor je factuurmail niet lopen, en daarom loopt een campagne bij ons altijd via aparte domeinen.
+
+## Hoe die aparte domeinen eruitzien
+
+De verzenddomeinen lijken op je eigen domein en leiden naar je echte website. Wie het domein opzoekt, komt bij jou uit. Elk domein heeft een handvol mailboxen met correcte SPF-, DKIM- en DMARC-records. Met die instellingen controleert een ontvangende server of een afzender is wie hij zegt te zijn.
+
+Een nieuw domein heeft nog geen reputatie, dus de mailboxen draaien eerst twee weken warm. Ze versturen en ontvangen dan kleine aantallen mails. Die warmup blijft aan zolang de campagne loopt.
+
+Het volume verdelen we over veel mailboxen. Per mailbox versturen we maximaal 25 mails per dag, en we werken naar 12 toe. Een mailbox die rustig verstuurt, valt bij providers niet op. Bounce, spamklachten en de gezondheid van de mailboxen bekijken we dagelijks, over de ruim 300 mailboxen die we voor klanten draaien. Meer over die instellingen staat in waarom koude mails niet aankomen.
+
+Domeinen, mailboxen en verzendsoftware zitten in de prijs van elk pakket. De verzendomgeving blijft van ons. Stop je met de campagne, dan krijg je de contactgegevens, de reacties en de geschreven teksten mee.
+
+## Onder wiens naam de mail uitgaat
+
+Onder die van jou, of van een collega. De afzender is een persoon uit je bedrijf, met een gewone voor- en achternaam. In onze eigen cijfers doen campagnes vanaf een persoonsnaam het structureel beter dan campagnes vanaf een algemeen adres als info@.
+
+De ontvanger ziet dus jouw bedrijf en een naam die hij kan opzoeken. Er staat geen bureau tussen. Dat is ook waarom de inhoud van de mail zo zwaar weegt: hij komt van jou.
+
+## Waar de reacties terechtkomen
+
+Alle reacties komen eerst bij ons binnen, op de verzendmailboxen. We lezen ze met de hand. Wat een gesprek waard is, sturen we direct door naar je eigen mailbox, met de contactgegevens erbij. Vanaf daar neem je het over vanaf je gewone adres. Hoe je dat het beste aanpakt, lees je in een positieve reactie opvolgen.
+
+Afmeldingen en “geen interesse” handelen wij af. Wie zich afmeldt, komt op een suppressielijst die over al onze campagnes heen werkt en krijgt geen mail meer van ons. Die afmeldingen bewaren we ook nadat een samenwerking is gestopt.
+
+## Kan het niet vanaf ons eigen domein?
+
+Die vraag krijgen we vaak, en we doen het niet. Vaak zit er een goede gedachte achter: je wilt dat de mail herkenbaar van jou komt. Dat lukt ook met een verzenddomein dat op het jouwe lijkt en naar je site leidt, met jouw naam als afzender.
+
+Een andere gedachte is dat je eigen domein al jaren reputatie heeft en dus beter zou aankomen. Voor je gewone mail klopt dat. Die reputatie is precies wat je met een campagne op het spel zet. En het volume van een pakket past ook niet op een paar mailboxen op je eigen domein zonder dat providers het merken.
+
+## Waar het risico voor je merk zit
+
+Met de techniek goed ingericht, blijft er een risico over, en dat zit in de mail zelf. Een tekst die klinkt als iets wat jij nooit tegen een klant zou zeggen. Of een mail aan een bedrijf dat al jaren klant is. Daar onthoudt een ontvanger je op.
+
+Daar heb je zelf de hand in. Je krijgt de lijst te zien voordat er iets uitgaat en haalt eruit wat je liever zelf benadert, bestaande klanten en lopende trajecten bijvoorbeeld. De teksten keur je goed. Per bedrijf gaan er hooguit drie mails uit: een eerste mail en twee opvolgmails.
+
+Wanneer een koude mail als opdringerig overkomt en hoe je dat voorkomt, staat in is koude e-mail opdringerig. Wat er wettelijk in een zakelijke mail moet staan, lees je in mag koude e-mail in Nederland.
+
+## Veelgestelde vragen
+
+Wordt mijn eigen domein gebruikt?
+
+Nee. We versturen altijd vanaf aparte verzenddomeinen met eigen mailboxen en eigen SPF, DKIM en DMARC. Je gewone mail blijft daarbuiten.
+
+Ziet de ontvanger dat de mail via een bureau komt?
+
+De mail gaat uit onder de naam van iemand uit je bedrijf, vanaf een domein dat op het jouwe lijkt en naar je website leidt. Reacties die een gesprek waard zijn, beantwoord je vanaf je eigen adres.
+
+Moet ik zelf domeinen of mailboxen regelen?
+
+Nee. Domeinen, mailboxen, warmup en verzendsoftware zitten in de prijs van elk pakket. Je hoeft er niets voor in te richten.
+
+Van wie zijn de domeinen als ik stop?
+
+De verzendomgeving blijft van ons. Je krijgt de contactgegevens, de reacties en de geschreven teksten mee.
+
+Wat gebeurt er met mensen die zich afmelden?
+
+Die komen op een suppressielijst die over al onze campagnes heen werkt en krijgen geen mail meer. De afmelding blijft bewaard, ook nadat een samenwerking is gestopt.
+
+Demi Stekelenburg
+
+Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ruim 300 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.
+
+## Wil je zien hoe dat er voor jouw bedrijf uitziet?
+
+In de gratis fitcheck van 30 minuten lopen we door hoe de verzendomgeving voor jouw bedrijf wordt ingericht en wat je zelf goedkeurt voordat er iets uitgaat.
+
+Doe de gratis fitcheck Bekijk de pakketten
+
+Liever eerst even mailen? Dat kan ook: info@link2leads.nl
+
+## Verder lezen
+
+- Waarom komen je koude mails niet aan?Deliverability zonder marketingpraat
+- Is koude e-mail opdringerig?Waar de grens ligt voor de ontvanger
+- Mag koude e-mail in Nederland?De regels met de wetsartikelen erbij
+
+
+==============================================================================
+# Eerst resultaat zien voordat je tekent?
+Bron: https://www.link2leads.nl/kennis/eerst-resultaat-zien
+==============================================================================
+
+Welk bewijs je van een bureau mag vragen voordat je tekent, wat niemand je eerlijk kan beloven en wat er bij ons per pakket vastligt.
+
+Bijgewerkt 8 november 2026 · Demi Stekelenburg · Leestijd 7 minuten
+
+“Wat als we na zes weken nog niks hebben?” Die vraag kwam de afgelopen weken in bijna elke fitcheck langs. Soms in een andere vorm: laat eerst maar zien wat het oplevert, dan praten we verder. Of iemand vertelt dat een vorig bureau weinig opleverde en wil nu meer zekerheid voordat er een handtekening staat.
+
+Dat snap ik. Je betaalt voordat er een mail de deur uit is, en pas na een paar weken zie je wat je ervoor terugkrijgt. Hieronder staat welke zekerheid je vooraf redelijkerwijs kunt vragen en hoe dat bij ons geregeld is.
+
+## Het korte antwoord
+
+Resultaat van jouw eigen campagne kan geen bureau laten zien voordat die campagne draait. Je kunt wel cijfers vragen van campagnes die al gelopen hebben, met erbij wat ze kostten. En je kunt in het contract laten vastleggen wat er geleverd wordt.
+
+Bij Link2Leads staan op elk pakket het verzendvolume en de omvang van de lijst vast. Op Scale en Pro leggen we daarnaast vooraf een minimumaantal gekwalificeerde positieve reacties vast in het contract, gerekend over drie campagnemaanden. Afspraken en omzet garanderen we nergens.
+
+## Waarom een korte proef weinig zegt
+
+De logische reactie is: dan doen we eerst een maandje proef. Bij koude e-mail werkt dat slecht, en dat ligt aan hoe een campagne opstart.
+
+We versturen vanaf aparte domeinen en mailboxen. Die draaien eerst twee weken warm, anders landen de mails in de spam. Daarna begint de campagne op een derde van het volume en groeit ze in twee weken naar het volume uit je pakket. Een nieuwe tekst laten we minstens drie weken ongewijzigd staan, omdat de aantallen daarvoor te klein zijn om iets over te zeggen.
+
+Een proef van vier weken bestaat dus voor de helft uit opbouw. Wat je aan het eind ziet, is een campagne die net op gang komt. Daarom is de eerste termijn bij ons drie maanden. Het hele schema staat in hoe lang het duurt voordat koude e-mail iets oplevert.
+
+## Welk bewijs je wel mag vragen
+
+Je mag een bureau vragen om te laten zien wat het voor anderen heeft gedaan. Let dan op of de cijfers compleet zijn. Een mooi aantal reacties zonder prijs en looptijd erbij zegt weinig, want je weet niet wat het kostte om er te komen.
+
+Op onze homepage staan de cases daarom met pakket en bedrag. Een softwarebedrijf kreeg op het Scale-pakket in 90 dagen 38 gekwalificeerde afspraken, voor 3 maanden × € 1.695 = € 5.085. Dat is € 134 per afspraak. Een e-mailmarketingbureau op Growth, € 1.295 per maand, had binnen 14 dagen 15 positieve reacties, verdeeld over drie doelgroepen met elk een eigen boodschap.
+
+Vraag ook of je de klant kunt terugvinden. Bij beide cases staat een Google-review met vijf sterren van de klant zelf. Die lees je zonder dat wij erbij zijn.
+
+En vraag naar echte reacties uit lopende campagnes. Op de homepage staan er een paar onder “Ongefilterd uit onze inbox”, geanonimiseerd. Daaraan zie je wat voor reacties er binnenkomen, en dat zegt vaak meer dan een percentage. Onze eigen cijfers per campagne staan in hoeveel reacties je krijgt op 30.000 mails.
+
+## Een inschatting voor jouw markt
+
+Cijfers van een ander zeggen iets over het bureau. Over jouw markt zeggen ze weinig. Een accountant in Utrecht en een groothandel in bouwmaterialen krijgen andere reacties op dezelfde aanpak.
+
+Daarom rekenen we in de fitcheck door wat je in jouw situatie kunt verwachten. We kijken hoe groot je doelgroep is en wat je aanbiedt. Daar komt een concreet plan uit, met de datum waarop je live kunt.
+
+Zo’n inschatting blijft een verwachting. Hard wordt hij pas als hij in een contract staat.
+
+## Wat niemand je eerlijk kan beloven
+
+Een aantal afspraken of een bedrag aan omzet. Dat hangt af van dingen buiten de campagne: hoe snel je een reactie opvolgt en hoe het eerste gesprek loopt. Een bureau dat omzet belooft zonder je markt te kennen, belooft iets wat het niet in de hand heeft.
+
+Wat een campagne wel in de hand heeft, is of de juiste mensen een goede mail krijgen en of ze reageren. Daar kun je harde afspraken over maken. Onze garantie gaat daarom over positieve reacties.
+
+Een positieve reactie is een reactie waar een commerciële kans uit kan ontstaan. Iemand wil een gesprek of een demo, vraagt naar de prijs, stelt een inhoudelijke vraag over je dienst of verwijst je door naar de juiste collega. Afwijzingen, afmeldingen, automatische antwoorden en privacyvragen tellen niet mee. Iedere reactie wordt door een mens beoordeeld voordat hij bij jou terechtkomt.
+
+Betalen per resultaat bestaat ook. Waar je bij dat model op moet letten, staat in wat cold email uitbesteden kost.
+
+## Wat er per pakket vastligt
+
+Op elk pakket liggen twee dingen vast. Het eerste is het verzendvolume: 3.000 mails per maand op Starter, 7.500 op Growth, 15.000 op Scale en 30.000 op Pro, zeven dagen per week. Het tweede is de lijst. We garanderen dat er genoeg geverifieerde contacten in je doelgroep zijn om dat volume te vullen. In de rapportage zie je elke maand hoeveel mails er werkelijk zijn verstuurd.
+
+Op Scale en Pro komt daar een contractuele garantie op positieve reacties bij. Voor de start spreken we samen een realistisch minimum af, op basis van je doelgroep en je aanbod. Dat aantal komt in je contract, gerekend over drie campagnemaanden. De voorwaarden staan bij de pakketten op de homepage.
+
+## Wat je onderweg ziet
+
+Zekerheid vooraf helpt bij de beslissing. Daarna wil je kunnen volgen wat er gebeurt.
+
+Voordat er iets uitgaat, krijg je de lijst en de teksten te zien. Je haalt bestaande klanten en lopende trajecten eruit en keurt de mails goed. Zodra de campagne loopt, komt elke positieve reactie direct in je eigen mailbox, met de contactgegevens erbij. Elke week krijg je een rapportage met wat er is verstuurd en wat eruit kwam.
+
+Je vaste campagnemanager is Anne-Roos of ik. Heb je na de eerste weken vragen over de cijfers, dan bespreek je die met degene die de campagne zelf draait.
+
+## Als een vorig bureau tegenviel
+
+Een deel van de twijfel komt uit ervaring. Iemand heeft eerder betaald voor leadgeneratie en er weinig voor teruggezien. Vraag dan bij een volgend bureau precies naar de punten waar het vorige vaag bleef, zoals hoeveel mails er werkelijk uitgingen en wat er als resultaat telde.
+
+Die vragen staan op een rij in zeven vragen aan een leadgeneratiebureau, met onze eigen antwoorden erbij. Neem ze mee naar elk gesprek, ook naar dat met ons.
+
+## Veelgestelde vragen
+
+Kan ik eerst een proefmaand doen?
+
+De eerste termijn is drie maanden. De eerste twee weken draaien de mailboxen warm en daarna groeit het volume in twee weken naar het niveau van je pakket. Na een maand zie je een campagne die net op gang komt. Na de eerste drie maanden is het maandelijks opzegbaar.
+
+Krijg ik een garantie op afspraken?
+
+Nee. Op Scale en Pro leggen we een minimumaantal gekwalificeerde positieve reacties vast in het contract. Afspraken en omzet hangen ook af van je opvolging en je aanbod, en vallen buiten de garantie.
+
+Wat telt als positieve reactie?
+
+Een reactie waar een commerciële kans uit kan ontstaan: interesse in een gesprek of demo, een vraag over prijs of mogelijkheden, een inhoudelijke vraag of een doorverwijzing naar de juiste persoon. Afwijzingen, afmeldingen en automatische antwoorden tellen niet mee.
+
+Wat ligt er vast op Starter en Growth?
+
+Het verzendvolume van je pakket en genoeg geverifieerde contacten om dat volume te vullen. De garantie op positieve reacties hoort bij Scale en Pro.
+
+Kan ik reviews van klanten zelf nalezen?
+
+Ja. Bij de cases op de homepage staan Google-reviews van de klanten zelf. Onder Reviews op de homepage staan er meer.
+
+Demi Stekelenburg
+
+Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ruim 300 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.
+
+## Wil je weten wat je in jouw markt kunt verwachten?
+
+In de gratis fitcheck van 30 minuten rekenen we door wat een campagne in jouw markt kan opleveren en welk pakket daarbij past. Past koude e-mail niet bij je markt, dan hoor je dat ook.
+
+Doe de gratis fitcheck Bekijk de pakketten
+
+Liever eerst even mailen? Dat kan ook: info@link2leads.nl
+
+## Verder lezen
+
+- Zeven vragen aan een leadgeneratiebureauWat je vraagt voordat je tekent
+- Hoeveel reacties krijg je op 30.000 mails?Echte cijfers uit onze campagnes
+- Hoe lang duurt het voordat koude e-mail iets oplevert?Van akkoord tot eerste reacties, week voor week
 
 
 ==============================================================================
