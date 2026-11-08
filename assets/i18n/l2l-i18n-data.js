@@ -1,5 +1,332 @@
 /* Link2Leads i18n data — NL is the source language. Keys = exact Dutch text. */
 window.L2L_I18N_DATA = {
+"Eerst resultaat zien voordat": {
+"en": "See results first before"
+},
+"je tekent?": {
+"en": "you sign?"
+},
+"Welk bewijs je van een bureau mag vragen voordat je tekent, wat niemand je eerlijk kan beloven en wat er bij ons per pakket vastligt.": {
+"en": "What proof you can ask an agency for before you sign, what nobody can honestly promise you, and what is fixed in each of our packages."
+},
+"8 november 2026": {
+"en": "8 November 2026"
+},
+"Waarom een korte proef weinig zegt": {
+"en": "Why a short trial tells you little"
+},
+"Welk bewijs je wel mag vragen": {
+"en": "What proof you can ask for"
+},
+"Een inschatting voor jouw markt": {
+"en": "An estimate for your market"
+},
+"Wat niemand je eerlijk kan beloven": {
+"en": "What nobody can honestly promise you"
+},
+"Wat er per pakket vastligt": {
+"en": "What is fixed in each package"
+},
+"Wat je onderweg ziet": {
+"en": "What you see along the way"
+},
+"Als een vorig bureau tegenviel": {
+"en": "If a previous agency disappointed you"
+},
+"“Wat als we na zes weken nog niks hebben?” Die vraag kwam de afgelopen weken in bijna elke fitcheck langs. Soms in een andere vorm: laat eerst maar zien wat het oplevert, dan praten we verder. Of iemand vertelt dat een vorig bureau weinig opleverde en wil nu meer zekerheid voordat er een handtekening staat.": {
+"en": "“What if we still have nothing after six weeks?” That question came up in almost every fit check over the past few weeks. Sometimes in another form: show me what it delivers first, then we'll talk. Or someone tells us a previous agency delivered little and now wants more certainty before signing anything."
+},
+"Dat snap ik. Je betaalt voordat er een mail de deur uit is, en pas na een paar weken zie je wat je ervoor terugkrijgt. Hieronder staat welke zekerheid je vooraf redelijkerwijs kunt vragen en hoe dat bij ons geregeld is.": {
+"en": "I get that. You pay before a single email has gone out, and only after a few weeks do you see what you get in return. Below is the certainty you can reasonably ask for up front, and how we arrange it."
+},
+"Resultaat van jouw eigen campagne kan geen bureau laten zien voordat die campagne draait. Je kunt wel cijfers vragen van campagnes die al gelopen hebben, met erbij wat ze kostten. En je kunt in het contract laten vastleggen wat er geleverd wordt.": {
+"en": "No agency can show results from your own campaign before that campaign runs. You can ask for figures from campaigns that have already run, along with what they cost. And you can have the contract state what will be delivered."
+},
+"Bij Link2Leads staan op elk pakket het verzendvolume en de omvang van de lijst vast. Op Scale en Pro leggen we daarnaast vooraf een minimumaantal gekwalificeerde positieve reacties vast in het contract, gerekend over drie campagnemaanden. Afspraken en omzet garanderen we nergens.": {
+"en": "At Link2Leads, every package fixes the sending volume and the size of the list. On Scale and Pro we also agree a minimum number of qualified positive replies up front and put it in the contract, counted over three campaign months. We don't guarantee meetings or revenue on any package."
+},
+"De logische reactie is: dan doen we eerst een maandje proef. Bij koude e-mail werkt dat slecht, en dat ligt aan hoe een campagne opstart.": {
+"en": "The logical response is: then let's do a one-month trial first. With cold email that works poorly, and that comes down to how a campaign starts up."
+},
+"We versturen vanaf aparte domeinen en mailboxen. Die draaien eerst twee weken warm, anders landen de mails in de spam. Daarna begint de campagne op een derde van het volume en groeit ze in twee weken naar het volume uit je pakket. Een nieuwe tekst laten we minstens drie weken ongewijzigd staan, omdat de aantallen daarvoor te klein zijn om iets over te zeggen.": {
+"en": "We send from separate domains and mailboxes. They first warm up for two weeks, otherwise the emails land in spam. Then the campaign starts at a third of the volume and grows to your package volume over two weeks. We leave new copy unchanged for at least three weeks, because before that the numbers are too small to say anything."
+},
+"Een proef van vier weken bestaat dus voor de helft uit opbouw. Wat je aan het eind ziet, is een campagne die net op gang komt. Daarom is de eerste termijn bij ons drie maanden. Het hele schema staat in": {
+"en": "So half of a four-week trial is build-up. What you see at the end is a campaign that is just getting going. That's why our first term is three months. The full schedule is in"
+},
+"hoe lang het duurt voordat koude e-mail iets oplevert": {
+"en": "how long it takes before cold email delivers"
+},
+"Je mag een bureau vragen om te laten zien wat het voor anderen heeft gedaan. Let dan op of de cijfers compleet zijn. Een mooi aantal reacties zonder prijs en looptijd erbij zegt weinig, want je weet niet wat het kostte om er te komen.": {
+"en": "You can ask an agency to show what it has done for others. Check whether the figures are complete. A nice number of replies without the price and duration says little, because you don't know what it cost to get there."
+},
+"Op onze homepage staan de cases daarom met pakket en bedrag. Een softwarebedrijf kreeg op het Scale-pakket in 90 dagen 38 gekwalificeerde afspraken, voor 3 maanden × € 1.695 = € 5.085. Dat is € 134 per afspraak. Een e-mailmarketingbureau op Growth, € 1.295 per maand, had binnen 14 dagen 15 positieve reacties, verdeeld over drie doelgroepen met elk een eigen boodschap.": {
+"en": "That's why the cases on our homepage show the package and the amount. A software company on the Scale package got 38 qualified meetings in 90 days, for 3 months × € 1,695 = € 5,085. That's € 134 per meeting. An email marketing agency on Growth, € 1,295 per month, had 15 positive replies within 14 days, spread over three target groups with a message of their own."
+},
+"Vraag ook of je de klant kunt terugvinden. Bij beide cases staat een Google-review met vijf sterren van de klant zelf. Die lees je zonder dat wij erbij zijn.": {
+"en": "Also ask whether you can find the client yourself. Both cases have a five-star Google review from the client. You can read those without us being involved."
+},
+"En vraag naar echte reacties uit lopende campagnes. Op de homepage staan er een paar onder “Ongefilterd uit onze inbox”, geanonimiseerd. Daaraan zie je wat voor reacties er binnenkomen, en dat zegt vaak meer dan een percentage. Onze eigen cijfers per campagne staan in": {
+"en": "And ask for real replies from running campaigns. The homepage shows a few under “Unfiltered, straight from our inbox”, anonymised. They show you what kind of replies come in, which often says more than a percentage. Our own figures per campaign are in"
+},
+"hoeveel reacties je krijgt op 30.000 mails": {
+"en": "how many replies you get from 30,000 emails"
+},
+"Cijfers van een ander zeggen iets over het bureau. Over jouw markt zeggen ze weinig. Een accountant in Utrecht en een groothandel in bouwmaterialen krijgen andere reacties op dezelfde aanpak.": {
+"en": "Someone else's figures say something about the agency. They say little about your market. An accountant in Utrecht and a building materials wholesaler get different replies to the same approach."
+},
+"Daarom rekenen we in de fitcheck door wat je in jouw situatie kunt verwachten. We kijken hoe groot je doelgroep is en wat je aanbiedt. Daar komt een concreet plan uit, met de datum waarop je live kunt.": {
+"en": "That's why we work out in the fit check what you can expect in your situation. We look at how large your target group is and what you offer. The result is a concrete plan, including the date you can go live."
+},
+"Zo’n inschatting blijft een verwachting. Hard wordt hij pas als hij in een contract staat.": {
+"en": "An estimate like that remains an expectation. It only becomes firm once it is in a contract."
+},
+"Een aantal afspraken of een bedrag aan omzet. Dat hangt af van dingen buiten de campagne: hoe snel je een reactie opvolgt en hoe het eerste gesprek loopt. Een bureau dat omzet belooft zonder je markt te kennen, belooft iets wat het niet in de hand heeft.": {
+"en": "A number of meetings or an amount of revenue. That depends on things outside the campaign: how quickly you follow up a reply and how the first conversation goes. An agency that promises revenue without knowing your market is promising something it doesn't control."
+},
+"Wat een campagne wel in de hand heeft, is of de juiste mensen een goede mail krijgen en of ze reageren. Daar kun je harde afspraken over maken. Onze garantie gaat daarom over positieve reacties.": {
+"en": "What a campaign does control is whether the right people get a good email and whether they reply. You can make firm agreements about that. That's why our guarantee is about positive replies."
+},
+"Een positieve reactie is een reactie waar een commerciële kans uit kan ontstaan. Iemand wil een gesprek of een demo, vraagt naar de prijs, stelt een inhoudelijke vraag over je dienst of verwijst je door naar de juiste collega. Afwijzingen, afmeldingen, automatische antwoorden en privacyvragen tellen niet mee. Iedere reactie wordt door een mens beoordeeld voordat hij bij jou terechtkomt.": {
+"en": "A positive reply is a reply that can lead to a commercial opportunity. Someone wants a call or a demo, asks about the price, asks a question about your service or refers you to the right colleague. Rejections, unsubscribes, automatic replies and privacy questions don't count. A person reviews every reply before it reaches you."
+},
+"Betalen per resultaat bestaat ook. Waar je bij dat model op moet letten, staat in": {
+"en": "Paying per result also exists. What to watch for with that model is explained in"
+},
+"wat cold email uitbesteden kost": {
+"en": "what outsourcing cold email costs"
+},
+"Op elk pakket liggen twee dingen vast. Het eerste is het verzendvolume: 3.000 mails per maand op Starter, 7.500 op Growth, 15.000 op Scale en 30.000 op Pro, zeven dagen per week. Het tweede is de lijst. We garanderen dat er genoeg geverifieerde contacten in je doelgroep zijn om dat volume te vullen. In de rapportage zie je elke maand hoeveel mails er werkelijk zijn verstuurd.": {
+"en": "Every package fixes two things. The first is the sending volume: 3,000 emails per month on Starter, 7,500 on Growth, 15,000 on Scale and 30,000 on Pro, seven days a week. The second is the list. We guarantee there are enough verified contacts in your target group to fill that volume. Each month the report shows how many emails were actually sent."
+},
+"Op Scale en Pro komt daar een contractuele garantie op positieve reacties bij. Voor de start spreken we samen een realistisch minimum af, op basis van je doelgroep en je aanbod. Dat aantal komt in je contract, gerekend over drie campagnemaanden. De voorwaarden staan bij de": {
+"en": "On Scale and Pro you also get a contractual guarantee on positive replies. Before the start we agree a realistic minimum together, based on your target group and your offer. That number goes into your contract, counted over three campaign months. The terms are listed with the"
+},
+"pakketten op de homepage": {
+"en": "packages on the homepage"
+},
+"Zekerheid vooraf helpt bij de beslissing. Daarna wil je kunnen volgen wat er gebeurt.": {
+"en": "Certainty up front helps with the decision. After that, you want to be able to follow what happens."
+},
+"Voordat er iets uitgaat, krijg je de lijst en de teksten te zien. Je haalt bestaande klanten en lopende trajecten eruit en keurt de mails goed. Zodra de campagne loopt, komt elke positieve reactie direct in je eigen mailbox, met de contactgegevens erbij. Elke week krijg je een rapportage met wat er is verstuurd en wat eruit kwam.": {
+"en": "Before anything goes out, you see the list and the copy. You remove existing clients and ongoing deals and approve the emails. Once the campaign runs, every positive reply goes straight to your own inbox, with the contact details. Every week you get a report on what was sent and what came of it."
+},
+"Je vaste campagnemanager is Anne-Roos of ik. Heb je na de eerste weken vragen over de cijfers, dan bespreek je die met degene die de campagne zelf draait.": {
+"en": "Your dedicated campaign manager is Anne-Roos or me. If you have questions about the numbers after the first weeks, you discuss them with the person who runs the campaign."
+},
+"Een deel van de twijfel komt uit ervaring. Iemand heeft eerder betaald voor leadgeneratie en er weinig voor teruggezien. Vraag dan bij een volgend bureau precies naar de punten waar het vorige vaag bleef, zoals hoeveel mails er werkelijk uitgingen en wat er als resultaat telde.": {
+"en": "Some of the doubt comes from experience. Someone paid for lead generation before and saw little in return. In that case, ask the next agency about exactly the points where the previous one stayed vague, such as how many emails actually went out and what counted as a result."
+},
+"Die vragen staan op een rij in": {
+"en": "Those questions are listed in"
+},
+"zeven vragen aan een leadgeneratiebureau": {
+"en": "seven questions for a lead generation agency"
+},
+", met onze eigen antwoorden erbij. Neem ze mee naar elk gesprek, ook naar dat met ons.": {
+"en": ", with our own answers. Take them to every conversation, including the one with us."
+},
+"Kan ik eerst een proefmaand doen?": {
+"en": "Can I do a trial month first?"
+},
+"De eerste termijn is drie maanden. De eerste twee weken draaien de mailboxen warm en daarna groeit het volume in twee weken naar het niveau van je pakket. Na een maand zie je een campagne die net op gang komt. Na de eerste drie maanden is het maandelijks opzegbaar.": {
+"en": "The first term is three months. In the first two weeks the mailboxes warm up, and then the volume grows to your package level over two weeks. After one month you see a campaign that is just getting going. After the first three months you can cancel monthly."
+},
+"Krijg ik een garantie op afspraken?": {
+"en": "Do I get a guarantee on meetings?"
+},
+"Nee. Op Scale en Pro leggen we een minimumaantal gekwalificeerde positieve reacties vast in het contract. Afspraken en omzet hangen ook af van je opvolging en je aanbod, en vallen buiten de garantie.": {
+"en": "No. On Scale and Pro we put a minimum number of qualified positive replies in the contract. Meetings and revenue also depend on your follow-up and your offer, and fall outside the guarantee."
+},
+"Wat telt als positieve reactie?": {
+"en": "What counts as a positive reply?"
+},
+"Een reactie waar een commerciële kans uit kan ontstaan: interesse in een gesprek of demo, een vraag over prijs of mogelijkheden, een inhoudelijke vraag of een doorverwijzing naar de juiste persoon. Afwijzingen, afmeldingen en automatische antwoorden tellen niet mee.": {
+"en": "A reply that can lead to a commercial opportunity: interest in a call or demo, a question about pricing or options, a question about your service or a referral to the right person. Rejections, unsubscribes and automatic replies don't count."
+},
+"Wat ligt er vast op Starter en Growth?": {
+"en": "What is fixed on Starter and Growth?"
+},
+"Het verzendvolume van je pakket en genoeg geverifieerde contacten om dat volume te vullen. De garantie op positieve reacties hoort bij Scale en Pro.": {
+"en": "The sending volume of your package and enough verified contacts to fill that volume. The guarantee on positive replies comes with Scale and Pro."
+},
+"Kan ik reviews van klanten zelf nalezen?": {
+"en": "Can I read client reviews myself?"
+},
+"Ja. Bij de cases op de homepage staan Google-reviews van de klanten zelf. Onder Reviews op de homepage staan er meer.": {
+"en": "Yes. The cases on the homepage include Google reviews from the clients themselves. You'll find more under Reviews on the homepage."
+},
+"Wil je weten wat je in jouw markt kunt verwachten?": {
+"en": "Want to know what you can expect in your market?"
+},
+"In de gratis fitcheck van 30 minuten rekenen we door wat een campagne in jouw markt kan opleveren en welk pakket daarbij past. Past koude e-mail niet bij je markt, dan hoor je dat ook.": {
+"en": "In the free 30-minute fit check we work out what a campaign can deliver in your market and which package fits. If cold email doesn't suit your market, we'll tell you that too."
+},
+"Wat je vraagt voordat je tekent": {
+"en": "What to ask before you sign"
+},
+"Van akkoord tot eerste reacties, week voor week": {
+"en": "From sign-off to first replies, week by week"
+},
+"Eerst resultaat zien? Wat je vooraf mag vragen | Link2Leads": {
+"en": "See results first? What to ask up front | Link2Leads"
+},
+"Welk bewijs je van een leadgeneratiebureau mag vragen voordat je tekent, wat niemand je eerlijk kan beloven en wat een garantie op positieve reacties inhoudt.": {
+"en": "What proof you can ask a lead generation agency for before you sign, what nobody can honestly promise you and what a guarantee on positive replies means."
+},
+"Eerst resultaat zien voordat je tekent?": {
+"en": "See results first before you sign?"
+},
+"Beschadigt koude e-mail je domein": {
+"en": "Does cold email damage your domain"
+},
+"of je merk?": {
+"en": "or your brand?"
+},
+"Waarom je eigen domein buiten de campagne blijft, onder wiens naam de mails uitgaan en waar het risico voor je naam wel zit.": {
+"en": "Why your own domain stays out of the campaign, whose name the emails go out under, and where the risk to your name does lie."
+},
+"Waarom je hoofddomein erbuiten blijft": {
+"en": "Why your main domain stays out of it"
+},
+"Hoe die aparte domeinen eruitzien": {
+"en": "What those separate domains look like"
+},
+"Onder wiens naam de mail uitgaat": {
+"en": "Whose name the email goes out under"
+},
+"Waar de reacties terechtkomen": {
+"en": "Where the replies end up"
+},
+"Kan het niet vanaf ons eigen domein?": {
+"en": "Can't it go from our own domain?"
+},
+"Waar het risico voor je merk zit": {
+"en": "Where the risk to your brand lies"
+},
+"“Onder wiens naam gaat dat eigenlijk?” En meteen daarna: “Kunnen we niet gewoon ons eigen domein gebruiken?” Die twee vragen kwamen in de salesgesprekken van de afgelopen weken steeds terug. Daarachter zit meestal dezelfde zorg: dat een campagne iets beschadigt wat je in jaren hebt opgebouwd.": {
+"en": "“Whose name does that actually go out under?” And straight after: “Can't we just use our own domain?” Those two questions kept coming up in sales calls over the past few weeks. Behind them is usually the same concern: that a campaign damages something you have built up over years."
+},
+"Die zorg is terecht, want met een slordige inrichting kan dat gebeuren. Hieronder staat wat er met je domein gebeurt, wat ontvangers van je zien en waar het risico voor je naam echt zit.": {
+"en": "That concern is fair, because with a sloppy setup it can happen. Below is what happens to your domain, what recipients see of you, and where the real risk to your name lies."
+},
+"Bij Link2Leads wordt je eigen domein nooit gebruikt. We versturen vanaf aparte verzenddomeinen die op je bedrijfsnaam lijken, met eigen mailboxen en eigen SPF, DKIM en DMARC. Je gewone mail, je offertes en je facturen hebben daar niets mee te maken.": {
+"en": "At Link2Leads your own domain is never used. We send from separate sending domains that resemble your company name, with their own mailboxes and their own SPF, DKIM and DMARC. Your regular email, your quotes and your invoices have nothing to do with it."
+},
+"De mails gaan uit onder de naam van iemand uit je bedrijf. Positieve reacties komen in je eigen mailbox en je antwoordt vanaf je eigen adres. Het risico voor je merk zit in wat er in de mail staat en wie hem krijgt. Daarom keur je de lijst en de teksten zelf goed.": {
+"en": "The emails go out under the name of someone from your company. Positive replies arrive in your own inbox and you answer from your own address. The risk to your brand lies in what the email says and who receives it. That's why you approve the list and the copy yourself."
+},
+"Mailproviders houden per domein bij hoe de mail die ervandaan komt wordt ontvangen. Hoeveel adressen er niet bestaan en hoe vaak iemand op spam klikt, bijvoorbeeld. Op basis daarvan bepalen ze of de volgende mail in de inbox komt.": {
+"en": "Mail providers track, per domain, how the email coming from it is received. How many addresses don't exist and how often someone clicks spam, for example. Based on that they decide whether the next email reaches the inbox."
+},
+"Je hoofddomein draagt al je gewone mail. Een campagne die duizenden mails per maand naar onbekenden stuurt, gedraagt zich anders dan dat verkeer. Delen ze hetzelfde domein, dan delen ze ook de reputatie. Dat risico wil je voor je factuurmail niet lopen, en daarom loopt een campagne bij ons altijd via aparte domeinen.": {
+"en": "Your main domain carries all your regular email. A campaign that sends thousands of emails a month to strangers behaves differently from that traffic. If they share the same domain, they share the reputation too. You don't want to take that risk with your invoice email, which is why our campaigns always run through separate domains."
+},
+"De verzenddomeinen lijken op je eigen domein en leiden naar je echte website. Wie het domein opzoekt, komt bij jou uit. Elk domein heeft een handvol mailboxen met correcte SPF-, DKIM- en DMARC-records. Met die instellingen controleert een ontvangende server of een afzender is wie hij zegt te zijn.": {
+"en": "The sending domains resemble your own domain and lead to your real website. Anyone who looks up the domain ends up with you. Each domain has a handful of mailboxes with correct SPF, DKIM and DMARC records. Those are the settings a receiving server uses to check whether a sender is who they claim to be."
+},
+"Een nieuw domein heeft nog geen reputatie, dus de mailboxen draaien eerst twee weken warm. Ze versturen en ontvangen dan kleine aantallen mails. Die warmup blijft aan zolang de campagne loopt.": {
+"en": "A new domain has no reputation yet, so the mailboxes first warm up for two weeks. They send and receive small numbers of emails. That warm-up stays on for as long as the campaign runs."
+},
+"Het volume verdelen we over veel mailboxen. Per mailbox versturen we maximaal 25 mails per dag, en we werken naar 12 toe. Een mailbox die rustig verstuurt, valt bij providers niet op. Bounce, spamklachten en de gezondheid van de mailboxen bekijken we dagelijks, over de ruim 300 mailboxen die we voor klanten draaien. Meer over die instellingen staat in": {
+"en": "We spread the volume over many mailboxes. Each mailbox sends at most 25 emails a day, and we work towards 12. A mailbox that sends at a calm pace doesn't stand out to providers. We check bounces, spam complaints and mailbox health daily, across the 300-plus mailboxes we run for clients. More about those settings is in"
+},
+"waarom koude mails niet aankomen": {
+"en": "why cold emails don't arrive"
+},
+"Domeinen, mailboxen en verzendsoftware zitten in de prijs van elk pakket. De verzendomgeving blijft van ons. Stop je met de campagne, dan krijg je de contactgegevens, de reacties en de geschreven teksten mee.": {
+"en": "Domains, mailboxes and sending software are included in the price of every package. The sending setup stays ours. If you stop the campaign, you take the contact details, the replies and the written copy with you."
+},
+"Onder die van jou, of van een collega. De afzender is een persoon uit je bedrijf, met een gewone voor- en achternaam. In onze eigen cijfers doen campagnes vanaf een persoonsnaam het structureel beter dan campagnes vanaf een algemeen adres als info@.": {
+"en": "Yours, or a colleague's. The sender is a person from your company, with an ordinary first and last name. In our own figures, campaigns sent from a personal name consistently do better than campaigns from a generic address like info@."
+},
+"De ontvanger ziet dus jouw bedrijf en een naam die hij kan opzoeken. Er staat geen bureau tussen. Dat is ook waarom de inhoud van de mail zo zwaar weegt: hij komt van jou.": {
+"en": "So the recipient sees your company and a name they can look up. There's no agency in between. That's also why the content of the email carries so much weight: it comes from you."
+},
+"Alle reacties komen eerst bij ons binnen, op de verzendmailboxen. We lezen ze met de hand. Wat een gesprek waard is, sturen we direct door naar je eigen mailbox, met de contactgegevens erbij. Vanaf daar neem je het over vanaf je gewone adres. Hoe je dat het beste aanpakt, lees je in": {
+"en": "All replies first come in with us, on the sending mailboxes. We read them by hand. Anything worth a conversation we forward straight to your own inbox, with the contact details. From there you take over from your regular address. How best to handle that is explained in"
+},
+"een positieve reactie opvolgen": {
+"en": "following up a positive reply"
+},
+"Afmeldingen en “geen interesse” handelen wij af. Wie zich afmeldt, komt op een suppressielijst die over al onze campagnes heen werkt en krijgt geen mail meer van ons. Die afmeldingen bewaren we ook nadat een samenwerking is gestopt.": {
+"en": "We handle unsubscribes and “not interested” replies. Anyone who unsubscribes goes on a suppression list that applies across all our campaigns and gets no more email from us. We keep those unsubscribes even after a collaboration has ended."
+},
+"Die vraag krijgen we vaak, en we doen het niet. Vaak zit er een goede gedachte achter: je wilt dat de mail herkenbaar van jou komt. Dat lukt ook met een verzenddomein dat op het jouwe lijkt en naar je site leidt, met jouw naam als afzender.": {
+"en": "We get that question often, and we don't do it. There's often a good thought behind it: you want the email to be recognisably yours. That also works with a sending domain that resembles yours and leads to your site, with your name as the sender."
+},
+"Een andere gedachte is dat je eigen domein al jaren reputatie heeft en dus beter zou aankomen. Voor je gewone mail klopt dat. Die reputatie is precies wat je met een campagne op het spel zet. En het volume van een pakket past ook niet op een paar mailboxen op je eigen domein zonder dat providers het merken.": {
+"en": "Another thought is that your own domain has years of reputation and would therefore land better. For your regular email that's true. That reputation is exactly what you put at stake with a campaign. And a package's volume doesn't fit on a few mailboxes on your own domain without providers noticing."
+},
+"Met de techniek goed ingericht, blijft er een risico over, en dat zit in de mail zelf. Een tekst die klinkt als iets wat jij nooit tegen een klant zou zeggen. Of een mail aan een bedrijf dat al jaren klant is. Daar onthoudt een ontvanger je op.": {
+"en": "With the technical side set up properly, one risk remains, and it lies in the email itself. Copy that sounds like something you would never say to a client. Or an email to a company that has been a client for years. That's what a recipient remembers you by."
+},
+"Daar heb je zelf de hand in. Je krijgt de lijst te zien voordat er iets uitgaat en haalt eruit wat je liever zelf benadert, bestaande klanten en lopende trajecten bijvoorbeeld. De teksten keur je goed. Per bedrijf gaan er hooguit drie mails uit: een eerste mail en twee opvolgmails.": {
+"en": "You have a hand in that yourself. You see the list before anything goes out and remove what you'd rather approach yourself, existing clients and ongoing deals for example. You approve the copy. Each company receives at most three emails: a first email and two follow-ups."
+},
+"Wanneer een koude mail als opdringerig overkomt en hoe je dat voorkomt, staat in": {
+"en": "When a cold email comes across as pushy and how to prevent that is covered in"
+},
+"is koude e-mail opdringerig": {
+"en": "is cold email pushy"
+},
+". Wat er wettelijk in een zakelijke mail moet staan, lees je in": {
+"en": ". What a business email must contain by law, you can read in"
+},
+"Wordt mijn eigen domein gebruikt?": {
+"en": "Is my own domain used?"
+},
+"Nee. We versturen altijd vanaf aparte verzenddomeinen met eigen mailboxen en eigen SPF, DKIM en DMARC. Je gewone mail blijft daarbuiten.": {
+"en": "No. We always send from separate sending domains with their own mailboxes and their own SPF, DKIM and DMARC. Your regular email stays out of it."
+},
+"Ziet de ontvanger dat de mail via een bureau komt?": {
+"en": "Can the recipient see the email comes through an agency?"
+},
+"De mail gaat uit onder de naam van iemand uit je bedrijf, vanaf een domein dat op het jouwe lijkt en naar je website leidt. Reacties die een gesprek waard zijn, beantwoord je vanaf je eigen adres.": {
+"en": "The email goes out under the name of someone from your company, from a domain that resembles yours and leads to your website. You answer replies worth a conversation from your own address."
+},
+"Moet ik zelf domeinen of mailboxen regelen?": {
+"en": "Do I need to arrange domains or mailboxes myself?"
+},
+"Nee. Domeinen, mailboxen, warmup en verzendsoftware zitten in de prijs van elk pakket. Je hoeft er niets voor in te richten.": {
+"en": "No. Domains, mailboxes, warm-up and sending software are included in the price of every package. You don't need to set anything up."
+},
+"Van wie zijn de domeinen als ik stop?": {
+"en": "Who owns the domains if I stop?"
+},
+"De verzendomgeving blijft van ons. Je krijgt de contactgegevens, de reacties en de geschreven teksten mee.": {
+"en": "The sending setup stays ours. You take the contact details, the replies and the written copy with you."
+},
+"Wat gebeurt er met mensen die zich afmelden?": {
+"en": "What happens to people who unsubscribe?"
+},
+"Die komen op een suppressielijst die over al onze campagnes heen werkt en krijgen geen mail meer. De afmelding blijft bewaard, ook nadat een samenwerking is gestopt.": {
+"en": "They go on a suppression list that applies across all our campaigns and get no more email. The unsubscribe is kept, even after a collaboration has ended."
+},
+"Wil je zien hoe dat er voor jouw bedrijf uitziet?": {
+"en": "Want to see what that looks like for your company?"
+},
+"In de gratis fitcheck van 30 minuten lopen we door hoe de verzendomgeving voor jouw bedrijf wordt ingericht en wat je zelf goedkeurt voordat er iets uitgaat.": {
+"en": "In the free 30-minute fit check we walk through how the sending setup for your company is arranged and what you approve yourself before anything goes out."
+},
+"Beschadigt koude e-mail je domein of merk? | Link2Leads": {
+"en": "Does cold email damage your domain or brand? | Link2Leads"
+},
+"Waarom je eigen domein buiten een campagne blijft, onder wiens naam de mails uitgaan, waar de reacties terechtkomen en waar het risico voor je naam wel zit.": {
+"en": "Why your own domain stays out of a campaign, whose name the emails go out under, where the replies end up and where the risk to your name does lie."
+},
+"Beschadigt koude e-mail je domein of je merk?": {
+"en": "Does cold email damage your domain or your brand?"
+},
+"Keuzehulp · 7 min": {
+"en": "Decision guide · 7 min"
+},
+"Welk bewijs je mag vragen voordat je tekent, wat niemand eerlijk kan beloven en wat er per pakket vastligt.": {
+"en": "What proof you can ask for before you sign, what nobody can honestly promise and what is fixed in each package."
+},
+"Deliverability · 7 min": {
+"en": "Deliverability · 7 min"
+},
 "Je spreekt Anne-Roos of Demi, geen accountmanager": {
 "en": "You'll speak to Anne-Roos or Demi, not an account manager"
 },
