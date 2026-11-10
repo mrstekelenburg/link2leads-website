@@ -2006,7 +2006,7 @@ Een paar keuzes maken het verschil tussen een mail die gelezen wordt en een mail
 
 - Een aanleiding per bedrijf. We zoeken per bedrijf naar een reden om nu te mailen, zoals een openstaande vacature of een nieuwe vestiging. De mail verwijst daarnaar, zodat de eerste zin over de ontvanger gaat.
 - Hooguit drie mails per bedrijf. Een eerste mail en twee opvolgmails. Daarna houdt het op, ook als er geen antwoord komt.
-- Een herkenbare afzender. Een echte naam boven de mail, van een bedrijf dat je kunt opzoeken op een domein dat naar een echte site leidt.
+- Een herkenbare afzender. Een echte naam boven de mail, van een bedrijf dat je zonder moeite kunt opzoeken.
 - Nee is nee, overal. Wie zich afmeldt, komt op een suppressielijst die over al onze campagnes heen werkt. Die afmeldingen bewaren we ook nadat een samenwerking is gestopt.
 - Korte teksten die jij goedkeurt. Een mail die je op je telefoon in een keer leest. Je keurt de teksten goed voordat ze de deur uit gaan.
 
@@ -2347,7 +2347,7 @@ Wat precies onder "daarvoor bestemd" valt, staat niet in de wet uitgewerkt. Waar
 
 ## Wat dit betekent voor je mail
 
-- Afzender herkenbaar. Een persoonsnaam met een bedrijfsnaam die klopt, op een domein dat naar een echte site leidt met een echt KvK-nummer.
+- Afzender herkenbaar. Een persoonsnaam met een bedrijfsnaam die klopt, zodat de ontvanger met één zoekopdracht bij de echte site en het KvK-nummer uitkomt.
 - Een werkend afmeldkanaal. Er moet een geldig adres zijn waar de ontvanger bezwaar kan maken, en je moet er ook echt naar handelen. Bij ons is dat een reply-adres dat we dagelijks verwerken, met een suppressielijst waar het adres daadwerkelijk in belandt.
 - Relevantie. Een aanbod dat past bij de functie van de ontvanger, en een beperkt aantal berichten.
 
