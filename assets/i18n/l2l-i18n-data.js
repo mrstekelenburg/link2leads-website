@@ -5226,8 +5226,8 @@ window.L2L_I18N_DATA = {
 "Afzender herkenbaar.": {
 "en": "Recognisable sender."
 },
-"Een persoonsnaam met een bedrijfsnaam die klopt, op een domein dat naar een echte site leidt met een echt KvK-nummer.": {
-"en": "A person's name with a company name that checks out, on a domain that leads to a real site with a real KvK number (Dutch Chamber of Commerce)."
+"Een persoonsnaam met een bedrijfsnaam die klopt, zodat de ontvanger met één zoekopdracht bij de echte site en het KvK-nummer uitkomt.": {
+"en": "A person's name with a company name that checks out, so the recipient can find the real website and KvK number (Dutch Chamber of Commerce) in one search."
 },
 "Een werkend afmeldkanaal.": {
 "en": "A working opt-out channel."
@@ -10835,8 +10835,8 @@ window.L2L_I18N_DATA = {
 "Een herkenbare afzender.": {
 "en": "A recognisable sender."
 },
-"Een echte naam boven de mail, van een bedrijf dat je kunt opzoeken op een domein dat naar een echte site leidt.": {
-"en": "A real name on the email, from a company you can look up, on a domain that leads to a real website."
+"Een echte naam boven de mail, van een bedrijf dat je zonder moeite kunt opzoeken.": {
+"en": "A real name on the email, from a company you can look up without effort."
 },
 "Nee is nee, overal.": {
 "en": "No means no, everywhere."
