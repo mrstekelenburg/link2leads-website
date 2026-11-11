@@ -1,3 +1,10 @@
+**11 november 2026: twee nieuwe kennisartikelen**
+- Nieuw: `/kennis/korte-eerste-mail` (Moet er niet meer informatie in die eerste mail?) en `/kennis/doelgroep-afbakenen` (Weten jullie eigenlijk wie mijn doelgroep is?). Zelfde sjabloon als de andere kennisartikelen: Article, Organization, BreadcrumbList en FAQPage in schema.org, "Het korte antwoord", auteursblok, fitcheck-CTA en "Verder lezen".
+- Onderwerpen uit salescalls van vorige week: de eerste mail voelde te kaal en de mails volgden elkaar snel op, en vragen over wie je binnen een bedrijf mailt en in welke volgorde (plus vaste lijst nr. 5). Alleen cijfers en werkwijze die al op de site staan, geen namen.
+- `kennis.html`: beide kaarten vooraan en twee items in het ItemList-schema.
+- `sitemap.xml`: beide url's erbij, lastmod van /kennis naar 11 november. `llms.txt`: twee regels erbij, datum naar 11 november. `llms-full.txt` opnieuw opgebouwd met `scripts/llms-full.py`.
+- Engelse vertalingen van alle nieuwe teksten in `assets/i18n/l2l-i18n-data.js`. `kennis.html` en de twee nieuwe artikelen op `l2l-i18n.js?v=73`.
+
 **8 november 2026: twee nieuwe kennisartikelen**
 - Nieuw: `/kennis/eerst-resultaat-zien` (Eerst resultaat zien voordat je tekent?) en `/kennis/domein-en-merk-veilig` (Beschadigt koude e-mail je domein of je merk?). Zelfde sjabloon als de andere kennisartikelen: Article, Organization, BreadcrumbList en FAQPage in schema.org, "Het korte antwoord", auteursblok, fitcheck-CTA en "Verder lezen".
 - Onderwerpen uit fitchecks en salescalls van de afgelopen twee weken: vragen over zekerheid vooraf ("wat als we na zes weken niks hebben?", vorig bureau viel tegen) en over het domein en de afzendernaam ("onder wiens naam?", "kan het vanaf ons eigen domein?"). Alleen cijfers en werkwijze die al op de site staan, geen klantnamen.

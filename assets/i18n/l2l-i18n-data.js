@@ -12764,5 +12764,326 @@ window.L2L_I18N_DATA = {
 },
 "Koude acquisitie uitbesteden: werking en kosten | Link2Leads": {
 "en": "Outsourcing cold prospecting: how it works | Link2Leads"
+},
+"Waarom de eerste koude mail kort is | Link2Leads": {
+"en": "Why the first cold email is short | Link2Leads"
+},
+"Waarom een eerste koude mail kort is, waar de rest van je verhaal terechtkomt en hoe je een langere versie eerlijk test.": {
+"en": "Why a first cold email is short, where the rest of your story goes and how to test a longer version fairly."
+},
+"Moet er niet meer informatie in die eerste mail?": {
+"en": "Shouldn't there be more information in that first email?"
+},
+"Moet er niet meer informatie": {
+"en": "Shouldn't there be more information"
+},
+"in die eerste mail?": {
+"en": "in that first email?"
+},
+"Waarom de eerste koude mail kort is, waar de rest van je verhaal dan terechtkomt en hoe je het test als je toch een langere versie wilt.": {
+"en": "Why the first cold email is short, where the rest of your story goes and how to test it if you still want a longer version."
+},
+"11 november 2026": {
+"en": "11 November 2026"
+},
+"Wat de eerste mail moet doen": {
+"en": "What the first email has to do"
+},
+"Waarom meer tekst het lastiger maakt": {
+"en": "Why more text makes it harder"
+},
+"Waar je verhaal dan wel komt": {
+"en": "Where your story goes instead"
+},
+"Hoe zo'n eerste mail eruitziet": {
+"en": "What a first email like that looks like"
+},
+"Het tempo van de reeks": {
+"en": "The pace of the sequence"
+},
+"Als je het toch anders wilt": {
+"en": "If you still want it differently"
+},
+"\"Ik heb het gevoel dat er iets meer informatie in die eerste mail moet.\" Dat zei iemand vorige week toen we samen naar de opzet van een campagne keken. Het ging om een bedrijf met veel vakkennis, en dat hoor je terug. Wie zijn vak goed kent, wil het hele verhaal kwijt. Even later volgde nog een opmerking: de mails volgen elkaar wel snel op.": {
+"en": "\"I feel there should be a bit more information in that first email.\" Someone said that last week while we were going over the set-up of a campaign together. It was a company with a lot of expertise, and you can tell. If you know your field well, you want to tell the whole story. A little later came another remark: the emails follow each other quite quickly."
+},
+"Ik snap allebei de reacties. Je hebt iets goeds te vertellen, en dan voelt een mail van een paar zinnen als een gemiste kans. Toch schrijven we de eerste mail bewust kort. Hieronder lees je waarom, en wat je kunt doen als je het anders wilt.": {
+"en": "I understand both reactions. You have something good to tell, and then an email of a few sentences feels like a missed opportunity. Still, we deliberately keep the first email short. Below you can read why, and what you can do if you want it differently."
+},
+"De eerste mail heeft één taak: een reactie krijgen van iemand die je nog niet kent. Daar is weinig tekst voor nodig. Een aanleiding die over de ontvanger gaat en een vraag waar hij in een paar woorden op kan antwoorden. Wat jij doet, past in één zin daartussen.": {
+"en": "The first email has one job: getting a reply from someone who doesn't know you yet. That takes very little text. A reason that is about the recipient and a question he can answer in a few words. What you do fits in one sentence in between."
+},
+"Je uitleg komt later, in de opvolgmails en vooral in het gesprek. Wil je toch een langere eerste mail, dan zetten we die als variant naast de korte en laten we de reacties beslissen.": {
+"en": "Your explanation comes later, in the follow-up emails and above all in the conversation. If you still want a longer first email, we run it as a variant next to the short one and let the replies decide."
+},
+"Wie jouw mail opent, kent je niet. Hij heeft er niet om gevraagd en leest hem vaak tussen twee andere dingen door, op zijn telefoon. In een paar seconden besluit hij of hij antwoordt of verder scrolt.": {
+"en": "Whoever opens your email doesn't know you. He didn't ask for it and often reads it between two other things, on his phone. Within a few seconds he decides whether to reply or keep scrolling."
+},
+"Een koude mail hoeft hem dus nergens van te overtuigen. Genoeg nieuwsgierigheid voor een antwoord is voldoende. Zodra iemand terugschrijft, heb je een gesprek, en in een gesprek vraagt de ander zelf om uitleg.": {
+"en": "So a cold email doesn't need to convince him of anything. Enough curiosity for a reply is plenty. As soon as someone writes back, you have a conversation, and in a conversation the other person asks for the explanation himself."
+},
+"Kijk naar wat er in de praktijk terugkomt. In onze inbox staan reacties als \"Klinkt interessant. Hoe zou dat werken dan?\" Zo'n vraag krijg je omdat de mail nog iets open liet. Had alles er al in gestaan, dan viel er weinig meer te vragen.": {
+"en": "Look at what comes back in practice. Our inbox has replies like \"Sounds interesting. How would that work then?\" You get a question like that because the email left something open. Had everything already been in it, there would have been little left to ask."
+},
+"Elke zin die je toevoegt, is een plek waar iemand kan afhaken. Een tweede alinea over je werkwijze of een opsomming van je diensten is voor jou context. Voor iemand die je niet kent, leest het als een verkooppraatje, en dat herkent hij in een oogopslag.": {
+"en": "Every sentence you add is a place where someone can drop off. A second paragraph about your approach or a list of your services is context to you. To someone who doesn't know you, it reads like a sales pitch, and he recognises that at a glance."
+},
+"Er speelt nog iets. Hoe meer je vertelt, hoe groter de kans dat de lezer zelf besluit dat het niets voor hem is. Soms klopt dat. Vaak heeft hij net een detail gelezen dat bij hem anders ligt, terwijl tien minuten praten had laten zien dat het wel past. Met een korte mail laat je die afweging aan het gesprek over.": {
+"en": "There is something else. The more you tell, the bigger the chance the reader decides for himself that it isn't for him. Sometimes that's right. Often he has just read a detail that is different in his case, while ten minutes of talking would have shown that it does fit. With a short email you leave that judgement to the conversation."
+},
+"En dan de bezorging. De eerste mail versturen we zonder link en zonder bijlage. Dat komt beter aan, zeker vanaf mailboxen die nog maar een paar weken bestaan. Een lange mail met links naar je website en een brochure erbij lijkt voor een spamfilter eerder op een nieuwsbrief dan op een bericht van mens tot mens. Hoe dat werkt, staat in": {
+"en": "And then there is delivery. We send the first email without a link and without an attachment. That lands better, especially from mailboxes that are only a few weeks old. To a spam filter, a long email with links to your website and a brochure attached looks more like a newsletter than a message from one person to another. How that works is explained in"
+},
+"Met een korte eerste mail verdeel je je verhaal over de momenten waarop iemand er ruimte voor heeft.": {
+"en": "With a short first email you spread your story over the moments when someone has room for it."
+},
+"Per bedrijf sturen we hooguit drie mails: een eerste mail en twee opvolgmails. Reageert iemand niet op de eerste, dan gaat de tweede een stap verder. Daar past een concreet voorbeeld in, zoals een project voor een vergelijkbaar bedrijf en wat dat opleverde. De derde is weer kort en rondt de reeks af. Reageert iemand tussendoor, dan stopt de reeks voor dat bedrijf.": {
+"en": "Per company we send at most three emails: a first email and two follow-ups. If someone doesn't reply to the first, the second goes a step further. That is where a concrete example fits, such as a project for a similar company and what it delivered. The third is short again and closes the sequence. If someone replies in between, the sequence stops for that company."
+},
+"Heb je de add-on Hyperpersonalisatie, dan krijgt iedere prospect in de tweede of derde mail een link naar een eigen pagina op jouw domein. Op die pagina is wel plek voor uitleg, geschreven voor dat ene bedrijf. In onze eigen campagne kwam de reply rate met zo'n pagina op 9,1 procent, tegenover 3,2 procent op dezelfde lijst zonder pagina. De extra informatie deed daar dus wel iets, op een plek waar iemand zelf koos om verder te lezen.": {
+"en": "If you have the Hyperpersonalisation add-on, every prospect gets a link in the second or third email to their own page on your domain. On that page there is room for explanation, written for that one company. In our own campaign the reply rate with such a page came to 9.1 percent, against 3.2 percent on the same list without a page. So the extra information did work there, in a place where someone chose to read on."
+},
+"De rest bewaar je voor het gesprek. Daar zie je wie er tegenover je zit en vertel je wat voor die persoon telt. Hoe je dat eerste gesprek aanpakt, lees je in": {
+"en": "Save the rest for the conversation. There you see who you're talking to and you tell what matters to that person. How to handle that first conversation is in"
+},
+"er komt een positieve reactie binnen": {
+"en": "a positive reply comes in"
+},
+"Een eerste mail van ons lees je op een telefoon in een keer. Hij begint bij de ontvanger. Waar het kan, zoeken we per bedrijf een reden om juist nu te mailen, zoals een openstaande vacature of een nieuwe vestiging. De openingszin gaat daar dan over:": {
+"en": "A first email from us can be read on a phone in one go. It starts with the recipient. Where possible, we look for a reason per company to email right now, such as an open vacancy or a new location. The opening line is then about that:"
+},
+"Daarna volgt een zin over wat je voor zo'n bedrijf doet, en een vraag. Bijvoorbeeld of het zin heeft om daar kort over te bellen. Een bedrijfsgeschiedenis staat er niet in, een lijst met diensten ook niet.": {
+"en": "Then follows a sentence about what you do for a company like that, and a question. For example whether it makes sense to have a quick call about it. There's no company history in it, and no list of services either."
+},
+"Een handige toets: zou je deze zinnen hardop zeggen als je die persoon op een beurs tegenkwam? Wat je daar in de eerste minuut niet vertelt, hoort ook niet in de eerste mail.": {
+"en": "A handy test: would you say these sentences out loud if you ran into that person at a trade fair? Whatever you wouldn't say there in the first minute doesn't belong in the first email either."
+},
+"De teksten schrijven wij, en jij keurt ze goed voordat er iets de deur uit gaat. Een zin die niet bij je past, gaat eruit. Lever je zelf input aan, zoals een project waar je trots op bent of een vraag die klanten vaak stellen, dan verwerken we die. Vaak landt zoiets in de tweede mail.": {
+"en": "We write the texts, and you approve them before anything goes out. A sentence that doesn't suit you comes out. If you supply input yourself, such as a project you're proud of or a question clients often ask, we work it in. Often something like that ends up in the second email."
+},
+"De tweede opmerking uit dat gesprek ging over de snelheid. Drie mails kort na elkaar voelt voor sommige mensen als aandringen.": {
+"en": "The second remark from that conversation was about speed. Three emails in quick succession feels like pushing to some people."
+},
+"Voor de ontvanger ligt dat anders. Hij heeft je eerste mail vaak nauwelijks gezien. De tweede komt als antwoord in dezelfde draad binnen, zodat hij de eerste er meteen bij ziet. Een deel van de reacties komt pas op die tweede of derde mail.": {
+"en": "For the recipient it's different. He has often barely seen your first email. The second arrives as a reply in the same thread, so he sees the first one right with it. Part of the replies only come on that second or third email."
+},
+"Het tempo ligt verder niet vast. In markten waar beslissingen langer duren, zoals bij overheden of in het onderwijs, kan er meer tijd tussen de mails zitten. Dat stemmen we voor de start met je af. Wat wel vastligt, is het maximum van drie mails. Wie dan nog niet heeft geantwoord, hoort daarna niets meer van ons.": {
+"en": "Beyond that the pace isn't fixed. In markets where decisions take longer, such as government or education, there can be more time between the emails. We agree on that with you before the start. What is fixed is the maximum of three emails. Anyone who hasn't replied by then won't hear from us again."
+},
+"Jij kent je markt beter dan wij. Denk je dat jouw doelgroep meer context nodig heeft, dan hoeven we daar geen welles-nietes over te voeren. We zetten een langere versie als variant naast de korte, elk op een eigen deel van de lijst.": {
+"en": "You know your market better than we do. If you think your audience needs more context, we don't need to argue about it. We run a longer version as a variant next to the short one, each on its own part of the list."
+},
+"Geef het dan wel de tijd. Een nieuwe tekst laten we minstens drie weken ongewijzigd draaien, omdat de aantallen daarvoor te klein zijn om iets over te zeggen. Daarna kijken we naar de reacties, en vooral naar de positieve. Opens tellen we niet mee: die zijn al jaren onbetrouwbaar, doordat mailproviders afbeeldingen vooraf laden.": {
+"en": "Do give it time, though. We leave a new text unchanged for at least three weeks, because before that the numbers are too small to say anything. After that we look at the replies, and especially the positive ones. We don't count opens: they have been unreliable for years, because mail providers preload images."
+},
+"Wint de langere versie, dan schuift het volume daarheen. De reacties beslissen, voor ons net zo goed als voor jou.": {
+"en": "If the longer version wins, the volume moves there. The replies decide, for us just as much as for you."
+},
+"Hoe lang is een eerste mail bij jullie?": {
+"en": "How long is a first email with you?"
+},
+"Kort genoeg om op een telefoon in een keer te lezen. Een aanleiding die over de ontvanger gaat, een zin over wat je doet en een vraag waar hij makkelijk op kan antwoorden.": {
+"en": "Short enough to read on a phone in one go. A reason that is about the recipient, a sentence about what you do and a question that is easy to answer."
+},
+"Waarom staat er geen link in de eerste mail?": {
+"en": "Why is there no link in the first email?"
+},
+"Een mail zonder link komt beter aan, zeker vanaf nieuwe mailboxen. Een link naar je site of naar een persoonlijke pagina komt in de tweede of derde mail.": {
+"en": "An email without a link lands better, especially from new mailboxes. A link to your site or to a personal page comes in the second or third email."
+},
+"Mag ik de teksten zelf aanpassen?": {
+"en": "Can I adjust the texts myself?"
+},
+"Ja. Je keurt elke tekst goed voordat hij uitgaat en kunt alles laten aanpassen. Lever je zelf input aan, dan verwerken we die in de reeks.": {
+"en": "Yes. You approve every text before it goes out and can have anything changed. If you supply input yourself, we work it into the sequence."
+},
+"Hoeveel mails krijgt een bedrijf?": {
+"en": "How many emails does a company receive?"
+},
+"Hooguit drie: een eerste mail en twee opvolgmails. Reageert iemand, dan stopt de reeks voor dat bedrijf.": {
+"en": "At most three: a first email and two follow-ups. If someone replies, the sequence stops for that company."
+},
+"Kunnen we een lange en een korte versie testen?": {
+"en": "Can we test a long and a short version?"
+},
+"Ja. We zetten beide als variant naast elkaar, elk op een eigen deel van de lijst, en laten ze minstens drie weken draaien voordat we conclusies trekken.": {
+"en": "Yes. We run both as variants side by side, each on its own part of the list, and let them run for at least three weeks before drawing conclusions."
+},
+"Wil je zien hoe jouw eerste mail eruit zou zien?": {
+"en": "Want to see what your first email would look like?"
+},
+"In de gratis fitcheck van 30 minuten kijken we naar je doelgroep en je aanbod, en bespreken we welke aanleiding en welke vraag bij jouw markt passen. Past koude e-mail niet bij je markt, dan hoor je dat ook.": {
+"en": "In the free 30-minute fit check we look at your audience and your offer, and discuss which reason and which question suit your market. If cold email doesn't suit your market, you'll hear that too."
+},
+"Waar de grens ligt en hoe je eraan voorbij blijft": {
+"en": "Where the line is and how to stay on the right side of it"
+},
+"Onze werkwijze stap voor stap": {
+"en": "Our approach step by step"
+},
+"Doelgroep afbakenen voor koude e-mail | Link2Leads": {
+"en": "Defining a target audience for cold email | Link2Leads"
+},
+"Hoe je een doelgroep afbakent en opdeelt voordat er een koude mail uitgaat: welke bedrijven, welke persoon binnen dat bedrijf en in welke volgorde.": {
+"en": "How to define and split up a target audience before a cold email goes out: which companies, which person within that company and in what order."
+},
+"Weten jullie eigenlijk wie mijn doelgroep is?": {
+"en": "Do you actually know who my target audience is?"
+},
+"Weten jullie eigenlijk wie": {
+"en": "Do you actually know who"
+},
+"mijn doelgroep is?": {
+"en": "my target audience is?"
+},
+"Hoe je een doelgroep afbakent en opdeelt voordat er een mail de deur uit gaat: welke bedrijven, welke persoon binnen dat bedrijf en in welke volgorde.": {
+"en": "How to define and split up a target audience before an email goes out: which companies, which person within that company and in what order."
+},
+"Begin bij je beste klanten": {
+"en": "Start with your best clients"
+},
+"Wie mail je binnen een bedrijf?": {
+"en": "Who do you email within a company?"
+},
+"Opdelen in segmenten": {
+"en": "Splitting into segments"
+},
+"Volgorde en uitsluitingen": {
+"en": "Order and exclusions"
+},
+"Signalen: waarom nu?": {
+"en": "Signals: why now?"
+},
+"Is je doelgroep groot genoeg?": {
+"en": "Is your audience big enough?"
+},
+"Als de campagne eenmaal loopt": {
+"en": "Once the campaign is running"
+},
+"Wat je meeneemt naar de fitcheck": {
+"en": "What to bring to the fit check"
+},
+"Vorige week ging het in twee gesprekken over dezelfde vraag, alleen anders verpakt. In het ene wilden we weten wie er bij de bedrijven in de doelgroep beslist: de eigenaar of iemand uit het team. In het andere ging het over welke functies als eerste gemaild moeten worden, en welke regio's beter tot het laatst kunnen wachten.": {
+"en": "Last week two conversations were about the same question, just phrased differently. In one, we wanted to know who decides at the companies in the target audience: the owner or someone in the team. The other was about which job titles should be emailed first, and which regions are better left until last."
+},
+"Achter die vragen zit een twijfel die we vaker horen, soms hardop: weten jullie eigenlijk wie mijn doelgroep is? Eerlijk gezegd niet vanaf de eerste dag. Jij kent je klanten. Ons werk is om dat om te zetten in een lijst, en die lijst zo op te delen dat elke mail bij de juiste persoon landt.": {
+"en": "Behind those questions is a doubt we hear more often, sometimes out loud: do you actually know who my target audience is? Honestly, not from day one. You know your clients. Our job is to turn that into a list, and to split that list so every email reaches the right person."
+},
+"We bakenen een doelgroep af vanuit je beste bestaande klanten. We leggen vast in welke branche ze zitten, in welke regio, hoe groot ze zijn en wie er binnen het bedrijf beslist. Daarna delen we de groep op in segmenten die elk een eigen boodschap krijgen.": {
+"en": "We define a target audience based on your best existing clients. We record which industry they're in, which region, how big they are and who decides within the company. Then we split the group into segments that each get their own message."
+},
+"Voordat er iets uitgaat, krijg je de lijst te zien. Je haalt eruit wat er niet in hoort en geeft aan wat voorrang heeft. Telt je doelgroep minder dan ongeveer 1.000 bedrijven, dan zeggen we in de fitcheck dat koude e-mail waarschijnlijk niet bij je past.": {
+"en": "Before anything goes out, you get to see the list. You take out what doesn't belong and indicate what has priority. If your audience has fewer than about 1,000 companies, we tell you in the fit check that cold email probably isn't a fit."
+},
+"Op de vraag wie je ideale klant is, komt vaak een breed antwoord. Iedereen met personeel, of eigenlijk het hele mkb. Dat klopt vast, en toch werkt het slecht als lijst.": {
+"en": "Ask who your ideal client is and the answer is often broad. Anyone with staff, or really the whole SME market. That's probably true, and yet it works poorly as a list."
+},
+"Daarom vragen we in de onboarding naar je beste bestaande klanten. Van welke klanten zou je er morgen graag nog drie of vier bij hebben? En wat hebben die gemeen? Meestal zit het in een paar kenmerken: een branche, een bepaalde omvang, een regio waar je makkelijk langsgaat. Soms zit het in iets wat niet in een database staat, zoals een bedrijf dat net flink is gegroeid.": {
+"en": "That's why we ask about your best existing clients during onboarding. Which clients would you happily have three or four more of tomorrow? And what do they have in common? Usually it comes down to a few traits: an industry, a certain size, a region you can easily visit. Sometimes it's something that isn't in a database, such as a company that has just grown considerably."
+},
+"Met die kenmerken bouwen we de lijst. We zoeken bedrijven die op je beste klanten lijken en verifiëren elk adres voordat het erin komt. Dat laatste is voor de bezorging: een lijst vol dode adressen kost je mailboxen hun reputatie.": {
+"en": "With those traits we build the list. We look for companies that resemble your best clients and verify every address before it goes in. That last part is for delivery: a list full of dead addresses costs your mailboxes their reputation."
+},
+"Op de lijst staan mensen, elk met een functie. Welke functie je kiest, bepaalt meer dan de meeste mensen verwachten.": {
+"en": "The list consists of people, each with a job title. Which title you choose matters more than most people expect."
+},
+"Bij kleine bedrijven is het meestal eenvoudig. Bij een installatiebedrijf met tien man beslist de eigenaar, dus die mail je. Bij grotere organisaties wordt het lastiger. Een directeur denkt aan groei en risico, een inkoper aan prijs en voorwaarden. Krijgen ze allebei dezelfde mail, dan klopt hij voor geen van beiden helemaal.": {
+"en": "At small companies it's usually simple. At an installation company with ten people the owner decides, so that's who you email. At larger organisations it gets harder. A director thinks about growth and risk, a buyer about price and terms. If they both get the same email, it isn't quite right for either of them."
+},
+"Twee vragen helpen bij de keuze. Wie merkt het probleem dat jij oplost? En wie kan zonder overleg ja zeggen tegen een eerste gesprek? Vaak is dat dezelfde persoon. Zijn het er twee, dan is degene die het probleem dagelijks merkt meestal de beste ingang. Die neemt het intern wel mee.": {
+"en": "Two questions help you choose. Who feels the problem you solve? And who can say yes to a first conversation without consulting anyone? Often that's the same person. If it's two people, the one who feels the problem every day is usually the best way in. They'll take it further internally."
+},
+"Heb je een lange lijst met functies die in aanmerking komen, zet ze dan op volgorde van belangrijk naar minder belangrijk. Dan beginnen we bovenaan.": {
+"en": "If you have a long list of job titles that qualify, put them in order from most to least important. Then we start at the top."
+},
+"Een doelgroep is zelden een enkele groep. Verkoop je aan installateurs en aan groothandels, dan heb je twee verhalen. De installateur wil weten wat het hem op het werk oplevert, de groothandel denkt aan marge en voorraad. Zet je ze samen in één campagne, dan schrijf je een mail die voor geen van beiden precies raak is.": {
+"en": "A target audience is rarely a single group. If you sell to installers and to wholesalers, you have two stories. The installer wants to know what it gets him on the job, the wholesaler thinks about margin and stock. Put them together in one campaign and you write an email that isn't quite right for either."
+},
+"Daarom delen we de doelgroep op. Elk segment krijgt een eigen lijst en een eigen boodschap. Een van de cases op onze homepage laat zien waarom dat uitmaakt. Een bedrijf met drie soorten kopers had een campagne die niemand echt aansprak. Opgesplitst in drie campagnes, elk met een eigen lijst en boodschap, kwamen er binnen 14 dagen 15 positieve reacties binnen.": {
+"en": "That's why we split the audience. Each segment gets its own list and its own message. One of the cases on our homepage shows why that matters. A company with three kinds of buyers had a campaign that didn't really speak to anyone. Split into three campaigns, each with its own list and message, 15 positive replies came in within 14 days."
+},
+"Hoeveel segmenten tegelijk lopen, hangt af van je pakket. Starter draait op één afgebakende doelgroep, Growth op twee tegelijk, Scale op drie en Pro op vijf.": {
+"en": "How many segments run at the same time depends on your package. Starter runs on one defined audience, Growth on two at once, Scale on three and Pro on five."
+},
+"Wat segmentatie in cijfers doet, zie je zodra de campagne loopt. In een van onze campagnes liep de reply rate per segment uiteen van 2,3 tot 7,8 procent, met precies dezelfde teksten. De uitwerking staat in": {
+"en": "What segmentation does in numbers shows once the campaign is running. In one of our campaigns the reply rate per segment ranged from 2.3 to 7.8 percent, with exactly the same texts. The details are in"
+},
+"Je hoeft je hele doelgroep niet tegelijk te mailen. In een van de gesprekken van vorige week wilde iemand eerst de organisaties in de eigen regio benaderen en de verder weg gelegen pas aan het eind. Dat kan prima. Geef de volgorde aan in de lijst die je terugstuurt, dan houden we die aan.": {
+"en": "You don't have to email your whole audience at once. In one of last week's conversations, someone wanted to approach organisations in their own region first and leave those further away until the end. That's fine. Indicate the order in the list you send back, and we'll stick to it."
+},
+"Wat er niet in hoort, haal je er voor de start uit. Bestaande klanten bijvoorbeeld, of bedrijven waarmee je al in gesprek bent of die je liever zelf benadert. Je krijgt de lijst als Excel-bestand, met per regel een kolom waarin je ja of nee zet. Wat op nee staat, wordt niet gemaild.": {
+"en": "Whatever doesn't belong, you take out before the start. Existing clients, for example, or companies you're already talking to or would rather approach yourself. You get the list as an Excel file, with a column on each row where you put yes or no. Anything marked no won't be emailed."
+},
+"Wie zich ooit bij ons heeft afgemeld, komt er sowieso niet op. Die afmeldingen werken over al onze campagnes heen.": {
+"en": "Anyone who has ever unsubscribed with us won't be on it in any case. Those unsubscribes apply across all our campaigns."
+},
+"Een goede doelgroep vertelt je wie je mailt. Een signaal vertelt je wanneer. Bij sommige diensten zie je van buitenaf dat een bedrijf er nu mee bezig is, bijvoorbeeld door een openstaande vacature of een nieuwe vestiging. Waar zo'n signaal te vinden is, gebruiken we het als aanleiding in de eerste zin.": {
+"en": "A good target audience tells you who to email. A signal tells you when. For some services you can see from the outside that a company is working on it right now, for example through an open vacancy or a new location. Where such a signal can be found, we use it as the reason in the first sentence."
+},
+"Is er geen bruikbaar signaal, dan richten we ons op een zorgvuldig gekozen groep met een boodschap die bij hun situatie past. Welke aanpak het beste werkt, bepalen we samen in de onboarding.": {
+"en": "If there's no usable signal, we focus on a carefully chosen group with a message that fits their situation. Which approach works best, we decide together during onboarding."
+},
+"Afbakenen kan ook doorschieten. Een heel scherpe groep van tweehonderd bedrijven klinkt aantrekkelijk, alleen is de campagne dan binnen een paar weken door de lijst heen.": {
+"en": "Defining can go too far as well. A very sharp group of two hundred companies sounds attractive, but then the campaign runs through the list within a few weeks."
+},
+"Als ondergrens houden we ongeveer 1.000 bedrijven aan. Daaronder raden we koude e-mail af. Wil je vooraf weten hoe groot jouw markt is, dan laat de": {
+"en": "As a lower limit we use about 1,000 companies. Below that we advise against cold email. If you want to know beforehand how big your market is, the"
+},
+"zien hoeveel bedrijven er in je doelgroep passen, verdeeld over regio en bedrijfsgrootte.": {
+"en": "shows how many companies fit your audience, broken down by region and company size."
+},
+"Een doelgroep die je voor de start vastlegt, is een goed onderbouwde eerste keuze. Na de livegang komen de antwoorden. Vanaf de tweede maand zie je welke segmenten reageren. Misschien doen installateurs het beter dan groothandels, of antwoordt de directeur vaker dan de inkoper. Het volume schuift dan naar wat werkt. Een segment dat achterblijft, krijgt een andere insteek of gaat uit de lijst.": {
+"en": "A target audience you set before the start is a well-founded first choice. After going live, the answers come in. From the second month you see which segments respond. Maybe installers do better than wholesalers, or the director replies more often than the buyer. The volume then moves to what works. A segment that lags behind gets a different angle or comes off the list."
+},
+"Dat lukt alleen als de segmenten vanaf het begin apart lopen. Wie alles op een hoop mailt, ziet na drie maanden een gemiddelde en weet niet waar het vandaan komt.": {
+"en": "That only works if the segments run separately from the start. If you email everything in one pile, after three months you see an average and don't know where it comes from."
+},
+"Een uitgewerkt klantprofiel hoef je niet te hebben. Een paar namen van klanten die je graag vaker zou hebben, is genoeg om mee te beginnen. Weet je ook waarom die klanten voor jou kozen en wie bij hen de knoop doorhakte, dan komen we in een half uur een heel eind.": {
+"en": "You don't need a worked-out client profile. A few names of clients you'd like more of is enough to start with. If you also know why those clients chose you and who made the call on their side, we'll get a long way in half an hour."
+},
+"Moet ik zelf een lijst aanleveren?": {
+"en": "Do I have to supply a list myself?"
+},
+"Nee. Wij bouwen de lijst op basis van je beste klanten en het profiel dat we in de onboarding vastleggen. Je keurt hem goed voordat er iets uitgaat.": {
+"en": "No. We build the list based on your best clients and the profile we record during onboarding. You approve it before anything goes out."
+},
+"Kan ik bestaande klanten uitsluiten?": {
+"en": "Can I exclude existing clients?"
+},
+"Ja. Je krijgt de lijst vooraf te zien en zet per regel ja of nee. Bestaande klanten, lopende trajecten en bedrijven die je zelf wilt benaderen haal je er zo uit.": {
+"en": "Yes. You see the list beforehand and mark each row yes or no. Existing clients, ongoing deals and companies you want to approach yourself are easy to take out."
+},
+"Hoeveel doelgroepen kunnen tegelijk lopen?": {
+"en": "How many audiences can run at the same time?"
+},
+"Starter draait op één afgebakende doelgroep, Growth op twee tegelijk, Scale op drie en Pro op vijf. Elke doelgroep krijgt een eigen lijst en een eigen boodschap.": {
+"en": "Starter runs on one defined audience, Growth on two at once, Scale on three and Pro on five. Each audience gets its own list and its own message."
+},
+"Als ondergrens houden we ongeveer 1.000 bedrijven aan. Daaronder raden we koude e-mail af, omdat de campagne dan snel door de lijst heen is.": {
+"en": "As a lower limit we use about 1,000 companies. Below that we advise against cold email, because the campaign then runs through the list quickly."
+},
+"Wie mailen jullie binnen een bedrijf?": {
+"en": "Who do you email within a company?"
+},
+"Degene die het probleem merkt dat jij oplost en ja kan zeggen tegen een eerste gesprek. Bij kleine bedrijven is dat meestal de eigenaar. Bij grotere organisaties kiezen we per segment een functie.": {
+"en": "The person who feels the problem you solve and can say yes to a first conversation. At small companies that's usually the owner. At larger organisations we choose a job title per segment."
+},
+"Wil je weten hoe groot jouw doelgroep is?": {
+"en": "Want to know how big your target audience is?"
+},
+"In de gratis fitcheck van 30 minuten kijken we naar je beste klanten, bakenen we je doelgroep af en rekenen we door hoeveel bedrijven erin passen. Past koude e-mail niet bij je markt, dan hoor je dat ook.": {
+"en": "In the free 30-minute fit check we look at your best clients, define your target audience and work out how many companies fit it. If cold email doesn't suit your market, you'll hear that too."
+},
+"Waarom de eerste koude mail kort is": {
+"en": "Why the first cold email is short"
+},
+"Waarom de eerste koude mail kort is, waar de rest van je verhaal terechtkomt en hoe je een langere versie test.": {
+"en": "Why the first cold email is short, where the rest of your story goes and how to test a longer version."
+},
+"Doelgroep · 7 min": {
+"en": "Target audience · 7 min"
+},
+"Hoe je een doelgroep afbakent en opdeelt voordat er een mail uitgaat: welke bedrijven, welke persoon en in welke volgorde.": {
+"en": "How to define and split up a target audience before an email goes out: which companies, which person and in what order."
 }
 };
