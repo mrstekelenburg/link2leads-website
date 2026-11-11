@@ -13085,5 +13085,8 @@ window.L2L_I18N_DATA = {
 },
 "Hoe je een doelgroep afbakent en opdeelt voordat er een mail uitgaat: welke bedrijven, welke persoon en in welke volgorde.": {
 "en": "How to define and split up a target audience before an email goes out: which companies, which person and in what order."
+},
+"Duidelijke afspraken en ze worden nagekomen. Duidelijke verwachtingen. De leads zijn van goede kwaliteit en je hebt hier zelf zeggenschap over. Even pauzeren voor vakantie, drukke periode of andere prioriteiten is ook geen probleem.": {
+"en": "Clear agreements, and they keep them. Clear expectations. The leads are of good quality and you have a say in them yourself. Pausing for a holiday, a busy period or other priorities is no problem either."
 }
 };

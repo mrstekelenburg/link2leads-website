@@ -1,3 +1,9 @@
+**11 november 2026: Google-review van MicFil Filters**
+- Nieuwe reviewkaart van Pieter-Jan (MicFil Filters, vijf sterren op Google) in de reviewsectie, met het MicFil-logo. De slotzin van de review staat er niet bij, omdat die zoals hij op Google staat het omgekeerde zegt van wat bedoeld is ("nog vaak tegengekomen").
+- Indeling: rij 1 vier kaarten, rij 2 de kaart van Pieter-Jan met de tegel "En nog veel meer" ernaast. Op tablet staat de tegel naast de vijfde kaart, op mobiel eronder.
+- Review toegevoegd aan de Review-lijst in schema.org, aantal van 8 naar 9.
+- Engels in `assets/i18n/l2l-i18n-data.js`, homepage op `l2l-i18n.js?v=74`. Zelfde op link2leads.co (in het Engels).
+
 **11 november 2026: twee nieuwe kennisartikelen**
 - Nieuw: `/kennis/korte-eerste-mail` (Moet er niet meer informatie in die eerste mail?) en `/kennis/doelgroep-afbakenen` (Weten jullie eigenlijk wie mijn doelgroep is?). Zelfde sjabloon als de andere kennisartikelen: Article, Organization, BreadcrumbList en FAQPage in schema.org, "Het korte antwoord", auteursblok, fitcheck-CTA en "Verder lezen".
 - Onderwerpen uit salescalls van vorige week: de eerste mail voelde te kaal en de mails volgden elkaar snel op, en vragen over wie je binnen een bedrijf mailt en in welke volgorde (plus vaste lijst nr. 5). Alleen cijfers en werkwijze die al op de site staan, geen namen.
