@@ -1,6 +1,6 @@
 **12 november 2026: eerste positieve reacties op dag 1**
-- Overal waar stond dat de eerste reacties doorgaans 3 tot 10 dagen na livegang binnenkomen, staat nu dat de eerste positieve reacties doorgaans al op de eerste dag binnenkomen (homepage-FAQ, kennisartikelen, Amsterdam-pagina, schema.org-FAQ's, llms.txt en llms-full.txt). Aanleiding: QuickGoot had op dag 1 van livegang twee positieve reacties.
-- In het artikel over hoe lang het duurt is de zin "Bij sommige campagnes gaat het sneller" weggehaald, omdat dag 1 nu de standaard is.
+- Overal waar stond dat de eerste reacties doorgaans 3 tot 10 dagen na livegang binnenkomen, staat nu dat de eerste positieve reacties vaak al op de eerste dag binnenkomen (homepage-FAQ, kennisartikelen, Amsterdam-pagina, schema.org-FAQ's, llms.txt en llms-full.txt). Aanleiding: QuickGoot had op dag 1 van livegang twee positieve reacties.
+- In het artikel over hoe lang het duurt is de zin "Bij sommige campagnes gaat het sneller" weggehaald, omdat positieve reacties nu vaak al op dag 1 binnenkomen.
 - Engels in `assets/i18n/l2l-i18n-data.js`, `l2l-i18n.js?v=75`. Zelfde op link2leads.co (in het Engels).
 
 **11 november 2026: Google-review van MicFil Filters**

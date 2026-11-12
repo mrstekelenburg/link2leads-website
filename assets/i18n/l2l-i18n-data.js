@@ -2787,8 +2787,8 @@ window.L2L_I18N_DATA = {
 "Welk maandvolume realistisch is en hoe lang je erop kunt draaien": {
 "en": "What monthly volume is realistic and how long you can run on it"
 },
-"Week 1 en 2 zijn setup en warmup, in week 3 ga je live. De eerste positieve reacties komen doorgaans al op de eerste dag na livegang binnen. Vanaf maand 2 sturen we bij op de segmenten die reageren.": {
-"en": "Weeks 1 and 2 are setup and warmup, in week 3 you go live. First positive replies usually arrive on the very first day after launch. From month 2 we optimise towards the segments that respond."
+"Week 1 en 2 zijn setup en warmup, in week 3 ga je live. De eerste positieve reacties komen vaak al op de eerste dag na livegang binnen. Vanaf maand 2 sturen we bij op de segmenten die reageren.": {
+"en": "Weeks 1 and 2 are setup and warmup, in week 3 you go live. First positive replies often arrive on the very first day after launch. From month 2 we optimise towards the segments that respond."
 },
 "Waarom aparte verzenddomeinen?": {
 "en": "Why separate sending domains?"
@@ -2898,8 +2898,8 @@ window.L2L_I18N_DATA = {
 "Campagne start op een derde van het volume": {
 "en": "Campaign starts at a third of the volume"
 },
-"Eerste positieve reacties komen doorgaans al op dag 1": {
-"en": "First positive replies usually arrive on day 1"
+"Eerste positieve reacties komen vaak al op dag 1": {
+"en": "First positive replies often arrive on day 1"
 },
 "Volume groeit gecontroleerd naar je pakket, rond week 5": {
 "en": "Volume grows in a controlled way to your package, around week 5"
@@ -4716,8 +4716,8 @@ window.L2L_I18N_DATA = {
 "op onze lopende campagnes, mits de infrastructuur klopt en de warmup is gedaan.": {
 "en": "on our running campaigns, provided the infrastructure is right and the warmup has been done."
 },
-"Eerste positieve reacties: doorgaans op de eerste dag na livegang.": {
-"en": "First positive replies: usually on the very first day after go-live."
+"Eerste positieve reacties: vaak al op de eerste dag na livegang.": {
+"en": "First positive replies: often on the very first day after go-live."
 },
 "Stabiel beeld: na drie weken.": {
 "en": "Stable picture: after three weeks."
@@ -4794,8 +4794,8 @@ window.L2L_I18N_DATA = {
 "Hoe lang duurt het voordat cold email resultaat oplevert?": {
 "en": "How long does it take before cold email produces results?"
 },
-"De eerste positieve reacties komen doorgaans al op de eerste dag na livegang binnen, mits de warmup vooraf is gedaan. Een stabiel beeld heb je pas na drie weken. Wij wijzigen een campagne met nieuwe copy daarom minstens drie weken lang niet.": {
-"en": "The first positive replies usually come in on the very first day after go-live, provided the warmup has been done beforehand. You only get a stable picture after three weeks. That is why we leave a campaign with new copy unchanged for at least three weeks."
+"De eerste positieve reacties komen vaak al op de eerste dag na livegang binnen, mits de warmup vooraf is gedaan. Een stabiel beeld heb je pas na drie weken. Wij wijzigen een campagne met nieuwe copy daarom minstens drie weken lang niet.": {
+"en": "The first positive replies often come in on the very first day after go-live, provided the warmup has been done beforehand. You only get a stable picture after three weeks. That is why we leave a campaign with new copy unchanged for at least three weeks."
 },
 "Maakt segmentatie echt zoveel verschil?": {
 "en": "Does segmentation really make that much difference?"
@@ -5613,8 +5613,8 @@ window.L2L_I18N_DATA = {
 "Hoe snel levert leadgeneratie iets op?": {
 "en": "How quickly does lead generation produce something?"
 },
-"Bij koude e-mail ben je doorgaans binnen twee weken live en komen de eerste positieve reacties al op de eerste dag na livegang. Bij advertenties kan het sneller, bij een eigen SDR duurt het zes tot twaalf weken voordat er structureel iets uitkomt.": {
-"en": "With cold email you are usually live within two weeks and the first positive replies come in on the very first day after going live. With advertising it can be faster; with an in-house SDR it takes six to twelve weeks before anything comes out structurally."
+"Bij koude e-mail ben je doorgaans binnen twee weken live en komen de eerste positieve reacties vaak al op de eerste dag na livegang. Bij advertenties kan het sneller, bij een eigen SDR duurt het zes tot twaalf weken voordat er structureel iets uitkomt.": {
+"en": "With cold email you are usually live within two weeks and the first positive replies often come in on the very first day after going live. With advertising it can be faster; with an in-house SDR it takes six to twelve weeks before anything comes out structurally."
 },
 "Wat zou het voor jouw doelgroep kosten?": {
 "en": "What would it cost for your target group?"
@@ -6315,8 +6315,8 @@ window.L2L_I18N_DATA = {
 "Campagne start op een derde van je maandvolume": {
 "en": "Campaign starts at a third of your monthly volume"
 },
-"Eerste positieve reacties doorgaans al op dag 1": {
-"en": "First positive replies usually on day 1"
+"Eerste positieve reacties vaak al op dag 1": {
+"en": "First positive replies often on day 1"
 },
 "Vanaf maand 2 gaat volume naar de segmenten die reageren": {
 "en": "From month 2 volume shifts to the segments that respond"
@@ -6417,8 +6417,8 @@ window.L2L_I18N_DATA = {
 "Eerste reacties": {
 "en": "First replies"
 },
-"Doorgaans al op de eerste dag na livegang": {
-"en": "Usually on the very first day after launch"
+"Vaak al op de eerste dag na livegang": {
+"en": "Often on the very first day after launch"
 },
 "Wij bouwen": {
 "en": "We build"
@@ -7371,8 +7371,8 @@ window.L2L_I18N_DATA = {
 "Nederlands cold email bureau. Wij vinden je doelgroep, mailen namens jou en leveren positieve reacties in je mailbox. Live in week 3, vanaf €995 per maand.": {
 "en": "Dutch cold email agency. We find your target group, email on your behalf and deliver positive replies to your inbox. Live in week 3, from EUR 995 per month."
 },
-"Gekwalificeerde salesafspraken via koude e-mail, zonder zelf acquisitie te doen. Setup klaar in twee weken, eerste positieve reacties doorgaans al op de eerste dag na livegang.": {
-"en": "Qualified sales meetings through cold email, without doing the prospecting yourself. Setup ready in two weeks, first positive replies usually on the very first day after going live."
+"Gekwalificeerde salesafspraken via koude e-mail, zonder zelf acquisitie te doen. Setup klaar in twee weken, eerste positieve reacties vaak al op de eerste dag na livegang.": {
+"en": "Qualified sales meetings through cold email, without doing the prospecting yourself. Setup ready in two weeks, first positive replies often on the very first day after going live."
 },
 "Wij benaderen je doelgroep per e-mail namens jou en leveren alleen de gekwalificeerde positieve reacties. Vanaf €995 per maand, all-in.": {
 "en": "We approach your target group by email on your behalf and deliver only the qualified positive replies. From EUR 995 per month, all in."
@@ -7956,8 +7956,8 @@ window.L2L_I18N_DATA = {
 "Wat gebeurt er in de eerste weken?": {
 "en": "What happens in the first weeks?"
 },
-"Twee weken bouwen, in week 3 gaat de eerste mail eruit. Week 1 is de intake: aanbod, beslissers en de lijst. Daarnaast zetten we de verzendomgeving op met aparte domeinen en mailboxen. Week 2 draaien die warm om reputatie op te bouwen, schrijven we de eerste mail en twee opvolgmails, en keur jij de lijst en de teksten goed. In week 3 gaat de campagne live op een derde van je volume en groeit die naar honderd procent. De eerste positieve reacties komen doorgaans al op de eerste dag na livegang binnen.": {
-"en": "Two weeks of building, and in week 3 the first email goes out. Week 1 is the intake: offer, decision makers and the list. Alongside that we set up the sending environment with separate domains and mailboxes. In week 2 those warm up to build reputation, we write the first email and two follow-ups, and you sign off on the list and the copy. In week 3 the campaign goes live at a third of your volume and grows to a hundred percent. The first positive replies usually come in on the very first day after going live."
+"Twee weken bouwen, in week 3 gaat de eerste mail eruit. Week 1 is de intake: aanbod, beslissers en de lijst. Daarnaast zetten we de verzendomgeving op met aparte domeinen en mailboxen. Week 2 draaien die warm om reputatie op te bouwen, schrijven we de eerste mail en twee opvolgmails, en keur jij de lijst en de teksten goed. In week 3 gaat de campagne live op een derde van je volume en groeit die naar honderd procent. De eerste positieve reacties komen vaak al op de eerste dag na livegang binnen.": {
+"en": "Two weeks of building, and in week 3 the first email goes out. Week 1 is the intake: offer, decision makers and the list. Alongside that we set up the sending environment with separate domains and mailboxes. In week 2 those warm up to build reputation, we write the first email and two follow-ups, and you sign off on the list and the copy. In week 3 the campaign goes live at a third of your volume and grows to a hundred percent. The first positive replies often come in on the very first day after going live."
 },
 "Kan ik ook alleen de leads afnemen?": {
 "en": "Can I buy just the leads?"
@@ -9277,8 +9277,8 @@ window.L2L_I18N_DATA = {
 "Mailboxen draaien warm. De eerste mail en twee opvolgmails worden geschreven, jij keurt lijst en teksten goed.": {
 "en": "Mailboxes warm up. The first email and two follow-up emails are written, you approve the list and the copy."
 },
-"De campagne gaat live op een derde van je volume en groeit naar honderd procent. Eerste positieve reacties doorgaans al op de eerste dag na livegang.": {
-"en": "The campaign goes live at a third of your volume and grows to one hundred percent. First positive replies usually on the very first day after going live."
+"De campagne gaat live op een derde van je volume en groeit naar honderd procent. Eerste positieve reacties vaak al op de eerste dag na livegang.": {
+"en": "The campaign goes live at a third of your volume and grows to one hundred percent. First positive replies often on the very first day after going live."
 },
 "Maand 2": {
 "en": "Month 2"
@@ -9343,8 +9343,8 @@ window.L2L_I18N_DATA = {
 "Hoe snel levert het iets op?": {
 "en": "How quickly does it deliver anything?"
 },
-"De eerste twee weken zijn opbouw en warmup, in week 3 gaat de campagne live. De eerste positieve reacties komen doorgaans al op de eerste dag na livegang binnen. Een betrouwbaar beeld van het kanaal heb je na drie maanden.": {
-"en": "The first two weeks are setup and warmup, in week 3 the campaign goes live. The first positive replies usually come in on the very first day after going live. You have a reliable picture of the channel after three months."
+"De eerste twee weken zijn opbouw en warmup, in week 3 gaat de campagne live. De eerste positieve reacties komen vaak al op de eerste dag na livegang binnen. Een betrouwbaar beeld van het kanaal heb je na drie maanden.": {
+"en": "The first two weeks are setup and warmup, in week 3 the campaign goes live. The first positive replies often come in on the very first day after going live. You have a reliable picture of the channel after three months."
 },
 "Blijft mijn eigen domein veilig?": {
 "en": "Does my own domain stay safe?"
@@ -9937,8 +9937,8 @@ window.L2L_I18N_DATA = {
 "Het begint met een gratis fitcheck van 30 minuten waarin we naar je doelgroep en je aanbod kijken en doorrekenen wat realistisch is. Past jouw markt niet bij dit kanaal, dan zeggen we dat voordat je tekent.": {
 "en": "It starts with a free 30-minute fitcheck in which we look at your target group and your offer and work out what is realistic. If your market does not fit this channel, we say so before you sign."
 },
-"Daarna: week 1 is de intake en het opzetten van aparte verzenddomeinen en mailboxen, week 2 draaien die warm en schrijven we de eerste mail en twee opvolgmails, en in week 3 gaat de campagne live op een derde van je volume en groeit naar honderd procent. De eerste positieve reacties komen doorgaans al op de eerste dag na livegang binnen. Je eigen domein gebruiken we nooit, dus je normale mailverkeer blijft buiten de campagne.": {
-"en": "After that: week 1 is the intake and setting up separate sending domains and mailboxes, in week 2 those warm up and we write the first email and two follow-up emails, and in week 3 the campaign goes live at a third of your volume and grows to one hundred percent. The first positive replies usually come in on the very first day after going live. We never use your own domain, so your normal email traffic stays out of the campaign."
+"Daarna: week 1 is de intake en het opzetten van aparte verzenddomeinen en mailboxen, week 2 draaien die warm en schrijven we de eerste mail en twee opvolgmails, en in week 3 gaat de campagne live op een derde van je volume en groeit naar honderd procent. De eerste positieve reacties komen vaak al op de eerste dag na livegang binnen. Je eigen domein gebruiken we nooit, dus je normale mailverkeer blijft buiten de campagne.": {
+"en": "After that: week 1 is the intake and setting up separate sending domains and mailboxes, in week 2 those warm up and we write the first email and two follow-up emails, and in week 3 the campaign goes live at a third of your volume and grows to one hundred percent. The first positive replies often come in on the very first day after going live. We never use your own domain, so your normal email traffic stays out of the campaign."
 },
 "Elke binnenkomende reactie wordt met de hand gelezen. Wat een gesprek waard is gaat door naar jouw mailbox met naam, functie, organisatie en contactgegevens, klaar om te bellen. Elke week krijg je een rapportage met wat er is verstuurd en wat eruit kwam.": {
 "en": "Every incoming reply is read by hand. Whatever is worth a conversation goes to your inbox with name, job title, organisation and contact details, ready to call. Every week you get a report with what was sent and what came out of it."
@@ -10012,8 +10012,8 @@ window.L2L_I18N_DATA = {
 "Hoe snel kan mijn campagne live?": {
 "en": "How quickly can my campaign go live?"
 },
-"Week 1 en 2 zijn opbouw en warmup, in week 3 gaat de campagne live. De eerste positieve reacties komen doorgaans al op de eerste dag na livegang binnen.": {
-"en": "Weeks 1 and 2 are setup and warmup, in week 3 the campaign goes live. The first positive replies usually come in on the very first day after going live."
+"Week 1 en 2 zijn opbouw en warmup, in week 3 gaat de campagne live. De eerste positieve reacties komen vaak al op de eerste dag na livegang binnen.": {
+"en": "Weeks 1 and 2 are setup and warmup, in week 3 the campaign goes live. The first positive replies often come in on the very first day after going live."
 },
 "Loopt mijn eigen domein risico?": {
 "en": "Is my own domain at risk?"
@@ -10931,8 +10931,8 @@ window.L2L_I18N_DATA = {
 "Als je agenda vol zit, voelt acquisitie als iets voor later. Het werk is er en een extra gesprek past deze maand gewoon niet. Toch zit er tijd tussen het moment dat je begint en het moment dat er gesprekken uit komen. Wie pas start als het stil wordt, merkt die tijd precies op het verkeerde moment.": {
 "en": "When your calendar is full, prospecting feels like something for later. The work is there and an extra conversation simply does not fit this month. Yet there is time between the moment you start and the moment conversations come out of it. If you only start when things go quiet, you notice that time at exactly the wrong moment."
 },
-"Een campagne levert pas na een paar weken gesprekken op. Bij ons staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste positieve reacties doorgaans al op de eerste dag. Vanaf de tweede maand weet je welke segmenten reageren.": {
-"en": "A campaign only produces conversations after a few weeks. With us the setup is ready within 14 days, the campaign goes live in week 3 and the first positive replies usually come in on the very first day. From the second month you know which segments respond."
+"Een campagne levert pas na een paar weken gesprekken op. Bij ons staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste positieve reacties vaak al op de eerste dag. Vanaf de tweede maand weet je welke segmenten reageren.": {
+"en": "A campaign only produces conversations after a few weeks. With us the setup is ready within 14 days, the campaign goes live in week 3 and the first positive replies often come in on the very first day. From the second month you know which segments respond."
 },
 "Begin je pas als je agenda leeg is, dan zit je dus een flinke periode zonder nieuwe gesprekken. Begin je nu, dan liggen die gesprekken klaar op het moment dat er ruimte komt. En met een volle agenda kun je kiezen met wie je verder praat.": {
 "en": "So if you only start when your calendar is empty, you face a long stretch without new conversations. If you start now, those conversations are ready the moment space opens up. And with a full calendar you can choose who you continue talking to."
@@ -11009,8 +11009,8 @@ window.L2L_I18N_DATA = {
 "Waarom met acquisitie beginnen als ik het al druk heb?": {
 "en": "Why start prospecting when I am already busy?"
 },
-"Omdat er weken zitten tussen de start en de eerste gesprekken. Bij ons staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste positieve reacties doorgaans al op de eerste dag. Wie nu begint, heeft gesprekken klaarliggen als er ruimte komt.": {
-"en": "Because there are weeks between the start and the first conversations. With us the setup is ready within 14 days, the campaign goes live in week 3 and the first positive replies usually come in on the very first day. If you start now, you have conversations ready when space opens up."
+"Omdat er weken zitten tussen de start en de eerste gesprekken. Bij ons staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste positieve reacties vaak al op de eerste dag. Wie nu begint, heeft gesprekken klaarliggen als er ruimte komt.": {
+"en": "Because there are weeks between the start and the first conversations. With us the setup is ready within 14 days, the campaign goes live in week 3 and the first positive replies often come in on the very first day. If you start now, you have conversations ready when space opens up."
 },
 "Kan ik een positieve reactie ook later opvolgen?": {
 "en": "Can I follow up on a positive reply later?"
@@ -11241,8 +11241,8 @@ window.L2L_I18N_DATA = {
 "Een softwarebedrijf dat nieuwe klanten altijd via-via binnenkreeg, zonder structurele acquisitie. Negentig dagen na de start van de campagne van Link2Leads stonden er 38 gekwalificeerde afspraken in de agenda.": {
 "en": "A software company that always won new clients through word of mouth, without structured prospecting. Ninety days after the start of the Link2Leads campaign, there were 38 qualified meetings in the calendar."
 },
-"Een campagne levert pas na een paar weken gesprekken op. Bij Link2Leads staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste positieve reacties doorgaans al op de eerste dag. Vanaf de tweede maand weet je welke segmenten reageren.": {
-"en": "A campaign only produces conversations after a few weeks. At Link2Leads the setup is ready within 14 days, the campaign goes live in week 3 and the first positive replies usually come in on the very first day. From the second month you know which segments respond."
+"Een campagne levert pas na een paar weken gesprekken op. Bij Link2Leads staat de setup binnen 14 dagen, gaat de campagne in week 3 live en komen de eerste positieve reacties vaak al op de eerste dag. Vanaf de tweede maand weet je welke segmenten reageren.": {
+"en": "A campaign only produces conversations after a few weeks. At Link2Leads the setup is ready within 14 days, the campaign goes live in week 3 and the first positive replies often come in on the very first day. From the second month you know which segments respond."
 },
 "Link2Leads is zo'n bureau. Wij bouwen de lijst en schrijven de teksten, versturen vanaf onze eigen verzenddomeinen en leveren de positieve reacties in jouw mailbox. Een pakket kost € 995 tot € 1.995 per maand, all-in, met een minimale looptijd van drie maanden.": {
 "en": "Link2Leads is such an agency. We build the list and write the copy, send from our own sending domains and deliver the positive replies to your inbox. A package costs EUR 995 to EUR 1,995 per month, all-in, with a minimum term of three months."
@@ -11415,8 +11415,8 @@ window.L2L_I18N_DATA = {
 "Het een vervangt het ander ook niet. Wie via het netwerk komt, blijft via het netwerk komen. Een campagne zorgt ervoor dat je daarnaast gesprekken voert met bedrijven die je anders nooit had gesproken.": {
 "en": "One does not replace the other. Whoever comes through your network keeps coming through your network. A campaign makes sure that alongside it you talk to companies you would otherwise never have spoken to."
 },
-"Bij Link2Leads begint dat met 3.000 mails per maand op Starter voor € 995. De eerste positieve reacties komen doorgaans al op de eerste dag na livegang binnen.": {
-"en": "At Link2Leads that starts with 3,000 emails per month on Starter for € 995. The first positive replies usually come in on the very first day after going live."
+"Bij Link2Leads begint dat met 3.000 mails per maand op Starter voor € 995. De eerste positieve reacties komen vaak al op de eerste dag na livegang binnen.": {
+"en": "At Link2Leads that starts with 3,000 emails per month on Starter for € 995. The first positive replies often come in on the very first day after going live."
 },
 "Een doorverwijzing komt binnen met vertrouwen dat iemand anders al voor je heeft opgebouwd. De nieuwe klant heeft van een bekende gehoord dat je goed werk levert. Over je prijs wordt minder onderhandeld en het eerste gesprek gaat sneller over de inhoud.": {
 "en": "A referral comes in with trust that someone else already built for you. The new client heard from someone they know that you do good work. There is less haggling over your price and the first conversation gets to the substance faster."
@@ -11502,8 +11502,8 @@ window.L2L_I18N_DATA = {
 "Hoe snel komen de eerste gesprekken?": {
 "en": "How soon do the first conversations come?"
 },
-"De setup staat binnen 14 dagen, de campagne gaat in week 3 live en de eerste positieve reacties komen doorgaans al op de eerste dag binnen.": {
-"en": "The setup is ready within 14 days, the campaign goes live in week 3 and the first positive replies usually come in on the very first day."
+"De setup staat binnen 14 dagen, de campagne gaat in week 3 live en de eerste positieve reacties komen vaak al op de eerste dag binnen.": {
+"en": "The setup is ready within 14 days, the campaign goes live in week 3 and the first positive replies often come in on the very first day."
 },
 "Kan ik LinkedIn erbij nemen?": {
 "en": "Can I add LinkedIn?"
@@ -12060,8 +12060,8 @@ window.L2L_I18N_DATA = {
 "Zakelijke acquisitie per e-mail is in Nederland aan regels gebonden. De AVG en regels voor ongevraagde elektronische communicatie kunnen allebei van toepassing zijn.": {
 "en": "Business email outreach in the Netherlands is subject to rules. The GDPR and rules on unsolicited electronic communication can both apply."
 },
-"De eerste twee weken richten we je campagne in. In week 3 starten we met verzenden. De eerste positieve reacties komen doorgaans al op de eerste dag na de start binnen. Daarna blijven we de campagne optimaliseren.": {
-"en": "We set up your campaign in the first two weeks. In week 3 we start sending. The first positive replies usually come in on the very first day after launch. After that we keep optimizing the campaign."
+"De eerste twee weken richten we je campagne in. In week 3 starten we met verzenden. De eerste positieve reacties komen vaak al op de eerste dag na de start binnen. Daarna blijven we de campagne optimaliseren.": {
+"en": "We set up your campaign in the first two weeks. In week 3 we start sending. The first positive replies often come in on the very first day after launch. After that we keep optimizing the campaign."
 },
 "Wat moet ik zelf doen?": {
 "en": "What do I need to do myself?"
@@ -12327,8 +12327,8 @@ window.L2L_I18N_DATA = {
 "“Vijftien dagen pas?” Die reactie horen we geregeld als we in een fitcheck de planning doorlopen. Meestal gevolgd door de vraag hoeveel maanden je eraan vastzit. Begrijpelijk. Wie besluit om met acquisitie te beginnen, wil liefst volgende week gesprekken. Hieronder staat wat er in die eerste weken gebeurt en waarom het zo lang duurt als het duurt.": {
 "en": "“Fifteen days?” We regularly hear that reaction when we go through the planning in a fitcheck. Usually followed by the question of how many months you are tied in. Understandable. Anyone who decides to start prospecting would rather have conversations next week. Below is what happens in those first weeks and why it takes as long as it does."
 },
-"Bij Link2Leads staat de setup binnen 14 dagen na akkoord. In week 3 gaat de campagne live. De eerste positieve reacties komen doorgaans al op de eerste dag binnen.": {
-"en": "At Link2Leads the setup is ready within 14 days of sign-off. In week 3 the campaign goes live. The first positive replies usually come in on the very first day."
+"Bij Link2Leads staat de setup binnen 14 dagen na akkoord. In week 3 gaat de campagne live. De eerste positieve reacties komen vaak al op de eerste dag binnen.": {
+"en": "At Link2Leads the setup is ready within 14 days of sign-off. In week 3 the campaign goes live. The first positive replies often come in on the very first day."
 },
 "Een betrouwbaar beeld van wat het kanaal voor jou doet, heb je na drie maanden. Daarom is de eerste termijn drie maanden. Daarna is het maandelijks opzegbaar.": {
 "en": "You have a reliable picture of what the channel does for you after three months. That is why the first term is three months. After that it can be cancelled monthly."
@@ -12363,8 +12363,8 @@ window.L2L_I18N_DATA = {
 "In week 3 gaan de eerste mails uit. We beginnen op een derde van het volume en bouwen dat in twee weken op naar het volume uit je pakket. Ook dat heeft met reputatie te maken: een mailbox die geleidelijk meer verstuurt, blijft in de inbox landen.": {
 "en": "In week 3 the first emails go out. We start at a third of the volume and build that up over two weeks to the volume in your package. That also has to do with reputation: a mailbox that gradually sends more keeps landing in the inbox."
 },
-"De eerste positieve reacties komen doorgaans al op de eerste dag na livegang binnen. Bij een softwarebedrijf waarvoor we campagnes draaien, stond de eerste afspraak op dag 1 na livegang. Een andere klant schreef in zijn review: “Na 15 dagen stroomden de positieve reacties al binnen.”": {
-"en": "The first positive replies usually come in on the very first day after going live. For a software company we run campaigns for, the first meeting was booked on day 1 after going live. Another client wrote in their review: “After 15 days the positive replies were already pouring in.”"
+"De eerste positieve reacties komen vaak al op de eerste dag na livegang binnen. Bij een softwarebedrijf waarvoor we campagnes draaien, stond de eerste afspraak op dag 1 na livegang. Een andere klant schreef in zijn review: “Na 15 dagen stroomden de positieve reacties al binnen.”": {
+"en": "The first positive replies often come in on the very first day after going live. For a software company we run campaigns for, the first meeting was booked on day 1 after going live. Another client wrote in their review: “After 15 days the positive replies were already pouring in.”"
 },
 "Elke reactie lezen we met de hand. Wat een gesprek waard is, komt in je eigen mailbox terecht. Elke week krijg je een rapportage met wat er is verstuurd en wat eruit kwam.": {
 "en": "We read every reply by hand. Whatever is worth a conversation ends up in your own mailbox. Every week you get a report of what was sent and what came out of it."
@@ -12399,8 +12399,8 @@ window.L2L_I18N_DATA = {
 "Hoe snel komen de eerste reacties?": {
 "en": "How fast do the first replies come?"
 },
-"De setup staat binnen 14 dagen, de campagne gaat in week 3 live en de eerste positieve reacties komen doorgaans al op de eerste dag binnen.": {
-"en": "The setup is ready within 14 days, the campaign goes live in week 3 and the first positive replies usually come in on the very first day."
+"De setup staat binnen 14 dagen, de campagne gaat in week 3 live en de eerste positieve reacties komen vaak al op de eerste dag binnen.": {
+"en": "The setup is ready within 14 days, the campaign goes live in week 3 and the first positive replies often come in on the very first day."
 },
 "Waarom kan de campagne niet meteen live?": {
 "en": "Why can the campaign not go live straight away?"
