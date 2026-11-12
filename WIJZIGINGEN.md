@@ -1,3 +1,8 @@
+**12 november 2026: eerste positieve reacties op dag 1**
+- Overal waar stond dat de eerste reacties doorgaans 3 tot 10 dagen na livegang binnenkomen, staat nu dat de eerste positieve reacties doorgaans al op de eerste dag binnenkomen (homepage-FAQ, kennisartikelen, Amsterdam-pagina, schema.org-FAQ's, llms.txt en llms-full.txt). Aanleiding: QuickGoot had op dag 1 van livegang twee positieve reacties.
+- In het artikel over hoe lang het duurt is de zin "Bij sommige campagnes gaat het sneller" weggehaald, omdat dag 1 nu de standaard is.
+- Engels in `assets/i18n/l2l-i18n-data.js`, `l2l-i18n.js?v=75`. Zelfde op link2leads.co (in het Engels).
+
 **11 november 2026: Google-review van MicFil Filters**
 - Nieuwe reviewkaart van Pieter-Jan (MicFil Filters, vijf sterren op Google) in de reviewsectie, met het MicFil-logo. De slotzin van de review staat er niet bij, omdat die zoals hij op Google staat het omgekeerde zegt van wat bedoeld is ("nog vaak tegengekomen").
 - Indeling: rij 1 vier kaarten, rij 2 de kaart van Pieter-Jan met de tegel "En nog veel meer" ernaast. Op tablet staat de tegel naast de vijfde kaart, op mobiel eronder.
