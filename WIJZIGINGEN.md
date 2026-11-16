@@ -1,3 +1,9 @@
+**16 november 2026: herinneringen werken weer, met eigen klok**
+- Sinds ongeveer 20 oktober gingen er geen herinneringen meer uit (24 uur en 1 uur van tevoren), niet naar klanten en niet intern. Oorzaak: de externe aanroep van `api/remind` (cron-job.org) viel weg. Daardoor stond ook het automatisch aanzetten van de Teams-transcriptie stil.
+- Nieuwe klok in deze repo: `.github/workflows/herinneringen.yml` roept elk kwartier `api/remind` aan op link2leads.nl en link2leads.co, en apart de transcriptie. Mislukt een aanroep, dan mailt GitHub. Nodig: secrets REMIND_SECRET_NL en REMIND_SECRET_CO in GitHub (zelfde waarde als REMIND_SECRET in Vercel van die site).
+- Een gemiste run kost geen herinnering meer: de dagherinnering gaat alsnog uit tot 20 uur van tevoren, de uurherinnering tot 10 minuten van tevoren. Bij een run op tijd blijft het precies 24 uur en 1 uur. Zelfde aanpassing in `api/remind.js` van link2leads.co (daar stond nog het oude venster van 23 tot 25 uur en 45 tot 75 minuten).
+- `api/remind?taak=herinneringen` doet alleen de herinneringen, `?taak=transcriptie` alleen de transcriptie, zonder taak allebei. Zo kan een trage transcriptie de herinneringen niet meer laten mislukken. `vercel.json`: `api/remind.js` mag 60 seconden lopen.
+
 **12 november 2026: eerste positieve reacties op dag 1**
 - Overal waar stond dat de eerste reacties doorgaans 3 tot 10 dagen na livegang binnenkomen, staat nu dat de eerste positieve reacties vaak al op de eerste dag binnenkomen (homepage-FAQ, kennisartikelen, Amsterdam-pagina, schema.org-FAQ's, llms.txt en llms-full.txt). Aanleiding: QuickGoot had op dag 1 van livegang twee positieve reacties.
 - In het artikel over hoe lang het duurt is de zin "Bij sommige campagnes gaat het sneller" weggehaald, omdat positieve reacties nu vaak al op dag 1 binnenkomen.
