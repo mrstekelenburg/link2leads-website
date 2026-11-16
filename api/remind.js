@@ -6,10 +6,14 @@
      - 24 uur van tevoren -> herinnering "morgen" (klant + intern)
      - 1 uur van tevoren  -> herinnering "over een uur" (klant + intern)
 
-   Omdat dit elk kwartier draait, telt alles tussen 14 minuten na en 1 minuut
-   voor het doelmoment mee. Bij een afspraak op het hele of halve uur gaat de
-   mail dus precies 24 uur of 1 uur van tevoren uit (eerder stond het venster
-   op 45 tot 75 minuten, waardoor de uur-herinnering 1u15 van tevoren kwam).
+   Bij een aanroep precies op het kwartier gaat de mail dus precies 24 uur of
+   1 uur van tevoren uit. Is er een run gemist (klok te laat of even stuk), dan
+   wordt de herinnering bij de volgende run alsnog verstuurd: de dagherinnering
+   tot 20 uur van tevoren, de uurherinnering tot 10 minuten van tevoren.
+
+   Aanroep met ?taak=herinneringen doet alleen de herinneringen, ?taak=transcriptie
+   alleen het aanzetten van de Teams-transcriptie. Zonder taak allebei (zoals
+   vroeger). De klok staat in .github/workflows/herinneringen.yml.
 
    Welke herinnering al verstuurd is, staat als categorie op de afspraak in
    Outlook ("L2L herinnering dag verstuurd" / "L2L herinnering uur verstuurd").
@@ -269,9 +273,12 @@ module.exports = async (req, res) => {
   const from = `"Link2Leads" <${process.env.MAIL_FROM || 'info@link2leads.nl'}>`;
   const t = transporter();
   const log = [];
+  const taak = String((req.query && req.query.taak) || '').toLowerCase();
+  const doeHerinneringen = taak !== 'transcriptie';
+  const doeTranscriptie = taak !== 'herinneringen';
 
   try {
-    const events = await graph.listUpcoming(26);
+    const events = doeHerinneringen ? await graph.listUpcoming(26) : [];
     const now = Date.now();
 
     for (const ev of events) {
@@ -282,11 +289,12 @@ module.exports = async (req, res) => {
 
       if (!p.email) { log.push(`overgeslagen (geen deelnemer): ${wie}`); continue; }
 
-      if (minutes > 24 * 60 - 14 && minutes <= 24 * 60 + 1 && !ev.categories.includes(CAT_DAG)) {
+      const dagAl = ev.categories.includes(CAT_DAG), uurAl = ev.categories.includes(CAT_UUR);
+      if (minutes > 20 * 60 && minutes <= 24 * 60 + 1 && !dagAl && !uurAl) {
         await sendDag(t, ev, p, from, notify);
         await graph.addCategory(ev.id, CAT_DAG);
         log.push(`dag-herinnering: ${wie}`);
-      } else if (minutes > 60 - 14 && minutes <= 60 + 1 && !ev.categories.includes(CAT_UUR)) {
+      } else if (minutes > 10 && minutes <= 60 + 1 && !uurAl) {
         await sendUur(t, ev, p, from, notify);
         await graph.addCategory(ev.id, CAT_UUR);
         log.push(`uur-herinnering: ${wie}`);
@@ -296,7 +304,7 @@ module.exports = async (req, res) => {
     // Elke Teams-vergadering die wij organiseren automatisch laten opnemen en
     // transcriberen. Een fout hier mag de herinneringen nooit tegenhouden.
     let transcriptie = [];
-    try {
+    if (doeTranscriptie) try {
       transcriptie = await graph.transcribeUpcoming(7);
     } catch (err) {
       transcriptie = ['mislukt: ' + err.message];

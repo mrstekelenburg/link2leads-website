@@ -1,0 +1,59 @@
+# Klok voor de fitcheck-herinneringen (24 uur en 1 uur van tevoren) en het
+# automatisch aanzetten van de Teams-transcriptie.
+#
+# Roept elk kwartier api/remind aan op link2leads.nl en link2leads.co.
+# Eerder deed cron-job.org dat; die aanroep viel rond 20 oktober 2026 weg,
+# waarna er geen herinneringen meer uitgingen.
+#
+# Nodig (eenmalig, in GitHub bij deze repo onder Settings > Secrets and
+# variables > Actions):
+#   REMIND_SECRET_NL  = de waarde van REMIND_SECRET in Vercel bij link2leads.nl
+#   REMIND_SECRET_CO  = de waarde van REMIND_SECRET in Vercel bij link2leads.co
+#
+# Mislukt een aanroep, dan wordt de run rood en mailt GitHub daarover.
+# GitHub start geplande runs soms een paar minuten later; api/remind haalt een
+# gemiste herinnering daarom bij de volgende run alsnog in.
+name: Herinneringen
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: herinneringen
+  cancel-in-progress: false
+
+jobs:
+  herinneringen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Herinneringen link2leads.nl
+        env:
+          KEY: ${{ secrets.REMIND_SECRET_NL }}
+        run: |
+          if [ -z "$KEY" ]; then echo "Secret REMIND_SECRET_NL ontbreekt"; exit 1; fi
+          curl -sS --fail-with-body -m 60 -H "Authorization: Bearer $KEY" \
+            "https://www.link2leads.nl/api/remind?taak=herinneringen"
+          echo
+
+      - name: Herinneringen link2leads.co
+        if: always()
+        env:
+          KEY: ${{ secrets.REMIND_SECRET_CO }}
+        run: |
+          if [ -z "$KEY" ]; then echo "Secret REMIND_SECRET_CO ontbreekt"; exit 1; fi
+          curl -sS --fail-with-body -m 60 -H "Authorization: Bearer $KEY" \
+            "https://www.link2leads.co/api/remind"
+          echo
+
+      - name: Teams-transcriptie aanzetten
+        if: always()
+        continue-on-error: true
+        env:
+          KEY: ${{ secrets.REMIND_SECRET_NL }}
+        run: |
+          curl -sS --fail-with-body -m 60 -H "Authorization: Bearer $KEY" \
+            "https://www.link2leads.nl/api/remind?taak=transcriptie"
+          echo
