@@ -139,7 +139,7 @@ module.exports = async (req, res) => {
         from, to: b.email,
         subject: `Je voorbereiding voor ${b.date} — Link2Leads ${ref}`,
         text: [
-          `Hoi ${b.name},`,
+          `Hi ${b.name},`,
           ``,
           `Je antwoorden zijn binnen. Hieronder een kopie voor je eigen administratie.`,
           `We bereiden hiermee het gesprek van ${b.date} om ${b.time} voor.`,
@@ -248,7 +248,7 @@ module.exports = async (req, res) => {
       alternatives: icsAlt,
       subject: `Je fitcheck staat — ${b.date} om ${b.time}`,
       text: [
-        `Hoi ${b.name},`,
+        `Hi ${b.name},`,
         ``,
         `Je gratis fitcheck met Link2Leads staat ingepland.`,
         calendar ? `Je krijgt zo een agenda-uitnodiging met de deelnamelink. Een dag en een uur van tevoren sturen we je een herinnering.` : `Je ontvangt de deelnamelink uiterlijk een dag van tevoren.`,
