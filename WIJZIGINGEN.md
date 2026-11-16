@@ -1,3 +1,7 @@
+**16 november 2026: naam in herinneringen, overal "Hi"**
+- Afspraken zonder naam bij de deelnemer (handmatige uitnodigingen) gaven in de herinnering het mailadres als naam ("Hoi erik@bedrijf.nl"). Nu wordt de voornaam uit het mailadres gehaald (Erik). Zelfde op link2leads.co.
+- Alle systeemmails openen met "Hi" in plaats van "Hoi" (boeking, herinneringen, vragenlijst, contact, betaling).
+
 **16 november 2026: herinneringen werken weer, met eigen klok**
 - Sinds ongeveer 20 oktober gingen er geen herinneringen meer uit (24 uur en 1 uur van tevoren), niet naar klanten en niet intern. Oorzaak: de externe aanroep van `api/remind` (cron-job.org) viel weg. Daardoor stond ook het automatisch aanzetten van de Teams-transcriptie stil.
 - Nieuwe klok in deze repo: `.github/workflows/herinneringen.yml` roept elk kwartier `api/remind` aan op link2leads.nl en link2leads.co, en apart de transcriptie. Mislukt een aanroep, dan mailt GitHub. Nodig: secrets REMIND_SECRET_NL en REMIND_SECRET_CO in GitHub (zelfde waarde als REMIND_SECRET in Vercel van die site).

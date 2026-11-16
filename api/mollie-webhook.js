@@ -129,7 +129,7 @@ module.exports = async (req, res) => {
           ].join('')
         }),
         text: [
-          `Hoi ${m.naam || ''},`,
+          `Hi ${m.naam || ''},`,
           ``,
           `Je betaling van ${bedrag} euro is binnen. Dank je.`,
           ``,

@@ -73,6 +73,15 @@ function nlTime(d) {
   }).format(d);
 }
 
+/* Naam van de deelnemer; zonder naam (of met alleen het mailadres als naam)
+   de voornaam uit het mailadres: erik@bedrijf.nl -> Erik. */
+function naamOf(a) {
+  const n = String(a.name || '').trim();
+  if (n && !n.includes('@')) return n;
+  const local = String(a.email || '').split('@')[0].split(/[._-]/)[0];
+  return local ? local.charAt(0).toUpperCase() + local.slice(1) : String(a.email || '');
+}
+
 /* Haalt de gegevens van de prospect uit de afspraak. */
 function prospectOf(ev) {
   const ours = new Set(
@@ -85,7 +94,7 @@ function prospectOf(ev) {
   const phoneMatch = ev.bodyPreview.match(/Telefoon:\s*(.+?)(?=\s*(?:Boekingsnummer|Bedrijf)\b|\s*$)/m);
   return {
     email: a ? a.email : '',
-    name: a ? (a.name || a.email) : '',
+    name: a ? naamOf(a) : '',
     company,
     ref: refMatch ? refMatch[0] : '',
     phone: phoneMatch ? phoneMatch[1].trim() : ''
@@ -118,7 +127,7 @@ async function sendDag(t, ev, p, from, notify) {
     from, to: p.email,
     subject: `Morgen om ${tijd}: je ${g} met Link2Leads`,
     text: [
-      `Hoi ${firstName},`,
+      `Hi ${firstName},`,
       ``,
       `Morgen om ${tijd} (Nederlandse tijd) staat je ${g} met Link2Leads. ${duur} via Microsoft Teams.`,
       ev.joinUrl ? `Deelnemen: ${ev.joinUrl}` : `De deelnamelink staat in je agenda-uitnodiging.`,
@@ -200,7 +209,7 @@ async function sendUur(t, ev, p, from, notify) {
     from, to: p.email,
     subject: `Over een uur: je ${g} met Link2Leads (${tijd})`,
     text: [
-      `Hoi ${firstName},`,
+      `Hi ${firstName},`,
       ``,
       `Over een uur, om ${tijd} (Nederlandse tijd), begint je ${g} met Link2Leads. ${duur} via Microsoft Teams.`,
       ev.joinUrl ? `Deelnemen: ${ev.joinUrl}` : `De deelnamelink staat in je agenda-uitnodiging.`,

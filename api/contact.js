@@ -41,7 +41,7 @@ function tooMany(ip) {
 const KIND = {
   vraag: {
     subject: 'Je vraag is binnen',
-    h1: (name) => `Hoi ${esc(name)}, je vraag is binnen`,
+    h1: (name) => `Hi ${esc(name)}, je vraag is binnen`,
     intro: 'Ik lees hem zelf en je hoort binnen een werkdag van me. Geen automatische reeks en geen verkoopmail, gewoon antwoord op wat je vraagt.',
     label: 'Je vraag',
     next: 'Ik lees je vraag zelf en antwoord binnen een werkdag, met een concreet antwoord in plaats van een uitnodiging voor een gesprek. Wil je liever meteen doorpraten, plan dan hieronder de gratis fitcheck. Dat hoeft niet.',
@@ -65,7 +65,7 @@ const KIND = {
   },
   leads: {
     subject: 'Je leadaanvraag is binnen',
-    h1: (name) => `Hoi ${esc(name)}, je leadaanvraag is binnen`,
+    h1: (name) => `Hi ${esc(name)}, je leadaanvraag is binnen`,
     intro: 'We tellen eerst hoeveel bedrijven er in je selectie passen en sturen je binnen een werkdag die telling met de prijs erbij. Pas als je daarmee akkoord gaat, bouwen we de lijst. Je zit nergens aan vast voordat je ja zegt.',
     label: 'Je aanvraag',
     next: 'De telling met prijs komt binnen een werkdag in je mailbox. Wil je de doelgroep liever eerst doorpraten, plan dan hieronder de gratis fitcheck. Dat hoeft niet.',
@@ -145,7 +145,7 @@ module.exports = async (req, res) => {
       replyTo: 'info@link2leads.nl',
       subject: `${k.subject} — Link2Leads ${ref}`,
       text: [
-        (isScan || isSample) ? `Hoi,` : `Hoi ${name},`,
+        (isScan || isSample) ? `Hi,` : `Hi ${name},`,
         ``,
         k.intro,
         ``,

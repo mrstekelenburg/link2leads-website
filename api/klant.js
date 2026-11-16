@@ -55,7 +55,7 @@ module.exports = async (req, res) => {
       from, to: email,
       subject: `Je vragenlijst is binnen — Link2Leads ${ref}`,
       text: [
-        `Hoi ${name},`,
+        `Hi ${name},`,
         ``,
         `Je antwoorden zijn binnen. Hieronder een kopie voor je eigen administratie.`,
         `Ik neem ze door en gebruik ze als basis voor de fitcheck, zodat we die tijd aan de aanpak besteden in plaats van aan uitvragen.`,
