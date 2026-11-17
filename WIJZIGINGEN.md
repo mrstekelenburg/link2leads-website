@@ -1,3 +1,10 @@
+**17 november 2026: twee nieuwe kennisartikelen**
+- Nieuw: `/kennis/no-cure-no-pay` (Kan koude e-mail op no cure no pay?) en `/kennis/waarom-koude-mail-gelezen` (Iedereen krijgt al koude mails. Waarom zou die van jou werken?). Zelfde sjabloon als de andere kennisartikelen: Article, Organization, BreadcrumbList en FAQPage in schema.org, "Het korte antwoord", auteursblok, fitcheck-CTA en "Verder lezen".
+- Onderwerpen uit een salescall van vorige week (prospect werkte met een bureau dat per resultaat zou leveren, "dus dit is gewoon vast?") plus vaste lijst nr. 7, en uit replies in Smartlead deze week ("ik ontvang wekelijks van dit soort verzoeken") plus vaste lijst nr. 1. Alleen cijfers en werkwijze die al op de site staan, geen namen.
+- `kennis.html`: beide kaarten vooraan en twee items in het ItemList-schema.
+- `sitemap.xml`: beide url's erbij, lastmod van /kennis naar 17 november. `llms.txt`: twee regels erbij, datum naar 17 november. `llms-full.txt` opnieuw opgebouwd met `scripts/llms-full.py`.
+- Engelse vertalingen van alle nieuwe teksten in `assets/i18n/l2l-i18n-data.js`. `kennis.html` en de twee nieuwe artikelen op `l2l-i18n.js?v=76`.
+
 **16 november 2026: naam in herinneringen, overal "Hi"**
 - Afspraken zonder naam bij de deelnemer (handmatige uitnodigingen) gaven in de herinnering het mailadres als naam ("Hoi erik@bedrijf.nl"). Nu wordt de voornaam uit het mailadres gehaald (Erik). Zelfde op link2leads.co.
 - Alle systeemmails openen met "Hi" in plaats van "Hoi" (boeking, herinneringen, vragenlijst, contact, betaling).
