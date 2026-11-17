@@ -13250,5 +13250,29 @@ window.L2L_I18N_DATA = {
 },
 "Waarom de ene koude mail gelezen wordt en de andere niet, en wat segmentatie, de eerste zin en een eigen pagina per prospect daarin doen.": {
 "en": "Why one cold email gets read and another doesn't, and what segmentation, the first sentence and a personal page per prospect have to do with it."
+},
+"Kies direct een moment voor je": {
+"en": "Pick a time for your"
+},
+"Anne-Roos of Demi": {
+"en": "Anne-Roos or Demi"
+},
+"Je spreekt één van ons tweeën, geen accountmanager. We kijken naar je doelgroep, je aanbod en wat je realistisch kunt verwachten.": {
+"en": "You talk to one of the two of us, not an account manager. We look at your target group, your offer and what you can realistically expect."
+},
+"Nederlandse tijd": {
+"en": "Dutch time"
+},
+"Na het kiezen vul je alleen nog je naam en e-mailadres in. Liever eerst een vraag stellen?": {
+"en": "After choosing, you only fill in your name and email address. Rather ask a question first?"
+},
+"Dat kan hieronder": {
+"en": "You can do that below"
+},
+"Vorige maand": {
+"en": "Previous month"
+},
+"Volgende maand": {
+"en": "Next month"
 }
 };
