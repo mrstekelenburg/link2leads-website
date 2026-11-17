@@ -136,6 +136,8 @@ async function sendDag(t, ev, p, from, notify) {
         ? `Je antwoorden op de vragenlijst hebben we ontvangen, dank je wel. Dan kunnen we morgen direct de diepte in.`
         : `Heb je de vragenlijst nog niet ingevuld? Dat kan op ${kUrl} (13 vragen, ongeveer 6 minuten). Dan kunnen we morgen gerichter kijken naar wat voor jou werkt.`,
       ``,
+      `Beslis je dit samen met iemand? Stuur de uitnodiging gerust door.`,
+      ``,
       `Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`,
       ``,
       `Bedankt en tot morgen.`,
@@ -153,8 +155,8 @@ async function sendDag(t, ev, p, from, notify) {
       body: [
         M.h1(`Morgen om ${esc(tijd)}: je ${g}, ${esc(firstName)}`),
         vlBinnen
-          ? M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Je antwoorden op de vragenlijst hebben we ontvangen, dank je wel. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 })
-          : M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 }),
+          ? M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Je antwoorden op de vragenlijst hebben we ontvangen, dank je wel. Beslis je dit samen met iemand? Stuur de uitnodiging gerust door. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 })
+          : M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Beslis je dit samen met iemand? Stuur de uitnodiging gerust door. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 }),
         vlBinnen ? '' : M.prepBlock('', 'reminder', g, { name: p.name, email: p.email, company: p.company }),
         vlBinnen ? '' : M.spacer(),
         M.detailTable([
