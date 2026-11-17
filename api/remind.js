@@ -52,11 +52,17 @@ function transporter() {
   });
 }
 
+/* Sleutel van de klok in Supabase (pg_cron, elk kwartier). Hier staat alleen
+   de SHA-256 van die sleutel; de sleutel zelf staat in de Supabase Vault. */
+const KLOK_HASH = '77c226843c06514cfb03613469af25fd85bf5dcfe782a5f910851b376ebe6c47';
+
 function authorized(req) {
   const secrets = [process.env.REMIND_SECRET, process.env.CRON_SECRET].filter(Boolean);
-  if (!secrets.length) return false;
   const hdr = String(req.headers['authorization'] || '').replace(/^Bearer\s+/i, '').trim();
   const q = String((req.query && req.query.key) || '').trim();
+  const sha = (v) => require('crypto').createHash('sha256').update(v).digest('hex');
+  if ((hdr && sha(hdr) === KLOK_HASH) || (q && sha(q) === KLOK_HASH)) return true;
+  if (!secrets.length) return false;
   return secrets.includes(hdr) || secrets.includes(q);
 }
 
