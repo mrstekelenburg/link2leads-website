@@ -1,3 +1,9 @@
+**17 november 2026: agenda direct op de homepage**
+- Op de homepage staat boven de contactsectie een blok "Kies direct een moment voor je gratis fitcheck" (#plan). Links Anne-Roos of Demi met duur en Teams, in het midden de maandkalender, rechts de tijden van de gekozen dag. De eerste werkdag met vrije tijden staat direct open.
+- Zelfde beschikbaarheid als /book: `/api/slots` (Outlook-agenda plus een derde weggeboekt), bezette tijden doorgestreept. Tijden worden pas opgehaald als het blok bijna in beeld komt.
+- Klik op een tijd gaat naar `/book?datum=&tijd=&utm_source=home-agenda`. /book zet datum en tijd klaar en springt naar de gegevensstap; bij snelboeken (naam en mail in de link) staat de bevestigknop direct klaar. Is de tijd intussen bezet, dan staat de dag open om opnieuw te kiezen. Vercel Analytics-events: `home_agenda_datum`, `home_agenda_tijd`, `book_vanaf_home_agenda`.
+- Previewpagina weggehaald. Engels in `assets/i18n/l2l-i18n-data.js`, homepage en /book op `l2l-i18n.js?v=77`.
+
 **17 november 2026: nieuw kennisartikel**
 - Nieuw: `/kennis/waarom-koude-mail-gelezen` (Iedereen krijgt al koude mails. Waarom zou die van jou werken?). Zelfde sjabloon als de andere kennisartikelen: Article, Organization, BreadcrumbList en FAQPage in schema.org, "Het korte antwoord", auteursblok, fitcheck-CTA en "Verder lezen".
 - Onderwerp uit replies in Smartlead deze week ("ik ontvang wekelijks van dit soort verzoeken") plus vaste lijst nr. 1. Alleen cijfers en werkwijze die al op de site staan, geen namen.
