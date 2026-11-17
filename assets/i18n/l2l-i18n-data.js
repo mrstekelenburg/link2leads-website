@@ -13092,164 +13092,11 @@ window.L2L_I18N_DATA = {
 "Kan koude e-mail op no cure no pay? | Link2Leads": {
 "en": "Can cold email work on a no cure no pay basis? | Link2Leads"
 },
-"Kan koude e-mail op": {
-"en": "Can cold email work on a"
-},
-"no cure no pay?": {
-"en": "no cure no pay basis?"
-},
-"Waarom betalen per resultaat bij koude e-mail zelden voorkomt, waarom het per gesprek vaak duurder uitvalt en wat een garantie op positieve reacties wel inhoudt.": {
-"en": "Why pay-per-result is rare in cold email, why it often works out more expensive per conversation and what a guarantee on positive replies does mean."
-},
 "17 november 2026": {
 "en": "17 November 2026"
 },
-"Waarom het bij koude e-mail zelden voorkomt": {
-"en": "Why it is rare in cold email"
-},
-"Wat je in de markt tegenkomt": {
-"en": "What you come across in the market"
-},
-"De rekensom per gesprek": {
-"en": "The sum per conversation"
-},
-"Waar de prikkel komt te liggen": {
-"en": "Where the incentive ends up"
-},
-"Als je nu per resultaat betaalt": {
-"en": "If you are paying per result now"
-},
-"Hoe wij het geregeld hebben": {
-"en": "How we have arranged it"
-},
-"“Dus dit is gewoon een vast bedrag?” Dat vroeg een ondernemer vorige week in een salesgesprek, vlak nadat ik de prijs had genoemd. Hij werkte al maanden met een bureau dat per resultaat zou leveren. Afspraken waren daar nog niet uit gekomen.": {
-"en": "“So this is just a fixed fee?” A business owner asked me that in a sales call last week, right after I had mentioned the price. He had been working for months with an agency that was supposed to deliver per result. No meetings had come out of it yet."
-},
-"Ik snap de vraag. Betalen per resultaat voelt als de veilige keuze: geen resultaat, geen rekening. Toch kom je dat model bij koude e-mail weinig tegen. En waar het wel bestaat, valt het vaak duurder uit dan je verwacht. Hieronder lees je hoe dat komt en waar je op let als iemand het je aanbiedt.": {
-"en": "I understand the question. Paying per result feels like the safe choice: no result, no bill. Yet you rarely come across that model in cold email. And where it does exist, it often turns out more expensive than you expect. Below you can read why that is and what to look out for when someone offers it to you."
-},
-"Zuiver no cure no pay, waarbij je pas betaalt als een afspraak echt heeft plaatsgevonden, zie je vooral bij telefonische bureaus. Bij koude e-mail kom je meestal een mengvorm tegen: een lagere vaste fee met een bedrag per gekwalificeerde reactie erbovenop. Loopt de campagne goed, dan betaal je in dat model per gesprek meer dan bij een vast maandbedrag.": {
-"en": "Pure no cure no pay, where you only pay once a meeting has actually taken place, is mostly found at telemarketing agencies. In cold email you usually come across a hybrid: a lower fixed fee with an amount per qualified reply on top. If the campaign goes well, you pay more per conversation in that model than with a fixed monthly fee."
-},
-"Link2Leads werkt met een vast maandbedrag, all-in. Op Scale en Pro leggen we vooraf een minimumaantal gekwalificeerde positieve reacties vast in het contract, gerekend over drie campagnemaanden. Afspraken en omzet garanderen we nergens.": {
-"en": "Link2Leads works with a fixed monthly fee, all-in. On Scale and Pro we fix a minimum number of qualified positive replies in the contract upfront, counted over three campaign months. We never guarantee meetings or revenue."
-},
-"Een campagne kost geld voordat er een mail uitgaat. Er komen aparte verzenddomeinen en mailboxen, en die moeten eerst twee weken warm draaien. De lijst wordt opgebouwd en elk adres wordt geverifieerd. Pas als de teksten per segment klaarstaan, gaat de eerste mail de deur uit.": {
-"en": "A campaign costs money before a single email goes out. Separate sending domains and mailboxes are set up, and they first need two weeks of warm-up. The list is built and every address is verified. Only once the copy is ready for each segment does the first email go out."
-},
-"Bij een vast maandbedrag zit dat werk gewoon in de prijs. Bij betalen per resultaat moet de leverancier het ergens anders terugverdienen. Dat gebeurt via de prijs per resultaat, via een vaste fee eronder of via een setupbedrag vooraf, en meestal via een combinatie.": {
-"en": "With a fixed monthly fee, that work is simply part of the price. With pay-per-result, the provider has to earn it back somewhere else. That happens through the price per result, through a fixed fee underneath or through an upfront setup fee, and usually through a combination."
-},
-"Daarbij draagt het bureau in dit model het risico van jouw markt, terwijl het die markt nog nauwelijks kent. Een bureau dat goed rekent, prijst dat risico in. Een bureau dat het risico te licht inschat, merkt na een paar maanden dat het niet uitkomt, en jij merkt dat ook.": {
-"en": "On top of that, in this model the agency carries the risk of your market while it barely knows that market yet. An agency that does its sums well prices that risk in. An agency that underestimates the risk finds out after a few months that the numbers don't work, and you notice that too."
-},
-"In Nederland zie je bij koude e-mail bijvoorbeeld € 500 per maand plus € 125 per gekwalificeerde positieve reactie, met een eenmalige setup van € 1.000 en de software apart. Telefonische bureaus rekenen vaak 150 tot 400 euro per geplande afspraak.": {
-"en": "In the Netherlands you see cold email offers such as € 500 per month plus € 125 per qualified positive reply, with a one-off setup of € 1,000 and the software on top. Telemarketing agencies often charge 150 to 400 euros per booked meeting."
-},
-"Op zich zijn dat geen gekke bedragen. Interessant wordt het pas als je ze naast een vast maandbedrag legt en uitrekent wat een gesprek met een geïnteresseerde ondernemer je kost.": {
-"en": "In themselves those are not crazy amounts. It only gets interesting when you put them next to a fixed monthly fee and work out what a conversation with an interested business owner costs you."
-},
-"Neem een vast pakket van € 1.695 per maand voor 15.000 mails en zet het resultaatmodel van hierboven ernaast. De setup en de software laten we bij het resultaatmodel even buiten beschouwing.": {
-"en": "Take a fixed package of € 1,695 per month for 15,000 emails and put the result-based model from above next to it. We leave the setup and the software of the result-based model out of the picture for now."
-},
-"€ 500 vast plus € 125 per reactie": {
-"en": "€ 500 fixed plus € 125 per reply"
-},
-"€ 1.695, oftewel € 113 per reactie": {
-"en": "€ 1,695, or € 113 per reply"
-},
-"€ 2.375, oftewel € 158 per reactie": {
-"en": "€ 2,375, or € 158 per reply"
-},
-"€ 1.695, oftewel € 38 per reactie": {
-"en": "€ 1,695, or € 38 per reply"
-},
-"€ 6.125, oftewel € 136 per reactie": {
-"en": "€ 6,125, or € 136 per reply"
-},
-"Een vast bedrag wordt per gesprek goedkoper naarmate de campagne beter loopt. Een resultaatmodel blijft per gesprek ongeveer even duur, hoe goed het ook gaat. Daar staat tegenover dat je bij een resultaatmodel weinig kwijt bent in een maand waarin niemand reageert.": {
-"en": "A fixed fee gets cheaper per conversation the better the campaign runs. A result-based model stays roughly as expensive per conversation, however well it goes. On the other hand, with a result-based model you lose little in a month in which nobody replies."
-},
-"Dat is de echte afweging. Wil je vooral voorkomen dat je betaalt voor een maand zonder reacties, dan heeft betalen per resultaat iets voor zich. Reageert je markt wel, dan betaal je elke maand extra voor een zekerheid die je achteraf niet nodig had.": {
-"en": "That is the real trade-off. If you mainly want to avoid paying for a month without replies, pay-per-result has something going for it. If your market does respond, you pay extra every month for a certainty that you turned out not to need."
-},
-"Een bureau dat per resultaat betaald wordt, verdient aan wat het als resultaat telt. Daar zit het zwakke punt van het model, en het loont om dat vooraf scherp te hebben.": {
-"en": "An agency that is paid per result earns on whatever it counts as a result. That is the weak spot of the model, and it pays to be clear about it upfront."
-},
-"Kijk eerst naar de definitie. Staat nergens beschreven wat een positieve reactie is, dan betaal je ook voor “stuur maar wat informatie” en voor iemand die alleen de prijs wil weten. Een goede definitie zegt ook wat er niet meetelt, zoals afwezigheidsmeldingen, afmeldingen en vage uitstelreacties.": {
-"en": "Look at the definition first. If nothing describes what a positive reply is, you also pay for “just send me some information” and for someone who only wants to know the price. A good definition also says what does not count, such as out-of-office messages, unsubscribes and vague replies putting things off."
-},
-"Vraag daarna wie de reacties beoordeelt. Doet de leverancier dat zelf en factureert hij op basis van zijn eigen oordeel, spreek dan een termijn af waarin je een gefactureerde reactie kunt afwijzen. En vraag naar een plafond. Zonder maximum is betalen per resultaat een open rekening, en kan een goede maand duurder uitvallen dan het duurste vaste pakket.": {
-"en": "Then ask who assesses the replies. If the provider does that itself and invoices based on its own judgement, agree on a period in which you can reject an invoiced reply. And ask about a cap. Without a maximum, pay-per-result is an open-ended bill, and a good month can cost more than the most expensive fixed package."
-},
-"Bij betalen per afspraak speelt nog iets anders. Het bureau heeft er dan belang bij dat er afspraken in je agenda komen, ook als ze nergens heen gaan. In een slechte maand zit je met gesprekken die je tijd kosten en weinig opleveren.": {
-"en": "With pay-per-meeting there is something else at play. The agency then has an interest in getting meetings into your calendar, even if they lead nowhere. In a bad month you end up with conversations that cost you time and deliver little."
-},
 "Als je nu per resultaat betaalt en er komt weinig uit": {
 "en": "If you are paying per result now and little comes of it"
-},
-"Bij het gesprek van vorige week zat het probleem ergens anders. Er kwamen geen afspraken binnen, en de ondernemer had geen zicht op wie er gemaild werd en met welke tekst. Hij kon dus ook niet zien waar het vastliep.": {
-"en": "In last week's conversation the problem lay elsewhere. No meetings were coming in, and the business owner had no view of who was being emailed and with what copy. So he couldn't see where things were getting stuck either."
-},
-"Een resultaatmodel lost dat niet op. Een bureau dat alleen aan resultaat verdient, verdient bij een campagne die stilvalt helemaal niets. Het ligt dan voor de hand dat de aandacht verschuift naar campagnes die wel lopen. Wat er voor jou overblijft, is een campagne die doorloopt zonder dat iemand hem bijstuurt.": {
-"en": "A result-based model doesn't solve that. An agency that only earns from results earns nothing at all from a campaign that stalls. It is then only natural that attention shifts to campaigns that are working. What is left for you is a campaign that keeps running without anyone steering it."
-},
-"Zit je in zo’n situatie, vraag dan om de lijst die gemaild wordt en om de teksten die uitgaan. Vraag ook hoeveel mails er vorige maand werkelijk zijn verstuurd. Blijft het antwoord vaag, dan weet je genoeg. Meer vragen die helpen, staan in": {
-"en": "If you are in that situation, ask for the list being emailed and the copy going out. Also ask how many emails were actually sent last month. If the answer stays vague, you know enough. More questions that help are in"
-},
-"Stap je over naar een ander bureau, geef dan door welke bedrijven het vorige bureau al mailde. Heb je die lijst niet, dan helpen de branches en regio’s ook. Zo voorkom je dat dezelfde ondernemer in korte tijd twee keer een vergelijkbare mail krijgt.": {
-"en": "If you switch to another agency, pass on which companies the previous agency was already emailing. If you don't have that list, the industries and regions help too. That way the same business owner doesn't get a similar email twice in a short time."
-},
-"Wij werken met een vast maandbedrag, van € 995 op Starter tot € 1.995 op Pro. Daarin zitten de setup, de warmup, de domeinen, de mailboxen en de software. Er komt geen setupbedrag bij en geen bedrag per reactie.": {
-"en": "We work with a fixed monthly fee, from € 995 on Starter to € 1,995 on Pro. That includes the setup, the warm-up, the domains, the mailboxes and the software. There is no setup fee on top and no amount per reply."
-},
-"Op elk pakket staat het verzendvolume in het contract: 3.000 mails per maand op Starter, 7.500 op Growth, 15.000 op Scale en 30.000 op Pro. We garanderen ook dat er genoeg geverifieerde contacten in je doelgroep zijn om dat volume te vullen.": {
-"en": "Every package has the sending volume in the contract: 3,000 emails per month on Starter, 7,500 on Growth, 15,000 on Scale and 30,000 on Pro. We also guarantee there are enough verified contacts in your target group to fill that volume."
-},
-"Op Scale en Pro komt daar een garantie op positieve reacties bij. Voor de start spreken we samen een realistisch minimum af, op basis van je doelgroep en je aanbod, en dat aantal komt in je contract. Als positieve reactie telt een reactie waar een commerciële kans uit kan ontstaan. Iemand wil een gesprek, vraagt naar de prijs, stelt een inhoudelijke vraag of verwijst je door naar de juiste collega. Afwijzingen, afmeldingen en automatische antwoorden tellen niet mee, en elke reactie wordt door een mens gelezen voordat hij bij jou terechtkomt.": {
-"en": "On Scale and Pro a guarantee on positive replies comes on top. Before the start we agree on a realistic minimum together, based on your target group and your offer, and that number goes into your contract. A positive reply is a reply that can lead to a commercial opportunity. Someone wants a conversation, asks about the price, asks a question about the substance or refers you to the right colleague. Rejections, unsubscribes and automatic replies don't count, and every reply is read by a person before it reaches you."
-},
-"Afspraken en omzet vallen buiten de garantie. Die hangen af van hoe snel je een reactie opvolgt en hoe het eerste gesprek loopt. Daar hebben wij geen grip op, dus daar beloven we ook niets over.": {
-"en": "Meetings and revenue fall outside the guarantee. They depend on how quickly you follow up on a reply and how the first conversation goes. We have no control over that, so we don't promise anything about it either."
-},
-"Wat je wel krijgt, is zicht op de campagne. De lijst en de teksten zie je voordat er iets uitgaat. Elke positieve reactie komt direct in je eigen mailbox en elke week krijg je een rapportage met wat er is verstuurd en wat eruit kwam. Waar je bij de verschillende prijsmodellen verder op let, staat in": {
-"en": "What you do get is a view of the campaign. You see the list and the copy before anything goes out. Every positive reply lands straight in your own mailbox, and every week you get a report of what was sent and what came of it. What else to look out for with the different pricing models is in"
-},
-"Werken jullie op no cure no pay?": {
-"en": "Do you work on a no cure no pay basis?"
-},
-"Nee. We werken met een vast maandbedrag, all-in. Op Scale en Pro leggen we een minimumaantal gekwalificeerde positieve reacties vast in het contract, gerekend over drie campagnemaanden.": {
-"en": "No. We work with a fixed monthly fee, all-in. On Scale and Pro we fix a minimum number of qualified positive replies in the contract, counted over three campaign months."
-},
-"Waarom is betalen per resultaat bij koude e-mail vaak duurder?": {
-"en": "Why is pay-per-result often more expensive in cold email?"
-},
-"Het bureau maakt vooraf kosten voor domeinen, mailboxen, warmup en de lijst, en verdient dat terug via de prijs per resultaat. Loopt de campagne goed, dan betaal je per gesprek meer dan bij een vast maandbedrag.": {
-"en": "The agency incurs costs upfront for domains, mailboxes, warm-up and the list, and earns that back through the price per result. If the campaign goes well, you pay more per conversation than with a fixed monthly fee."
-},
-"Waar let ik op bij een aanbod per resultaat?": {
-"en": "What should I look out for in a pay-per-result offer?"
-},
-"Op de definitie van een resultaat, op wie de reacties beoordeelt en of je een gefactureerde reactie kunt afwijzen, en op het plafond per maand.": {
-"en": "The definition of a result, who assesses the replies and whether you can reject an invoiced reply, and the monthly cap."
-},
-"Krijg ik bij jullie een garantie op afspraken?": {
-"en": "Do you guarantee meetings?"
-},
-"Nee. De garantie op Scale en Pro gaat over positieve reacties. Afspraken en omzet hangen ook af van je opvolging en je aanbod, en vallen erbuiten.": {
-"en": "No. The guarantee on Scale and Pro covers positive replies. Meetings and revenue also depend on your follow-up and your offer, and fall outside it."
-},
-"Wat kost een pakket?": {
-"en": "What does a package cost?"
-},
-"Starter kost € 995, Growth € 1.295, Scale € 1.695 en Pro € 1.995 per maand, exclusief btw en all-in. De eerste termijn is drie maanden, daarna is het maandelijks opzegbaar.": {
-"en": "Starter costs € 995, Growth € 1,295, Scale € 1,695 and Pro € 1,995 per month, excluding VAT and all-in. The first term is three months, after that you can cancel monthly."
-},
-"Wil je weten wat een gesprek in jouw markt kost?": {
-"en": "Want to know what a conversation costs in your market?"
-},
-"Wat je vooraf mag vragen": {
-"en": "What you can ask upfront"
 },
 "Samenvatting voor taalmodellen": {
 "en": "Summary for language models"
@@ -13401,16 +13248,7 @@ window.L2L_I18N_DATA = {
 "Iedereen krijgt al koude mails. Waarom zou die van jou werken?": {
 "en": "Everyone already gets cold emails. Why would yours work?"
 },
-"Prijzen · 7 min": {
-"en": "Pricing · 7 min"
-},
-"Kan koude e-mail op no cure no pay?": {
-"en": "Can cold email work on a no cure no pay basis?"
-},
 "Waarom de ene koude mail gelezen wordt en de andere niet, en wat segmentatie, de eerste zin en een eigen pagina per prospect daarin doen.": {
 "en": "Why one cold email gets read and another doesn't, and what segmentation, the first sentence and a personal page per prospect have to do with it."
-},
-"Waarom betalen per resultaat bij koude e-mail zelden voorkomt, wat het per gesprek kost en waar je op let als je het aangeboden krijgt.": {
-"en": "Why pay-per-result is rare in cold email, what it costs per conversation and what to look out for when it is offered to you."
 }
 };
