@@ -1,6 +1,6 @@
 # Link2Leads, volledige tekst van alle kennispagina's
 
-Laatst bijgewerkt: 11 november 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
+Laatst bijgewerkt: 17 november 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
 Alle cijfers komen uit campagnes die Link2Leads namens klanten draait, gemeten op 2 september 2026.
 
 
@@ -3008,6 +3008,118 @@ Liever eerst even mailen? Dat kan ook: info@link2leads.nl
 - Cold email of een SDR aannemen?De businesscase over twaalf maanden
 - Koude acquisitie uitbestedenWat je weggeeft en wat je zelf houdt
 - Wat kost B2B leadgeneratie?Vijf kanalen naast elkaar
+
+
+==============================================================================
+# Iedereen krijgt al koude mails. Waarom zou die van jou werken?
+Bron: https://www.link2leads.nl/kennis/waarom-koude-mail-gelezen
+==============================================================================
+
+Waarom de ene koude mail gelezen wordt en de andere ongezien verdwijnt, en wat segmentatie, de eerste zin en een eigen pagina per prospect daarin doen.
+
+Bijgewerkt 17 november 2026 · Demi Stekelenburg · Leestijd 7 minuten
+
+“Geloof het of niet, ik ontvang wekelijks van dit soort verzoeken.” Dat schreef iemand deze week terug op een mail uit onze eigen campagne. In fitchecks hoor ik dezelfde twijfel vanaf de andere kant. Ik krijg zelf elke dag tientallen van die mails, zegt iemand dan, en die gooi ik allemaal weg. Waarom zou mijn doelgroep dat met de mijne anders doen?
+
+Het is een terechte vraag. Bijna iedereen die een bedrijf runt, krijgt koude mail, en het meeste daarvan wordt nooit gelezen. Toch komen er op sommige mails wel antwoorden en op andere nooit. Het verschil zit in een paar keuzes die je maakt voordat er iets wordt verstuurd.
+
+## Het korte antwoord
+
+Een ontvanger beslist in een paar seconden of een mail over hem gaat. Een mail die zichtbaar naar een hele lijst is gestuurd, haalt die drempel niet, hoe goed het aanbod ook is. Een mail aan een kleine, scherp afgebakende groep, die opent over het bedrijf van de ontvanger en eindigt met een vraag waar hij in een zin op kan antwoorden, haalt hem vaak wel.
+
+Daarom delen we elke doelgroep op in segmenten met een eigen boodschap, zoeken we per bedrijf een aanleiding voor de eerste zin en sturen we hooguit drie mails. Met de add-on Hyperpersonalisatie krijgt elke prospect daarnaast een eigen pagina op jouw domein.
+
+## Wat er in die paar seconden gebeurt
+
+Kijk naar je eigen inbox. Een koude mail lees je meestal op je telefoon, tussen twee andere dingen door. Je ziet de afzender, de onderwerpregel en de eerste regel, en op basis daarvan besluit je of je verder leest.
+
+In die eerste regel herken je een massamail meteen. “Ik zag dat jullie actief zijn in de bouw.” Of een compliment over je website dat op elk bedrijf had kunnen slaan. Sinds bijna iedereen met AI-tools schrijft, beginnen heel veel mails zo. De zin doet persoonlijk, en iedereen ziet dat hij uit een sjabloon komt.
+
+Wat overblijft, zijn de mails waarvan je denkt: die gaat over mij. Dat zijn er weinig. Juist daardoor valt een mail die echt over het bedrijf van de ontvanger gaat op, ook in een inbox die vol staat.
+
+## Begin bij een kleinere groep
+
+Een mail voelt als massamail zodra hij naar iedereen tegelijk lijkt te gaan, en dat begint bij de lijst. Wie het hele mkb met dezelfde tekst aanschrijft, moet iets schrijven wat voor iedereen klopt. Zo’n tekst klopt voor niemand precies.
+
+Daarom delen we een doelgroep op in segmenten. Installateurs krijgen een andere mail dan groothandels, en een directeur een andere dan een inkoper. Elk segment krijgt een eigen lijst en een eigen boodschap.
+
+Wat dat doet, zie je terug in de cijfers. In een campagne van 18.594 leads liep de reply rate per segment uiteen van 2,3 tot 7,8 procent, met precies dezelfde tekst. En bij een van de cases op onze homepage had een bedrijf met drie soorten kopers een campagne die niemand echt aansprak. Opgesplitst in drie campagnes, elk met een eigen lijst en boodschap, kwamen er binnen 14 dagen 15 positieve reacties binnen.
+
+Hoe je zo’n doelgroep afbakent, lees je in weten jullie eigenlijk wie mijn doelgroep is.
+
+## Een eerste zin over de ontvanger
+
+Binnen een segment zoeken we per bedrijf naar een reden om juist nu te mailen. Een openstaande vacature bijvoorbeeld, of een nieuwe vestiging. De mail opent dan met die observatie:
+
+Hoi Sanne, zag dat jullie een tweede servicemonteur zoeken voor de regio Utrecht.
+
+Die zin past alleen bij dit ene bedrijf. De ontvanger ziet dat er iemand gekeken heeft voordat hij mailde, en dat is precies wat een sjabloon mist.
+
+Is er geen bruikbaar signaal te vinden, dan gaat de eerste zin over de situatie van het segment. Een zin die klopt voor elke installateur met tien man in dienst, is nog altijd veel dichterbij dan een zin die voor elk bedrijf in Nederland klopt.
+
+De rest van de mail is kort. Een zin over wat je doet, en een vraag waar iemand in een paar woorden op kan antwoorden. De eerste mail gaat zonder link en zonder bijlage de deur uit. Waarom dat werkt, staat in moet er niet meer informatie in die eerste mail.
+
+## Een eigen pagina per prospect
+
+Met de add-on Hyperpersonalisatie gaan we een stap verder. Elke prospect krijgt een openingszin op basis van echte informatie over zijn bedrijf. In de tweede of derde mail volgt een link naar een eigen pagina op jouw domein, met daarop wat jij voor dat ene bedrijf kunt doen.
+
+In onze eigen campagne maakten we 1.240 van die pagina’s. 34 procent van de ontvangers opende zijn pagina en we boekten 27 afspraken in acht weken. De reply rate kwam uit op 9,1 procent, tegenover 3,2 procent op dezelfde lijst zonder pagina.
+
+Hyperpersonalisatie kan op elk pakket, voor € 300 per maand extra op Starter, € 350 op Growth, € 450 op Scale en € 550 op Pro. Hoe het in de rest van de werkwijze past, lees je in zo verhogen wij de reply rate met Neuropage.
+
+## Wat juist averechts werkt
+
+De reflex bij weinig reacties is meer mailen. Meer adressen, meer opvolgmails, een pakkender onderwerp. Meestal maakt dat het erger.
+
+Een onderwerpregel die met “Re:” begint terwijl er nooit contact was, werkt hooguit een keer. Daarna weet de ontvanger wie hij voor zich heeft. En een vijfde opvolgmail aan iemand die niet reageert, levert vooral ergernis op.
+
+Voor sommige ontvangers zijn drie mails al te veel. Iemand schreef deze week terug dat hij eerst geïnteresseerd was, “tot al die mailtjes”. Zulke reacties nemen we serieus. Ze zijn de reden dat een bedrijf bij ons hooguit drie mails krijgt: een eerste mail en twee opvolgmails. Reageert iemand, dan stopt de reeks. Meldt iemand zich af, dan komt hij op een lijst die over al onze campagnes heen werkt.
+
+## Toets het aan je eigen inbox
+
+Wil je weten of dit klopt, kijk dan naar de laatste koude mails die je zelf kreeg. Op welke heb je geantwoord, of had je bijna geantwoord? Grote kans dat het een mail was over iets waar je op dat moment mee bezig was, van iemand die duidelijk wist wat je bedrijf doet.
+
+Zo’n mail proberen we voor jouw doelgroep te schrijven. Bij elke ontvanger lukt dat niet. Bij genoeg ontvangers wel, en voor hen maakt het weinig uit hoeveel andere mails er die week binnenkwamen.
+
+## Veelgestelde vragen
+
+Mailen jullie de hele markt tegelijk?
+
+Nee. We delen je doelgroep op in segmenten met elk een eigen lijst en een eigen boodschap. Starter draait op één afgebakende doelgroep, Growth op twee tegelijk, Scale op drie en Pro op vijf.
+
+Hoeveel mails krijgt een bedrijf van jullie?
+
+Hooguit drie: een eerste mail en twee opvolgmails. Reageert iemand of meldt iemand zich af, dan stopt de reeks voor dat bedrijf.
+
+Zit er een link in de eerste mail?
+
+Nee. De eerste mail gaat zonder link en zonder bijlage, dat komt beter aan. Met Hyperpersonalisatie staat de link naar de persoonlijke pagina in de tweede of derde mail.
+
+Wat is Hyperpersonalisatie?
+
+Een add-on waarbij elke prospect een openingszin krijgt op basis van echte informatie over zijn bedrijf, plus een eigen pagina op jouw domein. Hij kan op elk pakket, vanaf € 300 per maand op Starter.
+
+Mijn doelgroep krijgt al veel koude mail. Heeft het dan nog zin?
+
+Vaak wel. Als de meeste mails op elkaar lijken, valt een mail die over het bedrijf van de ontvanger gaat juist op. In de fitcheck kijken we hoe groot je doelgroep is en hoe we hem opdelen.
+
+Demi Stekelenburg
+
+Mede-oprichter van Link2Leads. Draait dagelijks cold-e-mailcampagnes voor Nederlandse B2B-bedrijven vanaf ruim 300 eigen mailboxen. De cijfers in onze artikelen komen uit die campagnes.
+
+## Benieuwd hoe een mail aan jouw doelgroep eruitziet?
+
+In de gratis fitcheck van 30 minuten kijken we naar je doelgroep, hoe we die opdelen en waar de eerste zin over kan gaan. Past koude e-mail niet bij je markt, dan hoor je dat ook.
+
+Doe de gratis fitcheck Bekijk de pakketten
+
+Liever eerst even mailen? Dat kan ook: info@link2leads.nl
+
+## Verder lezen
+
+- Is koude e-mail opdringerig?Waar de grens ligt en hoe je eraan voorbij blijft
+- Zo verhogen wij de reply rate met NeuropageOnze werkwijze stap voor stap
+- Weten jullie eigenlijk wie mijn doelgroep is?Hoe je een doelgroep afbakent en opdeelt
 
 
 ==============================================================================
