@@ -1,3 +1,7 @@
+**17 november 2026: fitcheck-knoppen gaan naar de agenda**
+- Op de homepage scrolt elke fitcheck-knop (menu, hero, pakketkaarten, samensteller, vergelijking, contact) naar de agenda (#plan) in plaats van /book te openen. Wat een knop meegaf (pakket en add-ons uit de samensteller) gaat mee naar /book zodra een tijd gekozen is. Event `fitcheck_naar_agenda`.
+- Op alle andere pagina's gaan de fitcheck-links naar `/#plan`. /book zelf blijft bestaan voor persoonlijke boekingslinks, mails en snelboeken.
+
 **17 november 2026: agenda direct op de homepage**
 - Op de homepage staat boven de contactsectie een blok "Kies direct een moment voor je gratis fitcheck" (#plan). Links Anne-Roos of Demi met duur en Teams, in het midden de maandkalender, rechts de tijden van de gekozen dag. De eerste werkdag met vrije tijden staat direct open.
 - Zelfde beschikbaarheid als /book: `/api/slots` (Outlook-agenda plus een derde weggeboekt), bezette tijden doorgestreept. Tijden worden pas opgehaald als het blok bijna in beeld komt.
