@@ -74,12 +74,16 @@ function nlTime(d) {
 }
 
 /* Naam van de deelnemer; zonder naam (of met alleen het mailadres als naam)
-   de voornaam uit het mailadres: erik@bedrijf.nl -> Erik. */
+   de voornaam uit het mailadres: erik@bedrijf.nl -> Erik. Geeft '' als dat
+   geen echte voornaam oplevert (m.zagwijn@ -> 'M', info@ -> 'Info'); de mail
+   gebruikt dan een aanhef zonder naam. */
+const GEEN_VOORNAAM = new Set(['info', 'sales', 'contact', 'hallo', 'hello', 'office', 'admin', 'mail', 'post', 'support', 'team', 'receptie', 'administratie']);
 function naamOf(a) {
   const n = String(a.name || '').trim();
   if (n && !n.includes('@')) return n;
-  const local = String(a.email || '').split('@')[0].split(/[._-]/)[0];
-  return local ? local.charAt(0).toUpperCase() + local.slice(1) : String(a.email || '');
+  const local = String(a.email || '').split('@')[0].split(/[._-]/)[0].toLowerCase();
+  if (local.length < 2 || GEEN_VOORNAAM.has(local) || /\d/.test(local)) return '';
+  return local.charAt(0).toUpperCase() + local.slice(1);
 }
 
 /* Haalt de gegevens van de prospect uit de afspraak. */
@@ -94,7 +98,8 @@ function prospectOf(ev) {
   const phoneMatch = ev.bodyPreview.match(/Telefoon:\s*(.+?)(?=\s*(?:Boekingsnummer|Bedrijf)\b|\s*$)/m);
   return {
     email: a ? a.email : '',
-    name: a ? naamOf(a) : '',
+    naam: a ? naamOf(a) : '',                  // '' als onbekend
+    name: a ? (naamOf(a) || a.email) : '',     // voor interne mails: naam of mailadres
     company,
     ref: refMatch ? refMatch[0] : '',
     phone: phoneMatch ? phoneMatch[1].trim() : ''
@@ -118,16 +123,16 @@ function joinRow(ev) {
 
 async function sendDag(t, ev, p, from, notify) {
   const datum = nlDate(ev.startUtc), tijd = nlTime(ev.startUtc), g = soortOf(ev), duur = duurOf(ev);
-  const firstName = p.name.split(' ')[0];
+  const firstName = p.naam.split(' ')[0];
   const vlBinnen = ev.categories.includes(CAT_VL);
-  const kUrl = M.klantUrl({ name: p.name, email: p.email, company: p.company });
+  const kUrl = M.klantUrl({ name: p.naam, email: p.email, company: p.company });
 
   // Klant
   await t.sendMail({
     from, to: p.email,
     subject: `Morgen om ${tijd}: je ${g} met Link2Leads`,
     text: [
-      `Hi ${firstName},`,
+      `Hi${firstName ? ' ' + firstName : ''},`,
       ``,
       `Morgen om ${tijd} (Nederlandse tijd) staat je ${g} met Link2Leads. ${duur} via Microsoft Teams.`,
       ev.joinUrl ? `Deelnemen: ${ev.joinUrl}` : `De deelnamelink staat in je agenda-uitnodiging.`,
@@ -153,11 +158,11 @@ async function sendDag(t, ev, p, from, notify) {
       preheader: `Morgen ${datum.toLowerCase()} om ${tijd} · ${duur} via Microsoft Teams`,
       ref: p.ref,
       body: [
-        M.h1(`Morgen om ${esc(tijd)}: je ${g}, ${esc(firstName)}`),
+        M.h1(`Morgen om ${esc(tijd)}: je ${g}${firstName ? ', ' + esc(firstName) : ''}`),
         vlBinnen
           ? M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Je antwoorden op de vragenlijst hebben we ontvangen, dank je wel. Beslis je dit samen met iemand? Stuur de uitnodiging gerust door. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 })
           : M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Beslis je dit samen met iemand? Stuur de uitnodiging gerust door. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 }),
-        vlBinnen ? '' : M.prepBlock('', 'reminder', g, { name: p.name, email: p.email, company: p.company }),
+        vlBinnen ? '' : M.prepBlock('', 'reminder', g, { name: p.naam, email: p.email, company: p.company }),
         vlBinnen ? '' : M.spacer(),
         M.detailTable([
           ['Datum', datum],
@@ -203,7 +208,7 @@ async function sendDag(t, ev, p, from, notify) {
 
 async function sendUur(t, ev, p, from, notify) {
   const datum = nlDate(ev.startUtc), tijd = nlTime(ev.startUtc), g = soortOf(ev), duur = duurOf(ev);
-  const firstName = p.name.split(' ')[0];
+  const firstName = p.naam.split(' ')[0];
   const vlBinnen = ev.categories.includes(CAT_VL);
 
   // Klant
@@ -211,12 +216,12 @@ async function sendUur(t, ev, p, from, notify) {
     from, to: p.email,
     subject: `Over een uur: je ${g} met Link2Leads (${tijd})`,
     text: [
-      `Hi ${firstName},`,
+      `Hi${firstName ? ' ' + firstName : ''},`,
       ``,
       `Over een uur, om ${tijd} (Nederlandse tijd), begint je ${g} met Link2Leads. ${duur} via Microsoft Teams.`,
       ev.joinUrl ? `Deelnemen: ${ev.joinUrl}` : `De deelnamelink staat in je agenda-uitnodiging.`,
       ``,
-      vlBinnen ? null : `Vragenlijst nog niet ingevuld? Doe het nu op ${M.klantUrl({ name: p.name, email: p.email, company: p.company })}, dan kunnen we je gericht helpen.`,
+      vlBinnen ? null : `Vragenlijst nog niet ingevuld? Doe het nu op ${M.klantUrl({ name: p.naam, email: p.email, company: p.company })}, dan kunnen we je gericht helpen.`,
       vlBinnen ? null : ``,
       `Tot zo.`,
       `${M.SIGNER} · Link2Leads`,
@@ -231,7 +236,7 @@ async function sendUur(t, ev, p, from, notify) {
       preheader: `Vandaag om ${tijd} · ${duur} via Microsoft Teams`,
       ref: p.ref,
       body: [
-        M.h1(`Over een uur: je ${g}, ${esc(firstName)}`),
+        M.h1(`Over een uur: je ${g}${firstName ? ', ' + esc(firstName) : ''}`),
         M.p(`Om ${esc(tijd)} begint je ${g} met Link2Leads. Je kunt hieronder direct deelnemen.`, { gap: 24 }),
         M.detailTable([
           ['Datum', datum],
@@ -242,7 +247,7 @@ async function sendUur(t, ev, p, from, notify) {
         M.spacer(),
         ev.joinUrl ? M.button(ev.joinUrl, 'Deelnemen via Microsoft Teams') : '',
         ev.joinUrl ? M.spacer() : '',
-        vlBinnen ? '' : M.prepBlock('', 'reminder', g, { name: p.name, email: p.email, company: p.company }),
+        vlBinnen ? '' : M.prepBlock('', 'reminder', g, { name: p.naam, email: p.email, company: p.company }),
         vlBinnen ? '' : M.spacer(),
         M.signoff('', { lead: 'Tot zo.' })
       ].join('')
