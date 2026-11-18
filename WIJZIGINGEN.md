@@ -1,3 +1,10 @@
+**18 november 2026: nieuw kennisartikel**
+- Nieuw: `/kennis/met-starter-beginnen` (Waarom niet gewoon met het kleinste pakket beginnen?). Zelfde sjabloon als de andere kennisartikelen: Article, Organization, BreadcrumbList en FAQPage in schema.org, "Het korte antwoord", auteursblok, fitcheck-CTA (naar `/#plan`) en "Verder lezen".
+- Onderwerp uit een fitcheck van vorige week ("waarom beginnen we niet met de Starter?"). Alleen cijfers en werkwijze die al op de site staan, geen namen.
+- `kennis.html`: kaart vooraan en een item in het ItemList-schema.
+- `sitemap.xml`: url erbij, lastmod van /kennis naar 18 november. `llms.txt`: regel erbij, datum naar 18 november. `llms-full.txt` opnieuw opgebouwd met `scripts/llms-full.py`.
+- Engelse vertalingen van alle nieuwe teksten in `assets/i18n/l2l-i18n-data.js`. `kennis.html` en het nieuwe artikel op `l2l-i18n.js?v=78`.
+
 **17 november 2026: fitcheck-knoppen gaan naar de agenda**
 - Op de homepage scrolt elke fitcheck-knop (menu, hero, pakketkaarten, samensteller, vergelijking, contact) naar de agenda (#plan) in plaats van /book te openen. Wat een knop meegaf (pakket en add-ons uit de samensteller) gaat mee naar /book zodra een tijd gekozen is. Event `fitcheck_naar_agenda`.
 - Op alle andere pagina's gaan de fitcheck-links naar `/#plan`. /book zelf blijft bestaan voor persoonlijke boekingslinks, mails en snelboeken.
