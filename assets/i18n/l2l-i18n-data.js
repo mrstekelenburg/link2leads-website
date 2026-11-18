@@ -13274,5 +13274,311 @@ window.L2L_I18N_DATA = {
 },
 "Volgende maand": {
 "en": "Next month"
+},
+"Waarom niet gewoon": {
+"en": "Why not just"
+},
+"met het kleinste pakket beginnen?": {
+"en": "start with the smallest package?"
+},
+"Wanneer Starter het juiste pakket is en wat een groter pakket je in de eerste drie maanden sneller laat zien.": {
+"en": "When Starter is the right package and what a larger package shows you faster in the first three months."
+},
+"18 november 2026": {
+"en": "18 November 2026"
+},
+"Wat je per pakket bereikt": {
+"en": "What you reach with each package"
+},
+"Klein beginnen voelt veilig": {
+"en": "Starting small feels safe"
+},
+"Hoe snel je iets leert": {
+"en": "How quickly you learn something"
+},
+"Eén doelgroep of meer naast elkaar": {
+"en": "One target group or several side by side"
+},
+"Wat het per verzonden mail kost": {
+"en": "What it costs per email sent"
+},
+"Wanneer Starter wel klopt": {
+"en": "When Starter is the right fit"
+},
+"Hoe we het samen bepalen": {
+"en": "How we decide together"
+},
+"\"Waarom beginnen we niet gewoon met Starter?\" Die vraag kreeg ik vorige week in een fitcheck, vlak nadat ik Growth had geadviseerd. Ik snap hem goed. Je kent ons nog niet. Misschien heb je eerder geld uitgegeven aan leadgeneratie en er weinig voor teruggezien. Dan wil je klein beginnen, met minder geld op tafel.": {
+"en": "“Why don't we just start with Starter?” I got that question in a fit check last week, right after I had recommended Growth. I understand it well. You don't know us yet. Maybe you have spent money on lead generation before and saw little in return. Then you want to start small, with less money on the table."
+},
+"Soms is Starter ook precies het goede pakket. In een grote markt is het vaak de langzaamste manier om te weten te komen of koude e-mail voor jou werkt. Hieronder lees je waarom, en wanneer het wel klopt.": {
+"en": "Sometimes Starter is exactly the right package. In a large market it is often the slowest way to find out whether cold email works for you. Below you can read why, and when it does fit."
+},
+"Het pakket bepaalt hoeveel bedrijven je per maand bereikt en hoeveel doelgroepen we naast elkaar kunnen laten lopen. Starter bereikt zo'n 1.000 nieuwe bedrijven per maand, in één doelgroep. Dat past bij een kleine, scherp afgebakende markt.": {
+"en": "The package determines how many companies you reach per month and how many target groups we can run side by side. Starter reaches around 1,000 new companies per month, in one target group. That suits a small, sharply defined market."
+},
+"Is je markt groter, dan komen er op Starter zo langzaam cijfers binnen dat je na drie maanden nog weinig weet. Een groter pakket kost per maand meer en per verzonden mail juist minder. Welk pakket bij jouw markt hoort, rekenen we samen uit in de fitcheck.": {
+"en": "If your market is larger, the numbers come in so slowly on Starter that you still know little after three months. A larger package costs more per month and less per email sent. Which package suits your market is something we work out together in the fit check."
+},
+"Elk bedrijf krijgt van ons hooguit drie mails. Het aantal mails per maand gedeeld door drie geeft dus ongeveer het aantal nieuwe bedrijven dat je per maand bereikt.": {
+"en": "Each company gets at most three emails from us. The number of emails per month divided by three therefore roughly gives the number of new companies you reach per month."
+},
+"Nieuwe bedrijven per maand": {
+"en": "New companies per month"
+},
+"Doelgroepen tegelijk": {
+"en": "Target groups at once"
+},
+"Op elk pakket staan het verzendvolume en genoeg geverifieerde contacten om dat volume te vullen in het contract. We versturen zeven dagen per week.": {
+"en": "On every package, the sending volume and enough verified contacts to fill that volume are in the contract. We send seven days a week."
+},
+"Met Starter zet je het minste geld in. Dat voelt als het kleinste risico, en per maand is het dat ook.": {
+"en": "With Starter you put in the least money. That feels like the smallest risk, and per month it is."
+},
+"Alleen loopt elk pakket minimaal drie maanden. Daarna is het maandelijks opzegbaar. De vraag die er dan toe doet, is wat je na die drie maanden weet. Weet je of je doelgroep reageert en welk deel van je markt de meeste gesprekken oplevert? Dan kun je goed beslissen hoe je verdergaat.": {
+"en": "Every package runs for at least three months, though. After that it can be cancelled monthly. The question that matters then is what you know after those three months. Do you know whether your target group responds and which part of your market produces the most conversations? Then you can make a good decision about how to continue."
+},
+"Heb je na drie maanden te weinig gezien om dat te beoordelen, dan heb je minder uitgegeven en ook minder geleerd. Dat is het risico van te klein beginnen, en het valt minder op dan een hogere factuur.": {
+"en": "If after three months you have seen too little to judge that, you have spent less and also learned less. That is the risk of starting too small, and it is less noticeable than a higher invoice."
+},
+"Een campagne start bij ons op een derde van het volume en groeit in twee weken naar het volume van je pakket. Een nieuwe tekst laten we daarna minstens drie weken ongewijzigd staan. Pas dan zijn de aantallen groot genoeg om er iets over te zeggen.": {
+"en": "A campaign starts with us at a third of the volume and grows to your package's volume in two weeks. After that we leave a new text unchanged for at least three weeks. Only then are the numbers large enough to say anything about it."
+},
+"Wat we meten, is het aantal positieve reacties per 1.000 verzonden mails. Op Starter gaan er per maand 3.000 mails uit. Wil je in die maand twee versies van een tekst vergelijken, dan krijgt elke versie er 1.500. Bij die aantallen kan een verschil van een paar reacties net zo goed toeval zijn.": {
+"en": "What we measure is the number of positive replies per 1,000 emails sent. On Starter, 3,000 emails go out per month. If you want to compare two versions of a text in that month, each version gets 1,500. At those numbers, a difference of a few replies may just as well be chance."
+},
+"Op Growth gaan er in dezelfde maand 7.500 mails uit, op Scale 15.000. Een verschil dat dan blijft staan, kun je eerder vertrouwen. En hoe eerder je weet wat werkt, hoe eerder we het volume daarheen kunnen verschuiven.": {
+"en": "On Growth, 7,500 emails go out in the same month, on Scale 15,000. A difference that holds up then is one you can trust sooner. And the sooner you know what works, the sooner we can shift the volume there."
+},
+"De grootste variabele in een campagne is de doelgroep. In een campagne van 18.594 leads liep de reply rate per segment uiteen van 2,3 tot 7,8 procent, met precies dezelfde tekst.": {
+"en": "The biggest variable in a campaign is the target group. In a campaign of 18,594 leads, the reply rate per segment ranged from 2.3 to 7.8 percent, with exactly the same copy."
+},
+"Weet je al precies welke groep het beste bij je aanbod past, dan is één doelgroep genoeg. Vaak twijfel je tussen twee of drie groepen. Installateurs of groothandels. Accountants of administratiekantoren. Op Starter test je die na elkaar, en dan duurt het maanden voordat je ze naast elkaar kunt leggen.": {
+"en": "If you already know exactly which group fits your offer best, one target group is enough. Often you are torn between two or three groups. Installers or wholesalers. Accountants or bookkeeping firms. On Starter you test them one after the other, and then it takes months before you can compare them side by side."
+},
+"Growth laat twee doelgroepen tegelijk lopen, Scale drie en Pro vijf. Vanaf de tweede maand schuift het volume naar de groepen die reageren. Hoe we een doelgroep opdelen, staat in": {
+"en": "Growth runs two target groups at once, Scale three and Pro five. From the second month, the volume shifts to the groups that respond. How we split up a target group is explained in"
+},
+"Starter is per maand het goedkoopste pakket en per verzonden mail het duurste. Omgerekend naar 1.000 verzonden mails:": {
+"en": "Starter is the cheapest package per month and the most expensive per email sent. Converted to 1,000 emails sent:"
+},
+"Per 1.000 verzonden mails": {
+"en": "Per 1,000 emails sent"
+},
+"Er zit nog een verschil in. Op Scale en Pro leggen we vooraf een minimumaantal gekwalificeerde positieve reacties vast in het contract, gerekend over drie campagnemaanden. Die garantie gaat over positieve reacties, nooit over afspraken of omzet. Op Starter en Growth liggen het verzendvolume en de lijst vast.": {
+"en": "There is one more difference. On Scale and Pro we set a minimum number of qualified positive replies in the contract in advance, counted over three campaign months. That guarantee is about positive replies, never about meetings or revenue. On Starter and Growth, the sending volume and the list are fixed."
+},
+"Starter is bedoeld voor bedrijven met een kleine doelgroep. Denk aan een markt van een paar duizend bedrijven, of nog iets kleiner. Wij beginnen bij ongeveer 1.000 bedrijven. Op Starter doe je lang met zo'n markt, en dat is precies wat je wilt. Op Pro zou je er in een maand doorheen zijn.": {
+"en": "Starter is meant for companies with a small target group. Think of a market of a few thousand companies, or slightly smaller. We start at around 1,000 companies. On Starter such a market lasts a long time, and that is exactly what you want. On Pro you would be through it in a month."
+},
+"Starter past ook als je al weet welke groep reageert. Bijvoorbeeld omdat je die groep nu al via je netwerk bedient en alleen meer van dezelfde klanten zoekt. Dan hoef je niets naast elkaar te testen.": {
+"en": "Starter also fits if you already know which group responds. For example because you already serve that group through your network and are just looking for more of the same clients. Then you don't need to test anything side by side."
+},
+"En het past als je zelf maar een paar gesprekken per week kunt voeren. Positieve reacties wil je snel opvolgen. Komen er meer binnen dan je kunt bijhouden, dan heb je weinig aan het extra volume.": {
+"en": "And it fits if you can only hold a few conversations a week yourself. You want to follow up positive replies quickly. If more come in than you can keep up with, the extra volume does little for you."
+},
+"In een kleine markt wil je dat elke mail raak is. Daar heeft Hyperpersonalisatie de meeste waarde: elke prospect krijgt een openingszin over zijn eigen bedrijf en een eigen pagina op jouw domein. Op Starter kost dat € 300 per maand extra. Hoe dat werkt, lees je in": {
+"en": "In a small market you want every email to land. That is where Hyperpersonalisation adds the most value: every prospect gets an opening line about their own company and a personal page on your domain. On Starter that costs € 300 per month extra. How it works is explained in"
+},
+"In de fitcheck kijken we hoeveel bedrijven er in je doelgroep passen en in hoeveel groepen je markt uiteenvalt. Daaruit volgt welk maandvolume realistisch is en welk pakket daarbij hoort. Wil je dat eerst zwart op wit, dan kun je ook de gratis marktscan aanvragen. Die heb je binnen een werkdag.": {
+"en": "In the fit check we look at how many companies fit your target group and how many groups your market splits into. From that follows which monthly volume is realistic and which package goes with it. If you want that in black and white first, you can also request the free market scan. You get it within one working day."
+},
+"Mijn advies is soms een groter pakket, soms Starter. Kies je na dat gesprek toch voor klein beginnen terwijl ik groter adviseerde, dan kan dat. Je weet dan vooraf hoe lang het duurt voordat je genoeg ziet, en dan valt dat achteraf ook niet tegen.": {
+"en": "My advice is sometimes a larger package, sometimes Starter. If after that conversation you still choose to start small while I recommended larger, that is fine. You then know in advance how long it takes before you see enough, and it won't disappoint you afterwards."
+},
+"Kan ik met Starter beginnen?": {
+"en": "Can I start with Starter?"
+},
+"Ja. Starter is een volledig pakket: 3.000 mails per maand in één afgebakende doelgroep, met een vaste campagnemanager, teksten, lijst, domeinen en mailboxen inbegrepen. In de fitcheck hoor je of het bij je markt past.": {
+"en": "Yes. Starter is a complete package: 3,000 emails per month in one defined target group, with a dedicated campaign manager, copy, list, domains and mailboxes included. In the fit check you'll hear whether it suits your market."
+},
+"Voor welke markt is Starter bedoeld?": {
+"en": "Which market is Starter meant for?"
+},
+"Voor een kleine, scherp afgebakende doelgroep. Starter bereikt zo'n 1.000 nieuwe bedrijven per maand. Bij een markt van een paar duizend bedrijven doe je daar lang mee.": {
+"en": "For a small, sharply defined target group. Starter reaches around 1,000 new companies per month. With a market of a few thousand companies, that lasts a long time."
+},
+"Waarom is een groter pakket per mail goedkoper?": {
+"en": "Why is a larger package cheaper per email?"
+},
+"Omdat het maandbedrag minder hard stijgt dan het volume. Per 1.000 verzonden mails kost Starter € 332, Growth € 173, Scale € 113 en Pro € 67.": {
+"en": "Because the monthly fee rises more slowly than the volume. Per 1,000 emails sent, Starter costs € 332, Growth € 173, Scale € 113 and Pro € 67."
+},
+"Geldt de garantie op positieve reacties ook op Starter?": {
+"en": "Does the guarantee on positive replies also apply to Starter?"
+},
+"Nee. Die garantie geldt op Scale en Pro. Op elk pakket, ook Starter, staan het verzendvolume en genoeg geverifieerde contacten in het contract.": {
+"en": "No. That guarantee applies to Scale and Pro. On every package, Starter included, the sending volume and enough verified contacts are in the contract."
+},
+"Hoe lang loopt een pakket minimaal?": {
+"en": "What is the minimum term of a package?"
+},
+"Drie maanden. Daarna is het maandelijks opzegbaar.": {
+"en": "Three months. After that it can be cancelled monthly."
+},
+"Welk pakket past bij jouw markt?": {
+"en": "Which package suits your market?"
+},
+"In de gratis fitcheck van 30 minuten kijken we hoe groot je doelgroep is en welk pakket daarbij hoort. Is Starter genoeg, dan zeg ik dat ook.": {
+"en": "In the free 30-minute fit check we look at how big your target group is and which package goes with it. If Starter is enough, I'll tell you that too."
+},
+"Van akkoord tot de eerste reacties, week voor week": {
+"en": "From sign-off to the first replies, week by week"
+},
+"Onze eigen cijfers per campagne": {
+"en": "Our own numbers per campaign"
+},
+"Met het kleinste pakket beginnen? | Link2Leads": {
+"en": "Start with the smallest package? | Link2Leads"
+},
+"Waarom niet gewoon met het kleinste pakket beginnen?": {
+"en": "Why not just start with the smallest package?"
+},
+"Iedereen biedt hetzelfde.": {
+"en": "Everyone offers the same thing."
+},
+"Hoe val je dan op in een mail?": {
+"en": "So how do you stand out in an email?"
+},
+"Hoe je in een koude mail opvalt als je aanbod lijkt op dat van je concurrenten: met een smallere groep en een aanleiding per bedrijf.": {
+"en": "How to stand out in a cold email when your offer looks like your competitors': with a narrower group and a reason per company."
+},
+"Waarom je in een mail op de rest lijkt": {
+"en": "Why you look like everyone else in an email"
+},
+"Kies de groep waarvoor je aanbod het best klopt": {
+"en": "Choose the group your offer fits best"
+},
+"Een aanleiding om juist nu te mailen": {
+"en": "A reason to email right now"
+},
+"Houd de vraag klein": {
+"en": "Keep the question small"
+},
+"Het bewijs komt in de tweede mail": {
+"en": "The proof comes in the second email"
+},
+"Wat jij aanlevert": {
+"en": "What you provide"
+},
+"Bij IT-bedrijven en bureaus hoor ik het in bijna elke fitcheck. Onze dienst is goed, zeggen ze, maar in een mail klinken we als iedereen. Leg de mails van vijf hostingpartijen of vijf marketingbureaus naast elkaar en je ziet het meteen. Betrouwbaar, persoonlijk, flexibel, een vast aanspreekpunt.": {
+"en": "With IT companies and agencies I hear it in almost every fit check. Our service is good, they say, but in an email we sound like everyone else. Put the emails of five hosting providers or five marketing agencies side by side and you see it straight away. Reliable, personal, flexible, a single point of contact."
+},
+"Vorige week kwam er in een fitcheck nog iets bij. In IT zitten de meeste bedrijven redelijk tevreden bij hun huidige leverancier. Overstappen kost moeite, dus dat doen ze pas als er een reden is. Een mail die alleen je dienst beschrijft, geeft die reden niet.": {
+"en": "Last week something else came up in a fit check. In IT, most companies are reasonably happy with their current supplier. Switching takes effort, so they only do it when there is a reason. An email that only describes your service doesn't give that reason."
+},
+"In een markt waar iedereen ongeveer hetzelfde levert, lijkt elke mail die de dienst beschrijft op de andere. Wat een ontvanger wel opvalt, is een mail over zijn eigen situatie. Die schrijf je voor een kleine groep bedrijven met dezelfde situatie, met per bedrijf een aanleiding om juist nu te mailen.": {
+"en": "In a market where everyone delivers roughly the same thing, every email that describes the service looks like the others. What does catch a recipient's eye is an email about their own situation. You write it for a small group of companies in the same situation, with a reason per company to email right now."
+},
+"In zulke markten beginnen we daarom bij de vraag wie we mailen. Wat er in de mail staat, volgt daaruit. Het bewijs dat je het goed doet, bewaren we voor de tweede mail.": {
+"en": "In markets like that we therefore start with the question of who we email. What goes in the email follows from that. We save the proof that you do it well for the second email."
+},
+"De woorden die je concurrenten gebruiken, kloppen voor jou ook. Je bent betrouwbaar en je reageert snel. Juist daarom zeggen ze in een mail weinig. De ontvanger kan ze niet controleren, en hij heeft ze die week al vaker gelezen.": {
+"en": "The words your competitors use are true for you as well. You are reliable and you respond quickly. That is exactly why they say little in an email. The recipient can't check them, and has already read them several times that week."
+},
+"Ik krijg zelf soms twintig koude mails op een dag. Ik kijk er een paar seconden naar: wie stuurt dit, en wat heb ik eraan? Een mail die begint met wat de afzender allemaal kan, haalt die paar seconden niet. Dat ligt zelden aan de dienst. In die eerste regels staat gewoon niets wat alleen voor mij geldt.": {
+"en": "I sometimes get twenty cold emails a day myself. I look at them for a few seconds: who is sending this, and what's in it for me? An email that opens with everything the sender can do doesn't survive those few seconds. That is rarely down to the service. Those first lines simply contain nothing that applies only to me."
+},
+"In een paar regels kun je laten zien dat je weet wie je mailt. Dat valt meer op dan elk verschil in je dienst.": {
+"en": "In a few lines you can show that you know who you are emailing. That stands out more than any difference in your service."
+},
+"IT-bedrijven zeggen vaak dat ze het hele mkb kunnen helpen. Dat is waar, en het is ook de reden dat hun mails zo algemeen worden. Een tekst die moet kloppen voor elk bedrijf in Nederland, klopt voor geen enkel bedrijf precies.": {
+"en": "IT companies often say they can help the whole SME market. That is true, and it is also the reason their emails become so generic. A text that has to fit every company in the Netherlands fits no company exactly."
+},
+"In de fitcheck van vorige week vroeg ik welke klant het interessantst was: een mkb-bedrijf zonder IT-afdeling of een softwarebedrijf. Het antwoord was direct duidelijk: het mkb zonder IT-afdeling regelt dit via een andere partij, softwarebedrijven zijn wel klant. Met die ene vraag viel de helft van de markt af, en kon de mail over iets heel concreets gaan.": {
+"en": "In last week's fit check I asked which client was most interesting: an SME without an IT department or a software company. The answer was clear straight away: SMEs without an IT department arrange this through another party, software companies are clients. That one question removed half the market, and the email could be about something very concrete."
+},
+"Dat zie je terug in de cijfers. In een campagne van 18.594 leads liep de reply rate per segment uiteen van 2,3 tot 7,8 procent, met precies dezelfde tekst. Hoe kleiner en scherper de groep, hoe specifieker de zin die je ervoor kunt schrijven. Hoe we zo'n groep afbakenen, lees je in": {
+"en": "You can see it in the numbers. In a campaign of 18,594 leads, the reply rate per segment ranged from 2.3 to 7.8 percent, with exactly the same copy. The smaller and sharper the group, the more specific the sentence you can write for it. How we define a group like that is explained in"
+},
+"Een bedrijf dat tevreden is met zijn leverancier, stapt niet over omdat jij een mail stuurt. Er moet iets veranderen. Een bedrijf groeit, opent een nieuwe vestiging, wordt overgenomen of zoekt iemand voor een functie die met jouw dienst te maken heeft. Op zo'n moment wordt de vraag of het huidige systeem nog past ineens actueel.": {
+"en": "A company that is happy with its supplier doesn't switch because you send an email. Something has to change. A company grows, opens a new branch, gets acquired or looks for someone for a role related to your service. At a moment like that, the question of whether the current setup still fits suddenly becomes relevant."
+},
+"Per bedrijf zoeken we daarom naar zo'n aanleiding. Een openstaande vacature, een nieuwe vestiging of overname, een bedrijf dat net is gaan adverteren of juist een site heeft die jaren niet is bijgewerkt. Welk signaal bij jouw aanbod past, bepalen we in de onboarding. De mail opent met dat signaal:": {
+"en": "That is why we look for such a reason per company. An open vacancy, a new branch or acquisition, a company that has just started advertising or has a website that hasn't been updated in years. Which signal fits your offer is something we decide during onboarding. The email opens with that signal:"
+},
+"Hoi Mark, zag dat jullie een tweede systeembeheerder zoeken.": {
+"en": "Hi Mark, saw that you're looking for a second system administrator."
+},
+"Daarna volgt een zin over wat zo'n moment meestal betekent voor de groep waar hij bij hoort. Over jouw bedrijf staat er op dat punt nog bijna niets in.": {
+"en": "Then follows a sentence about what such a moment usually means for the group they belong to. At that point there is still hardly anything in it about your company."
+},
+"Vinden we bij een bedrijf geen bruikbaar signaal, dan gaat de eerste zin over de situatie van de hele groep. Die zin is nog altijd veel dichter bij de ontvanger dan een opsomming van wat jij kunt.": {
+"en": "If we can't find a usable signal for a company, the first sentence is about the situation of the whole group. That sentence is still much closer to the recipient than a list of what you can do."
+},
+"In een overstapmarkt is \"zullen we een afspraak maken?\" een grote stap voor iemand die je nog nooit heeft gesproken. Een vraag waar hij in een paar woorden op kan antwoorden, werkt beter. Speelt dit bij jullie ook? Wie gaat bij jullie over de hosting?": {
+"en": "In a market where people rarely switch, “shall we schedule a meeting?” is a big step for someone who has never spoken to you. A question they can answer in a few words works better. Is this something you're dealing with too? Who handles hosting at your company?"
+},
+"De laatste mail in de reeks is nog kleiner. We vragen of we bij de juiste persoon zijn, of dat het onderwerp beter bij een collega past. Op die mail komen veel reacties, ook van mensen die zelf geen interesse hebben en wel weten wie erover gaat. Een doorverwijzing naar de juiste collega met contactgegevens telt bij ons als positieve reactie.": {
+"en": "The last email in the sequence is even smaller. We ask whether we've reached the right person, or whether the topic is better suited to a colleague. That email gets a lot of replies, including from people who aren't interested themselves but do know who is responsible. A referral to the right colleague with contact details counts as a positive reply for us."
+},
+"Een bedrijf krijgt van ons hooguit drie mails. Reageert iemand, dan stopt de reeks.": {
+"en": "A company gets at most three emails from us. If someone replies, the sequence stops."
+},
+"De eerste mail is kort en gaat zonder link of bijlage de deur uit. Wie wil weten waarom jij het anders doet, krijgt dat in de tweede mail. Daar past een korte case met cijfers erbij, of een concreet voorbeeld van een bedrijf uit dezelfde groep.": {
+"en": "The first email is short and goes out without a link or attachment. Anyone who wants to know why you do things differently gets that in the second email. That is where a short case with numbers fits, or a concrete example of a company from the same group."
+},
+"Bij IT-bedrijven en bureaus sturen we in de tweede mail vaak een link naar een eigen pagina voor die ene prospect, op jouw domein. Die pagina gaat over zijn bedrijf en wat jij daarvoor kunt doen. Dat is de add-on Hyperpersonalisatie. In onze eigen campagne kwam de reply rate daarmee op 9,1 procent, tegenover 3,2 procent op dezelfde lijst zonder pagina.": {
+"en": "For IT companies and agencies we often include a link in the second email to a personal page for that one prospect, on your domain. That page is about their company and what you can do for it. That is the Hyperpersonalisation add-on. In our own campaign it brought the reply rate to 9.1 percent, compared with 3.2 percent on the same list without a page."
+},
+"Juist in een markt waar iedereen hetzelfde belooft, laat zo'n pagina zien dat er moeite is gedaan voor deze ene ontvanger. Hyperpersonalisatie kan op elk pakket, voor € 300 per maand extra op Starter, € 350 op Growth, € 450 op Scale en € 550 op Pro. Waarom de eerste mail zo kort blijft, staat in": {
+"en": "Especially in a market where everyone promises the same thing, a page like that shows that effort was made for this one recipient. Hyperpersonalisation is available on every package, for € 300 per month extra on Starter, € 350 on Growth, € 450 on Scale and € 550 on Pro. Why the first email stays so short is explained in"
+},
+"Wij schrijven de mails, maar de beste zinnen komen uit wat jij over je klanten weet. Heb je een beschrijving van je ideale klant of buyer persona's, stuur ze mee. Weet je waarom je laatste klanten voor jou kozen en niet voor een ander, vertel het. Vaak is dat een detail dat je zelf vanzelfsprekend vindt, en precies dat detail maakt een mail anders dan die van je concurrent.": {
+"en": "We write the emails, but the best sentences come from what you know about your clients. If you have a description of your ideal client or buyer personas, send them along. If you know why your latest clients chose you over someone else, tell us. It is often a detail you take for granted yourself, and that very detail makes an email different from your competitor's."
+},
+"Voordat er iets uitgaat, krijg je de lijst en de teksten te zien. Je haalt bestaande klanten en lopende trajecten eruit en keurt de mails goed. Zo gaat er nooit iets namens jou de deur uit wat je niet eerst hebt gezien.": {
+"en": "Before anything goes out, you see the list and the copy. You remove existing clients and ongoing deals and approve the emails. That way nothing ever goes out on your behalf that you haven't seen first."
+},
+"Werkt koude e-mail in IT?": {
+"en": "Does cold email work in IT?"
+},
+"Ja. IT-dienstverlening, telefonie en ICT-security horen bij de sectoren waar we campagnes voor draaien. Het vraagt wel een scherpere indeling van de doelgroep dan veel andere branches.": {
+"en": "Yes. IT services, telephony and IT security are among the sectors we run campaigns for. It does require a sharper split of the target group than many other industries."
+},
+"Moet mijn aanbod uniek zijn?": {
+"en": "Does my offer have to be unique?"
+},
+"Dat hoeft niet. Het helpt vooral als je een groep kunt aanwijzen waarvoor je aanbod het best past, en een moment waarop die groep erover nadenkt.": {
+"en": "It doesn't have to be. What helps most is being able to point to a group your offer fits best, and a moment when that group is thinking about it."
+},
+"Wat is een koopsignaal?": {
+"en": "What is a buying signal?"
+},
+"Een aanleiding om een bedrijf juist nu te mailen, zoals een openstaande vacature of een nieuwe vestiging. De eerste zin van de mail verwijst ernaar.": {
+"en": "A reason to email a company right now, such as an open vacancy or a new branch. The first sentence of the email refers to it."
+},
+"Starter draait op één afgebakende doelgroep, Growth op twee tegelijk, Scale op drie en Pro op vijf.": {
+"en": "Starter runs on one defined target group, Growth on two at once, Scale on three and Pro on five."
+},
+"Kan ik mijn eigen klanten uitsluiten?": {
+"en": "Can I exclude my own clients?"
+},
+"Ja. Voordat er iets uitgaat, krijg je de lijst te zien. Je haalt er bestaande klanten en lopende trajecten uit, en die bedrijven worden niet gemaild.": {
+"en": "Yes. Before anything goes out, you see the list. You remove existing clients and ongoing deals, and those companies are not emailed."
+},
+"Hoe zou jouw mail opvallen?": {
+"en": "How would your email stand out?"
+},
+"In de gratis fitcheck van 30 minuten kijken we voor welke groep jouw aanbod het best klopt en welke aanleiding we per bedrijf kunnen gebruiken. Past koude e-mail niet bij je markt, dan hoor je dat ook.": {
+"en": "In the free 30-minute fit check we look at which group your offer fits best and which reason we can use per company. If cold email doesn't suit your market, you'll hear that too."
+},
+"Segmentatie, de eerste zin en een eigen pagina": {
+"en": "Segmentation, the first sentence and a personal page"
+},
+"Opvallen als iedereen hetzelfde biedt | Link2Leads": {
+"en": "Standing out when everyone offers the same | Link2Leads"
+},
+"Hoe je in een koude mail opvalt als je aanbod lijkt op dat van je concurrenten, zoals in IT en bij bureaus: met een smallere groep en een aanleiding per bedrijf.": {
+"en": "How to stand out in a cold email when your offer looks like your competitors', as in IT and agencies: with a narrower group and a reason per company."
+},
+"Iedereen biedt hetzelfde. Hoe val je dan op in een mail?": {
+"en": "Everyone offers the same thing. So how do you stand out in an email?"
+},
+"Wanneer Starter past en wat een groter pakket je in de eerste drie maanden sneller laat zien.": {
+"en": "When Starter fits and what a larger package shows you faster in the first three months."
+},
+"Hoe je in een koude mail opvalt als je aanbod lijkt op dat van de rest, zoals in IT en bij bureaus.": {
+"en": "How to stand out in a cold email when your offer looks like everyone else's, as in IT and agencies."
 }
 };
