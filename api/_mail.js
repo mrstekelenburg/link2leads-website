@@ -130,17 +130,22 @@ function prepBlock(dateStr, variant, soort, who) {
   const wanneer = wd ? wd : 'in de ' + g;
   const isFull = variant === 'full';
   const isReminder = variant === 'reminder';
+  const isReminderUur = variant === 'reminder-uur';
 
   const kop = isFull
     ? 'Vul nu de volledige vragenlijst in'
     : isReminder
-    ? 'Handig om vooraf in te vullen'
+    ? 'Zes minuten vooraf, en morgen ligt er een plan'
+    : isReminderUur
+    ? 'Heb je nog zes minuten voor we beginnen?'
     : `Vul de vragenlijst in voor de beste ${g}`;
 
   const tekst = isFull
     ? `Je antwoorden hierboven geven me al richting. De volledige vragenlijst (13 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 6 minuten, de laatste twee optioneel) maakt het beeld compleet. Zo kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`
     : isReminder
-    ? `We hebben je antwoorden op de vragenlijst nog niet ontvangen. Als je hem vooraf invult, kunnen we ${wanneer} gerichter kijken naar wat voor jou werkt. Het zijn 13 vragen, ongeveer 6 minuten.`
+    ? `Je vragenlijst hebben we nog niet binnen. Vul je hem voor morgen in, dan maken we vooraf een analyse van jouw markt en doelgroep en komen we in de ${g} met een concreet plan. Zonder je antwoorden gaat een groot deel van het gesprek op aan uitvragen. Het zijn 13 korte vragen, ongeveer 6 minuten.`
+    : isReminderUur
+    ? `Je vragenlijst hebben we nog niet binnen. Vul je hem nu nog in, dan kijken we straks meteen naar een plan voor jou in plaats van eerst alles uit te vragen. Het zijn 13 korte vragen, ongeveer 6 minuten.`
     : `Vul de vragenlijst in: 13 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 6 minuten. Een deel is aanklikken en de laatste twee mag je overslaan. Dan weet ik vooraf waar je staat en kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`;
 
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;background:${C.panel};border:1px solid ${C.border2};border-radius:14px;">
