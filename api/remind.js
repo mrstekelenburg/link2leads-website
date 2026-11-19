@@ -130,7 +130,7 @@ async function sendDag(t, ev, p, from, notify) {
   // Klant
   await t.sendMail({
     from, to: p.email,
-    subject: `Morgen om ${tijd}: je ${g} met Link2Leads`,
+    subject: `Morgen om ${tijd}: je ${g} met Link2Leads${vlBinnen ? '' : ' · vragenlijst nog open'}`,
     text: [
       `Hi${firstName ? ' ' + firstName : ''},`,
       ``,
@@ -139,7 +139,7 @@ async function sendDag(t, ev, p, from, notify) {
       ``,
       vlBinnen
         ? `Je antwoorden op de vragenlijst hebben we ontvangen, dank je wel. Dan kunnen we morgen direct de diepte in.`
-        : `Heb je de vragenlijst nog niet ingevuld? Dat kan op ${kUrl} (13 vragen, ongeveer 6 minuten). Dan kunnen we morgen gerichter kijken naar wat voor jou werkt.`,
+        : `Je vragenlijst hebben we nog niet binnen. Vul je hem voor morgen in, dan maken we vooraf een analyse van jouw markt en doelgroep en komen we morgen met een concreet plan. Zonder je antwoorden gaat een groot deel van het gesprek op aan uitvragen. Het zijn 13 korte vragen, ongeveer 6 minuten: ${kUrl}`,
       ``,
       `Beslis je dit samen met iemand? Stuur de uitnodiging gerust door.`,
       ``,
@@ -161,7 +161,7 @@ async function sendDag(t, ev, p, from, notify) {
         M.h1(`Morgen om ${esc(tijd)}: je ${g}${firstName ? ', ' + esc(firstName) : ''}`),
         vlBinnen
           ? M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Je antwoorden op de vragenlijst hebben we ontvangen, dank je wel. Beslis je dit samen met iemand? Stuur de uitnodiging gerust door. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 })
-          : M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Beslis je dit samen met iemand? Stuur de uitnodiging gerust door. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 }),
+          : M.p(`Een korte herinnering: morgen staat je ${g} met Link2Leads. Eén ding nog vooraf.`, { gap: 24 }),
         vlBinnen ? '' : M.prepBlock('', 'reminder', g, { name: p.naam, email: p.email, company: p.company }),
         vlBinnen ? '' : M.spacer(),
         M.detailTable([
@@ -171,6 +171,7 @@ async function sendDag(t, ev, p, from, notify) {
           joinRow(ev)
         ]),
         M.spacer(),
+        vlBinnen ? '' : M.p(`Beslis je dit samen met iemand? Stuur de uitnodiging gerust door. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 }),
         M.signoff('', { tot: 'morgen' })
       ].join('')
     })
@@ -214,14 +215,14 @@ async function sendUur(t, ev, p, from, notify) {
   // Klant
   await t.sendMail({
     from, to: p.email,
-    subject: `Over een uur: je ${g} met Link2Leads (${tijd})`,
+    subject: `Over een uur: je ${g} met Link2Leads (${tijd})${vlBinnen ? '' : ' · vragenlijst nog open'}`,
     text: [
       `Hi${firstName ? ' ' + firstName : ''},`,
       ``,
       `Over een uur, om ${tijd} (Nederlandse tijd), begint je ${g} met Link2Leads. ${duur} via Microsoft Teams.`,
       ev.joinUrl ? `Deelnemen: ${ev.joinUrl}` : `De deelnamelink staat in je agenda-uitnodiging.`,
       ``,
-      vlBinnen ? null : `Vragenlijst nog niet ingevuld? Doe het nu op ${M.klantUrl({ name: p.naam, email: p.email, company: p.company })}, dan kunnen we je gericht helpen.`,
+      vlBinnen ? null : `Je vragenlijst hebben we nog niet binnen. Vul je hem nu nog in, dan kijken we straks meteen naar een plan voor jou in plaats van eerst alles uit te vragen. 13 korte vragen, ongeveer 6 minuten: ${M.klantUrl({ name: p.naam, email: p.email, company: p.company })}`,
       vlBinnen ? null : ``,
       `Tot zo.`,
       `${M.SIGNER} · Link2Leads`,
@@ -238,6 +239,8 @@ async function sendUur(t, ev, p, from, notify) {
       body: [
         M.h1(`Over een uur: je ${g}${firstName ? ', ' + esc(firstName) : ''}`),
         M.p(`Om ${esc(tijd)} begint je ${g} met Link2Leads. Je kunt hieronder direct deelnemen.`, { gap: 24 }),
+        vlBinnen ? '' : M.prepBlock('', 'reminder-uur', g, { name: p.naam, email: p.email, company: p.company }),
+        vlBinnen ? '' : M.spacer(),
         M.detailTable([
           ['Datum', datum],
           ['Tijd', `${tijd} (Nederlandse tijd)`],
@@ -247,8 +250,6 @@ async function sendUur(t, ev, p, from, notify) {
         M.spacer(),
         ev.joinUrl ? M.button(ev.joinUrl, 'Deelnemen via Microsoft Teams') : '',
         ev.joinUrl ? M.spacer() : '',
-        vlBinnen ? '' : M.prepBlock('', 'reminder', g, { name: p.naam, email: p.email, company: p.company }),
-        vlBinnen ? '' : M.spacer(),
         M.signoff('', { lead: 'Tot zo.' })
       ].join('')
     })
