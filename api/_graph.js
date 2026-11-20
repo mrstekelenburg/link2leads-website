@@ -108,11 +108,8 @@ function uitnodigingTekst(opts) {
     `<div>Leuk dat je een fitcheck hebt ingepland. Hierbij de uitnodiging voor ${dag} ${datum} om ${tijd} uur.</div><div><br></div>` +
     `<div>Handig als je vooraf even je gegevens achterlaat via <a href="${link}">link2leads.nl/klant</a>. Dan weet ik wat je aanbod en doelgroep zijn en kan ik ${dag} direct met een strategie komen in plaats van eerst alles uit te vragen. Niet verplicht, wel makkelijk.</div><div><br></div>` +
     `<div>Tot ${dag}!</div><div><br></div>` +
-    `<div>Groet,</div><div><br></div>` +
-    `<div><b>Demi Stekelenburg</b><br>Founder | <b>Link</b><b><i>2</i></b><b>Leads</b><br><br>` +
-    `<b>T</b>: <a href="tel:+31850805381">+31 85 080 5381</a><br>` +
-    `<b>M</b>: <a href="mailto:demi@link2leads.nl">demi@link2leads.nl</a><br>` +
-    `<b>W</b>: <a href="https://link2leads.nl">link2leads.nl</a></div>`
+    `<div>Groet,</div>` +
+    `<div><b>Demi Stekelenburg</b><br>Founder | <b>Link</b><b><i>2</i></b><b>Leads</b></div>`
   );
 }
 
