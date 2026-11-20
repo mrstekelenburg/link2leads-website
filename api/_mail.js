@@ -131,8 +131,12 @@ function prepBlock(dateStr, variant, soort, who) {
   const isFull = variant === 'full';
   const isReminder = variant === 'reminder';
   const isReminderUur = variant === 'reminder-uur';
+  const isBinnen = variant === 'binnen' || variant === 'binnen-uur';
+  const straks = variant === 'binnen-uur' ? 'straks' : 'morgen';
 
-  const kop = isFull
+  const kop = isBinnen
+    ? 'Je vragenlijst is binnen'
+    : isFull
     ? 'Vul nu de volledige vragenlijst in'
     : isReminder
     ? 'Zes minuten vooraf, en morgen ligt er een plan'
@@ -140,7 +144,9 @@ function prepBlock(dateStr, variant, soort, who) {
     ? 'Heb je nog zes minuten voor we beginnen?'
     : `Vul de vragenlijst in voor de beste ${g}`;
 
-  const tekst = isFull
+  const tekst = isBinnen
+    ? `Dank je wel, daar gaan we ${straks} mee aan de slag. Wil je nog iets aanvullen of aanpassen? Dat kan tot het gesprek begint.`
+    : isFull
     ? `Je antwoorden hierboven geven me al richting. De volledige vragenlijst (13 vragen over je aanbod, je doelgroep, je bewijs en je cijfers, ongeveer 6 minuten, de laatste twee optioneel) maakt het beeld compleet. Zo kan ik ${wanneer} direct met een plan komen in plaats van eerst alles uit te vragen.`
     : isReminder
     ? `Je vragenlijst hebben we nog niet binnen. Vul je hem voor morgen in, dan maken we vooraf een analyse van jouw markt en doelgroep en komen we in de ${g} met een concreet plan. Zonder je antwoorden gaat een groot deel van het gesprek op aan uitvragen. Het zijn 13 korte vragen, ongeveer 6 minuten.`
@@ -150,10 +156,10 @@ function prepBlock(dateStr, variant, soort, who) {
 
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;background:${C.panel};border:1px solid ${C.border2};border-radius:14px;">
     <tr><td style="padding:24px 22px;">
-      ${label('Voorbereiding · 13 vragen · 6 minuten')}
+      ${label(isBinnen ? 'Voorbereiding · ontvangen' : 'Voorbereiding · 13 vragen · 6 minuten')}
       <div style="font-family:${FONT};font-size:17px;font-weight:700;letter-spacing:-0.3px;color:${C.text};margin:0 0 8px;">${esc(kop)}</div>
       <p style="margin:0 0 20px;font-family:${FONT};font-size:14px;line-height:1.65;color:${C.muted};">${esc(tekst)}</p>
-      ${button(klantUrl(who), 'Vul de vragenlijst in')}
+      ${button(klantUrl(who), isBinnen ? 'Aanvullen of aanpassen' : 'Vul de vragenlijst in')}
     </td></tr>
   </table>`;
 }
