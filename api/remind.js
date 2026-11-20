@@ -159,11 +159,11 @@ async function sendDag(t, ev, p, from, notify) {
       ref: p.ref,
       body: [
         M.h1(`Morgen om ${esc(tijd)}: je ${g}${firstName ? ', ' + esc(firstName) : ''}`),
-        vlBinnen
-          ? M.p(`Een korte herinnering. Morgen staat je ${g} met Link2Leads. Je antwoorden op de vragenlijst hebben we ontvangen, dank je wel. Beslis je dit samen met iemand? Stuur de uitnodiging gerust door. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 })
-          : M.p(`Een korte herinnering: morgen staat je ${g} met Link2Leads. Eén ding nog vooraf.`, { gap: 24 }),
-        vlBinnen ? '' : M.prepBlock('', 'reminder', g, { name: p.naam, email: p.email, company: p.company }),
-        vlBinnen ? '' : M.spacer(),
+        M.p(vlBinnen
+          ? `Een korte herinnering: morgen staat je ${g} met Link2Leads.`
+          : `Een korte herinnering: morgen staat je ${g} met Link2Leads. Eén ding nog vooraf.`, { gap: 24 }),
+        M.prepBlock('', vlBinnen ? 'binnen' : 'reminder', g, { name: p.naam, email: p.email, company: p.company }),
+        M.spacer(),
         M.detailTable([
           ['Datum', datum],
           ['Tijd', `${tijd} (Nederlandse tijd)`],
@@ -171,7 +171,7 @@ async function sendDag(t, ev, p, from, notify) {
           joinRow(ev)
         ]),
         M.spacer(),
-        vlBinnen ? '' : M.p(`Beslis je dit samen met iemand? Stuur de uitnodiging gerust door. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 }),
+        M.p(`Beslis je dit samen met iemand? Stuur de uitnodiging gerust door. Komt het toch niet uit? Antwoord op deze mail, dan prikken we een ander moment.`, { gap: 24 }),
         M.signoff('', { tot: 'morgen' })
       ].join('')
     })
@@ -239,8 +239,8 @@ async function sendUur(t, ev, p, from, notify) {
       body: [
         M.h1(`Over een uur: je ${g}${firstName ? ', ' + esc(firstName) : ''}`),
         M.p(`Om ${esc(tijd)} begint je ${g} met Link2Leads. Je kunt hieronder direct deelnemen.`, { gap: 24 }),
-        vlBinnen ? '' : M.prepBlock('', 'reminder-uur', g, { name: p.naam, email: p.email, company: p.company }),
-        vlBinnen ? '' : M.spacer(),
+        M.prepBlock('', vlBinnen ? 'binnen-uur' : 'reminder-uur', g, { name: p.naam, email: p.email, company: p.company }),
+        M.spacer(),
         M.detailTable([
           ['Datum', datum],
           ['Tijd', `${tijd} (Nederlandse tijd)`],
