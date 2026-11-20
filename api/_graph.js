@@ -89,6 +89,30 @@ async function markVragenlijst(email) {
   return n;
 }
 
+/* Tekst van de fitcheck-uitnodiging bij een directe boeking via /book.
+   Vastgesteld door Demi op 20-11-2026. De Teams-link zet Outlook er zelf onder. */
+function escHtml(v) {
+  return String(v == null ? '' : v)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function uitnodigingTekst(opts) {
+  const voornaam = String(opts.name || '').trim().split(/\s+/)[0] || '';
+  const d = new Date(String(opts.dateKey) + 'T12:00:00Z');
+  const dag = d.toLocaleDateString('nl-NL', { weekday: 'long', timeZone: 'UTC' });
+  const datum = d.toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', timeZone: 'UTC' });
+  const tijd = String(opts.time || '');
+  const link = klantLink(opts);
+  return (
+    `<div>Hi ${escHtml(voornaam)},</div><div><br></div>` +
+    `<div>Leuk dat je een fitcheck hebt ingepland. Hierbij de uitnodiging voor ${dag} ${datum} om ${tijd} uur.</div><div><br></div>` +
+    `<div>Handig als je vooraf even je gegevens achterlaat via <a href="${link}">link2leads.nl/klant</a>. Dan weet ik wat je aanbod en doelgroep zijn en kan ik ${dag} direct met een strategie komen in plaats van eerst alles uit te vragen. Niet verplicht, wel makkelijk.</div><div><br></div>` +
+    `<div>Tot ${dag}!</div><div><br></div>` +
+    `<div>Groet,</div>` +
+    `<div><b>Demi Stekelenburg</b><br>Founder | <b>Link</b><b><i>2</i></b><b>Leads</b></div>`
+  );
+}
+
 /* Maakt de afspraak aan. Geeft { joinUrl, webLink, id } terug bij succes,
    of null als er geen configuratie is. Gooit een fout als Graph weigert. */
 async function createEvent(opts) {
@@ -119,13 +143,7 @@ async function createEvent(opts) {
     body: {
       contentType: 'HTML',
       content:
-        `<p>Gratis fitcheck van ${opts.minutes || 30} minuten met Link2Leads.</p>` +
-        `<p><b>Handig om vooraf te doen:</b> de vragenlijst invullen (13 vragen, ongeveer 6 minuten). Dan kunnen we in de fitcheck gerichter kijken naar wat voor jou werkt.<br>` +
-        `<a href="${klantLink(opts)}">Vul de vragenlijst in</a></p>` +
-        (opts.companyName ? `<p>Bedrijf: ${opts.companyName}</p>` : '') +
-        (opts.phone ? `<p>Telefoon: ${opts.phone}</p>` : '') +
-        `<p>Boekingsnummer: ${opts.ref || '-'}</p>` +
-        `<p>Het gesprek wordt opgenomen en uitgeschreven, zodat we na afloop niets hoeven over te typen. Liever niet? Zeg het aan het begin, dan zetten we het uit.</p>`
+        uitnodigingTekst(opts)
     },
     start: { dateTime: w.start, timeZone: 'W. Europe Standard Time' },
     end: { dateTime: w.end, timeZone: 'W. Europe Standard Time' },

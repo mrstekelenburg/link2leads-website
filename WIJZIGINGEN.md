@@ -1,3 +1,7 @@
+**Aanpassing 20 november 2026: nieuwe tekst fitcheck-uitnodiging (Demi)**
+- De Teams-uitnodiging bij een directe boeking via /book heeft nu de tekst van Demi: persoonlijke aanhef met voornaam, dag, datum en tijd, de persoonlijke /klant-link ("niet verplicht, wel makkelijk") en de handtekening van Demi. Teams-link staat er door Outlook onder.
+- Weg: "Gratis fitcheck van 30 minuten", de knop met "13 vragen, 6 minuten", bedrijf, telefoon, boekingsnummer en de zin over opnemen. Demi meldt het opnemen zelf aan het begin van het gesprek; automatisch opnemen en transcriberen blijft aan.
+
 **17 november 2026: fitcheck-knoppen gaan naar de agenda**
 - Op de homepage scrolt elke fitcheck-knop (menu, hero, pakketkaarten, samensteller, vergelijking, contact) naar de agenda (#plan) in plaats van /book te openen. Wat een knop meegaf (pakket en add-ons uit de samensteller) gaat mee naar /book zodra een tijd gekozen is. Event `fitcheck_naar_agenda`.
 - Op alle andere pagina's gaan de fitcheck-links naar `/#plan`. /book zelf blijft bestaan voor persoonlijke boekingslinks, mails en snelboeken.
