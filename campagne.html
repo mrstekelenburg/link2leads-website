@@ -169,6 +169,8 @@ var T = {
   sub:'Hier staat alles voor jullie campagne op één plek. Kijk het rustig na en geef per onderdeel akkoord of feedback. Wij gaan er direct mee verder.',
   t_overzicht:'Overzicht', t_domeinen:'Domeinen', t_leads:'Leads', t_copy:'Copy', t_vragenlijst:'Vragenlijst', t_updates:'Updates en cijfers', t_uitbreiden:'Uitbreiden',
   ov_titel:'Zo staat jullie campagne ervoor', ov_leeg:'Er wacht nu niets op jou. Zodra er iets nieuws klaarstaat, krijg je een mailtje.',
+  stap_ovk:'Overeenkomst', stap_fact:'Factuur', sx_ovk_maken:'We maken de overeenkomst voor je klaar.', sx_ovk_verstuurd:'Staat klaar om te ondertekenen.', sx_ovk_ok:'Ondertekend, dank je.', ovk_knop:'Ondertekenen',
+  sx_fact_wacht:'Volgt zodra de overeenkomst is ondertekend.', sx_fact_open:'Factuur {n} van {b} is verstuurd. Nog {d} dagen tot de vervaldatum.', sx_fact_vandaag:'Factuur {n} van {b} vervalt vandaag.', sx_fact_over:'Factuur {n} van {b} staat nog open, de vervaldatum was {v}.', sx_fact_ok:'Betaald, dank je.', betaal_knop:'Betaal nu',
   stap_vl:'Vragenlijst', stap_dom:'Domeinnamen', stap_leads:'Leads', stap_copy:'Copy', stap_live:'Live',
   sx_vl_ok:'Ontvangen, dank je.', sx_vl_open:'Nog niet ontvangen.',
   sx_dom:'Zodra je de domeinen goedkeurt, starten we met opwarmen. Dat duurt 14 dagen, dus dit is de stap die het eerst moet.',
@@ -209,6 +211,8 @@ var T = {
   sub:'Everything for your campaign in one place. Take your time to review it and approve each part or give feedback. We pick it up straight away.',
   t_overzicht:'Overview', t_domeinen:'Domains', t_leads:'Leads', t_copy:'Copy', t_vragenlijst:'Questionnaire', t_updates:'Updates and numbers', t_uitbreiden:'Expand',
   ov_titel:'Where your campaign stands', ov_leeg:'Nothing is waiting for you right now. As soon as something new is ready, we will send you an email.',
+  stap_ovk:'Agreement', stap_fact:'Invoice', sx_ovk_maken:'We are preparing your agreement.', sx_ovk_verstuurd:'Ready for you to sign.', sx_ovk_ok:'Signed, thank you.', ovk_knop:'Sign',
+  sx_fact_wacht:'Follows once the agreement has been signed.', sx_fact_open:'Invoice {n} of {b} has been sent. {d} days until the due date.', sx_fact_vandaag:'Invoice {n} of {b} is due today.', sx_fact_over:'Invoice {n} of {b} is still open, the due date was {v}.', sx_fact_ok:'Paid, thank you.', betaal_knop:'Pay now',
   stap_vl:'Questionnaire', stap_dom:'Domain names', stap_leads:'Leads', stap_copy:'Copy', stap_live:'Live',
   sx_vl_ok:'Received, thank you.', sx_vl_open:'Not received yet.',
   sx_dom:'As soon as you approve the domains, we start warming them up. That takes 14 days, so this is the step that comes first.',
@@ -361,13 +365,28 @@ function secOverzicht(){
     if (l.some(function(i){ return i.status === 'feedback'; })) return 'feedback';
     return 'akkoord';
   }
-  stap(1, !!D.vragenlijst, t('stap_vl'), D.vragenlijst ? t('sx_vl_ok') : t('sx_vl_open'), 'vragenlijst');
-  [['domeinen','stap_dom','sx_dom'],['leads','stap_leads','sx_leads'],['copy','stap_copy','sx_copy']].forEach(function(x, i){
+  var tr = D.traject || {};
+  var nr = 0;
+  function knop(href, tekst){ var a = el('a',{cls:'btn p', href:href, target:'_blank', rel:'noopener', text:tekst}); a.style.textDecoration='none'; a.style.whiteSpace='nowrap'; a.addEventListener('click', function(e){ e.stopPropagation(); }); return a; }
+  stap(++nr, !!D.vragenlijst, t('stap_vl'), D.vragenlijst ? t('sx_vl_ok') : t('sx_vl_open'), 'vragenlijst');
+  var ovk = tr.overeenkomst;
+  stap(++nr, ovk === 'getekend', t('stap_ovk'), ovk === 'getekend' ? t('sx_ovk_ok') : (ovk === 'verstuurd' ? t('sx_ovk_verstuurd') : t('sx_ovk_maken')), null,
+    (ovk === 'verstuurd' && tr.overeenkomst_link) ? knop(tr.overeenkomst_link, t('ovk_knop')) : null);
+  var fx = '', fknop = null, bedrag = tr.factuur_bedrag ? '\u20ac ' + Number(tr.factuur_bedrag).toLocaleString(lang === 'nl' ? 'nl-NL' : 'en-GB', {minimumFractionDigits:2, maximumFractionDigits:2}) : '';
+  if (tr.factuur === 'betaald') fx = t('sx_fact_ok');
+  else if (tr.factuur === 'verstuurd') {
+    var dagen = tr.vervaldatum ? Math.round((new Date(tr.vervaldatum + 'T23:59:59') - new Date()) / 86400000) : null;
+    var v = {n: tr.factuur_nummer || '', b: bedrag, d: dagen, v: tr.vervaldatum ? datum(tr.vervaldatum) : ''};
+    fx = dagen === null ? t('sx_fact_open', v).split('.')[0] + '.' : (dagen > 0 ? t('sx_fact_open', v) : (dagen === 0 ? t('sx_fact_vandaag', v) : t('sx_fact_over', v)));
+    if (tr.betaallink) fknop = knop(tr.betaallink, t('betaal_knop'));
+  } else fx = t('sx_fact_wacht');
+  stap(++nr, tr.factuur === 'betaald', t('stap_fact'), fx, null, fknop);
+  [['domeinen','stap_dom','sx_dom'],['leads','stap_leads','sx_leads'],['copy','stap_copy','sx_copy']].forEach(function(x){
     var stt = status(x[0]);
     var tekst = x[0] === 'domeinen' ? t('sx_dom') : (stt ? '' : t(x[2]));
-    stap(i + 2, stt === 'akkoord', t(x[1]), tekst, stt ? x[0] : null, stt ? pill(stt) : null);
+    stap(++nr, stt === 'akkoord', t(x[1]), tekst, stt ? x[0] : null, stt ? pill(stt) : null);
   });
-  stap(5, false, t('stap_live'), t('sx_live'), null);
+  stap(++nr, !!tr.live_op, t('stap_live'), tr.live_op ? datum(tr.live_op) : t('sx_live'), null);
   s.appendChild(st);
   s.appendChild(inputBlok('extra', t('ov_extra_titel'), t('ov_extra_tekst'), ''));
   return s;
@@ -605,7 +624,7 @@ function render(){
   var tabs = el('div',{cls:'tabs'});
   SECS.forEach(function(sname){
     var n = ['domeinen','leads','copy'].indexOf(sname) > -1 ? openCount(sname) : 0;
-    if (sname === 'overzicht') n = openCount('domeinen') + openCount('leads') + openCount('copy');
+    if (sname === 'overzicht') n = openCount('domeinen') + openCount('leads') + openCount('copy') + ((D.traject||{}).factuur === 'verstuurd' ? 1 : 0) + ((D.traject||{}).overeenkomst === 'verstuurd' ? 1 : 0);
     var b = el('button',{cls:'tab' + (tab === sname ? ' on' : ''), onclick:function(){ ga(sname); }},[t('t_'+sname)]);
     if (sname === 'vragenlijst' && D.vragenlijst) b.appendChild(el('span',{cls:'vink',text:'\u2713'}));
     if (n) b.appendChild(el('span',{cls:'dot',text:String(n)}));
