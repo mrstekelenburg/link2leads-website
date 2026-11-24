@@ -12069,8 +12069,8 @@ window.L2L_I18N_DATA = {
 "Wat moet ik zelf doen?": {
 "en": "What do I need to do myself?"
 },
-"Je vertelt ons wie je ideale klanten zijn en keurt de doelgroep en e-mails goed. Wij regelen de rest: van contactlijsten en verzending tot het beoordelen van reacties. Jij voert alleen de gesprekken.": {
-"en": "You tell us who your ideal clients are and approve the audience and emails. We handle the rest: from contact lists and sending to reviewing replies. You only have the conversations."
+"Je vertelt ons wie je ideale klanten zijn en keurt de doelgroep en e-mails goed in je persoonlijke omgeving. Wij regelen de rest: van contactlijsten en verzending tot het beoordelen van reacties. Jij voert alleen de gesprekken.": {
+"en": "You tell us who your ideal clients are and approve the audience and emails in your personal workspace. We handle the rest: from contact lists and sending to reviewing replies. You only have the conversations."
 },
 "Met Full Service plannen we ook de afspraken voor je in.": {
 "en": "With Full Service we also book the meetings for you."
@@ -13277,5 +13277,23 @@ window.L2L_I18N_DATA = {
 },
 "Volgende maand": {
 "en": "Next month"
+},
+"Waar houd ik alles bij?": {
+"en": "Where do I keep track of everything?"
+},
+"In je persoonlijke omgeving. Iedere klant krijgt een eigen link, zonder inloggen, waar alles van de campagne op één plek staat.": {
+"en": "In your personal workspace. Every client gets their own link, no login needed, with everything about the campaign in one place."
+},
+"Je ziet waar we staan, keurt domeinnamen, leads en e-mails goed en downloadt je leadlijst. Je overeenkomst, facturen en de wekelijkse cijfers vind je daar ook. Bij elke stap krijg je een mail met de link, dus zoeken hoeft nooit.": {
+"en": "You see where things stand, approve domains, leads and emails and download your lead list. Your agreement, invoices and weekly numbers are there too. Every step comes with an email containing the link, so you never have to search."
+},
+"Alles op één plek": {
+"en": "All in one place"
+},
+"Een persoonlijke omgeving met je planning, goedkeuringen, leadlijst, cijfers en facturen.": {
+"en": "A personal workspace with your timeline, approvals, lead list, numbers and invoices."
+},
+"Losse mails, Excelbestanden en pdf-rapporten.": {
+"en": "Separate emails, Excel files and PDF reports."
 }
 };
