@@ -33,6 +33,16 @@ a{color:var(--accent2);}
 nav{height:60px;padding:0 28px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);
   background:rgba(8,9,12,.92);backdrop-filter:blur(12px);position:sticky;top:0;z-index:50;}
 .logo{font-size:18px;font-weight:800;letter-spacing:-.4px;text-decoration:none;}
+.klant-badge{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:700;color:var(--text);max-width:45vw;overflow:hidden;}
+.klant-badge img{width:26px;height:26px;border-radius:6px;background:#fff;object-fit:contain;padding:2px;flex-shrink:0;}
+.klant-badge .ini{width:26px;height:26px;border-radius:6px;background:var(--accentbg);color:var(--accent2);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;flex-shrink:0;}
+.klant-badge span.n{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.nav-r{display:flex;align-items:center;gap:16px;}
+.eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:14px;}
+.eyebrow img{width:44px;height:44px;border-radius:10px;background:#fff;object-fit:contain;padding:4px;}
+.eyebrow .ini{width:44px;height:44px;border-radius:10px;background:var(--accentbg);color:var(--accent2);display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:800;}
+.eyebrow b{font-size:17px;display:block;}.eyebrow small{color:var(--muted);font-size:13px;}
+@media(max-width:700px){.klant-badge{display:none;}}
 .lang{display:flex;gap:4px;}
 .lang button{background:none;border:1px solid var(--border2);color:var(--muted2);font-size:12px;font-weight:700;padding:5px 9px;border-radius:7px;cursor:pointer;}
 .lang button.on{color:var(--text);border-color:var(--accent);}
@@ -158,7 +168,7 @@ h4{font-size:15px;font-weight:800;margin:18px 0 8px;}
 <body>
 <nav>
   <a class="logo" href="https://www.link2leads.nl"><span class="l2b">Link<i>2</i>Leads</span></a>
-  <div class="lang"><button data-l="nl">NL</button><button data-l="en">EN</button></div>
+  <div class="nav-r"><div class="klant-badge" id="kbadge"></div><div class="lang"><button data-l="nl">NL</button><button data-l="en">EN</button></div></div>
 </nav>
 <main class="wrap" id="app"><p class="muted" data-t="laden"></p></main>
 <div class="foot" id="foot"></div>
@@ -183,6 +193,7 @@ var T = {
   sx_dom:'Zodra je de domeinen goedkeurt, starten we met opwarmen. Dat duurt 14 dagen, dus dit is de stap die het eerst moet.',
   sx_leads:'Verwacht binnen 5 werkdagen.', sx_copy:'Verwacht binnen een week.', sx_live:'Zodra de domeinen zijn opgewarmd en de leads en copy akkoord zijn.',
   sx_bekijk:'Bekijken', sx_klaar:'Staat klaar',
+  eb_sub:'Persoonlijke omgeving', sx_afgerond:'Afgerond.', vl_ok_kort:'We hebben je antwoorden ontvangen en zijn ermee aan de slag. Aanpassen kan niet meer, toevoegen kan altijd.',
   pk_titel:'Je pakket', pk_mnd:'per maand, ex btw', pk_normaal:'Normaal', pk_jij:'Jij betaalt', pk_korting:'Je korting', pk_totaal:'Totaal', pk_meer:'Wil je meer, of iets extra?', pk_meer_tekst:'Meer volume, LinkedIn erbij of een eigen pagina per prospect. Kijk wat er kan, dan denken we met je mee.', pk_meer_knop:'Bekijk de opties',
   rv_titel:'Tevreden over hoe het loopt?', rv_tekst:'Een korte review op Google helpt ons enorm. Het kost je een minuut.', rv_knop:'Schrijf een review', rv_dank:'Dank je wel, dat waarderen we echt.',
   rf_titel:'Ken je iemand voor wie dit ook werkt?', rf_tekst:'Breng je iemand aan die klant wordt, dan krijg je 10% van wat die klant in zijn eerste contractperiode betaalt als korting op je eigen factuur.', rf_plh:'Naam, bedrijf en e-mail of telefoonnummer. Wij nemen contact op en noemen jou erbij als dat mag.', rf_dank:'Dank je! We nemen contact op en houden je op de hoogte.',
@@ -228,6 +239,7 @@ var T = {
   sx_dom:'As soon as you approve the domains, we start warming them up. That takes 14 days, so this is the step that comes first.',
   sx_leads:'Expected within 5 working days.', sx_copy:'Expected within a week.', sx_live:'Once the domains are warmed up and the leads and copy are approved.',
   sx_bekijk:'View', sx_klaar:'Ready',
+  eb_sub:'Personal workspace', sx_afgerond:'Done.', vl_ok_kort:'We received your answers and are working with them. Changing them is no longer possible, adding is always welcome.',
   pk_titel:'Your package', pk_mnd:'per month, excl. VAT', pk_normaal:'Regular', pk_jij:'You pay', pk_korting:'Your discount', pk_totaal:'Total', pk_meer:'Want more, or something extra?', pk_meer_tekst:'More volume, LinkedIn on top or a personal page per prospect. See what is possible and we will think along with you.', pk_meer_knop:'See the options',
   rv_titel:'Happy with how it is going?', rv_tekst:'A short review on Google helps us a lot. It takes you a minute.', rv_knop:'Write a review', rv_dank:'Thank you, we really appreciate it.',
   rf_titel:'Know someone this would work for too?', rf_tekst:'Introduce someone who becomes a client and you get 10% of what they pay in their first contract period as a discount on your own invoice.', rf_plh:'Name, company and email or phone number. We will reach out and mention you if that is okay.', rf_dank:'Thank you! We will reach out and keep you posted.',
@@ -419,7 +431,8 @@ function secOverzicht(){
   var tr = D.traject || {};
   var nr = 0;
   function knop(href, tekst){ var a = el('a',{cls:'btn p', href:href, target:'_blank', rel:'noopener', text:tekst}); a.style.textDecoration='none'; a.style.whiteSpace='nowrap'; a.addEventListener('click', function(e){ e.stopPropagation(); }); return a; }
-  stap(++nr, !!D.vragenlijst, t('stap_vl'), D.vragenlijst ? t('sx_vl_ok') : t('sx_vl_open'), 'vragenlijst');
+  var vlok = !!D.vragenlijst || !!tr.vragenlijst_ok;
+  stap(++nr, vlok, t('stap_vl'), vlok ? t('sx_vl_ok') : t('sx_vl_open'), 'vragenlijst');
   var ovk = tr.overeenkomst;
   stap(++nr, ovk === 'getekend', t('stap_ovk'), ovk === 'getekend' ? t('sx_ovk_ok') : (ovk === 'verstuurd' ? t('sx_ovk_verstuurd') : t('sx_ovk_maken')), null,
     (ovk === 'verstuurd' && tr.overeenkomst_link) ? knop(tr.overeenkomst_link, t('ovk_knop')) : null);
@@ -434,6 +447,7 @@ function secOverzicht(){
   stap(++nr, tr.factuur === 'betaald', t('stap_fact'), fx, null, fknop);
   [['domeinen','stap_dom','sx_dom'],['leads','stap_leads','sx_leads'],['copy','stap_copy','sx_copy']].forEach(function(x){
     var stt = status(x[0]);
+    if (!stt && tr.live_op) { stap(++nr, true, t(x[1]), t('sx_afgerond'), null, null); return; }
     var tekst = x[0] === 'domeinen' ? t('sx_dom') : (stt ? '' : t(x[2]));
     stap(++nr, stt === 'akkoord', t(x[1]), tekst, stt ? x[0] : null, stt ? pill(stt) : null);
   });
@@ -594,6 +608,11 @@ function secCopy(){
 function secVragenlijst(){
   var s = el('div'); s.appendChild(el('h2',{text:t('t_vragenlijst')}));
   var vl = D.vragenlijst;
+  if (!vl && (D.traject||{}).vragenlijst_ok) {
+    s.appendChild(el('div',{cls:'okbox'},[el('span',{cls:'vink',text:'\u2713'}), el('div',{},[el('b',{text:t('vl_ok')}), el('div',{cls:'muted',text:t('vl_ok_kort')})])]));
+    s.appendChild(inputBlok('vragenlijst', t('vl_aanvul_titel'), t('vl_aanvul_tekst'), t('vl_aanvul_plh')));
+    return s;
+  }
   if (!vl) {
     var e = el('div',{cls:'empty'},[t('vl_leeg') + ' ']);
     e.appendChild(el('a',{href:'/klant',text:t('vl_link')}));
@@ -603,7 +622,9 @@ function secVragenlijst(){
   s.appendChild(el('div',{cls:'okbox'},[el('span',{cls:'vink',text:'\u2713'}), el('div',{},[el('b',{text:t('vl_ok')}), el('div',{cls:'muted',text:t('vl_ingevuld',{d:datum(vl.ingevuld_op)})})])]));
   s.appendChild(inputBlok('vragenlijst', t('vl_aanvul_titel'), t('vl_aanvul_tekst'), t('vl_aanvul_plh')));
   var qa = el('div',{cls:'qa'});
-  Object.keys(vl.antwoorden || {}).forEach(function(q){
+  var QV = ["Wat verkopen", "Welke klant zou je", "Wie benaderen", "Waar mailen we", "Welk probleem", "belangrijkste resultaat", "Waarom kiezen", "Wat maakt jullie anders", "gemiddelde nieuwe klant", "Hoe komen jullie", "Hoeveel gesprekken", "Hoeveel extra gesprekken", "extra's", "Wie voert", "Vanuit wie mailen", "Afzender", "What do you sell", "Which client", "Who do we reach", "Where do we", "What problem", "most important result", "Why do clients", "average new client", "How do you get", "How many", "extras", "Who runs", "Who do we send"];
+  function rang(q){ var n = parseInt(q,10); if (!isNaN(n)) return n; var l = q.toLowerCase(); for (var i=0;i<QV.length;i++){ if (l.indexOf(QV[i].toLowerCase()) > -1) return 0.5 + i; } return 999; }
+  Object.keys(vl.antwoorden || {}).sort(function(a,b){ return rang(a) - rang(b); }).forEach(function(q){
     var a = vl.antwoorden[q]; if (!a) return;
     qa.appendChild(el('div',{cls:'card'},[el('div',{cls:'q',text:q}), el('div',{cls:'a',text:String(a)})]));
   });
@@ -669,6 +690,18 @@ function render(){
   document.getElementById('foot').textContent = t('voet');
   if (!D) { app.appendChild(el('div',{cls:'err'},[el('h1',{text:t('niet_gevonden_t')}), el('p',{text:t('niet_gevonden_p')})])); return; }
   var k = D.klant || {};
+  function merk(cls){
+    var naam = k.bedrijf || '';
+    var ini = el('div',{cls:'ini',text:(naam.replace(/[^A-Za-z0-9]/g,'')[0]||'?').toUpperCase()});
+    if (!k.logo) return ini;
+    var img = el('img',{src:k.logo, alt:'', referrerpolicy:'no-referrer'});
+    img.addEventListener('error', function(){ if (img.parentNode) img.parentNode.replaceChild(ini, img); });
+    img.addEventListener('load', function(){ if (img.naturalWidth < 12 && img.parentNode) img.parentNode.replaceChild(ini, img); });
+    return img;
+  }
+  var kb = document.getElementById('kbadge'); kb.innerHTML = '';
+  if (k.bedrijf) { kb.appendChild(merk()); kb.appendChild(el('span',{cls:'n',text:k.bedrijf})); }
+  if (k.bedrijf) app.appendChild(el('div',{cls:'eyebrow'},[merk(), el('div',{},[el('b',{text:k.bedrijf}), el('small',{text:t('eb_sub')})])]));
   if (k.naam) app.appendChild(el('div',{cls:'hello',text:t('hi',{n:k.naam})}));
   var h = el('h1'); h.appendChild(document.createTextNode(t('titel',{b:'\u0001'}).split('\u0001')[0]));
   h.appendChild(el('span',{cls:'l2b'},['Link', el('i',{text:'2'}), 'Leads']));
@@ -680,7 +713,7 @@ function render(){
     var n = ['domeinen','leads','copy'].indexOf(sname) > -1 ? openCount(sname) : 0;
     if (sname === 'overzicht') n = openCount('domeinen') + openCount('leads') + openCount('copy') + ((D.traject||{}).factuur === 'verstuurd' ? 1 : 0) + ((D.traject||{}).overeenkomst === 'verstuurd' ? 1 : 0);
     var b = el('button',{cls:'tab' + (tab === sname ? ' on' : ''), onclick:function(){ ga(sname); }},[t('t_'+sname)]);
-    if (sname === 'vragenlijst' && D.vragenlijst) b.appendChild(el('span',{cls:'vink',text:'\u2713'}));
+    if (sname === 'vragenlijst' && (D.vragenlijst || (D.traject||{}).vragenlijst_ok)) b.appendChild(el('span',{cls:'vink',text:'\u2713'}));
     if (n) b.appendChild(el('span',{cls:'dot',text:String(n)}));
     tabs.appendChild(b);
   });
