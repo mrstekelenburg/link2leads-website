@@ -42,7 +42,16 @@ nav{height:60px;padding:0 28px;display:flex;align-items:center;justify-content:s
 .eyebrow img{width:44px;height:44px;border-radius:10px;background:#fff;object-fit:contain;padding:4px;}
 .eyebrow .ini{width:44px;height:44px;border-radius:10px;background:var(--accentbg);color:var(--accent2);display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:800;}
 .eyebrow b{font-size:17px;display:block;}.eyebrow small{color:var(--muted);font-size:13px;}
-@media(max-width:700px){.klant-badge{display:none;}}
+@media(max-width:700px){.klant-badge img,.klant-badge .ini{width:22px;height:22px;}.klant-badge{font-size:13px;gap:7px;}}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease;}
+.rv.in{opacity:1;transform:none;}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none;}}
+.blok-kop{font-size:13px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);margin:38px 0 12px;}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.duo .card{margin-bottom:0;display:flex;flex-direction:column;}
+.duo .card .btns{margin-top:auto;padding-top:10px;}
+.klap{display:none;}.klap.open{display:block;}
+@media(max-width:700px){.duo{grid-template-columns:1fr;}.klant-badge span.n{max-width:38vw;}}
 .lang{display:flex;gap:4px;}
 .lang button{background:none;border:1px solid var(--border2);color:var(--muted2);font-size:12px;font-weight:700;padding:5px 9px;border-radius:7px;cursor:pointer;}
 .lang button.on{color:var(--text);border-color:var(--accent);}
@@ -136,6 +145,7 @@ textarea:focus{border-color:var(--accent);}
 
 .steps{display:grid;gap:10px;margin-bottom:26px;}
 .step{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:15px 18px;}
+.step.done{padding:11px 18px;align-items:center;}.step.done .st span{font-size:13px;color:var(--muted);}.step.done .st b{margin-bottom:1px;}.step.done .nr{width:26px;height:26px;}
 .step.klik{cursor:pointer;}.step.klik:hover{border-color:var(--border2);}
 .step .nr{width:30px;height:30px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;background:var(--accentbg);color:var(--accent2);border:1px solid rgba(47,111,237,.35);}
 .step .nr.ok{background:var(--greenbg);color:var(--green);border-color:rgba(74,222,128,.35);}
@@ -193,7 +203,7 @@ var T = {
   sx_dom:'Zodra je de domeinen goedkeurt, starten we met opwarmen. Dat duurt 14 dagen, dus dit is de stap die het eerst moet.',
   sx_leads:'Verwacht binnen 5 werkdagen.', sx_copy:'Verwacht binnen een week.', sx_live:'Zodra de domeinen zijn opgewarmd en de leads en copy akkoord zijn.',
   sx_bekijk:'Bekijken', sx_klaar:'Staat klaar',
-  eb_sub:'Persoonlijke omgeving', sx_afgerond:'Afgerond.', vl_ok_kort:'We hebben je antwoorden ontvangen en zijn ermee aan de slag. Aanpassen kan niet meer, toevoegen kan altijd.',
+  eb_sub:'Persoonlijke omgeving', kop_contact:'Samen verder', schrijf_knop:'Schrijf het op', sx_afgerond:'Afgerond.', vl_ok_kort:'We hebben je antwoorden ontvangen en zijn ermee aan de slag. Aanpassen kan niet meer, toevoegen kan altijd.',
   pk_titel:'Je pakket', pk_mnd:'per maand, ex btw', pk_normaal:'Normaal', pk_jij:'Jij betaalt', pk_korting:'Je korting', pk_totaal:'Totaal', pk_meer:'Wil je meer, of iets extra?', pk_meer_tekst:'Meer volume, LinkedIn erbij of een eigen pagina per prospect. Kijk wat er kan, dan denken we met je mee.', pk_meer_knop:'Bekijk de opties',
   rv_titel:'Tevreden over hoe het loopt?', rv_tekst:'Een korte review op Google helpt ons enorm. Het kost je een minuut.', rv_knop:'Schrijf een review', rv_dank:'Dank je wel, dat waarderen we echt.',
   rf_titel:'Ken je iemand voor wie dit ook werkt?', rf_tekst:'Breng je iemand aan die klant wordt, dan krijg je 10% van wat die klant in zijn eerste contractperiode betaalt als korting op je eigen factuur.', rf_plh:'Naam, bedrijf en e-mail of telefoonnummer. Wij nemen contact op en noemen jou erbij als dat mag.', rf_dank:'Dank je! We nemen contact op en houden je op de hoogte.',
@@ -239,7 +249,7 @@ var T = {
   sx_dom:'As soon as you approve the domains, we start warming them up. That takes 14 days, so this is the step that comes first.',
   sx_leads:'Expected within 5 working days.', sx_copy:'Expected within a week.', sx_live:'Once the domains are warmed up and the leads and copy are approved.',
   sx_bekijk:'View', sx_klaar:'Ready',
-  eb_sub:'Personal workspace', sx_afgerond:'Done.', vl_ok_kort:'We received your answers and are working with them. Changing them is no longer possible, adding is always welcome.',
+  eb_sub:'Personal workspace', kop_contact:'Keep in touch', schrijf_knop:'Write it down', sx_afgerond:'Done.', vl_ok_kort:'We received your answers and are working with them. Changing them is no longer possible, adding is always welcome.',
   pk_titel:'Your package', pk_mnd:'per month, excl. VAT', pk_normaal:'Regular', pk_jij:'You pay', pk_korting:'Your discount', pk_totaal:'Total', pk_meer:'Want more, or something extra?', pk_meer_tekst:'More volume, LinkedIn on top or a personal page per prospect. See what is possible and we will think along with you.', pk_meer_knop:'See the options',
   rv_titel:'Happy with how it is going?', rv_tekst:'A short review on Google helps us a lot. It takes you a minute.', rv_knop:'Write a review', rv_dank:'Thank you, we really appreciate it.',
   rf_titel:'Know someone this would work for too?', rf_tekst:'Introduce someone who becomes a client and you get 10% of what they pay in their first contract period as a discount on your own invoice.', rf_plh:'Name, company and email or phone number. We will reach out and mention you if that is okay.', rf_dank:'Thank you! We will reach out and keep you posted.',
@@ -305,7 +315,7 @@ function pill(status){
   return el('span',{cls:'pill open',text:t('st_open')});
 }
 /* Tekst met {{merge_tags}} uitgelicht, zonder HTML uit de inhoud toe te laten. */
-var TAGNAAM = {nl:{first_name:'voornaam',last_name:'achternaam',company_name:'bedrijfsnaam',city:'plaats',job_title:'functie',website:'website'}, en:{first_name:'first name',last_name:'last name',company_name:'company name',city:'city',job_title:'job title',website:'website'}};
+var TAGNAAM = {nl:{first_name:'voornaam',last_name:'achternaam',company_name:'bedrijfsnaam',city:'plaats',job_title:'functie',website:'website',sector_kort:'sector',sector_bedrijven:'branche'}, en:{first_name:'first name',last_name:'last name',company_name:'company name',city:'city',job_title:'job title',website:'website',sector_kort:'sector',sector_bedrijven:'industry'}};
 function mergeText(str){
   var frag = document.createDocumentFragment();
   String(str || '').split(/(\{\{[^}]+\}\})/).forEach(function(part){
@@ -344,11 +354,12 @@ function actieBlok(item, voorAkkoord){
   return box;
 }
 
-function inputBlok(soort, titel, tekst, plh){
+function inputBlok(soort, titel, tekst, plh, compact){
   var box = el('div',{cls:'card'});
   box.appendChild(el('h3',{text:titel}));
   if (tekst) box.appendChild(el('p',{cls:'lead',text:tekst}));
   var ta = el('textarea',{placeholder:plh || ''});
+  var wrapK = compact ? el('div',{cls:'klap'}) : null;
   var b = el('button',{cls:'btn p',text:t('versturen')});
   b.addEventListener('click', function(){
     if (!ta.value.trim()) { ta.focus(); return; }
@@ -357,8 +368,14 @@ function inputBlok(soort, titel, tekst, plh){
       .then(function(){ D.input.unshift({soort:soort, tekst:ta.value.trim(), aangemaakt:new Date().toISOString()}); ta.value=''; toast(t('verzonden')); render(); })
       .catch(function(){ b.disabled = false; toast(t('fout')); });
   });
-  box.appendChild(ta);
-  box.appendChild(el('div',{cls:'btns'},[b]));
+  if (compact) {
+    wrapK.appendChild(ta); wrapK.appendChild(el('div',{cls:'btns'},[b]));
+    var open = el('button',{cls:'btn g',text:t('schrijf_knop'), onclick:function(){ wrapK.classList.add('open'); open.style.display='none'; ta.focus(); }});
+    box.appendChild(el('div',{cls:'btns'},[open])); box.appendChild(wrapK);
+  } else {
+    box.appendChild(ta);
+    box.appendChild(el('div',{cls:'btns'},[b]));
+  }
   var eerder = (D.input || []).filter(function(x){ return x.soort === soort; });
   if (eerder.length) {
     var h = el('div',{cls:'input-hist'});
@@ -373,7 +390,6 @@ function euro(n){ return '€ ' + Number(n).toLocaleString(lang === 'nl' ? 'nl-N
 function pakketBlok(){
   var p = D.pakket; if (!p || p.prijs_klant == null) return null;
   var c = el('div',{cls:'card pk'});
-  c.appendChild(el('h3',{text:t('pk_titel')}));
   var rows = el('div',{cls:'pk-rows'});
   function rij(l, r, cls){ rows.appendChild(el('div',{cls:'pk-r' + (cls ? ' ' + cls : '')},[el('span',{text:l}), el('span',{text:r})])); }
   var adds = p.addons || [];
@@ -415,7 +431,7 @@ function secOverzicht(){
   s.appendChild(el('h2',{text:t('ov_titel')}));
   var st = el('div',{cls:'steps'});
   function stap(nr, ok, titel, tekst, soort, extra){
-    var d = el('div',{cls:'step' + (soort ? ' klik' : '')});
+    var d = el('div',{cls:'step' + (soort ? ' klik' : '') + (ok ? ' done' : '')});
     if (soort) d.addEventListener('click', function(){ ga(soort); });
     d.appendChild(el('div',{cls:'nr' + (ok ? ' ok' : ''), text: ok ? '\u2713' : String(nr)}));
     d.appendChild(el('div',{cls:'st'},[el('b',{text:titel}), el('span',{text:tekst})]));
@@ -453,10 +469,14 @@ function secOverzicht(){
   });
   stap(++nr, !!tr.live_op, t('stap_live'), tr.live_op ? datum(tr.live_op) : t('sx_live'), null);
   s.appendChild(st);
-  var pb = pakketBlok(); if (pb) s.appendChild(pb);
-  s.appendChild(inputBlok('extra', t('ov_extra_titel'), t('ov_extra_tekst'), ''));
-  var rb = reviewBlok(); if (rb) s.appendChild(rb);
-  s.appendChild(inputBlok('referral', t('rf_titel'), t('rf_tekst'), t('rf_plh')));
+  var pb = pakketBlok(); if (pb) { s.appendChild(el('div',{cls:'blok-kop',text:t('pk_titel')})); s.appendChild(pb); }
+  s.appendChild(el('div',{cls:'blok-kop',text:t('kop_contact')}));
+  var rb = reviewBlok();
+  var duo = el('div',{cls:'duo'});
+  duo.appendChild(inputBlok('extra', t('ov_extra_titel'), t('ov_extra_tekst'), '', true));
+  duo.appendChild(inputBlok('referral', t('rf_titel'), t('rf_tekst'), t('rf_plh'), true));
+  s.appendChild(duo);
+  if (rb) { rb.style.marginTop='14px'; s.appendChild(rb); }
   return s;
 }
 
@@ -701,8 +721,6 @@ function render(){
   }
   var kb = document.getElementById('kbadge'); kb.innerHTML = '';
   if (k.bedrijf) { kb.appendChild(merk()); kb.appendChild(el('span',{cls:'n',text:k.bedrijf})); }
-  if (k.bedrijf) app.appendChild(el('div',{cls:'eyebrow'},[merk(), el('div',{},[el('b',{text:k.bedrijf}), el('small',{text:t('eb_sub')})])]));
-  if (k.naam) app.appendChild(el('div',{cls:'hello',text:t('hi',{n:k.naam})}));
   var h = el('h1'); h.appendChild(document.createTextNode(t('titel',{b:'\u0001'}).split('\u0001')[0]));
   h.appendChild(el('span',{cls:'l2b'},['Link', el('i',{text:'2'}), 'Leads']));
   h.appendChild(document.createTextNode(t('titel',{b:'\u0001'}).split('\u0001')[1] || ''));
@@ -723,6 +741,13 @@ function render(){
     if (tab === sname) sec.appendChild(MAKERS[sname]());
     app.appendChild(sec);
   });
+  onthul();
+}
+function onthul(){
+  var els = document.querySelectorAll('.sec.on .step, .sec.on .card, .sec.on .kpi, .sec.on .okbox, .sec.on .mail, .sec.on table');
+  if (!('IntersectionObserver' in window)) return;
+  var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }); }, {threshold:0.08});
+  els.forEach(function(x, i){ if (x.closest('.duo') && x.parentNode.closest('.card')) return; x.classList.add('rv'); x.style.transitionDelay = Math.min(i, 8) * 40 + 'ms'; io.observe(x); });
 }
 
 /* ── Start ───────────────────────────────────────────────────── */
