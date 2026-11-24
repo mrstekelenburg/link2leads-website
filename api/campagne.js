@@ -86,13 +86,18 @@ module.exports = async (req, res) => {
     }
 
     if (b.actie === 'input') {
-      const soort = ['extra', 'vragenlijst', 'interesse'].includes(b.soort) ? b.soort : 'extra';
+      const soort = ['extra', 'vragenlijst', 'interesse', 'referral', 'review'].includes(b.soort) ? b.soort : 'extra';
       const onderwerp = soort === 'interesse' ? (OPTIE[b.onderwerp] ? b.onderwerp : 'overig') : (b.onderwerp || null);
       const r = await rpc('klantpagina_input_toevoegen', { p_code: b.code, p_soort: soort, p_onderwerp: onderwerp, p_tekst: b.tekst || null });
       const naam = r.bedrijf || r.klant;
       if (soort === 'interesse') {
         await meld(`Koopsignaal: ${naam} wil ${OPTIE[onderwerp] || onderwerp}`, `${naam} klikte op "${OPTIE[onderwerp] || onderwerp}"`,
           [['Klant', naam], ['Contact', r.naam], ['E-mail', r.email], ['Interesse', OPTIE[onderwerp] || onderwerp]], b.tekst);
+      } else if (soort === 'referral') {
+        await meld(`Doorverwijzing via ${naam}`, `${naam} draagt iemand aan via de persoonlijke omgeving (10% van de eerste contractperiode als korting voor ${naam} als het klant wordt)`,
+          [['Aangedragen door', naam], ['Contact', r.naam], ['E-mail', r.email]], b.tekst);
+      } else if (soort === 'review') {
+        await meld(`Review: ${naam} klikte op de reviewknop`, `${naam} opende de Google-reviewlink in de persoonlijke omgeving`, [['Klant', naam], ['Contact', r.naam]], '');
       } else {
         await meld(`${soort === 'vragenlijst' ? 'Aanvulling vragenlijst' : 'Extra input'} · ${naam}`,
           `${naam} vulde iets aan op de campagnepagina`, [['Klant', naam], ['Contact', r.naam], ['Waar', soort === 'vragenlijst' ? 'Vragenlijst' : 'Extra input']], b.tekst);

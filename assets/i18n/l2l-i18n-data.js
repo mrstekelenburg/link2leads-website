@@ -13295,5 +13295,20 @@ window.L2L_I18N_DATA = {
 },
 "Losse mails, Excelbestanden en pdf-rapporten.": {
 "en": "Separate emails, Excel files and PDF reports."
+},
+"Leads, domeinen, mailboxen, technische setup, CRM-koppeling, opwarming, copy. Alles. Jij vult deze vragenlijst in en keurt de rest goed in je persoonlijke omgeving, waar je ook je cijfers en facturen terugvindt.": {
+"en": "Leads, domains, mailboxes, technical setup, CRM integration, warmup, copy. Everything. You fill in this questionnaire and approve the rest in your personal workspace, where you also find your numbers and invoices."
+},
+"Wij schrijven de mails en bouwen de lijst. In je persoonlijke omgeving keur je de copy goed en haal je eruit wie je zelf benadert.": {
+"en": "We write the emails and build the list. In your personal workspace you approve the copy and remove anyone you'd rather approach yourself."
+},
+"Ken je iemand voor wie dit ook werkt?": {
+"en": "Know someone this would work for too?"
+},
+"Breng je iemand aan die klant wordt, dan krijg je 10% van wat die klant in zijn eerste contractperiode betaalt als korting op je eigen factuur.": {
+"en": "Introduce someone who becomes a client and you get 10% of what they pay in their first contract period as a discount on your own invoice."
+},
+"Breng je iemand aan die klant wordt, dan krijg je 10% van wat die klant in zijn eerste contractperiode betaalt als korting op je eigen factuur. Noem de naam in de fitcheck of stuur Anne-Roos een appje.": {
+"en": "Introduce someone who becomes a client and you get 10% of what they pay in their first contract period as a discount on your own invoice. Mention the name in the fit check or send Anne-Roos a message."
 }
 };
