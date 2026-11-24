@@ -173,6 +173,8 @@ h4{font-size:15px;font-weight:800;margin:18px 0 8px;}
 .toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:var(--card2);border:1px solid var(--border2);color:var(--text);font-size:14px;font-weight:600;padding:11px 18px;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:opacity .2s;z-index:99;}
 .toast.on{opacity:1;}
 @media(max-width:700px){.tabs{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;}.tab{white-space:nowrap;}h1{font-size:28px;}.kpis{grid-template-columns:1fr 1fr;}.opts{grid-template-columns:1fr;}nav{padding:0 16px;}.wrap{padding:30px 16px 70px;}}
+.steplink{margin-left:auto;align-self:center;font-size:13px;font-weight:600;color:var(--accent2);white-space:nowrap}
+@media (max-width:560px){.steplink{font-size:12px}}
 </style>
 </head>
 <body>
@@ -203,7 +205,7 @@ var T = {
   sx_dom:'Zodra je de domeinen goedkeurt, starten we met opwarmen. Dat duurt 14 dagen, dus dit is de stap die het eerst moet.',
   sx_leads:'Verwacht binnen 5 werkdagen.', sx_copy:'Verwacht binnen een week.', sx_live:'Zodra de domeinen zijn opgewarmd en de leads en copy akkoord zijn.',
   sx_bekijk:'Bekijken', sx_klaar:'Staat klaar',
-  eb_sub:'Persoonlijke omgeving', kop_contact:'Samen verder', schrijf_knop:'Schrijf het op', sx_afgerond:'Afgerond.', sx_live_klaar:'Alles is goedgekeurd. We stemmen de startdatum met je af.', vl_ok_kort:'We hebben je antwoorden ontvangen en zijn ermee aan de slag. Aanpassen kan niet meer, toevoegen kan altijd.',
+  eb_sub:'Persoonlijke omgeving', kop_contact:'Samen verder', schrijf_knop:'Schrijf het op', sx_afgerond:'Afgerond.', vl_bekijk:'Bekijk je antwoorden →', sx_live_klaar:'Alles is goedgekeurd. We stemmen de startdatum met je af.', vl_ok_kort:'We hebben je antwoorden ontvangen en zijn ermee aan de slag. Aanpassen kan niet meer, toevoegen kan altijd.',
   pk_titel:'Je pakket', pk_mnd:'per maand, ex btw', pk_normaal:'Normaal', pk_jij:'Jij betaalt', pk_korting:'Je korting', pk_totaal:'Totaal', pk_meer:'Wil je meer, of iets extra?', pk_meer_tekst:'Meer volume, LinkedIn erbij of een eigen pagina per prospect. Kijk wat er kan, dan denken we met je mee.', pk_meer_knop:'Bekijk de opties',
   rv_titel:'Tevreden over hoe het loopt?', rv_tekst:'Een korte review op Google helpt ons enorm. Het kost je een minuut.', rv_knop:'Schrijf een review', rv_dank:'Dank je wel, dat waarderen we echt.',
   rf_titel:'Ken je iemand voor wie dit ook werkt?', rf_tekst:'Breng je iemand aan die klant wordt, dan krijg je 10% van wat die klant in zijn eerste contractperiode betaalt als korting op je eigen factuur.', rf_plh:'Naam, bedrijf en e-mail of telefoonnummer. Wij nemen contact op en noemen jou erbij als dat mag.', rf_dank:'Dank je! We nemen contact op en houden je op de hoogte.',
@@ -249,7 +251,7 @@ var T = {
   sx_dom:'As soon as you approve the domains, we start warming them up. That takes 14 days, so this is the step that comes first.',
   sx_leads:'Expected within 5 working days.', sx_copy:'Expected within a week.', sx_live:'Once the domains are warmed up and the leads and copy are approved.',
   sx_bekijk:'View', sx_klaar:'Ready',
-  eb_sub:'Personal workspace', kop_contact:'Keep in touch', schrijf_knop:'Write it down', sx_afgerond:'Done.', sx_live_klaar:'Everything is approved. We will agree the start date with you.', vl_ok_kort:'We received your answers and are working with them. Changing them is no longer possible, adding is always welcome.',
+  eb_sub:'Personal workspace', kop_contact:'Keep in touch', schrijf_knop:'Write it down', sx_afgerond:'Done.', vl_bekijk:'View your answers →', sx_live_klaar:'Everything is approved. We will agree the start date with you.', vl_ok_kort:'We received your answers and are working with them. Changing them is no longer possible, adding is always welcome.',
   pk_titel:'Your package', pk_mnd:'per month, excl. VAT', pk_normaal:'Regular', pk_jij:'You pay', pk_korting:'Your discount', pk_totaal:'Total', pk_meer:'Want more, or something extra?', pk_meer_tekst:'More volume, LinkedIn on top or a personal page per prospect. See what is possible and we will think along with you.', pk_meer_knop:'See the options',
   rv_titel:'Happy with how it is going?', rv_tekst:'A short review on Google helps us a lot. It takes you a minute.', rv_knop:'Write a review', rv_dank:'Thank you, we really appreciate it.',
   rf_titel:'Know someone this would work for too?', rf_tekst:'Introduce someone who becomes a client and you get 10% of what they pay in their first contract period as a discount on your own invoice.', rf_plh:'Name, company and email or phone number. We will reach out and mention you if that is okay.', rf_dank:'Thank you! We will reach out and keep you posted.',
@@ -448,7 +450,7 @@ function secOverzicht(){
   var nr = 0;
   function knop(href, tekst){ var a = el('a',{cls:'btn p', href:href, target:'_blank', rel:'noopener', text:tekst}); a.style.textDecoration='none'; a.style.whiteSpace='nowrap'; a.addEventListener('click', function(e){ e.stopPropagation(); }); return a; }
   var vlok = !!D.vragenlijst || !!tr.vragenlijst_ok;
-  stap(++nr, vlok, t('stap_vl'), vlok ? t('sx_vl_ok') : t('sx_vl_open'), 'vragenlijst');
+  stap(++nr, vlok, t('stap_vl'), vlok ? t('sx_vl_ok') : t('sx_vl_open'), 'vragenlijst', vlok ? el('span',{cls:'steplink',text:t('vl_bekijk')}) : null);
   var ovk = tr.overeenkomst;
   stap(++nr, ovk === 'getekend', t('stap_ovk'), ovk === 'getekend' ? t('sx_ovk_ok') : (ovk === 'verstuurd' ? t('sx_ovk_verstuurd') : t('sx_ovk_maken')), null,
     (ovk === 'verstuurd' && tr.overeenkomst_link) ? knop(tr.overeenkomst_link, t('ovk_knop')) : null);
