@@ -1,6 +1,6 @@
 # Link2Leads, volledige tekst van alle kennispagina's
 
-Laatst bijgewerkt: 17 november 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
+Laatst bijgewerkt: 24 november 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
 Alle cijfers komen uit campagnes die Link2Leads namens klanten draait, gemeten op 2 september 2026.
 
 
@@ -513,6 +513,7 @@ Meer bereik	Tot 30.000 mails per maand, 7 dagen per week.	Meestal alleen werkdag
 Persoonlijke benadering	E-mails per doelgroep, met optioneel een persoonlijke openingszin en landingspagina per prospect.	Voornaam en bedrijfsnaam invullen.
 Slimme targeting	We selecteren op doelgroep en relevante signalen, zoals vacatures of bedrijfsontwikkelingen.	Een tekst voor de hele lijst.
 Handmatige opvolging	We lezen iedere reactie en sturen geïnteresseerde prospects direct door.	Automatisch gelabeld, of alles wordt doorgestuurd.
+Alles op één plek	Een persoonlijke omgeving met je planning, goedkeuringen, leadlijst, cijfers en facturen.	Losse mails, Excelbestanden en pdf-rapporten.
 Alles geregeld	Inclusief domeinen, mailboxen, software en wekelijkse rapportages. Geen opstartkosten.	Vaak opstartkosten en aparte toolingkosten.
 Resultaatgarantie	Bij Scale en Pro spreken we vooraf een minimumaantal positieve reacties af.	Zelden, of alleen een inspanningsverplichting.
 
@@ -558,7 +559,7 @@ De eerste twee weken richten we je campagne in. In week 3 starten we met verzend
 
 Wat moet ik zelf doen?
 
-Je vertelt ons wie je ideale klanten zijn en keurt de doelgroep en e-mails goed. Wij regelen de rest: van contactlijsten en verzending tot het beoordelen van reacties. Jij voert alleen de gesprekken.
+Je vertelt ons wie je ideale klanten zijn en keurt de doelgroep en e-mails goed in je persoonlijke omgeving. Wij regelen de rest: van contactlijsten en verzending tot het beoordelen van reacties. Jij voert alleen de gesprekken.
 
 Met Full Service plannen we ook de afspraken voor je in.
 
@@ -583,6 +584,12 @@ Wat gebeurt er als iemand interesse toont?
 Wij lezen iedere reactie en sturen geïnteresseerde prospects direct naar jouw mailbox, inclusief contactgegevens.
 
 Met Full Service beantwoorden wij de reacties en plannen we afspraken rechtstreeks in je agenda.
+
+Waar houd ik alles bij?
+
+In je persoonlijke omgeving. Iedere klant krijgt een eigen link, zonder inloggen, waar alles van de campagne op één plek staat.
+
+Je ziet waar we staan, keurt domeinnamen, leads en e-mails goed en downloadt je leadlijst. Je overeenkomst, facturen en de wekelijkse cijfers vind je daar ook. Bij elke stap krijg je een mail met de link, dus zoeken hoeft nooit.
 
 Kan ik ook alleen een contactlijst kopen?
 
