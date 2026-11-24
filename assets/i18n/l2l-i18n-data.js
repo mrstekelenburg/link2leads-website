@@ -13310,5 +13310,41 @@ window.L2L_I18N_DATA = {
 },
 "Breng je iemand aan die klant wordt, dan krijg je 10% van wat die klant in zijn eerste contractperiode betaalt als korting op je eigen factuur. Noem de naam in de fitcheck of stuur Anne-Roos een appje.": {
 "en": "Introduce someone who becomes a client and you get 10% of what they pay in their first contract period as a discount on your own invoice. Mention the name in the fit check or send Anne-Roos a message."
+},
+"Binnen vijf werkdagen staat er een lijst met bedrijven en contactpersonen voor je klaar. Jij zet bij elk bedrijf Ja of Nee, pas daarna starten we.": {
+"en": "Within five working days you get a list of companies and contacts. You mark each company Yes or No, and only then do we start."
+},
+"Binnen een week liggen de mails bij je ter goedkeuring. Ondertussen warmen we twee weken lang aparte domeinen op, zodat je eigen mailadres erbuiten blijft. In week 3 gaan de eerste mails eruit.": {
+"en": "Within a week the emails are ready for your approval. Meanwhile we warm up separate domains for two weeks, so your own email address stays out of it. The first emails go out in week 3."
+},
+"We lezen elke reactie zelf. Wil iemand praten of vraagt iemand naar je prijzen, dan staat die reactie direct in jouw mailbox, met de contactgegevens erbij.": {
+"en": "We read every reply ourselves. If someone wants to talk or asks about your prices, that reply lands straight in your inbox, with the contact details included."
+},
+"Jij belt of mailt terug en voert het gesprek. De eerste positieve reactie komt vaak al op de eerste dag na de start. Met Full Service zetten wij de afspraak ook in je agenda.": {
+"en": "You call or email back and have the conversation. The first positive reply often comes in on day one after launch. With Full Service we also put the meeting in your calendar."
+},
+"Voor één doelgroep van 1.000 tot 3.000 bedrijven": {
+"en": "For one target group of 1,000 to 3,000 companies"
+},
+"Voor twee doelgroepen of een markt tot 7.500 bedrijven": {
+"en": "For two target groups or a market of up to 7,500 companies"
+},
+"Voor drie doelgroepen, met garantie op positieve reacties": {
+"en": "For three target groups, with a guarantee on positive replies"
+},
+"Voor een markt van 10.000+ bedrijven, tot vijf doelgroepen": {
+"en": "For a market of 10,000+ companies, up to five target groups"
+},
+"Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar. Wij versturen zeven dagen per week, dat is ongeveer 36% meer bereik dan alleen op werkdagen.": {
+"en": "One fixed amount per month, everything included. Three months minimum, then cancellable monthly. We send seven days a week, which gives you roughly 36% more reach than weekdays only."
+},
+"Een reactie waar een commerciële kans uit kan ontstaan. Iedere reactie beoordelen we zelf.": {
+"en": "A reply that can lead to a commercial opportunity. We assess every reply ourselves."
+},
+"Wat krijg ik mee als we stoppen?": {
+"en": "What do I keep if we stop?"
+},
+"Je krijgt de contactgegevens, alle reacties en de geschreven teksten. De verzendomgeving (domeinen en mailboxen) blijft van ons.": {
+"en": "You get the contact details, all replies and the written copy. The sending setup (domains and mailboxes) stays ours."
 }
 };
