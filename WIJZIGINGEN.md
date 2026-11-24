@@ -1,3 +1,14 @@
+**24 november 2026: homepage korter en concreter**
+- Prijsblok: "Wat zit er in de prijs?", "Duidelijke afspraken, geen verrassingen" en "Meer bereik voor hetzelfde maandbedrag" (met tabel) weg. Het 7-dagen-argument staat als één zin in de intro boven de pakketten. "Wat is een positieve reactie?" staat nu onderin het garantieblok.
+- Ondertitels van de pakketten zeggen voor wie het pakket is (aantal doelgroepen en marktgrootte) in plaats van algemene zinnen.
+- Vier stappen concreet gemaakt: lijst binnen vijf werkdagen met Ja/Nee per bedrijf, mails binnen een week, twee weken opwarmen, live in week 3, reacties met contactgegevens in je mailbox.
+- Vergelijking: openingszinnen boven de tabel weg, blok "Meer nodig? Dat regelen we ook." weg (staat al in de samensteller).
+- Sectie "De juiste bedrijven. Op het juiste moment." (#koopsignalen) helemaal weg.
+- Losse reviewkaarten van 6 naar 2: Micah na "Zo werkt het", Dick na de pakketten. WhatsApp-kaart, Arnold, Rafael en Marit weg (staan allemaal nog in de reviewsectie).
+- Afsluiting: de tweede CTA "Klaar om je acquisitie uit te besteden?" weg, het agendablok is de afsluiter. Daaronder de foto met LinkedIn-links naast het vraagformulier.
+- FAQ: nieuwe vraag "Wat krijg ik mee als we stoppen?" (oude kaartje "Jouw gegevens blijven van jou"), ook in schema.org.
+- Engels in `assets/i18n/l2l-i18n-data.js`, homepage op `l2l-i18n.js?v=78`. Zelfde op link2leads.co (in het Engels).
+
 **24 november 2026: persoonlijke campagnepagina per klant**
 - Nieuwe pagina `link2leads.nl/campagne/[code]` (`campagne.html`, `api/campagne.js`). Per klant één link, zonder inloggen. Tabbladen: Overzicht (wat wacht op de klant plus een vlak voor extra input), Domeinen, Leads (Ja/Nee per lead, zoeken, alles op ja), Copy (mails met de merge-tags uitgelicht), Vragenlijst (opgeslagen antwoorden plus aanvullen), Updates en cijfers, Uitbreiden (LinkedIn, pagina per prospect, meer volume, setter, met een knop "Dit wil ik ook").
 - Bij akkoord, feedback, extra input of een klik op Uitbreiden krijgt Demi direct een interne mail. Naar de klant gaat vanaf de site niets: het seintje "er staat iets klaar" zet Claude als concept in demi@ klaar.
