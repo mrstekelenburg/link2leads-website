@@ -203,7 +203,7 @@ var T = {
   sx_dom:'Zodra je de domeinen goedkeurt, starten we met opwarmen. Dat duurt 14 dagen, dus dit is de stap die het eerst moet.',
   sx_leads:'Verwacht binnen 5 werkdagen.', sx_copy:'Verwacht binnen een week.', sx_live:'Zodra de domeinen zijn opgewarmd en de leads en copy akkoord zijn.',
   sx_bekijk:'Bekijken', sx_klaar:'Staat klaar',
-  eb_sub:'Persoonlijke omgeving', kop_contact:'Samen verder', schrijf_knop:'Schrijf het op', sx_afgerond:'Afgerond.', vl_ok_kort:'We hebben je antwoorden ontvangen en zijn ermee aan de slag. Aanpassen kan niet meer, toevoegen kan altijd.',
+  eb_sub:'Persoonlijke omgeving', kop_contact:'Samen verder', schrijf_knop:'Schrijf het op', sx_afgerond:'Afgerond.', sx_live_klaar:'Alles is goedgekeurd. We stemmen de startdatum met je af.', vl_ok_kort:'We hebben je antwoorden ontvangen en zijn ermee aan de slag. Aanpassen kan niet meer, toevoegen kan altijd.',
   pk_titel:'Je pakket', pk_mnd:'per maand, ex btw', pk_normaal:'Normaal', pk_jij:'Jij betaalt', pk_korting:'Je korting', pk_totaal:'Totaal', pk_meer:'Wil je meer, of iets extra?', pk_meer_tekst:'Meer volume, LinkedIn erbij of een eigen pagina per prospect. Kijk wat er kan, dan denken we met je mee.', pk_meer_knop:'Bekijk de opties',
   rv_titel:'Tevreden over hoe het loopt?', rv_tekst:'Een korte review op Google helpt ons enorm. Het kost je een minuut.', rv_knop:'Schrijf een review', rv_dank:'Dank je wel, dat waarderen we echt.',
   rf_titel:'Ken je iemand voor wie dit ook werkt?', rf_tekst:'Breng je iemand aan die klant wordt, dan krijg je 10% van wat die klant in zijn eerste contractperiode betaalt als korting op je eigen factuur.', rf_plh:'Naam, bedrijf en e-mail of telefoonnummer. Wij nemen contact op en noemen jou erbij als dat mag.', rf_dank:'Dank je! We nemen contact op en houden je op de hoogte.',
@@ -249,7 +249,7 @@ var T = {
   sx_dom:'As soon as you approve the domains, we start warming them up. That takes 14 days, so this is the step that comes first.',
   sx_leads:'Expected within 5 working days.', sx_copy:'Expected within a week.', sx_live:'Once the domains are warmed up and the leads and copy are approved.',
   sx_bekijk:'View', sx_klaar:'Ready',
-  eb_sub:'Personal workspace', kop_contact:'Keep in touch', schrijf_knop:'Write it down', sx_afgerond:'Done.', vl_ok_kort:'We received your answers and are working with them. Changing them is no longer possible, adding is always welcome.',
+  eb_sub:'Personal workspace', kop_contact:'Keep in touch', schrijf_knop:'Write it down', sx_afgerond:'Done.', sx_live_klaar:'Everything is approved. We will agree the start date with you.', vl_ok_kort:'We received your answers and are working with them. Changing them is no longer possible, adding is always welcome.',
   pk_titel:'Your package', pk_mnd:'per month, excl. VAT', pk_normaal:'Regular', pk_jij:'You pay', pk_korting:'Your discount', pk_totaal:'Total', pk_meer:'Want more, or something extra?', pk_meer_tekst:'More volume, LinkedIn on top or a personal page per prospect. See what is possible and we will think along with you.', pk_meer_knop:'See the options',
   rv_titel:'Happy with how it is going?', rv_tekst:'A short review on Google helps us a lot. It takes you a minute.', rv_knop:'Write a review', rv_dank:'Thank you, we really appreciate it.',
   rf_titel:'Know someone this would work for too?', rf_tekst:'Introduce someone who becomes a client and you get 10% of what they pay in their first contract period as a discount on your own invoice.', rf_plh:'Name, company and email or phone number. We will reach out and mention you if that is okay.', rf_dank:'Thank you! We will reach out and keep you posted.',
@@ -464,10 +464,11 @@ function secOverzicht(){
   [['domeinen','stap_dom','sx_dom'],['leads','stap_leads','sx_leads'],['copy','stap_copy','sx_copy']].forEach(function(x){
     var stt = status(x[0]);
     if (!stt && tr.live_op) { stap(++nr, true, t(x[1]), t('sx_afgerond'), null, null); return; }
-    var tekst = x[0] === 'domeinen' ? t('sx_dom') : (stt ? '' : t(x[2]));
+    var tekst = stt ? '' : t(x[2]);
     stap(++nr, stt === 'akkoord', t(x[1]), tekst, stt ? x[0] : null, stt ? pill(stt) : null);
   });
-  stap(++nr, !!tr.live_op, t('stap_live'), tr.live_op ? datum(tr.live_op) : t('sx_live'), null);
+  var allesOk = ['domeinen','leads','copy'].every(function(k){ return status(k) === 'akkoord'; });
+  stap(++nr, !!tr.live_op, t('stap_live'), tr.live_op ? datum(tr.live_op) : t(allesOk ? 'sx_live_klaar' : 'sx_live'), null);
   s.appendChild(st);
   var pb = pakketBlok(); if (pb) { s.appendChild(el('div',{cls:'blok-kop',text:t('pk_titel')})); s.appendChild(pb); }
   s.appendChild(el('div',{cls:'blok-kop',text:t('kop_contact')}));
