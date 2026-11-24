@@ -124,6 +124,21 @@ textarea:focus{border-color:var(--accent);}
 .opt p{font-size:14.5px;color:var(--muted2);line-height:1.65;flex:1;margin-bottom:14px;}
 .opt .btn{align-self:flex-start;}
 
+.steps{display:grid;gap:10px;margin-bottom:26px;}
+.step{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:15px 18px;}
+.step.klik{cursor:pointer;}.step.klik:hover{border-color:var(--border2);}
+.step .nr{width:30px;height:30px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;background:var(--accentbg);color:var(--accent2);border:1px solid rgba(47,111,237,.35);}
+.step .nr.ok{background:var(--greenbg);color:var(--green);border-color:rgba(74,222,128,.35);}
+.step .st{flex:1;}.step .st b{font-size:15px;display:block;margin-bottom:3px;}.step .st span{font-size:13.5px;color:var(--muted2);line-height:1.55;}
+.vink{color:var(--green);font-weight:800;}
+.okbox{display:flex;gap:12px;align-items:center;background:var(--greenbg);border:1px solid rgba(74,222,128,.25);border-radius:12px;padding:14px 18px;margin-bottom:16px;}
+.okbox b{color:var(--green);}
+.uitleg{display:grid;grid-template-columns:110px 1fr;gap:6px 14px;font-size:14px;line-height:1.6;margin:8px 0 6px;}
+.uitleg dt{font-weight:700;color:var(--text);}.uitleg dd{color:var(--muted2);}
+.waarom{background:var(--panel);border:1px solid rgba(47,111,237,.2);border-radius:10px;padding:11px 14px;font-size:14px;line-height:1.6;color:#C9D3E6;margin:-4px 0 14px;}
+.waarom b{color:var(--accent2);}
+.mail .wanneer{font-size:12px;color:var(--muted);font-weight:600;margin-left:8px;letter-spacing:0;text-transform:none;}
+h4{font-size:15px;font-weight:800;margin:18px 0 8px;}
 .empty{color:var(--muted);font-size:14.5px;line-height:1.7;background:var(--card);border:1px dashed var(--border2);border-radius:12px;padding:18px 20px;}
 .err{max-width:560px;margin:80px auto;text-align:center;color:var(--muted2);line-height:1.7;}
 .err h1{font-size:28px;}
@@ -153,21 +168,26 @@ var T = {
   titel:'Jullie campagne bij {b}',
   sub:'Hier staat alles voor jullie campagne op één plek. Kijk het rustig na en geef per onderdeel akkoord of feedback. Wij gaan er direct mee verder.',
   t_overzicht:'Overzicht', t_domeinen:'Domeinen', t_leads:'Leads', t_copy:'Copy', t_vragenlijst:'Vragenlijst', t_updates:'Updates en cijfers', t_uitbreiden:'Uitbreiden',
-  ov_titel:'Wat er voor je klaarstaat', ov_leeg:'Er wacht nu niets op jou. Zodra er iets nieuws klaarstaat, krijg je een mailtje.',
+  ov_titel:'Zo staat jullie campagne ervoor', ov_leeg:'Er wacht nu niets op jou. Zodra er iets nieuws klaarstaat, krijg je een mailtje.',
+  stap_vl:'Vragenlijst', stap_dom:'Domeinnamen', stap_leads:'Leads', stap_copy:'Copy', stap_live:'Live',
+  sx_vl_ok:'Ontvangen, dank je.', sx_vl_open:'Nog niet ontvangen.',
+  sx_dom:'Zodra je de domeinen goedkeurt, starten we met opwarmen. Dat duurt 14 dagen, dus dit is de stap die het eerst moet.',
+  sx_leads:'Verwacht binnen 5 werkdagen.', sx_copy:'Verwacht binnen een week.', sx_live:'Zodra de domeinen zijn opgewarmd en de leads en copy akkoord zijn.',
+  sx_bekijk:'Bekijken', sx_klaar:'Staat klaar',
   ov_extra_titel:'Nog iets kwijt?', ov_extra_tekst:'Schiet je iets te binnen over je klanten, je aanbod of wie je wel of niet wil benaderen? Zet het hier neer, dan nemen we het mee.',
   st_open:'Wacht op jou', st_ok:'Akkoord', st_fb:'Feedback gegeven',
   akkoord:'Akkoord', feedback:'Feedback geven', fb_plh:'Wat wil je anders zien?', fb_send:'Feedback versturen', annuleer:'Annuleren',
   bedankt_ok:'Dank je, we gaan ermee verder.', bedankt_fb:'Dank je, we passen het aan en laten het je weten.',
   jouw_fb:'Jouw feedback',
   dom_leeg:'De domeinnamen zetten we hier neer zodra ze klaar zijn.', dom_titel:'Domeinnamen', mb_titel:'Mailboxen',
-  lead_leeg:'De leadlijst zetten we hier neer zodra hij klaar is.', lead_zoek:'Zoek op bedrijf, naam of plaats', alles_ja:'Alles op ja',
+  lead_leeg:'Je leadlijst staat hier meestal binnen 5 werkdagen. Je krijgt een mailtje zodra hij klaarstaat.', csv:'Download als CSV', lead_zoek:'Zoek op bedrijf, naam of plaats', alles_ja:'Alles op ja',
   lead_kol:['Bedrijf','Naam','Functie','Plaats','Benaderen'], ja:'Ja', nee:'Nee', van:'van',
   lead_telling:'{j} op ja, {n} op nee', lead_tot:'Totaal in deze lijst: {t}',
   lead_verlopen:'Je gaf akkoord op deze lijst. De lijst zelf staat hier niet meer, je keuzes zijn bewaard.',
   vorige:'Vorige', volgende:'Volgende', opgeslagen:'Opgeslagen',
-  copy_leeg:'De mails zetten we hier neer zodra ze klaar zijn.', copy_uitleg:'Woorden tussen accolades vullen we per bedrijf automatisch in.',
+  copy_leeg:'Je mails staan hier meestal binnen een week. Je krijgt een mailtje zodra ze klaarstaan.', copy_uitleg:'Woorden tussen blokhaken, zoals [voornaam], vullen we bij het versturen per ontvanger automatisch in. De rest van de tekst is voor iedereen hetzelfde.', copy_reeks:'Zo werkt de reeks', copy_teksten:'De teksten', copy_waarom:'Waarom zo', copy_test:'Waarom we testen', copy_check:'Nog één check', onderwerp:'Onderwerp',
   vl_leeg:'We hebben je vragenlijst nog niet. Vul hem in via de vragenlijst, dan staat hij hier.', vl_link:'Naar de vragenlijst',
-  vl_ingevuld:'Ingevuld op {d}', vl_aanvul_titel:'Iets aanvullen of aanpassen?', vl_aanvul_plh:'Bijvoorbeeld een extra doelgroep, een bestaande klant die eruit moet, of een nieuw aanbod.',
+  vl_ok:'Je vragenlijst hebben we ontvangen', vl_ingevuld:'Ingevuld op {d}. We zijn al bezig met de opzet, dus aanpassen kan niet meer. Toevoegen kan altijd.', vl_aanvul_titel:'Iets toevoegen?', vl_aanvul_tekst:'Schiet je nog iets te binnen? Bijvoorbeeld een hoek die goed zou kunnen werken, een extra doelgroep of een bestaande klant die er niet in moet. Zet het hier neer, dan nemen we het mee.', vl_aanvul_plh:'Bijvoorbeeld: een goede hoek is misschien...',
   versturen:'Versturen', jouw_aanvullingen:'Wat je eerder aanvulde',
   upd_leeg:'Zodra je campagne live is, staan hier elke week de cijfers en de update.',
   k_verstuurd:'Verstuurd', k_reacties:'Reacties', k_positief:'Positief', k_doorverwijzing:'Doorverwijzingen', sinds:'Sinds {d}',
@@ -188,21 +208,26 @@ var T = {
   titel:'Your campaign with {b}',
   sub:'Everything for your campaign in one place. Take your time to review it and approve each part or give feedback. We pick it up straight away.',
   t_overzicht:'Overview', t_domeinen:'Domains', t_leads:'Leads', t_copy:'Copy', t_vragenlijst:'Questionnaire', t_updates:'Updates and numbers', t_uitbreiden:'Expand',
-  ov_titel:'What is ready for you', ov_leeg:'Nothing is waiting for you right now. As soon as something new is ready, we will send you an email.',
+  ov_titel:'Where your campaign stands', ov_leeg:'Nothing is waiting for you right now. As soon as something new is ready, we will send you an email.',
+  stap_vl:'Questionnaire', stap_dom:'Domain names', stap_leads:'Leads', stap_copy:'Copy', stap_live:'Live',
+  sx_vl_ok:'Received, thank you.', sx_vl_open:'Not received yet.',
+  sx_dom:'As soon as you approve the domains, we start warming them up. That takes 14 days, so this is the step that comes first.',
+  sx_leads:'Expected within 5 working days.', sx_copy:'Expected within a week.', sx_live:'Once the domains are warmed up and the leads and copy are approved.',
+  sx_bekijk:'View', sx_klaar:'Ready',
   ov_extra_titel:'Anything to add?', ov_extra_tekst:'Thought of something about your customers, your offer or who you do or do not want to reach? Add it here and we will take it into account.',
   st_open:'Waiting for you', st_ok:'Approved', st_fb:'Feedback given',
   akkoord:'Approve', feedback:'Give feedback', fb_plh:'What would you like to see differently?', fb_send:'Send feedback', annuleer:'Cancel',
   bedankt_ok:'Thanks, we will take it from here.', bedankt_fb:'Thanks, we will adjust it and let you know.',
   jouw_fb:'Your feedback',
   dom_leeg:'We will add the domain names here as soon as they are ready.', dom_titel:'Domain names', mb_titel:'Mailboxes',
-  lead_leeg:'We will add the lead list here as soon as it is ready.', lead_zoek:'Search by company, name or city', alles_ja:'Set all to yes',
+  lead_leeg:'Your lead list usually appears here within 5 working days. We will email you as soon as it is ready.', csv:'Download as CSV', lead_zoek:'Search by company, name or city', alles_ja:'Set all to yes',
   lead_kol:['Company','Name','Job title','City','Contact'], ja:'Yes', nee:'No', van:'of',
   lead_telling:'{j} yes, {n} no', lead_tot:'Total in this list: {t}',
   lead_verlopen:'You approved this list. The list itself is no longer shown here, your choices have been saved.',
   vorige:'Previous', volgende:'Next', opgeslagen:'Saved',
-  copy_leeg:'We will add the emails here as soon as they are ready.', copy_uitleg:'Words between curly brackets are filled in automatically for each company.',
+  copy_leeg:'Your emails usually appear here within a week. We will email you as soon as they are ready.', copy_uitleg:'Words in square brackets, such as [first name], are filled in automatically for each recipient when sending. The rest of the text is the same for everyone.', copy_reeks:'How the sequence works', copy_teksten:'The emails', copy_waarom:'Why this way', copy_test:'Why we test', copy_check:'One more check', onderwerp:'Subject',
   vl_leeg:'We do not have your questionnaire yet. Fill it in and it will show up here.', vl_link:'Go to the questionnaire',
-  vl_ingevuld:'Completed on {d}', vl_aanvul_titel:'Want to add or change something?', vl_aanvul_plh:'For example an extra target group, an existing customer to leave out, or a new offer.',
+  vl_ok:'We have received your questionnaire', vl_ingevuld:'Completed on {d}. We are already setting things up, so changes are no longer possible. You can always add something.', vl_aanvul_titel:'Anything to add?', vl_aanvul_tekst:'Thought of something else? For example an angle that could work well, an extra target group or an existing customer to leave out. Add it here and we will take it into account.', vl_aanvul_plh:'For example: a good angle might be...',
   versturen:'Send', jouw_aanvullingen:'What you added before',
   upd_leeg:'Once your campaign is live, the weekly numbers and update will appear here.',
   k_verstuurd:'Sent', k_reacties:'Replies', k_positief:'Positive', k_doorverwijzing:'Referrals', sinds:'Since {d}',
@@ -251,10 +276,11 @@ function pill(status){
   return el('span',{cls:'pill open',text:t('st_open')});
 }
 /* Tekst met {{merge_tags}} uitgelicht, zonder HTML uit de inhoud toe te laten. */
+var TAGNAAM = {nl:{first_name:'voornaam',last_name:'achternaam',company_name:'bedrijfsnaam',city:'plaats',job_title:'functie',website:'website'}, en:{first_name:'first name',last_name:'last name',company_name:'company name',city:'city',job_title:'job title',website:'website'}};
 function mergeText(str){
   var frag = document.createDocumentFragment();
   String(str || '').split(/(\{\{[^}]+\}\})/).forEach(function(part){
-    if (/^\{\{[^}]+\}\}$/.test(part)) frag.appendChild(el('span',{cls:'tag',text:part}));
+    if (/^\{\{[^}]+\}\}$/.test(part)) { var k = part.replace(/[{}\s]/g,''); var n = (TAGNAAM[lang] || TAGNAAM.nl)[k] || k.replace(/_/g,' '); frag.appendChild(el('span',{cls:'tag',text:'[' + n + ']'})); }
     else frag.appendChild(document.createTextNode(part));
   });
   return frag;
@@ -315,21 +341,34 @@ function inputBlok(soort, titel, tekst, plh){
 }
 
 /* ── Secties ─────────────────────────────────────────────────── */
-var SECS = ['overzicht','domeinen','leads','copy','vragenlijst','updates','uitbreiden'];
+var SECS = ['overzicht','vragenlijst','domeinen','leads','copy','updates','uitbreiden'];
 
 function secOverzicht(){
   var s = el('div');
   s.appendChild(el('h2',{text:t('ov_titel')}));
-  var open = (D.items || []).filter(function(i){ return i.status === 'klaar' && ['domeinen','leads','copy'].indexOf(i.soort) > -1; });
-  if (!open.length) s.appendChild(el('p',{cls:'empty',text:t('ov_leeg')}));
-  else {
-    var l = el('div',{cls:'todo'});
-    open.forEach(function(i){
-      l.appendChild(el('div',{cls:'todo-item', onclick:function(){ ga(i.soort); }},[
-        el('b',{text:t('t_'+i.soort) + (i.titel ? ' · ' + i.titel : '')}), pill(i.status)]));
-    });
-    s.appendChild(l);
+  var st = el('div',{cls:'steps'});
+  function stap(nr, ok, titel, tekst, soort, extra){
+    var d = el('div',{cls:'step' + (soort ? ' klik' : '')});
+    if (soort) d.addEventListener('click', function(){ ga(soort); });
+    d.appendChild(el('div',{cls:'nr' + (ok ? ' ok' : ''), text: ok ? '\u2713' : String(nr)}));
+    d.appendChild(el('div',{cls:'st'},[el('b',{text:titel}), el('span',{text:tekst})]));
+    if (extra) d.appendChild(extra);
+    st.appendChild(d);
   }
+  function status(soort){
+    var l = items(soort); if (!l.length) return null;
+    if (l.some(function(i){ return i.status === 'klaar'; })) return 'klaar';
+    if (l.some(function(i){ return i.status === 'feedback'; })) return 'feedback';
+    return 'akkoord';
+  }
+  stap(1, !!D.vragenlijst, t('stap_vl'), D.vragenlijst ? t('sx_vl_ok') : t('sx_vl_open'), 'vragenlijst');
+  [['domeinen','stap_dom','sx_dom'],['leads','stap_leads','sx_leads'],['copy','stap_copy','sx_copy']].forEach(function(x, i){
+    var stt = status(x[0]);
+    var tekst = x[0] === 'domeinen' ? t('sx_dom') : (stt ? '' : t(x[2]));
+    stap(i + 2, stt === 'akkoord', t(x[1]), tekst, stt ? x[0] : null, stt ? pill(stt) : null);
+  });
+  stap(5, false, t('stap_live'), t('sx_live'), null);
+  s.appendChild(st);
   s.appendChild(inputBlok('extra', t('ov_extra_titel'), t('ov_extra_tekst'), ''));
   return s;
 }
@@ -415,6 +454,18 @@ function secLeads(){
     zoek.value = st.q;
     zoek.addEventListener('input', function(){ st.q = zoek.value; st.page = 0; teken(); });
     var tools = el('div',{cls:'tools'},[zoek]);
+    var dl = el('button',{cls:'btn g',text:t('csv')});
+    dl.addEventListener('click', function(){
+      function q(v){ v = String(v == null ? '' : v); return /[";\n]/.test(v) ? '"' + v.replace(/"/g,'""') + '"' : v; }
+      var kol = t('lead_kol');
+      var rijen = [[kol[0],kol[1],kol[2],kol[3],'Website',kol[4]].map(q).join(';')];
+      leads.forEach(function(l){ rijen.push([l.bedrijf,l.naam,l.functie,l.plaats,l.website, st.keuzes[l.k] === false ? t('nee') : t('ja')].map(q).join(';')); });
+      var blob = new Blob(['\ufeff' + rijen.join('\r\n')], {type:'text/csv;charset=utf-8'});
+      var a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+      a.download = ((D.klant && D.klant.bedrijf) || 'leads').replace(/[^A-Za-z0-9]+/g,'-') + '-leads.csv';
+      document.body.appendChild(a); a.click(); setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); }, 500);
+    });
+    tools.appendChild(dl);
     if (!alleenLezen) {
       var aj = el('button',{cls:'btn g',text:t('alles_ja')});
       aj.addEventListener('click', function(){ leads.forEach(function(l){ if (st.keuzes[l.k] === false) { st.keuzes[l.k] = true; st.dirty[l.k] = true; } }); plan(); teken(); tel(); });
@@ -437,17 +488,30 @@ function secCopy(){
   var lst = items('copy');
   if (!lst.length) { s.appendChild(el('p',{cls:'empty',text:t('copy_leeg')})); return s; }
   lst.forEach(function(i){
+    var x = i.inhoud || {};
     var c = el('div',{cls:'card'});
     c.appendChild(el('div',{cls:'row'},[el('h3',{text:i.titel || t('t_copy')}), pill(i.status)]));
-    if (i.inhoud.tekst) c.appendChild(el('p',{cls:'lead',text:i.inhoud.tekst}));
-    c.appendChild(el('p',{cls:'muted',text:t('copy_uitleg')})).style.marginBottom='12px';
-    (i.inhoud.mails || []).forEach(function(m){
+    if (x.tekst) c.appendChild(el('p',{cls:'lead',text:x.tekst}));
+    if ((x.reeks || []).length) {
+      c.appendChild(el('h4',{text:t('copy_reeks')}));
+      var dl = el('dl',{cls:'uitleg'});
+      x.reeks.forEach(function(r){ dl.appendChild(el('dt',{text:r.titel || ''})); dl.appendChild(el('dd',{text:r.tekst || ''})); });
+      c.appendChild(dl);
+    }
+    c.appendChild(el('p',{cls:'muted',text:t('copy_uitleg')})).style.margin='10px 0 4px';
+    c.appendChild(el('h4',{text:t('copy_teksten')}));
+    (x.mails || []).forEach(function(m){
       var mail = el('div',{cls:'mail'});
-      mail.appendChild(el('div',{cls:'stap',text:m.stap || ''}));
-      if (m.onderwerp) { var o = el('div',{cls:'ond'}); o.appendChild(mergeText(m.onderwerp)); mail.appendChild(o); }
+      var kop = el('div',{cls:'stap',text:m.stap || ''});
+      if (m.wanneer) kop.appendChild(el('span',{cls:'wanneer',text:m.wanneer}));
+      mail.appendChild(kop);
+      if (m.onderwerp) { var o = el('div',{cls:'ond'},[t('onderwerp') + ': ']); o.appendChild(mergeText(m.onderwerp)); mail.appendChild(o); }
       var b = el('div',{cls:'body'}); b.appendChild(mergeText(m.body)); mail.appendChild(b);
       c.appendChild(mail);
+      if (m.waarom) c.appendChild(el('div',{cls:'waarom'},[el('b',{text:t('copy_waarom') + ': '}), m.waarom]));
     });
+    if (x.test) c.appendChild(el('div',{cls:'waarom'},[el('b',{text:t('copy_test') + ': '}), x.test]));
+    if (x.check) { c.appendChild(el('h4',{text:t('copy_check')})); c.appendChild(el('p',{cls:'lead',text:x.check})); }
     c.appendChild(actieBlok(i));
     s.appendChild(c);
   });
@@ -461,17 +525,16 @@ function secVragenlijst(){
     var e = el('div',{cls:'empty'},[t('vl_leeg') + ' ']);
     e.appendChild(el('a',{href:'/klant',text:t('vl_link')}));
     s.appendChild(e);
-  } else {
-    s.appendChild(el('p',{cls:'muted',text:t('vl_ingevuld',{d:datum(vl.ingevuld_op)})})).style.marginBottom='14px';
-    var qa = el('div',{cls:'qa'});
-    Object.keys(vl.antwoorden || {}).forEach(function(q){
-      var a = vl.antwoorden[q]; if (!a) return;
-      qa.appendChild(el('div',{cls:'card'},[el('div',{cls:'q',text:q}), el('div',{cls:'a',text:String(a)})]));
-    });
-    s.appendChild(qa);
+    return s;
   }
-  s.appendChild(el('div',{style:'height:10px'}));
-  s.appendChild(inputBlok('vragenlijst', t('vl_aanvul_titel'), '', t('vl_aanvul_plh')));
+  s.appendChild(el('div',{cls:'okbox'},[el('span',{cls:'vink',text:'\u2713'}), el('div',{},[el('b',{text:t('vl_ok')}), el('div',{cls:'muted',text:t('vl_ingevuld',{d:datum(vl.ingevuld_op)})})])]));
+  s.appendChild(inputBlok('vragenlijst', t('vl_aanvul_titel'), t('vl_aanvul_tekst'), t('vl_aanvul_plh')));
+  var qa = el('div',{cls:'qa'});
+  Object.keys(vl.antwoorden || {}).forEach(function(q){
+    var a = vl.antwoorden[q]; if (!a) return;
+    qa.appendChild(el('div',{cls:'card'},[el('div',{cls:'q',text:q}), el('div',{cls:'a',text:String(a)})]));
+  });
+  s.appendChild(qa);
   return s;
 }
 
@@ -544,6 +607,7 @@ function render(){
     var n = ['domeinen','leads','copy'].indexOf(sname) > -1 ? openCount(sname) : 0;
     if (sname === 'overzicht') n = openCount('domeinen') + openCount('leads') + openCount('copy');
     var b = el('button',{cls:'tab' + (tab === sname ? ' on' : ''), onclick:function(){ ga(sname); }},[t('t_'+sname)]);
+    if (sname === 'vragenlijst' && D.vragenlijst) b.appendChild(el('span',{cls:'vink',text:'\u2713'}));
     if (n) b.appendChild(el('span',{cls:'dot',text:String(n)}));
     tabs.appendChild(b);
   });
