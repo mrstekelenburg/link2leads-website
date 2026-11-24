@@ -2,6 +2,7 @@ const nodemailer = require('nodemailer');
 
 const M = require('./_mail');
 const graph = require('./_graph');
+const VL = require('./_vragenlijst');
 const { esc, SIGNER } = M;
 
 const BOOK_URL = 'https://link2leads.nl/book';
@@ -136,6 +137,9 @@ module.exports = async (req, res) => {
     // Afspraak in de agenda markeren, zodat de herinneringen weten dat de
     // vragenlijst binnen is. Een fout hier mag de inzending nooit laten mislukken.
     try { await graph.markVragenlijst(email); } catch (e) { console.error('Vragenlijst markeren:', e.message); }
+    // Ook vastleggen in Supabase, zodat een uitnodiging die pas LATER wordt
+    // aangemaakt de vragenlijst ook ziet (zie api/_vragenlijst.js).
+    try { await VL.registreer({ email, company, ref, site: 'nl' }); } catch (e) { console.error('Vragenlijst vastleggen:', e.message); }
 
     return res.status(200).json({ success: true, ref });
   } catch (err) {
