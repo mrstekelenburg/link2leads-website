@@ -159,7 +159,7 @@
   "rewrites": [
     {
       "source": "/campagne/:code",
-      "destination": "/campagne.html"
+      "destination": "/campagne"
     }
   ]
 }
