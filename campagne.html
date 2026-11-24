@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
 <meta name="referrer" content="no-referrer">
-<title>Jouw campagne | Link2Leads</title>
+<title>Persoonlijke omgeving | Link2Leads</title>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -131,6 +131,13 @@ textarea:focus{border-color:var(--accent);}
 .step .nr.ok{background:var(--greenbg);color:var(--green);border-color:rgba(74,222,128,.35);}
 .step .st{flex:1;}.step .st b{font-size:15px;display:block;margin-bottom:3px;}.step .st span{font-size:13.5px;color:var(--muted2);line-height:1.55;}
 .vink{color:var(--green);font-weight:800;}
+.pk-rows{display:grid;gap:6px;margin:8px 0 6px;}
+.pk-r{display:flex;justify-content:space-between;gap:12px;font-size:14.5px;}
+.pk-r.pk-old span:last-child{text-decoration:line-through;color:var(--muted);}
+.pk-r.pk-disc{color:var(--green);}
+.pk-r.pk-tot{border-top:1px solid var(--border);padding-top:8px;margin-top:2px;font-weight:800;font-size:16px;}
+.pk-meer{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:14px;padding-top:14px;border-top:1px solid var(--border);}
+.pk-meer b{display:block;font-size:15px;margin-bottom:2px;}.pk-meer span{font-size:13.5px;color:var(--muted2);}
 .okbox{display:flex;gap:12px;align-items:center;background:var(--greenbg);border:1px solid rgba(74,222,128,.25);border-radius:12px;padding:14px 18px;margin-bottom:16px;}
 .okbox b{color:var(--green);}
 .uitleg{display:grid;grid-template-columns:110px 1fr;gap:6px 14px;font-size:14px;line-height:1.6;margin:8px 0 6px;}
@@ -166,7 +173,7 @@ var T = {
   laden:'Even laden...',
   hi:'Hi {n}',
   titel:'Jullie campagne bij {b}',
-  sub:'Hier staat alles voor jullie campagne op één plek. Kijk het rustig na en geef per onderdeel akkoord of feedback. Wij gaan er direct mee verder.',
+  sub:'Dit is jullie persoonlijke omgeving: alles voor de campagne staat hier op één plek. Kijk het rustig na en geef per onderdeel akkoord of feedback. Wij gaan er direct mee verder.',
   t_overzicht:'Overzicht', t_domeinen:'Domeinen', t_leads:'Leads', t_copy:'Copy', t_vragenlijst:'Vragenlijst', t_updates:'Updates en cijfers', t_uitbreiden:'Uitbreiden',
   ov_titel:'Zo staat jullie campagne ervoor', ov_leeg:'Er wacht nu niets op jou. Zodra er iets nieuws klaarstaat, krijg je een mailtje.',
   stap_ovk:'Overeenkomst', stap_fact:'Factuur', sx_ovk_maken:'We maken de overeenkomst voor je klaar.', sx_ovk_verstuurd:'Staat klaar om te ondertekenen.', sx_ovk_ok:'Ondertekend, dank je.', ovk_knop:'Ondertekenen',
@@ -176,6 +183,9 @@ var T = {
   sx_dom:'Zodra je de domeinen goedkeurt, starten we met opwarmen. Dat duurt 14 dagen, dus dit is de stap die het eerst moet.',
   sx_leads:'Verwacht binnen 5 werkdagen.', sx_copy:'Verwacht binnen een week.', sx_live:'Zodra de domeinen zijn opgewarmd en de leads en copy akkoord zijn.',
   sx_bekijk:'Bekijken', sx_klaar:'Staat klaar',
+  pk_titel:'Je pakket', pk_mnd:'per maand, ex btw', pk_normaal:'Normaal', pk_jij:'Jij betaalt', pk_korting:'Je korting', pk_totaal:'Totaal', pk_meer:'Wil je meer, of iets extra?', pk_meer_tekst:'Meer volume, LinkedIn erbij of een eigen pagina per prospect. Kijk wat er kan, dan denken we met je mee.', pk_meer_knop:'Bekijk de opties',
+  rv_titel:'Tevreden over hoe het loopt?', rv_tekst:'Een korte review op Google helpt ons enorm. Het kost je een minuut.', rv_knop:'Schrijf een review', rv_dank:'Dank je wel, dat waarderen we echt.',
+  rf_titel:'Ken je iemand voor wie dit ook werkt?', rf_tekst:'Breng je iemand aan die klant wordt, dan krijg je 10% van wat die klant in zijn eerste contractperiode betaalt als korting op je eigen factuur.', rf_plh:'Naam, bedrijf en e-mail of telefoonnummer. Wij nemen contact op en noemen jou erbij als dat mag.', rf_dank:'Dank je! We nemen contact op en houden je op de hoogte.',
   ov_extra_titel:'Nog iets kwijt?', ov_extra_tekst:'Schiet je iets te binnen over je klanten, je aanbod of wie je wel of niet wil benaderen? Zet het hier neer, dan nemen we het mee.',
   st_open:'Wacht op jou', st_ok:'Akkoord', st_fb:'Feedback gegeven',
   akkoord:'Akkoord', feedback:'Feedback geven', fb_plh:'Wat wil je anders zien?', fb_send:'Feedback versturen', annuleer:'Annuleren',
@@ -208,7 +218,7 @@ var T = {
   laden:'Loading...',
   hi:'Hi {n}',
   titel:'Your campaign with {b}',
-  sub:'Everything for your campaign in one place. Take your time to review it and approve each part or give feedback. We pick it up straight away.',
+  sub:'This is your personal workspace, with everything for your campaign in one place. Take your time to review it and approve each part or give feedback. We pick it up straight away.',
   t_overzicht:'Overview', t_domeinen:'Domains', t_leads:'Leads', t_copy:'Copy', t_vragenlijst:'Questionnaire', t_updates:'Updates and numbers', t_uitbreiden:'Expand',
   ov_titel:'Where your campaign stands', ov_leeg:'Nothing is waiting for you right now. As soon as something new is ready, we will send you an email.',
   stap_ovk:'Agreement', stap_fact:'Invoice', sx_ovk_maken:'We are preparing your agreement.', sx_ovk_verstuurd:'Ready for you to sign.', sx_ovk_ok:'Signed, thank you.', ovk_knop:'Sign',
@@ -218,6 +228,9 @@ var T = {
   sx_dom:'As soon as you approve the domains, we start warming them up. That takes 14 days, so this is the step that comes first.',
   sx_leads:'Expected within 5 working days.', sx_copy:'Expected within a week.', sx_live:'Once the domains are warmed up and the leads and copy are approved.',
   sx_bekijk:'View', sx_klaar:'Ready',
+  pk_titel:'Your package', pk_mnd:'per month, excl. VAT', pk_normaal:'Regular', pk_jij:'You pay', pk_korting:'Your discount', pk_totaal:'Total', pk_meer:'Want more, or something extra?', pk_meer_tekst:'More volume, LinkedIn on top or a personal page per prospect. See what is possible and we will think along with you.', pk_meer_knop:'See the options',
+  rv_titel:'Happy with how it is going?', rv_tekst:'A short review on Google helps us a lot. It takes you a minute.', rv_knop:'Write a review', rv_dank:'Thank you, we really appreciate it.',
+  rf_titel:'Know someone this would work for too?', rf_tekst:'Introduce someone who becomes a client and you get 10% of what they pay in their first contract period as a discount on your own invoice.', rf_plh:'Name, company and email or phone number. We will reach out and mention you if that is okay.', rf_dank:'Thank you! We will reach out and keep you posted.',
   ov_extra_titel:'Anything to add?', ov_extra_tekst:'Thought of something about your customers, your offer or who you do or do not want to reach? Add it here and we will take it into account.',
   st_open:'Waiting for you', st_ok:'Approved', st_fb:'Feedback given',
   akkoord:'Approve', feedback:'Give feedback', fb_plh:'What would you like to see differently?', fb_send:'Send feedback', annuleer:'Cancel',
@@ -344,6 +357,44 @@ function inputBlok(soort, titel, tekst, plh){
   return box;
 }
 
+function euro(n){ return '€ ' + Number(n).toLocaleString(lang === 'nl' ? 'nl-NL' : 'en-GB', {minimumFractionDigits:0, maximumFractionDigits:2}); }
+function pakketBlok(){
+  var p = D.pakket; if (!p || p.prijs_klant == null) return null;
+  var c = el('div',{cls:'card pk'});
+  c.appendChild(el('h3',{text:t('pk_titel')}));
+  var rows = el('div',{cls:'pk-rows'});
+  function rij(l, r, cls){ rows.appendChild(el('div',{cls:'pk-r' + (cls ? ' ' + cls : '')},[el('span',{text:l}), el('span',{text:r})])); }
+  var adds = p.addons || [];
+  var addNorm = adds.reduce(function(s,a){ return s + (Number(a.prijs_normaal)||0); }, 0);
+  var basis = p.prijs_normaal != null ? Number(p.prijs_normaal) - addNorm : null;
+  if (p.naam) rij(p.naam, basis != null ? euro(basis) : '');
+  adds.forEach(function(a){ rij('+ ' + a.naam, a.prijs_normaal != null ? euro(a.prijs_normaal) : ''); });
+  var korting = p.prijs_normaal != null && Number(p.prijs_klant) < Number(p.prijs_normaal);
+  if (korting) {
+    rij(t('pk_normaal'), euro(p.prijs_normaal), 'pk-old');
+    rij(t('pk_korting'), '- ' + euro(Number(p.prijs_normaal) - Number(p.prijs_klant)), 'pk-disc');
+  }
+  rij(korting ? t('pk_jij') : t('pk_totaal'), euro(p.prijs_klant), 'pk-tot');
+  c.appendChild(rows);
+  c.appendChild(el('div',{cls:'muted',text:t('pk_mnd')}));
+  var m = el('div',{cls:'pk-meer'});
+  m.appendChild(el('div',{},[el('b',{text:t('pk_meer')}), el('span',{text:t('pk_meer_tekst')})]));
+  m.appendChild(el('button',{cls:'btn p', text:t('pk_meer_knop'), onclick:function(){ ga('uitbreiden'); }}));
+  c.appendChild(m);
+  return c;
+}
+function reviewBlok(){
+  if (!D.reviewlink || !(D.traject || {}).live_op) return null;
+  var c = el('div',{cls:'card'});
+  c.appendChild(el('h3',{text:t('rv_titel')}));
+  c.appendChild(el('p',{cls:'lead',text: D.review_gedaan ? t('rv_dank') : t('rv_tekst')}));
+  var a = el('a',{cls:'btn p', href:D.reviewlink, target:'_blank', rel:'noopener', text:'★ ' + t('rv_knop')});
+  a.style.textDecoration = 'none'; a.style.display = 'inline-block';
+  a.addEventListener('click', function(){ if (!D.review_gedaan) { D.review_gedaan = true; api({actie:'input', soort:'review'}).catch(function(){}); setTimeout(render, 400); } });
+  c.appendChild(el('div',{cls:'btns'},[a]));
+  return c;
+}
+
 /* ── Secties ─────────────────────────────────────────────────── */
 var SECS = ['overzicht','vragenlijst','domeinen','leads','copy','updates','uitbreiden'];
 
@@ -388,7 +439,10 @@ function secOverzicht(){
   });
   stap(++nr, !!tr.live_op, t('stap_live'), tr.live_op ? datum(tr.live_op) : t('sx_live'), null);
   s.appendChild(st);
+  var pb = pakketBlok(); if (pb) s.appendChild(pb);
   s.appendChild(inputBlok('extra', t('ov_extra_titel'), t('ov_extra_tekst'), ''));
+  var rb = reviewBlok(); if (rb) s.appendChild(rb);
+  s.appendChild(inputBlok('referral', t('rf_titel'), t('rf_tekst'), t('rf_plh')));
   return s;
 }
 

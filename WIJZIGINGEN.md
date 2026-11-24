@@ -602,6 +602,11 @@ Engelse vertalingen toegevoegd, cacheversies opgehoogd (`l2l-i18n.js?v=15`, data
 
 # Wijzigingen, 10 september 2026: add-ons in de prijssectie
 
+## 2026-11-24 Persoonlijke omgeving op de site
+- FAQ-vraag over de persoonlijke omgeving (zichtbaar en in de structured data), plus een rij "Alles op één plek" in de vergelijkingstabel.
+- Antwoord op "Wat moet ik zelf doen?" noemt de omgeving.
+- Campagnepagina heet voortaan persoonlijke omgeving in titel en intro.
+
 ## Prijssectie (`index.html`)
 
 - De pakketkaarten tonen alleen de pakketprijs. De Full Service-blokjes op Scale en Pro zijn eruit.
