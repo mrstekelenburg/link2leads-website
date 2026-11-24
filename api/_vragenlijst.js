@@ -45,6 +45,19 @@ async function registreer({ email, company, ref, site }) {
   });
 }
 
+/* Inzending met de antwoorden zelf vastleggen (sinds 24-11-2026), zodat ze op
+   de persoonlijke campagnepagina van de klant terug te zien zijn. */
+async function opslaan({ email, company, ref, site, answers, name }) {
+  await rpc('vragenlijst_opslaan', {
+    p_email: String(email || ''),
+    p_bedrijf: company ? String(company) : null,
+    p_ref: ref ? String(ref) : null,
+    p_site: site || 'nl',
+    p_antwoorden: answers && typeof answers === 'object' ? answers : null,
+    p_naam: name ? String(name) : null
+  });
+}
+
 /* true als er voor een van deze adressen of dit bedrijf een vragenlijst binnen is. */
 async function binnen(emails, company) {
   const list = (emails || []).map(e => String(e || '').trim()).filter(Boolean);
@@ -52,4 +65,4 @@ async function binnen(emails, company) {
   return (await rpc('vragenlijst_binnen', { p_emails: list, p_bedrijf: company ? String(company) : null })) === true;
 }
 
-module.exports = { registreer, binnen };
+module.exports = { registreer, opslaan, binnen, rpc };
