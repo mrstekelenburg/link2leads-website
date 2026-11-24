@@ -1,3 +1,9 @@
+**24 november 2026: herinnering zag ingevulde vragenlijst niet**
+- Wie de vragenlijst op /klant invulde voordat de uitnodiging in de agenda stond (vaak bij een handmatige uitnodiging na een belletje), kreeg in de herinnering toch "je vragenlijst hebben we nog niet binnen". Gebeurd bij Arnold (Albers Zeilmakerij), en zou morgen ook bij Alfred (Engarde GSS) gebeuren: hij vulde in met een ander mailadres dan in de uitnodiging.
+- Elke inzending van /klant komt nu ook in Supabase (tabel `vragenlijsten`, project Link2Leads Master). Voor elke herinnering kijkt `api/remind.js` daar na of de vragenlijst binnen is: zelfde mailadres, zelfde bedrijfsdomein (geen gmail e.d.) of dezelfde bedrijfsnaam uit het onderwerp ("Fitcheck Bedrijf & Link2Leads", "... x Bedrijf"), laatste 120 dagen. Gevonden, dan komt de categorie "L2L vragenlijst binnen" alsnog op de afspraak.
+- Nieuw bestand `api/_vragenlijst.js`. De tabel is dicht; alleen de functies `vragenlijst_registreer` en `vragenlijst_binnen` zijn met de publieke sleutel aan te roepen. Een fout bij Supabase laat nooit een inzending of herinnering mislukken.
+- Arnold en Alfred staan er met terugwerkende kracht in.
+
 **Aanpassing 20 november 2026: nieuwe tekst fitcheck-uitnodiging (Demi)**
 - De Teams-uitnodiging bij een directe boeking via /book heeft nu de tekst van Demi: persoonlijke aanhef met voornaam, dag, datum en tijd, de persoonlijke /klant-link ("niet verplicht, wel makkelijk") en de handtekening van Demi. Teams-link staat er door Outlook onder.
 - Weg: "Gratis fitcheck van 30 minuten", de knop met "13 vragen, 6 minuten", bedrijf, telefoon, boekingsnummer en de zin over opnemen. Demi meldt het opnemen zelf aan het begin van het gesprek; automatisch opnemen en transcriberen blijft aan.

@@ -36,6 +36,7 @@
 
 const nodemailer = require('nodemailer');
 const graph = require('./_graph');
+const VL = require('./_vragenlijst');
 const M = require('./_mail');
 const { esc, KLANT_URL } = M;
 
@@ -119,6 +120,38 @@ function joinRow(ev) {
   return ev.joinUrl
     ? ['Deelnemen', { raw: `<a href="${M.escAttr(ev.joinUrl)}" style="color:${M.C.accent2};text-decoration:none;font-weight:700;">Deelnemen via Microsoft Teams</a>` }]
     : ['Format', 'Online via Microsoft Teams · de link staat in je agenda-uitnodiging'];
+}
+
+/* Bedrijfsnaam uit het onderwerp, alleen om de vragenlijst te vinden:
+   "Kennismaking Link2Leads x Bedrijf", "Fitcheck Bedrijf & Link2Leads",
+   "Fitcheck Link2Leads x Bedrijf". */
+function bedrijfUitOnderwerp(subject) {
+  const s = String(subject || '');
+  let m = s.match(/\sx\s+(.+)$/i);
+  if (m) return m[1].trim();
+  m = s.match(/^(?:fitcheck|kennismaking|gesprek|call)\s+(.+?)\s*(?:&|x|\+|en|met)\s*link2leads/i);
+  if (m) return m[1].trim();
+  return '';
+}
+
+/* Is de vragenlijst binnen? Eerst de categorie op de afspraak; anders kijken
+   in Supabase (ook ingevuld voordat de uitnodiging bestond, ander adres van
+   hetzelfde bedrijf). Gevonden: categorie alsnog op de afspraak zetten. */
+async function checkVragenlijst(ev) {
+  if (ev.categories.includes(CAT_VL)) return;
+  const ours = new Set(
+    [process.env.MS_CALENDAR_USER].concat((process.env.MS_EXTRA_ATTENDEES || '').split(','))
+      .map(s => String(s || '').trim().toLowerCase()).filter(Boolean)
+  );
+  const emails = ev.attendees.map(a => a.email).filter(e => e && !ours.has(e.toLowerCase()) && !/@link2leads\.(nl|co)$/i.test(e));
+  try {
+    if (await VL.binnen(emails, bedrijfUitOnderwerp(ev.subject))) {
+      ev.categories.push(CAT_VL);
+      try { await graph.addCategory(ev.id, CAT_VL); } catch (e) { console.error('Categorie vragenlijst:', e.message); }
+    }
+  } catch (e) {
+    console.error('Vragenlijst nakijken:', e.message);
+  }
 }
 
 async function sendDag(t, ev, p, from, notify) {
@@ -307,11 +340,14 @@ module.exports = async (req, res) => {
       if (!p.email) { log.push(`overgeslagen (geen deelnemer): ${wie}`); continue; }
 
       const dagAl = ev.categories.includes(CAT_DAG), uurAl = ev.categories.includes(CAT_UUR);
-      if (minutes > 20 * 60 && minutes <= 24 * 60 + 1 && !dagAl && !uurAl) {
+      const dagNu = minutes > 20 * 60 && minutes <= 24 * 60 + 1 && !dagAl && !uurAl;
+      const uurNu = !dagNu && minutes > 10 && minutes <= 60 + 1 && !uurAl;
+      if (dagNu || uurNu) await checkVragenlijst(ev);
+      if (dagNu) {
         await sendDag(t, ev, p, from, notify);
         await graph.addCategory(ev.id, CAT_DAG);
         log.push(`dag-herinnering: ${wie}`);
-      } else if (minutes > 10 && minutes <= 60 + 1 && !uurAl) {
+      } else if (uurNu) {
         await sendUur(t, ev, p, from, notify);
         await graph.addCategory(ev.id, CAT_UUR);
         log.push(`uur-herinnering: ${wie}`);
