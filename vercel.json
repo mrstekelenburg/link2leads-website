@@ -90,6 +90,23 @@
   ],
   "headers": [
     {
+      "source": "/campagne(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    },
+    {
       "source": "/llms.txt",
       "headers": [
         {
@@ -138,5 +155,11 @@
     "api/remind.js": {
       "maxDuration": 60
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/campagne/:code",
+      "destination": "/campagne.html"
+    }
+  ]
 }

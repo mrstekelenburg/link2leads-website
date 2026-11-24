@@ -1,5 +1,8 @@
 /* Link2Leads i18n data — NL is the source language. Keys = exact Dutch text. */
 window.L2L_I18N_DATA = {
+"Opdrachtgevers krijgen een persoonlijke campagnepagina met een eigen link, waarop ze hun vragenlijst, domeinnamen, leads en mailteksten zien en goedkeuren. Die link is niet te raden, de pagina wordt niet door zoekmachines opgenomen en we kunnen de link op elk moment intrekken. Van leads tonen we daar alleen bedrijf, naam, functie en plaats, geen e-mailadressen. Veertien dagen nadat de opdrachtgever een leadlijst heeft goedgekeurd, verdwijnt die lijst van de pagina. De gegevens staan bij een opslagdienst binnen de EU.": {
+"en": "Clients get a personal campaign page with their own link, where they view and approve their questionnaire, domain names, leads and email copy. The link cannot be guessed, the page is not indexed by search engines and we can revoke the link at any time. For leads we only show company, name, job title and city, no email addresses. Fourteen days after the client approves a lead list, that list is removed from the page. The data is stored with a hosting provider within the EU."
+},
 "Eerst resultaat zien voordat": {
 "en": "See results first before"
 },

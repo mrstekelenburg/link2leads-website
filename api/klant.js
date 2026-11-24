@@ -139,7 +139,7 @@ module.exports = async (req, res) => {
     try { await graph.markVragenlijst(email); } catch (e) { console.error('Vragenlijst markeren:', e.message); }
     // Ook vastleggen in Supabase, zodat een uitnodiging die pas LATER wordt
     // aangemaakt de vragenlijst ook ziet (zie api/_vragenlijst.js).
-    try { await VL.registreer({ email, company, ref, site: 'nl' }); } catch (e) { console.error('Vragenlijst vastleggen:', e.message); }
+    try { await VL.opslaan({ email, company, ref, site: 'nl', answers, name }); } catch (e) { console.error('Vragenlijst vastleggen:', e.message); }
 
     return res.status(200).json({ success: true, ref });
   } catch (err) {

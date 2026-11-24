@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Jouw campagne | Link2Leads</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#08090C;--card:#11131A;--card2:#161922;--panel:#0F1523;
+  --border:rgba(255,255,255,0.07);--border2:rgba(255,255,255,0.12);
+  --text:#F0EFED;--muted:#8A919E;--muted2:#A3A9B4;
+  --accent:#2F6FED;--accent2:#7EB3FF;--accentbg:rgba(47,111,237,0.12);
+  --green:#4ADE80;--greenbg:rgba(74,222,128,0.10);--amber:#F5B301;--amberbg:rgba(245,179,1,0.10);
+  --font:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--mono:'DM Mono',SFMono-Regular,Consolas,monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{background:var(--bg);}
+body{font-family:var(--font);color:var(--text);-webkit-font-smoothing:antialiased;min-height:100vh;
+  background:radial-gradient(900px 500px at 85% -10%,rgba(47,111,237,.16),transparent 60%),var(--bg);}
+input,textarea,button{font-family:inherit;}
+a{color:var(--accent2);}
+.l2b{color:var(--text);font-style:normal;white-space:nowrap;}
+.l2b i{color:var(--accent);font-style:italic;display:inline-block;padding:0 .06em 0 .01em;}
+
+nav{height:60px;padding:0 28px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);
+  background:rgba(8,9,12,.92);backdrop-filter:blur(12px);position:sticky;top:0;z-index:50;}
+.logo{font-size:18px;font-weight:800;letter-spacing:-.4px;text-decoration:none;}
+.lang{display:flex;gap:4px;}
+.lang button{background:none;border:1px solid var(--border2);color:var(--muted2);font-size:12px;font-weight:700;padding:5px 9px;border-radius:7px;cursor:pointer;}
+.lang button.on{color:var(--text);border-color:var(--accent);}
+
+.wrap{max-width:980px;margin:0 auto;padding:44px 24px 90px;}
+.hello{font-size:13px;font-weight:700;color:var(--accent2);letter-spacing:.3px;margin-bottom:10px;}
+h1{font-size:38px;font-weight:800;letter-spacing:-.8px;line-height:1.12;margin-bottom:12px;}
+.sub{font-size:16px;color:var(--muted2);line-height:1.7;max-width:680px;margin-bottom:30px;}
+
+.tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--border);margin-bottom:28px;}
+.tab{background:none;border:none;color:var(--muted2);font-size:14px;font-weight:600;padding:11px 14px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;display:flex;align-items:center;gap:7px;}
+.tab:hover{color:var(--text);}
+.tab.on{color:var(--text);border-bottom-color:var(--accent);}
+.dot{min-width:20px;height:20px;padding:0 6px;border-radius:10px;background:var(--accent);color:#fff;font-size:11.5px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;}
+
+.sec{display:none;}
+.sec.on{display:block;animation:in .25s ease;}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+h2{font-size:22px;font-weight:800;letter-spacing:-.3px;margin-bottom:6px;}
+.lead{font-size:15px;color:var(--muted2);line-height:1.7;margin-bottom:20px;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px 22px;margin-bottom:14px;}
+.card h3{font-size:16px;font-weight:700;color:var(--accent2);margin-bottom:6px;}
+.muted{color:var(--muted);font-size:13.5px;}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;padding:4px 10px;border-radius:20px;}
+.pill.open{background:var(--accentbg);color:var(--accent2);}
+.pill.ok{background:var(--greenbg);color:var(--green);}
+.pill.fb{background:var(--amberbg);color:var(--amber);}
+.row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;margin-bottom:12px;}
+
+.todo{display:grid;gap:10px;margin-bottom:26px;}
+.todo-item{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:15px 18px;cursor:pointer;}
+.todo-item:hover{border-color:var(--border2);}
+.todo-item b{font-size:15px;}
+
+.list{list-style:none;display:grid;gap:8px;margin:10px 0 4px;}
+.list li{background:var(--card2);border:1px solid var(--border);border-radius:9px;padding:10px 14px;font-family:var(--mono);font-size:14px;}
+
+.mail{background:var(--card2);border:1px solid var(--border);border-radius:12px;padding:16px 18px;margin-bottom:12px;}
+.mail .stap{font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin-bottom:8px;}
+.mail .ond{font-size:14px;font-weight:700;margin-bottom:10px;}
+.mail .body{font-size:14.5px;line-height:1.7;color:#D7DAE0;white-space:pre-wrap;}
+.tag{background:var(--accentbg);color:var(--accent2);border-radius:5px;padding:0 4px;font-family:var(--mono);font-size:12.5px;}
+
+.tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:6px 0 12px;}
+.search{flex:1;min-width:200px;padding:10px 13px;background:var(--card2);border:1px solid var(--border2);border-radius:9px;color:var(--text);font-size:14px;outline:none;}
+.search:focus{border-color:var(--accent);}
+.tw{overflow-x:auto;border:1px solid var(--border);border-radius:12px;}
+table{width:100%;border-collapse:collapse;font-size:14px;}
+th{text-align:left;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted);padding:11px 12px;background:var(--card2);border-bottom:1px solid var(--border);white-space:nowrap;}
+td{padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;}
+tr:last-child td{border-bottom:none;}
+tr.nee td{opacity:.45;}
+.yn{display:inline-flex;border:1px solid var(--border2);border-radius:8px;overflow:hidden;}
+.yn button{background:none;border:none;color:var(--muted2);font-size:12.5px;font-weight:700;padding:5px 11px;cursor:pointer;}
+.yn button.ja.on{background:var(--greenbg);color:var(--green);}
+.yn button.nee.on{background:rgba(239,68,68,.12);color:#f87171;}
+.pager{display:flex;gap:8px;align-items:center;justify-content:flex-end;margin-top:10px;font-size:13px;color:var(--muted);}
+.pager button{background:var(--card2);border:1px solid var(--border2);color:var(--text);border-radius:7px;padding:5px 10px;cursor:pointer;}
+.pager button:disabled{opacity:.35;cursor:default;}
+
+.act{border-top:1px solid var(--border);margin-top:16px;padding-top:16px;}
+textarea{width:100%;min-height:90px;padding:12px 14px;background:var(--card2);border:1px solid var(--border2);border-radius:10px;color:var(--text);font-size:14.5px;line-height:1.6;resize:vertical;outline:none;}
+textarea:focus{border-color:var(--accent);}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;}
+.btn{border:none;border-radius:9px;font-size:14px;font-weight:700;padding:11px 18px;cursor:pointer;}
+.btn.p{background:var(--accent);color:#fff;}
+.btn.p:hover{background:#1d4ed8;}
+.btn.g{background:var(--card2);color:var(--text);border:1px solid var(--border2);}
+.btn:disabled{opacity:.4;cursor:default;}
+.done{font-size:14px;color:var(--green);font-weight:600;margin-top:10px;}
+.fbtext{background:var(--amberbg);border:1px solid rgba(245,179,1,.25);border-radius:10px;padding:10px 14px;font-size:14px;line-height:1.6;margin-top:8px;white-space:pre-wrap;}
+
+.qa{display:grid;gap:10px;}
+.qa .q{font-size:12.5px;font-weight:700;color:var(--accent2);margin-bottom:4px;}
+.qa .a{font-size:14.5px;line-height:1.65;color:#D7DAE0;white-space:pre-wrap;}
+.input-hist{display:grid;gap:8px;margin-top:14px;}
+.input-hist div{background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:10px 14px;font-size:14px;line-height:1.6;white-space:pre-wrap;}
+.input-hist small{display:block;color:var(--muted);font-size:12px;margin-bottom:3px;}
+
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px;}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px 16px;}
+.kpi .l{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-bottom:6px;}
+.kpi .v{font-size:26px;font-weight:800;letter-spacing:-.5px;}
+.upd{white-space:pre-wrap;font-size:14.5px;line-height:1.7;color:#D7DAE0;}
+
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.opt{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px 22px;display:flex;flex-direction:column;}
+.opt h3{font-size:17px;font-weight:800;margin-bottom:8px;color:var(--text);}
+.opt p{font-size:14.5px;color:var(--muted2);line-height:1.65;flex:1;margin-bottom:14px;}
+.opt .btn{align-self:flex-start;}
+
+.empty{color:var(--muted);font-size:14.5px;line-height:1.7;background:var(--card);border:1px dashed var(--border2);border-radius:12px;padding:18px 20px;}
+.err{max-width:560px;margin:80px auto;text-align:center;color:var(--muted2);line-height:1.7;}
+.err h1{font-size:28px;}
+.foot{max-width:980px;margin:0 auto;padding:24px;color:var(--muted);font-size:12.5px;line-height:1.6;border-top:1px solid var(--border);}
+.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:var(--card2);border:1px solid var(--border2);color:var(--text);font-size:14px;font-weight:600;padding:11px 18px;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:opacity .2s;z-index:99;}
+.toast.on{opacity:1;}
+@media(max-width:700px){.tabs{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;}.tab{white-space:nowrap;}h1{font-size:28px;}.kpis{grid-template-columns:1fr 1fr;}.opts{grid-template-columns:1fr;}nav{padding:0 16px;}.wrap{padding:30px 16px 70px;}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="https://www.link2leads.nl"><span class="l2b">Link<i>2</i>Leads</span></a>
+  <div class="lang"><button data-l="nl">NL</button><button data-l="en">EN</button></div>
+</nav>
+<main class="wrap" id="app"><p class="muted" data-t="laden"></p></main>
+<div class="foot" id="foot"></div>
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+'use strict';
+/* ── Teksten NL en EN ───────────────────────────────────────── */
+var T = {
+ nl:{
+  laden:'Even laden...',
+  hi:'Hi {n}',
+  titel:'Jullie campagne bij {b}',
+  sub:'Hier staat alles voor jullie campagne op één plek. Kijk het rustig na en geef per onderdeel akkoord of feedback. Wij gaan er direct mee verder.',
+  t_overzicht:'Overzicht', t_domeinen:'Domeinen', t_leads:'Leads', t_copy:'Copy', t_vragenlijst:'Vragenlijst', t_updates:'Updates en cijfers', t_uitbreiden:'Uitbreiden',
+  ov_titel:'Wat er voor je klaarstaat', ov_leeg:'Er wacht nu niets op jou. Zodra er iets nieuws klaarstaat, krijg je een mailtje.',
+  ov_extra_titel:'Nog iets kwijt?', ov_extra_tekst:'Schiet je iets te binnen over je klanten, je aanbod of wie je wel of niet wil benaderen? Zet het hier neer, dan nemen we het mee.',
+  st_open:'Wacht op jou', st_ok:'Akkoord', st_fb:'Feedback gegeven',
+  akkoord:'Akkoord', feedback:'Feedback geven', fb_plh:'Wat wil je anders zien?', fb_send:'Feedback versturen', annuleer:'Annuleren',
+  bedankt_ok:'Dank je, we gaan ermee verder.', bedankt_fb:'Dank je, we passen het aan en laten het je weten.',
+  jouw_fb:'Jouw feedback',
+  dom_leeg:'De domeinnamen zetten we hier neer zodra ze klaar zijn.', dom_titel:'Domeinnamen', mb_titel:'Mailboxen',
+  lead_leeg:'De leadlijst zetten we hier neer zodra hij klaar is.', lead_zoek:'Zoek op bedrijf, naam of plaats', alles_ja:'Alles op ja',
+  lead_kol:['Bedrijf','Naam','Functie','Plaats','Benaderen'], ja:'Ja', nee:'Nee', van:'van',
+  lead_telling:'{j} op ja, {n} op nee', lead_tot:'Totaal in deze lijst: {t}',
+  lead_verlopen:'Je gaf akkoord op deze lijst. De lijst zelf staat hier niet meer, je keuzes zijn bewaard.',
+  vorige:'Vorige', volgende:'Volgende', opgeslagen:'Opgeslagen',
+  copy_leeg:'De mails zetten we hier neer zodra ze klaar zijn.', copy_uitleg:'Woorden tussen accolades vullen we per bedrijf automatisch in.',
+  vl_leeg:'We hebben je vragenlijst nog niet. Vul hem in via de vragenlijst, dan staat hij hier.', vl_link:'Naar de vragenlijst',
+  vl_ingevuld:'Ingevuld op {d}', vl_aanvul_titel:'Iets aanvullen of aanpassen?', vl_aanvul_plh:'Bijvoorbeeld een extra doelgroep, een bestaande klant die eruit moet, of een nieuw aanbod.',
+  versturen:'Versturen', jouw_aanvullingen:'Wat je eerder aanvulde',
+  upd_leeg:'Zodra je campagne live is, staan hier elke week de cijfers en de update.',
+  k_verstuurd:'Verstuurd', k_reacties:'Reacties', k_positief:'Positief', k_doorverwijzing:'Doorverwijzingen', sinds:'Sinds {d}',
+  pw:['Week','Verstuurd','Reacties','Positief'],
+  ub_titel:'Meer uit je campagne halen', ub_sub:'Dit kunnen we er nog bij doen. Interesse? Klik, dan nemen we contact met je op en kijken we samen of het past.',
+  ub_knop:'Dit wil ik ook', ub_al:'We nemen contact met je op',
+  o_linkedin_t:'LinkedIn erbij', o_linkedin_p:'Naast de mail benaderen we dezelfde mensen via LinkedIn. Een tweede plek waar ze je naam zien, en vaak het zetje voor een reactie.',
+  o_personalisatie_t:'Een eigen pagina per prospect', o_personalisatie_p:'Elke prospect krijgt een persoonlijke pagina met zijn eigen bedrijfsnaam en situatie. Wie hem bekijkt, zien we terug, zodat je weet wie er warm is.',
+  o_volume_t:'Meer volume', o_volume_p:'Meer bedrijven per maand benaderen met een groter pakket. Handig als je meer gesprekken aankunt of een tweede doelgroep wil testen.',
+  o_setter_t:'Een setter die de reacties belt', o_setter_p:'Een vaste setter belt elke positieve reactie direct na en zet de afspraak in je agenda. Jij voert alleen nog het gesprek.',
+  verzonden:'Verstuurd, dank je!', fout:'Dat lukte niet. Probeer het zo nog eens of mail ons even.',
+  niet_gevonden_t:'Deze pagina bestaat niet (meer)', niet_gevonden_p:'Controleer of je de hele link uit onze mail hebt gebruikt. Lukt het niet, mail dan even naar demi@link2leads.nl.',
+  voet:'Deze pagina is alleen voor jullie. Deel de link niet verder. Vragen? Mail demi@link2leads.nl of bel 085 080 5381.'
+ },
+ en:{
+  laden:'Loading...',
+  hi:'Hi {n}',
+  titel:'Your campaign with {b}',
+  sub:'Everything for your campaign in one place. Take your time to review it and approve each part or give feedback. We pick it up straight away.',
+  t_overzicht:'Overview', t_domeinen:'Domains', t_leads:'Leads', t_copy:'Copy', t_vragenlijst:'Questionnaire', t_updates:'Updates and numbers', t_uitbreiden:'Expand',
+  ov_titel:'What is ready for you', ov_leeg:'Nothing is waiting for you right now. As soon as something new is ready, we will send you an email.',
+  ov_extra_titel:'Anything to add?', ov_extra_tekst:'Thought of something about your customers, your offer or who you do or do not want to reach? Add it here and we will take it into account.',
+  st_open:'Waiting for you', st_ok:'Approved', st_fb:'Feedback given',
+  akkoord:'Approve', feedback:'Give feedback', fb_plh:'What would you like to see differently?', fb_send:'Send feedback', annuleer:'Cancel',
+  bedankt_ok:'Thanks, we will take it from here.', bedankt_fb:'Thanks, we will adjust it and let you know.',
+  jouw_fb:'Your feedback',
+  dom_leeg:'We will add the domain names here as soon as they are ready.', dom_titel:'Domain names', mb_titel:'Mailboxes',
+  lead_leeg:'We will add the lead list here as soon as it is ready.', lead_zoek:'Search by company, name or city', alles_ja:'Set all to yes',
+  lead_kol:['Company','Name','Job title','City','Contact'], ja:'Yes', nee:'No', van:'of',
+  lead_telling:'{j} yes, {n} no', lead_tot:'Total in this list: {t}',
+  lead_verlopen:'You approved this list. The list itself is no longer shown here, your choices have been saved.',
+  vorige:'Previous', volgende:'Next', opgeslagen:'Saved',
+  copy_leeg:'We will add the emails here as soon as they are ready.', copy_uitleg:'Words between curly brackets are filled in automatically for each company.',
+  vl_leeg:'We do not have your questionnaire yet. Fill it in and it will show up here.', vl_link:'Go to the questionnaire',
+  vl_ingevuld:'Completed on {d}', vl_aanvul_titel:'Want to add or change something?', vl_aanvul_plh:'For example an extra target group, an existing customer to leave out, or a new offer.',
+  versturen:'Send', jouw_aanvullingen:'What you added before',
+  upd_leeg:'Once your campaign is live, the weekly numbers and update will appear here.',
+  k_verstuurd:'Sent', k_reacties:'Replies', k_positief:'Positive', k_doorverwijzing:'Referrals', sinds:'Since {d}',
+  pw:['Week','Sent','Replies','Positive'],
+  ub_titel:'Getting more out of your campaign', ub_sub:'This is what we can add. Interested? Click and we will get in touch to see together whether it fits.',
+  ub_knop:'I want this too', ub_al:'We will get in touch',
+  o_linkedin_t:'Add LinkedIn', o_linkedin_p:'Besides email, we reach the same people on LinkedIn. A second place where they see your name, and often the nudge that gets a reply.',
+  o_personalisatie_t:'A personal page per prospect', o_personalisatie_p:'Every prospect gets a personal page with their own company name and situation. We see who views it, so you know who is warm.',
+  o_volume_t:'More volume', o_volume_p:'Reach more companies per month with a larger package. Useful if you can handle more calls or want to test a second target group.',
+  o_setter_t:'A setter who calls the replies', o_setter_p:'A dedicated setter calls every positive reply right away and books the meeting in your calendar. You only take the call.',
+  verzonden:'Sent, thank you!', fout:'That did not work. Please try again in a moment or send us an email.',
+  niet_gevonden_t:'This page does not exist (anymore)', niet_gevonden_p:'Please check that you used the full link from our email. Still not working? Email demi@link2leads.nl.',
+  voet:'This page is for you only. Please do not share the link. Questions? Email demi@link2leads.nl or call +31 85 080 5381.'
+ }
+};
+var lang = 'nl';
+function t(k, v){ var L = T[lang] || T.nl; var s = (L[k] !== undefined ? L[k] : T.nl[k]); if (typeof s === 'string' && v) Object.keys(v).forEach(function(x){ s = s.split('{'+x+'}').join(v[x]); }); return s; }
+
+/* ── Helpers ─────────────────────────────────────────────────── */
+var code = (location.pathname.split('/').filter(Boolean)[1] || new URLSearchParams(location.search).get('c') || '').replace(/[^A-Za-z0-9]/g,'');
+var D = null, tab = 'overzicht', leadState = {};
+function el(tag, attrs, kids){
+  var e = document.createElement(tag);
+  if (attrs) Object.keys(attrs).forEach(function(k){
+    if (k === 'text') e.textContent = attrs[k];
+    else if (k === 'cls') e.className = attrs[k];
+    else if (k.slice(0,2) === 'on') e.addEventListener(k.slice(2), attrs[k]);
+    else e.setAttribute(k, attrs[k]);
+  });
+  (kids || []).forEach(function(c){ if (c == null) return; e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c); });
+  return e;
+}
+function datum(s){ try { return new Date(s).toLocaleDateString(lang === 'nl' ? 'nl-NL' : 'en-GB', {day:'numeric',month:'long',year:'numeric'}); } catch(e){ return ''; } }
+function getal(n){ return (Number(n)||0).toLocaleString(lang === 'nl' ? 'nl-NL' : 'en-GB'); }
+function toast(msg){ var x = document.getElementById('toast'); x.textContent = msg; x.classList.add('on'); clearTimeout(toast._t); toast._t = setTimeout(function(){ x.classList.remove('on'); }, 2600); }
+function api(body){
+  body.code = code;
+  return fetch('/api/campagne', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body)})
+    .then(function(r){ if (!r.ok) throw new Error(r.status); return r.json(); });
+}
+function items(soort){ return (D.items || []).filter(function(i){ return i.soort === soort; }); }
+function openCount(soort){ return items(soort).filter(function(i){ return i.status === 'klaar'; }).length; }
+function pill(status){
+  if (status === 'akkoord') return el('span',{cls:'pill ok',text:t('st_ok')});
+  if (status === 'feedback') return el('span',{cls:'pill fb',text:t('st_fb')});
+  return el('span',{cls:'pill open',text:t('st_open')});
+}
+/* Tekst met {{merge_tags}} uitgelicht, zonder HTML uit de inhoud toe te laten. */
+function mergeText(str){
+  var frag = document.createDocumentFragment();
+  String(str || '').split(/(\{\{[^}]+\}\})/).forEach(function(part){
+    if (/^\{\{[^}]+\}\}$/.test(part)) frag.appendChild(el('span',{cls:'tag',text:part}));
+    else frag.appendChild(document.createTextNode(part));
+  });
+  return frag;
+}
+
+/* Akkoord- en feedbackblok onder domeinen, leads en copy. */
+function actieBlok(item, voorAkkoord){
+  var box = el('div',{cls:'act'});
+  if (item.feedback) box.appendChild(el('div',{},[el('div',{cls:'muted',text:t('jouw_fb')}), el('div',{cls:'fbtext',text:item.feedback})]));
+  if (item.status === 'akkoord' || item.verlopen) return box;
+  var ta = el('textarea',{placeholder:t('fb_plh')}); ta.style.display = 'none';
+  var send = el('button',{cls:'btn g',text:t('fb_send')}); send.style.display = 'none';
+  var ok = el('button',{cls:'btn p',text:t('akkoord')});
+  var fb = el('button',{cls:'btn g',text:t('feedback')});
+  ok.addEventListener('click', function(){
+    ok.disabled = fb.disabled = true;
+    (voorAkkoord ? voorAkkoord() : Promise.resolve())
+      .then(function(){ return api({actie:'beoordeel', item:item.id, status:'akkoord'}); })
+      .then(function(){ item.status = 'akkoord'; toast(t('bedankt_ok')); render(); })
+      .catch(function(){ ok.disabled = fb.disabled = false; toast(t('fout')); });
+  });
+  fb.addEventListener('click', function(){ ta.style.display = 'block'; send.style.display = ''; fb.style.display = 'none'; ta.focus(); });
+  send.addEventListener('click', function(){
+    if (!ta.value.trim()) { ta.focus(); return; }
+    send.disabled = true;
+    api({actie:'beoordeel', item:item.id, status:'feedback', feedback:ta.value.trim()})
+      .then(function(){ item.status = 'feedback'; item.feedback = ta.value.trim(); toast(t('bedankt_fb')); render(); })
+      .catch(function(){ send.disabled = false; toast(t('fout')); });
+  });
+  box.appendChild(ta);
+  box.appendChild(el('div',{cls:'btns'},[ok, fb, send]));
+  return box;
+}
+
+function inputBlok(soort, titel, tekst, plh){
+  var box = el('div',{cls:'card'});
+  box.appendChild(el('h3',{text:titel}));
+  if (tekst) box.appendChild(el('p',{cls:'lead',text:tekst}));
+  var ta = el('textarea',{placeholder:plh || ''});
+  var b = el('button',{cls:'btn p',text:t('versturen')});
+  b.addEventListener('click', function(){
+    if (!ta.value.trim()) { ta.focus(); return; }
+    b.disabled = true;
+    api({actie:'input', soort:soort, tekst:ta.value.trim()})
+      .then(function(){ D.input.unshift({soort:soort, tekst:ta.value.trim(), aangemaakt:new Date().toISOString()}); ta.value=''; toast(t('verzonden')); render(); })
+      .catch(function(){ b.disabled = false; toast(t('fout')); });
+  });
+  box.appendChild(ta);
+  box.appendChild(el('div',{cls:'btns'},[b]));
+  var eerder = (D.input || []).filter(function(x){ return x.soort === soort; });
+  if (eerder.length) {
+    var h = el('div',{cls:'input-hist'});
+    h.appendChild(el('div',{cls:'muted',text:t('jouw_aanvullingen')})).style.cssText='background:none;border:none;padding:0;';
+    eerder.forEach(function(x){ h.appendChild(el('div',{},[el('small',{text:datum(x.aangemaakt)}), x.tekst])); });
+    box.appendChild(h);
+  }
+  return box;
+}
+
+/* ── Secties ─────────────────────────────────────────────────── */
+var SECS = ['overzicht','domeinen','leads','copy','vragenlijst','updates','uitbreiden'];
+
+function secOverzicht(){
+  var s = el('div');
+  s.appendChild(el('h2',{text:t('ov_titel')}));
+  var open = (D.items || []).filter(function(i){ return i.status === 'klaar' && ['domeinen','leads','copy'].indexOf(i.soort) > -1; });
+  if (!open.length) s.appendChild(el('p',{cls:'empty',text:t('ov_leeg')}));
+  else {
+    var l = el('div',{cls:'todo'});
+    open.forEach(function(i){
+      l.appendChild(el('div',{cls:'todo-item', onclick:function(){ ga(i.soort); }},[
+        el('b',{text:t('t_'+i.soort) + (i.titel ? ' · ' + i.titel : '')}), pill(i.status)]));
+    });
+    s.appendChild(l);
+  }
+  s.appendChild(inputBlok('extra', t('ov_extra_titel'), t('ov_extra_tekst'), ''));
+  return s;
+}
+
+function secDomeinen(){
+  var s = el('div'); s.appendChild(el('h2',{text:t('t_domeinen')}));
+  var lst = items('domeinen');
+  if (!lst.length) { s.appendChild(el('p',{cls:'empty',text:t('dom_leeg')})); return s; }
+  lst.forEach(function(i){
+    var c = el('div',{cls:'card'});
+    c.appendChild(el('div',{cls:'row'},[el('h3',{text:i.titel || t('dom_titel')}), pill(i.status)]));
+    if (i.inhoud.tekst) c.appendChild(el('p',{cls:'lead',text:i.inhoud.tekst}));
+    if ((i.inhoud.domeinen||[]).length){ c.appendChild(el('div',{cls:'muted',text:t('dom_titel')})); var u = el('ul',{cls:'list'}); i.inhoud.domeinen.forEach(function(d){ u.appendChild(el('li',{text:d})); }); c.appendChild(u); }
+    if ((i.inhoud.mailboxen||[]).length){ c.appendChild(el('div',{cls:'muted',text:t('mb_titel')})); var m = el('ul',{cls:'list'}); i.inhoud.mailboxen.forEach(function(d){ m.appendChild(el('li',{text:d})); }); c.appendChild(m); }
+    c.appendChild(actieBlok(i));
+    s.appendChild(c);
+  });
+  return s;
+}
+
+function secLeads(){
+  var s = el('div'); s.appendChild(el('h2',{text:t('t_leads')}));
+  var lst = items('leads');
+  if (!lst.length) { s.appendChild(el('p',{cls:'empty',text:t('lead_leeg')})); return s; }
+  lst.forEach(function(i){
+    var c = el('div',{cls:'card'});
+    c.appendChild(el('div',{cls:'row'},[el('h3',{text:i.titel || t('t_leads')}), pill(i.status)]));
+    if (i.inhoud.tekst) c.appendChild(el('p',{cls:'lead',text:i.inhoud.tekst}));
+    var leads = i.inhoud.leads || [];
+    if (i.verlopen || !leads.length) {
+      if (i.verlopen) c.appendChild(el('p',{cls:'muted',text:t('lead_verlopen')}));
+      c.appendChild(actieBlok(i)); s.appendChild(c); return;
+    }
+    var st = leadState[i.id] || (leadState[i.id] = {q:'', page:0, keuzes:Object.assign({}, i.keuzes || {}), dirty:{}});
+    var alleenLezen = i.status === 'akkoord';
+    var telling = el('div',{cls:'muted'});
+    function tel(){
+      var j = 0, n = 0; leads.forEach(function(l){ if (st.keuzes[l.k] === false) n++; else j++; });
+      telling.textContent = t('lead_telling',{j:getal(j), n:getal(n)}) + (i.inhoud.aantal_totaal ? ' · ' + t('lead_tot',{t:getal(i.inhoud.aantal_totaal)}) : '');
+    }
+    var timer = null;
+    function bewaar(){
+      var ks = Object.keys(st.dirty); if (!ks.length) return Promise.resolve();
+      var payload = {}; ks.forEach(function(k){ payload[k] = st.dirty[k]; });
+      st.dirty = {};
+      return api({actie:'leadkeuze', item:i.id, keuzes:payload}).then(function(){ toast(t('opgeslagen')); });
+    }
+    function plan(){ clearTimeout(timer); timer = setTimeout(function(){ bewaar().catch(function(){ toast(t('fout')); }); }, 900); }
+    var tbody = el('tbody'), pager = el('div',{cls:'pager'});
+    var PER = 100;
+    function gefilterd(){
+      var q = st.q.toLowerCase();
+      return !q ? leads : leads.filter(function(l){ return [l.bedrijf,l.naam,l.functie,l.plaats,l.website].join(' ').toLowerCase().indexOf(q) > -1; });
+    }
+    function teken(){
+      var f = gefilterd(), max = Math.max(0, Math.ceil(f.length / PER) - 1);
+      if (st.page > max) st.page = max;
+      tbody.innerHTML = '';
+      f.slice(st.page*PER, st.page*PER+PER).forEach(function(l){
+        var ja = st.keuzes[l.k] !== false;
+        var tr = el('tr',{cls: ja ? '' : 'nee'});
+        var bJa = el('button',{cls:'ja' + (ja?' on':''),text:t('ja')}), bNee = el('button',{cls:'nee' + (!ja?' on':''),text:t('nee')});
+        function zet(w){ if (alleenLezen) return; st.keuzes[l.k] = w; st.dirty[l.k] = w; plan(); teken(); tel(); }
+        bJa.addEventListener('click', function(){ zet(true); }); bNee.addEventListener('click', function(){ zet(false); });
+        if (alleenLezen) { bJa.disabled = bNee.disabled = true; }
+        var bedrijf = el('td',{},[el('b',{text:l.bedrijf || ''})]);
+        if (l.website) bedrijf.appendChild(el('div',{cls:'muted',text:l.website}));
+        tr.appendChild(bedrijf);
+        tr.appendChild(el('td',{text:l.naam || ''}));
+        tr.appendChild(el('td',{text:l.functie || ''}));
+        tr.appendChild(el('td',{text:l.plaats || ''}));
+        tr.appendChild(el('td',{},[el('div',{cls:'yn'},[bJa,bNee])]));
+        tbody.appendChild(tr);
+      });
+      pager.innerHTML = '';
+      var pv = el('button',{text:t('vorige')}), nx = el('button',{text:t('volgende')});
+      pv.disabled = st.page === 0; nx.disabled = st.page >= max;
+      pv.addEventListener('click', function(){ st.page--; teken(); }); nx.addEventListener('click', function(){ st.page++; teken(); });
+      pager.appendChild(el('span',{text:(f.length ? (st.page*PER+1) + ' - ' + Math.min(f.length,(st.page+1)*PER) : '0') + ' ' + t('van') + ' ' + getal(f.length)}));
+      pager.appendChild(pv); pager.appendChild(nx);
+    }
+    var zoek = el('input',{cls:'search', type:'search', placeholder:t('lead_zoek')});
+    zoek.value = st.q;
+    zoek.addEventListener('input', function(){ st.q = zoek.value; st.page = 0; teken(); });
+    var tools = el('div',{cls:'tools'},[zoek]);
+    if (!alleenLezen) {
+      var aj = el('button',{cls:'btn g',text:t('alles_ja')});
+      aj.addEventListener('click', function(){ leads.forEach(function(l){ if (st.keuzes[l.k] === false) { st.keuzes[l.k] = true; st.dirty[l.k] = true; } }); plan(); teken(); tel(); });
+      tools.appendChild(aj);
+    }
+    c.appendChild(tools);
+    var thead = el('thead',{},[el('tr',{}, t('lead_kol').map(function(h){ return el('th',{text:h}); }))]);
+    c.appendChild(el('div',{cls:'tw'},[el('table',{},[thead,tbody])]));
+    c.appendChild(pager);
+    c.appendChild(telling);
+    teken(); tel();
+    c.appendChild(actieBlok(i, function(){ clearTimeout(timer); return bewaar(); }));
+    s.appendChild(c);
+  });
+  return s;
+}
+
+function secCopy(){
+  var s = el('div'); s.appendChild(el('h2',{text:t('t_copy')}));
+  var lst = items('copy');
+  if (!lst.length) { s.appendChild(el('p',{cls:'empty',text:t('copy_leeg')})); return s; }
+  lst.forEach(function(i){
+    var c = el('div',{cls:'card'});
+    c.appendChild(el('div',{cls:'row'},[el('h3',{text:i.titel || t('t_copy')}), pill(i.status)]));
+    if (i.inhoud.tekst) c.appendChild(el('p',{cls:'lead',text:i.inhoud.tekst}));
+    c.appendChild(el('p',{cls:'muted',text:t('copy_uitleg')})).style.marginBottom='12px';
+    (i.inhoud.mails || []).forEach(function(m){
+      var mail = el('div',{cls:'mail'});
+      mail.appendChild(el('div',{cls:'stap',text:m.stap || ''}));
+      if (m.onderwerp) { var o = el('div',{cls:'ond'}); o.appendChild(mergeText(m.onderwerp)); mail.appendChild(o); }
+      var b = el('div',{cls:'body'}); b.appendChild(mergeText(m.body)); mail.appendChild(b);
+      c.appendChild(mail);
+    });
+    c.appendChild(actieBlok(i));
+    s.appendChild(c);
+  });
+  return s;
+}
+
+function secVragenlijst(){
+  var s = el('div'); s.appendChild(el('h2',{text:t('t_vragenlijst')}));
+  var vl = D.vragenlijst;
+  if (!vl) {
+    var e = el('div',{cls:'empty'},[t('vl_leeg') + ' ']);
+    e.appendChild(el('a',{href:'/klant',text:t('vl_link')}));
+    s.appendChild(e);
+  } else {
+    s.appendChild(el('p',{cls:'muted',text:t('vl_ingevuld',{d:datum(vl.ingevuld_op)})})).style.marginBottom='14px';
+    var qa = el('div',{cls:'qa'});
+    Object.keys(vl.antwoorden || {}).forEach(function(q){
+      var a = vl.antwoorden[q]; if (!a) return;
+      qa.appendChild(el('div',{cls:'card'},[el('div',{cls:'q',text:q}), el('div',{cls:'a',text:String(a)})]));
+    });
+    s.appendChild(qa);
+  }
+  s.appendChild(el('div',{style:'height:10px'}));
+  s.appendChild(inputBlok('vragenlijst', t('vl_aanvul_titel'), '', t('vl_aanvul_plh')));
+  return s;
+}
+
+function secUpdates(){
+  var s = el('div'); s.appendChild(el('h2',{text:t('t_updates')}));
+  var st = items('stats')[0], up = items('update');
+  if (!st && !up.length) { s.appendChild(el('p',{cls:'empty',text:t('upd_leeg')})); return s; }
+  if (st) {
+    var x = st.inhoud || {};
+    if (x.sinds) s.appendChild(el('p',{cls:'muted',text:t('sinds',{d:datum(x.sinds)})})).style.marginBottom='10px';
+    s.appendChild(el('div',{cls:'kpis'},[
+      el('div',{cls:'kpi'},[el('div',{cls:'l',text:t('k_verstuurd')}), el('div',{cls:'v',text:getal(x.verstuurd)})]),
+      el('div',{cls:'kpi'},[el('div',{cls:'l',text:t('k_reacties')}), el('div',{cls:'v',text:getal(x.reacties)})]),
+      el('div',{cls:'kpi'},[el('div',{cls:'l',text:t('k_positief')}), el('div',{cls:'v',text:getal(x.positief)})]),
+      el('div',{cls:'kpi'},[el('div',{cls:'l',text:t('k_doorverwijzing')}), el('div',{cls:'v',text:getal(x.doorverwijzingen)})])
+    ]));
+    if ((x.per_week || []).length) {
+      var tb = el('tbody');
+      x.per_week.forEach(function(w){ tb.appendChild(el('tr',{},[el('td',{text:w.week||''}), el('td',{text:getal(w.verstuurd)}), el('td',{text:getal(w.reacties)}), el('td',{text:getal(w.positief)})])); });
+      s.appendChild(el('div',{cls:'tw'},[el('table',{},[el('thead',{},[el('tr',{}, t('pw').map(function(h){ return el('th',{text:h}); }))]), tb])]));
+      s.appendChild(el('div',{style:'height:18px'}));
+    }
+  }
+  up.forEach(function(u){
+    var c = el('div',{cls:'card'});
+    c.appendChild(el('div',{cls:'row'},[el('h3',{text:u.titel || ''}), el('span',{cls:'muted',text:datum(u.aangemaakt)})]));
+    c.appendChild(el('div',{cls:'upd',text:(u.inhoud && u.inhoud.tekst) || ''}));
+    s.appendChild(c);
+  });
+  return s;
+}
+
+function secUitbreiden(){
+  var s = el('div'); s.appendChild(el('h2',{text:t('ub_titel')})); s.appendChild(el('p',{cls:'lead',text:t('ub_sub')}));
+  var g = el('div',{cls:'opts'});
+  ['linkedin','personalisatie','volume','setter'].forEach(function(o){
+    var al = (D.interesse || []).indexOf(o) > -1;
+    var b = el('button',{cls: al ? 'btn g' : 'btn p', text: al ? t('ub_al') : t('ub_knop')});
+    if (al) b.disabled = true;
+    b.addEventListener('click', function(){
+      b.disabled = true;
+      api({actie:'input', soort:'interesse', onderwerp:o}).then(function(){ D.interesse.push(o); toast(t('ub_al')); render(); })
+        .catch(function(){ b.disabled = false; toast(t('fout')); });
+    });
+    g.appendChild(el('div',{cls:'opt'},[el('h3',{text:t('o_'+o+'_t')}), el('p',{text:t('o_'+o+'_p')}), b]));
+  });
+  s.appendChild(g);
+  return s;
+}
+
+var MAKERS = {overzicht:secOverzicht, domeinen:secDomeinen, leads:secLeads, copy:secCopy, vragenlijst:secVragenlijst, updates:secUpdates, uitbreiden:secUitbreiden};
+
+function ga(nt){ tab = nt; try { history.replaceState(null, '', '#' + nt); } catch(e){} render(); window.scrollTo({top:0, behavior:'smooth'}); }
+
+function render(){
+  var app = document.getElementById('app'); app.innerHTML = '';
+  document.documentElement.lang = lang;
+  document.querySelectorAll('.lang button').forEach(function(b){ b.classList.toggle('on', b.getAttribute('data-l') === lang); });
+  document.getElementById('foot').textContent = t('voet');
+  if (!D) { app.appendChild(el('div',{cls:'err'},[el('h1',{text:t('niet_gevonden_t')}), el('p',{text:t('niet_gevonden_p')})])); return; }
+  var k = D.klant || {};
+  if (k.naam) app.appendChild(el('div',{cls:'hello',text:t('hi',{n:k.naam})}));
+  var h = el('h1'); h.appendChild(document.createTextNode(t('titel',{b:'\u0001'}).split('\u0001')[0]));
+  h.appendChild(el('span',{cls:'l2b'},['Link', el('i',{text:'2'}), 'Leads']));
+  h.appendChild(document.createTextNode(t('titel',{b:'\u0001'}).split('\u0001')[1] || ''));
+  app.appendChild(h);
+  app.appendChild(el('p',{cls:'sub',text:t('sub')}));
+  var tabs = el('div',{cls:'tabs'});
+  SECS.forEach(function(sname){
+    var n = ['domeinen','leads','copy'].indexOf(sname) > -1 ? openCount(sname) : 0;
+    if (sname === 'overzicht') n = openCount('domeinen') + openCount('leads') + openCount('copy');
+    var b = el('button',{cls:'tab' + (tab === sname ? ' on' : ''), onclick:function(){ ga(sname); }},[t('t_'+sname)]);
+    if (n) b.appendChild(el('span',{cls:'dot',text:String(n)}));
+    tabs.appendChild(b);
+  });
+  app.appendChild(tabs);
+  SECS.forEach(function(sname){
+    var sec = el('section',{cls:'sec' + (tab === sname ? ' on' : '')});
+    if (tab === sname) sec.appendChild(MAKERS[sname]());
+    app.appendChild(sec);
+  });
+}
+
+/* ── Start ───────────────────────────────────────────────────── */
+document.querySelectorAll('.lang button').forEach(function(b){
+  b.addEventListener('click', function(){ lang = b.getAttribute('data-l'); try { localStorage.setItem('l2l_lang', lang); } catch(e){} render(); });
+});
+var h = (location.hash || '').replace('#','');
+if (SECS.indexOf(h) > -1) tab = h;
+var qp = new URLSearchParams(location.search).get('lang');
+try { lang = (qp === 'en' || qp === 'nl') ? qp : (localStorage.getItem('l2l_lang') || ''); } catch(e){}
+document.getElementById('app').firstElementChild.textContent = T.nl.laden;
+if (!code) { render(); return; }
+api({actie:'ophalen'}).then(function(d){
+  D = d; D.input = D.input || []; D.interesse = D.interesse || [];
+  if (lang !== 'nl' && lang !== 'en') lang = (D.klant && D.klant.taal === 'en') ? 'en' : 'nl';
+  render();
+}).catch(function(){ if (lang !== 'en') lang = 'nl'; render(); });
+})();
+</script>
+</body>
+</html>

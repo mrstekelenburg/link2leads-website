@@ -2,90 +2,112 @@
 User-agent: GPTBot
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: OAI-SearchBot
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: ChatGPT-User
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: ClaudeBot
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: Claude-Web
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: anthropic-ai
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: PerplexityBot
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: Perplexity-User
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: Google-Extended
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: Applebot-Extended
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: meta-externalagent
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: cohere-ai
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: Bytespider
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: Claude-User
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: Claude-SearchBot
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: Bingbot
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: CCBot
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: DuckAssistBot
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: MistralAI-User
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: Amazonbot
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: YouBot
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 User-agent: *
 Allow: /
 Disallow: /api/
+Disallow: /campagne/
 
 Sitemap: https://www.link2leads.nl/sitemap.xml
 
