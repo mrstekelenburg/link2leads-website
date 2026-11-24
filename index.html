@@ -2286,8 +2286,8 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 <style id="l2l-progress-css">html body #l2l-progress{position:fixed!important;top:0!important;left:0!important;right:0!important;height:2px!important;z-index:2147483000!important;margin:0!important;background:#2F6FED;transform:scaleX(0);transform-origin:0 50%;pointer-events:none}html body #l2l-progress{background:#5B8FF5!important;box-shadow:0 0 8px rgba(91,143,245,.6)}</style>
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&amp;display=swap" rel="stylesheet"/>
 <style id="hero-oprichters">
-/* desktop: kop links, foto rechts, film eronder */
-@media(min-width:901px){
+/* kop links, foto rechts, film eronder (op elke breedte) */
+@media(min-width:0px){
 .hb-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:24px;max-width:1180px;margin:0 auto;text-align:left}
 .hero-film .hb-left .hero-h{text-align:left!important;white-space:normal!important;font-size:clamp(40px,4.6vw,62px)!important;line-height:1.02!important;letter-spacing:-.035em!important;margin:0 0 6px!important;max-width:none}
 .hero-film .hb-left .hs-v{margin:14px 0 0!important;text-align:left;max-width:560px}
@@ -2306,7 +2306,7 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 @keyframes hbBob{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
 @media(prefers-reduced-motion:reduce){.hb-note svg{animation:none}}
 /* mobiel: precies de oude volgorde (kop, film, knop, tekst, cijfers), zonder foto */
-@media(max-width:900px){
+@media(max-width:0px){
 .hb-right{display:none!important}
 .hero-film{display:flex;flex-direction:column}
 .hb-grid,.hb-left,.hb-film{display:contents}
@@ -2318,8 +2318,27 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 }
 </style>
 <style id="hero-mobiel">
-.hb-mob{display:none}
+
+/* kop en foto altijd naast elkaar, ook op halfscreen en mobiel */
 @media(max-width:900px){
+.hb-grid{grid-template-columns:1.25fr .75fr;gap:10px;align-items:center}
+.hero-film .hb-left .hero-h{font-size:clamp(23px,6.3vw,46px)!important;letter-spacing:-.03em!important}
+.hero-film .hb-left .hs-v{font-size:clamp(13px,3.5vw,17px)!important;line-height:1.5!important;margin-top:10px!important}
+.hero-film .hb-left .hs-v .hs-end{font-size:clamp(14px,3.8vw,19px)!important;margin-top:6px}
+.hero-film .hb-left .hcta{width:auto!important;margin:16px 0 0!important}
+.hero-film .hb-left .hcta-main{font-size:clamp(13px,3.6vw,17px)!important;padding:clamp(10px,2.6vw,16px) clamp(14px,4vw,28px)!important;white-space:nowrap}
+.hb-right{margin-top:0}
+.hero-film .hb-left .hcta{align-self:flex-start}
+.hb-right img{max-width:100%}
+.hb-name{right:0;bottom:20%;padding:clamp(4px,1.2vw,9px) clamp(6px,1.8vw,14px);font-size:clamp(9.5px,2.6vw,14px)}
+.hb-name small{font-size:clamp(8.5px,2.3vw,12px)}
+.hb-note{font-size:clamp(15px,4.2vw,26px);margin:-2px 0 0 clamp(-60px,-6vw,-10px)}
+.hb-note span{max-width:clamp(110px,28vw,210px)}
+.hb-note svg{width:clamp(30px,7vw,58px);height:auto;margin-bottom:clamp(-34px,-4vw,-14px)}
+}
+@media(max-width:560px){.hb-name{display:none}.hb-note{margin:4px 0 0 -6px}.hb-note span{max-width:120px}}
+.hb-mob{display:none}
+@media(max-width:0px){
 .hb-mob{order:1;display:flex;align-items:center;justify-content:center;gap:8px;box-sizing:border-box;width:100%;max-width:100%;padding:0 16px;margin:14px auto -4px;color:#7EB3FF;text-decoration:none;font-family:'Caveat',cursive;font-size:min(21px,calc((100vw - 120px) / 14));line-height:1.05}
 .hb-faces{display:flex;flex-shrink:0}
 .hb-faces img{width:36px;height:36px;border-radius:50%;border:2px solid #2F6FED;background:#0E1018;display:block}
@@ -2329,7 +2348,7 @@ a.hstat:hover span:not(.hs-star){color:rgba(255,255,255,.8)}
 }
 </style>
 <style>.p-features li.cm-li,.cfg-incl li.cm-li{color:#fff;font-weight:600;align-items:center}.p-features li.cm-li::before{content:none}.cm-faces{display:inline-flex;flex-shrink:0}.cm-faces img{width:24px;height:24px;border-radius:50%;object-fit:cover;border:1.5px solid var(--accent2);background:#fff}.cm-faces img+img{margin-left:-7px}.cfg-incl li.cm-li{display:flex;gap:8px}.inbox-li{text-align:center;margin:26px 0 0;font-size:15px}.inbox-li a{color:var(--accent2);font-weight:700;text-decoration:none}.inbox-li a::after{content:" \2192"}.inbox-li a:hover{text-decoration:underline}.who-l{display:flex;align-items:center;gap:9px;margin:12px 0 0;font-size:13.5px;font-weight:600;color:rgba(255,255,255,.82)}.who-l.who-c{justify-content:center}.who-wrap{display:flex;flex-direction:column;align-items:center}</style><style id="hero-cijfers-film">
-@media(min-width:901px){
+@media(min-width:0px){
 .hero-film .hb-film .hstats{width:min(1080px,100%,max(480px,calc((100svh - 372px) * 16 / 9)))!important;max-width:100%!important;margin:0 auto!important;padding-top:20px!important;grid-template-columns:repeat(3,auto)!important;justify-content:space-evenly!important}
 .hb-film .hv-video{margin-top:22px}
 .hb-left{display:flex;flex-direction:column}
