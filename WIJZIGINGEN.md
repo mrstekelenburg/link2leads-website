@@ -4,7 +4,8 @@
 - wat-kost-cold-email-uitbesteden: de marktstaffel per volume is vervangen door één zin met de bandbreedte (€ 995 tot € 2.200). Rekenvoorbeeld nu met € 1.795 per maand (€ 40 en € 120 per positieve reactie), zonder mailvolume.
 - wat-kost-b2b-leadgeneratie en cold-email-of-sdr: rekenvoorbeelden op € 1.795 per maand; eigen prijs per jaar nu € 15.500 tot € 26.000.
 - llms.txt: de zin met prijs per 1.000 mails is weg.
-- Engels in `assets/i18n/l2l-i18n-data.js`, de vier artikelen op `l2l-i18n.js?v=80`.
+- Prijsblok zegt nu wat het echt kost: "Wat je hier ziet, is wat je per maand betaalt", geen opstartkosten en geen losse rekeningen, met wat erin zit. Onder elke prijs staat "per maand all-in, geen eenmalige kosten". De zin over zeven dagen per week is uit de intro (staat nog in de vergelijking).
+- Engels in `assets/i18n/l2l-i18n-data.js`, de homepage en de vier artikelen op `l2l-i18n.js?v=80`.
 - link2leads.co: zelfde opmaak en tabel weg, en nieuwe prijzen van 20% boven de europrijzen: Growth $1,595, Scale $2,195, Pro $2,695 (was $2,495, $3,495 en $4,495). Ponden £1,195, £1,695 en £1,995. Add-ons: Hyper-personalisation $425 en $545, LinkedIn $425, Full Service $725 en $965.
 
 **25 november 2026: drie pakketten in plaats van vier**

@@ -13529,5 +13529,11 @@ window.L2L_I18N_DATA = {
 },
 "Wij zijn Link2Leads, een Nederlands cold-e-mailbureau. Een uitbesteed e-mailkanaal kost bij ons € 15.500 tot € 26.000 per jaar. Een eigen SDR kost in het eerste jaar € 69.000 tot € 83.000, inclusief werkgeverslasten en tooling.": {
 "en": "We are Link2Leads, a Dutch cold email agency. An outsourced email channel costs EUR 15,500 to EUR 26,000 per year with us. An in-house SDR costs EUR 69,000 to EUR 83,000 in the first year, including employer costs and tooling."
+},
+"Wat je hier ziet, is wat je per maand betaalt. Geen opstartkosten en geen losse rekeningen: leads, teksten, domeinen, mailboxen, software en je persoonlijke omgeving zitten erin. Minimaal drie maanden, daarna maandelijks opzegbaar.": {
+"en": "What you see here is what you pay per month. No setup costs and no separate bills: leads, copy, domains, mailboxes, software and your personal environment are included. Three months minimum, then cancellable monthly."
+},
+"per maand all-in, geen eenmalige kosten": {
+"en": "per month all-in, no one-off costs"
 }
 };
