@@ -13535,5 +13535,23 @@ window.L2L_I18N_DATA = {
 },
 "per maand all-in, geen eenmalige kosten": {
 "en": "per month all-in, no one-off costs"
+},
+"Twee campagnes tegelijk": {
+"en": "Two campaigns at once"
+},
+"Drie campagnes tegelijk": {
+"en": "Three campaigns at once"
+},
+"Vijf campagnes tegelijk": {
+"en": "Five campaigns at once"
+},
+"Twee campagnes": {
+"en": "Two campaigns"
+},
+"Drie campagnes": {
+"en": "Three campaigns"
+},
+"Vijf campagnes": {
+"en": "Five campaigns"
 }
 };
