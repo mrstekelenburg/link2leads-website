@@ -131,7 +131,9 @@ module.exports = async (req, res) => {
   const keuze = String(b.route || 'auto');
   // 'auto' probeert alleen Microsoft. SMTP (het info@-account van de site) alleen op uitdrukkelijk verzoek,
   // want die route kan de afzender niet garanderen.
-  const volgorde = routes[keuze] ? [keuze] : ['graph-eigen', 'graph-alias'];
+  // 25-11-2026: eerst 'graph-alias' (verstuurd uit de mailbox van Demi, afzender blijft reacties@), zodat elke
+  // doorgestuurde reactie net als bij Make in Demi's Verzonden items staat. Lukt dat niet, dan 'graph-eigen'.
+  const volgorde = routes[keuze] ? [keuze] : ['graph-alias', 'graph-eigen'];
   const pogingen = [];
   for (const r of volgorde) {
     try {
