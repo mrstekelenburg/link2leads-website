@@ -1560,7 +1560,6 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
   .tl-item { grid-template-columns:80px 1fr; gap:28px; }
 
   .who-grid { grid-template-columns:1fr; }
-  .pricing-grid { grid-template-columns:1fr; max-width:520px; }
   .team-card { flex-basis:300px; }
   .foot-top { grid-template-columns:1fr 1fr; gap:36px 40px; }
   .spots { gap:32px; }
@@ -1582,6 +1581,23 @@ nav.nav-collapsed .nav-inner { padding:8px 8px 8px 18px; }
 }
 
 /* ═══════════ RESPONSIVE MOBILE (max 768px) ═══════════ */
+/* Pakketkaarten: op halve schermbreedte met z'n drieën naast elkaar, compacter; pas op telefoonbreedte onder elkaar */
+@media (min-width:761px) and (max-width:1024px) {
+  .pricing-grid { grid-template-columns:repeat(3,1fr); gap:12px; max-width:none; }
+  .p-card { padding:26px 16px; }
+  .p-name { font-size:17px; }
+  .p-tagline { font-size:13.5px; min-height:63px; margin-bottom:14px; }
+  .p-price { font-size:34px; letter-spacing:-1.5px; }
+  .p-period { font-size:12.5px; }
+  .p-volume { font-size:13px; padding-left:6px; padding-right:6px; }
+  .p-volume-sub { font-size:12px; }
+  .p-features { gap:9px; }
+  .p-features li { font-size:13px; gap:7px; }
+  .p-btn { font-size:13.5px; padding:12px 8px; }
+}
+@media (max-width:760px) {
+  .pricing-grid { grid-template-columns:1fr; max-width:520px; }
+}
 @media (max-width:768px) {
   nav {
     top:12px;

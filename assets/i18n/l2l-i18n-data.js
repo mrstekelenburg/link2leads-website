@@ -13499,5 +13499,35 @@ window.L2L_I18N_DATA = {
 },
 "Pro, € 2.195": {
 "en": "Pro, EUR 2,195"
+},
+"Een volledig uitgevoerde cold-e-mailcampagne kost bij ons tussen € 1.295 en € 2.195 per maand, afhankelijk van het pakket. Dat is": {
+"en": "A fully executed cold email campaign costs between EUR 1,295 and EUR 2,195 per month with us, depending on the package. That is"
+},
+"€ 15.500 tot € 26.000 per jaar": {
+"en": "EUR 15,500 to EUR 26,000 per year"
+},
+"Zit je gemiddelde klantwaarde op € 3.000 en sluit je een op de vijf gesprekken, dan is elk gesprek € 600 waard. Bij een uitbesteed traject van € 1.795 per maand heb je dan drie gesprekken per maand nodig om quitte te draaien. Bij een SDR van € 6.300 per maand heb je er elf nodig.": {
+"en": "If your average customer value is EUR 3,000 and you close one in five conversations, each conversation is worth EUR 600. With an outsourced engagement at EUR 1,795 per month you then need three conversations a month to break even. With an SDR at EUR 6,300 per month you need eleven."
+},
+"In absolute kosten wel: € 15.500 tot € 26.000 per jaar tegenover € 69.000 tot € 83.000. Maar het is geen gelijke vergelijking: een SDR kan ook bellen, opvolgen en lauwe reacties warm praten, en die capaciteit blijft in huis. Uitbesteden koopt je snelheid en beperkt risico, niet dezelfde functie.": {
+"en": "In absolute cost, yes: EUR 15,500 to EUR 26,000 per year against EUR 69,000 to EUR 83,000. But it is not a like-for-like comparison: an SDR can also call, follow up and talk lukewarm replies warm, and that capacity stays in-house. Outsourcing buys you speed and limits risk, not the same role."
+},
+"Neem een uitbesteed e-mailtraject van € 1.795 per maand. Levert dat 45 positieve reacties op, dan is dat € 40 per reactie. Levert het er 15 op, dan is het € 120. Zet daar een SDR naast op € 6.300 per maand die 25 gesprekken voert: € 252 per gesprek, plus de maanden waarin hij nog wordt ingewerkt.": {
+"en": "Take an outsourced email programme of € 1,795 per month. If that produces 45 positive replies, that is € 40 per reply. If it produces 15, it is € 120. Put an SDR next to that at € 6,300 per month who has 25 conversations: € 252 per conversation, plus the months in which they are still being trained."
+},
+"Vul daarna je eigen conversie in. Sluit je een op de vijf gesprekken en is een klant gemiddeld € 3.000 waard, dan is elk gesprek € 600 waard. Bij € 120 per reactie verdien je een traject van € 1.795 terug bij drie gesprekken per maand.": {
+"en": "Then fill in your own conversion. If you close one in five conversations and a customer is worth € 3,000 on average, every conversation is worth € 600. At € 120 per reply you earn back a programme of € 1,795 with three conversations per month."
+},
+"Je koopt een pakket, je weet hoeveel er per dag uitgaat, en de factuur is elke maand hetzelfde. In Nederland liggen de gepubliceerde maandbedragen tussen € 995 en € 2.200, afhankelijk van het pakket en van wat erin zit.": {
+"en": "You buy a package, you know how much goes out per day, and the invoice is the same every month. In the Netherlands the published monthly fees run from EUR 995 to EUR 2,200, depending on the package and on what is included."
+},
+"Neem een bureau op € 1.795 per maand. Komen daar 45 positieve reacties uit, dan is dat € 40 per positieve reactie. Komen er 15 uit, dan is het € 120. Zet daar een resultaatmodel naast van € 500 vast plus € 125 per reactie: bij 15 reacties kost dat € 2.375, oftewel € 158 per reactie. Bij 45 reacties zou het € 6.125 kosten, en daarom zit er een plafond op.": {
+"en": "Take an agency at EUR 1,795 per month. If that produces 45 positive replies, that is EUR 40 per positive reply. If it produces 15, it is EUR 120. Set a result-based model next to that of EUR 500 fixed plus EUR 125 per reply: at 15 replies that costs EUR 2,375, or EUR 158 per reply. At 45 replies it would cost EUR 6,125, and that is why there is a cap."
+},
+"Twee bureaus met hetzelfde maandbedrag en hetzelfde dagvolume leveren niet hetzelfde. Wie alleen op werkdagen verstuurt, komt op gemiddeld 22 verzenddagen per maand; wie zeven dagen per week verstuurt, komt op 30. Dat is ruim een derde verschil in bereikte bedrijven, voor precies dezelfde factuur. Vraag dus niet alleen naar het aantal mails per dag, maar naar het aantal mails per maand.": {
+"en": "Two agencies with the same monthly fee and the same daily volume do not deliver the same thing. Sending only on working days comes to an average of 22 sending days a month; sending seven days a week comes to 30. That is a difference of more than a third in companies reached, for exactly the same invoice. So do not just ask how many emails go out per day, ask how many go out per month."
+},
+"Wij zijn Link2Leads, een Nederlands cold-e-mailbureau. Een uitbesteed e-mailkanaal kost bij ons € 15.500 tot € 26.000 per jaar. Een eigen SDR kost in het eerste jaar € 69.000 tot € 83.000, inclusief werkgeverslasten en tooling.": {
+"en": "We are Link2Leads, a Dutch cold email agency. An outsourced email channel costs EUR 15,500 to EUR 26,000 per year with us. An in-house SDR costs EUR 69,000 to EUR 83,000 in the first year, including employer costs and tooling."
 }
 };
