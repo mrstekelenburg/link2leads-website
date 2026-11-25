@@ -1,3 +1,7 @@
+**25 november 2026: vergelijkingstabel ingekort**
+- Alle teksten in de tabel "Link2Leads tegenover andere bureaus" zijn ingekort tot één korte zin per vak, zodat de tabel op halve schermbreedte rustig blijft.
+- Engels in `assets/i18n/l2l-i18n-data.js`, homepage op `l2l-i18n.js?v=82`. Zelfde op link2leads.co.
+
 **25 november 2026: campagnes in plaats van doelgroepen, witte labels in de vergelijking**
 - In het blauwe vak op de pakketkaarten en in de samensteller staat nu "Twee, Drie, Vijf campagnes (tegelijk)". De ondertitel van de kaart blijft over doelgroepen gaan.
 - De labels links in de vergelijkingstabel (Meer bereik, Persoonlijke benadering, enzovoort) zijn wit.

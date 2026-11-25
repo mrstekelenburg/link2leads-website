@@ -13553,5 +13553,47 @@ window.L2L_I18N_DATA = {
 },
 "Vijf campagnes": {
 "en": "Five campaigns"
+},
+"Zeven dagen per week, tot 30.000 mails per maand.": {
+"en": "Seven days a week, up to 30,000 emails per month."
+},
+"Meestal alleen op werkdagen.": {
+"en": "Usually weekdays only."
+},
+"Eigen mails per doelgroep. Openingszin en pagina per prospect mogelijk.": {
+"en": "Separate emails per audience. Opening line and page per prospect available."
+},
+"Alleen voornaam en bedrijfsnaam.": {
+"en": "First name and company name only."
+},
+"Op doelgroep en signalen, zoals vacatures.": {
+"en": "On audience and signals, such as job openings."
+},
+"Eén tekst voor de hele lijst.": {
+"en": "One message for the whole list."
+},
+"We lezen elke reactie zelf.": {
+"en": "We read every reply ourselves."
+},
+"Automatisch gelabeld.": {
+"en": "Auto-labelled."
+},
+"Eigen omgeving met planning, leadlijst en cijfers.": {
+"en": "Your own workspace with timeline, lead list and numbers."
+},
+"Losse mails en Excelbestanden.": {
+"en": "Separate emails and Excel files."
+},
+"Domeinen, mailboxen en software inbegrepen. Geen opstartkosten.": {
+"en": "Domains, mailboxes and software included. No setup fees."
+},
+"Vaak opstart- en toolingkosten.": {
+"en": "Often setup and tooling fees."
+},
+"Op Scale en Pro een minimumaantal positieve reacties, vooraf afgesproken.": {
+"en": "On Scale and Pro a minimum number of positive replies, agreed in advance."
+},
+"Zelden.": {
+"en": "Rarely."
 }
 };
