@@ -1,5 +1,6 @@
 **25 november 2026: vergelijkingstabel ingekort**
 - Alle teksten in de tabel "Link2Leads tegenover andere bureaus" zijn ingekort tot één korte zin per vak, zodat de tabel op halve schermbreedte rustig blijft.
+- Vanaf tabletbreedte zijn de blauwe icoontjes voor de onderwerpen en de oranje en rode tekens in de kolom "Andere bureaus" weg. De groene vinkjes bij Link2Leads blijven. Mobiel is ongewijzigd.
 - Engels in `assets/i18n/l2l-i18n-data.js`, homepage op `l2l-i18n.js?v=82`. Zelfde op link2leads.co.
 
 **25 november 2026: campagnes in plaats van doelgroepen, witte labels in de vergelijking**
