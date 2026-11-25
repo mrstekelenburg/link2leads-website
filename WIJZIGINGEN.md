@@ -1,3 +1,12 @@
+**25 november 2026: drie pakketten in plaats van vier**
+- Starter is weg. Nieuwe pakketten: Growth € 1.295 (twee doelgroepen, 150 mails per dag, 4.500 per maand), Scale € 1.795 (drie doelgroepen, 400 per dag, 12.000 per maand, garantie op positieve reacties) en Pro € 2.195 (vijf doelgroepen, 1.000 per dag, 30.000 per maand, garantie, Hyperpersonalisatie inbegrepen). Bestaande klanten houden hun prijs.
+- Pakketkaarten openen met het aantal doelgroepen; het volume staat er als kleine regel onder. Drie kaarten naast elkaar, op telefoon onder elkaar.
+- Samensteller en /book: drie pakketten, Hyperpersonalisatie + € 350 op Growth, + € 450 op Scale en "Inbegrepen" op Pro (aangevinkt, niet uit te zetten). LinkedIn en Full Service ongewijzigd.
+- "Vanaf € 995" is overal "vanaf € 1.295" (meta-beschrijvingen, branchepagina's, /leads). Schema.org op de homepage: drie aanbiedingen, 1.295 tot 2.195.
+- Prijzen, volumes en tabellen bijgewerkt op energie, industrie, leadgeneratie-amsterdam, cold-email-bureaus-nederland (prijs per 1.000 mails opnieuw gerekend: € 288, € 150, € 73), de calculator, llms.txt en elf kennisartikelen. llms-full.txt bouwt zichzelf opnieuw op na de merge.
+- Bewust niet aangepast: de cases (historische bedragen, Scale € 1.695) en de marktcijfers in de kostenartikelen (marktstaffel van 2 september, voorbeeld "bureau op € 1.695 voor 15.000 mails", "vanaf rond € 995 in de markt").
+- Engels in `assets/i18n/l2l-i18n-data.js`, alle gewijzigde pagina's op `l2l-i18n.js?v=79`. Zelfde op link2leads.co, daar met de bestaande dollar- en pondprijzen van Growth, Scale en Pro.
+
 **24 november 2026: homepage korter en concreter**
 - Prijsblok: "Wat zit er in de prijs?", "Duidelijke afspraken, geen verrassingen" en "Meer bereik voor hetzelfde maandbedrag" (met tabel) weg. Het 7-dagen-argument staat als één zin in de intro boven de pakketten. "Wat is een positieve reactie?" staat nu onderin het garantieblok.
 - Ondertitels van de pakketten zeggen voor wie het pakket is (aantal doelgroepen en marktgrootte) in plaats van algemene zinnen.
