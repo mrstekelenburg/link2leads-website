@@ -1,3 +1,8 @@
+**25 november 2026: inkoopfacturen uit mail zonder Make**
+- Nieuw: `api/inkoopfacturen.js`. Zet pdf-facturen uit de postvakken demi@, info@ en anneroos@ in de boekhoudmap op OneDrive, met dezelfde regels als de drie Make-scenario's. Supabase roept het elke ochtend aan.
+- Nodig in Entra op de app van de site: Mail.Read en Files.ReadWrite.All (toepassingsmachtigingen).
+- Verschil met Make: de map volgt nu ook het jaar (vanaf januari 2027 `2027 kwartaal/Q1 2027/Inkoop/Uit mail`), en eigen verkoopfacturen worden voor elk jaar overgeslagen.
+
 **25 november 2026: vergelijkingstabel ingekort**
 - Alle teksten in de tabel "Link2Leads tegenover andere bureaus" zijn ingekort tot één korte zin per vak, zodat de tabel op halve schermbreedte rustig blijft.
 - Vanaf tabletbreedte zijn de blauwe icoontjes voor de onderwerpen en de oranje en rode tekens in de kolom "Andere bureaus" weg. De groene vinkjes bij Link2Leads blijven. Mobiel is ongewijzigd.
