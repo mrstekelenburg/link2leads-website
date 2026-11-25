@@ -196,7 +196,8 @@ var T = {
   hi:'Hi {n}',
   titel:'Jullie campagne bij {b}',
   sub:'Dit is jullie persoonlijke omgeving: alles voor de campagne staat hier op één plek. Kijk het rustig na en geef per onderdeel akkoord of feedback. Wij gaan er direct mee verder.',
-  t_overzicht:'Overzicht', t_domeinen:'Domeinen', t_leads:'Leads', t_copy:'Copy', t_vragenlijst:'Vragenlijst', t_updates:'Updates en cijfers', t_uitbreiden:'Uitbreiden',
+  t_overzicht:'Overzicht', t_domeinen:'Domeinen', t_leads:'Leads', t_copy:'Copy', t_vragenlijst:'Vragenlijst', t_updates:'Updates en cijfers', t_uitbreiden:'Uitbreiden', t_linkedin:'LinkedIn',
+  li_titel:'LinkedIn-koppeling', li_intro:'Naast de mail benaderen we dezelfde bedrijven via LinkedIn. Daarvoor koppel je zelf je LinkedIn-account, zodat de connectieverzoeken en berichten uit jouw naam gaan.', li_acc:'Accounts die we koppelen', li_binnenkort:'Binnenkort koppel je hier je LinkedIn-account. Je krijgt een mailtje zodra de link klaarstaat.', li_knop:'Koppel je LinkedIn-account', li_klaar:'De link staat klaar. Log in en koppel je account, daarna zetten wij de rest in gang.', li_ok:'Gekoppeld', li_ok_tekst:'Je account is gekoppeld, dank je.',
   ov_titel:'Zo staat jullie campagne ervoor', ov_leeg:'Er wacht nu niets op jou. Zodra er iets nieuws klaarstaat, krijg je een mailtje.',
   stap_ovk:'Overeenkomst', stap_fact:'Factuur', sx_ovk_maken:'We maken de overeenkomst voor je klaar.', sx_ovk_verstuurd:'Staat klaar om te ondertekenen.', sx_ovk_ok:'Ondertekend, dank je.', ovk_knop:'Ondertekenen',
   sx_fact_wacht:'Volgt zodra de overeenkomst is ondertekend.', sx_fact_open:'Factuur {n} van {b} is verstuurd. Nog {d} dagen tot de vervaldatum.', sx_fact_vandaag:'Factuur {n} van {b} vervalt vandaag.', sx_fact_over:'Factuur {n} van {b} staat nog open, de vervaldatum was {v}.', sx_fact_ok:'Betaald, dank je.', betaal_knop:'Betaal nu',
@@ -242,7 +243,8 @@ var T = {
   hi:'Hi {n}',
   titel:'Your campaign with {b}',
   sub:'This is your personal workspace, with everything for your campaign in one place. Take your time to review it and approve each part or give feedback. We pick it up straight away.',
-  t_overzicht:'Overview', t_domeinen:'Domains', t_leads:'Leads', t_copy:'Copy', t_vragenlijst:'Questionnaire', t_updates:'Updates and numbers', t_uitbreiden:'Expand',
+  t_overzicht:'Overview', t_domeinen:'Domains', t_leads:'Leads', t_copy:'Copy', t_vragenlijst:'Questionnaire', t_updates:'Updates and numbers', t_uitbreiden:'Expand', t_linkedin:'LinkedIn',
+  li_titel:'LinkedIn connection', li_intro:'Besides email, we reach the same companies on LinkedIn. You connect your LinkedIn account yourself, so the connection requests and messages are sent in your name.', li_acc:'Accounts we connect', li_binnenkort:'Soon you will be able to connect your LinkedIn account here. We will email you as soon as the link is ready.', li_knop:'Connect your LinkedIn account', li_klaar:'The link is ready. Log in and connect your account, and we will take it from there.', li_ok:'Connected', li_ok_tekst:'Your account is connected, thank you.',
   ov_titel:'Where your campaign stands', ov_leeg:'Nothing is waiting for you right now. As soon as something new is ready, we will send you an email.',
   stap_ovk:'Agreement', stap_fact:'Invoice', sx_ovk_maken:'We are preparing your agreement.', sx_ovk_verstuurd:'Ready for you to sign.', sx_ovk_ok:'Signed, thank you.', ovk_knop:'Sign',
   sx_fact_wacht:'Follows once the agreement has been signed.', sx_fact_open:'Invoice {n} of {b} has been sent. {d} days until the due date.', sx_fact_vandaag:'Invoice {n} of {b} is due today.', sx_fact_over:'Invoice {n} of {b} is still open, the due date was {v}.', sx_fact_ok:'Paid, thank you.', betaal_knop:'Pay now',
@@ -426,7 +428,9 @@ function reviewBlok(){
 }
 
 /* ── Secties ─────────────────────────────────────────────────── */
-var SECS = ['overzicht','vragenlijst','domeinen','leads','copy','updates','uitbreiden'];
+var SECS = ['overzicht','vragenlijst','domeinen','leads','copy','linkedin','updates','uitbreiden'];
+/* LinkedIn-tab alleen als er een item van soort linkedin voor deze klant staat. */
+function secs(){ return SECS.filter(function(x){ return x !== 'linkedin' || (D && items('linkedin').length); }); }
 
 function secOverzicht(){
   var s = el('div');
@@ -684,10 +688,30 @@ function secUpdates(){
   return s;
 }
 
+function secLinkedin(){
+  var s = el('div'); s.appendChild(el('h2',{text:t('t_linkedin')}));
+  items('linkedin').forEach(function(i){
+    var x = i.inhoud || {}, ok = i.status === 'akkoord';
+    var link = /^https:\/\//.test(x.link || '') ? x.link : '';
+    var c = el('div',{cls:'card'});
+    c.appendChild(el('div',{cls:'row'},[el('h3',{text:i.titel || t('li_titel')}), ok ? el('span',{cls:'pill ok',text:t('li_ok')}) : null]));
+    c.appendChild(el('p',{cls:'lead',text:x.tekst || t('li_intro')}));
+    if ((x.accounts||[]).length){ c.appendChild(el('div',{cls:'muted',text:t('li_acc')})); var u = el('ul',{cls:'list'}); x.accounts.forEach(function(a){ u.appendChild(el('li',{text:a})); }); c.appendChild(u); }
+    if (ok) c.appendChild(el('p',{cls:'muted',text:t('li_ok_tekst')}));
+    else if (link) {
+      c.appendChild(el('p',{cls:'muted',text:t('li_klaar')}));
+      var a = el('a',{cls:'btn p', href:link, target:'_blank', rel:'noopener noreferrer', text:t('li_knop')}); a.style.textDecoration='none'; a.style.display='inline-block'; a.style.marginTop='12px';
+      c.appendChild(a);
+    } else c.appendChild(el('p',{cls:'empty',text:t('li_binnenkort')}));
+    s.appendChild(c);
+  });
+  return s;
+}
+
 function secUitbreiden(){
   var s = el('div'); s.appendChild(el('h2',{text:t('ub_titel')})); s.appendChild(el('p',{cls:'lead',text:t('ub_sub')}));
   var g = el('div',{cls:'opts'});
-  ['linkedin','personalisatie','volume','setter'].forEach(function(o){
+  ['linkedin','personalisatie','volume','setter'].filter(function(o){ return o !== 'linkedin' || !items('linkedin').length; }).forEach(function(o){
     var al = (D.interesse || []).indexOf(o) > -1;
     var b = el('button',{cls: al ? 'btn g' : 'btn p', text: al ? t('ub_al') : t('ub_knop')});
     if (al) b.disabled = true;
@@ -702,7 +726,7 @@ function secUitbreiden(){
   return s;
 }
 
-var MAKERS = {overzicht:secOverzicht, domeinen:secDomeinen, leads:secLeads, copy:secCopy, vragenlijst:secVragenlijst, updates:secUpdates, uitbreiden:secUitbreiden};
+var MAKERS = {overzicht:secOverzicht, domeinen:secDomeinen, leads:secLeads, copy:secCopy, vragenlijst:secVragenlijst, linkedin:secLinkedin, updates:secUpdates, uitbreiden:secUitbreiden};
 
 function ga(nt){ tab = nt; try { history.replaceState(null, '', '#' + nt); } catch(e){} render(); window.scrollTo({top:0, behavior:'smooth'}); }
 
@@ -730,7 +754,7 @@ function render(){
   app.appendChild(h);
   app.appendChild(el('p',{cls:'sub',text:t('sub')}));
   var tabs = el('div',{cls:'tabs'});
-  SECS.forEach(function(sname){
+  secs().forEach(function(sname){
     var n = ['domeinen','leads','copy'].indexOf(sname) > -1 ? openCount(sname) : 0;
     if (sname === 'overzicht') n = openCount('domeinen') + openCount('leads') + openCount('copy') + ((D.traject||{}).factuur === 'verstuurd' ? 1 : 0) + ((D.traject||{}).overeenkomst === 'verstuurd' ? 1 : 0);
     var b = el('button',{cls:'tab' + (tab === sname ? ' on' : ''), onclick:function(){ ga(sname); }},[t('t_'+sname)]);
@@ -739,7 +763,8 @@ function render(){
     tabs.appendChild(b);
   });
   app.appendChild(tabs);
-  SECS.forEach(function(sname){
+  if (secs().indexOf(tab) < 0) tab = 'overzicht';
+  secs().forEach(function(sname){
     var sec = el('section',{cls:'sec' + (tab === sname ? ' on' : '')});
     if (tab === sname) sec.appendChild(MAKERS[sname]());
     app.appendChild(sec);

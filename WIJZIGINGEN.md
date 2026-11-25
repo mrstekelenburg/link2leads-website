@@ -1,3 +1,9 @@
+**25 november 2026: tabblad LinkedIn op de campagnepagina**
+- Nieuw tabblad LinkedIn op `link2leads.nl/campagne/[code]`, alleen zichtbaar bij klanten die LinkedIn afnemen. Zonder link staat er dat de klant daar binnenkort zijn LinkedIn-account koppelt; met link staat er de knop "Koppel je LinkedIn-account"; na het koppelen staat er "Gekoppeld".
+- Werkt via een regel in `klantpagina_items` met soort `linkedin`: `inhoud.accounts` (namen), `inhoud.link` (https-link naar de koppeling, mag leeg), status `info` of `akkoord` (gekoppeld). De naam van de tool staat nergens op de pagina.
+- Heeft de klant LinkedIn al, dan staat "LinkedIn erbij" niet meer onder Uitbreiden.
+- NL en EN ingebouwd in `campagne.html`. Zelfde op link2leads.co.
+
 **25 november 2026: inkoopfacturen uit mail zonder Make**
 - Nieuw: `api/inkoopfacturen.js`. Zet pdf-facturen uit de postvakken demi@, info@ en anneroos@ in de boekhoudmap op OneDrive, met dezelfde regels als de drie Make-scenario's. Supabase roept het elke ochtend aan.
 - Nodig in Entra op de app van de site: Mail.Read en Files.ReadWrite.All (toepassingsmachtigingen).
