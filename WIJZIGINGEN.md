@@ -1,3 +1,8 @@
+**25 november 2026: campagnes in plaats van doelgroepen, witte labels in de vergelijking**
+- In het blauwe vak op de pakketkaarten en in de samensteller staat nu "Twee, Drie, Vijf campagnes (tegelijk)". De ondertitel van de kaart blijft over doelgroepen gaan.
+- De labels links in de vergelijkingstabel (Meer bereik, Persoonlijke benadering, enzovoort) zijn wit.
+- Engels in `assets/i18n/l2l-i18n-data.js`, homepage op `l2l-i18n.js?v=81`. Zelfde op link2leads.co.
+
 **25 november 2026: pakketkaarten naast elkaar op halve schermbreedte, volumevergelijkingen weg**
 - Pakketkaarten staan tussen 761 en 1024 pixels breed met z'n drieën naast elkaar, in een compactere opmaak. Pas daaronder staan ze onder elkaar.
 - cold-email-bureaus-nederland: de tabel "prijs per 1.000 mails" en de zin die ernaar verwees zijn weg. Het punt over 22 tegen 30 verzenddagen blijft staan.
