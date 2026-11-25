@@ -1560,7 +1560,6 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
   .tl-item { grid-template-columns:80px 1fr; gap:28px; }
 
   .who-grid { grid-template-columns:1fr; }
-  .pricing-grid { grid-template-columns:1fr; max-width:520px; }
   .team-card { flex-basis:300px; }
   .foot-top { grid-template-columns:1fr 1fr; gap:36px 40px; }
   .spots { gap:32px; }
@@ -1582,6 +1581,23 @@ nav.nav-collapsed .nav-inner { padding:8px 8px 8px 18px; }
 }
 
 /* ═══════════ RESPONSIVE MOBILE (max 768px) ═══════════ */
+/* Pakketkaarten: op halve schermbreedte met z'n drieën naast elkaar, compacter; pas op telefoonbreedte onder elkaar */
+@media (min-width:761px) and (max-width:1024px) {
+  .pricing-grid { grid-template-columns:repeat(3,1fr); gap:12px; max-width:none; }
+  .p-card { padding:26px 16px; }
+  .p-name { font-size:17px; }
+  .p-tagline { font-size:13.5px; min-height:63px; margin-bottom:14px; }
+  .p-price { font-size:34px; letter-spacing:-1.5px; }
+  .p-period { font-size:12.5px; }
+  .p-volume { font-size:13px; padding-left:6px; padding-right:6px; }
+  .p-volume-sub { font-size:12px; }
+  .p-features { gap:9px; }
+  .p-features li { font-size:13px; gap:7px; }
+  .p-btn { font-size:13.5px; padding:12px 8px; }
+}
+@media (max-width:760px) {
+  .pricing-grid { grid-template-columns:1fr; max-width:520px; }
+}
 @media (max-width:768px) {
   nav {
     top:12px;
@@ -3260,14 +3276,14 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <div class="pricing-inner">
 <div class="pricing-header reveal">
 <h2 class="big-h">Wat het kost, en<br/><span class="blue">wat je daarvoor krijgt.</span></h2>
-<p class="big-sub">Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar. Wij versturen zeven dagen per week, dat is ongeveer 36% meer bereik dan alleen op werkdagen. <a href="#vergelijk" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">Vergelijk ons met andere bureaus →</a></p>
+<p class="big-sub">Wat je hier ziet, is wat je per maand betaalt. Geen opstartkosten en geen losse rekeningen: leads, teksten, domeinen, mailboxen, software en je persoonlijke omgeving zitten erin. Minimaal drie maanden, daarna maandelijks opzegbaar. <a href="#vergelijk" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">Vergelijk ons met andere bureaus →</a></p>
 </div>
 <div class="pricing-grid">
 <div class="p-card reveal">
 <div class="p-name">Growth</div>
 <div class="p-tagline">Voor twee doelgroepen in een afgebakende markt</div>
 <div class="p-price">€1.295</div>
-<div class="p-period">per maand, volledig beheerd</div>
+<div class="p-period">per maand all-in, geen eenmalige kosten</div>
 <div class="p-volume">Twee doelgroepen tegelijk</div>
 <div class="p-volume-sub"><b>150 mails per dag</b>, 30 verzenddagen &middot;&nbsp;±&nbsp;1.500 nieuwe bedrijven</div>
 <div class="p-line"></div>
@@ -3284,7 +3300,7 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <div class="p-name">Scale</div>
 <div class="p-tagline">Voor drie doelgroepen, met garantie op positieve reacties</div>
 <div class="p-price">€1.795</div>
-<div class="p-period">per maand, volledig beheerd</div>
+<div class="p-period">per maand all-in, geen eenmalige kosten</div>
 <div class="p-volume">Drie doelgroepen tegelijk</div>
 <div class="p-volume-sub"><b>400 mails per dag</b>, 30 verzenddagen &middot;&nbsp;±&nbsp;4.000 nieuwe bedrijven</div>
 <div class="p-line"></div>
@@ -3302,7 +3318,7 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <div class="p-name">Pro</div>
 <div class="p-tagline">Voor vijf doelgroepen, met een eigen openingszin en pagina per prospect</div>
 <div class="p-price">€2.195</div>
-<div class="p-period">per maand, volledig beheerd</div>
+<div class="p-period">per maand all-in, geen eenmalige kosten</div>
 <div class="p-volume">Vijf doelgroepen tegelijk</div>
 <div class="p-volume-sub"><b>1.000 mails per dag</b>, 30 verzenddagen &middot;&nbsp;±&nbsp;10.000 nieuwe bedrijven</div>
 <div class="p-line"></div>
@@ -4263,7 +4279,7 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=79"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=80"></script>
 <script src="/assets/tracking.js?v=2"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
