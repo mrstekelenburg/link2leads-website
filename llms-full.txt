@@ -1,6 +1,6 @@
 # Link2Leads, volledige tekst van alle kennispagina's
 
-Laatst bijgewerkt: 24 november 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
+Laatst bijgewerkt: 25 november 2026. Samenvatting en bedrijfsgegevens: https://www.link2leads.nl/llms.txt
 Alle cijfers komen uit campagnes die Link2Leads namens klanten draait, gemeten op 2 september 2026.
 
 
@@ -239,41 +239,20 @@ wat je daarvoor krijgt.
 
 Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar. Wij versturen zeven dagen per week, dat is ongeveer 36% meer bereik dan alleen op werkdagen. Vergelijk ons met andere bureaus →
 
-Starter
-
-Voor één doelgroep van 1.000 tot 3.000 bedrijven
-
-€995
-
-per maand, volledig beheerd
-
-3.000 mails per maand
-
-100 per dag, 30 verzenddagen · ± 1.000 nieuwe bedrijven
-
-- Anne-Roos of Demi als vaste campagnemanager
-- Wij schrijven de mails
-- Eén afgebakende doelgroep
-- Garantie op genoeg leads
-- Garantie op je verzendvolume
-
-Doe de gratis fitcheck
-
 Growth
 
-Voor twee doelgroepen of een markt tot 7.500 bedrijven
+Voor twee doelgroepen in een afgebakende markt
 
 €1.295
 
 per maand, volledig beheerd
 
-7.500 mails per maand
+Twee doelgroepen tegelijk
 
-250 per dag, 30 verzenddagen · ± 2.500 nieuwe bedrijven
+150 mails per dag, 30 verzenddagen · ± 1.500 nieuwe bedrijven
 
 - Anne-Roos of Demi als vaste campagnemanager
 - Wij schrijven de mails
-- Twee doelgroepen tegelijk
 - Garantie op genoeg leads
 - Garantie op je verzendvolume
 
@@ -285,18 +264,17 @@ Scale
 
 Voor drie doelgroepen, met garantie op positieve reacties
 
-€1.695
+€1.795
 
 per maand, volledig beheerd
 
-15.000 mails per maand
+Drie doelgroepen tegelijk
 
-500 per dag, 30 verzenddagen · ± 5.000 nieuwe bedrijven
+400 mails per dag, 30 verzenddagen · ± 4.000 nieuwe bedrijven
 
 - Contractuele garantie op positieve reacties
 - Anne-Roos of Demi als vaste campagnemanager
 - Wij schrijven de mails
-- Drie doelgroepen tegelijk
 - Garantie op genoeg leads
 - Garantie op je verzendvolume
 - Full Service mogelijk
@@ -305,20 +283,20 @@ Doe de gratis fitcheck
 
 Pro
 
-Voor een markt van 10.000+ bedrijven, tot vijf doelgroepen
+Voor vijf doelgroepen, met een eigen openingszin en pagina per prospect
 
-€1.995
+€2.195
 
 per maand, volledig beheerd
 
-30.000 mails per maand
+Vijf doelgroepen tegelijk
 
-1.000 per dag, 30 verzenddagen · ± 10.000 nieuwe bedrijven
+1.000 mails per dag, 30 verzenddagen · ± 10.000 nieuwe bedrijven
 
 - Contractuele garantie op positieve reacties
+- Hyperpersonalisatie inbegrepen
 - Anne-Roos of Demi als vaste campagnemanager
 - Wij schrijven de mails
-- Vijf doelgroepen tegelijk
 - Garantie op genoeg leads
 - Garantie op je verzendvolume
 - Full Service mogelijk
@@ -337,7 +315,7 @@ Erbij, per maand
 
 Hyperpersonalisatie Elke prospect krijgt een openingszin over zijn eigen bedrijf en een eigen pagina op jouw domein. Bekijk wat het opleverde Hoi Martijn, zag dat jullie net een tweede vestiging in Breda hebben geopend. Met een link naar jouwdomein.nl/martijn-bakker + €450 LinkedIn erbij Dezelfde bedrijven die je mailt, krijgen ook een connectieverzoek en daarna een korte vraag vanuit jouw LinkedIn-profiel. Zo kennen ze je naam al als je mail binnenkomt. Connectieverzoek, daarna een korte vraag. Reageert iemand, dan gaat het gesprek verder in jouw eigen inbox + €350 Full Service Wij beantwoorden de reacties en zetten de afspraak in jouw agenda. Jij voert alleen nog het gesprek. Klinkt interessant, kun je volgende week even bellen? wordt: afspraak ingepland, donderdag 11:00 + €600
 
-Jouw campagne €1.695 per maand, exclusief btw, minimaal drie maanden per maand, excl. btw
+Jouw campagne €1.795 per maand, exclusief btw, minimaal drie maanden per maand, excl. btw
 
 Altijd inbegrepen
 
@@ -583,7 +561,7 @@ Deze pagina is van Link2Leads, dat zelf op 1 staat. Dat is onze redactionele aan
 ## De tien in een tabel
 
 #	Bureau	Best geschikt voor	Kanaal	Prijs op de site	Volume in contract	Publieke reviews
-1	Link2Leads	Vaste prijs, vastgelegd volume en resultaatgarantie	E-mail, LinkedIn erbij als add-on	€ 995 – € 1.995 p/m	Ja, minimum per maand	4,8 op Google
+1	Link2Leads	Vaste prijs, vastgelegd volume en resultaatgarantie	E-mail, LinkedIn erbij als add-on	€ 1.295 – € 2.195 p/m	Ja, minimum per maand	4,8 op Google
 2	FlintLead	Betalen per gekwalificeerde reactie, met plafond	Alleen e-mail	Volledig gepubliceerd	Nee	Geen gevonden
 3	Abalott	Resultaatbasis, prijs pas na gesprek	E-mail, LinkedIn, telefoon	Niet gepubliceerd	Nee	Geen gevonden
 4	Match-Day	Outbound plus het salesproces inrichten	Outbound plus CRM	Niet gepubliceerd	Nee, meetinggarantie	Cases op site
@@ -611,7 +589,7 @@ Wat er in het basispakket dus niet in zit: het volledig afhandelen van reacties 
 
 Prijs
 
-Starter € 995 p/m (100 mails per dag), Growth € 1.295 (250), Scale € 1.695 (500), Pro € 1.995 (1.000). Daarbovenop zijn drie add-ons: Hyperpersonalisatie op elk pakket (€ 300 tot € 550 p/m), LinkedIn erbij op elk pakket (€ 350 p/m) en Full Service op Scale en Pro (€ 600 en € 800 p/m). Eerste termijn drie maanden, vooruit gefactureerd. Op Scale en Pro geldt een resultaatgarantie op het aantal positieve reacties.
+Growth € 1.295 p/m (150 mails per dag), Scale € 1.795 (400), Pro € 2.195 (1.000). Daarbovenop zijn drie add-ons: Hyperpersonalisatie op Growth en Scale (€ 350 en € 450 p/m, inbegrepen in Pro), LinkedIn erbij op elk pakket (€ 350 p/m) en Full Service op Scale en Pro (€ 600 en € 800 p/m). Eerste termijn drie maanden, vooruit gefactureerd. Op Scale en Pro geldt een resultaatgarantie op het aantal positieve reacties.
 
 Waar het niet voor is
 
@@ -814,10 +792,9 @@ Een vast maandbedrag (1, 2 en 7) is voorspelbaar en betaal je ook in een slechte
 Twee bureaus met hetzelfde maandbedrag en hetzelfde dagvolume leveren niet hetzelfde. Wie alleen op werkdagen verstuurt, komt op gemiddeld 22 verzenddagen per maand; wie zeven dagen per week verstuurt, komt op 30. Dat is ruim een derde verschil in bereikte bedrijven, voor precies dezelfde factuur. Vraag dus niet alleen naar het aantal mails per dag, maar naar het aantal mails per maand, en reken het om naar een prijs per 1.000 mails. Ter illustratie onze eigen pakketten, die zeven dagen per week draaien, naast dezelfde bedragen bij 22 verzenddagen.
 
 Pakket	Per dag	Per maand bij 30 verzenddagen	Prijs per 1.000 mails	Dezelfde prijs bij 22 verzenddagen
-Starter, € 995	100	3.000	€ 332	€ 452
-Growth, € 1.295	250	7.500	€ 173	€ 235
-Scale, € 1.695	500	15.000	€ 113	€ 154
-Pro, € 1.995	1.000	30.000	€ 67	€ 91
+Growth, € 1.295	150	4.500	€ 288	€ 392
+Scale, € 1.795	400	12.000	€ 150	€ 204
+Pro, € 2.195	1.000	30.000	€ 73	€ 100
 
 Vraag er meteen achteraan of dat maandvolume ook als minimum in het contract staat, want anders is het een streefgetal.
 
@@ -841,7 +818,7 @@ Fouten en aanvullingen. Klopt er iets niet, is een bedrag verouderd, of ontbreek
 
 Wat kost cold email uitbesteden in Nederland?
 
-Van de tien partijen hier publiceren er drie een bedrag. Vaste pakketten bij Link2Leads lopen van € 995 tot € 1.995 per maand. Asphia begint bij $ 2.000 per maand. Bij resultaatmodellen hangt het bedrag af van wat er binnenkomt: FlintLead publiceert € 500 per maand plus € 125 per gekwalificeerde positieve reactie tot een afgesproken plafond, naast tooling en een eenmalige setup. De overige zeven noemen geen bedrag op hun site. Let per aanbieder op of setup, warmup en infrastructuur in de prijs zitten of apart komen, dat scheelt al snel € 100 tot € 200 per maand plus een eenmalig bedrag. De volledige rekensom staat in wat kost cold email uitbesteden.
+Van de tien partijen hier publiceren er drie een bedrag. Vaste pakketten bij Link2Leads lopen van € 1.295 tot € 2.195 per maand. Asphia begint bij $ 2.000 per maand. Bij resultaatmodellen hangt het bedrag af van wat er binnenkomt: FlintLead publiceert € 500 per maand plus € 125 per gekwalificeerde positieve reactie tot een afgesproken plafond, naast tooling en een eenmalige setup. De overige zeven noemen geen bedrag op hun site. Let per aanbieder op of setup, warmup en infrastructuur in de prijs zitten of apart komen, dat scheelt al snel € 100 tot € 200 per maand plus een eenmalig bedrag. De volledige rekensom staat in wat kost cold email uitbesteden.
 
 Mag koude e-mail in Nederland?
 
@@ -925,7 +902,7 @@ Je hoeft ook niet meteen te bellen. Een positieve reactie van nu kan prima een g
 
 Meestal is dat het eigenlijke bezwaar. De mails kunnen best de deur uit, maar wie gaat er opvolgen als iedereen al vol zit?
 
-Begin dan klein. Starter verstuurt 3.000 mails per maand voor € 995, zeven dagen per week. Dat geeft een volume dat naast een volle werkweek past, en je bouwt alvast de lijst en de teksten op die je later nodig hebt.
+Begin dan klein. Growth verstuurt 4.500 mails per maand voor € 1.295, zeven dagen per week. Dat geeft een volume dat naast een volle werkweek past, en je bouwt alvast de lijst en de teksten op die je later nodig hebt.
 
 Wil je het opvolgen helemaal uit handen geven, dan kan dat op Scale en Pro met de Full Service-module. Wij beantwoorden dan de reacties en zetten de afspraak direct in je agenda. Is er bij jou structureel niemand voor de opvolging, dan kan zusterbedrijf Link2Talent er een setter op zetten.
 
@@ -949,7 +926,7 @@ Ja. Je kunt een geïnteresseerde reactie beantwoorden met een voorstel voor een 
 
 Wat is het kleinste pakket?
 
-Starter: 3.000 mails per maand voor € 995, all-in. De eerste termijn is drie maanden, daarna is het maandelijks opzegbaar.
+Growth: 4.500 mails per maand voor € 1.295, all-in. De eerste termijn is drie maanden, daarna is het maandelijks opzegbaar.
 
 Kunnen jullie de afspraken voor mij inplannen?
 
@@ -991,7 +968,7 @@ Een bureau neemt vier dingen over: de lijst met bedrijven die je wilt bereiken, 
 
 De vraag die je eerst beantwoordt is niet welk bureau, maar of jouw markt groot genoeg is. Onder de duizend bedrijven in je doelgroep is een campagne binnen een paar weken door de lijst heen en betaal je voor capaciteit die je niet gebruikt.
 
-Link2Leads is zo’n bureau. Wij bouwen de lijst en schrijven de teksten, versturen vanaf onze eigen verzenddomeinen en leveren de positieve reacties in jouw mailbox. Een pakket kost € 995 tot € 1.995 per maand, all-in, met een minimale looptijd van drie maanden.
+Link2Leads is zo’n bureau. Wij bouwen de lijst en schrijven de teksten, versturen vanaf onze eigen verzenddomeinen en leveren de positieve reacties in jouw mailbox. Een pakket kost € 1.295 tot € 2.195 per maand, all-in, met een minimale looptijd van drie maanden.
 
 ## Wat je precies uitbesteedt
 
@@ -1019,10 +996,9 @@ Heb je geen tijd om reacties op te pakken, dan is dat een apart probleem met een
 De markt voor uitbestede e-mailacquisitie in Nederland ligt tussen de € 800 en € 2.000 per maand. Onze eigen pakketten:
 
 Pakket	Per maand	Mails per dag	Mails per maand	Bedrijven per maand
-Starter	€ 995	100	3.000	± 1.000
-Growth	€ 1.295	250	7.500	± 2.500
-Scale	€ 1.695	500	15.000	± 5.000
-Pro	€ 1.995	1.000	30.000	± 10.000
+Growth	€ 1.295	150	4.500	± 1.500
+Scale	€ 1.795	400	12.000	± 4.000
+Pro	€ 2.195	1.000	30.000	± 10.000
 
 Gerekend met zeven verzenddagen per week, dus 30 per maand, en drie mails per bedrijf (een eerste mail en twee opvolgmails). Bedragen exclusief btw, zonder setupfee en zonder aparte toolingrekening.
 
@@ -1063,7 +1039,7 @@ Zelf doen kan prima als je iemand hebt met tijd en kennis van bezorging, adresda
 
 Wat kost koude acquisitie uitbesteden per maand?
 
-In Nederland betaal je voor een volledig beheerd e-mailtraject doorgaans € 800 tot € 2.000 per maand. Onze eigen pakketten zijn € 995, € 1.295, € 1.695 en € 1.995 per maand, all-in en zonder setupfee. Telefonische acquisitie is duurder: daar reken je 150 tot 400 euro per geplande afspraak.
+In Nederland betaal je voor een volledig beheerd e-mailtraject doorgaans € 800 tot € 2.000 per maand. Onze eigen pakketten zijn € 1.295, € 1.795 en € 2.195 per maand, all-in en zonder setupfee. Telefonische acquisitie is duurder: daar reken je 150 tot 400 euro per geplande afspraak.
 
 Hoe snel levert het iets op?
 
@@ -1136,7 +1112,7 @@ Bij e-mail betaal je voor capaciteit, en de prijs per gesprek daalt naarmate je 
 
 ## Bereik per week
 
-Dit is het verschil dat de meeste mensen onderschatten. Eén beller haalt op een werkdag tussen de zestig en honderd pogingen, waarvan een deel niet opneemt. Een e-mailcampagne op ons Scale-pakket benadert 500 bedrijven per dag, zeven dagen per week, dus 15.000 mails per maand naar ongeveer 5.000 bedrijven.
+Dit is het verschil dat de meeste mensen onderschatten. Eén beller haalt op een werkdag tussen de zestig en honderd pogingen, waarvan een deel niet opneemt. Een e-mailcampagne op ons Scale-pakket verstuurt 400 mails per dag, zeven dagen per week, dus 12.000 mails per maand naar ongeveer 4.000 bedrijven.
 
 Dat maakt e-mail ook het enige kanaal waarmee je kunt testen. Met vijf segmenten naast elkaar zie je binnen een maand welk segment reageert. In een van onze campagnes van 18.594 contactpersonen liep de reply rate per segment uiteen van 2,3 tot 7,8 procent bij precies dezelfde tekst. Aan de telefoon duurt het maanden voordat je zoiets betrouwbaar weet.
 
@@ -1496,7 +1472,7 @@ Een doelgroep is zelden een enkele groep. Verkoop je aan installateurs en aan gr
 
 Daarom delen we de doelgroep op. Elk segment krijgt een eigen lijst en een eigen boodschap. Een van de cases op onze homepage laat zien waarom dat uitmaakt. Een bedrijf met drie soorten kopers had een campagne die niemand echt aansprak. Opgesplitst in drie campagnes, elk met een eigen lijst en boodschap, kwamen er binnen 14 dagen 15 positieve reacties binnen.
 
-Hoeveel segmenten tegelijk lopen, hangt af van je pakket. Starter draait op één afgebakende doelgroep, Growth op twee tegelijk, Scale op drie en Pro op vijf.
+Hoeveel segmenten tegelijk lopen, hangt af van je pakket. Growth draait op twee doelgroepen tegelijk, Scale op drie en Pro op vijf.
 
 Wat segmentatie in cijfers doet, zie je zodra de campagne loopt. In een van onze campagnes liep de reply rate per segment uiteen van 2,3 tot 7,8 procent, met precies dezelfde teksten. De uitwerking staat in hoeveel reacties je krijgt op 30.000 mails.
 
@@ -1542,7 +1518,7 @@ Ja. Je krijgt de lijst vooraf te zien en zet per regel ja of nee. Bestaande klan
 
 Hoeveel doelgroepen kunnen tegelijk lopen?
 
-Starter draait op één afgebakende doelgroep, Growth op twee tegelijk, Scale op drie en Pro op vijf. Elke doelgroep krijgt een eigen lijst en een eigen boodschap.
+Growth draait op twee doelgroepen tegelijk, Scale op drie en Pro op vijf. Elke doelgroep krijgt een eigen lijst en een eigen boodschap.
 
 Hoe groot moet mijn doelgroep zijn?
 
@@ -1730,7 +1706,7 @@ Betalen per resultaat bestaat ook. Waar je bij dat model op moet letten, staat i
 
 ## Wat er per pakket vastligt
 
-Op elk pakket liggen twee dingen vast. Het eerste is het verzendvolume: 3.000 mails per maand op Starter, 7.500 op Growth, 15.000 op Scale en 30.000 op Pro, zeven dagen per week. Het tweede is de lijst. We garanderen dat er genoeg geverifieerde contacten in je doelgroep zijn om dat volume te vullen. In de rapportage zie je elke maand hoeveel mails er werkelijk zijn verstuurd.
+Op elk pakket liggen twee dingen vast. Het eerste is het verzendvolume: 4.500 mails per maand op Growth, 12.000 op Scale en 30.000 op Pro, zeven dagen per week. Het tweede is de lijst. We garanderen dat er genoeg geverifieerde contacten in je doelgroep zijn om dat volume te vullen. In de rapportage zie je elke maand hoeveel mails er werkelijk zijn verstuurd.
 
 Op Scale en Pro komt daar een contractuele garantie op positieve reacties bij. Voor de start spreken we samen een realistisch minimum af, op basis van je doelgroep en je aanbod. Dat aantal komt in je contract, gerekend over drie campagnemaanden. De voorwaarden staan bij de pakketten op de homepage.
 
@@ -1762,7 +1738,7 @@ Wat telt als positieve reactie?
 
 Een reactie waar een commerciële kans uit kan ontstaan: interesse in een gesprek of demo, een vraag over prijs of mogelijkheden, een inhoudelijke vraag of een doorverwijzing naar de juiste persoon. Afwijzingen, afmeldingen en automatische antwoorden tellen niet mee.
 
-Wat ligt er vast op Starter en Growth?
+Wat ligt er vast op Growth?
 
 Het verzendvolume van je pakket en genoeg geverifieerde contacten om dat volume te vullen. De garantie op positieve reacties hoort bij Scale en Pro.
 
@@ -2402,13 +2378,13 @@ Ons antwoord: een positieve reactie is een vraag om een gesprek of demo, een vra
 
 Prijs op aanvraag betekent dat het bedrag afhangt van wat er over tafel gaat. Dat hoeft niet verkeerd te zijn, maar het maakt vergelijken onmogelijk en zet jou op achterstand. Let vooral op eenmalige opstartkosten, datakosten en tooling: die komen vaak pas in de offerte naar boven en schelen € 100 tot € 200 per maand plus een bedrag ineens.
 
-Ons antwoord: € 995, € 1.295, € 1.695 en € 1.995 per maand, all-in, geen setupfee en geen aparte toolingrekening. De add-ons staan er met hun prijs bij.
+Ons antwoord: € 1.295, € 1.795 en € 2.195 per maand, all-in, geen setupfee en geen aparte toolingrekening. De add-ons staan er met hun prijs bij.
 
 ### 3. Hoeveel wordt er per maand verstuurd, en staat dat in het contract?
 
 Bij een vast maandbedrag koop je in feite verzendcapaciteit. Vraag dus wat er gebeurt als er in week drie niets is verzonden. Vraag ook op hoeveel dagen per maand er wordt verstuurd: wie alleen op werkdagen mailt, zit op gemiddeld 22 dagen in plaats van 30, en dat is ruim een derde minder bereikte bedrijven voor dezelfde factuur.
 
-Ons antwoord: het maandvolume van je pakket staat in het contract: 3.000, 7.500, 15.000 of 30.000 verzonden mails. Zeven verzenddagen per week. Elke maand zie je het werkelijke aantal verzonden mails.
+Ons antwoord: het maandvolume van je pakket staat in het contract: 4.500, 12.000 of 30.000 verzonden mails. Zeven verzenddagen per week. Elke maand zie je het werkelijke aantal verzonden mails.
 
 ### 4. Vanaf welk domein wordt er verstuurd?
 
@@ -2640,7 +2616,7 @@ Je netwerk levert vaak je beste klanten op. Alleen bepaal jij niet wanneer er ie
 
 Het een vervangt het ander ook niet. Wie via het netwerk komt, blijft via het netwerk komen. Een campagne zorgt ervoor dat je daarnaast gesprekken voert met bedrijven die je anders nooit had gesproken.
 
-Bij Link2Leads begint dat met 3.000 mails per maand op Starter voor € 995. De eerste positieve reacties komen vaak al op de eerste dag na livegang binnen.
+Bij Link2Leads begint dat met 4.500 mails per maand op Growth voor € 1.295. De eerste positieve reacties komen vaak al op de eerste dag na livegang binnen.
 
 ## Waarom het netwerk zo goed werkt
 
@@ -2714,7 +2690,7 @@ De setup staat binnen 14 dagen, de campagne gaat in week 3 live en de eerste pos
 
 Wat is het kleinste pakket?
 
-Starter: 3.000 mails per maand voor € 995, all-in. De eerste termijn is drie maanden, daarna is het maandelijks opzegbaar.
+Growth: 4.500 mails per maand voor € 1.295, all-in. De eerste termijn is drie maanden, daarna is het maandelijks opzegbaar.
 
 Kan ik LinkedIn erbij nemen?
 
@@ -2804,7 +2780,7 @@ Wil je dat de prospect je naam al kent voordat het gesprek begint, dan helpt Lin
 
 Dat is een eerlijk bezwaar, en beter om vooraf uit te spreken dan halverwege. Er zijn een paar manieren om het op te lossen.
 
-Je kunt klein beginnen. Starter verstuurt 3.000 mails per maand voor € 995. Dat geeft een aantal reacties dat naast een volle werkweek past. In het stuk over acquisitie terwijl je agenda vol zit staat hoe je dat aanpakt.
+Je kunt klein beginnen. Growth verstuurt 4.500 mails per maand voor € 1.295. Dat geeft een aantal reacties dat naast een volle werkweek past. In het stuk over acquisitie terwijl je agenda vol zit staat hoe je dat aanpakt.
 
 Op Scale en Pro kun je de opvolging aan ons geven met de Full Service-module. Wij beantwoorden dan de reacties en zetten de afspraak direct in je agenda. Dat kost € 600 per maand op Scale en € 800 op Pro. Jij schuift aan bij het gesprek.
 
@@ -3003,7 +2979,7 @@ Met de add-on Hyperpersonalisatie gaan we een stap verder. Elke prospect krijgt 
 
 In onze eigen campagne maakten we 1.240 van die pagina’s. 34 procent van de ontvangers opende zijn pagina en we boekten 27 afspraken in acht weken. De reply rate kwam uit op 9,1 procent, tegenover 3,2 procent op dezelfde lijst zonder pagina.
 
-Hyperpersonalisatie kan op elk pakket, voor € 300 per maand extra op Starter, € 350 op Growth, € 450 op Scale en € 550 op Pro. Hoe het in de rest van de werkwijze past, lees je in zo verhogen wij de reply rate met Neuropage.
+Hyperpersonalisatie kost € 350 per maand extra op Growth en € 450 op Scale. Op Pro zit het in de prijs. Hoe het in de rest van de werkwijze past, lees je in zo verhogen wij de reply rate met Neuropage.
 
 ## Wat juist averechts werkt
 
@@ -3023,7 +2999,7 @@ Zo’n mail proberen we voor jouw doelgroep te schrijven. Bij elke ontvanger luk
 
 Mailen jullie de hele markt tegelijk?
 
-Nee. We delen je doelgroep op in segmenten met elk een eigen lijst en een eigen boodschap. Starter draait op één afgebakende doelgroep, Growth op twee tegelijk, Scale op drie en Pro op vijf.
+Nee. We delen je doelgroep op in segmenten met elk een eigen lijst en een eigen boodschap. Growth draait op twee doelgroepen tegelijk, Scale op drie en Pro op vijf.
 
 Hoeveel mails krijgt een bedrijf van jullie?
 
@@ -3035,7 +3011,7 @@ Nee. De eerste mail gaat zonder link en zonder bijlage, dat komt beter aan. Met 
 
 Wat is Hyperpersonalisatie?
 
-Een add-on waarbij elke prospect een openingszin krijgt op basis van echte informatie over zijn bedrijf, plus een eigen pagina op jouw domein. Hij kan op elk pakket, vanaf € 300 per maand op Starter.
+Een add-on waarbij elke prospect een openingszin krijgt op basis van echte informatie over zijn bedrijf, plus een eigen pagina op jouw domein. Op Growth kost hij € 350 per maand extra, op Scale € 450, en op Pro zit hij in de prijs.
 
 Mijn doelgroep krijgt al veel koude mail. Heeft het dan nog zin?
 
@@ -3088,7 +3064,7 @@ Marktprijzen op basis van gepubliceerde tarieven van Nederlandse aanbieders en w
 
 Het bedrag per maand zegt alleen niets. De vraag die je eigenlijk stelt is: wat kost mij een gesprek met iemand die kan tekenen. Daar komen we onderaan op terug.
 
-Bij Link2Leads, een Nederlands cold-e-mailbureau, kost het e-mailkanaal € 995 tot € 1.995 per maand, all-in, voor 3.000 tot 30.000 verzonden mails per maand.
+Bij Link2Leads, een Nederlands cold-e-mailbureau, kost het e-mailkanaal € 1.295 tot € 2.195 per maand, all-in, voor 4.500 tot 30.000 verzonden mails per maand.
 
 ## Het verschil tussen een lead en een gesprek
 
@@ -3198,7 +3174,7 @@ Een Nederlands bureau dat je cold-e-mailcampagne volledig uitvoert, kost tussen 
 
 Dat zijn de bedragen. De vraag die je eigenlijk stelt is: wat kost mij een gesprek met een potentiële klant? Daar komen we onderaan op terug.
 
-Link2Leads zit met € 995 tot € 1.995 per maand in het eerste segment, all-in. Setup, warmup, verzenddomeinen, mailboxen en verzendsoftware zitten in de prijs.
+Link2Leads zit met € 1.295 tot € 2.195 per maand in het eerste segment, all-in. Setup, warmup, verzenddomeinen, mailboxen en verzendsoftware zitten in de prijs.
 
 ## Model 1: zelf doen
 
@@ -3610,7 +3586,7 @@ Deze pagina is voor bedrijven in zonne-energie, warmtepompen, isolatie, laadpale
 
 ## Het korte antwoord
 
-Link2Leads draait koude e-mailcampagnes voor energie- en installatiebedrijven. We bouwen een lijst van bedrijven die passen bij je beste klanten, mailen de eigenaar of beslisser persoonlijk namens jou en sturen elke positieve reactie door naar je eigen mailbox. Jij belt en plant de afspraak. Vaste prijs vanaf € 995 per maand, live in week 3.
+Link2Leads draait koude e-mailcampagnes voor energie- en installatiebedrijven. We bouwen een lijst van bedrijven die passen bij je beste klanten, mailen de eigenaar of beslisser persoonlijk namens jou en sturen elke positieve reactie door naar je eigen mailbox. Jij belt en plant de afspraak. Vaste prijs vanaf € 1.295 per maand, live in week 3.
 
 Een order is in deze branche al snel duizenden euro’s waard. Een handvol goede gesprekken per maand weegt dan zwaar, en dat maakt energie een van de branches waar dit kanaal het best rendeert.
 
@@ -3648,10 +3624,9 @@ Elke reactie wordt met de hand gelezen. Wat een gesprek waard is, gaat door naar
 ## Wat het kost
 
 Pakket	Per maand	Mails per dag	Mails per maand	Garantie
-Starter	€ 995	100	3.000	Nee
-Growth	€ 1.295	250	7.500	Nee
-Scale	€ 1.695	500	15.000	Ja
-Pro	€ 1.995	1.000	30.000	Ja
+Growth	€ 1.295	150	4.500	Nee
+Scale	€ 1.795	400	12.000	Ja
+Pro	€ 2.195	1.000	30.000	Ja
 
 Bedragen exclusief btw, all-in, zonder setupfee en zonder aparte toolingrekening. Zeven verzenddagen per week, dus 30 per maand. Eerste termijn drie maanden, daarna maandelijks opzegbaar.
 
@@ -3669,7 +3644,7 @@ Ja. Werk je alleen in een paar provincies of binnen een straal rond je vestiging
 
 Wat kost het?
 
-Vaste maandprijzen van € 995, € 1.295, € 1.695 en € 1.995, all-in en zonder setupfee. Het verschil zit in het dagvolume: 100, 250, 500 of 1.000 mails per dag, zeven dagen per week. De eerste termijn is drie maanden, daarna maandelijks opzegbaar.
+Vaste maandprijzen van € 1.295, € 1.795 en € 2.195, all-in en zonder setupfee. Het verschil zit in het aantal doelgroepen dat tegelijk loopt en in het dagvolume: 150, 400 of 1.000 mails per dag, zeven dagen per week. De eerste termijn is drie maanden, daarna maandelijks opzegbaar.
 
 Loopt mijn eigen domein risico?
 
@@ -3717,7 +3692,7 @@ Deze pagina is voor machinebouwers, toeleveranciers, metaal- en kunststofbedrijv
 
 ## Het korte antwoord
 
-Link2Leads draait koude e-mailcampagnes voor industriële bedrijven. We bouwen per segment een lijst van bedrijven die passen bij je beste klanten, mailen de juiste persoon namens jou en sturen elke positieve reactie door naar je eigen mailbox. Jij voert het technische gesprek. Vaste prijs vanaf € 995 per maand, live in week 3.
+Link2Leads draait koude e-mailcampagnes voor industriële bedrijven. We bouwen per segment een lijst van bedrijven die passen bij je beste klanten, mailen de juiste persoon namens jou en sturen elke positieve reactie door naar je eigen mailbox. Jij voert het technische gesprek. Vaste prijs vanaf € 1.295 per maand, live in week 3.
 
 In de industrie is een nieuwe klant vaak jaren waard. Na de eerste order volgen onderhoud, onderdelen en vervanging. Een paar goede gesprekken per maand maken dan al het verschil.
 
@@ -3755,10 +3730,9 @@ Elke reactie wordt met de hand gelezen. Wat een gesprek waard is, gaat door naar
 ## Wat het kost
 
 Pakket	Per maand	Mails per dag	Mails per maand	Garantie
-Starter	€ 995	100	3.000	Nee
-Growth	€ 1.295	250	7.500	Nee
-Scale	€ 1.695	500	15.000	Ja
-Pro	€ 1.995	1.000	30.000	Ja
+Growth	€ 1.295	150	4.500	Nee
+Scale	€ 1.795	400	12.000	Ja
+Pro	€ 2.195	1.000	30.000	Ja
 
 Bedragen exclusief btw, all-in, zonder setupfee en zonder aparte toolingrekening. Zeven verzenddagen per week, dus 30 per maand. Eerste termijn drie maanden, daarna maandelijks opzegbaar.
 
@@ -3776,7 +3750,7 @@ Je doelgroep moet minstens duizend bedrijven tellen. Is dat krap, dan kiezen we 
 
 Wat kost het?
 
-Vaste maandprijzen van € 995, € 1.295, € 1.695 en € 1.995, all-in en zonder setupfee. Het verschil zit in het dagvolume: 100, 250, 500 of 1.000 mails per dag, zeven dagen per week. De eerste termijn is drie maanden, daarna maandelijks opzegbaar.
+Vaste maandprijzen van € 1.295, € 1.795 en € 2.195, all-in en zonder setupfee. Het verschil zit in het aantal doelgroepen dat tegelijk loopt en in het dagvolume: 150, 400 of 1.000 mails per dag, zeven dagen per week. De eerste termijn is drie maanden, daarna maandelijks opzegbaar.
 
 Loopt mijn eigen domein risico?
 
@@ -3806,7 +3780,7 @@ Liever eerst even mailen? Dat kan ook: info@link2leads.nl
 Bron: https://www.link2leads.nl/leadgeneratie-amsterdam
 ==============================================================================
 
-Wij zitten aan de Frederik Hendrikstraat en draaien vanaf daar koude e-mailcampagnes voor Nederlandse B2B-bedrijven. Vanaf 995 euro per maand, live in week 3.
+Wij zitten aan de Frederik Hendrikstraat en draaien vanaf daar koude e-mailcampagnes voor Nederlandse B2B-bedrijven. Vanaf 1.295 euro per maand, live in week 3.
 
 Bijgewerkt 22 september 2026 · Demi Stekelenburg · Leestijd 7 minuten
 
@@ -3814,7 +3788,7 @@ Wij zitten aan de Frederik Hendrikstraat in Amsterdam en draaien vanaf daar koud
 
 ## Het korte antwoord
 
-Wij zoeken de bedrijven die bij jouw beste klanten passen, mailen ze persoonlijk namens jou en leveren de gekwalificeerde positieve reacties af in je eigen mailbox. Jij voert het gesprek. Vaste prijs vanaf € 995 per maand, live in week 3, en op de twee grootste pakketten een minimumaantal positieve reacties dat in je contract staat.
+Wij zoeken de bedrijven die bij jouw beste klanten passen, mailen ze persoonlijk namens jou en leveren de gekwalificeerde positieve reacties af in je eigen mailbox. Jij voert het gesprek. Vaste prijs vanaf € 1.295 per maand, live in week 3, en op de twee grootste pakketten een minimumaantal positieve reacties dat in je contract staat.
 
 De campagnes draaien volledig online, dus je doelgroep hoeft niet in Amsterdam te zitten. Wel zitten wij hier, dus we kunnen gewoon langskomen of afspreken.
 
@@ -3842,10 +3816,9 @@ Elke binnenkomende reactie wordt met de hand gelezen. Wat een gesprek waard is g
 ## Wat het kost
 
 Pakket	Per maand	Mails per dag	Mails per maand	Garantie
-Starter	€ 995	100	3.000	Nee
-Growth	€ 1.295	250	7.500	Nee
-Scale	€ 1.695	500	15.000	Ja
-Pro	€ 1.995	1.000	30.000	Ja
+Growth	€ 1.295	150	4.500	Nee
+Scale	€ 1.795	400	12.000	Ja
+Pro	€ 2.195	1.000	30.000	Ja
 
 Bedragen exclusief btw, all-in, zonder setupfee en zonder aparte toolingrekening. Zeven verzenddagen per week, dus 30 per maand. Eerste termijn drie maanden, daarna maandelijks opzegbaar.
 
@@ -3879,7 +3852,7 @@ Vlaanderen en België doen we standaard. Wil je daarbuiten mailen, zet dat dan i
 
 Wat kost leadgeneratie bij jullie?
 
-Vaste maandprijzen van € 995, € 1.295, € 1.695 en € 1.995, all-in en zonder setupfee. Het verschil zit in het dagvolume: 100, 250, 500 of 1.000 mails per dag, zeven dagen per week. De eerste termijn is drie maanden, daarna maandelijks opzegbaar.
+Vaste maandprijzen van € 1.295, € 1.795 en € 2.195, all-in en zonder setupfee. Het verschil zit in het aantal doelgroepen dat tegelijk loopt en in het dagvolume: 150, 400 of 1.000 mails per dag, zeven dagen per week. De eerste termijn is drie maanden, daarna maandelijks opzegbaar.
 
 Hoe snel kan mijn campagne live?
 
@@ -4025,7 +3998,7 @@ vanaf €50eenmalig
 
 ### Campagne uitbesteden
 
-vanaf €995per maand
+vanaf €1.295per maand
 
 - Wij regelen domeinen, mailboxen, warm-up, de lijst en de teksten
 - De mails gaan namens jou eruit, reacties komen in jouw mailbox
