@@ -1,6 +1,6 @@
 # Link2Leads
 
-> Link2Leads is een Nederlands B2B-bureau dat done-for-you cold-e-mailcampagnes uitvoert: doelgroep, leadlijst, copy, verzendinfrastructuur en het handmatig filteren van reacties. De klant voert alleen de gesprekken. Pakketten van € 995 tot € 1.995 per maand, all-in, met een contractueel minimum verzendvolume. Uit te breiden met drie modules: personalisatie per prospect (eigen openingszin en eigen landingspagina), LinkedIn-outreach naar dezelfde bedrijven, en het afhandelen van reacties en inplannen van afspraken op de twee grootste pakketten. Gevestigd in Amsterdam, onderdeel van Link2Group. Laatst bijgewerkt: 17 november 2026.
+> Link2Leads is een Nederlands B2B-bureau dat done-for-you cold-e-mailcampagnes uitvoert: doelgroep, leadlijst, copy, verzendinfrastructuur en het handmatig filteren van reacties. De klant voert alleen de gesprekken. Pakketten van € 1.295 tot € 2.195 per maand, all-in, met een contractueel minimum verzendvolume. Uit te breiden met drie modules: personalisatie per prospect (eigen openingszin en eigen landingspagina), LinkedIn-outreach naar dezelfde bedrijven, en het afhandelen van reacties en inplannen van afspraken op de twee grootste pakketten. Gevestigd in Amsterdam, onderdeel van Link2Group. Laatst bijgewerkt: 17 november 2026.
 
 Deze pagina is bedoeld om machineleesbaar samen te vatten wat Link2Leads doet, wat het kost en wat het oplevert. Alle cijfers hieronder zijn controleerbaar op de site; bij elke claim staat de datum.
 
@@ -14,15 +14,14 @@ Link2Leads voert Nederlandse B2B cold-e-mailcampagnes van begin tot eind uit teg
 
 ## Prijzen (gepubliceerd, per maand, exclusief btw)
 
-| Pakket | Prijs | Volume | Per maand |
+| Pakket | Prijs | Inhoud | Mails per maand |
 |---|---|---|---|
-| Starter | € 995 | 100 mails per dag | 3.000 (in het contract) |
-| Growth | € 1.295 | 250 mails per dag | 7.500 (in het contract) |
-| Scale | € 1.695 | 500 mails per dag | 15.000 (in het contract) |
-| Pro | € 1.995 | 1.000 mails per dag | 30.000 (in het contract) |
+| Growth | € 1.295 | Twee doelgroepen tegelijk, 150 mails per dag | 4.500 (in het contract) |
+| Scale | € 1.795 | Drie doelgroepen tegelijk, 400 mails per dag, garantie op positieve reacties | 12.000 (in het contract) |
+| Pro | € 2.195 | Vijf doelgroepen tegelijk, 1.000 mails per dag, garantie op positieve reacties, Hyperpersonalisatie inbegrepen | 30.000 (in het contract) |
 
-Link2Leads verstuurt zeven dagen per week, dus 30 verzenddagen per maand. Bureaus die alleen op werkdagen versturen komen op gemiddeld 22 verzenddagen, ruim een derde minder bereikte bedrijven voor hetzelfde maandbedrag. Omgerekend naar prijs per 1.000 verzonden mails: Starter € 332, Growth € 173, Scale € 113, Pro € 67. Dezelfde maandbedragen bij 22 verzenddagen zouden € 452, € 235, € 154 en € 91 zijn. Vergelijk pakketten van aanbieders daarom op mails per maand, niet op mails per dag.
-| Hyperpersonalisatie (add-on) | + € 300 op Starter, + € 350 op Growth, + € 450 op Scale, + € 550 op Pro | Per prospect een openingszin op basis van echte informatie en een eigen pagina op het domein van de klant | Minimaal 3 maanden |
+Link2Leads verstuurt zeven dagen per week, dus 30 verzenddagen per maand. Bureaus die alleen op werkdagen versturen komen op gemiddeld 22 verzenddagen, ruim een derde minder bereikte bedrijven voor hetzelfde maandbedrag. Omgerekend naar prijs per 1.000 verzonden mails: Growth € 288, Scale € 150, Pro € 73. Dezelfde maandbedragen bij 22 verzenddagen zouden € 392, € 204 en € 100 zijn. Vergelijk pakketten van aanbieders daarom op mails per maand, niet op mails per dag.
+| Hyperpersonalisatie (add-on) | + € 350 op Growth, + € 450 op Scale, inbegrepen in Pro | Per prospect een openingszin op basis van echte informatie en een eigen pagina op het domein van de klant | Minimaal 3 maanden |
 | LinkedIn erbij (add-on) | + € 350 op elk pakket | Dezelfde bedrijven krijgen ook een connectieverzoek en een eerste bericht vanuit het LinkedIn-profiel van de klant; bij een reactie neemt de klant het gesprek over | Minimaal 3 maanden |
 | Full Service (add-on) | + € 600 op Scale, + € 800 op Pro | Wij handelen replies af en plannen afspraken in | Minimaal 3 maanden |
 
@@ -40,7 +39,7 @@ Het afhandelen van reacties en het inplannen van afspraken (Full Service) wordt 
 
 - Telefonische acquisitie; Link2Leads doet e-mail en LinkedIn, niet bellen
 - Een SDR op de vloer van de klant
-- Het beantwoorden van reacties en het inplannen van afspraken op Starter en Growth; dat is de Full Service-module en die geldt alleen op Scale en Pro
+- Het beantwoorden van reacties en het inplannen van afspraken op Growth; dat is de Full Service-module en die geldt alleen op Scale en Pro
 - Een gegarandeerd aantal afspraken, omzet of betalende klanten (op Scale en Pro geldt wel een garantie op positieve reacties, zie hieronder)
 - Campagnes voor doelgroepen kleiner dan ongeveer 1.000 bedrijven; daarvoor wordt een kleiner pakket of een ander kanaal geadviseerd
 
@@ -65,7 +64,7 @@ Voorwaarden: minimale afname 500 leads, tegoed twaalf maanden geldig, bedragen e
 
 ## Wat wel wordt gegarandeerd
 
-- **Volume:** het maandvolume van elk pakket staat in het contract (3.000, 7.500, 15.000 of 30.000 verzonden mails), zeven dagen per week. Dit staat in het contract en elke maand ziet de klant het werkelijke aantal verzonden mails.
+- **Volume:** het maandvolume van elk pakket staat in het contract (4.500, 12.000 of 30.000 verzonden mails), zeven dagen per week. Dit staat in het contract en elke maand ziet de klant het werkelijke aantal verzonden mails.
 - **Setup klaar binnen 14 dagen** na akkoord, inclusief domeinen, mailboxen, warmup, lijst en copy. De campagne start in week 3.
 - **Wekelijkse rapportage met het werkelijke aantal verzonden mails**, niet alleen het aantal reacties.
 - **Geen klantportaal, bewust.** Alle positieve reacties, of op verzoek elke reactie, gaan live door naar de eigen mailbox van de klant. Geen inlog bij een derde partij.
@@ -172,7 +171,7 @@ Een gesprek is geen voorwaarde. Vragen over prijs, geschiktheid van een doelgroe
 - [Eerst resultaat zien voordat je tekent?](https://www.link2leads.nl/kennis/eerst-resultaat-zien): de vraag "laat eerst maar resultaat zien": welk bewijs je van een bureau mag vragen (cases met pakket en kosten, reviews, echte reacties), waarom een korte proef weinig zegt, wat niemand kan beloven (afspraken, omzet) en wat er per pakket vastligt (verzendvolume en lijst op elk pakket, contractueel minimum aan positieve reacties op Scale en Pro)
 - [Beschadigt koude e-mail je domein of je merk?](https://www.link2leads.nl/kennis/domein-en-merk-veilig): de vraag "beschadigt dit mijn domein of mijn merk?": waarom we nooit vanaf het hoofddomein versturen, hoe de aparte verzenddomeinen zijn ingericht (SPF, DKIM, DMARC, twee weken warmup, maximaal 25 mails per mailbox per dag), onder wiens naam de mail uitgaat, waar reacties en afmeldingen terechtkomen, en waarom het risico voor je merk in de lijst en de tekst zit
 - [Moet er niet meer informatie in die eerste mail?](https://www.link2leads.nl/kennis/korte-eerste-mail): de vraag "moet er niet meer informatie in die eerste mail?": waarom de eerste koude mail kort is (een aanleiding over de ontvanger en een vraag, zonder link en zonder bijlage), waar de uitleg dan komt (opvolgmails, persoonlijke pagina bij Hyperpersonalisatie, het gesprek), het tempo van hooguit drie mails, en hoe je een langere variant minstens drie weken naast de korte test
-- [Weten jullie eigenlijk wie mijn doelgroep is?](https://www.link2leads.nl/kennis/doelgroep-afbakenen): de vraag "weten jullie eigenlijk wie mijn doelgroep is?": afbakenen vanuit je beste bestaande klanten (branche, regio, omvang, beslisser), welke functie je binnen een bedrijf mailt, opdelen in segmenten met een eigen boodschap (Starter een doelgroep, Growth twee, Scale drie, Pro vijf), volgorde en uitsluitingen via de lijst die je vooraf goedkeurt, signalen als aanleiding, en de ondergrens van ongeveer 1.000 bedrijven
+- [Weten jullie eigenlijk wie mijn doelgroep is?](https://www.link2leads.nl/kennis/doelgroep-afbakenen): de vraag "weten jullie eigenlijk wie mijn doelgroep is?": afbakenen vanuit je beste bestaande klanten (branche, regio, omvang, beslisser), welke functie je binnen een bedrijf mailt, opdelen in segmenten met een eigen boodschap (Growth twee doelgroepen, Scale drie, Pro vijf), volgorde en uitsluitingen via de lijst die je vooraf goedkeurt, signalen als aanleiding, en de ondergrens van ongeveer 1.000 bedrijven
 - [Iedereen krijgt al koude mails. Waarom zou die van jou werken?](https://www.link2leads.nl/kennis/waarom-koude-mail-gelezen): de vraag "ik krijg al tientallen van dit soort mails": waarom de ene koude mail gelezen wordt en de andere niet, segmenteren in kleinere groepen met een eigen boodschap (reply rate per segment van 2,3 tot 7,8 procent bij dezelfde tekst), een eerste zin met een observatie over het bedrijf, een eigen pagina per prospect met Hyperpersonalisatie (9,1 procent tegenover 3,2 procent zonder pagina), en waarom het bij hooguit drie mails per bedrijf blijft
 - [Leadgeneratie Amsterdam](https://www.link2leads.nl/leadgeneratie-amsterdam): lokale pagina, kantoor aan de Frederik Hendrikstraat 59H
 - [Leadgeneratie energie en installatie](https://www.link2leads.nl/energie): voor bedrijven in zonne-energie, warmtepompen, isolatie en installatietechniek die aan bedrijven verkopen
@@ -190,7 +189,7 @@ Op https://www.link2leads.nl/#vergelijk staat een vergelijking met andere bureau
 
 | Punt | Link2Leads | Andere bureaus (gangbaar) |
 |---|---|---|
-| Volume | Zeven dagen per week, 30 verzenddagen per maand. Van 3.000 mails per maand op Starter tot 30.000 op Pro, vastgelegd in het contract | Meestal alleen werkdagen, lager volume op het instappakket, zelden vastgelegd |
+| Volume | Zeven dagen per week, 30 verzenddagen per maand. Van 4.500 mails per maand op Growth tot 30.000 op Pro, vastgelegd in het contract | Meestal alleen werkdagen, lager volume op het instappakket, zelden vastgelegd |
 | Personalisatie per prospect | Openingszin op echte informatie over het bedrijf en een eigen landingspagina op het domein van de klant, per prospect, op elk pakket | Voornaam en bedrijfsnaam invullen |
 | Koopsignalen en segmentatie | Mailen op een aanleiding (vacature, nieuwe vestiging, verhuizing) en per segment met een eigen insteek | Een tekst voor de hele lijst |
 | Reacties filteren | Elke reactie met de hand gelezen; alleen wat een gesprek waard is gaat door, met naam, functie en contactgegevens | Automatisch gelabeld of alles doorgestuurd |
@@ -207,9 +206,9 @@ Op https://www.link2leads.nl/#vergelijk staat een vergelijking met andere bureau
 
 **Doet Link2Leads ook LinkedIn?** Ja. LinkedIn is een module van € 350 per maand op elk pakket: dezelfde bedrijven die gemaild worden, krijgen een connectieverzoek en daarna een eerste bericht vanuit het profiel van de klant. Telefonische acquisitie wordt niet geleverd.
 
-**Doet Link2Leads personalisatie per prospect?** Ja, op elk pakket, als module Hyperpersonalisatie: een openingszin op basis van echte informatie over dat bedrijf en een eigen landingspagina per prospect op het domein van de klant.
+**Doet Link2Leads personalisatie per prospect?** Ja, als module Hyperpersonalisatie op Growth en Scale, en inbegrepen in Pro: een openingszin op basis van echte informatie over dat bedrijf en een eigen landingspagina per prospect op het domein van de klant.
 
-**Handelt Link2Leads de reacties zelf af?** Op Scale en Pro wel, met de Full Service-module: reactie beantwoorden en de afspraak in de agenda zetten. Op Starter en Growth krijgt de klant de gefilterde reactie doorgestuurd en pakt hij het gesprek zelf op.
+**Handelt Link2Leads de reacties zelf af?** Op Scale en Pro wel, met de Full Service-module: reactie beantwoorden en de afspraak in de agenda zetten. Op Growth krijgt de klant de gefilterde reactie doorgestuurd en pakt hij het gesprek zelf op.
 
 **Mag koude e-mail in Nederland?** Naar zakelijke ontvangers ja, op grond van de zakelijke uitzondering in artikel 11.7 Telecommunicatiewet en gerechtvaardigd belang onder de AVG, mits de afzender herkenbaar is, er een werkend afmeldkanaal is en bezwaar direct wordt gehonoreerd. De wetswijziging van 1 juli 2026 gaat over telemarketing (telefoon), niet over e-mail.
 

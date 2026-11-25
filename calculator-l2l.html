@@ -374,7 +374,7 @@ section, main, .page-wrap, .content-wrap, .calc-wrap, .book-wrap {
 
 
 /* ── PAKKETKEUZE ── */
-.pkg-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+.pkg-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
 .pkg {
   display:flex; flex-direction:column; gap:4px; text-align:left;
   background:var(--bg3); border:1px solid var(--border); border-radius:12px;
@@ -453,7 +453,8 @@ section, main, .page-wrap, .content-wrap, .calc-wrap, .book-wrap {
 .hero h1 .blue { color:var(--accent); }
 
 @media (max-width:700px) {
-  .pkg-grid { grid-template-columns:repeat(2,1fr); }
+  .pkg-grid { grid-template-columns:repeat(3,1fr); gap:8px; }
+  .pkg { padding:14px 10px; }
   .breakdown { grid-template-columns:repeat(2,1fr); }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -805,7 +806,7 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
   <div class="result-card" id="resultCard">
 
     <div class="result-main">
-      <div class="result-label" id="resultLabel" data-i18n-skip>Omzet per maand · Starter</div>
+      <div class="result-label" id="resultLabel" data-i18n-skip>Omzet per maand · Growth</div>
       <div class="result-big" id="resultBig" data-i18n-skip>€0</div>
       <p class="result-sub" id="resultDesc" data-i18n-skip>—</p>
     </div>
@@ -996,10 +997,9 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
 <script>
 // ── Pakketten ────────────────────────────────────────────────────────────────
 const PKGS = [
-  { id:'starter', naam:'Starter', prijs: 995, mails: 3000,  perDag:100 },
-  { id:'growth',  naam:'Growth',  prijs:1295, mails: 7500,  perDag:250 },
-  { id:'scale',   naam:'Scale',   prijs:1695, mails:15000,  perDag:500 },
-  { id:'pro',     naam:'Pro',     prijs:1995, mails:30000,  perDag:1000 }
+  { id:'growth',  naam:'Growth',  prijs:1295, mails: 4500,  perDag:150 },
+  { id:'scale',   naam:'Scale',   prijs:1795, mails:12000,  perDag:400 },
+  { id:'pro',     naam:'Pro',     prijs:2195, mails:30000,  perDag:1000 }
 ];
 
 // Cijfers uit onze eigen campagnes, bewust aan de voorzichtige kant.
@@ -1078,7 +1078,7 @@ function calc() {
   const deal  = parseFloat(document.getElementById('dealValue').value) || 0;
   const close = parseInt(document.getElementById('closeRate').value) / 100;
   const pct   = Math.round(close * 100);
-  const p     = PKGS.find(x => x.id === selected) || PKGS[1];
+  const p     = PKGS.find(x => x.id === selected) || PKGS[0];
   const r     = forPkg(p, deal, close);
 
   document.getElementById('resultLabel').textContent =
@@ -1149,7 +1149,7 @@ if (_deal > 0) { setTimeout(function(){ var rc=document.getElementById('resultCa
 
 document.addEventListener('l2l:langchange', function(){ try { drawPkgs(); calc(); } catch(e){} });
 </script>
-<script src="/assets/i18n/l2l-i18n.js?v=75"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=79"></script>
 <script src="/assets/tracking.js?v=2"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.

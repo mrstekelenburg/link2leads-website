@@ -13346,5 +13346,158 @@ window.L2L_I18N_DATA = {
 },
 "Je krijgt de contactgegevens, alle reacties en de geschreven teksten. De verzendomgeving (domeinen en mailboxen) blijft van ons.": {
 "en": "You get the contact details, all replies and the written copy. The sending setup (domains and mailboxes) stays ours."
+},
+"150 mails per dag": {
+"en": "150 emails per day"
+},
+"400 mails per dag": {
+"en": "400 emails per day"
+},
+", 30 verzenddagen · ± 1.500 nieuwe bedrijven": {
+"en": ", 30 sending days · approx. 1,500 new companies"
+},
+", 30 verzenddagen · ± 4.000 nieuwe bedrijven": {
+"en": ", 30 sending days · approx. 4,000 new companies"
+},
+"Voor twee doelgroepen in een afgebakende markt": {
+"en": "For two target groups in a defined market"
+},
+"Voor vijf doelgroepen, met een eigen openingszin en pagina per prospect": {
+"en": "For five target groups, with a personal opening line and page for every prospect"
+},
+"Hyperpersonalisatie inbegrepen": {
+"en": "Hyper-personalisation included"
+},
+"Twee doelgroepen": {
+"en": "Two target groups"
+},
+"Drie doelgroepen": {
+"en": "Three target groups"
+},
+"Vijf doelgroepen": {
+"en": "Five target groups"
+},
+"Op elk pakket liggen twee dingen vast. Het eerste is het verzendvolume: 4.500 mails per maand op Growth, 12.000 op Scale en 30.000 op Pro, zeven dagen per week. Het tweede is de lijst. We garanderen dat er genoeg geverifieerde contacten in je doelgroep zijn om dat volume te vullen. In de rapportage zie je elke maand hoeveel mails er werkelijk zijn verstuurd.": {
+"en": "Every package fixes two things. The first is the sending volume: 4,500 emails per month on Growth, 12,000 on Scale and 30,000 on Pro, seven days a week. The second is the list. We guarantee there are enough verified contacts in your target group to fill that volume. Each month the report shows how many emails were actually sent."
+},
+"Wat ligt er vast op Growth?": {
+"en": "What is fixed on Growth?"
+},
+"Link2Leads is een Nederlands cold email bureau dat done-for-you B2B salesafspraken levert. Gemiddeld 10+ gekwalificeerde afspraken per maand. Live binnen 14 dagen. Vanaf €1.295/maand.": {
+"en": "Link2Leads is a Dutch cold email agency that delivers done-for-you B2B sales meetings. On average 10+ qualified meetings per month. Live within 14 days. From €1,295/month."
+},
+"Het maandvolume van je pakket staat in je contract: 4.500, 12.000 of 30.000 verzonden mails. Elke maand zie je het werkelijke aantal verzonden mails.": {
+"en": "The monthly volume of your package is set out in your contract: 4,500, 12,000 or 30,000 emails sent. Every month you see the actual number of emails sent."
+},
+"Vanaf €1.295 per maand": {
+"en": "From EUR 1,295 per month"
+},
+"€ 1.295 – € 2.195 p/m": {
+"en": "EUR 1,295 – EUR 2,195 per month"
+},
+"Van de tien partijen hier publiceren er drie een bedrag. Vaste pakketten bij Link2Leads lopen van € 1.295 tot € 2.195 per maand. Asphia begint bij $ 2.000 per maand. Bij resultaatmodellen hangt het bedrag af van wat er binnenkomt: FlintLead publiceert € 500 per maand plus € 125 per gekwalificeerde positieve reactie tot een afgesproken plafond, naast tooling en een eenmalige setup. De overige zeven noemen geen bedrag op hun site. Let per aanbieder op of setup, warmup en infrastructuur in de prijs zitten of apart komen, dat scheelt al snel € 100 tot € 200 per maand plus een eenmalig bedrag. De volledige rekensom staat in": {
+"en": "Of the ten providers here, three publish an amount. Fixed packages at Link2Leads run from EUR 1,295 to EUR 2,195 per month. Asphia starts at USD 2,000 per month. With results-based models the amount depends on what comes in: FlintLead publishes EUR 500 per month plus EUR 125 per qualified positive reply up to an agreed cap, on top of tooling and a one-off setup. The other seven name no amount on their site. Per provider, check whether setup, warmup and infrastructure are included in the price or come separately, because that quickly adds up to EUR 100 to EUR 200 per month plus a one-off amount. The full calculation is in"
+},
+"Vanaf €1.295 per maand, all-in en zonder setupfee. Gratis en vrijblijvend, je zit nergens aan vast.": {
+"en": "From EUR 1,295 per month, all-in and no setup fee. Free and without obligation, you are not tied to anything."
+},
+"Vanaf €1.295 per maand, all-in en zonder setupfee.": {
+"en": "From EUR 1,295 per month, all-in and no setup fee."
+},
+"vanaf €1.295 per maand": {
+"en": "from EUR 1,295 per month"
+},
+"vanaf €1.295": {
+"en": "from EUR 1,295"
+},
+"lopen van € 1.295 tot € 2.195 per maand. Asphia begint bij $ 2.000 per maand. Bij resultaatmodellen hangt het bedrag af van wat er binnenkomt: FlintLead publiceert € 500 per maand plus € 125 per gekwalificeerde positieve reactie tot een afgesproken plafond, naast tooling en een eenmalige setup. De overige zeven noemen geen bedrag op hun site. Let per aanbieder op of setup, warmup en infrastructuur in de prijs zitten of apart komen, dat scheelt al snel € 100 tot € 200 per maand plus een eenmalig bedrag. De volledige rekensom staat in": {
+"en": "run from EUR 1,295 to EUR 2,195 per month. Asphia starts at USD 2,000 per month. With results-based models the amount depends on what comes in: FlintLead publishes EUR 500 per month plus EUR 125 per qualified positive reply up to an agreed cap, on top of tooling and a one-off setup. The other seven name no amount on their site. Per provider, check whether setup, warmup and infrastructure are included in the price or come separately, because that quickly adds up to EUR 100 to EUR 200 per month plus a one-off amount. The full calculation is in"
+},
+"Nederlands cold email bureau. Wij vinden je doelgroep, mailen namens jou en leveren positieve reacties in je mailbox. Live in week 3, vanaf €1.295 per maand.": {
+"en": "Dutch cold email agency. We find your target group, email on your behalf and deliver positive replies to your inbox. Live in week 3, from EUR 1,295 per month."
+},
+"Wij benaderen je doelgroep per e-mail namens jou en leveren alleen de gekwalificeerde positieve reacties. Vanaf €1.295 per maand, all-in.": {
+"en": "We approach your target group by email on your behalf and deliver only the qualified positive replies. From EUR 1,295 per month, all in."
+},
+"Growth € 1.295 p/m (150 mails per dag), Scale € 1.795 (400), Pro € 2.195 (1.000). Daarbovenop zijn drie add-ons: Hyperpersonalisatie op Growth en Scale (€ 350 en € 450 p/m, inbegrepen in Pro), LinkedIn erbij op elk pakket (€ 350 p/m) en Full Service op Scale en Pro (€ 600 en € 800 p/m). Eerste termijn drie maanden, vooruit gefactureerd. Op Scale en Pro geldt een resultaatgarantie op het aantal positieve reacties.": {
+"en": "Growth EUR 1,295 p/m (150 emails per day), Scale EUR 1,795 (400), Pro EUR 2,195 (1,000). On top of that there are three add-ons: Hyperpersonalisation on Growth and Scale (EUR 350 and EUR 450 p/m, included in Pro), LinkedIn alongside on every package (EUR 350 p/m) and Full Service on Scale and Pro (EUR 600 and EUR 800 p/m). First term three months, invoiced in advance. On Scale and Pro there is a performance guarantee on the number of positive replies."
+},
+"30 minuten, gratis en vrijblijvend. Pakketten vanaf €1.295 per maand.": {
+"en": "30 minutes, free and without obligation. Packages from EUR 1,295 per month."
+},
+"In Nederland betaal je voor een volledig beheerd e-mailtraject doorgaans € 800 tot € 2.000 per maand. Onze eigen pakketten zijn € 1.295, € 1.795 en € 2.195 per maand, all-in en zonder setupfee. Telefonische acquisitie is duurder: daar reken je 150 tot 400 euro per geplande afspraak.": {
+"en": "In the Netherlands, a fully managed email program usually costs EUR 800 to EUR 2,000 per month. Our own packages are EUR 1,295, EUR 1,795 and EUR 2,195 per month, all-in and with no setup fee. Cold calling is more expensive: expect 150 to 400 euros per booked meeting."
+},
+"Dit is het verschil dat de meeste mensen onderschatten. Eén beller haalt op een werkdag tussen de zestig en honderd pogingen, waarvan een deel niet opneemt. Een e-mailcampagne op ons Scale-pakket verstuurt 400 mails per dag, zeven dagen per week, dus 12.000 mails per maand naar ongeveer 4.000 bedrijven.": {
+"en": "This is the difference most people underestimate. One caller makes between sixty and a hundred attempts on a working day, some of which are not answered. An email campaign on our Scale package sends 400 emails per day, seven days a week, so 12,000 emails per month to around 4,000 companies."
+},
+"€ 1.295, € 1.795 en € 2.195 per maand, all-in, geen setupfee en geen aparte toolingrekening. De add-ons staan er met hun prijs bij.": {
+"en": "EUR 1,295, EUR 1,795 and EUR 2,195 per month, all-in, no setup fee and no separate tooling bill. The add-ons are listed with their prices."
+},
+"het maandvolume van je pakket staat in het contract: 4.500, 12.000 of 30.000 verzonden mails. Zeven verzenddagen per week. Elke maand zie je het werkelijke aantal verzonden mails.": {
+"en": "the monthly volume of your package is set out in the contract: 4,500, 12,000 or 30,000 emails sent. Seven sending days per week. Every month you see the actual number of emails sent."
+},
+"Wij zitten aan de Frederik Hendrikstraat en draaien vanaf daar koude e-mailcampagnes voor Nederlandse B2B-bedrijven. Vanaf 1.295 euro per maand, live in week 3.": {
+"en": "We are based on Frederik Hendrikstraat and run cold email campaigns for Dutch B2B companies from there. From 1,295 euros per month, live in week 3."
+},
+"Wij zoeken de bedrijven die bij jouw beste klanten passen, mailen ze persoonlijk namens jou en leveren de gekwalificeerde positieve reacties af in je eigen mailbox. Jij voert het gesprek. Vaste prijs vanaf € 1.295 per maand, live in week 3, en op de twee grootste pakketten een minimumaantal positieve reacties dat in je contract staat.": {
+"en": "We find the companies that match your best customers, email them personally on your behalf and deliver the qualified positive replies to your own inbox. You have the conversation. Fixed price from EUR 1,295 per month, live in week 3, and on the two largest packages a minimum number of positive replies that is in your contract."
+},
+"Vaste maandprijzen van € 1.295, € 1.795 en € 2.195, all-in en zonder setupfee. Het verschil zit in het aantal doelgroepen dat tegelijk loopt en in het dagvolume: 150, 400 of 1.000 mails per dag, zeven dagen per week. De eerste termijn is drie maanden, daarna maandelijks opzegbaar.": {
+"en": "Fixed monthly prices of EUR 1,295, EUR 1,795 and EUR 2,195, all-in and with no setup fee. The difference is in the number of target groups running at once and in the daily volume: 150, 400 or 1,000 emails per day, seven days a week. The first term is three months, then cancellable monthly."
+},
+"Cold email bureau in Amsterdam. Wij zoeken je doelgroep, mailen namens jou en leveren positieve reacties in je mailbox. Vanaf 1.295 euro per maand, live in week 3.": {
+"en": "Cold email agency in Amsterdam. We find your audience, email them on your behalf and deliver positive replies to your inbox. From EUR 1,295 per month, live in week 3."
+},
+"Begin dan klein. Growth verstuurt 4.500 mails per maand voor € 1.295, zeven dagen per week. Dat geeft een volume dat naast een volle werkweek past, en je bouwt alvast de lijst en de teksten op die je later nodig hebt.": {
+"en": "Then start small. Growth sends 4,500 emails per month for EUR 1,295, seven days a week. That gives a volume that fits alongside a full working week, and you already build up the list and the copy you will need later."
+},
+"Growth: 4.500 mails per maand voor € 1.295, all-in. De eerste termijn is drie maanden, daarna is het maandelijks opzegbaar.": {
+"en": "Growth: 4,500 emails per month for EUR 1,295, all-in. The first term is three months, after that you can cancel monthly."
+},
+"Link2Leads is zo'n bureau. Wij bouwen de lijst en schrijven de teksten, versturen vanaf onze eigen verzenddomeinen en leveren de positieve reacties in jouw mailbox. Een pakket kost € 1.295 tot € 2.195 per maand, all-in, met een minimale looptijd van drie maanden.": {
+"en": "Link2Leads is such an agency. We build the list and write the copy, send from our own sending domains and deliver the positive replies to your inbox. A package costs EUR 1,295 to EUR 2,195 per month, all-in, with a minimum term of three months."
+},
+"Bij Link2Leads, een Nederlands cold-e-mailbureau, kost het e-mailkanaal € 1.295 tot € 2.195 per maand, all-in, voor 4.500 tot 30.000 verzonden mails per maand.": {
+"en": "At Link2Leads, a Dutch cold email agency, the email channel costs EUR 1,295 to EUR 2,195 per month, all-in, for 4,500 to 30,000 sent emails per month."
+},
+"Link2Leads zit met € 1.295 tot € 2.195 per maand in het eerste segment, all-in. Setup, warmup, verzenddomeinen, mailboxen en verzendsoftware zitten in de prijs.": {
+"en": "At EUR 1,295 to EUR 2,195 per month, Link2Leads sits in the first segment, all-in. Setup, warmup, sending domains, mailboxes and sending software are included in the price."
+},
+"Bij Link2Leads begint dat met 4.500 mails per maand op Growth voor € 1.295. De eerste positieve reacties komen vaak al op de eerste dag na livegang binnen.": {
+"en": "At Link2Leads that starts with 4,500 emails per month on Growth for € 1,295. The first positive replies often come in on the very first day after going live."
+},
+"Link2Leads draait koude e-mailcampagnes voor energie- en installatiebedrijven. We bouwen een lijst van bedrijven die passen bij je beste klanten, mailen de eigenaar of beslisser persoonlijk namens jou en sturen elke positieve reactie door naar je eigen mailbox. Jij belt en plant de afspraak. Vaste prijs vanaf € 1.295 per maand, live in week 3.": {
+"en": "Link2Leads runs cold email campaigns for energy and installation companies. We build a list of companies that match your best clients, email the owner or decision maker personally on your behalf and forward every positive reply to your own inbox. You call and book the meeting. Fixed price from € 1,295 per month, live in week 3."
+},
+"Link2Leads draait koude e-mailcampagnes voor industriële bedrijven. We bouwen per segment een lijst van bedrijven die passen bij je beste klanten, mailen de juiste persoon namens jou en sturen elke positieve reactie door naar je eigen mailbox. Jij voert het technische gesprek. Vaste prijs vanaf € 1.295 per maand, live in week 3.": {
+"en": "Link2Leads runs cold email campaigns for industrial companies. Per segment we build a list of companies that match your best clients, email the right person on your behalf and forward every positive reply to your own inbox. You have the technical conversation. Fixed price from € 1,295 per month, live in week 3."
+},
+"Je kunt klein beginnen. Growth verstuurt 4.500 mails per maand voor € 1.295. Dat geeft een aantal reacties dat naast een volle werkweek past. In het stuk over": {
+"en": "You can start small. Growth sends 4,500 emails per month for € 1,295. That gives a number of replies that fits next to a full working week. The article on"
+},
+"Cold email bureau in Amsterdam. Wij zoeken je doelgroep, mailen namens jou en leveren positieve reacties in je mailbox. Vanaf 1.295 euro per maand.": {
+"en": "Cold email agency in Amsterdam. We find your target group, email them on your behalf and deliver positive replies to your inbox. From 1,295 euros a month."
+},
+"Hoeveel segmenten tegelijk lopen, hangt af van je pakket. Growth draait op twee doelgroepen tegelijk, Scale op drie en Pro op vijf.": {
+"en": "How many segments run at the same time depends on your package. Growth runs on two audiences at once, Scale on three and Pro on five."
+},
+"Growth draait op twee doelgroepen tegelijk, Scale op drie en Pro op vijf. Elke doelgroep krijgt een eigen lijst en een eigen boodschap.": {
+"en": "Growth runs on two audiences at once, Scale on three and Pro on five. Each audience gets its own list and its own message."
+},
+"Hyperpersonalisatie kost € 350 per maand extra op Growth en € 450 op Scale. Op Pro zit het in de prijs. Hoe het in de rest van de werkwijze past, lees je in": {
+"en": "Hyperpersonalisation costs € 350 per month extra on Growth and € 450 on Scale. On Pro it is included in the price. How it fits into the rest of our approach is explained in"
+},
+"Nee. We delen je doelgroep op in segmenten met elk een eigen lijst en een eigen boodschap. Growth draait op twee doelgroepen tegelijk, Scale op drie en Pro op vijf.": {
+"en": "No. We split your target group into segments, each with its own list and its own message. Growth runs on two target groups at once, Scale on three and Pro on five."
+},
+"Een add-on waarbij elke prospect een openingszin krijgt op basis van echte informatie over zijn bedrijf, plus een eigen pagina op jouw domein. Op Growth kost hij € 350 per maand extra, op Scale € 450, en op Pro zit hij in de prijs.": {
+"en": "An add-on that gives every prospect an opening line based on real information about their company, plus a personal page on your domain. On Growth it costs € 350 per month extra, on Scale € 450, and on Pro it is included in the price."
+},
+"Scale, € 1.795": {
+"en": "Scale, EUR 1,795"
+},
+"Pro, € 2.195": {
+"en": "Pro, EUR 2,195"
 }
 };
