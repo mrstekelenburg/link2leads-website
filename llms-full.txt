@@ -237,7 +237,7 @@ De eerste vraag bij koude e-mail is of je markt groot genoeg is. Wij rekenen het
 ## Wat het kost, en
 wat je daarvoor krijgt.
 
-Een vast bedrag per maand, alles inbegrepen. Minimaal drie maanden, daarna maandelijks opzegbaar. Wij versturen zeven dagen per week, dat is ongeveer 36% meer bereik dan alleen op werkdagen. Vergelijk ons met andere bureaus →
+Wat je hier ziet, is wat je per maand betaalt. Geen opstartkosten en geen losse rekeningen: leads, teksten, domeinen, mailboxen, software en je persoonlijke omgeving zitten erin. Minimaal drie maanden, daarna maandelijks opzegbaar. Vergelijk ons met andere bureaus →
 
 Growth
 
@@ -245,7 +245,7 @@ Voor twee doelgroepen in een afgebakende markt
 
 €1.295
 
-per maand, volledig beheerd
+per maand all-in, geen eenmalige kosten
 
 Twee doelgroepen tegelijk
 
@@ -266,7 +266,7 @@ Voor drie doelgroepen, met garantie op positieve reacties
 
 €1.795
 
-per maand, volledig beheerd
+per maand all-in, geen eenmalige kosten
 
 Drie doelgroepen tegelijk
 
@@ -287,7 +287,7 @@ Voor vijf doelgroepen, met een eigen openingszin en pagina per prospect
 
 €2.195
 
-per maand, volledig beheerd
+per maand all-in, geen eenmalige kosten
 
 Vijf doelgroepen tegelijk
 
@@ -789,12 +789,7 @@ Een vast maandbedrag (1, 2 en 7) is voorspelbaar en betaal je ook in een slechte
 
 ### Dan: op hoeveel dagen per maand wordt er verstuurd?
 
-Twee bureaus met hetzelfde maandbedrag en hetzelfde dagvolume leveren niet hetzelfde. Wie alleen op werkdagen verstuurt, komt op gemiddeld 22 verzenddagen per maand; wie zeven dagen per week verstuurt, komt op 30. Dat is ruim een derde verschil in bereikte bedrijven, voor precies dezelfde factuur. Vraag dus niet alleen naar het aantal mails per dag, maar naar het aantal mails per maand, en reken het om naar een prijs per 1.000 mails. Ter illustratie onze eigen pakketten, die zeven dagen per week draaien, naast dezelfde bedragen bij 22 verzenddagen.
-
-Pakket	Per dag	Per maand bij 30 verzenddagen	Prijs per 1.000 mails	Dezelfde prijs bij 22 verzenddagen
-Growth, € 1.295	150	4.500	€ 288	€ 392
-Scale, € 1.795	400	12.000	€ 150	€ 204
-Pro, € 2.195	1.000	30.000	€ 73	€ 100
+Twee bureaus met hetzelfde maandbedrag en hetzelfde dagvolume leveren niet hetzelfde. Wie alleen op werkdagen verstuurt, komt op gemiddeld 22 verzenddagen per maand; wie zeven dagen per week verstuurt, komt op 30. Dat is ruim een derde verschil in bereikte bedrijven, voor precies dezelfde factuur. Vraag dus niet alleen naar het aantal mails per dag, maar naar het aantal mails per maand.
 
 Vraag er meteen achteraan of dat maandvolume ook als minimum in het contract staat, want anders is het een streefgetal.
 
@@ -1189,7 +1184,7 @@ Demi. Wij hebben aan beide kanten van deze keuze gestaan.
 
 Dit is de vergelijking die er werkelijk toe doet, en bijna niemand maakt hem. Bureaus vergelijken zichzelf met andere bureaus. Maar de keuze op tafel bij de meeste directeuren is niet “welk bureau”, het is: nemen we iemand aan, of besteden we het uit?
 
-Wij zijn Link2Leads, een Nederlands cold-e-mailbureau. Een uitbesteed e-mailkanaal kost bij ons € 12.000 tot € 26.000 per jaar. Een eigen SDR kost in het eerste jaar € 69.000 tot € 83.000, inclusief werkgeverslasten en tooling.
+Wij zijn Link2Leads, een Nederlands cold-e-mailbureau. Een uitbesteed e-mailkanaal kost bij ons € 15.500 tot € 26.000 per jaar. Een eigen SDR kost in het eerste jaar € 69.000 tot € 83.000, inclusief werkgeverslasten en tooling.
 
 ## Wat een SDR werkelijk kost
 
@@ -1215,7 +1210,7 @@ Wie stuurt hem aan? Een SDR zonder salesleiding presteert onder. Reken op een pa
 
 ## Wat uitbesteden kost
 
-Een volledig uitgevoerde cold-e-mailcampagne in Nederland kost tussen € 995 en € 1.995 per maand, afhankelijk van volume. Dat is € 12.000 tot € 26.000 per jaar, inclusief leaddata, tooling, infrastructuur en uitvoering. Alleen de leaddata en de mailboxen kosten je bij zelf doen al € 2.500 tot € 13.000 per jaar.
+Een volledig uitgevoerde cold-e-mailcampagne kost bij ons tussen € 1.295 en € 2.195 per maand, afhankelijk van het pakket. Dat is € 15.500 tot € 26.000 per jaar, inclusief leaddata, tooling, infrastructuur en uitvoering. Alleen de leaddata en de mailboxen kosten je bij zelf doen al € 2.500 tot € 13.000 per jaar.
 
 Daar staan nadelen tegenover, en die noem ik liever zelf dan dat je ze in maand drie ontdekt:
 
@@ -1251,7 +1246,7 @@ En de combinatie die in de praktijk het beste werkt: besteed de e-mail uit en ze
 
 De vraag is niet wat goedkoper is. De vraag is: wat is een nieuwe klant mij waard, en hoeveel gesprekken heb ik nodig voor een klant?
 
-Zit je gemiddelde klantwaarde op € 3.000 en sluit je een op de vijf gesprekken, dan is elk gesprek € 600 waard. Bij een uitbesteed traject van € 1.695 per maand heb je dan drie gesprekken per maand nodig om quitte te draaien. Bij een SDR van € 6.300 per maand heb je er elf nodig.
+Zit je gemiddelde klantwaarde op € 3.000 en sluit je een op de vijf gesprekken, dan is elk gesprek € 600 waard. Bij een uitbesteed traject van € 1.795 per maand heb je dan drie gesprekken per maand nodig om quitte te draaien. Bij een SDR van € 6.300 per maand heb je er elf nodig.
 
 Vul dat in met je eigen cijfers voordat je met wie dan ook gaat praten. Het is de enige berekening die je bij elke aanbieder op deze markt kunt gebruiken.
 
@@ -1265,7 +1260,7 @@ Bruto salaris ligt tussen ongeveer € 36.000 en € 48.000, maar de werkelijke 
 
 Is cold email uitbesteden goedkoper dan een SDR aannemen?
 
-In absolute kosten wel: € 12.000 tot € 26.000 per jaar tegenover € 69.000 tot € 83.000. Maar het is geen gelijke vergelijking: een SDR kan ook bellen, opvolgen en lauwe reacties warm praten, en die capaciteit blijft in huis. Uitbesteden koopt je snelheid en beperkt risico, niet dezelfde functie.
+In absolute kosten wel: € 15.500 tot € 26.000 per jaar tegenover € 69.000 tot € 83.000. Maar het is geen gelijke vergelijking: een SDR kan ook bellen, opvolgen en lauwe reacties warm praten, en die capaciteit blijft in huis. Uitbesteden koopt je snelheid en beperkt risico, niet dezelfde functie.
 
 Wanneer is een eigen SDR de betere keuze?
 
@@ -3101,9 +3096,9 @@ De duurste optie in jaar 1 en de goedkoopste in jaar 3, mits diegene blijft. Rek
 
 ## Reken het om naar kosten per gesprek
 
-Neem een uitbesteed e-mailtraject van € 1.695 per maand voor 15.000 mails. Levert dat 45 positieve reacties op, dan is dat € 38 per reactie. Levert het er 15 op, dan is het € 113. Zet daar een SDR naast op € 6.300 per maand die 25 gesprekken voert: € 252 per gesprek, plus de maanden waarin hij nog wordt ingewerkt.
+Neem een uitbesteed e-mailtraject van € 1.795 per maand. Levert dat 45 positieve reacties op, dan is dat € 40 per reactie. Levert het er 15 op, dan is het € 120. Zet daar een SDR naast op € 6.300 per maand die 25 gesprekken voert: € 252 per gesprek, plus de maanden waarin hij nog wordt ingewerkt.
 
-Vul daarna je eigen conversie in. Sluit je een op de vijf gesprekken en is een klant gemiddeld € 3.000 waard, dan is elk gesprek € 600 waard. Bij € 113 per reactie verdien je een traject van € 1.695 terug bij drie gesprekken per maand.
+Vul daarna je eigen conversie in. Sluit je een op de vijf gesprekken en is een klant gemiddeld € 3.000 waard, dan is elk gesprek € 600 waard. Bij € 120 per reactie verdien je een traject van € 1.795 terug bij drie gesprekken per maand.
 
 Let op
 
@@ -3198,13 +3193,7 @@ Zelf doen is de goedkoopste optie als je het tweede jaar ook nog doet. Wil je he
 
 ## Model 2: vast maandbedrag
 
-Je koopt een pakket, je weet hoeveel er per dag uitgaat, en de factuur is elke maand hetzelfde. In Nederland ligt de staffel er in september 2026 zo bij, gebaseerd op wat aanbieders zelf publiceren:
-
-Volume	Marktprijs per maand
-± 3.000 mails per maand (100 per dag)	€ 995
-± 7.500 mails per maand (250 per dag)	€ 1.295
-± 15.000 mails per maand (500 per dag)	€ 1.695
-± 30.000 mails per maand (1.000 per dag)	€ 1.995 – € 2.195
+Je koopt een pakket, je weet hoeveel er per dag uitgaat, en de factuur is elke maand hetzelfde. In Nederland liggen de gepubliceerde maandbedragen tussen € 995 en € 2.200, afhankelijk van het pakket en van wat erin zit.
 
 Bron: gepubliceerde prijzen van Nederlandse aanbieders, gecontroleerd op 2 september 2026. Zie ook de volledige vergelijking van tien aanbieders.
 
@@ -3232,7 +3221,7 @@ Waar zit het plafond? Zonder plafond is betalen per resultaat een open rekening.
 
 De vraag is niet wat het per maand kost. De vraag is: wat kost mij een gesprek met een potentiële klant.
 
-Neem een bureau op € 1.695 per maand voor 15.000 mails. Komen daar 45 positieve reacties uit, dan is dat € 38 per positieve reactie. Komen er 15 uit, dan is het € 113. Zet daar een resultaatmodel naast van € 500 vast plus € 125 per reactie: bij 15 reacties kost dat € 2.375, oftewel € 158 per reactie. Bij 45 reacties zou het € 6.125 kosten, en daarom zit er een plafond op.
+Neem een bureau op € 1.795 per maand. Komen daar 45 positieve reacties uit, dan is dat € 40 per positieve reactie. Komen er 15 uit, dan is het € 120. Zet daar een resultaatmodel naast van € 500 vast plus € 125 per reactie: bij 15 reacties kost dat € 2.375, oftewel € 158 per reactie. Bij 45 reacties zou het € 6.125 kosten, en daarom zit er een plafond op.
 
 Het patroon: een vast maandbedrag wordt goedkoper per gesprek naarmate de campagne beter loopt. Een resultaatmodel blijft ongeveer even duur per gesprek, maar je verliest niets als het niet loopt.
 
