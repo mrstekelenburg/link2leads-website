@@ -13595,5 +13595,263 @@ window.L2L_I18N_DATA = {
 },
 "Zelden.": {
 "en": "Rarely."
+},
+"Campagne-informatie en de antwoorden uit onze vragenlijst": {
+"en": "Campaign information and the answers to our questionnaire"
+},
+"Van zakelijke contactpersonen die wij per e-mail benaderen": {
+"en": "From business contacts we approach by email"
+},
+"Zakelijke contactgegevens zoals naam, zakelijk e-mailadres, functie en bedrijf": {
+"en": "Business contact details such as name, business email address, role and company"
+},
+"Een link naar een openbaar zakelijk profiel, als dat er is": {
+"en": "A link to a public business profile, if there is one"
+},
+"Je reactie op onze mails, inclusief de tekst daarvan": {
+"en": "Your reply to our emails, including its text"
+},
+"Of je een persoonlijke pagina hebt bezocht die bij een mail hoort (zie artikel 09)": {
+"en": "Whether you visited a personal page that belongs to an email (see section 09)"
+},
+"Van bezoekers van onze website": {
+"en": "From visitors to our website"
+},
+"Wat je invult als je een gesprek boekt of onze vragenlijst invult": {
+"en": "What you enter when you book a call or fill in our questionnaire"
+},
+"Via welke site of campagne je binnenkwam (zie artikel 12)": {
+"en": "Which site or campaign brought you to us (see section 12)"
+},
+"Gebruiksgegevens via cookies, alleen als je daar toestemming voor geeft": {
+"en": "Usage data via cookies, only if you consent to that"
+},
+"Van gesprekken": {
+"en": "From calls"
+},
+"Een opname en uitgeschreven tekst van een kennismakingsgesprek, als wij dat aan het begin van het gesprek hebben gemeld": {
+"en": "A recording and transcript of an introductory call, if we announced this at the start of the call"
+},
+"Wij verzamelen de gegevens van zakelijke contactpersonen en leads niet bij de betrokkene zelf. Daarom leggen wij per record vast waar een gegeven vandaan komt en wanneer het is gecontroleerd, zodat wij die vraag kunnen beantwoorden als iemand hem stelt.": {
+"en": "We do not collect the data of business contacts and leads from the person themselves. That is why we record for each record where a data point comes from and when it was checked, so we can answer that question when someone asks it."
+},
+"Openbare bedrijfswebsites, waaronder contact-, team- en over-onspagina’s": {
+"en": "Public company websites, including contact, team and about pages"
+},
+"Zakelijke databronnen van gespecialiseerde leveranciers": {
+"en": "Business data sources from specialised providers"
+},
+"Openbare vacatures en aanbestedingen": {
+"en": "Public job postings and tenders"
+},
+"Eigen verificatie, bijvoorbeeld controleren of een zakelijk e-mailadres bestaat": {
+"en": "Our own verification, for example checking whether a business email address exists"
+},
+"Wij gebruiken alleen zakelijke e-mailadressen op het domein van een bedrijf. Adressen bij gratis of private maildiensten, zoals Gmail of Hotmail, weigeren wij automatisch": {
+"en": "We only use business email addresses on a company domain. Addresses at free or private email services, such as Gmail or Hotmail, are rejected automatically"
+},
+"Wij benaderen geen consumenten en geen personen in hun privé-hoedanigheid": {
+"en": "We do not approach consumers or people in their private capacity"
+},
+"Wij richten ons op rechtspersonen zoals bv’s en nv’s. Eenmanszaken en vennootschappen onder firma mailen wij niet ongevraagd": {
+"en": "We focus on legal entities such as private and public limited companies. We do not send unsolicited email to sole proprietorships or general partnerships"
+},
+"Campagnes uit te voeren, voor onze opdrachtgevers en voor onszelf": {
+"en": "Run campaigns, for our clients and for ourselves"
+},
+"Leadbestanden samen te stellen, te verifiëren en te leveren aan opdrachtgevers": {
+"en": "Compile, verify and deliver lead files to clients"
+},
+"Persoonlijke pagina’s te maken die bij een mail horen": {
+"en": "Create personal pages that belong to an email"
+},
+"Reacties door te sturen naar de opdrachtgever en afspraken in te plannen": {
+"en": "Forward replies to the client and schedule appointments"
+},
+"Bij te houden wie niet meer benaderd wil worden": {
+"en": "Keep track of who no longer wants to be contacted"
+},
+"Resultaten te meten en onze selectie te verbeteren": {
+"en": "Measure results and improve our selection"
+},
+"Onze administratie te voeren en met opdrachtgevers te communiceren": {
+"en": "Keep our records and communicate with clients"
+},
+"Gerechtvaardigd belang, artikel 6 lid 1 sub f AVG, voor het zakelijk benaderen van contactpersonen en voor het samenstellen en leveren van zakelijke leadbestanden": {
+"en": "Legitimate interest, Article 6(1)(f) GDPR, for approaching business contacts and for compiling and delivering business lead files"
+},
+"Toestemming, voor analytische en advertentiecookies en waar de wet dat verder vereist": {
+"en": "Consent, for analytics and advertising cookies and wherever else the law requires it"
+},
+"Onze afweging bij gerechtvaardigd belang": {
+"en": "Our balancing test for legitimate interest"
+},
+"Wij hebben schriftelijk afgewogen of ons belang zwaarder weegt dan jouw privacy. Die afweging valt alleen positief uit dankzij deze waarborgen, die wij altijd toepassen:": {
+"en": "We have assessed in writing whether our interest outweighs your privacy. That assessment is only positive because of these safeguards, which we always apply:"
+},
+"Alleen zakelijke contactgegevens, op het e-mailadres dat bij je functie hoort": {
+"en": "Only business contact details, at the email address that belongs to your role"
+},
+"Alleen een onderwerp dat aansluit bij je functie of bedrijf": {
+"en": "Only a subject that relates to your role or company"
+},
+"Maximaal drie mails per campagne, met in elke mail een eenvoudige manier om je af te melden": {
+"en": "A maximum of three emails per campaign, each with a simple way to opt out"
+},
+"Een blokkeerlijst die bezwaren over al onze campagnes heen laat werken": {
+"en": "A blocklist that makes objections apply across all our campaigns"
+},
+"De volledige afweging sturen wij je op verzoek toe.": {
+"en": "We will send you the full assessment on request."
+},
+"Informatieplicht": {
+"en": "Duty to inform"
+},
+"Omdat wij de gegevens niet bij jou zelf verzamelen, geldt artikel 14 AVG. In de eerste mail staat dat wij je online zijn tegengekomen en hoe je je afmeldt. Deze verklaring vult dat aan: wie wij zijn, wat wij verwerken, waar de gegevens vandaan komen, met wie wij ze delen en welke rechten je hebt.": {
+"en": "Because we do not collect the data from you, Article 14 GDPR applies. The first email states that we came across you online and how to opt out. This statement adds to that: who we are, what we process, where the data comes from, who we share it with and what rights you have."
+},
+"Onze rol bij campagnes voor opdrachtgevers": {
+"en": "Our role in campaigns for clients"
+},
+"Bij een campagne namens een opdrachtgever bepaalt de opdrachtgever het doel en de doelgroep en gaan de mails onder zijn naam uit. Voor die campagne is de opdrachtgever verwerkingsverantwoordelijke en verwerken wij de gegevens in zijn opdracht, op basis van een verwerkersovereenkomst.": {
+"en": "In a campaign on behalf of a client, the client determines the purpose and the target group and the emails go out under the client’s name. For that campaign the client is the data controller and we process the data on the client’s instructions, under a data processing agreement."
+},
+"Voor onze eigen database, onze blokkeerlijst en onze eigen campagnes zijn wij zelf verwerkingsverantwoordelijke. Reacties uit campagnes nemen wij op in die eigen database, zodat bezwaren blijven werken, wij weten wie van functie is veranderd en onze selectie beter wordt.": {
+"en": "For our own database, our blocklist and our own campaigns we are the data controller ourselves. We add replies from campaigns to that database, so that objections keep working, we know who has changed roles and our selection improves."
+},
+"Wil je weten namens welke opdrachtgever je bent gemaild? Vraag het ons gerust.": {
+"en": "Want to know on whose behalf you were emailed? Just ask us."
+},
+"Leaddata: maximaal 24 maanden na verzameling of na het laatste contact. Daarna verwijderen wij het record of controleren wij het opnieuw": {
+"en": "Lead data: up to 24 months after collection or after the last contact. After that we delete the record or check it again"
+},
+"Campagnedata en reacties: zolang de campagne loopt en daarna maximaal 24 maanden": {
+"en": "Campaign data and replies: for as long as the campaign runs and up to 24 months after that"
+},
+"Opnames en uitgeschreven tekst van gesprekken: maximaal 12 maanden": {
+"en": "Call recordings and transcripts: up to 12 months"
+},
+"Boekingen en ingevulde vragenlijsten van wie geen klant wordt: maximaal 24 maanden": {
+"en": "Bookings and completed questionnaires of people who do not become clients: up to 24 months"
+},
+"Facturen: 7 jaar, conform de wettelijke bewaarplicht": {
+"en": "Invoices: 7 years, in line with the statutory retention obligation"
+},
+"Ontvangers en doorgifte": {
+"en": "Recipients and transfers"
+},
+"Wij delen gegevens alleen als dat nodig is voor onze dienst. Dat gebeurt met deze categorieën leveranciers:": {
+"en": "We only share data when this is needed for our service. We do so with these categories of providers:"
+},
+"E-mailverzending en mailboxen": {
+"en": "Email sending and mailboxes"
+},
+"Database en hosting": {
+"en": "Database and hosting"
+},
+"Controle van e-mailadressen en verrijking van bedrijfsgegevens": {
+"en": "Email verification and enrichment of company data"
+},
+"Gepersonaliseerde pagina’s": {
+"en": "Personalised pages"
+},
+"Agenda, videobellen en uitschrijven van gesprekken": {
+"en": "Calendar, video calls and call transcription"
+},
+"Documenten, ondertekening en betalingen": {
+"en": "Documents, signing and payments"
+},
+"Websitestatistieken en advertenties, alleen met toestemming": {
+"en": "Website analytics and advertising, only with consent"
+},
+"Met leveranciers die persoonsgegevens voor ons verwerken, sluiten wij een verwerkersovereenkomst. Een deel van hen is gevestigd buiten de Europese Economische Ruimte, vooral in de Verenigde Staten. Gegevens gaan daar alleen naartoe op basis van het EU-US Data Privacy Framework of de standaardcontractbepalingen van de Europese Commissie.": {
+"en": "We conclude a data processing agreement with providers that process personal data for us. Some of them are based outside the European Economic Area, mainly in the United States. Data only goes there on the basis of the EU-US Data Privacy Framework or the standard contractual clauses of the European Commission."
+},
+"Positieve reacties op een campagne sturen wij door naar de opdrachtgever namens wie wij mailden.": {
+"en": "We forward positive replies to a campaign to the client on whose behalf we emailed."
+},
+"Persoonlijke pagina’s": {
+"en": "Personal pages"
+},
+"Bij sommige campagnes hoort een persoonlijke pagina die wij maken op basis van openbare zakelijke informatie over jou en je bedrijf, zoals je functie en wat je bedrijf doet. Wij gebruiken daarvoor geen privé-informatie.": {
+"en": "Some campaigns include a personal page that we create from public business information about you and your company, such as your role and what your company does. We do not use private information for this."
+},
+"Wij sturen de link alleen naar jou en de pagina wordt niet door zoekmachines opgenomen. Wij zien of de pagina wordt bezocht en of er op de knop wordt geklikt, zodat wij op het juiste moment kunnen opvolgen.": {
+"en": "We only send the link to you and the page is not indexed by search engines. We can see whether the page is visited and whether the button is clicked, so we can follow up at the right moment."
+},
+"Liever geen pagina? Mail ons en wij halen hem direct offline.": {
+"en": "Rather not have a page? Email us and we will take it offline straight away."
+},
+"Onze database staat bij een opslagdienst binnen de EU en is afgeschermd voor iedereen zonder inlog": {
+"en": "Our database is hosted within the EU and is closed to anyone without a login"
+},
+"Toegang alleen voor wie die nodig heeft voor het werk": {
+"en": "Access only for people who need it for their work"
+},
+"Beveiligde verbindingen": {
+"en": "Secured connections"
+},
+"Een vaste procedure voor datalekken, inclusief melding aan de Autoriteit Persoonsgegevens binnen 72 uur waar dat nodig is": {
+"en": "A fixed procedure for data breaches, including notification to the Dutch Data Protection Authority within 72 hours where required"
+},
+"Inzage te vragen in de gegevens die wij over je hebben, inclusief de bron": {
+"en": "Access the data we hold about you, including its source"
+},
+"Gegevens te laten corrigeren": {
+"en": "Have data corrected"
+},
+"Gegevens te laten verwijderen": {
+"en": "Have data deleted"
+},
+"De verwerking te laten beperken": {
+"en": "Have the processing restricted"
+},
+"Je gegevens in een gangbaar bestand te ontvangen": {
+"en": "Receive your data in a common file format"
+},
+"Bezwaar te maken tegen de verwerking": {
+"en": "Object to the processing"
+},
+"Een gegeven toestemming in te trekken": {
+"en": "Withdraw consent you have given"
+},
+"Bij direct marketing is het recht van bezwaar absoluut, artikel 21 lid 2 en 3 AVG. Vraag je ons om je niet meer te benaderen of je gegevens te verwijderen, dan stoppen wij direct en zonder afweging en komt je adres op een blokkeerlijst die voor al onze campagnes en leveringen geldt. Laat je alleen weten dat een aanbod niet relevant is, dan stopt die afzender met mailen.": {
+"en": "For direct marketing the right to object is absolute, Article 21(2) and (3) GDPR. If you ask us to stop contacting you or to delete your data, we stop immediately and without any balancing, and your address goes on a blocklist that applies to all our campaigns and deliveries. If you only let us know that an offer is not relevant, that sender stops emailing you."
+},
+"Wij reageren binnen een werkdag en handelen een verzoek uiterlijk binnen een maand volledig af. Ben je het niet met ons eens, dan kun je een klacht indienen bij de Autoriteit Persoonsgegevens.": {
+"en": "We respond within one working day and fully handle a request within one month at the latest. If you disagree with us, you can file a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens)."
+},
+"Cookies en bronvermelding": {
+"en": "Cookies and source tracking"
+},
+"Altijd": {
+"en": "Always"
+},
+"Functionele opslag die nodig is om de site te laten werken, zoals je taalkeuze en je cookiekeuze": {
+"en": "Functional storage that the site needs to work, such as your language choice and your cookie choice"
+},
+"Cookieloze bezoekersstatistieken die geen persoon herkennen": {
+"en": "Cookieless visitor statistics that do not identify a person"
+},
+"Via welke site of campagne je binnenkwam, 90 dagen bewaard in je eigen browser en alleen meegestuurd als je een gesprek boekt of een formulier invult": {
+"en": "Which site or campaign brought you to us, stored for 90 days in your own browser and only sent along when you book a call or submit a form"
+},
+"Alleen met je toestemming": {
+"en": "Only with your consent"
+},
+"Google Analytics, om het gebruik van de site te meten": {
+"en": "Google Analytics, to measure how the site is used"
+},
+"De Meta Pixel, om het effect van onze advertenties te meten": {
+"en": "The Meta Pixel, to measure the effect of our advertising"
+},
+"Die laden pas nadat je daar in de cookiemelding akkoord op geeft. Google en Meta kunnen daarbij gegevens buiten de EU verwerken. Je kunt je keuze op elk moment wijzigen.": {
+"en": "These only load after you agree in the cookie notice. Google and Meta may process data outside the EU in doing so. You can change your choice at any time."
+},
+"Cookiekeuze wijzigen": {
+"en": "Change cookie choice"
+},
+"Laatst bijgewerkt: 26 november 2026": {
+"en": "Last updated: 26 November 2026"
 }
 };

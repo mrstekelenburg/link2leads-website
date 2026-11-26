@@ -227,6 +227,7 @@ footer.l2f{margin-bottom:0 !important;}
 .l2l-swipe i{font-style:normal;display:inline-block;animation:l2lSwipe 1.6s ease-in-out infinite;}
 @keyframes l2lSwipe{0%,100%{transform:translateX(0);}50%{transform:translateX(5px);}}
 @media(prefers-reduced-motion:reduce){.l2l-swipe i{animation:none;}}
+.l2l-cookie-btn{font:inherit;font-size:14px;font-weight:700;color:#fff;background:#2F6FED;border:0;border-radius:100px;padding:10px 20px;cursor:pointer;}.l2l-cookie-btn:hover{opacity:.9;}
 </style>
 <style>
 html body nav .nav-inner a.nav-logo,
@@ -385,7 +386,7 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
   html body .l2n-menu{top:80px;}
 }
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://www.link2leads.nl/privacy#webpage", "url": "https://www.link2leads.nl/privacy", "name": "Privacybeleid | Link2Leads", "description": "Het privacybeleid van Link2Leads: welke persoonsgegevens we verwerken, waarom, hoe lang we ze bewaren en welke rechten je hebt.", "inLanguage": "nl-NL", "isPartOf": {"@type": "WebSite", "@id": "https://www.link2leads.nl/#website", "url": "https://www.link2leads.nl/", "name": "Link2Leads"}, "publisher": {"@type": "Organization", "name": "Link2Leads", "url": "https://www.link2leads.nl/", "parentOrganization": {"@type": "Organization", "@id": "https://www.link2group.nl/#organization", "name": "Link2Group", "url": "https://www.link2group.nl/"}}, "dateModified": "2026-11-05"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Link2Leads", "item": "https://www.link2leads.nl/"}, {"@type": "ListItem", "position": 2, "name": "Privacybeleid", "item": "https://www.link2leads.nl/privacy"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://www.link2leads.nl/privacy#webpage", "url": "https://www.link2leads.nl/privacy", "name": "Privacybeleid | Link2Leads", "description": "Het privacybeleid van Link2Leads: welke persoonsgegevens we verwerken, waarom, hoe lang we ze bewaren en welke rechten je hebt.", "inLanguage": "nl-NL", "isPartOf": {"@type": "WebSite", "@id": "https://www.link2leads.nl/#website", "url": "https://www.link2leads.nl/", "name": "Link2Leads"}, "publisher": {"@type": "Organization", "name": "Link2Leads", "url": "https://www.link2leads.nl/", "parentOrganization": {"@type": "Organization", "@id": "https://www.link2group.nl/#organization", "name": "Link2Group", "url": "https://www.link2group.nl/"}}, "dateModified": "2026-11-26"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Link2Leads", "item": "https://www.link2leads.nl/"}, {"@type": "ListItem", "position": 2, "name": "Privacybeleid", "item": "https://www.link2leads.nl/privacy"}]}]}</script>
 <link rel="alternate" type="text/plain" href="/llms.txt" title="Samenvatting voor taalmodellen">
 </head>
 <body>
@@ -505,7 +506,7 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
   <h1 class="legal-title">Privacybeleid</h1>
   <p class="legal-meta">
     <span class="l2b">Link<i>2</i>Leads</span>, onderdeel van <span class="l2b">Link<i>2</i>Group</span><br>
-    Laatst bijgewerkt: 14 september 2026<br><br>
+    Laatst bijgewerkt: 26 november 2026<br><br>
     Wij gaan zorgvuldig om met gegevens van opdrachtgevers, van prospects die wij namens een opdrachtgever benaderen en van personen die in een leadbestand staan dat wij leveren.
   </p>
 
@@ -521,20 +522,21 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
   </div>
 
   <div class="legal-divider"></div>
-
   <div class="legal-section">
     <h2><span class="legal-num">02</span> Welke gegevens we verwerken</h2>
     <p class="sub-label">Van opdrachtgevers</p>
     <ul>
       <li>Naam en contactgegevens</li>
       <li>Bedrijfsinformatie</li>
-      <li>Campagne-informatie</li>
+      <li>Campagne-informatie en de antwoorden uit onze vragenlijst</li>
       <li>Factuurgegevens</li>
     </ul>
-    <p class="sub-label">Van prospects</p>
+    <p class="sub-label">Van zakelijke contactpersonen die wij per e-mail benaderen</p>
     <ul>
-      <li>Zakelijke contactgegevens zoals naam, e-mailadres, functie en bedrijf</li>
-      <li>Interacties met campagnes zoals opens en replies</li>
+      <li>Zakelijke contactgegevens zoals naam, zakelijk e-mailadres, functie en bedrijf</li>
+      <li>Een link naar een openbaar zakelijk profiel, als dat er is</li>
+      <li>Je reactie op onze mails, inclusief de tekst daarvan</li>
+      <li>Of je een persoonlijke pagina hebt bezocht die bij een mail hoort (zie artikel 09)</li>
     </ul>
     <p class="sub-label">Van personen in een leadbestand dat wij leveren</p>
     <ul>
@@ -543,28 +545,36 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
       <li>Optioneel een openbaar zakelijk telefoonnummer of een link naar een openbaar zakelijk profiel</li>
       <li>De bron waar wij het gegeven hebben gevonden en de datum waarop wij het hebben gecontroleerd</li>
     </ul>
-    <p class="sub-label">Gebruik van systemen</p>
+    <p class="sub-label">Van bezoekers van onze website</p>
     <ul>
-      <li>Campagneprestaties</li>
-      <li>Activiteit en statistieken</li>
+      <li>Wat je invult als je een gesprek boekt of onze vragenlijst invult</li>
+      <li>Via welke site of campagne je binnenkwam (zie artikel 12)</li>
+      <li>Gebruiksgegevens via cookies, alleen als je daar toestemming voor geeft</li>
+    </ul>
+    <p class="sub-label">Van gesprekken</p>
+    <ul>
+      <li>Een opname en uitgeschreven tekst van een kennismakingsgesprek, als wij dat aan het begin van het gesprek hebben gemeld</li>
     </ul>
   </div>
 
   <div class="legal-divider"></div>
-
   <div class="legal-section">
     <h2><span class="legal-num">03</span> Waar de gegevens vandaan komen</h2>
-    <p>Wij verzamelen de gegevens van prospects en leads niet bij de betrokkene zelf. Daarom leggen wij per record vast waar een gegeven vandaan komt en wanneer het is gecontroleerd, zodat wij die vraag kunnen beantwoorden als iemand hem stelt.</p>
+    <p>Wij verzamelen de gegevens van zakelijke contactpersonen en leads niet bij de betrokkene zelf. Daarom leggen wij per record vast waar een gegeven vandaan komt en wanneer het is gecontroleerd, zodat wij die vraag kunnen beantwoorden als iemand hem stelt.</p>
     <p class="sub-label">Bronnen die wij gebruiken</p>
     <ul>
-      <li>Openbare bedrijfswebsites, waaronder contact-, team- en over-onspagina's</li>
+      <li>Openbare bedrijfswebsites, waaronder contact-, team- en over-onspagina’s</li>
       <li>Openbare zakelijke profielen en bedrijvengidsen</li>
+      <li>Zakelijke databronnen van gespecialiseerde leveranciers</li>
+      <li>Openbare vacatures en aanbestedingen</li>
       <li>Gegevens die een opdrachtgever zelf aanlevert</li>
-      <li>Eigen afleiding en verificatie, bijvoorbeeld het controleren of een zakelijk e-mailadres bestaat</li>
+      <li>Eigen verificatie, bijvoorbeeld controleren of een zakelijk e-mailadres bestaat</li>
     </ul>
     <p class="sub-label">Wat wij niet doen</p>
     <ul>
-      <li>Wij verzamelen geen priveadressen, privetelefoonnummers of persoonlijke e-mailadressen</li>
+      <li>Wij gebruiken alleen zakelijke e-mailadressen op het domein van een bedrijf. Adressen bij gratis of private maildiensten, zoals Gmail of Hotmail, weigeren wij automatisch</li>
+      <li>Wij benaderen geen consumenten en geen personen in hun privé-hoedanigheid</li>
+      <li>Wij richten ons op rechtspersonen zoals bv’s en nv’s. Eenmanszaken en vennootschappen onder firma mailen wij niet ongevraagd</li>
       <li>Wij verkopen geen gegevens uit het Handelsregister door en gebruiken het Handelsregister niet als bron voor de leadbestanden die wij leveren</li>
       <li>Wij verwerken geen bijzondere categorieën van persoonsgegevens</li>
       <li>Wij verzamelen geen gegevens die alleen achter een inlog of betaalmuur beschikbaar zijn</li>
@@ -572,116 +582,148 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
   </div>
 
   <div class="legal-divider"></div>
-
   <div class="legal-section">
     <h2><span class="legal-num">04</span> Waarom we dit doen</h2>
     <p>We gebruiken gegevens om:</p>
     <ul>
-      <li>Campagnes uit te voeren</li>
-      <li>Leads te genereren</li>
-      <li>Leadbestanden samen te stellen, te verifieren en te leveren aan opdrachtgevers</li>
-      <li>Afspraken in te plannen</li>
-      <li>Resultaten te meten en te verbeteren</li>
-      <li>Communicatie te verzorgen</li>
+      <li>Campagnes uit te voeren, voor onze opdrachtgevers en voor onszelf</li>
+      <li>Leadbestanden samen te stellen, te verifiëren en te leveren aan opdrachtgevers</li>
+      <li>Persoonlijke pagina’s te maken die bij een mail horen</li>
+      <li>Reacties door te sturen naar de opdrachtgever en afspraken in te plannen</li>
+      <li>Bij te houden wie niet meer benaderd wil worden</li>
+      <li>Resultaten te meten en onze selectie te verbeteren</li>
+      <li>Onze administratie te voeren en met opdrachtgevers te communiceren</li>
     </ul>
   </div>
 
   <div class="legal-divider"></div>
-
   <div class="legal-section">
     <h2><span class="legal-num">05</span> Rechtsgrond</h2>
     <p>Wij verwerken gegevens op basis van:</p>
     <ul>
       <li>Uitvoering van een overeenkomst, voor de gegevens van onze opdrachtgevers</li>
-      <li>Gerechtvaardigd belang, artikel 6 lid 1 sub f AVG, voor het benaderen van zakelijke contactpersonen en voor het samenstellen en leveren van zakelijke leadbestanden. Wij hebben die afweging gemaakt en kunnen hem op verzoek toelichten</li>
-      <li>Toestemming, waar dit wettelijk vereist is</li>
+      <li>Gerechtvaardigd belang, artikel 6 lid 1 sub f AVG, voor het zakelijk benaderen van contactpersonen en voor het samenstellen en leveren van zakelijke leadbestanden</li>
+      <li>Toestemming, voor analytische en advertentiecookies en waar de wet dat verder vereist</li>
       <li>Een wettelijke verplichting, bijvoorbeeld voor onze administratie</li>
     </ul>
-    <p>Omdat wij de gegevens niet bij de betrokkene zelf verzamelen, geldt de informatieplicht uit artikel 14 AVG. Deze verklaring is de manier waarop wij daaraan voldoen: hij beschrijft wie wij zijn, wat wij verwerken, waar de gegevens vandaan komen, met wie wij ze delen en welke rechten je hebt.</p>
+    <p class="sub-label">Onze afweging bij gerechtvaardigd belang</p>
+    <p>Wij hebben schriftelijk afgewogen of ons belang zwaarder weegt dan jouw privacy. Die afweging valt alleen positief uit dankzij deze waarborgen, die wij altijd toepassen:</p>
+    <ul>
+      <li>Alleen zakelijke contactgegevens, op het e-mailadres dat bij je functie hoort</li>
+      <li>Alleen een onderwerp dat aansluit bij je functie of bedrijf</li>
+      <li>Maximaal drie mails per campagne, met in elke mail een eenvoudige manier om je af te melden</li>
+      <li>Een blokkeerlijst die bezwaren over al onze campagnes heen laat werken</li>
+    </ul>
+    <p>De volledige afweging sturen wij je op verzoek toe. <a href="mailto:info@link2leads.nl">info@link2leads.nl</a></p>
+    <p class="sub-label">Informatieplicht</p>
+    <p>Omdat wij de gegevens niet bij jou zelf verzamelen, geldt artikel 14 AVG. In de eerste mail staat dat wij je online zijn tegengekomen en hoe je je afmeldt. Deze verklaring vult dat aan: wie wij zijn, wat wij verwerken, waar de gegevens vandaan komen, met wie wij ze delen en welke rechten je hebt.</p>
   </div>
 
   <div class="legal-divider"></div>
-
   <div class="legal-section">
-    <h2><span class="legal-num">06</span> Bewaartermijnen</h2>
+    <h2><span class="legal-num">06</span> Onze rol bij campagnes voor opdrachtgevers</h2>
+    <p>Bij een campagne namens een opdrachtgever bepaalt de opdrachtgever het doel en de doelgroep en gaan de mails onder zijn naam uit. Voor die campagne is de opdrachtgever verwerkingsverantwoordelijke en verwerken wij de gegevens in zijn opdracht, op basis van een verwerkersovereenkomst.</p>
+    <p>Voor onze eigen database, onze blokkeerlijst en onze eigen campagnes zijn wij zelf verwerkingsverantwoordelijke. Reacties uit campagnes nemen wij op in die eigen database, zodat bezwaren blijven werken, wij weten wie van functie is veranderd en onze selectie beter wordt.</p>
+    <p>Wil je weten namens welke opdrachtgever je bent gemaild? Vraag het ons gerust. <a href="mailto:info@link2leads.nl">info@link2leads.nl</a></p>
+  </div>
+
+  <div class="legal-divider"></div>
+  <div class="legal-section">
+    <h2><span class="legal-num">07</span> Bewaartermijnen</h2>
     <ul>
-      <li>Campagnedata: zolang nodig voor de uitvoering</li>
-      <li>Leaddata: maximaal 24 maanden na verzameling, daarna verwijderen wij het record of controleren wij het opnieuw</li>
+      <li>Leaddata: maximaal 24 maanden na verzameling of na het laatste contact. Daarna verwijderen wij het record of controleren wij het opnieuw</li>
+      <li>Campagnedata en reacties: zolang de campagne loopt en daarna maximaal 24 maanden</li>
       <li>Blokkeerlijst: onbeperkt, omdat wij alleen zo kunnen garanderen dat een bezwaar blijft werken. Op die lijst staat niet meer dan nodig is om een adres te herkennen</li>
+      <li>Opnames en uitgeschreven tekst van gesprekken: maximaal 12 maanden</li>
+      <li>Boekingen en ingevulde vragenlijsten van wie geen klant wordt: maximaal 24 maanden</li>
       <li>Klantgegevens: zolang de samenwerking loopt</li>
-      <li>Facturen: 7 jaar conform wettelijke verplichting</li>
+      <li>Facturen: 7 jaar, conform de wettelijke bewaarplicht</li>
     </ul>
   </div>
 
   <div class="legal-divider"></div>
-
   <div class="legal-section">
-    <h2><span class="legal-num">07</span> Delen met derden</h2>
-    <p>Wij werken met externe tools voor e-mailverzending, CRM en analyse. Gegevens worden alleen gedeeld wanneer dit noodzakelijk is voor de uitvoering van de dienst.</p>
-  </div>
-
-  <div class="legal-divider"></div>
-
-  <div class="legal-section">
-    <h2><span class="legal-num">08</span> Leadbestanden die wij leveren</h2>
-    <p>Naast het uitvoeren van campagnes leveren wij losse leadbestanden aan opdrachtgevers. Dat is een verstrekking van zakelijke contactgegevens aan een ontvanger die daarna zelf bepaalt wat hij ermee doet.</p>
-    <p class="sub-label">Wat dat betekent</p>
+    <h2><span class="legal-num">08</span> Ontvangers en doorgifte</h2>
+    <p>Wij delen gegevens alleen als dat nodig is voor onze dienst. Dat gebeurt met deze categorieën leveranciers:</p>
     <ul>
-      <li>De ontvangende opdrachtgever wordt vanaf het moment van levering zelfstandig verwerkingsverantwoordelijke voor de gegevens in dat bestand. Wij zijn geen verwerker van hem en hij niet van ons.</li>
-      <li>Wij leveren bij elk record de bron en de controledatum mee, zodat de opdrachtgever kan aantonen waar een gegeven vandaan komt.</li>
-      <li>Wij leggen in onze algemene voorwaarden vast dat de opdrachtgever de gegevens uitsluitend gebruikt voor zakelijke benadering van het betreffende bedrijf, binnen de AVG en de Telecommunicatiewet, en dat hij bezwaren zelf afhandelt en de gegevens niet doorverkoopt.</li>
-      <li>De categorieën ontvangers zijn Nederlandse en Europese zakelijke opdrachtgevers die zelf zakelijke contacten benaderen. Vraag je ons aan wie een gegeven over jou is verstrekt, dan vertellen wij dat.</li>
+      <li>E-mailverzending en mailboxen</li>
+      <li>Database en hosting</li>
+      <li>Controle van e-mailadressen en verrijking van bedrijfsgegevens</li>
+      <li>Gepersonaliseerde pagina’s</li>
+      <li>Agenda, videobellen en uitschrijven van gesprekken</li>
+      <li>Documenten, ondertekening en betalingen</li>
+      <li>Websitestatistieken en advertenties, alleen met toestemming</li>
     </ul>
-    <p class="sub-label">Wat wij niet leveren</p>
-    <ul>
-      <li>Adressen van personen die eerder bezwaar bij ons hebben gemaakt. Die staan op een blokkeerlijst die over al onze campagnes en alle leveringen heen werkt en dus ook uit nieuwe bestanden wordt gefilterd.</li>
-      <li>Gegevens van consumenten of van personen in hun prive-hoedanigheid.</li>
-    </ul>
+    <p>Met leveranciers die persoonsgegevens voor ons verwerken, sluiten wij een verwerkersovereenkomst. Een deel van hen is gevestigd buiten de Europese Economische Ruimte, vooral in de Verenigde Staten. Gegevens gaan daar alleen naartoe op basis van het EU-US Data Privacy Framework of de standaardcontractbepalingen van de Europese Commissie.</p>
+    <p>Positieve reacties op een campagne sturen wij door naar de opdrachtgever namens wie wij mailden.</p>
   </div>
 
   <div class="legal-divider"></div>
-
   <div class="legal-section">
-    <h2><span class="legal-num">09</span> Beveiliging</h2>
+    <h2><span class="legal-num">09</span> Persoonlijke pagina’s</h2>
+    <p>Bij sommige campagnes hoort een persoonlijke pagina die wij maken op basis van openbare zakelijke informatie over jou en je bedrijf, zoals je functie en wat je bedrijf doet. Wij gebruiken daarvoor geen privé-informatie.</p>
+    <p>Wij sturen de link alleen naar jou en de pagina wordt niet door zoekmachines opgenomen. Wij zien of de pagina wordt bezocht en of er op de knop wordt geklikt, zodat wij op het juiste moment kunnen opvolgen.</p>
+    <p>Liever geen pagina? Mail ons en wij halen hem direct offline. <a href="mailto:info@link2leads.nl">info@link2leads.nl</a></p>
+  </div>
+
+  <div class="legal-divider"></div>
+  <div class="legal-section">
+    <h2><span class="legal-num">10</span> Beveiliging</h2>
     <p>Wij nemen passende technische en organisatorische maatregelen om gegevens te beschermen:</p>
     <ul>
-      <li>Beveiligde systemen en verbindingen</li>
-      <li>Beperkte toegang op basis van noodzaak</li>
-      <li>Actieve monitoring</li>
+      <li>Onze database staat bij een opslagdienst binnen de EU en is afgeschermd voor iedereen zonder inlog</li>
+      <li>Toegang alleen voor wie die nodig heeft voor het werk</li>
+      <li>Beveiligde verbindingen</li>
+      <li>Een vaste procedure voor datalekken, inclusief melding aan de Autoriteit Persoonsgegevens binnen 72 uur waar dat nodig is</li>
     </ul>
-    <p>Opdrachtgevers krijgen een persoonlijke campagnepagina met een eigen link, waarop ze hun vragenlijst, domeinnamen, leads en mailteksten zien en goedkeuren. Die link is niet te raden, de pagina wordt niet door zoekmachines opgenomen en we kunnen de link op elk moment intrekken. Van leads tonen we daar alleen bedrijf, naam, functie en plaats, geen e-mailadressen. Veertien dagen nadat de opdrachtgever een leadlijst heeft goedgekeurd, verdwijnt die lijst van de pagina. De gegevens staan bij een opslagdienst binnen de EU.</p>
   </div>
 
   <div class="legal-divider"></div>
-
   <div class="legal-section">
-    <h2><span class="legal-num">10</span> Jouw rechten</h2>
+    <h2><span class="legal-num">11</span> Jouw rechten</h2>
     <p>Je hebt het recht om:</p>
     <ul>
-      <li>Inzage aan te vragen in jouw gegevens</li>
-      <li>Gegevens te laten aanpassen of verwijderen</li>
+      <li>Inzage te vragen in de gegevens die wij over je hebben, inclusief de bron</li>
+      <li>Gegevens te laten corrigeren</li>
+      <li>Gegevens te laten verwijderen</li>
+      <li>De verwerking te laten beperken</li>
+      <li>Je gegevens in een gangbaar bestand te ontvangen</li>
+      <li>Bezwaar te maken tegen de verwerking</li>
+      <li>Een gegeven toestemming in te trekken</li>
     </ul>
-    <h2>Cookies</h2>
-  <p>Onze website plaatst functionele cookies die nodig zijn om de site te laten werken, bijvoorbeeld om je taalkeuze te onthouden. Daarvoor is geen toestemming vereist.</p>
-  <p>Daarnaast gebruiken we Google Analytics om het gebruik van de site te meten en de Meta Pixel om het effect van onze advertenties te bekijken.</p>
-  <p>Je kunt deze cookies weigeren of verwijderen via de instellingen van je browser. Ook kun je Google Analytics blokkeren met de browser-add-on van Google.</p>
-
-  <p>Stuur een e-mail naar <a href="mailto:info@link2leads.nl">info@link2leads.nl</a></p>
-      <p>Bij direct marketing is het recht van bezwaar absoluut, artikel 21 lid 2 en 3 AVG. Maak je bezwaar, dan stoppen wij de verwerking voor dat doel direct en zonder afweging, en komt je adres op een blokkeerlijst die over al onze campagnes en leveringen heen werkt. Dat betekent dat je adres ook niet opnieuw in een later bestand terechtkomt.</p>
-    <p>Een verzoek kun je sturen naar <a href="mailto:info@link2leads.nl">info@link2leads.nl</a>. Wij reageren binnen een werkdag en handelen het uiterlijk binnen een maand volledig af. Je kunt ook altijd een klacht indienen bij de Autoriteit Persoonsgegevens.</p>
-</div>
+    <p>Bij direct marketing is het recht van bezwaar absoluut, artikel 21 lid 2 en 3 AVG. Vraag je ons om je niet meer te benaderen of je gegevens te verwijderen, dan stoppen wij direct en zonder afweging en komt je adres op een blokkeerlijst die voor al onze campagnes en leveringen geldt. Laat je alleen weten dat een aanbod niet relevant is, dan stopt die afzender met mailen.</p>
+    <p>Een verzoek kun je sturen naar <a href="mailto:info@link2leads.nl">info@link2leads.nl</a></p>
+    <p>Wij reageren binnen een werkdag en handelen een verzoek uiterlijk binnen een maand volledig af. Ben je het niet met ons eens, dan kun je een klacht indienen bij de Autoriteit Persoonsgegevens.</p>
+  </div>
 
   <div class="legal-divider"></div>
+  <div class="legal-section" id="cookies">
+    <h2><span class="legal-num">12</span> Cookies en bronvermelding</h2>
+    <p class="sub-label">Altijd</p>
+    <ul>
+      <li>Functionele opslag die nodig is om de site te laten werken, zoals je taalkeuze en je cookiekeuze</li>
+      <li>Cookieloze bezoekersstatistieken die geen persoon herkennen</li>
+      <li>Via welke site of campagne je binnenkwam, 90 dagen bewaard in je eigen browser en alleen meegestuurd als je een gesprek boekt of een formulier invult</li>
+    </ul>
+    <p class="sub-label">Alleen met je toestemming</p>
+    <ul>
+      <li>Google Analytics, om het gebruik van de site te meten</li>
+      <li>De Meta Pixel, om het effect van onze advertenties te meten</li>
+    </ul>
+    <p>Die laden pas nadat je daar in de cookiemelding akkoord op geeft. Google en Meta kunnen daarbij gegevens buiten de EU verwerken. Je kunt je keuze op elk moment wijzigen.</p>
+    <p><button type="button" class="l2l-cookie-btn" onclick="if(window.l2lCookies)l2lCookies()">Cookiekeuze wijzigen</button></p>
+  </div>
 
+  <div class="legal-divider"></div>
   <div class="legal-section">
-    <h2><span class="legal-num">11</span> Wijzigingen</h2>
+    <h2><span class="legal-num">13</span> Wijzigingen</h2>
     <p>Dit beleid kan worden aangepast. De meest actuele versie staat altijd op onze website.</p>
   </div>
 
   <div class="legal-divider"></div>
 
   <div class="legal-section">
-    <h2><span class="legal-num">12</span> Contact</h2>
+    <h2><span class="legal-num">14</span> Contact</h2>
     <p><span class="l2b">Link<i>2</i>Leads</span>, onderdeel van <span class="l2b">Link<i>2</i>Group</span><br>
     Frederik Hendrikstraat 59H, 1052 HL Amsterdam<br>
     KvK: 42025671<br>
@@ -770,8 +812,8 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
 </script>
 
 
-<script src="/assets/i18n/l2l-i18n.js?v=75"></script>
-<script src="/assets/tracking.js?v=2"></script>
+<script src="/assets/i18n/l2l-i18n.js?v=83"></script>
+<script src="/assets/tracking.js?v=3"></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
    Doet niets bij tabellen die gewoon passen. */
