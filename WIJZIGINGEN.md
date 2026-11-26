@@ -1,3 +1,8 @@
+**26 november 2026: privacyverklaring herschreven en cookiemelding**
+- `privacy.html` herschreven na de AVG-doorlichting: bronnen, geen privé-adressen, geen eenmanszaken en vof's, samenvatting van de belangenafweging, onze rol als verwerker bij klantcampagnes, ontvangers in categorieën met doorgifte buiten de EER, persoonlijke pagina's, bewaartermijnen voor gesprekken en boekingen, volledige lijst met rechten en een eigen sectie Cookies (`/privacy#cookies`) met knop om de keuze te wijzigen.
+- `assets/tracking.js`: Google Analytics en de Meta Pixel laden pas na akkoord in een cookiemelding (Akkoord / Alleen noodzakelijk, even zwaar). Keuze 12 maanden in `localStorage` onder `l2l_consent`. `l2lCookies()` opent de melding opnieuw. Vercel Analytics (cookieloos) en het vastleggen van de bron blijven altijd aan. Melding volgt de taal van de pagina.
+- Alle pagina's op `tracking.js?v=3` en `l2l-i18n.js?v=83`. Engels voor alle nieuwe teksten in `l2l-i18n-data.js`. Zelfde op link2leads.co.
+
 **25 november 2026: tabblad LinkedIn op de campagnepagina**
 - Nieuw tabblad LinkedIn op `link2leads.nl/campagne/[code]`, alleen zichtbaar bij klanten die LinkedIn afnemen. Zonder link staat er dat de klant daar binnenkort zijn LinkedIn-account koppelt; met link staat er de knop "Koppel je LinkedIn-account"; na het koppelen staat er "Gekoppeld".
 - Werkt via een regel in `klantpagina_items` met soort `linkedin`: `inhoud.accounts` (namen), `inhoud.link` (https-link naar de koppeling, mag leeg), status `info` of `akkoord` (gekoppeld). De naam van de tool staat nergens op de pagina.
