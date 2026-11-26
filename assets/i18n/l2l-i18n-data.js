@@ -13680,8 +13680,8 @@ window.L2L_I18N_DATA = {
 "Gerechtvaardigd belang, artikel 6 lid 1 sub f AVG, voor het zakelijk benaderen van contactpersonen en voor het samenstellen en leveren van zakelijke leadbestanden": {
 "en": "Legitimate interest, Article 6(1)(f) GDPR, for approaching business contacts and for compiling and delivering business lead files"
 },
-"Toestemming, voor analytische en advertentiecookies en waar de wet dat verder vereist": {
-"en": "Consent, for analytics and advertising cookies and wherever else the law requires it"
+"Toestemming, voor analytische cookies en waar de wet dat verder vereist": {
+"en": "Consent, for analytics cookies and wherever else the law requires it"
 },
 "Onze afweging bij gerechtvaardigd belang": {
 "en": "Our balancing test for legitimate interest"
@@ -13761,8 +13761,8 @@ window.L2L_I18N_DATA = {
 "Documenten, ondertekening en betalingen": {
 "en": "Documents, signing and payments"
 },
-"Websitestatistieken en advertenties, alleen met toestemming": {
-"en": "Website analytics and advertising, only with consent"
+"Websitestatistieken, alleen met toestemming": {
+"en": "Website analytics, only with consent"
 },
 "Met leveranciers die persoonsgegevens voor ons verwerken, sluiten wij een verwerkersovereenkomst. Een deel van hen is gevestigd buiten de Europese Economische Ruimte, vooral in de Verenigde Staten. Gegevens gaan daar alleen naartoe op basis van het EU-US Data Privacy Framework of de standaardcontractbepalingen van de Europese Commissie.": {
 "en": "We conclude a data processing agreement with providers that process personal data for us. Some of them are based outside the European Economic Area, mainly in the United States. Data only goes there on the basis of the EU-US Data Privacy Framework or the standard contractual clauses of the European Commission."
@@ -13845,8 +13845,8 @@ window.L2L_I18N_DATA = {
 "De Meta Pixel, om het effect van onze advertenties te meten": {
 "en": "The Meta Pixel, to measure the effect of our advertising"
 },
-"Die laden pas nadat je daar in de cookiemelding akkoord op geeft. Google en Meta kunnen daarbij gegevens buiten de EU verwerken. Je kunt je keuze op elk moment wijzigen.": {
-"en": "These only load after you agree in the cookie notice. Google and Meta may process data outside the EU in doing so. You can change your choice at any time."
+"Die laadt pas nadat je daar in de cookiemelding akkoord op geeft. Google kan daarbij gegevens buiten de EU verwerken. Je kunt je keuze op elk moment wijzigen.": {
+"en": "This only loads after you agree in the cookie notice. Google may process data outside the EU in doing so. You can change your choice at any time."
 },
 "Cookiekeuze wijzigen": {
 "en": "Change cookie choice"

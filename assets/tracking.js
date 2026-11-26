@@ -1,5 +1,5 @@
 /* Link2Leads - tracking
-   Google Analytics + Meta Pixel (alleen na toestemming) + Vercel Web Analytics.
+   Google Analytics (alleen na toestemming) + Vercel Web Analytics.
    Gebruik l2lTrack('naam', {..}) om een gebeurtenis te loggen.
    Legt ook de bron van een bezoeker vast (zie onderaan), zodat bij elke
    boeking, vragenlijst en contactaanvraag in de notificatiemail staat
@@ -9,8 +9,7 @@
   window.__l2lTracking = true;
 
   var GA = 'G-Q4JTLMX0B7';
-  var PIXEL = '35218029017788041';
-
+  
   // Google Analytics en Meta Pixel laden pas na toestemming (Telecommunicatiewet
   // art. 11.7a). Keuze wordt 12 maanden bewaard. l2lCookies() opent de melding opnieuw.
   var CONSENT_KEY = 'l2l_consent';
@@ -28,17 +27,7 @@
     gtag('js', new Date());
     gtag('config', GA, { anonymize_ip: true });
 
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
-        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-      };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', PIXEL);
-    fbq('track', 'PageView');
+    // Geen Meta Pixel: we draaien geen advertenties (26-11-2026).
   }
 
   function readConsent() {
@@ -53,8 +42,8 @@
   }
 
   var TXT = {
-    nl: { t: 'Mogen we cookies gebruiken om te meten hoe de site gebruikt wordt en hoe onze advertenties werken? Zonder akkoord laden we alleen wat nodig is.', ja: 'Akkoord', nee: 'Alleen noodzakelijk', meer: 'Meer info', kort: 'Cookies voor statistieken en advertenties?', url: '/privacy#cookies' },
-    en: { t: 'May we use cookies to measure how the site is used and how our ads perform? Without your consent we only load what is necessary.', ja: 'Accept', nee: 'Necessary only', meer: 'More info', kort: 'Cookies for analytics and ads?', url: '/privacy#cookies' }
+    nl: { t: 'Mogen we cookies gebruiken om te meten hoe de site gebruikt wordt? Zonder akkoord laden we alleen wat nodig is.', ja: 'Akkoord', nee: 'Alleen noodzakelijk', meer: 'Meer info', kort: 'Cookies voor statistieken?', url: '/privacy#cookies' },
+    en: { t: 'May we use cookies to measure how the site is used? Without your consent we only load what is necessary.', ja: 'Accept', nee: 'Necessary only', meer: 'More info', kort: 'Cookies for analytics?', url: '/privacy#cookies' }
   };
 
   function showBanner() {
