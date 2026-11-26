@@ -13653,8 +13653,8 @@ window.L2L_I18N_DATA = {
 "Wij benaderen geen consumenten en geen personen in hun privé-hoedanigheid": {
 "en": "We do not approach consumers or people in their private capacity"
 },
-"Wij richten ons op rechtspersonen zoals bv’s en nv’s. Eenmanszaken en vennootschappen onder firma mailen wij niet ongevraagd": {
-"en": "We focus on legal entities such as private and public limited companies. We do not send unsolicited email to sole proprietorships or general partnerships"
+"Wij richten ons op rechtspersonen zoals bv’s en nv’s. Eenmanszaken en vennootschappen onder firma sluiten wij uit waar wij die herkennen": {
+"en": "We focus on legal entities such as private and public limited companies. We exclude sole proprietorships and general partnerships wherever we can identify them"
 },
 "Campagnes uit te voeren, voor onze opdrachtgevers en voor onszelf": {
 "en": "Run campaigns, for our clients and for ourselves"
