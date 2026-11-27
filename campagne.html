@@ -205,7 +205,7 @@ var T = {
   stap_vl:'Vragenlijst', stap_dom:'Domeinnamen', stap_leads:'Leads', stap_copy:'Copy', stap_live:'Live',
   sx_vl_ok:'Ontvangen, dank je.', sx_vl_open:'Nog niet ontvangen.',
   sx_dom:'Zodra je de domeinen goedkeurt, starten we met opwarmen. Dat duurt 14 dagen, dus dit is de stap die het eerst moet.',
-  sx_leads:'Verwacht binnen 5 werkdagen.', sx_copy:'Verwacht binnen een week.', sx_live:'Zodra de domeinen zijn opgewarmd en de leads en copy akkoord zijn.',
+  sx_leads:'Verwacht binnen een week na ondertekening.', sx_copy:'Verwacht binnen een week na ondertekening.', sx_verwacht:'Verwacht op {d}.', stap_li:'LinkedIn koppelen', sx_li:'Koppel je LinkedIn-account, zodat de verzoeken en berichten uit jouw naam kunnen gaan.', sx_li_deels:'{n} van {t} accounts gekoppeld. Koppel de rest via de LinkedIn-tab.', sx_li_ok:'Gekoppeld.', sx_live:'Zodra de domeinen zijn opgewarmd en de leads en copy akkoord zijn.',
   sx_bekijk:'Bekijken', sx_klaar:'Staat klaar',
   eb_sub:'Persoonlijke omgeving', kop_contact:'Samen verder', schrijf_knop:'Schrijf het op', sx_afgerond:'Afgerond.', vl_bekijk:'Bekijk je antwoorden →', sx_live_klaar:'Alles is goedgekeurd. We stemmen de startdatum met je af.', vl_ok_kort:'We hebben je antwoorden ontvangen en zijn ermee aan de slag. Aanpassen kan niet meer, toevoegen kan altijd.',
   pk_titel:'Je pakket', pk_mnd:'per maand, ex btw', pk_normaal:'Normaal', pk_jij:'Jij betaalt', pk_korting:'Je korting', pk_totaal:'Totaal', pk_meer:'Wil je meer, of iets extra?', pk_meer_tekst:'Meer volume, LinkedIn erbij of een eigen pagina per prospect. Kijk wat er kan, dan denken we met je mee.', pk_meer_knop:'Bekijk de opties',
@@ -253,7 +253,7 @@ var T = {
   stap_vl:'Questionnaire', stap_dom:'Domain names', stap_leads:'Leads', stap_copy:'Copy', stap_live:'Live',
   sx_vl_ok:'Received, thank you.', sx_vl_open:'Not received yet.',
   sx_dom:'As soon as you approve the domains, we start warming them up. That takes 14 days, so this is the step that comes first.',
-  sx_leads:'Expected within 5 working days.', sx_copy:'Expected within a week.', sx_live:'Once the domains are warmed up and the leads and copy are approved.',
+  sx_leads:'Expected within a week after signing.', sx_copy:'Expected within a week after signing.', sx_verwacht:'Expected on {d}.', stap_li:'Connect LinkedIn', sx_li:'Connect your LinkedIn account, so the requests and messages can be sent in your name.', sx_li_deels:'{n} of {t} accounts connected. Connect the rest in the LinkedIn tab.', sx_li_ok:'Connected.', sx_live:'Once the domains are warmed up and the leads and copy are approved.',
   sx_bekijk:'View', sx_klaar:'Ready',
   eb_sub:'Personal workspace', kop_contact:'Keep in touch', schrijf_knop:'Write it down', sx_afgerond:'Done.', vl_bekijk:'View your answers →', sx_live_klaar:'Everything is approved. We will agree the start date with you.', vl_ok_kort:'We received your answers and are working with them. Changing them is no longer possible, adding is always welcome.',
   pk_titel:'Your package', pk_mnd:'per month, excl. VAT', pk_normaal:'Regular', pk_jij:'You pay', pk_korting:'Your discount', pk_totaal:'Total', pk_meer:'Want more, or something extra?', pk_meer_tekst:'More volume, LinkedIn on top or a personal page per prospect. See what is possible and we will think along with you.', pk_meer_knop:'See the options',
@@ -476,8 +476,14 @@ function secOverzicht(){
     var stt = status(x[0]);
     if (!stt && tr.live_op) { stap(++nr, true, t(x[1]), t('sx_afgerond'), null, null); return; }
     var tekst = stt ? '' : t(x[2]);
+    if (!stt && x[0] !== 'domeinen' && tr.getekend_op) { var vd = new Date(tr.getekend_op); vd.setDate(vd.getDate() + 7); tekst = t('sx_verwacht', {d: datum(vd.toISOString())}); }
     stap(++nr, stt === 'akkoord', t(x[1]), tekst, stt ? x[0] : null, stt ? pill(stt) : null);
   });
+  var li = items('linkedin');
+  if (li.length) {
+    var liOk = li.filter(function(i){ return i.status === 'akkoord'; }).length;
+    stap(++nr, liOk === li.length, t('stap_li'), liOk === li.length ? t('sx_li_ok') : (liOk ? t('sx_li_deels', {n: liOk, t: li.length}) : t('sx_li')), 'linkedin', null);
+  }
   var allesOk = ['domeinen','leads','copy'].every(function(k){ return status(k) === 'akkoord'; });
   stap(++nr, !!tr.live_op, t('stap_live'), tr.live_op ? datum(tr.live_op) : t(allesOk ? 'sx_live_klaar' : 'sx_live'), null);
   s.appendChild(st);
