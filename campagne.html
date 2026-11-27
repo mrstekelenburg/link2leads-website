@@ -154,6 +154,7 @@ textarea:focus{border-color:var(--accent);}
 .pk-rows{display:grid;gap:6px;margin:8px 0 6px;}
 .pk-r{display:flex;justify-content:space-between;gap:12px;font-size:14.5px;}
 .pk-r.pk-old span:last-child{text-decoration:line-through;color:var(--muted);}
+.pk-inh{font-size:13px;color:var(--muted);padding:2px 0 2px 2px;}
 .pk-r.pk-disc{color:var(--green);}
 .pk-r.pk-tot{border-top:1px solid var(--border);padding-top:8px;margin-top:2px;font-weight:800;font-size:16px;}
 .pk-meer{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:14px;padding-top:14px;border-top:1px solid var(--border);}
@@ -204,10 +205,11 @@ var T = {
   stap_vl:'Vragenlijst', stap_dom:'Domeinnamen', stap_leads:'Leads', stap_copy:'Copy', stap_live:'Live',
   sx_vl_ok:'Ontvangen, dank je.', sx_vl_open:'Nog niet ontvangen.',
   sx_dom:'Zodra je de domeinen goedkeurt, starten we met opwarmen. Dat duurt 14 dagen, dus dit is de stap die het eerst moet.',
-  sx_leads:'Verwacht binnen 5 werkdagen.', sx_copy:'Verwacht binnen een week.', sx_live:'Zodra de domeinen zijn opgewarmd en de leads en copy akkoord zijn.',
+  sx_leads:'Verwacht binnen een week na ondertekening.', sx_copy:'Verwacht binnen een week na ondertekening.', sx_verwacht:'Verwacht op {d}.', stap_li:'LinkedIn koppelen', sx_li:'Koppel je LinkedIn-account, zodat de verzoeken en berichten uit jouw naam kunnen gaan.', sx_li_deels:'{n} van {t} accounts gekoppeld. Koppel de rest via de LinkedIn-tab.', sx_li_ok:'Gekoppeld.', sx_live:'Zodra de domeinen zijn opgewarmd en de leads en copy akkoord zijn.',
   sx_bekijk:'Bekijken', sx_klaar:'Staat klaar',
   eb_sub:'Persoonlijke omgeving', kop_contact:'Samen verder', schrijf_knop:'Schrijf het op', sx_afgerond:'Afgerond.', vl_bekijk:'Bekijk je antwoorden →', sx_live_klaar:'Alles is goedgekeurd. We stemmen de startdatum met je af.', vl_ok_kort:'We hebben je antwoorden ontvangen en zijn ermee aan de slag. Aanpassen kan niet meer, toevoegen kan altijd.',
   pk_titel:'Je pakket', pk_mnd:'per maand, ex btw', pk_normaal:'Normaal', pk_jij:'Jij betaalt', pk_korting:'Je korting', pk_totaal:'Totaal', pk_meer:'Wil je meer, of iets extra?', pk_meer_tekst:'Meer volume, LinkedIn erbij of een eigen pagina per prospect. Kijk wat er kan, dan denken we met je mee.', pk_meer_knop:'Bekijk de opties',
+  pk_inh:{Starter:['100 mails per dag'], Growth:['150 mails per dag (4.500 per maand)','Twee campagnes tegelijk'], Scale:['400 mails per dag (12.000 per maand)','Drie campagnes tegelijk'], Pro:['1.000 mails per dag (30.000 per maand)','Hyperpersonalisatie']},
   rv_titel:'Tevreden over hoe het loopt?', rv_tekst:'Een korte review op Google helpt ons enorm. Het kost je een minuut.', rv_knop:'Schrijf een review', rv_dank:'Dank je wel, dat waarderen we echt.',
   rf_titel:'Ken je iemand voor wie dit ook werkt?', rf_tekst:'Breng je iemand aan die klant wordt, dan krijg je 10% van wat die klant in zijn eerste contractperiode betaalt als korting op je eigen factuur.', rf_plh:'Naam, bedrijf en e-mail of telefoonnummer. Wij nemen contact op en noemen jou erbij als dat mag.', rf_dank:'Dank je! We nemen contact op en houden je op de hoogte.',
   ov_extra_titel:'Nog iets kwijt?', ov_extra_tekst:'Schiet je iets te binnen over je klanten, je aanbod of wie je wel of niet wil benaderen? Zet het hier neer, dan nemen we het mee.',
@@ -251,10 +253,11 @@ var T = {
   stap_vl:'Questionnaire', stap_dom:'Domain names', stap_leads:'Leads', stap_copy:'Copy', stap_live:'Live',
   sx_vl_ok:'Received, thank you.', sx_vl_open:'Not received yet.',
   sx_dom:'As soon as you approve the domains, we start warming them up. That takes 14 days, so this is the step that comes first.',
-  sx_leads:'Expected within 5 working days.', sx_copy:'Expected within a week.', sx_live:'Once the domains are warmed up and the leads and copy are approved.',
+  sx_leads:'Expected within a week after signing.', sx_copy:'Expected within a week after signing.', sx_verwacht:'Expected on {d}.', stap_li:'Connect LinkedIn', sx_li:'Connect your LinkedIn account, so the requests and messages can be sent in your name.', sx_li_deels:'{n} of {t} accounts connected. Connect the rest in the LinkedIn tab.', sx_li_ok:'Connected.', sx_live:'Once the domains are warmed up and the leads and copy are approved.',
   sx_bekijk:'View', sx_klaar:'Ready',
   eb_sub:'Personal workspace', kop_contact:'Keep in touch', schrijf_knop:'Write it down', sx_afgerond:'Done.', vl_bekijk:'View your answers →', sx_live_klaar:'Everything is approved. We will agree the start date with you.', vl_ok_kort:'We received your answers and are working with them. Changing them is no longer possible, adding is always welcome.',
   pk_titel:'Your package', pk_mnd:'per month, excl. VAT', pk_normaal:'Regular', pk_jij:'You pay', pk_korting:'Your discount', pk_totaal:'Total', pk_meer:'Want more, or something extra?', pk_meer_tekst:'More volume, LinkedIn on top or a personal page per prospect. See what is possible and we will think along with you.', pk_meer_knop:'See the options',
+  pk_inh:{Starter:['100 emails per day'], Growth:['150 emails per day (4,500 per month)','Two campaigns at the same time'], Scale:['400 emails per day (12,000 per month)','Three campaigns at the same time'], Pro:['1,000 emails per day (30,000 per month)','Hyperpersonalisation']},
   rv_titel:'Happy with how it is going?', rv_tekst:'A short review on Google helps us a lot. It takes you a minute.', rv_knop:'Write a review', rv_dank:'Thank you, we really appreciate it.',
   rf_titel:'Know someone this would work for too?', rf_tekst:'Introduce someone who becomes a client and you get 10% of what they pay in their first contract period as a discount on your own invoice.', rf_plh:'Name, company and email or phone number. We will reach out and mention you if that is okay.', rf_dank:'Thank you! We will reach out and keep you posted.',
   ov_extra_titel:'Anything to add?', ov_extra_tekst:'Thought of something about your customers, your offer or who you do or do not want to reach? Add it here and we will take it into account.',
@@ -400,6 +403,8 @@ function pakketBlok(){
   var addNorm = adds.reduce(function(s,a){ return s + (Number(a.prijs_normaal)||0); }, 0);
   var basis = p.prijs_normaal != null ? Number(p.prijs_normaal) - addNorm : null;
   if (p.naam) rij(p.naam, basis != null ? euro(basis) : '');
+  var inh = (T[lang] && T[lang].pk_inh || {})[p.naam] || [];
+  inh.forEach(function(x){ rows.appendChild(el('div',{cls:'pk-inh',text:'✓ ' + x})); });
   adds.forEach(function(a){ rij('+ ' + a.naam, a.prijs_normaal != null ? euro(a.prijs_normaal) : ''); });
   var korting = p.prijs_normaal != null && Number(p.prijs_klant) < Number(p.prijs_normaal);
   if (korting) {
@@ -471,8 +476,14 @@ function secOverzicht(){
     var stt = status(x[0]);
     if (!stt && tr.live_op) { stap(++nr, true, t(x[1]), t('sx_afgerond'), null, null); return; }
     var tekst = stt ? '' : t(x[2]);
+    if (!stt && x[0] !== 'domeinen' && tr.getekend_op) { var vd = new Date(tr.getekend_op); vd.setDate(vd.getDate() + 7); tekst = t('sx_verwacht', {d: datum(vd.toISOString())}); }
     stap(++nr, stt === 'akkoord', t(x[1]), tekst, stt ? x[0] : null, stt ? pill(stt) : null);
   });
+  var li = items('linkedin');
+  if (li.length) {
+    var liOk = li.filter(function(i){ return i.status === 'akkoord'; }).length;
+    stap(++nr, liOk === li.length, t('stap_li'), liOk === li.length ? t('sx_li_ok') : (liOk ? t('sx_li_deels', {n: liOk, t: li.length}) : t('sx_li')), 'linkedin', null);
+  }
   var allesOk = ['domeinen','leads','copy'].every(function(k){ return status(k) === 'akkoord'; });
   stap(++nr, !!tr.live_op, t('stap_live'), tr.live_op ? datum(tr.live_op) : t(allesOk ? 'sx_live_klaar' : 'sx_live'), null);
   s.appendChild(st);
